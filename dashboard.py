@@ -1,0 +1,579 @@
+"""Generator dashboardu HTML v2 - centrum dowodzenia (SPA)."""
+
+import csv
+import json
+from datetime import date, timedelta
+from pathlib import Path
+
+ROOT = Path(__file__).parent
+OUTPUT = ROOT / "output"
+OFFERS_CSV = ROOT / "data" / "all_offers.csv"
+WORKFLOW_FILE = "price-tracker.yml"
+OFFERS_EMBED_DAYS = 120  # ile dni pelnego audytu ofert osadzac w HTML
+
+TEMPLATE = r"""<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Price Tracker — Centrum dowodzenia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+<style>
+:root{
+  --bg:#0E1216; --panel:#161C22; --panel2:#121820; --line:#26303A;
+  --ink:#E9EEF2; --muted:#8B98A5; --faint:#5A6672;
+  --fire:#E8452F; --fire-press:#C4351F;
+  --teal:#5FD3C4; --good:#46D39A; --bad:#F0A03C;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--bg)}
+body{font-family:'Barlow',sans-serif;color:var(--ink);min-height:100vh;
+  background:radial-gradient(1200px 500px at 70% -10%, rgba(95,211,196,.06), transparent 60%),var(--bg);
+  padding:24px clamp(14px,4vw,48px) 64px}
+a{color:var(--teal);text-decoration:none} a:hover{text-decoration:underline}
+.mono{font-family:'JetBrains Mono',monospace}
+.disp{font-family:'Barlow Condensed',sans-serif;text-transform:uppercase;letter-spacing:.08em}
+
+header{display:flex;align-items:center;gap:18px;flex-wrap:wrap;
+  border-bottom:1px solid var(--line);padding-bottom:14px}
+h1{font-family:'Barlow Condensed';font-weight:700;font-size:28px;text-transform:uppercase;
+  letter-spacing:.1em;line-height:1}
+h1 small{display:block;font-size:11px;font-weight:500;color:var(--muted);letter-spacing:.2em;margin-top:5px}
+.spacer{flex:1}
+.status{display:flex;flex-direction:column;align-items:flex-end;gap:2px;font-size:13px;color:var(--muted)}
+.statusline{display:flex;align-items:center;gap:8px}
+.led{width:10px;height:10px;border-radius:50%;background:var(--faint);flex:none}
+.led.ok{background:var(--good);box-shadow:0 0 8px rgba(70,211,154,.7)}
+.led.run{background:var(--bad);box-shadow:0 0 8px rgba(240,160,60,.8);animation:pulse 1.1s ease-in-out infinite}
+.led.err{background:var(--fire);box-shadow:0 0 8px rgba(232,69,47,.7)}
+.lastok{font-size:11px;color:var(--faint)}
+@keyframes pulse{50%{opacity:.35}}
+@media (prefers-reduced-motion:reduce){.led.run{animation:none}}
+
+button{font-family:'Barlow Condensed';text-transform:uppercase;letter-spacing:.12em;
+  font-weight:700;cursor:pointer;border:0;border-radius:6px;color:var(--ink)}
+#fireBtn{background:var(--fire);color:#fff;font-size:16px;padding:11px 24px;
+  box-shadow:0 3px 0 var(--fire-press), inset 0 1px 0 rgba(255,255,255,.25);transition:transform .05s}
+#fireBtn:active{transform:translateY(2px);box-shadow:0 1px 0 var(--fire-press)}
+#fireBtn:disabled{background:#3a4148;box-shadow:none;color:var(--muted);cursor:default}
+.ghost{background:transparent;color:var(--muted);font-size:12px;border:1px solid var(--line)!important;padding:9px 14px}
+.ghost:hover{color:var(--ink);border-color:var(--faint)!important}
+
+nav{display:flex;gap:4px;flex-wrap:wrap;margin:16px 0 22px;border-bottom:1px solid var(--line)}
+nav button{background:none;color:var(--muted);font-size:15px;padding:10px 16px;border-radius:0;
+  border-bottom:2px solid transparent!important;letter-spacing:.1em}
+nav button.on{color:var(--ink);border-bottom-color:var(--teal)!important}
+nav button:hover{color:var(--ink)}
+
+.panelbox{background:linear-gradient(180deg,var(--panel),var(--panel2));
+  border:1px solid var(--line);border-radius:10px;padding:20px}
+
+/* karuzela */
+.carousel{display:flex;align-items:stretch;gap:10px}
+.arrow{background:var(--panel);border:1px solid var(--line)!important;color:var(--muted);
+  font-size:26px;width:44px;border-radius:10px;flex:none}
+.arrow:hover{color:var(--ink)}
+.stage{flex:1;min-width:0}
+.stagehead{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:6px}
+.stagehead h2{font-family:'Barlow Condensed';font-weight:600;font-size:24px;text-transform:uppercase;letter-spacing:.08em}
+.stagehead .code{color:var(--faint);font-size:13px}
+.buy{background:rgba(70,211,154,.15);color:var(--good);border:1px solid rgba(70,211,154,.4);
+  border-radius:4px;padding:2px 10px;font-size:13px;font-weight:600;letter-spacing:.08em}
+.periods{display:flex;gap:6px;margin:8px 0 4px}
+.periods button{background:none;border:1px solid var(--line)!important;color:var(--muted);
+  font-size:12px;padding:5px 12px}
+.periods button.on{color:var(--bg);background:var(--teal);border-color:var(--teal)!important}
+.bigchart{height:290px;margin-top:6px}
+.stagemeta{display:flex;gap:26px;flex-wrap:wrap;margin-top:12px;font-size:13px;color:var(--muted)}
+.stagemeta b{color:var(--ink);font-family:'JetBrains Mono';font-weight:600}
+.dots{display:flex;justify-content:center;gap:8px;margin-top:14px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--line);cursor:pointer}
+.dot.on{background:var(--teal)}
+
+/* statystyki produktu */
+.chips{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-bottom:18px}
+.chip{background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:12px 14px}
+.chip .lbl{font-size:11px;color:var(--faint);letter-spacing:.16em;text-transform:uppercase;font-family:'Barlow Condensed'}
+.chip .val{font-family:'JetBrains Mono';font-size:20px;font-weight:700;margin-top:4px}
+.chip .sub{font-size:11px;color:var(--muted);margin-top:2px}
+.chip.hot .val{color:var(--good)}
+
+section.offers{margin-top:34px}
+h3.sect{font-family:'Barlow Condensed';font-weight:600;font-size:19px;text-transform:uppercase;
+  letter-spacing:.12em;color:var(--muted);margin:26px 0 12px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{font-family:'Barlow Condensed';text-transform:uppercase;letter-spacing:.1em;font-weight:600;
+  font-size:12px;color:var(--faint);text-align:left;padding:8px 12px;border-bottom:1px solid var(--line)}
+td{padding:9px 12px;border-bottom:1px solid rgba(38,48,58,.5)}
+td.num{font-family:'JetBrains Mono';font-weight:500}
+tr.best td{background:rgba(95,211,196,.06)}
+tr.best td:first-child{border-left:3px solid var(--teal)}
+.pill{font-size:12px;color:var(--faint)}
+
+/* konfiguracja */
+.cfgcard{border:1px solid var(--line);border-radius:10px;padding:16px;margin-bottom:14px;background:var(--panel2)}
+.cfgrow{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-bottom:10px}
+label{font-size:11px;color:var(--faint);letter-spacing:.14em;text-transform:uppercase;
+  font-family:'Barlow Condensed';display:block;margin-bottom:4px}
+input[type=text],textarea{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:6px;
+  color:var(--ink);font-family:'JetBrains Mono';font-size:13px;padding:8px 10px}
+textarea{min-height:56px;resize:vertical}
+input:focus,textarea:focus{outline:none;border-color:var(--teal)}
+.check{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--muted);margin-top:20px}
+.cfgtop{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+.del{background:none;color:var(--fire);font-size:12px;border:1px solid rgba(232,69,47,.4)!important;padding:6px 12px}
+.cfgactions{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap}
+.save{background:var(--teal);color:var(--bg);font-size:15px;padding:11px 24px}
+.note{font-size:12px;color:var(--faint);margin-top:10px;line-height:1.6}
+
+#toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%);background:var(--panel);
+  border:1px solid var(--line);border-radius:8px;padding:12px 20px;font-size:14px;opacity:0;
+  pointer-events:none;transition:opacity .25s;max-width:90vw;z-index:9}
+#toast.show{opacity:1}
+footer{margin-top:44px;font-size:12px;color:var(--faint)}
+.emptybig{color:var(--faint);text-align:center;padding:60px 0;font-size:15px}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Price&nbsp;Tracker<small>Centrum dowodzenia</small></h1>
+  <div class="spacer"></div>
+  <div class="status">
+    <div class="statusline"><span class="led ok" id="led"></span><span id="statusTxt">—</span></div>
+    <span class="lastok" id="lastRun"></span>
+  </div>
+  <button class="ghost" id="refreshBtn">Odśwież dane</button>
+  <button class="ghost" id="tokenBtn">Token</button>
+  <button id="fireBtn" class="disp">▶ Fire</button>
+</header>
+
+<nav id="nav"></nav>
+<main id="view"></main>
+
+<footer>Dane: <span class="mono" id="genInfo"></span> · najniższa oferta oznaczona paskiem
+· FIRE uruchamia workflow w GitHub Actions; po zakończeniu dane odświeżą się same</footer>
+<div id="toast"></div>
+
+<script>
+const DATA = __DATA__;
+const WORKFLOW = "__WORKFLOW__";
+const PERIODS = [["T",7],["M",30],["K",91],["MAX",0]];
+const SHOP_COLORS = ["#5FD3C4","#F0A03C","#8FA9FF","#E77FB3","#A6E06B","#FF8F6B","#6BC7FF","#D6B25F"];
+let state = {
+  history: DATA.history, offers: DATA.offers,
+  tab: "home", idx: 0, period: {home:"M"}, charts: [],
+  cfg: null, cfgSha: null,
+};
+const $ = id => document.getElementById(id);
+const pln = new Intl.NumberFormat('pl-PL',{style:'currency',currency:'PLN'});
+const toast = m => { const t=$('toast'); t.textContent=m; t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'), 4500); };
+const esc = s => String(s??'').replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+function tokenSilent(){ return (localStorage.getItem('pt_token')||'').trim(); }
+function getToken(force){
+  let tok = tokenSilent();
+  if (!tok || force){
+    tok = prompt('Wklej GitHub token (fine-grained, tylko to repo, uprawnienia: Contents RW + Actions RW).\nZapisany będzie wyłącznie w tej przeglądarce.', tok) || '';
+    if (tok) localStorage.setItem('pt_token', tok.trim());
+  }
+  return tokenSilent();
+}
+const gh = (path, opts={}) => fetch('https://api.github.com'+path, {...opts,
+  headers:{'Accept':'application/vnd.github+json','Authorization':'Bearer '+tokenSilent(),
+           ...(opts.headers||{})}});
+
+const byKey = (list,key)=>{const m={};for(const r of list)(m[r[key]] ||= []).push(r);return m;};
+const cutoff = code => { const d = (PERIODS.find(p=>p[0]===code)||[])[1]||0;
+  if(!d) return ''; const t=new Date(); t.setDate(t.getDate()-d); return t.toISOString().slice(0,10); };
+function killCharts(){ state.charts.forEach(c=>c.destroy()); state.charts=[]; }
+function setStatus(cls,txt){ $('led').className='led '+cls; $('statusTxt').textContent=txt; }
+
+/* ================= NAV ================= */
+function renderNav(){
+  const items = [["home","Główna"], ...DATA.products.map(p=>[p.id,p.id]), ["cfg","Konfiguracja"]];
+  $('nav').innerHTML = items.map(([k,l])=>
+    `<button class="disp ${state.tab===k?'on':''}" data-tab="${esc(k)}">${esc(l)}</button>`).join('');
+  $('nav').querySelectorAll('button').forEach(b=> b.onclick = ()=>{
+    state.tab=b.dataset.tab; render(); if(state.tab==='cfg') loadConfig(); });
+}
+
+/* ================= GŁÓWNA ================= */
+function periodButtons(scope){
+  return `<div class="periods">` + PERIODS.map(([c])=>
+    `<button data-p="${c}" data-s="${scope}" class="${(state.period[scope]||'M')===c?'on':''}">${
+      {T:'Tydzień',M:'Miesiąc',K:'Kwartał',MAX:'Max'}[c]}</button>`).join('') + `</div>`;
+}
+function bindPeriods(el){
+  el.querySelectorAll('.periods button').forEach(b=> b.onclick = ()=>{
+    state.period[b.dataset.s]=b.dataset.p; render(); });
+}
+
+function renderHome(el){
+  const products = DATA.products;
+  if (!products.length){ el.innerHTML = '<div class="emptybig">Dodaj produkty w zakładce Konfiguracja</div>'; return; }
+  state.idx = ((state.idx % products.length) + products.length) % products.length;
+  const p = products[state.idx];
+  const hist = (byKey(state.history,'product_id')[p.id]||[]).slice().sort((a,b)=>a.date<b.date?-1:1);
+  const from = cutoff(state.period.home||'M');
+  const rows = hist.filter(r=>r.date>=from);
+  const last = hist[hist.length-1];
+  const min = rows.length ? rows.reduce((a,b)=>+a.price_pln<=+b.price_pln?a:b) : null;
+  const target = p.target_pln ? +p.target_pln : 0;
+  const buy = target && last && +last.price_pln <= target;
+
+  el.innerHTML = `
+  <div class="panelbox">
+    <div class="carousel">
+      <button class="arrow" id="prev" aria-label="Poprzedni produkt">‹</button>
+      <div class="stage">
+        <div class="stagehead">
+          <h2>${esc(p.name)}</h2><span class="code mono">${esc(p.id)}${p.worldwide?' · WORLDWIDE':''}</span>
+          ${buy?'<span class="buy">● KUP — cena docelowa osiągnięta</span>':''}
+        </div>
+        ${periodButtons('home')}
+        <div class="bigchart"><canvas id="homeChart"></canvas></div>
+        <div class="stagemeta">
+          ${last?`<span>Aktualnie: <b>${pln.format(+last.price_pln)}</b> · <a href="${esc(last.url)}" target="_blank" rel="noopener">${esc(last.shop)}</a> (${esc(last.date)})</span>`:'<span>Brak pomiarów</span>'}
+          ${min?`<span>Min. okresu: <b>${pln.format(+min.price_pln)}</b> (${esc(min.date)})</span>`:''}
+          ${target?`<span>Cena docelowa: <b>${pln.format(target)}</b></span>`:''}
+        </div>
+      </div>
+      <button class="arrow" id="next" aria-label="Następny produkt">›</button>
+    </div>
+    <div class="dots">${products.map((_,i)=>`<span class="dot ${i===state.idx?'on':''}" data-i="${i}"></span>`).join('')}</div>
+  </div>
+  <section class="offers"><h3 class="sect">Wszystkie dzisiejsze oferty <span class="pill" id="offersDate"></span></h3>
+  <div id="offersTables"></div></section>`;
+
+  $('prev').onclick = ()=>{state.idx--; render();};
+  $('next').onclick = ()=>{state.idx++; render();};
+  el.querySelectorAll('.dot').forEach(d=> d.onclick = ()=>{state.idx=+d.dataset.i; render();});
+  bindPeriods(el);
+  document.onkeydown = e=>{ if(state.tab!=='home')return;
+    if(e.key==='ArrowLeft'){state.idx--;render();} if(e.key==='ArrowRight'){state.idx++;render();} };
+
+  if (rows.length){
+    state.charts.push(new Chart($('homeChart'),{type:'line',
+      data:{labels:rows.map(r=>r.date.slice(5)),
+        datasets:[{data:rows.map(r=>+r.price_pln),borderColor:'#5FD3C4',borderWidth:2,
+          pointRadius:rows.length>40?0:3,pointHitRadius:12,pointBackgroundColor:'#5FD3C4',
+          fill:true,backgroundColor:'rgba(95,211,196,.12)',tension:0}]},
+      options:{responsive:true,maintainAspectRatio:false,
+        plugins:{legend:{display:false},
+          tooltip:{callbacks:{
+            title:i=>rows[i[0].dataIndex].date,
+            label:i=>` ${pln.format(i.parsed.y)} · ${rows[i.dataIndex].shop}`}}},
+        scales:{x:{ticks:{color:'#5A6672',maxTicksLimit:9,font:{size:10}},grid:{display:false}},
+          y:{ticks:{color:'#5A6672',font:{family:'JetBrains Mono',size:10},callback:v=>v.toLocaleString('pl-PL')},
+             grid:{color:'rgba(38,48,58,.6)'}}}}}));
+  }
+  renderOffersTables($('offersTables'), DATA.products);
+}
+
+function renderOffersTables(wrap, products){
+  const dates = state.offers.map(o=>o.date).sort();
+  const lastDate = dates[dates.length-1]||'';
+  const d = $('offersDate'); if(d) d.textContent = lastDate?('· '+lastDate):'';
+  const todays = byKey(state.offers.filter(o=>o.date===lastDate),'product_id');
+  wrap.innerHTML='';
+  for (const p of products){
+    const rows=(todays[p.id]||[]).sort((a,b)=>+a.price_pln-+b.price_pln);
+    if(!rows.length) continue;
+    let html=`<table><thead><tr><th>${esc(p.name)}</th><th>Cena</th><th>PLN</th><th>Dostępność</th><th>Link</th></tr></thead><tbody>`;
+    rows.forEach((o,i)=>{html+=`<tr class="${i===0?'best':''}">
+      <td>${esc(o.domain)}</td><td class="num">${(+o.price).toLocaleString('pl-PL')} ${esc(o.currency)}</td>
+      <td class="num">${pln.format(+o.price_pln)}</td><td class="pill">${esc(o.availability)}</td>
+      <td><a href="${esc(o.url)}" target="_blank" rel="noopener">otwórz →</a></td></tr>`;});
+    wrap.insertAdjacentHTML('beforeend', html+'</tbody></table><br>');
+  }
+  if(!wrap.innerHTML) wrap.innerHTML='<div class="emptybig">Brak ofert — uruchom FIRE</div>';
+}
+
+/* ================= ZAKŁADKA PRODUKTU ================= */
+function renderProduct(el, pid){
+  const p = DATA.products.find(x=>x.id===pid); if(!p){el.innerHTML='';return;}
+  const scope='p_'+pid;
+  const from = cutoff(state.period[scope]||'M');
+  const hist=(byKey(state.history,'product_id')[pid]||[]).slice().sort((a,b)=>a.date<b.date?-1:1);
+  const offers=(byKey(state.offers,'product_id')[pid]||[]).filter(o=>o.date>=from);
+  const histP = hist.filter(r=>r.date>=from);
+  const last = hist[hist.length-1];
+  const minAll = hist.length?hist.reduce((a,b)=>+a.price_pln<=+b.price_pln?a:b):null;
+  const avg = histP.length?histP.reduce((s,r)=>s+ +r.price_pln,0)/histP.length:0;
+  const shops = [...new Set(offers.map(o=>o.domain))].sort();
+  const vsAvg = (last&&avg)?((+last.price_pln-avg)/avg*100):0;
+
+  el.innerHTML = `
+  <div class="stagehead" style="margin-bottom:14px">
+    <h2>${esc(p.name)}</h2><span class="code mono">${esc(pid)}${p.worldwide?' · WORLDWIDE':''}</span>
+  </div>
+  <div class="chips">
+    <div class="chip ${last&&minAll&&+last.price_pln<=+minAll.price_pln+0.001?'hot':''}">
+      <div class="lbl">Aktualna najniższa</div>
+      <div class="val">${last?pln.format(+last.price_pln):'—'}</div>
+      <div class="sub">${last?esc(last.shop)+' · '+esc(last.date):''}</div></div>
+    <div class="chip"><div class="lbl">Minimum (cała historia)</div>
+      <div class="val">${minAll?pln.format(+minAll.price_pln):'—'}</div>
+      <div class="sub">${minAll?esc(minAll.date)+' · '+esc(minAll.shop):''}</div></div>
+    <div class="chip"><div class="lbl">Średnia okresu</div>
+      <div class="val">${avg?pln.format(avg):'—'}</div>
+      <div class="sub">${avg?(vsAvg<=0?'aktualnie ':'aktualnie +')+vsAvg.toFixed(1)+'% vs średnia':''}</div></div>
+    <div class="chip"><div class="lbl">Sklepów w okresie</div>
+      <div class="val">${shops.length}</div>
+      <div class="sub">${p.target_pln?('cel: '+pln.format(+p.target_pln)):''}</div></div>
+  </div>
+  <div class="panelbox">
+    ${periodButtons(scope)}
+    <div class="bigchart"><canvas id="prodChart"></canvas></div>
+  </div>
+  <h3 class="sect">Ostatnie oferty (wszystkie sklepy)</h3><div id="prodOffers"></div>
+  <h3 class="sect">Historia dziennych minimów</h3><div id="prodHist"></div>`;
+  bindPeriods(el);
+
+  // wykres: linia per sklep (z audytu ofert); gdy brak audytu - dzienne minima
+  const labels = [...new Set(offers.map(o=>o.date).concat(histP.map(r=>r.date)))].sort();
+  const datasets = shops.map((s,i)=>{
+    const m = Object.fromEntries(offers.filter(o=>o.domain===s).map(o=>[o.date,+o.price_pln]));
+    return {label:s, data:labels.map(d=>m[d]??null), borderColor:SHOP_COLORS[i%SHOP_COLORS.length],
+      borderWidth:1.6, pointRadius:labels.length>40?0:2.5, spanGaps:true, tension:0};});
+  if (!datasets.length && histP.length){
+    const m = Object.fromEntries(histP.map(r=>[r.date,+r.price_pln]));
+    datasets.push({label:'dzienny min', data:labels.map(d=>m[d]??null),
+      borderColor:'#5FD3C4', borderWidth:2.4, pointRadius:0, spanGaps:true, tension:0});
+  }
+  if (labels.length){
+    state.charts.push(new Chart($('prodChart'),{type:'line',
+      data:{labels:labels.map(d=>d.slice(5)),datasets},
+      options:{responsive:true,maintainAspectRatio:false,interaction:{mode:'nearest',intersect:false},
+        plugins:{legend:{labels:{color:'#8B98A5',boxWidth:14,font:{size:11}}},
+          tooltip:{callbacks:{title:i=>labels[i[0].dataIndex],
+            label:i=>` ${i.dataset.label}: ${pln.format(i.parsed.y)}`}}},
+        scales:{x:{ticks:{color:'#5A6672',maxTicksLimit:9,font:{size:10}},grid:{display:false}},
+          y:{ticks:{color:'#5A6672',font:{family:'JetBrains Mono',size:10},callback:v=>v.toLocaleString('pl-PL')},
+             grid:{color:'rgba(38,48,58,.6)'}}}}}));
+  } else document.querySelector('#view .panelbox').innerHTML='<div class="emptybig">Brak danych w tym okresie</div>';
+
+  renderOffersTables($('prodOffers'), [p]);
+  const h=$('prodHist');
+  if(histP.length){
+    let html=`<table><thead><tr><th>Data</th><th>Najniższa (PLN)</th><th>Oryginalnie</th><th>Sklep</th><th>Ofert</th><th>Link</th></tr></thead><tbody>`;
+    histP.slice().reverse().forEach(r=>{html+=`<tr><td class="num">${esc(r.date)}</td>
+      <td class="num">${pln.format(+r.price_pln)}</td>
+      <td class="num">${(+r.price_orig).toLocaleString('pl-PL')} ${esc(r.currency)}</td>
+      <td>${esc(r.shop)}</td><td class="pill">${esc(r.offers_checked||'')}</td>
+      <td><a href="${esc(r.url)}" target="_blank" rel="noopener">otwórz →</a></td></tr>`;});
+    h.innerHTML=html+'</tbody></table>';
+  } else h.innerHTML='<div class="emptybig">Brak historii w tym okresie</div>';
+}
+
+/* ================= KONFIGURACJA ================= */
+function renderConfig(el){
+  el.innerHTML = `<div class="panelbox" id="cfgBox">
+    <div class="emptybig">${DATA.repo?'Ładowanie konfiguracji z repo…':'Uzupełnij settings.github_repo w products.yaml, żeby edytować konfigurację z panelu'}</div>
+  </div>`;
+}
+async function loadConfig(){
+  if(!DATA.repo) return;
+  if(!getToken()){ $('cfgBox').innerHTML='<div class="emptybig">Potrzebny token (przycisk Token u góry)</div>'; return; }
+  try{
+    const r = await gh(`/repos/${DATA.repo}/contents/products.yaml?ref=${DATA.branch}`);
+    if(!r.ok) throw new Error('HTTP '+r.status);
+    const j = await r.json();
+    const bytes = Uint8Array.from(atob(j.content.replace(/\n/g,'')),c=>c.charCodeAt(0));
+    state.cfg = jsyaml.load(new TextDecoder().decode(bytes)) || {};
+    if(!Array.isArray(state.cfg.products)) state.cfg.products = [];
+    state.cfgSha = j.sha;
+    drawConfigForm();
+  }catch(e){ $('cfgBox').innerHTML=`<div class="emptybig">Błąd wczytania products.yaml: ${esc(e.message)}</div>`; }
+}
+function productCard(p, i){
+  const lines = a=>(a||[]).join('\n');
+  return `<div class="cfgcard" data-i="${i}">
+    <div class="cfgtop"><span class="disp" style="color:var(--faint);font-size:13px">Produkt</span>
+      <button class="del" data-del="${i}">Usuń</button></div>
+    <div class="cfgrow">
+      <div><label>ID / kod</label><input type="text" class="f-id" value="${esc(p.id||'')}" placeholder="FM2797"></div>
+      <div><label>Nazwa</label><input type="text" class="f-name" value="${esc(p.name||'')}"></div>
+      <div><label>EAN / GTIN</label><input type="text" class="f-ean" value="${esc(p.ean||'')}"></div>
+      <div><label>Cena docelowa (PLN)</label><input type="text" class="f-target" value="${esc(p.target_pln||'')}" placeholder="np. 9500"></div>
+      <div class="check"><input type="checkbox" class="f-ww" id="ww${i}" ${p.worldwide?'checked':''}><label for="ww${i}" style="margin:0">worldwide (poza EU)</label></div>
+    </div>
+    <div class="cfgrow">
+      <div><label>Frazy wyszukiwania (1/linia)</label><textarea class="f-q">${esc(lines(p.queries))}</textarea></div>
+      <div><label>Seed URLs (1/linia)</label><textarea class="f-seed">${esc(lines(p.seed_urls))}</textarea></div>
+      <div><label>Wykluczone domeny (1/linia)</label><textarea class="f-ex">${esc(lines(p.exclude_domains))}</textarea></div>
+    </div></div>`;
+}
+function drawConfigForm(){
+  const prods = state.cfg.products;
+  $('cfgBox').innerHTML = `
+    <div id="cfgList">${prods.map((p,i)=>productCard(p,i)).join('')||'<div class="emptybig">Pusta lista — dodaj pierwszy produkt</div>'}</div>
+    <div class="cfgactions">
+      <button class="ghost" id="addProd">+ Dodaj produkt</button>
+      <button class="save disp" id="saveCfg">Zapisz do repo</button>
+      <button class="ghost" id="saveFire">Zapisz + Fire</button>
+    </div>
+    <p class="note">Zapis nadpisuje <span class="mono">products.yaml</span> w repo (komentarze w pliku zostaną utracone).
+    To dokładnie ten plik, z którego korzysta workflow — zmiana listy wpływa na discovery i monitoring od kolejnego przebiegu.
+    Po zapisie odpal FIRE, żeby od razu zebrać ceny dla nowej listy.</p>`;
+  $('cfgList').querySelectorAll('.del').forEach(b=> b.onclick=()=>{
+    collectConfig(); state.cfg.products.splice(+b.dataset.del,1); drawConfigForm(); });
+  $('addProd').onclick = ()=>{ collectConfig(); state.cfg.products.push({}); drawConfigForm(); };
+  $('saveCfg').onclick = ()=>saveConfig(false);
+  $('saveFire').onclick = ()=>saveConfig(true);
+}
+function collectConfig(){
+  const list=[...document.querySelectorAll('#cfgList .cfgcard')];
+  const splitLines = v=>v.split('\n').map(s=>s.trim()).filter(Boolean);
+  state.cfg.products = list.map(c=>{
+    const p={ id:c.querySelector('.f-id').value.trim(),
+      name:c.querySelector('.f-name').value.trim() };
+    const ean=c.querySelector('.f-ean').value.trim(); if(ean)p.ean=ean;
+    const t=c.querySelector('.f-target').value.trim().replace(',','.'); if(t&&!isNaN(+t))p.target_pln=+t;
+    if(c.querySelector('.f-ww').checked)p.worldwide=true;
+    const q=splitLines(c.querySelector('.f-q').value); if(q.length)p.queries=q;
+    const s=splitLines(c.querySelector('.f-seed').value); if(s.length)p.seed_urls=s;
+    const x=splitLines(c.querySelector('.f-ex').value); if(x.length)p.exclude_domains=x;
+    return p; }).filter(p=>p.id);
+}
+async function saveConfig(andFire){
+  collectConfig();
+  if(!state.cfg.settings) state.cfg.settings={github_repo:DATA.repo,branch:DATA.branch};
+  const yamlTxt = "# Plik zarządzany także z dashboardu (zakładka Konfiguracja)\n" +
+                  jsyaml.dump(state.cfg,{lineWidth:120,quotingType:'"'});
+  const b64 = btoa(String.fromCharCode(...new TextEncoder().encode(yamlTxt)));
+  try{
+    const r = await gh(`/repos/${DATA.repo}/contents/products.yaml`,{method:'PUT',
+      body:JSON.stringify({message:'Konfiguracja produktów z dashboardu',
+        content:b64, sha:state.cfgSha, branch:DATA.branch})});
+    if(!r.ok) throw new Error('HTTP '+r.status);
+    state.cfgSha=(await r.json()).content.sha;
+    toast(andFire?'Zapisano — odpalam FIRE':'Zapisano products.yaml w repo');
+    if(andFire) fire();
+  }catch(e){ toast('Błąd zapisu: '+e.message); }
+}
+
+/* ================= CSV / refresh / FIRE ================= */
+function parseCSV(text){
+  const rows=[];let row=[],cur='',q=false;
+  for(let i=0;i<text.length;i++){const c=text[i];
+    if(q){ if(c==='"'){ if(text[i+1]==='"'){cur+='"';i++;} else q=false;} else cur+=c; }
+    else if(c==='"')q=true;
+    else if(c===','){row.push(cur);cur='';}
+    else if(c==='\n'||c==='\r'){ if(cur!==''||row.length){row.push(cur);rows.push(row);row=[];cur='';}
+      if(c==='\r'&&text[i+1]==='\n')i++; }
+    else cur+=c;}
+  if(cur!==''||row.length){row.push(cur);rows.push(row);}
+  const head=rows.shift()||[];
+  return rows.map(r=>Object.fromEntries(head.map((h,i)=>[h,r[i]??''])));
+}
+async function fetchCSV(path){
+  const r = await gh(`/repos/${DATA.repo}/contents/${path}?ref=${DATA.branch}`);
+  if(!r.ok) throw new Error(path+': HTTP '+r.status);
+  const j = await r.json();
+  let raw;
+  if (j.content){ raw = new TextDecoder().decode(Uint8Array.from(atob(j.content.replace(/\n/g,'')),c=>c.charCodeAt(0))); }
+  else { const r2 = await fetch(j.download_url); raw = await r2.text(); } // pliki >1MB
+  return parseCSV(raw);
+}
+async function refresh(silent){
+  if(!DATA.repo){ toast('Uzupełnij settings.github_repo w products.yaml'); return; }
+  if(!getToken()) return;
+  try{
+    setStatus('run','Pobieram dane…');
+    const [h,o]=await Promise.all([fetchCSV('data/history.csv'),fetchCSV('data/all_offers.csv')]);
+    state.history=h; state.offers=o; render();
+    setStatus('ok','Dane aktualne'); loadLastRun();
+    if(!silent) toast('Dane odświeżone z GitHuba');
+  }catch(e){ setStatus('err','Błąd odświeżania'); toast('Nie udało się pobrać danych: '+e.message); }
+}
+const lastHistDate = ()=> state.history.map(r=>r.date).sort().pop();
+async function loadLastRun(){
+  if(!DATA.repo || !tokenSilent()){
+    $('lastRun').textContent = 'ostatni pomiar w danych: '+(lastHistDate()||'—'); return; }
+  try{
+    const r = await gh(`/repos/${DATA.repo}/actions/workflows/${WORKFLOW}/runs?status=success&per_page=1`);
+    const run=(await r.json()).workflow_runs?.[0];
+    if(run){ const d=new Date(run.updated_at);
+      $('lastRun').textContent='ostatnie skuteczne odświeżenie: '+d.toLocaleString('pl-PL'); return; }
+  }catch(e){}
+  $('lastRun').textContent = 'ostatni pomiar w danych: '+(lastHistDate()||'—');
+}
+
+async function fire(){
+  if(!DATA.repo){ toast('Uzupełnij settings.github_repo w products.yaml i uruchom skrypt ponownie'); return; }
+  if(!getToken()){ toast('Bez tokenu nie mogę uruchomić workflow'); return; }
+  const btn=$('fireBtn'); btn.disabled=true;
+  try{
+    const r = await gh(`/repos/${DATA.repo}/actions/workflows/${WORKFLOW}/dispatches`,
+      {method:'POST',body:JSON.stringify({ref:DATA.branch})});
+    if(r.status!==204) throw new Error('HTTP '+r.status+(r.status===401?' (token?)':''));
+    setStatus('run','Workflow uruchomiony…'); toast('🔥 Odpalone. Zbieram ceny…'); poll(Date.now());
+  }catch(e){ btn.disabled=false; setStatus('err','Błąd uruchomienia'); toast('Nie udało się: '+e.message); }
+}
+async function poll(since){
+  try{
+    const r = await gh(`/repos/${DATA.repo}/actions/runs?per_page=1&event=workflow_dispatch`);
+    const run=(await r.json()).workflow_runs?.[0];
+    if(run && new Date(run.created_at).getTime()>=since-60000){
+      if(run.status==='completed'){
+        if(run.conclusion==='success'){ setStatus('ok','Zakończono'); toast('Gotowe — odświeżam dane'); await refresh(true); }
+        else { setStatus('err','Workflow: '+run.conclusion); toast('Workflow zakończony: '+run.conclusion); }
+        $('fireBtn').disabled=false; return; }
+      setStatus('run','W trakcie… ('+run.status+')');
+    }
+  }catch(e){}
+  setTimeout(()=>poll(since),10000);
+}
+
+/* ================= RENDER ================= */
+function render(){
+  killCharts(); renderNav();
+  const v=$('view');
+  if(state.tab==='home') renderHome(v);
+  else if(state.tab==='cfg') renderConfig(v);
+  else renderProduct(v, state.tab);
+  $('genInfo').textContent=`wygenerowano ${DATA.generated}`+(DATA.repo?` · repo ${DATA.repo}`:'')
+    +` · audyt ofert osadzony za ostatnie ${DATA.offers_days} dni (pełny po „Odśwież dane")`;
+}
+$('fireBtn').onclick=fire;
+$('refreshBtn').onclick=()=>refresh(false);
+$('tokenBtn').onclick=()=>{ getToken(true); toast('Token zapisany w tej przeglądarce'); };
+setStatus('ok','Dane z pliku'); render(); loadLastRun();
+</script>
+</body>
+</html>
+"""
+
+
+def _load_offers_for_embed():
+    if not OFFERS_CSV.exists():
+        return []
+    since = (date.today() - timedelta(days=OFFERS_EMBED_DAYS)).isoformat()
+    with OFFERS_CSV.open(newline="", encoding="utf-8") as f:
+        return [r for r in csv.DictReader(f) if r.get("date", "") >= since]
+
+
+def build_dashboard(rows, products, settings, generated):
+    payload = {
+        "generated": generated,
+        "repo": (settings.get("github_repo") or "").strip(),
+        "branch": (settings.get("branch") or "main").strip(),
+        "offers_days": OFFERS_EMBED_DAYS,
+        "products": [{"id": p["id"], "name": p.get("name", p["id"]),
+                      "worldwide": bool(p.get("worldwide")),
+                      "target_pln": p.get("target_pln")} for p in products],
+        "history": rows,
+        "offers": _load_offers_for_embed(),
+    }
+    data_js = json.dumps(payload, ensure_ascii=False).replace("</", "<\\/")
+    html = TEMPLATE.replace("__DATA__", data_js).replace("__WORKFLOW__", WORKFLOW_FILE)
+    OUTPUT.mkdir(exist_ok=True)
+    out = OUTPUT / "dashboard.html"
+    out.write_text(html, encoding="utf-8")
+    return out
