@@ -1,34 +1,68 @@
-# Plik zarzadzany takze z dashboardu (zakladka Konfiguracja)
-# variant: token rozmiaru weryfikowany w ofertach; variant_strict: true = licz
-# tylko sklepy z potwierdzonym wariantem (pomijaj ceny zbiorcze)
+# Plik zarządzany także z dashboardu (zakładka Konfiguracja)
 settings:
   github_repo: Wotjek/PriceChecker
   branch: main
   discovery: weekly
   serpapi_countries:
-  - de
-  - pl
-  - it
+    - de
+    - pl
+    - it
 products:
-- id: FM2797
-  name: Salsa Cutthroat C Frameset
-  queries:
-  - '"FM2797" salsa'
-  - '"Salsa Cutthroat C" frameset'
-  variant: '56'
-  seed_urls:
-  - https://stateofbike.it/negozio-bikepacking/salsa-cutthroat-frameset/
-  - https://www.bikejamming.it/en/30986-16664salsa-cutthroat-carbon-frameset-tour-divide-bikepacking.html
-  variant_strict: true
-- id: LAUF-CARBONARA
-  name: Lauf Carbonara fork
-  worldwide: true
-  queries:
-  - '"Lauf Carbonara" fork'
-  seed_urls:
-  - https://www.laufcycles.com/product/lauf-carbonara
-- id: Lake MX190-X Wide
-  name: Lake MX190-X Wide
-  ean: '8718568168347'
-  queries:
-  - Lake MX190-X Wide
+  - variant_strict: true
+    id: FM2797
+    name: Salsa Cutthroat C Frameset
+    variant: "56"
+    queries:
+      - "\"FM2797\" salsa"
+      - "\"Salsa Cutthroat C\" frameset"
+    seed_urls:
+      - https://stateofbike.it/negozio-bikepacking/salsa-cutthroat-frameset/
+      - https://www.bikejamming.it/en/30986-16664salsa-cutthroat-carbon-frameset-tour-divide-bikepacking.html
+  - id: LAUF-CARBONARA
+    name: Lauf Carbonara fork
+    worldwide: true
+    queries:
+      - "\"Lauf Carbonara\" fork"
+    seed_urls:
+      - https://www.laufcycles.com/product/lauf-carbonara
+  - id: Lake MX190-X Wide
+    name: Lake MX190-X Wide
+    ean: "8718568168347"
+    variant: "45"
+    queries:
+      - Lake MX190-X Wide
+  - id: DT Swiss Fatbike
+    name: DT Swiss Fatbike
+    ean: H350LDIXR32SA1859S
+    queries:
+      - DT Swiss Fatbike 15x150
+  - id: DT SWISS 350 12x148
+    name: DT SWISS 350 12x148
+    ean: H350TCDBR32SA0465S
+    queries:
+      - DT SWISS 350 12x148 32 Sram XD
+  - id: Ritchey WCS Carbon ErgoMax
+    name: Ritchey WCS Carbon ErgoMax
+    ean: "30355427076"
+    variant: "42"
+    queries:
+      - Ritchey WCS Carbon ErgoMax 42cm
+  - id: Canyon S14 VCLS 2.0
+    name: Canyon S14 VCLS 2.0
+    queries:
+      - Canyon S14 VCLS 2.0 27.2mm CF Seatpost
+  - id: SRAM GX Eagle Transmission
+    name: SRAM GX Eagle Transmission
+    ean: "4251761517573"
+    queries:
+      - SRAM GX Eagle Transmission 1x12 Upgrade Kit
+  - id: SRAM GX Eagle Transmission
+    name: SRAM GX Eagle Transmission
+    ean: 00.2518.054.010
+    queries:
+      - SRAM GX Eagle Transmission Flattop 12-speed Chain
+  - id: Cane Creek 40 IS41/IS52
+    name: Cane Creek 40 IS41/IS52
+    ean: "840226078472"
+    queries:
+      - Cane Creek stery Forty tapered IS41|IS52/40
