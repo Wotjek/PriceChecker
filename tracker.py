@@ -51,15 +51,32 @@ BLOCKED_TLDS = {"uk", "gg", "je", "im", "us", "ca", "au", "nz", "jp", "cn",
 BLOCKED_DOMAINS = {"ebay.com", "ebay.de", "ebay.pl", "amazon.com",
                    "idealo.de", "idealo.pl", "google.com", "youtube.com",
                    "facebook.com", "reddit.com", "pinterest.com",
-                   "salsacycles.com"}  # strony producenta/agregatory bez ceny sklepowej
+                   "salsacycles.com",  # strona producenta bez cen sklepowych
+                   # portale nieruchomosci (kolizje nazw typu "FM2797" = droga w Teksasie)
+                   "homes.com", "redfin.com", "har.com", "compass.com",
+                   "zillow.com", "realtor.com", "trulia.com",
+                   # media/recenzje - artykuly, nie sklepy
+                   "fat-bike.com", "singletracks.com", "bikeradar.com",
+                   "pinkbike.com", "bikerumor.com", "cyclingnews.com"}
+BLOCKED_PATH_RE = re.compile(r"/(blogs?|news|review|artykul|magazin)e?s?/", re.I)
 
 IN_STOCK = {"instock", "limitedavailability", "onlineonly"}
 
 
 # ============================================================ helpers =======
 
+LOG_BUFFER = []
+
+
 def log(msg):
     print(msg, flush=True)
+    LOG_BUFFER.append(str(msg))
+
+
+def save_run_log():
+    DATA.mkdir(exist_ok=True)
+    (DATA / "last_run.log").write_text("\n".join(LOG_BUFFER) + "\n",
+                                       encoding="utf-8")
 
 
 def domain_of(url):
@@ -72,6 +89,12 @@ def tld_of(domain):
 
 
 WORLDWIDE_CURRENCIES = ALLOWED_CURRENCIES | {"USD", "GBP", "CAD", "AUD"}
+
+
+def url_allowed(url, extra_excluded, worldwide=False):
+    if BLOCKED_PATH_RE.search(urlparse(url).path or ""):
+        return False
+    return domain_allowed(domain_of(url), extra_excluded, worldwide)
 
 
 def domain_allowed(domain, extra_excluded, worldwide=False):
@@ -138,12 +161,15 @@ def google_search(query, api_key, cx, pages=1):
     return urls
 
 
-def serpapi_search(query, api_key):
-    """SerpAPI - prawdziwe wyniki Google (plan darmowy: ~100 zapytan/mies.)."""
+def serpapi_search(query, api_key, gl=None):
+    """SerpAPI - prawdziwe wyniki Google (plan darmowy: 250 zapytan/mies.).
+    gl = kod kraju (np. 'de', 'pl') - wyniki z lokalnej wersji Google."""
     try:
+        params = {"engine": "google", "q": query, "num": 20, "api_key": api_key}
+        if gl:
+            params.update({"gl": gl, "google_domain": f"google.{gl}"})
         r = requests.get("https://serpapi.com/search.json",
-                         params={"engine": "google", "q": query, "num": 20,
-                                 "api_key": api_key}, timeout=TIMEOUT)
+                         params=params, timeout=TIMEOUT)
         r.raise_for_status()
         j = r.json()
         if j.get("error"):
@@ -188,7 +214,7 @@ def _discovery_engines():
     engines = []
     if os.environ.get("SERPAPI_KEY", "").strip():
         k = os.environ["SERPAPI_KEY"].strip()
-        engines.append(("serpapi", lambda q: serpapi_search(q, k)))
+        engines.append(("serpapi", lambda q, gl=None: serpapi_search(q, k, gl)))
     if os.environ.get("TAVILY_API_KEY", "").strip():
         k = os.environ["TAVILY_API_KEY"].strip()
         engines.append(("tavily", lambda q: tavily_search(q, k)))
@@ -231,16 +257,22 @@ def run_discovery(products, sources, settings):
         if not queries:
             queries = [f'"{p["name"]}"']
 
+        # produkty EU: pytaj lokalne wersje Google (serpapi); worldwide: domyslna (US)
+        eu_countries = settings.get("serpapi_countries") or ["de", "pl"]
         found = 0
         for q in queries:
             for name, fn in engines:
-                for url in fn(q):
-                    dom = domain_of(url)
-                    if url not in known and domain_allowed(dom, excluded, worldwide):
-                        known[url] = {"domain": dom, "first_seen": today,
-                                      "via": name}
-                        found += 1
-                time.sleep(0.4)
+                countries = ([None] if (worldwide or name != "serpapi")
+                             else list(eu_countries))
+                for gl in countries:
+                    urls = fn(q, gl=gl) if name == "serpapi" else fn(q)
+                    for url in urls:
+                        dom = domain_of(url)
+                        if url not in known and url_allowed(url, excluded, worldwide):
+                            known[url] = {"domain": dom, "first_seen": today,
+                                          "via": name + (f":{gl}" if gl else "")}
+                            found += 1
+                    time.sleep(0.4)
         log(f"[DISCOVERY] {pid}: +{found} nowych URL-i (razem {len(known)})")
     return sources
 
@@ -376,7 +408,7 @@ def fetch_offers(products, sources, rates):
         log(f"[MONITOR] {pid}: sprawdzam {len(urls)} URL-i")
         for url, meta in urls.items():
             dom = meta.get("domain") or domain_of(url)
-            if not domain_allowed(dom, excluded, worldwide):
+            if not url_allowed(url, excluded, worldwide):
                 continue
             try:
                 r = session.get(url, timeout=TIMEOUT, allow_redirects=True)
@@ -620,6 +652,7 @@ def main():
     out = build_dashboard(rows, products, settings, today)
     log(f"[DASHBOARD] Zapisano {out}")
     log("Gotowe.")
+    save_run_log()
     return 0
 
 
