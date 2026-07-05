@@ -61,6 +61,11 @@ Wskazówki:
 - `ean` daje najczystsze wyniki (sklepy publikują EAN dla Google Shopping). Znajdziesz go na stronie dowolnego sklepu z produktem albo w danych producenta.
 - `seed_urls` — jeśli znasz już konkretne sklepy, wklej linki do stron produktowych; będą sprawdzane od pierwszego dnia.
 - `exclude_domains` — czarna lista domen dla danego produktu (np. sklep pokazujący inną wersję).
+- `min_pln` / `max_pln` — widełki cenowe (w PLN); oferty poza nimi są odrzucane. Najskuteczniejszy filtr na „szum": części zamienne, akcesoria i błędne dopasowania (np. 30 zł za grupę napędową).
+- `require_tokens` — lista słów, które muszą wystąpić w URL-u, tytule strony lub nazwie oferty (np. `carbon`, `s14`); wpis `"a|b"` oznacza „a LUB b" (przydatne na wersje językowe: `chain|kette|catena|łańcuch`).
+- **Każdy produkt musi mieć unikalne `id`** — duplikat scala bazy URL-i i miesza oferty różnych produktów (skrypt pomija zduplikowane wpisy z błędem w logu, dashboard blokuje zapis).
+- Dodatkowe zabezpieczenie automatyczne: przy ≥3 ofertach produktu cena poniżej 25% mediany jest odrzucana jako outlier (prawdziwe promocje −40/−60% przechodzą bez problemu).
+- Agregatory cen (ceneo, idealo, geizhals, arukereso…) i marketplace'y (eBay, Amazon, AliExpress) są blokowane globalnie — pokazują ceny historyczne/aukcyjne, nie sklepowe.
 
 ### 5. Uruchomienie
 - Automatycznie: codziennie o **12:00 CEST** (cron `0 10 * * *` w UTC). Zimą, przy zmianie czasu na CET, podmień cron na `0 11 * * *` w `.github/workflows/price-tracker.yml`, żeby zostać przy 12:00. Uwaga: GitHub potrafi opóźnić crony o kilka–kilkanaście minut przy dużym obciążeniu.
@@ -96,11 +101,13 @@ Interaktywny panel (SPA) regenerowany przy każdym uruchomieniu — otwierasz w 
 
 **Główna:** karuzela wykresów (jeden produkt na raz, strzałki ‹ › / klawiatura / kropki), zakres: Tydzień / Miesiąc / Kwartał / Max, tooltip każdego punktu pokazuje cenę **i sklep**, pod spodem sygnał KUP (gdy cena ≤ ceny docelowej) oraz tabela wszystkich dzisiejszych ofert z linkami.
 
-**Zakładka per produkt:** statystyki (aktualna najniższa, minimum historyczne, średnia okresu z odchyleniem %, liczba sklepów), wykres cen **per sklep** (osobna linia dla każdego sklepu z audytu ofert), tabela ostatnich ofert i pełna historia dziennych minimów z linkami.
+**Zakładka Produkty:** tabela przeglądowa wszystkich produktów (aktualna cena, minimum historyczne, cel z sygnałem KUP, sklep) — kliknięcie wiersza otwiera widok szczegółowy produktu. Nawigacja ma stałe 4 zakładki niezależnie od liczby produktów.
+
+**Widok szczegółowy produktu:** statystyki (aktualna najniższa, minimum historyczne, średnia okresu z odchyleniem %, liczba sklepów), wykres cen **per sklep** (osobna linia dla każdego sklepu z audytu ofert), tabela ostatnich ofert i pełna historia dziennych minimów z linkami.
 
 **Diagnostyka:** log ostatniego przebiegu wprost w panelu — kafelki z licznikami (oferty z ceną, błędy HTTP, brak danych o cenie, odfiltrowane, auto-crawl) działają jak filtry, linie logu są kolorowane wg kategorii. „Odśwież dane" pobiera świeży log z repo.
 
-**Konfiguracja:** edycja listy produktów (ID/kod, nazwa, EAN, cena docelowa, worldwide, frazy, seed URLs, wykluczenia) bezpośrednio z panelu. Zapis nadpisuje `products.yaml` w repo przez GitHub API — czyli dokładnie ten plik, którego używa workflow. Przycisk „Zapisz + Fire" od razu zbiera ceny dla nowej listy. Uwaga: zapis z panelu usuwa komentarze z pliku YAML.
+**Konfiguracja:** edycja listy produktów (ID/kod, nazwa, EAN, cena docelowa, wariant, worldwide, widełki min/max PLN, wymagane słowa, frazy, seed URLs, wykluczenia) bezpośrednio z panelu. Zapis blokuje zduplikowane ID. Zapis nadpisuje `products.yaml` w repo przez GitHub API — czyli dokładnie ten plik, którego używa workflow. Przycisk „Zapisz + Fire" od razu zbiera ceny dla nowej listy. Uwaga: zapis z panelu usuwa komentarze z pliku YAML.
 
 **Nagłówek:** dioda statusu, data **ostatniego skutecznego odświeżenia** (ostatni udany run workflow z GitHub API; bez tokenu — data ostatniego pomiaru w danych), „Odśwież dane" (pobiera aktualne CSV z repo bez ściągania pliku), **▶ FIRE** (ręczne uruchomienie workflow; po zakończeniu panel sam pobiera świeże dane).
 

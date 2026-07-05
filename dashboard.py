@@ -123,6 +123,8 @@ td{padding:9px 12px;border-bottom:1px solid rgba(38,48,58,.5)}
 td.num{font-family:'JetBrains Mono';font-weight:500}
 tr.best td{background:rgba(95,211,196,.06)}
 tr.best td:first-child{border-left:3px solid var(--teal)}
+tr.rowlink{cursor:pointer}
+tr.rowlink:hover td{background:rgba(95,211,196,.09)}
 .pill{font-size:12px;color:var(--faint)}
 
 /* konfiguracja */
@@ -218,10 +220,12 @@ function setStatus(cls,txt){ $('led').className='led '+cls; $('statusTxt').textC
 
 /* ================= NAV ================= */
 function renderNav(){
-  const items = [["home","Główna"], ...DATA.products.map(p=>[p.id,p.id]),
+  // stale 4 zakladki - szczegoly produktu otwiera sie z tabeli w "Produkty"
+  const items = [["home","Główna"], ["list","Produkty"],
     ["diag","Diagnostyka"], ["cfg","Konfiguracja"]];
+  const isProd = !['home','list','diag','cfg'].includes(state.tab);
   $('nav').innerHTML = items.map(([k,l])=>
-    `<button class="disp ${state.tab===k?'on':''}" data-tab="${esc(k)}">${esc(l)}</button>`).join('');
+    `<button class="disp ${state.tab===k||(k==='list'&&isProd)?'on':''}" data-tab="${esc(k)}">${esc(l)}</button>`).join('');
   $('nav').querySelectorAll('button').forEach(b=> b.onclick = ()=>{
     state.tab=b.dataset.tab; render(); if(state.tab==='cfg') loadConfig(); });
 }
@@ -330,6 +334,33 @@ function renderOffersTables(wrap, products){
   if(!wrap.innerHTML) wrap.innerHTML='<div class="emptybig">Brak ofert — uruchom FIRE</div>';
 }
 
+/* ================= PRODUKTY (przegląd) ================= */
+function renderList(el){
+  const products = DATA.products;
+  if(!products.length){ el.innerHTML='<div class="emptybig">Dodaj produkty w zakładce Konfiguracja</div>'; return; }
+  const hist = byKey(state.history,'product_id');
+  let html = `<div class="panelbox"><h3 class="sect" style="margin-top:0">Wszystkie produkty
+      <span class="pill">· kliknij wiersz, żeby zobaczyć szczegóły</span></h3>
+    <table><thead><tr><th>Produkt</th><th>Aktualnie (PLN)</th><th>Min. historyczne</th>
+      <th>Cel</th><th>Sklep</th><th></th></tr></thead><tbody>`;
+  for(const p of products){
+    const h=(hist[p.id]||[]).slice().sort((a,b)=>a.date<b.date?-1:1);
+    const last=h[h.length-1];
+    const min=h.length?h.reduce((a,b)=>+a.price_pln<=+b.price_pln?a:b):null;
+    const target=p.target_pln?+p.target_pln:0;
+    const buy=target&&last&&+last.price_pln<=target;
+    html+=`<tr class="rowlink ${buy?'best':''}" data-pid="${esc(p.id)}">
+      <td><b>${esc(p.name)}</b><br><span class="mono" style="color:var(--faint);font-size:11px">${esc(p.id)}${p.worldwide?' · WW':''}</span></td>
+      <td class="num">${last?pln.format(+last.price_pln):'—'}${last?`<br><span style="color:var(--faint);font-size:11px">${esc(last.date)}</span>`:''}</td>
+      <td class="num">${min?pln.format(+min.price_pln):'—'}${min?`<br><span style="color:var(--faint);font-size:11px">${esc(min.date)}</span>`:''}</td>
+      <td class="num">${target?pln.format(target):'—'}${buy?'<br><span class="buy">● KUP</span>':''}</td>
+      <td>${last?`<a href="${esc(last.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(last.shop)} →</a>`:'—'}</td>
+      <td style="color:var(--faint)">›</td></tr>`;
+  }
+  el.innerHTML = html+'</tbody></table></div>';
+  el.querySelectorAll('.rowlink').forEach(r=> r.onclick=()=>{ state.tab=r.dataset.pid; render(); });
+}
+
 /* ================= ZAKŁADKA PRODUKTU ================= */
 function renderProduct(el, pid){
   const p = DATA.products.find(x=>x.id===pid); if(!p){el.innerHTML='';return;}
@@ -346,6 +377,7 @@ function renderProduct(el, pid){
 
   el.innerHTML = `
   <div class="stagehead" style="margin-bottom:14px">
+    <button class="ghost" id="backList" style="margin-right:4px">← Produkty</button>
     <h2>${esc(p.name)}</h2><span class="code mono">${esc(pid)}${p.worldwide?' · WORLDWIDE':''}</span>
   </div>
   <div class="chips">
@@ -369,6 +401,7 @@ function renderProduct(el, pid){
   </div>
   <h3 class="sect">Ostatnie oferty (wszystkie sklepy)</h3><div id="prodOffers"></div>
   <h3 class="sect">Historia dziennych minimów</h3><div id="prodHist"></div>`;
+  $('backList').onclick = ()=>{ state.tab='list'; render(); };
   bindPeriods(el);
 
   // wykres: linia per sklep (z audytu ofert); gdy brak audytu - dzienne minima
@@ -460,7 +493,7 @@ async function loadConfig(){
     drawConfigForm();
   }catch(e){ $('cfgBox').innerHTML=`<div class="emptybig">Błąd wczytania products.yaml: ${esc(e.message)}</div>`; }
 }
-const CFG_KNOWN = ['id','name','ean','target_pln','worldwide','queries','seed_urls','exclude_domains','variant'];
+const CFG_KNOWN = ['id','name','ean','target_pln','worldwide','queries','seed_urls','exclude_domains','variant','min_pln','max_pln','require_tokens'];
 function productCard(p, i){
   const lines = a=>(a||[]).join('\n');
   const extra = Object.fromEntries(Object.entries(p).filter(([k])=>!CFG_KNOWN.includes(k)));
@@ -474,6 +507,11 @@ function productCard(p, i){
       <div><label>Cena docelowa (PLN)</label><input type="text" class="f-target" value="${esc(p.target_pln||'')}" placeholder="np. 9500"></div>
       <div><label>Wariant (np. rozmiar)</label><input type="text" class="f-var" value="${esc(p.variant||'')}" placeholder="np. 56"></div>
       <div class="check"><input type="checkbox" class="f-ww" id="ww${i}" ${p.worldwide?'checked':''}><label for="ww${i}" style="margin:0">worldwide (poza EU)</label></div>
+    </div>
+    <div class="cfgrow">
+      <div><label>Min. cena (PLN, filtr szumu)</label><input type="text" class="f-min" value="${esc(p.min_pln||'')}" placeholder="np. 800"></div>
+      <div><label>Max. cena (PLN, filtr szumu)</label><input type="text" class="f-max" value="${esc(p.max_pln||'')}" placeholder="np. 3000"></div>
+      <div><label>Wymagane słowa (1/linia, "a|b" = a lub b)</label><textarea class="f-req">${esc(lines(p.require_tokens))}</textarea></div>
     </div>
     <div class="cfgrow">
       <div><label>Frazy wyszukiwania (1/linia)</label><textarea class="f-q">${esc(lines(p.queries))}</textarea></div>
@@ -511,6 +549,9 @@ function collectConfig(){
     const t=c.querySelector('.f-target').value.trim().replace(',','.'); if(t&&!isNaN(+t))p.target_pln=+t; else delete p.target_pln;
     const vv=c.querySelector('.f-var').value.trim(); if(vv)p.variant=vv; else delete p.variant;
     if(c.querySelector('.f-ww').checked)p.worldwide=true; else delete p.worldwide;
+    const mn=c.querySelector('.f-min').value.trim().replace(',','.'); if(mn&&!isNaN(+mn))p.min_pln=+mn; else delete p.min_pln;
+    const mx=c.querySelector('.f-max').value.trim().replace(',','.'); if(mx&&!isNaN(+mx))p.max_pln=+mx; else delete p.max_pln;
+    const rq=splitLines(c.querySelector('.f-req').value); if(rq.length)p.require_tokens=rq; else delete p.require_tokens;
     const q=splitLines(c.querySelector('.f-q').value); if(q.length)p.queries=q; else delete p.queries;
     const s=splitLines(c.querySelector('.f-seed').value); if(s.length)p.seed_urls=s; else delete p.seed_urls;
     const x=splitLines(c.querySelector('.f-ex').value); if(x.length)p.exclude_domains=x; else delete p.exclude_domains;
@@ -518,6 +559,10 @@ function collectConfig(){
 }
 async function saveConfig(andFire){
   collectConfig();
+  // zduplikowane ID scalaja bazy URL-i i mieszaja oferty roznych produktow
+  const ids = state.cfg.products.map(p=>p.id);
+  const dup = ids.find((id,i)=>ids.indexOf(id)!==i);
+  if(dup){ toast('BŁĄD: zduplikowane ID "'+dup+'" — każdy produkt musi mieć unikalne ID'); return; }
   if(!state.cfg.settings) state.cfg.settings={github_repo:DATA.repo,branch:DATA.branch};
   const yamlTxt = "# Plik zarządzany także z dashboardu (zakładka Konfiguracja)\n" +
                   jsyaml.dump(state.cfg,{lineWidth:120,quotingType:'"'});
@@ -617,6 +662,7 @@ function render(){
   killCharts(); renderNav();
   const v=$('view');
   if(state.tab==='home') renderHome(v);
+  else if(state.tab==='list') renderList(v);
   else if(state.tab==='cfg') renderConfig(v);
   else if(state.tab==='diag') renderDiag(v);
   else renderProduct(v, state.tab);

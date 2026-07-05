@@ -903,7 +903,194 @@
       "via": "crawl"
     }
   },
-  "SRAM GX Eagle Transmission": {
+  "Cane Creek 40 IS41/IS52": {
+    "https://rat-bikes.eu/cane-creek-40.html": {
+      "domain": "rat-bikes.eu",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://bikecomponents-us.com/products/cane-creek-40-series-is41-28-6-is52-40-wide-cover-yeti-sb160-sb165-160e": {
+      "domain": "bikecomponents-us.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://allegro.pl/produkt/cane-creek-stery-40-tapered-is41-is52-40-short-51-660c4277-00e6-445e-8614-ad1404fa2ac7": {
+      "domain": "allegro.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.oxygenbikes.com/product/cane-creek-40-series-short-wide-cover-413635-1.htm": {
+      "domain": "oxygenbikes.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.bike24.de/p11006909.html": {
+      "domain": "bike24.de",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.vpg.no/Cane-Creek-Forty-Complete-BAA1175K/404348/": {
+      "domain": "vpg.no",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://fr-ca.cyclescampus.com/product/cane-creek-40-series-short-wide-cover-413635-1.htm": {
+      "domain": "fr-ca.cyclescampus.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.bike24.it/prodotti/1006909": {
+      "domain": "bike24.it",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.bike24.pl/produkty/1006909": {
+      "domain": "bike24.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://www.spokeomotion.com/product/cane-creek-40-series-short-wide-cover-413635-1.htm": {
+      "domain": "spokeomotion.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://www.tnc-hamburg.com/Steuersaetze/Cane-Creek-Steuersatz/Cane-Creek-IS-Steuersaetze/Cane-Creek-IS-Steuersaetze-komplett/Cane-Creek-Forty-Tapered-Steuersatz-1-1-8-1-5-Zoll-IS41-28-6-IS52-40-Kappe-8mm-schwarz::59495.html": {
+      "domain": "tnc-hamburg.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.bike24.de/p1116181.html": {
+      "domain": "bike24.de",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.maciag-offroad.de/cane-creek-steuersatz-40-is41-28-6-is52-40-short-tapered-sid88363.html": {
+      "domain": "maciag-offroad.de",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.biker-boarder.de/cane-creek/3117923.html": {
+      "domain": "biker-boarder.de",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://r2-bike.com/CANE-CREEK-Steuersatz-40Tapered-IS41-286-IS52-40-Short-Cover-1-1-8-1-1-2": {
+      "domain": "r2-bike.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.bike-discount.de/de/cane-creek-40er-is41/28.6-is52/40-tapered-steuersatz": {
+      "domain": "bike-discount.de",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.mtb-news.de/forum/t/cane-creek-40-is41-steuersatz-passt-nicht-in-mein-bike.771600/": {
+      "domain": "mtb-news.de",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.amazon.de/Cane-Creek-Steuersatz-Tapered-schwarz/dp/B00G5RWJFG": {
+      "domain": "amazon.de",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.bike-components.de/de/Cane-Creek/110er-IS41-28-6-IS52-40-Steuersatz-p93293/": {
+      "domain": "bike-components.de",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://cyklomania.pl/cane-creek/stery-zintegrowane-cane-creek/": {
+      "domain": "cyklomania.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://allegro.pl/oferta/cane-creek-stery-forty-tapered-is41-is52-40-short-13414921999": {
+      "domain": "allegro.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://formicki-bike.pl/pl/p/Cane-Creek-stery-SlamSet-Tapered-IS41IS5240/31032": {
+      "domain": "formicki-bike.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://www.ceneo.pl/46296895": {
+      "domain": "ceneo.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://www.centrumrowerowe.pl/stery-zintegrowane-1-1-8-1-1-2-tapered-cane-creek-40-series-is42-is52-short-pd10206/": {
+      "domain": "centrumrowerowe.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://www.vincere.pl/cane-creek-stery-40-tapered-is41is52-40-short-p-641.html": {
+      "domain": "vincere.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://allegro.pl/produkt/cane-creek-stery-forty-tapered-is41-is52-40-tall-51-od-wide-cover-58fabff0-5801-4ad3-a202-7d6dcc6e092d": {
+      "domain": "allegro.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://rowerowy.com/sklep/czesci/stery/zintegrowane/prod/40-Series-IS41-IS52s": {
+      "domain": "rowerowy.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://www.bike24.pl/produkty/925200": {
+      "domain": "bike24.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://bikecenter.pl/p110983,cane-creek-40-is41-28-6-is52-40-tapered-stery-zintegrowane.html": {
+      "domain": "bikecenter.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://www.lordgunbicycles.com/serie-sterzo-40-cane-creek-series-is": {
+      "domain": "lordgunbicycles.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:it"
+    },
+    "https://www.bike24.it/prodotti/116181": {
+      "domain": "bike24.it",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:it"
+    },
+    "https://lineabici.com/ricambi_seriesterzo_lineabici/7389-ssterzo-40-s-is41-is52-short-nero-is41286h9-is5240.html": {
+      "domain": "lineabici.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:it"
+    },
+    "https://www.alltricks.it/F-11925-jeux-de-direction/P-2079029-serie_sterzo_cane_creek_40_serie_1__39_1_8_1_5__39__integrata_tapered_is41_is52": {
+      "domain": "alltricks.it",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:it"
+    },
+    "https://cyklomania.pl/produkt/cane-creek-stery-forty-tapered-is41is5240-short-51.html": {
+      "domain": "cyklomania.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:it"
+    },
+    "https://www.maciag-offroad.it/cane-creek-serie-sterzo-40-is41-28-6-is52-40-short-tapered-sid88363.html": {
+      "domain": "maciag-offroad.it",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:it"
+    },
+    "https://www.amazon.it/Cane-Creek-IS41-28-6-IS52/dp/B08JS7TM5K": {
+      "domain": "amazon.it",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:it"
+    },
+    "https://www.bike-discount.de/it/cane-creek-40mm-is41/28.6-serie-sterzo-conica-is52/40": {
+      "domain": "bike-discount.de",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:it"
+    }
+  },
+  "GX-T-KIT": {
     "https://r2-bike.com/SRAM-GX-Eagle-Transmission-Upgrade-Kit": {
       "domain": "r2-bike.com",
       "first_seen": "2026-07-05",
@@ -1240,189 +1427,339 @@
       "via": "serpapi:it"
     }
   },
-  "Cane Creek 40 IS41/IS52": {
-    "https://rat-bikes.eu/cane-creek-40.html": {
-      "domain": "rat-bikes.eu",
-      "first_seen": "2026-07-05",
-      "via": "serpapi:de"
-    },
-    "https://bikecomponents-us.com/products/cane-creek-40-series-is41-28-6-is52-40-wide-cover-yeti-sb160-sb165-160e": {
-      "domain": "bikecomponents-us.com",
-      "first_seen": "2026-07-05",
-      "via": "serpapi:de"
-    },
-    "https://allegro.pl/produkt/cane-creek-stery-40-tapered-is41-is52-40-short-51-660c4277-00e6-445e-8614-ad1404fa2ac7": {
-      "domain": "allegro.pl",
-      "first_seen": "2026-07-05",
-      "via": "serpapi:de"
-    },
-    "https://www.oxygenbikes.com/product/cane-creek-40-series-short-wide-cover-413635-1.htm": {
-      "domain": "oxygenbikes.com",
-      "first_seen": "2026-07-05",
-      "via": "serpapi:de"
-    },
-    "https://www.bike24.de/p11006909.html": {
-      "domain": "bike24.de",
-      "first_seen": "2026-07-05",
-      "via": "serpapi:de"
-    },
-    "https://www.vpg.no/Cane-Creek-Forty-Complete-BAA1175K/404348/": {
-      "domain": "vpg.no",
-      "first_seen": "2026-07-05",
-      "via": "serpapi:de"
-    },
-    "https://fr-ca.cyclescampus.com/product/cane-creek-40-series-short-wide-cover-413635-1.htm": {
-      "domain": "fr-ca.cyclescampus.com",
-      "first_seen": "2026-07-05",
-      "via": "serpapi:de"
-    },
-    "https://www.bike24.it/prodotti/1006909": {
-      "domain": "bike24.it",
-      "first_seen": "2026-07-05",
-      "via": "serpapi:de"
-    },
-    "https://www.bike24.pl/produkty/1006909": {
-      "domain": "bike24.pl",
-      "first_seen": "2026-07-05",
-      "via": "serpapi:pl"
-    },
-    "https://www.spokeomotion.com/product/cane-creek-40-series-short-wide-cover-413635-1.htm": {
-      "domain": "spokeomotion.com",
-      "first_seen": "2026-07-05",
-      "via": "serpapi:pl"
-    },
-    "https://www.tnc-hamburg.com/Steuersaetze/Cane-Creek-Steuersatz/Cane-Creek-IS-Steuersaetze/Cane-Creek-IS-Steuersaetze-komplett/Cane-Creek-Forty-Tapered-Steuersatz-1-1-8-1-5-Zoll-IS41-28-6-IS52-40-Kappe-8mm-schwarz::59495.html": {
-      "domain": "tnc-hamburg.com",
-      "first_seen": "2026-07-05",
-      "via": "serpapi:de"
-    },
-    "https://www.bike24.de/p1116181.html": {
-      "domain": "bike24.de",
-      "first_seen": "2026-07-05",
-      "via": "serpapi:de"
-    },
-    "https://www.maciag-offroad.de/cane-creek-steuersatz-40-is41-28-6-is52-40-short-tapered-sid88363.html": {
-      "domain": "maciag-offroad.de",
-      "first_seen": "2026-07-05",
-      "via": "serpapi:de"
-    },
-    "https://www.biker-boarder.de/cane-creek/3117923.html": {
-      "domain": "biker-boarder.de",
-      "first_seen": "2026-07-05",
-      "via": "serpapi:de"
-    },
-    "https://r2-bike.com/CANE-CREEK-Steuersatz-40Tapered-IS41-286-IS52-40-Short-Cover-1-1-8-1-1-2": {
+  "GX-T-CHAIN": {
+    "https://r2-bike.com/SRAM-GX-Eagle-Transmission-Upgrade-Kit": {
       "domain": "r2-bike.com",
       "first_seen": "2026-07-05",
       "via": "serpapi:de"
     },
-    "https://www.bike-discount.de/de/cane-creek-40er-is41/28.6-is52/40-tapered-steuersatz": {
-      "domain": "bike-discount.de",
+    "https://r2-bike.com/SRAM-GX-Eagle-Transmission-Upgrade-Kit_1": {
+      "domain": "r2-bike.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://www.bikesnboards.de/270644/sram/upgrade-kit-gx-axs-eagle-transmission/": {
+      "domain": "bikesnboards.de",
       "first_seen": "2026-07-05",
       "via": "serpapi:de"
     },
-    "https://www.mtb-news.de/forum/t/cane-creek-40-is41-steuersatz-passt-nicht-in-mein-bike.771600/": {
-      "domain": "mtb-news.de",
+    "https://support.sram.com/hc/de/articles/36336435149083-Wie-verwende-ich-das-GX-Eagle-AXS-Transmission-Upgrade-Kit": {
+      "domain": "support.sram.com",
       "first_seen": "2026-07-05",
       "via": "serpapi:de"
     },
-    "https://www.amazon.de/Cane-Creek-Steuersatz-Tapered-schwarz/dp/B00G5RWJFG": {
-      "domain": "amazon.de",
+    "https://www.bike24.de/p1993076.html": {
+      "domain": "bike24.de",
       "first_seen": "2026-07-05",
       "via": "serpapi:de"
     },
-    "https://www.bike-components.de/de/Cane-Creek/110er-IS41-28-6-IS52-40-Steuersatz-p93293/": {
+    "https://www.gocycle.de/a.php/shop/gocycle/lang/en/a/69562/kw/SRAM-GX-Transmission-T-Type-1-x-12-Upgrade-Kit-Eagle-70-90-Schaltgruppe/": {
+      "domain": "gocycle.de",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.bike-components.de/en/SRAM/GX-Eagle-Transmission-Upgrade-Kit-p172400/": {
       "domain": "bike-components.de",
       "first_seen": "2026-07-05",
       "via": "serpapi:de"
     },
-    "https://cyklomania.pl/cane-creek/stery-zintegrowane-cane-creek/": {
-      "domain": "cyklomania.pl",
+    "https://www.sram.com/en/sram/mountain/series/gx-eagle-transmission": {
+      "domain": "sram.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.fahrrad.de/products/sram-upgrade-kit-gx-axs-eagle-t-type-12-fach-inkl-batterieschaltwerk-koerper-pod-rocker-ladegeraet-chainlink": {
+      "domain": "fahrrad.de",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://kastor-bike.pl/sram-gx-eagle-axs-transmission-upgrade-kit-t-type-12s-007518198000": {
+      "domain": "kastor-bike.pl",
       "first_seen": "2026-07-05",
       "via": "serpapi:pl"
     },
-    "https://allegro.pl/oferta/cane-creek-stery-forty-tapered-is41-is52-40-short-13414921999": {
-      "domain": "allegro.pl",
+    "https://2wheels.pl/gx-eagle-transmission-upgrade-kit-warto-czy-nie/": {
+      "domain": "2wheels.pl",
       "first_seen": "2026-07-05",
       "via": "serpapi:pl"
     },
-    "https://formicki-bike.pl/pl/p/Cane-Creek-stery-SlamSet-Tapered-IS41IS5240/31032": {
-      "domain": "formicki-bike.pl",
+    "https://www.rowertour.com/p/g0286113/upgrade-kit-sram-gx-eagle-axs-pod": {
+      "domain": "rowertour.com",
       "first_seen": "2026-07-05",
       "via": "serpapi:pl"
     },
-    "https://www.ceneo.pl/46296895": {
-      "domain": "ceneo.pl",
-      "first_seen": "2026-07-05",
-      "via": "serpapi:pl"
-    },
-    "https://www.centrumrowerowe.pl/stery-zintegrowane-1-1-8-1-1-2-tapered-cane-creek-40-series-is42-is52-short-pd10206/": {
-      "domain": "centrumrowerowe.pl",
-      "first_seen": "2026-07-05",
-      "via": "serpapi:pl"
-    },
-    "https://www.vincere.pl/cane-creek-stery-40-tapered-is41is52-40-short-p-641.html": {
-      "domain": "vincere.pl",
-      "first_seen": "2026-07-05",
-      "via": "serpapi:pl"
-    },
-    "https://allegro.pl/produkt/cane-creek-stery-forty-tapered-is41-is52-40-tall-51-od-wide-cover-58fabff0-5801-4ad3-a202-7d6dcc6e092d": {
-      "domain": "allegro.pl",
-      "first_seen": "2026-07-05",
-      "via": "serpapi:pl"
-    },
-    "https://rowerowy.com/sklep/czesci/stery/zintegrowane/prod/40-Series-IS41-IS52s": {
-      "domain": "rowerowy.com",
-      "first_seen": "2026-07-05",
-      "via": "serpapi:pl"
-    },
-    "https://www.bike24.pl/produkty/925200": {
+    "https://www.bike24.pl/marki/sram/f.seria.sram-gx-eagle-transmission": {
       "domain": "bike24.pl",
       "first_seen": "2026-07-05",
       "via": "serpapi:pl"
     },
-    "https://bikecenter.pl/p110983,cane-creek-40-is41-28-6-is52-40-tapered-stery-zintegrowane.html": {
-      "domain": "bikecenter.pl",
+    "https://www.sram.com/en/sram/models/rd-upk-gxte-a1": {
+      "domain": "sram.com",
       "first_seen": "2026-07-05",
       "via": "serpapi:pl"
     },
-    "https://www.lordgunbicycles.com/serie-sterzo-40-cane-creek-series-is": {
-      "domain": "lordgunbicycles.com",
+    "https://www.ampbike.pl/product-pol-376-Sram-GX-Eagle-AXS-Upgrade-Kit.html": {
+      "domain": "ampbike.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://www.bikestacja.pl/grupa-sram-gx-eagle-axs-transmission-1x12-rzedowa-175-mm-p-45444.html": {
+      "domain": "bikestacja.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://www.ridewill.it/p/it/sram-2138000399-upgrade-kit-gx-eagle-axs-12v/1608758/": {
+      "domain": "ridewill.it",
       "first_seen": "2026-07-05",
       "via": "serpapi:it"
     },
-    "https://www.bike24.it/prodotti/116181": {
+    "https://www.ciclobottegabikeshop.com/shop/kit-upgrade-sram-gx-eagle-axs-t-type-transmission-1x12v/": {
+      "domain": "ciclobottegabikeshop.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:it"
+    },
+    "https://support.sram.com/hc/it/articles/36336446730779-Cos-%C3%A8-compreso-nel-Kit-di-upgrade-GX-Eagle-Transmission": {
+      "domain": "support.sram.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:it"
+    },
+    "https://www.bike24.it/prodotti/993076": {
       "domain": "bike24.it",
       "first_seen": "2026-07-05",
       "via": "serpapi:it"
     },
-    "https://lineabici.com/ricambi_seriesterzo_lineabici/7389-ssterzo-40-s-is41-is52-short-nero-is41286h9-is5240.html": {
-      "domain": "lineabici.com",
+    "https://support.sram.com/hc/it/articles/36336435149083-Qual-%C3%A8-la-funzione-del-Kit-di-upgrade-GX-Eagle-AXS-Transmission": {
+      "domain": "support.sram.com",
       "first_seen": "2026-07-05",
       "via": "serpapi:it"
     },
-    "https://www.alltricks.it/F-11925-jeux-de-direction/P-2079029-serie_sterzo_cane_creek_40_serie_1__39_1_8_1_5__39__integrata_tapered_is41_is52": {
-      "domain": "alltricks.it",
+    "https://www.idealo.it/confronta-prezzi/203714677/sram-gx-eagle-transmission-axs-1x12-fach.html": {
+      "domain": "idealo.it",
       "first_seen": "2026-07-05",
       "via": "serpapi:it"
     },
-    "https://cyklomania.pl/produkt/cane-creek-stery-forty-tapered-is41is5240-short-51.html": {
+    "https://cavalierebici.it/en/products/sram-gx-eagle-axs-1x12v-upgrade-kit": {
+      "domain": "cavalierebici.it",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:it"
+    },
+    "https://www.bike-components.de/de/SRAM/GX-Eagle-Transmission-12-fach-PowerLock-T-Type-Kette-p90547/": {
+      "domain": "bike-components.de",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://geizhals.de/sram-gx-eagle-transmission-kette-00-2518-054-010-a2984507.html": {
+      "domain": "geizhals.de",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.bike24.de/p1756868.html": {
+      "domain": "bike24.de",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://bikeimport.ch/shop/product/42700/LINK": {
+      "domain": "bikeimport.ch",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.bike-discount.de/de/sram-gx-eagle-transmission-flattop-12-fach-kette": {
+      "domain": "bike-discount.de",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.lvr-cycles.com/de/ketten-kassetten-mtb/8762-sram-gx-eagle-t-type-chain-12s-126-links-powerlock-002518054010.html": {
+      "domain": "lvr-cycles.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.veloruf.de/n/fahrradzubehoer.html?id=334690&art=160034494": {
+      "domain": "veloruf.de",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.guenstiger.de/Produkt/SRAM/GX_Eagle_Kette_00_2518_054_010.html": {
+      "domain": "guenstiger.de",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.lordgun.de/sram-gx-t-type-eagle-solidpin-flattop-powerlock-12-fach-kette": {
+      "domain": "lordgun.de",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.bikestacja.pl/lancuch-sram-gx-eagle-t-type-12-speed-126l-spinka-p-23816.html": {
+      "domain": "bikestacja.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://www.wysepka.pl/lancuchy/14020-lancuch-rowerowy-sram-gx-eagle-transmission-flat.html": {
+      "domain": "wysepka.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://www.lvr-cycles.com/en/mtb-chains-cassettes/8762-sram-gx-eagle-t-type-chain-12s-126-links-powerlock-002518054010.html": {
+      "domain": "lvr-cycles.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://alpebike.pl/lancuchy-12-biegowy/35273-p35273-lancuch-sram-gx-eagle-transmission-12-biegow-126o-2000000368337.html": {
+      "domain": "alpebike.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://cyklomania.pl/produkt/sram-lancuch-gx-eagle-t-type-12rz-126ogniw.html": {
       "domain": "cyklomania.pl",
       "first_seen": "2026-07-05",
-      "via": "serpapi:it"
+      "via": "serpapi:pl"
     },
-    "https://www.maciag-offroad.it/cane-creek-serie-sterzo-40-is41-28-6-is52-40-short-tapered-sid88363.html": {
-      "domain": "maciag-offroad.it",
+    "https://www.bike-components.de/en/SRAM/GX-Eagle-Transmission-12-speed-PowerLock-T-Type-Chain-p90547/": {
+      "domain": "bike-components.de",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://zumbistore.pl/napedy-rowerowe/6332-lancuch-sram-gx-eagle-t-type-710845892448.html": {
+      "domain": "zumbistore.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://www.universalcycles.com/shopping/product_details.php?id=114020": {
+      "domain": "universalcycles.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://ibike.pl/lancuch-rowerowy-sram-gx-eagle-t-type-12-rzedowy-126-ogniw,p11592.html": {
+      "domain": "ibike.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://www.lordgunbicycles.com/catena-sram-gx-t-type-eagle-solidpin-flattop-powerlock-12v": {
+      "domain": "lordgunbicycles.com",
       "first_seen": "2026-07-05",
       "via": "serpapi:it"
     },
-    "https://www.amazon.it/Cane-Creek-IS41-28-6-IS52/dp/B08JS7TM5K": {
-      "domain": "amazon.it",
+    "https://www.ridewill.it/p/it/sram-2131057134-catena-gx-t-type-126-maglie-flattop-12v-silver/1519142/": {
+      "domain": "ridewill.it",
       "first_seen": "2026-07-05",
       "via": "serpapi:it"
     },
-    "https://www.bike-discount.de/it/cane-creek-40mm-is41/28.6-serie-sterzo-conica-is52/40": {
+    "https://www.cycleclub.eu/it/gx-eagle-t-type-126maglie-12v-argento-002518054010-2131057134-sram": {
+      "domain": "cycleclub.eu",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:it"
+    },
+    "https://www.ebay.it/itm/177144693214": {
+      "domain": "ebay.it",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:it"
+    },
+    "https://www.cingolanibikeshop.com/catena-sram-gx-t-type-eagle-flattop-12v-126l-nero.html": {
+      "domain": "cingolanibikeshop.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:it"
+    },
+    "https://probikeshop.it/products/catena-sram-gx-t-type-eagle-12v": {
+      "domain": "probikeshop.it",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:it"
+    },
+    "https://www.lvr-cycles.com/it/catene-cassette-mtb/8762-sram-gx-eagle-t-type-chain-12s-126-links-powerlock-002518054010.html": {
+      "domain": "lvr-cycles.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:it"
+    },
+    "https://www.bikextreme.it/catene/12715-sram-catena-gx-eagle-t-type-126-maglie-con-powerlock.html": {
+      "domain": "bikextreme.it",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:it"
+    },
+    "https://shop.biciclettezeta.it/products/catena-sram-gx-eagle-t-type-12-speed": {
+      "domain": "shop.biciclettezeta.it",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:it"
+    },
+    "https://taddeistore.com/prodotto/sram-catena-gx-eagle-flattop-t-type-12v/": {
+      "domain": "taddeistore.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:it"
+    },
+    "https://alutech-cycles.com/SRAM-chain-GX-T-Type-118-12-speed-silver": {
+      "domain": "alutech-cycles.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.bike-discount.de/en/sram-gx-eagle-transmission-flattop-12-speed-chain": {
       "domain": "bike-discount.de",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.sram.com/en/service/models/cn-ttyp-gx-a1": {
+      "domain": "sram.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://support.sram.com/hc/en-us/articles/5928527724955-Can-I-run-a-SRAM-Road-Flattop-chain-on-my-SRAM-Eagle-drivetrain": {
+      "domain": "support.sram.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.trekbikes.com/us/en_US/equipment/cycling-components/bike-chains/sram-gx-t-type-eagle-axs-12-speed-flattop-mtb-bicycle-chain/p/44835/": {
+      "domain": "trekbikes.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://r2-bike.com/SRAM-GX-Eagle-Transmission-Chain-126-Links-silver-12-speed": {
+      "domain": "r2-bike.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.velofactory.ch/SRAM-chain-GX-Eagle-Transmission-T-Type-12-speed-Flattop-126-links-SolidPin-PowerLock-Silver": {
+      "domain": "velofactory.ch",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.sram.com/en/sram/models/cn-ttyp-gx-a1": {
+      "domain": "sram.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://hibike.com/pl/shop/komponenty/prowadzic/wiezy/sram-gx-transmission-eagle-kette-12-fach-126-glieder-silver-2/": {
+      "domain": "hibike.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://thundermountainbikes.com/products/sram-gx-eagle-transmission-chain": {
+      "domain": "thundermountainbikes.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://www.sram.com/en/sram/mountain/products/chains": {
+      "domain": "sram.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://www.velonova.lt/en/sram-gx-eagle-transmission-flattop-chain-12-speed-18542-1": {
+      "domain": "velonova.lt",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://www.bikestacja.pl/en/sram-gx-eagle-t-type-12-speed-126l-chain-clip-p-23816.html": {
+      "domain": "bikestacja.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://capobianchi.eu/en/products/catena-sram-12v-gx-eagle-126-maglie": {
+      "domain": "capobianchi.eu",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:it"
+    },
+    "https://www.idealo.it/confronta-prezzi/205480902/sram-xx-sl-eagle-transmission-flattop-chain-12-speed.html": {
+      "domain": "idealo.it",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:it"
+    },
+    "https://www.diliecicli.it/en/products/catena-sram-gx-eagle-t-type-flattop": {
+      "domain": "diliecicli.it",
       "first_seen": "2026-07-05",
       "via": "serpapi:it"
     }

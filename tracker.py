@@ -14,6 +14,7 @@ import csv
 import json
 import os
 import re
+import statistics
 import sys
 import time
 from datetime import date
@@ -37,6 +38,7 @@ EXCEL_FILE = OUTPUT / "prices.xlsx"
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
 TIMEOUT = 25
+SERPAPI_TIMEOUT = 60   # SerpAPI (zwlaszcza Shopping) bywa wolne; timeout i tak zuzywa limit
 SLEEP_BETWEEN_FETCHES = 2.0
 
 # --- Europa kontynentalna: dozwolone waluty i TLD ---------------------------
@@ -48,16 +50,28 @@ EU_TLDS = {"pl", "de", "nl", "fr", "it", "es", "be", "at", "cz", "sk", "dk",
 NEUTRAL_TLDS = {"com", "net", "org", "shop", "bike", "cc", "io", "store"}
 BLOCKED_TLDS = {"uk", "gg", "je", "im", "us", "ca", "au", "nz", "jp", "cn",
                 "in", "br", "mx", "za", "kr", "sg", "hk", "tr", "ru", "by"}
-BLOCKED_DOMAINS = {"ebay.com", "ebay.de", "ebay.pl", "amazon.com",
-                   "idealo.de", "idealo.pl", "google.com", "youtube.com",
+BLOCKED_DOMAINS = {"google.com", "youtube.com",
                    "facebook.com", "reddit.com", "pinterest.com",
-                   "salsacycles.com",  # strona producenta bez cen sklepowych
+                   # marketplace'y - ceny aukcyjne/uzywane, nie sklepowe
+                   "ebay.com", "ebay.de", "ebay.pl", "ebay.it", "ebay.fr",
+                   "ebay.es", "ebay.nl", "ebay.at", "ebay.ch",
+                   "amazon.com", "amazon.de", "amazon.it", "amazon.fr",
+                   "amazon.es", "amazon.pl", "amazon.nl", "aliexpress.com",
+                   # porownywarki cen - agregatory, nie sklepy (ceny bywaja stare)
+                   "idealo.de", "idealo.pl", "idealo.it", "ceneo.pl",
+                   "arukereso.hu", "geizhals.de", "geizhals.at", "geizhals.eu",
+                   "guenstiger.de", "billiger.de", "trovaprezzi.it",
+                   "skroutz.gr", "pricerunner.com", "pricerunner.dk",
+                   "pricerunner.se",
+                   # strony producentow bez cen sklepowych
+                   "salsacycles.com", "dtswiss.com", "sram.com",
                    # portale nieruchomosci (kolizje nazw typu "FM2797" = droga w Teksasie)
                    "homes.com", "redfin.com", "har.com", "compass.com",
                    "zillow.com", "realtor.com", "trulia.com",
-                   # media/recenzje - artykuly, nie sklepy
+                   # media/recenzje/fora - artykuly, nie sklepy
                    "fat-bike.com", "singletracks.com", "bikeradar.com",
-                   "pinkbike.com", "bikerumor.com", "cyclingnews.com"}
+                   "pinkbike.com", "bikerumor.com", "cyclingnews.com",
+                   "mtb-news.de", "99spokes.com", "scribd.com"}
 BLOCKED_PATH_RE = re.compile(r"/(blogs?|news|review|artykul|magazin)e?s?/", re.I)
 
 IN_STOCK = {"instock", "limitedavailability", "onlineonly"}
@@ -134,8 +148,12 @@ def url_allowed(url, extra_excluded, worldwide=False):
 
 
 def domain_allowed(domain, extra_excluded, worldwide=False):
-    if not domain or domain in BLOCKED_DOMAINS or domain in extra_excluded:
+    if not domain:
         return False
+    # dopasowanie z subdomenami: kerekagy.arukereso.hu, support.sram.com itd.
+    for blocked in (BLOCKED_DOMAINS, extra_excluded):
+        if any(domain == b or domain.endswith("." + b) for b in blocked):
+            return False
     if worldwide:
         return True  # produkt globalny (np. dostepny glownie w US)
     if any(domain.endswith("." + b) or tld_of(domain) == b for b in BLOCKED_TLDS):
@@ -205,7 +223,7 @@ def serpapi_search(query, api_key, gl=None):
         if gl:
             params.update({"gl": gl, "google_domain": f"google.{gl}"})
         r = requests.get("https://serpapi.com/search.json",
-                         params=params, timeout=TIMEOUT)
+                         params=params, timeout=SERPAPI_TIMEOUT)
         r.raise_for_status()
         j = r.json()
         if j.get("error"):
@@ -222,11 +240,13 @@ def serpapi_shopping_search(query, api_key, gl=None):
     Zwraca linki do stron sklepow; ceny i tak weryfikuje monitoring
     bezposrednio na stronie (Shopping bywa nieaktualny)."""
     try:
-        params = {"engine": "google_shopping", "q": query, "api_key": api_key}
+        # Shopping nie radzi sobie z cudzyslowami (zwraca "no results")
+        params = {"engine": "google_shopping", "q": query.replace('"', ""),
+                  "api_key": api_key}
         if gl:
             params["gl"] = gl
         r = requests.get("https://serpapi.com/search.json",
-                         params=params, timeout=TIMEOUT)
+                         params=params, timeout=SERPAPI_TIMEOUT)
         r.raise_for_status()
         j = r.json()
         if j.get("error"):
@@ -404,7 +424,8 @@ def _iter_jsonld_nodes(soup):
 def _norm_availability(val):
     if not val:
         return ""
-    return str(val).rsplit("/", 1)[-1].strip().lower()
+    # "In Stock", "out of stock", "https://schema.org/InStock" -> "instock"...
+    return re.sub(r"[^a-z]", "", str(val).rsplit("/", 1)[-1].lower())
 
 
 def _parse_price(val):
@@ -607,6 +628,12 @@ def fetch_offers(products, sources, rates):
         strict = bool(p.get("variant_strict"))
         ean = str(p.get("ean") or "").strip()
         ean_strict = bool(p.get("ean_strict"))
+        min_pln = float(p.get("min_pln") or 0)
+        max_pln = float(p.get("max_pln") or 0)
+        # require_tokens: kazdy wpis musi wystapic na stronie; "a|b" = a LUB b
+        req_tokens = [[alt.strip().lower() for alt in str(t).split("|")
+                       if alt.strip()]
+                      for t in (p.get("require_tokens") or [])]
         allowed_cur = WORLDWIDE_CURRENCIES if worldwide else ALLOWED_CURRENCIES
         urls = dict(sources.get(pid, {}))
         for u in p.get("seed_urls") or []:
@@ -672,6 +699,22 @@ def fetch_offers(products, sources, rates):
                 else:
                     enote = " [EAN niepotwierdzony]"
 
+            # require_tokens: slowa musza wystapic w URL-u, tytule strony
+            # lub identyfikatorze oferty (np. "carbon", "s14", "kit")
+            if req_tokens:
+                tm = re.search(r"<title[^>]*>(.*?)</title>", r.text, re.I | re.S)
+                page_txt = (final_url + " " + (tm.group(1) if tm else "")).lower()
+                matching = [c for c in cands
+                            if all(any(alt in page_txt + " " + c["ident"]
+                                       for alt in grp) for grp in req_tokens)]
+                if not matching:
+                    missing = [grp[0] for grp in req_tokens
+                               if not any(alt in page_txt for alt in grp)]
+                    log(f"  - {dom}: brak wymaganych slow "
+                        f"({', '.join(missing) or 'w ofertach'}) - pomijam")
+                    continue
+                cands = matching
+
             vnote = ""
             if variant:
                 matching = [c for c in cands if variant in c["ident"]]
@@ -705,6 +748,20 @@ def fetch_offers(products, sources, rates):
             if not usable:
                 log(f"  - {dom}: brak kursu {valid_cur[0]['currency']}")
                 continue
+            # widelki cenowe (PLN): odrzuca czesci zamienne / zestawy / bledy
+            if min_pln or max_pln:
+                in_range = [c for c in usable
+                            if (not min_pln
+                                or c["price"] * rates[c["currency"]] >= min_pln)
+                            and (not max_pln
+                                 or c["price"] * rates[c["currency"]] <= max_pln)]
+                if not in_range:
+                    w = min(usable, key=lambda c: c["price"] * rates[c["currency"]])
+                    log(f"  - {dom}: {round(w['price'] * rates[w['currency']], 2)} "
+                        f"PLN poza widelkami "
+                        f"[{min_pln or '-'}..{max_pln or '-'}] - pomijam")
+                    continue
+                usable = in_range
             best = min(usable, key=lambda c: c["price"] * rates[c["currency"]])
             price, currency = best["price"], best["currency"]
             price_pln = round(price * rates[currency], 2)
@@ -715,7 +772,27 @@ def fetch_offers(products, sources, rates):
             if meta.get("via") == "crawl":  # znaleziony crawlem i ma cene
                 sources.setdefault(pid, {})[url] = meta  # -> do bazy na stale
             log(f"  + {dom}: {price} {currency} = {price_pln} PLN{vnote}{enote}")
-    return offers
+    return drop_outliers(offers)
+
+
+def drop_outliers(offers):
+    """Lagodne auto-odciecie: przy >=3 ofertach produktu cena ponizej 25%
+    mediany to niemal na pewno inny produkt (czesc zamienna, akcesorium).
+    Prawdziwe promocje (-40%, -60%) przechodza bez problemu."""
+    prices = {}
+    for o in offers:
+        prices.setdefault(o["product_id"], []).append(o["price_pln"])
+    medians = {pid: statistics.median(v) for pid, v in prices.items()
+               if len(v) >= 3}
+    kept = []
+    for o in offers:
+        med = medians.get(o["product_id"])
+        if med and o["price_pln"] < 0.25 * med:
+            log(f"  ! {o['product_id']}: odrzucam outlier {o['price_pln']} PLN "
+                f"({o['domain']}) - ponizej 25% mediany ({round(med, 2)} PLN)")
+            continue
+        kept.append(o)
+    return kept
 
 
 # ============================================================ storage =======
@@ -907,6 +984,16 @@ def main():
     if not products:
         log("Brak produktow w products.yaml - koniec.")
         return 0
+    # zduplikowane ID scalaja bazy URL-i i mieszaja oferty roznych produktow
+    seen_ids, unique = set(), []
+    for p in products:
+        if p["id"] in seen_ids:
+            log(f"[KONFIG] BLAD: zduplikowane id '{p['id']}' w products.yaml - "
+                f"pomijam drugi wpis ('{p.get('name')}'). Nadaj mu unikalne id.")
+            continue
+        seen_ids.add(p["id"])
+        unique.append(p)
+    products = unique
     log(f"Produkty: {[p['id'] for p in products]}")
 
     DATA.mkdir(exist_ok=True)

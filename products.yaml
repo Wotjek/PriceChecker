@@ -34,6 +34,7 @@ products:
   - id: DT Swiss Fatbike
     name: DT Swiss Fatbike
     ean: H350LDIXR32SA1859S
+    max_pln: 1500
     queries:
       - DT Swiss Fatbike 15x150
   - id: DT SWISS 350 12x148
@@ -45,20 +46,32 @@ products:
     name: Ritchey WCS Carbon ErgoMax
     ean: "30355427076"
     variant: "42"
+    min_pln: 600
+    require_tokens:
+      - carbon
     queries:
       - Ritchey WCS Carbon ErgoMax 42cm
   - id: Canyon S14 VCLS 2.0
     name: Canyon S14 VCLS 2.0
+    require_tokens:
+      - s14
     queries:
       - Canyon S14 VCLS 2.0 27.2mm CF Seatpost
-  - id: SRAM GX Eagle Transmission
-    name: SRAM GX Eagle Transmission
+  - id: GX-T-KIT
+    name: SRAM GX Eagle Transmission Upgrade Kit
     ean: "4251761517573"
+    min_pln: 800
+    require_tokens:
+      - kit
     queries:
       - SRAM GX Eagle Transmission 1x12 Upgrade Kit
-  - id: SRAM GX Eagle Transmission
+  - id: GX-T-CHAIN
     name: SRAM GX Eagle Transmission Łańcuch
     ean: 00.2518.054.010
+    min_pln: 80
+    max_pln: 600
+    require_tokens:
+      - chain|kette|catena|lancuch|łańcuch|ketting|chaine
     queries:
       - SRAM GX Eagle Transmission Flattop 12-speed Chain
   - id: Cane Creek 40 IS41/IS52
