@@ -152,5 +152,107 @@
       "first_seen": "2026-07-05",
       "via": "serpapi"
     }
+  },
+  "Lake MX190-X Wide": {
+    "https://allegro.pl/produkt/buty-wpinane-w-pedaly-lake-mx190-x-szerokie-mtb-r-45-e8bbd3eb-5d2c-4c56-998e-f0412d0d6cc0?srsltid=AfmBOorIykMkXFvrqUdPjIoU8w7Own2q2l7JtXy_mZjdqelscy78V-E6": {
+      "domain": "allegro.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.bike24.at/p1964969.html": {
+      "domain": "bike24.at",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.bike24.com/p2964969.html": {
+      "domain": "bike24.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.bike24.fi/tuotteet/964969": {
+      "domain": "bike24.fi",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.bike24.es/productos/964969": {
+      "domain": "bike24.es",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.bike24.nl/producten/964969": {
+      "domain": "bike24.nl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://allegro.pl/produkt/buty-wpinane-w-pedaly-lake-mx190-x-szerokie-mtb-r-45-e8bbd3eb-5d2c-4c56-998e-f0412d0d6cc0?srsltid=AfmBOorVGgCfivYSF3AFXyz2N7U5kZyDRkyrHfieBbvH7mF5Jw7ntdn2": {
+      "domain": "allegro.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://www.bike24.pl/produkty/964969": {
+      "domain": "bike24.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://www.fahrrad-sperk.de/product/lake-mx190-x-wide-111253/": {
+      "domain": "fahrrad-sperk.de",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.bike24.de/p1964969.html": {
+      "domain": "bike24.de",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.bike-discount.de/de/lake-mx190-x-wide-mtb-schuhe": {
+      "domain": "bike-discount.de",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.sport-bittl.com/de/lake-mx190-wide-mountainbikeschuhe-schwarz::255373.html?srsltid=AfmBOopCcIXeGqeppniVUaErX3eq_if08HnrPFGDTtWKXofiVmcqqOEV": {
+      "domain": "sport-bittl.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.mtb-news.de/forum/t/schuhe-fuer-breite-fuesse-lake-mx238-x-eng.995204/": {
+      "domain": "mtb-news.de",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://de.lakecycling.com/collections/offroad": {
+      "domain": "de.lakecycling.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.hoopsvelo.com/lake?srsltid=AfmBOooJX-MkkiWJUJ9RuLP9MCKnOWvR56K7iUxpmcYNnxOQE1VGjQlI": {
+      "domain": "hoopsvelo.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.biwakschachtel-tuebingen.de/schuhe/maenner/halbschuhe/radschuhe/lake-mx190-wide.html": {
+      "domain": "biwakschachtel-tuebingen.de",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.bike-discount.de/en/lake-mx190-x-wide-mtb-shoes": {
+      "domain": "bike-discount.de",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://allegro.pl/produkt/buty-wpinane-w-pedaly-lake-mx190-x-szerokie-mtb-r-45-5-17a44c3b-0ab4-4ee2-8830-5f73fa05d81f?srsltid=AfmBOookDh1EjaR4EAwmRnrClwbD5D6RNo-VmepdsCrVzkGAIvkDPPpg": {
+      "domain": "allegro.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://www.hoopsvelo.com/lake?srsltid=AfmBOoqiysjSIh9jWvtxEGdoTvDyKI702Hc8dbGO6PYd5bZT-RxRdZ-4": {
+      "domain": "hoopsvelo.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://www.deporvillage.pl/buty-lake-mx239-x-wide-czarne?srsltid=AfmBOooAjbeMLm8KMEUwegkc_Q2Ud0oyp9JJDk0RzSl-eYFWKvVyqLBv": {
+      "domain": "deporvillage.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    }
   }
 }

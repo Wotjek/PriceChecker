@@ -1,8 +1,9 @@
-Produkty: ['FM2797', 'LAUF-CARBONARA']
+Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide']
 [DISCOVERY] Silniki: ['serpapi']
 [DISCOVERY] FM2797: +0 nowych URL-i (razem 26)
 [DISCOVERY] LAUF-CARBONARA: +0 nowych URL-i (razem 4)
-[SERPAPI] Limit: pozostalo 243 z 250 (zuzyte w tym miesiacu: 7)
+[DISCOVERY] Lake MX190-X Wide: +20 nowych URL-i (razem 20)
+[SERPAPI] Limit: pozostalo 240 z 250 (zuzyte w tym miesiacu: 10)
 [FX] Kursy NBP pobrane (33 walut)
 [MONITOR] FM2797: sprawdzam 26 URL-i
   - performancebike.com: waluta USD poza dozwolonym regionem - pomijam
@@ -21,13 +22,13 @@ Produkty: ['FM2797', 'LAUF-CARBONARA']
   - bobleisure-australia.com: waluta AUD poza dozwolonym regionem - pomijam
   - lennysbikeshop.com: waluta USD poza dozwolonym regionem - pomijam
   + bobleisure.de: 2009.95 CHF = 9372.2 PLN
-  + goldsprintshop.com: 1899.9 EUR = 8142.4 PLN
+  - goldsprintshop.com: blad pobierania (ConnectTimeout)
   - nowbikes-fitness.com: waluta USD poza dozwolonym regionem - pomijam
   - biketour-global.de: brak danych o cenie
   - bike-packing.de: brak danych o cenie
   - 99spokes.com: brak danych o cenie
   - spokesmanbicycles.com: waluta USD poza dozwolonym regionem - pomijam
-  + goldsprintshop.com: 1899.9 EUR = 8142.4 PLN
+  - goldsprintshop.com: blad pobierania (ConnectTimeout)
   - spokesmanbicycles.com: waluta USD poza dozwolonym regionem - pomijam
   - togabikes.com: waluta USD poza dozwolonym regionem - pomijam
   - 99spokes.com: brak danych o cenie
@@ -36,8 +37,30 @@ Produkty: ['FM2797', 'LAUF-CARBONARA']
   - ridefatbikes.ca: brak danych o cenie
   - lunacycle.com: niedostepny (outofstock)
   - fatbikeadventures-store.com: brak danych o cenie
-[HISTORIA] FM2797: najnizsza 8142.4 PLN (goldsprintshop.com)
+[MONITOR] Lake MX190-X Wide: sprawdzam 20 URL-i
+  - allegro.pl: HTTP 403
+  - bike24.at: HTTP 403
+  - bike24.com: HTTP 403
+  - bike24.fi: HTTP 403
+  - bike24.es: HTTP 403
+  - bike24.nl: HTTP 403
+  - allegro.pl: HTTP 403
+  - bike24.pl: HTTP 403
+  - fahrrad-sperk.de: brak danych o cenie
+  - bike24.de: HTTP 403
+  - bike-discount.de: niedostepny (outofstock)
+  + sport-bittl.com: 165.0 EUR = 707.14 PLN
+  - mtb-news.de: HTTP 403
+  - de.lakecycling.com: brak danych o cenie
+  - hoopsvelo.com: brak danych o cenie
+  - biwakschachtel-tuebingen.de: brak danych o cenie
+  - bike-discount.de: niedostepny (outofstock)
+  - allegro.pl: HTTP 403
+  - hoopsvelo.com: brak danych o cenie
+  - deporvillage.pl: HTTP 403
+[HISTORIA] FM2797: najnizsza 8567.11 PLN (bike-packing.de)
 [HISTORIA] LAUF-CARBONARA: brak dostepnych ofert dzisiaj
+[HISTORIA] Lake MX190-X Wide: najnizsza 707.14 PLN (sport-bittl.com)
 [EXCEL] Zapisano /home/runner/work/PriceChecker/PriceChecker/output/prices.xlsx
 [DASHBOARD] Zapisano /home/runner/work/PriceChecker/PriceChecker/output/dashboard.html
 Gotowe.
