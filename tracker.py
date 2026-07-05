@@ -450,6 +450,7 @@ def fetch_offers(products, sources, rates):
         excluded = set(p.get("exclude_domains") or [])
         worldwide = bool(p.get("worldwide"))
         variant = str(p.get("variant") or "").strip().lower()
+        strict = bool(p.get("variant_strict"))
         allowed_cur = WORLDWIDE_CURRENCIES if worldwide else ALLOWED_CURRENCIES
         urls = dict(sources.get(pid, {}))
         for u in p.get("seed_urls") or []:
@@ -487,6 +488,10 @@ def fetch_offers(products, sources, rates):
                     vnote = f" [wariant {variant} dopasowany]"
                 elif any(c["ident"] for c in cands):
                     log(f"  - {dom}: brak wariantu '{variant}' wsrod ofert - pomijam")
+                    continue
+                elif strict:
+                    log(f"  - {dom}: cena zbiorcza bez informacji o wariantach "
+                        f"- pomijam (variant_strict)")
                     continue
                 else:
                     vnote = f" [wariant {variant} NIEZWERYFIKOWANY - cena zbiorcza]"
