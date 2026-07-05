@@ -1,0 +1,43 @@
+Produkty: ['FM2797', 'LAUF-CARBONARA']
+[DISCOVERY] Silniki: ['serpapi']
+[DISCOVERY] FM2797: +21 nowych URL-i (razem 26)
+[DISCOVERY] LAUF-CARBONARA: +0 nowych URL-i (razem 4)
+[SERPAPI] Limit: pozostalo 245 z 250 (zuzyte w tym miesiacu: 5)
+[FX] Kursy NBP pobrane (33 walut)
+[MONITOR] FM2797: sprawdzam 26 URL-i
+  - performancebike.com: waluta USD poza dozwolonym regionem - pomijam
+  - epicbikeshop.com: waluta USD poza dozwolonym regionem - pomijam
+  - 2riversbicycle.com: waluta USD poza dozwolonym regionem - pomijam
+  - bigshark.com: waluta USD poza dozwolonym regionem - pomijam
+  - papa-wheelies.com: waluta USD poza dozwolonym regionem - pomijam
+  + bike-packing.de: 1999.0 EUR = 8567.11 PLN
+  + bobleisure.de: 2009.95 CHF = 9372.2 PLN
+  - bobleisure-australia.com: waluta AUD poza dozwolonym regionem - pomijam
+  - lennysbikeshop.com: waluta USD poza dozwolonym regionem - pomijam
+  - bobleisure-canada.com: waluta CAD poza dozwolonym regionem - pomijam
+  - dynamitebikelab.com: waluta USD poza dozwolonym regionem - pomijam
+  - bobleisure.com: waluta USD poza dozwolonym regionem - pomijam
+  - bobleisure.com: waluta USD poza dozwolonym regionem - pomijam
+  - bobleisure-australia.com: waluta AUD poza dozwolonym regionem - pomijam
+  - lennysbikeshop.com: waluta USD poza dozwolonym regionem - pomijam
+  + bobleisure.de: 2009.95 CHF = 9372.2 PLN
+  - goldsprintshop.com: blad pobierania (ConnectTimeout)
+  - nowbikes-fitness.com: waluta USD poza dozwolonym regionem - pomijam
+  - biketour-global.de: brak danych o cenie
+  - bike-packing.de: brak danych o cenie
+  - 99spokes.com: brak danych o cenie
+  - spokesmanbicycles.com: waluta USD poza dozwolonym regionem - pomijam
+  - goldsprintshop.com: blad pobierania (ConnectTimeout)
+  - spokesmanbicycles.com: waluta USD poza dozwolonym regionem - pomijam
+  - togabikes.com: waluta USD poza dozwolonym regionem - pomijam
+  - 99spokes.com: brak danych o cenie
+[MONITOR] LAUF-CARBONARA: sprawdzam 4 URL-i
+  - laufcycles.com: brak danych o cenie
+  - ridefatbikes.ca: brak danych o cenie
+  - lunacycle.com: niedostepny (outofstock)
+  - fatbikeadventures-store.com: brak danych o cenie
+[HISTORIA] FM2797: najnizsza 8567.11 PLN (bike-packing.de)
+[HISTORIA] LAUF-CARBONARA: brak dostepnych ofert dzisiaj
+[EXCEL] Zapisano /home/runner/work/PriceChecker/PriceChecker/output/prices.xlsx
+[DASHBOARD] Zapisano /home/runner/work/PriceChecker/PriceChecker/output/dashboard.html
+Gotowe.
