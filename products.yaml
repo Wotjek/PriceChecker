@@ -1,0 +1,41 @@
+# =============================================================
+# USTAWIENIA GLOBALNE
+# =============================================================
+settings:
+  # Wymagane dla przycisku FIRE w dashboardzie: "wlasciciel/nazwa-repo"
+  github_repo: "Wotjek/PriceChecker"
+  branch: "main"
+
+# =============================================================
+# LISTA PRODUKTÓW DO MONITOROWANIA
+# Dodawaj / usuwaj wpisy - skrypt zawsze bierze cały zakres.
+# =============================================================
+# Pola:
+#   id          - unikalny identyfikator (np. numer katalogowy) - nazwa arkusza w Excelu
+#   name        - czytelna nazwa produktu
+#   ean         - kod EAN/GTIN (opcjonalny, ale mocno poprawia discovery)
+#   queries     - dodatkowe frazy do wyszukiwania w Google (opcjonalne)
+#   seed_urls   - ręcznie dodane adresy stron produktowych (opcjonalne)
+#   exclude_domains - domeny do pominięcia dla tego produktu (opcjonalne)
+#   worldwide   - true = wyjątek od filtra Europy kontynentalnej: dopuszcza
+#                 sklepy z całego świata i waluty USD/GBP/CAD/AUD
+#                 (nadal przelicza na PLN po kursie NBP)
+
+products:
+  - id: FM2797
+    name: "Salsa Cutthroat C Frameset"
+    ean: ""
+    queries:
+      - '"FM2797"'
+      - '"Salsa Cutthroat C" frameset'
+    seed_urls: []
+    exclude_domains: []
+
+  - id: LAUF-CARBONARA
+    name: "Lauf Carbonara fork"
+    ean: ""
+    worldwide: true          # dostępny głównie w US - filtr geograficzny wyłączony
+    queries:
+      - '"Lauf Carbonara" fork'
+    seed_urls: []
+    exclude_domains: []
