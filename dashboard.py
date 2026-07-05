@@ -412,9 +412,11 @@ async function loadConfig(){
     drawConfigForm();
   }catch(e){ $('cfgBox').innerHTML=`<div class="emptybig">Błąd wczytania products.yaml: ${esc(e.message)}</div>`; }
 }
+const CFG_KNOWN = ['id','name','ean','target_pln','worldwide','queries','seed_urls','exclude_domains','variant'];
 function productCard(p, i){
   const lines = a=>(a||[]).join('\n');
-  return `<div class="cfgcard" data-i="${i}">
+  const extra = Object.fromEntries(Object.entries(p).filter(([k])=>!CFG_KNOWN.includes(k)));
+  return `<div class="cfgcard" data-i="${i}" data-extra="${esc(JSON.stringify(extra))}">
     <div class="cfgtop"><span class="disp" style="color:var(--faint);font-size:13px">Produkt</span>
       <button class="del" data-del="${i}">Usuń</button></div>
     <div class="cfgrow">
@@ -422,6 +424,7 @@ function productCard(p, i){
       <div><label>Nazwa</label><input type="text" class="f-name" value="${esc(p.name||'')}"></div>
       <div><label>EAN / GTIN</label><input type="text" class="f-ean" value="${esc(p.ean||'')}"></div>
       <div><label>Cena docelowa (PLN)</label><input type="text" class="f-target" value="${esc(p.target_pln||'')}" placeholder="np. 9500"></div>
+      <div><label>Wariant (np. rozmiar)</label><input type="text" class="f-var" value="${esc(p.variant||'')}" placeholder="np. 56"></div>
       <div class="check"><input type="checkbox" class="f-ww" id="ww${i}" ${p.worldwide?'checked':''}><label for="ww${i}" style="margin:0">worldwide (poza EU)</label></div>
     </div>
     <div class="cfgrow">
@@ -452,14 +455,17 @@ function collectConfig(){
   const list=[...document.querySelectorAll('#cfgList .cfgcard')];
   const splitLines = v=>v.split('\n').map(s=>s.trim()).filter(Boolean);
   state.cfg.products = list.map(c=>{
-    const p={ id:c.querySelector('.f-id').value.trim(),
-      name:c.querySelector('.f-name').value.trim() };
-    const ean=c.querySelector('.f-ean').value.trim(); if(ean)p.ean=ean;
-    const t=c.querySelector('.f-target').value.trim().replace(',','.'); if(t&&!isNaN(+t))p.target_pln=+t;
-    if(c.querySelector('.f-ww').checked)p.worldwide=true;
-    const q=splitLines(c.querySelector('.f-q').value); if(q.length)p.queries=q;
-    const s=splitLines(c.querySelector('.f-seed').value); if(s.length)p.seed_urls=s;
-    const x=splitLines(c.querySelector('.f-ex').value); if(x.length)p.exclude_domains=x;
+    let p={};
+    try{ p = JSON.parse(c.dataset.extra||'{}'); }catch(e){}
+    p.id = c.querySelector('.f-id').value.trim();
+    p.name = c.querySelector('.f-name').value.trim();
+    const ean=c.querySelector('.f-ean').value.trim(); if(ean)p.ean=ean; else delete p.ean;
+    const t=c.querySelector('.f-target').value.trim().replace(',','.'); if(t&&!isNaN(+t))p.target_pln=+t; else delete p.target_pln;
+    const vv=c.querySelector('.f-var').value.trim(); if(vv)p.variant=vv; else delete p.variant;
+    if(c.querySelector('.f-ww').checked)p.worldwide=true; else delete p.worldwide;
+    const q=splitLines(c.querySelector('.f-q').value); if(q.length)p.queries=q; else delete p.queries;
+    const s=splitLines(c.querySelector('.f-seed').value); if(s.length)p.seed_urls=s; else delete p.seed_urls;
+    const x=splitLines(c.querySelector('.f-ex').value); if(x.length)p.exclude_domains=x; else delete p.exclude_domains;
     return p; }).filter(p=>p.id);
 }
 async function saveConfig(andFire){
