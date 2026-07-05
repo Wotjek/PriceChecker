@@ -1,0 +1,101 @@
+# Price Tracker — monitoring najniższych cen (Europa kontynentalna)
+
+Codziennie o 12:00 skrypt:
+1. **Discovery** — pyta Google (Programmable Search) o EAN / frazy każdego produktu i dopisuje nowo znalezione sklepy do bazy (`data/sources.json`). Baza URL-i rośnie w czasie — to Twoje główne aktywo.
+2. **Monitoring** — odwiedza każdy znany URL, wyciąga cenę i dostępność z danych strukturalnych strony (JSON-LD `schema.org/Product`, fallback: meta OpenGraph). Oferty niedostępne (`OutOfStock`) są odrzucane.
+3. **Filtr geograficzny** — tylko Europa kontynentalna: blokada TLD `.uk` (i innych spoza Europy) oraz walut GBP/USD. Akceptowane waluty: PLN, EUR, CZK, DKK, SEK, NOK, CHF, HUF, RON, BGN.
+4. **Przeliczenie na PLN** — po kursie średnim NBP z danego dnia (tabela A), fallback: frankfurter.app (kursy EBC).
+5. **Zapis** — najniższa cena per produkt trafia do `data/history.csv` (data, produkt, cena PLN, cena oryginalna, waluta, sklep, **URL źródła**). Pełny audyt wszystkich ofert: `data/all_offers.csv`.
+6. **Raport Excel** — `output/prices.xlsx` regenerowany po każdym uruchomieniu: arkusz *Podsumowanie*, arkusz *Historia* i osobny arkusz z **wykresem dzień → najniższa cena** dla każdego produktu.
+
+Lista produktów w `products.yaml` — możesz dodawać/usuwać wpisy w dowolnym momencie, skrypt zawsze przetwarza cały aktualny zakres, a kolejne daty dopisują się automatycznie.
+
+---
+
+## Konfiguracja krok po kroku
+
+### 1. Repozytorium
+1. Utwórz **prywatne** repo na GitHubie i wgraj zawartość tego folderu.
+2. W repo: *Settings → Actions → General → Workflow permissions* → zaznacz **Read and write permissions** (bot musi commitować wyniki).
+
+### 2. Google Programmable Search (darmowe 100 zapytań/dzień)
+1. Wejdź na https://programmablesearchengine.google.com → *Add* → w polu "What to search" wybierz **Search the entire web** → utwórz. Skopiuj **Search engine ID** (to jest `GOOGLE_CX`).
+2. Wejdź na https://console.cloud.google.com → utwórz projekt → *APIs & Services → Library* → włącz **Custom Search API** → *Credentials → Create credentials → API key*. Skopiuj klucz (to jest `GOOGLE_API_KEY`).
+
+### 3. Sekrety w repo
+*Settings → Secrets and variables → Actions → New repository secret*:
+- `GOOGLE_API_KEY`
+- `GOOGLE_CX`
+
+Bez sekretów skrypt też działa — pominie discovery i sprawdzi tylko URL-e już zapisane w `data/sources.json` + `seed_urls` z konfiguracji.
+
+### 4. Produkty
+Edytuj `products.yaml`. Minimalny wpis:
+
+```yaml
+  - id: FM2797
+    name: "Salsa Cutthroat C Frameset"
+    ean: "0754625xxxxxx"      # mocno zalecane - najprecyzyjniejsze wyszukiwanie
+    queries:
+      - '"FM2797"'
+```
+
+Wskazówki:
+- `ean` daje najczystsze wyniki (sklepy publikują EAN dla Google Shopping). Znajdziesz go na stronie dowolnego sklepu z produktem albo w danych producenta.
+- `seed_urls` — jeśli znasz już konkretne sklepy, wklej linki do stron produktowych; będą sprawdzane od pierwszego dnia.
+- `exclude_domains` — czarna lista domen dla danego produktu (np. sklep pokazujący inną wersję).
+
+### 5. Uruchomienie
+- Automatycznie: codziennie o **12:00 CEST** (cron `0 10 * * *` w UTC). Zimą, przy zmianie czasu na CET, podmień cron na `0 11 * * *` w `.github/workflows/price-tracker.yml`, żeby zostać przy 12:00. Uwaga: GitHub potrafi opóźnić crony o kilka–kilkanaście minut przy dużym obciążeniu.
+- Ręcznie: zakładka *Actions → Price Tracker → Run workflow* (przydatne do pierwszego testu).
+
+### Uruchomienie lokalne (opcjonalnie)
+```bash
+pip install -r requirements.txt
+set GOOGLE_API_KEY=...   # Windows;  na Linux/Mac: export
+set GOOGLE_CX=...
+python tracker.py
+```
+
+---
+
+## Struktura danych
+
+| Plik | Rola |
+|---|---|
+| `products.yaml` | konfiguracja produktów (edytujesz Ty) |
+| `data/sources.json` | baza znanych URL-i sklepów per produkt (rośnie automatycznie) |
+| `data/history.csv` | historia: najniższa cena / produkt / dzień + URL źródła |
+| `data/all_offers.csv` | audyt: wszystkie znalezione oferty każdego dnia |
+| `output/prices.xlsx` | raport z podsumowaniem, historią i wykresami |
+
+---
+
+## Centrum dowodzenia (`output/dashboard.html`)
+
+Interaktywny panel (SPA) regenerowany przy każdym uruchomieniu — otwierasz w przeglądarce, lokalnie lub prosto z repo.
+
+**Główna:** karuzela wykresów (jeden produkt na raz, strzałki ‹ › / klawiatura / kropki), zakres: Tydzień / Miesiąc / Kwartał / Max, tooltip każdego punktu pokazuje cenę **i sklep**, pod spodem sygnał KUP (gdy cena ≤ ceny docelowej) oraz tabela wszystkich dzisiejszych ofert z linkami.
+
+**Zakładka per produkt:** statystyki (aktualna najniższa, minimum historyczne, średnia okresu z odchyleniem %, liczba sklepów), wykres cen **per sklep** (osobna linia dla każdego sklepu z audytu ofert), tabela ostatnich ofert i pełna historia dziennych minimów z linkami.
+
+**Konfiguracja:** edycja listy produktów (ID/kod, nazwa, EAN, cena docelowa, worldwide, frazy, seed URLs, wykluczenia) bezpośrednio z panelu. Zapis nadpisuje `products.yaml` w repo przez GitHub API — czyli dokładnie ten plik, którego używa workflow. Przycisk „Zapisz + Fire" od razu zbiera ceny dla nowej listy. Uwaga: zapis z panelu usuwa komentarze z pliku YAML.
+
+**Nagłówek:** dioda statusu, data **ostatniego skutecznego odświeżenia** (ostatni udany run workflow z GitHub API; bez tokenu — data ostatniego pomiaru w danych), „Odśwież dane" (pobiera aktualne CSV z repo bez ściągania pliku), **▶ FIRE** (ręczne uruchomienie workflow; po zakończeniu panel sam pobiera świeże dane).
+
+Wymagania FIRE / odświeżania / konfiguracji:
+1. W `products.yaml` uzupełnij `settings.github_repo` (np. `"twojlogin/price-tracker"`).
+2. Token: GitHub → *Settings → Developer settings → Fine-grained tokens* → dostęp tylko do tego repo, uprawnienia **Contents: Read and write** oraz **Actions: Read and write**. Panel poprosi o token przy pierwszym użyciu i trzyma go wyłącznie w Twojej przeglądarce (localStorage).
+
+Uwaga techniczna: w pliku HTML osadzony jest pełny `history.csv` oraz audyt ofert z ostatnich 120 dni (żeby plik nie puchł latami); „Odśwież dane" zawsze pobiera komplet z repo.
+
+Alternatywa ręcznego uruchomienia: zakładka *Actions → Price Tracker → Run workflow* w GitHubie.
+
+## Wyjątki od filtra Europy (`worldwide`)
+
+Produkt z `worldwide: true` (np. Lauf Carbonara) omija blokadę TLD i dopuszcza dodatkowo waluty USD/GBP/CAD/AUD — ceny nadal przeliczane są na PLN po kursie NBP z danego dnia. Pozostałe produkty trzymają się Europy kontynentalnej.
+
+## Znane ograniczenia
+- Sklep bez danych strukturalnych (JSON-LD / meta) zostanie zalogowany jako „brak danych o cenie" — takie przypadki widać w logach Actions i można je obsłużyć punktowo.
+- Nieliczne sklepy blokują boty (Cloudflare) — pojawią się jako błąd HTTP w logach; zwykle wystarczy pominąć, bo cena jest też gdzie indziej.
+- Discovery znajduje tylko sklepy zaindeksowane przez Google z EAN-em/numerem katalogowym na stronie — czyli ~wszystkie realne, ale nie daje matematycznej gwarancji 100%.
