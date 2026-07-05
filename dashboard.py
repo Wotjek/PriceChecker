@@ -8,6 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).parent
 OUTPUT = ROOT / "output"
 OFFERS_CSV = ROOT / "data" / "all_offers.csv"
+QUOTA_FILE = ROOT / "data" / "serpapi_quota.json"
 WORKFLOW_FILE = "price-tracker.yml"
 OFFERS_EMBED_DAYS = 120  # ile dni pelnego audytu ofert osadzac w HTML
 
@@ -101,6 +102,14 @@ nav button:hover{color:var(--ink)}
 .chip .sub{font-size:11px;color:var(--muted);margin-top:2px}
 .chip.hot .val{color:var(--good)}
 
+.quota{display:flex;align-items:center;gap:14px;margin-top:14px;padding:12px 16px;
+  background:var(--panel2);border:1px solid var(--line);border-radius:8px;font-size:13px;color:var(--muted)}
+.quota .lbl{font-family:'Barlow Condensed';text-transform:uppercase;letter-spacing:.14em;
+  font-size:12px;color:var(--faint);flex:none}
+.qbar{flex:1;height:8px;background:var(--line);border-radius:4px;overflow:hidden;min-width:120px}
+.qbar>div{height:100%;background:var(--teal);border-radius:4px}
+.qbar.low>div{background:var(--bad)}
+.quota b{color:var(--ink);font-family:'JetBrains Mono'}
 section.offers{margin-top:34px}
 h3.sect{font-family:'Barlow Condensed';font-weight:600;font-size:19px;text-transform:uppercase;
   letter-spacing:.12em;color:var(--muted);margin:26px 0 12px}
@@ -247,6 +256,7 @@ function renderHome(el){
     </div>
     <div class="dots">${products.map((_,i)=>`<span class="dot ${i===state.idx?'on':''}" data-i="${i}"></span>`).join('')}</div>
   </div>
+  ${quotaWidget()}
   <section class="offers"><h3 class="sect">Wszystkie dzisiejsze oferty <span class="pill" id="offersDate"></span></h3>
   <div id="offersTables"></div></section>`;
 
@@ -275,6 +285,17 @@ function renderHome(el){
   renderOffersTables($('offersTables'), DATA.products);
 }
 
+function quotaWidget(){
+  const q = DATA.serpapi;
+  if(!q || !q.per_month) return '';
+  const left = +q.left||0, total = +q.per_month||0, used = +q.used||0;
+  const pct = total ? Math.max(0, Math.min(100, left/total*100)) : 0;
+  return `<div class="quota">
+    <span class="lbl">Limit SerpAPI</span>
+    <div class="qbar ${pct<20?'low':''}"><div style="width:${pct.toFixed(0)}%"></div></div>
+    <span>pozostało <b>${left}</b> z <b>${total}</b> darmowych zapytań (zużyte: ${used}) · stan z ${esc(q.checked||'')}</span>
+  </div>`;
+}
 function renderOffersTables(wrap, products){
   const dates = state.offers.map(o=>o.date).sort();
   const lastDate = dates[dates.length-1]||'';
@@ -472,22 +493,27 @@ function parseCSV(text){
   const head=rows.shift()||[];
   return rows.map(r=>Object.fromEntries(head.map((h,i)=>[h,r[i]??''])));
 }
-async function fetchCSV(path){
+async function fetchText(path){
   const r = await gh(`/repos/${DATA.repo}/contents/${path}?ref=${DATA.branch}`);
   if(!r.ok) throw new Error(path+': HTTP '+r.status);
   const j = await r.json();
-  let raw;
-  if (j.content){ raw = new TextDecoder().decode(Uint8Array.from(atob(j.content.replace(/\n/g,'')),c=>c.charCodeAt(0))); }
-  else { const r2 = await fetch(j.download_url); raw = await r2.text(); } // pliki >1MB
-  return parseCSV(raw);
+  if (j.content) return new TextDecoder().decode(Uint8Array.from(atob(j.content.replace(/\n/g,'')),c=>c.charCodeAt(0)));
+  const r2 = await fetch(j.download_url); return await r2.text(); // pliki >1MB
 }
+async function fetchCSV(path){ return parseCSV(await fetchText(path)); }
 async function refresh(silent){
   if(!DATA.repo){ toast('Uzupełnij settings.github_repo w products.yaml'); return; }
   if(!getToken()) return;
   try{
     setStatus('run','Pobieram dane…');
     const [h,o]=await Promise.all([fetchCSV('data/history.csv'),fetchCSV('data/all_offers.csv')]);
-    state.history=h; state.offers=o; render();
+    state.history=h; state.offers=o;
+    try{ DATA.serpapi=JSON.parse(await fetchText('data/serpapi_quota.json')); }catch(e){}
+    try{ const cfg=jsyaml.load(await fetchText('products.yaml'))||{};
+      if(Array.isArray(cfg.products)) DATA.products=cfg.products.filter(p=>p&&p.id)
+        .map(p=>({id:p.id,name:p.name||p.id,worldwide:!!p.worldwide,target_pln:p.target_pln}));
+    }catch(e){}
+    render();
     setStatus('ok','Dane aktualne'); loadLastRun();
     if(!silent) toast('Dane odświeżone z GitHuba');
   }catch(e){ setStatus('err','Błąd odświeżania'); toast('Nie udało się pobrać danych: '+e.message); }
@@ -570,6 +596,8 @@ def build_dashboard(rows, products, settings, generated):
                       "target_pln": p.get("target_pln")} for p in products],
         "history": rows,
         "offers": _load_offers_for_embed(),
+        "serpapi": json.loads(QUOTA_FILE.read_text(encoding="utf-8"))
+                   if QUOTA_FILE.exists() else None,
     }
     data_js = json.dumps(payload, ensure_ascii=False).replace("</", "<\\/")
     html = TEMPLATE.replace("__DATA__", data_js).replace("__WORKFLOW__", WORKFLOW_FILE)
