@@ -728,12 +728,23 @@ def fetch_offers(products, sources, rates):
                 elif has_variants:
                     log(f"  - {dom}: brak wariantu '{variant}' wsrod ofert - pomijam")
                     continue
-                elif strict:
-                    log(f"  - {dom}: cena zbiorcza bez informacji o wariantach "
-                        f"- pomijam (variant_strict)")
-                    continue
                 else:
-                    vnote = f" [wariant {variant} NIEZWERYFIKOWANY - cena zbiorcza]"
+                    # cena zbiorcza - ale niektore sklepy (np. Shopware) maja
+                    # osobny URL per rozmiar: wariant widac w URL-u lub tytule
+                    # (".../...-m-56-cm", "Rahmenkit 29 M / 56 cm")
+                    tm = re.search(r"<title[^>]*>(.*?)</title>", r.text,
+                                   re.I | re.S)
+                    page_txt = (final_url + " "
+                                + (tm.group(1) if tm else "")).lower()
+                    if re.search(r"(?<![0-9a-z])" + re.escape(variant)
+                                 + r"(?![0-9a-z])", page_txt):
+                        vnote = f" [wariant {variant} w URL/tytule]"
+                    elif strict:
+                        log(f"  - {dom}: cena zbiorcza bez informacji o wariantach "
+                            f"- pomijam (variant_strict)")
+                        continue
+                    else:
+                        vnote = f" [wariant {variant} NIEZWERYFIKOWANY - cena zbiorcza]"
 
             in_stock = [c for c in cands if not c["avail"] or c["avail"] in IN_STOCK]
             if not in_stock:
