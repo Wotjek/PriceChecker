@@ -29,7 +29,7 @@ products:
     name: "Salsa Cutthroat C Frameset"
     ean: ""
     queries:
-      - '"FM2797"'
+      - '"FM2797" salsa'
       - '"Salsa Cutthroat C" frameset'
     seed_urls: []
     exclude_domains: []
