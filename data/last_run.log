@@ -1,8 +1,8 @@
 Produkty: ['FM2797', 'LAUF-CARBONARA']
 [DISCOVERY] Silniki: ['serpapi']
-[DISCOVERY] FM2797: +21 nowych URL-i (razem 26)
+[DISCOVERY] FM2797: +0 nowych URL-i (razem 26)
 [DISCOVERY] LAUF-CARBONARA: +0 nowych URL-i (razem 4)
-[SERPAPI] Limit: pozostalo 245 z 250 (zuzyte w tym miesiacu: 5)
+[SERPAPI] Limit: pozostalo 243 z 250 (zuzyte w tym miesiacu: 7)
 [FX] Kursy NBP pobrane (33 walut)
 [MONITOR] FM2797: sprawdzam 26 URL-i
   - performancebike.com: waluta USD poza dozwolonym regionem - pomijam
@@ -21,13 +21,13 @@ Produkty: ['FM2797', 'LAUF-CARBONARA']
   - bobleisure-australia.com: waluta AUD poza dozwolonym regionem - pomijam
   - lennysbikeshop.com: waluta USD poza dozwolonym regionem - pomijam
   + bobleisure.de: 2009.95 CHF = 9372.2 PLN
-  - goldsprintshop.com: blad pobierania (ConnectTimeout)
+  + goldsprintshop.com: 1899.9 EUR = 8142.4 PLN
   - nowbikes-fitness.com: waluta USD poza dozwolonym regionem - pomijam
   - biketour-global.de: brak danych o cenie
   - bike-packing.de: brak danych o cenie
   - 99spokes.com: brak danych o cenie
   - spokesmanbicycles.com: waluta USD poza dozwolonym regionem - pomijam
-  - goldsprintshop.com: blad pobierania (ConnectTimeout)
+  + goldsprintshop.com: 1899.9 EUR = 8142.4 PLN
   - spokesmanbicycles.com: waluta USD poza dozwolonym regionem - pomijam
   - togabikes.com: waluta USD poza dozwolonym regionem - pomijam
   - 99spokes.com: brak danych o cenie
@@ -36,7 +36,7 @@ Produkty: ['FM2797', 'LAUF-CARBONARA']
   - ridefatbikes.ca: brak danych o cenie
   - lunacycle.com: niedostepny (outofstock)
   - fatbikeadventures-store.com: brak danych o cenie
-[HISTORIA] FM2797: najnizsza 8567.11 PLN (bike-packing.de)
+[HISTORIA] FM2797: najnizsza 8142.4 PLN (goldsprintshop.com)
 [HISTORIA] LAUF-CARBONARA: brak dostepnych ofert dzisiaj
 [EXCEL] Zapisano /home/runner/work/PriceChecker/PriceChecker/output/prices.xlsx
 [DASHBOARD] Zapisano /home/runner/work/PriceChecker/PriceChecker/output/dashboard.html
