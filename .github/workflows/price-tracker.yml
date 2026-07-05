@@ -1,0 +1,47 @@
+name: Price Tracker
+
+on:
+  schedule:
+    # GitHub Actions używa UTC. 10:00 UTC = 12:00 czasu letniego (CEST).
+    # Zimą (CET) odkomentuj drugą linię i zakomentuj pierwszą, żeby zostać przy 12:00.
+    - cron: "0 10 * * *"
+    # - cron: "0 11 * * *"
+  workflow_dispatch: {}   # możliwość ręcznego uruchomienia z zakładki Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: price-tracker
+  cancel-in-progress: false
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run tracker
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          GOOGLE_CX: ${{ secrets.GOOGLE_CX }}
+        run: python tracker.py
+
+      - name: Commit results
+        run: |
+          git config user.name "price-tracker-bot"
+          git config user.email "actions@github.com"
+          git add data/ output/
+          git diff --cached --quiet && echo "Brak zmian" && exit 0
+          git commit -m "Ceny $(date -u +%F)"
+          git push
