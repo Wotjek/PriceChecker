@@ -302,7 +302,14 @@ def save_serpapi_quota():
 
 # ========================================================== extraction ======
 
-def _iter_jsonld_products(soup):
+PRODUCT_TYPES = {"product", "productgroup", "offer", "aggregateoffer"}
+
+
+def _iter_jsonld_nodes(soup):
+    """Iteruje po wezlach JSON-LD typu Product/ProductGroup/Offer, zbiera tez
+    liste wszystkich napotkanych typow (diagnostyka)."""
+    seen_types = set()
+    nodes = []
     for tag in soup.find_all("script", type="application/ld+json"):
         try:
             data = json.loads(tag.string or "")
@@ -317,8 +324,11 @@ def _iter_jsonld_products(soup):
                 stack += [n for n in node["@graph"] if isinstance(n, dict)]
             t = node.get("@type", "")
             types = t if isinstance(t, list) else [t]
-            if any(str(x).lower() in ("product", "productgroup") for x in types):
-                yield node
+            tl = {str(x).lower() for x in types if x}
+            seen_types |= tl
+            if tl & PRODUCT_TYPES:
+                nodes.append(node)
+    return nodes, seen_types
 
 
 def _norm_availability(val):
@@ -343,48 +353,87 @@ def _parse_price(val):
         return None
 
 
-def extract_offer(html):
-    """Zwraca (price, currency, availability) albo None."""
-    soup = BeautifulSoup(html, "html.parser")
+def _ident_of(obj):
+    parts = []
+    for k in ("sku", "name", "mpn", "url", "@id"):
+        v = obj.get(k)
+        if isinstance(v, dict):
+            v = v.get("name", "")
+        if v:
+            parts.append(str(v))
+    return " ".join(parts).lower()
 
-    best = None
-    for prod in _iter_jsonld_products(soup):
-        offers = prod.get("offers")
-        if not offers:
+
+def _collect_offers(obj, ident, out):
+    """Zbiera oferty z pola offers danego obiektu (obsluga AggregateOffer,
+    zagniezdzonych offers[] i priceSpecification)."""
+    offs = obj.get("offers")
+    if not offs:
+        return
+    offs = list(offs) if isinstance(offs, list) else [offs]
+    for off in offs:
+        if not isinstance(off, dict):
             continue
-        offers = offers if isinstance(offers, list) else [offers]
-        for off in offers:
-            if not isinstance(off, dict):
-                continue
-            # AggregateOffer -> lowPrice, w srodku moga byc tez offers[]
-            inner = off.get("offers")
-            if isinstance(inner, list):
-                offers += [o for o in inner if isinstance(o, dict)]
-            price = _parse_price(off.get("price", off.get("lowPrice")))
-            currency = str(off.get("priceCurrency", "")).upper().strip()
-            avail = _norm_availability(off.get("availability"))
-            if price and currency:
-                cand = (price, currency, avail)
-                if best is None or price < best[0]:
-                    best = cand
-    if best:
-        return best
-
-    # Fallback: meta OpenGraph (czesc sklepow nie ma JSON-LD)
-    mp = soup.find("meta", attrs={"property": "product:price:amount"}) or \
-         soup.find("meta", attrs={"itemprop": "price"})
-    mc = soup.find("meta", attrs={"property": "product:price:currency"}) or \
-         soup.find("meta", attrs={"itemprop": "priceCurrency"})
-    ma = soup.find("meta", attrs={"property": "product:availability"}) or \
-         soup.find("link", attrs={"itemprop": "availability"})
-    if mp and mc:
-        price = _parse_price(mp.get("content"))
-        currency = str(mc.get("content", "")).upper().strip()
-        avail = _norm_availability((ma.get("content") if ma and ma.get("content")
-                                    else ma.get("href") if ma else "instock"))
+        inner = off.get("offers")
+        if isinstance(inner, list):
+            offs += [o for o in inner if isinstance(o, dict)]
+        price = _parse_price(off.get("price", off.get("lowPrice")))
+        currency = str(off.get("priceCurrency", "")).upper().strip()
+        if price is None or not currency:
+            ps = off.get("priceSpecification")
+            if isinstance(ps, list):
+                ps = ps[0] if ps else None
+            if isinstance(ps, dict):
+                price = price if price is not None else _parse_price(ps.get("price"))
+                currency = currency or str(ps.get("priceCurrency", "")).upper().strip()
+        avail = _norm_availability(off.get("availability"))
+        io = off.get("itemOffered")
+        io_ident = _ident_of(io) if isinstance(io, dict) else ""
         if price and currency:
-            return price, currency, avail
-    return None
+            out.append({"price": price, "currency": currency, "avail": avail,
+                        "ident": (_ident_of(off) + " " + io_ident + " " + ident).strip()})
+
+
+def extract_offers(html):
+    """Zwraca (lista_kandydatow, typy_jsonld). Kandydat: dict(price, currency,
+    avail, ident) - ident sluzy dopasowaniu wariantu (np. rozmiaru)."""
+    soup = BeautifulSoup(html, "html.parser")
+    nodes, seen_types = _iter_jsonld_nodes(soup)
+    out = []
+    for node in nodes:
+        ident = _ident_of(node)
+        t = node.get("@type", "")
+        types = {str(x).lower() for x in (t if isinstance(t, list) else [t])}
+        if types & {"offer", "aggregateoffer"}:  # samodzielny wezel Offer
+            price = _parse_price(node.get("price", node.get("lowPrice")))
+            currency = str(node.get("priceCurrency", "")).upper().strip()
+            avail = _norm_availability(node.get("availability"))
+            if price and currency:
+                out.append({"price": price, "currency": currency,
+                            "avail": avail, "ident": ident})
+        _collect_offers(node, ident, out)
+        for v in (node.get("hasVariant") or []):        # ProductGroup
+            if isinstance(v, dict):
+                _collect_offers(v, _ident_of(v), out)
+
+    if not out:  # fallback: meta OpenGraph / microdata
+        mp = (soup.find("meta", attrs={"property": "product:price:amount"})
+              or soup.find("meta", attrs={"property": "og:price:amount"})
+              or soup.find("meta", attrs={"itemprop": "price"}))
+        mc = (soup.find("meta", attrs={"property": "product:price:currency"})
+              or soup.find("meta", attrs={"property": "og:price:currency"})
+              or soup.find("meta", attrs={"itemprop": "priceCurrency"}))
+        ma = (soup.find("meta", attrs={"property": "product:availability"})
+              or soup.find("link", attrs={"itemprop": "availability"})
+              or soup.find("meta", attrs={"itemprop": "availability"}))
+        if mp and mc:
+            price = _parse_price(mp.get("content"))
+            currency = str(mc.get("content", "")).upper().strip()
+            avail = _norm_availability(ma.get("content") or ma.get("href")) if ma else ""
+            if price and currency:
+                out.append({"price": price, "currency": currency,
+                            "avail": avail, "ident": ""})
+    return out, seen_types
 
 
 # ========================================================== monitoring ======
@@ -400,12 +449,14 @@ def fetch_offers(products, sources, rates):
         pid = p["id"]
         excluded = set(p.get("exclude_domains") or [])
         worldwide = bool(p.get("worldwide"))
+        variant = str(p.get("variant") or "").strip().lower()
         allowed_cur = WORLDWIDE_CURRENCIES if worldwide else ALLOWED_CURRENCIES
         urls = dict(sources.get(pid, {}))
         for u in p.get("seed_urls") or []:
             urls.setdefault(u, {"domain": domain_of(u), "first_seen": "seed"})
 
-        log(f"[MONITOR] {pid}: sprawdzam {len(urls)} URL-i")
+        log(f"[MONITOR] {pid}: sprawdzam {len(urls)} URL-i"
+            + (f" (wariant: {variant})" if variant else ""))
         for url, meta in urls.items():
             dom = meta.get("domain") or domain_of(url)
             if not url_allowed(url, excluded, worldwide):
@@ -416,31 +467,51 @@ def fetch_offers(products, sources, rates):
                     log(f"  - {dom}: HTTP {r.status_code}")
                     continue
                 final_url = r.url or url  # kanoniczny adres po przekierowaniach
-                res = extract_offer(r.text)
+                cands, seen_types = extract_offers(r.text)
             except Exception as e:
                 log(f"  - {dom}: blad pobierania ({type(e).__name__})")
                 continue
             finally:
                 time.sleep(SLEEP_BETWEEN_FETCHES)
 
-            if not res:
-                log(f"  - {dom}: brak danych o cenie")
+            if not cands:
+                types = ", ".join(sorted(seen_types)) or "brak JSON-LD"
+                log(f"  - {dom}: brak danych o cenie (typy na stronie: {types})")
                 continue
-            price, currency, avail = res
-            if currency not in allowed_cur:
-                log(f"  - {dom}: waluta {currency} poza dozwolonym regionem - pomijam")
+
+            vnote = ""
+            if variant:
+                matching = [c for c in cands if variant in c["ident"]]
+                if matching:
+                    cands = matching
+                    vnote = f" [wariant {variant} dopasowany]"
+                elif any(c["ident"] for c in cands):
+                    log(f"  - {dom}: brak wariantu '{variant}' wsrod ofert - pomijam")
+                    continue
+                else:
+                    vnote = f" [wariant {variant} NIEZWERYFIKOWANY - cena zbiorcza]"
+
+            in_stock = [c for c in cands if not c["avail"] or c["avail"] in IN_STOCK]
+            if not in_stock:
+                log(f"  - {dom}: niedostepny ({cands[0]['avail']})")
                 continue
-            if avail and avail not in IN_STOCK:
-                log(f"  - {dom}: niedostepny ({avail})")
+            valid_cur = [c for c in in_stock if c["currency"] in allowed_cur]
+            if not valid_cur:
+                log(f"  - {dom}: waluta {in_stock[0]['currency']} poza dozwolonym "
+                    f"regionem - pomijam")
                 continue
-            if currency not in rates:
-                log(f"  - {dom}: brak kursu {currency}")
+            usable = [c for c in valid_cur if c["currency"] in rates]
+            if not usable:
+                log(f"  - {dom}: brak kursu {valid_cur[0]['currency']}")
                 continue
+            best = min(usable, key=lambda c: c["price"] * rates[c["currency"]])
+            price, currency = best["price"], best["currency"]
             price_pln = round(price * rates[currency], 2)
             offers.append({"product_id": pid, "name": p["name"], "url": final_url,
                            "domain": dom, "price": price, "currency": currency,
-                           "price_pln": price_pln, "availability": avail or "instock"})
-            log(f"  + {dom}: {price} {currency} = {price_pln} PLN")
+                           "price_pln": price_pln,
+                           "availability": best["avail"] or "instock"})
+            log(f"  + {dom}: {price} {currency} = {price_pln} PLN{vnote}")
     return offers
 
 
