@@ -16,3 +16,8 @@ products:
       - "\"Lauf Carbonara\" fork"
     seed_urls:
       - https://www.laufcycles.com/product/lauf-carbonara
+  - id: Lake MX190-X Wide
+    name: Lake MX190-X Wide
+    ean: "8718568168347"
+    queries:
+      - Lake MX190-X Wide
