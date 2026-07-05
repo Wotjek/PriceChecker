@@ -1,40 +1,5 @@
 {
   "FM2797": {
-    "https://www.homes.com/property/131-private-road-6441-dayton-tx-unit-fm2797/30rk75rfty2xy/": {
-      "domain": "homes.com",
-      "first_seen": "2026-07-05",
-      "via": "serpapi"
-    },
-    "https://www.daveperrymiller.com/realestate/details/104540002/142-private-road-6432-fm2797-dayton-tx-77535": {
-      "domain": "daveperrymiller.com",
-      "first_seen": "2026-07-05",
-      "via": "serpapi"
-    },
-    "https://www.har.com/homedetail/142-private-road-6432-fm2797-dayton-tx-77535/4773859": {
-      "domain": "har.com",
-      "first_seen": "2026-07-05",
-      "via": "serpapi"
-    },
-    "https://www.redfin.com/TX/Dayton/780-FM2797-77535/home/107376034": {
-      "domain": "redfin.com",
-      "first_seen": "2026-07-05",
-      "via": "serpapi"
-    },
-    "https://www.compass.com/homedetails/142-Private-Road-6432-Unit-FM2797-Dayton-TX-77535/AD7Z5_pid/": {
-      "domain": "compass.com",
-      "first_seen": "2026-07-05",
-      "via": "serpapi"
-    },
-    "https://jesrealtor.com/listing-detail/1181304100/2000-Fm-2797-Dayton-TX": {
-      "domain": "jesrealtor.com",
-      "first_seen": "2026-07-05",
-      "via": "serpapi"
-    },
-    "https://www.har.com/homedetail/131-private-road-6441-fm2797-dayton-tx-77535/4774449": {
-      "domain": "har.com",
-      "first_seen": "2026-07-05",
-      "via": "serpapi"
-    },
     "https://www.performancebike.com/salsa-cutthroat-c-carbon-frameset-deep-orchid-58cm-fm6933/p1810062?v=1807173&srsltid=AfmBOoo-oxT57IL2nDLfdU9b0VefCyiYlNmSrfTSrlTbZpmAZIwmAD5V": {
       "domain": "performancebike.com",
       "first_seen": "2026-07-05",
@@ -77,28 +42,8 @@
       "first_seen": "2026-07-05",
       "via": "serpapi"
     },
-    "https://fat-bike.com/2016/06/lauf-carbonara-review-by-kevin-breitenbach/": {
-      "domain": "fat-bike.com",
-      "first_seen": "2026-07-05",
-      "via": "serpapi"
-    },
-    "https://www.singletracks.com/mtb-gear/test-ride-review-lauf-fat-bike-fork/": {
-      "domain": "singletracks.com",
-      "first_seen": "2026-07-05",
-      "via": "serpapi"
-    },
     "https://fatbikeadventures-store.com/products/lauf-carbonara-fatbike-fork?srsltid=AfmBOor2rhbPi7b08dcfior11nfpLW30UFlIYNyUJy28QAZfWkXu3lC2": {
       "domain": "fatbikeadventures-store.com",
-      "first_seen": "2026-07-05",
-      "via": "serpapi"
-    },
-    "https://worldwidecyclery.com/blogs/worldwide-cyclery-blog/customer-review-lauf-carbonara-fat-bike-suspension-fork?srsltid=AfmBOopGpirAzwBHOvQ1GNBj35tjKW5eDX-oYhUhmbVHRZkQQAig0YOR": {
-      "domain": "worldwidecyclery.com",
-      "first_seen": "2026-07-05",
-      "via": "serpapi"
-    },
-    "https://fat-bike.com/2015/07/lauf-carbonara-tested/": {
-      "domain": "fat-bike.com",
       "first_seen": "2026-07-05",
       "via": "serpapi"
     }
