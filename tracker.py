@@ -394,6 +394,44 @@ def _collect_offers(obj, ident, out):
                         "ident": (_ident_of(off) + " " + io_ident + " " + ident).strip()})
 
 
+def _extract_next_data(soup):
+    """Fallback: sklepy headless Next.js/Shopify (np. laufcycles.com) publikuja
+    dane produktu w skrypcie __NEXT_DATA__ zamiast w JSON-LD. Czytamy tylko
+    props.pageProps.product (glowny produkt strony), zeby nie zlapac cen
+    produktow powiazanych/polecanych."""
+    tag = soup.find("script", id="__NEXT_DATA__")
+    if not tag:
+        return []
+    try:
+        data = json.loads(tag.string or "")
+    except Exception:
+        return []
+    prod = ((data.get("props") or {}).get("pageProps") or {}).get("product")
+    if not isinstance(prod, dict):
+        return []
+    variants = prod.get("variants")
+    if not isinstance(variants, list) or not variants:
+        variants = [prod]
+    out = []
+    for v in variants:
+        if not isinstance(v, dict):
+            continue
+        pr = v.get("price")
+        if not isinstance(pr, dict):
+            continue
+        price = _parse_price(pr.get("amount"))
+        currency = str(pr.get("currencyCode", "")).upper().strip()
+        if not price or not currency:
+            continue
+        afs = v.get("availableForSale")
+        avail = "" if afs is None else ("instock" if afs else "outofstock")
+        ident = " ".join(str(v.get(k) or "") for k in
+                         ("sku", "title", "size", "color")).strip().lower()
+        out.append({"price": price, "currency": currency,
+                    "avail": avail, "ident": ident})
+    return out
+
+
 def extract_offers(html):
     """Zwraca (lista_kandydatow, typy_jsonld). Kandydat: dict(price, currency,
     avail, ident) - ident sluzy dopasowaniu wariantu (np. rozmiaru)."""
@@ -433,6 +471,11 @@ def extract_offers(html):
             if price and currency:
                 out.append({"price": price, "currency": currency,
                             "avail": avail, "ident": ""})
+
+    if not out:  # fallback: headless Next.js/Shopify (__NEXT_DATA__)
+        out = _extract_next_data(soup)
+        if out:
+            seen_types.add("next_data")
     return out, seen_types
 
 
@@ -483,10 +526,14 @@ def fetch_offers(products, sources, rates):
             vnote = ""
             if variant:
                 matching = [c for c in cands if variant in c["ident"]]
+                # strona publikuje warianty tylko, gdy jest >1 odrebny
+                # identyfikator ofert; pojedyncza oferta z sku/nazwa produktu
+                # to cena zbiorcza (np. WooCommerce bez rozbicia na rozmiary)
+                has_variants = len({c["ident"] for c in cands if c["ident"]}) > 1
                 if matching:
                     cands = matching
                     vnote = f" [wariant {variant} dopasowany]"
-                elif any(c["ident"] for c in cands):
+                elif has_variants:
                     log(f"  - {dom}: brak wariantu '{variant}' wsrod ofert - pomijam")
                     continue
                 elif strict:
@@ -530,12 +577,15 @@ OFFER_COLS = ["date", "product_id", "domain", "price", "currency",
 
 def append_history(offers, products, today):
     DATA.mkdir(exist_ok=True)
-    # pelny audyt ofert
-    new_file = not OFFERS_FILE.exists()
-    with OFFERS_FILE.open("a", newline="", encoding="utf-8") as f:
+    # pelny audyt ofert; ponowny run tego samego dnia zastepuje wiersze z ta data
+    old_offers = []
+    if OFFERS_FILE.exists():
+        with OFFERS_FILE.open(newline="", encoding="utf-8") as f:
+            old_offers = [r for r in csv.DictReader(f) if r.get("date") != today]
+    with OFFERS_FILE.open("w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=OFFER_COLS)
-        if new_file:
-            w.writeheader()
+        w.writeheader()
+        w.writerows(old_offers)
         for o in offers:
             w.writerow({"date": today, "product_id": o["product_id"],
                         "domain": o["domain"], "price": o["price"],
