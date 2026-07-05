@@ -5,6 +5,9 @@ settings:
   # Wymagane dla przycisku FIRE w dashboardzie: "wlasciciel/nazwa-repo"
   github_repo: "Wotjek/PriceChecker"
   branch: "main"
+  # Czestotliwosc discovery przy runach z harmonogramu: "weekly" (poniedzialki,
+  # oszczedza limit SerpAPI) lub "daily". Reczny FIRE zawsze robi discovery.
+  discovery: "weekly"
 
 # =============================================================
 # LISTA PRODUKTÓW DO MONITOROWANIA
