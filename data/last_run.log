@@ -1,33 +1,20 @@
-Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 'DT SWISS 350 12x148', 'Ritchey WCS Carbon ErgoMax', 'Canyon S14 VCLS 2.0', 'SRAM GX Eagle Transmission', 'SRAM GX Eagle Transmission', 'Cane Creek 40 IS41/IS52']
-[NORMALIZACJA] Scalono 42 zduplikowanych URL-i (parametry sledzace)
+Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 'DT SWISS 350 12x148', 'Ritchey WCS Carbon ErgoMax', 'Canyon S14 VCLS 2.0', 'GX-T-KIT', 'GX-T-CHAIN', 'Cane Creek 40 IS41/IS52']
 [DISCOVERY] Silniki: ['serpapi', 'serpapi_shopping']
-[DISCOVERY] FM2797: +1 nowych URL-i (razem 27)
+[DISCOVERY][shopping] Blad zapytania '"FM2797" salsa': HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout=60)
+[DISCOVERY][serpapi] Blad zapytania '"Salsa Cutthroat C" frameset': HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout=60)
+[DISCOVERY] FM2797: +0 nowych URL-i (razem 27)
 [DISCOVERY] LAUF-CARBONARA: +0 nowych URL-i (razem 4)
-[DISCOVERY][shopping] Blad zapytania '"8718568168347"': HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout=25)
-[DISCOVERY][shopping] Google hasn't returned any results for this query.
-[DISCOVERY][shopping] Google hasn't returned any results for this query.
-[DISCOVERY] Lake MX190-X Wide: +2 nowych URL-i (razem 26)
-[DISCOVERY][serpapi] Blad zapytania '"H350LDIXR32SA1859S"': HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout=25)
-[DISCOVERY][shopping] Blad zapytania '"H350LDIXR32SA1859S"': HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout=25)
-[DISCOVERY] DT Swiss Fatbike: +37 nowych URL-i (razem 37)
-[DISCOVERY][shopping] Blad zapytania '"H350TCDBR32SA0465S"': HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout=25)
-[DISCOVERY][shopping] Google hasn't returned any results for this query.
-[DISCOVERY][serpapi] Blad zapytania 'DT SWISS 350 12x148 32 Sram XD': HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout=25)
-[DISCOVERY] DT SWISS 350 12x148: +32 nowych URL-i (razem 32)
-[DISCOVERY] Ritchey WCS Carbon ErgoMax: +36 nowych URL-i (razem 36)
-[DISCOVERY] Canyon S14 VCLS 2.0: +11 nowych URL-i (razem 11)
-[DISCOVERY][shopping] Google hasn't returned any results for this query.
-[DISCOVERY][shopping] Google hasn't returned any results for this query.
-[DISCOVERY][shopping] Google hasn't returned any results for this query.
-[DISCOVERY] SRAM GX Eagle Transmission: +23 nowych URL-i (razem 23)
-[DISCOVERY][shopping] Blad zapytania '"00.2518.054.010"': HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout=25)
-[DISCOVERY] SRAM GX Eagle Transmission: +44 nowych URL-i (razem 67)
-[DISCOVERY][serpapi] Blad zapytania '"840226078472"': HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout=25)
-[DISCOVERY][shopping] Google hasn't returned any results for this query.
-[DISCOVERY][shopping] Google hasn't returned any results for this query.
-[DISCOVERY][shopping] Blad zapytania '"840226078472"': HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout=25)
-[DISCOVERY] Cane Creek 40 IS41/IS52: +37 nowych URL-i (razem 37)
-[SERPAPI] Limit: pozostalo 142 z 250 (zuzyte w tym miesiacu: 108)
+[DISCOVERY] Lake MX190-X Wide: +1 nowych URL-i (razem 29)
+[DISCOVERY] DT Swiss Fatbike: +3 nowych URL-i (razem 40)
+[DISCOVERY][serpapi] Blad zapytania 'DT SWISS 350 12x148 32 Sram XD': HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout=60)
+[DISCOVERY] DT SWISS 350 12x148: +9 nowych URL-i (razem 41)
+[DISCOVERY] Ritchey WCS Carbon ErgoMax: +6 nowych URL-i (razem 42)
+[DISCOVERY] Canyon S14 VCLS 2.0: +1 nowych URL-i (razem 15)
+[DISCOVERY][shopping] Blad zapytania '"4251761517573"': HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout=60)
+[DISCOVERY] GX-T-KIT: +2 nowych URL-i (razem 69)
+[DISCOVERY] GX-T-CHAIN: +1 nowych URL-i (razem 68)
+[DISCOVERY] Cane Creek 40 IS41/IS52: +6 nowych URL-i (razem 43)
+[SERPAPI] Limit: pozostalo 63 z 250 (zuzyte w tym miesiacu: 187)
 [FX] Kursy NBP pobrane (33 walut)
 [MONITOR] FM2797: sprawdzam 29 URL-i (wariant: 56)
   - performancebike.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
@@ -46,18 +33,15 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - nowbikes-fitness.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   ~ biketour-global.de: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
   ~ bike-packing.de: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
-  - 99spokes.com: brak danych o cenie (typy na stronie: breadcrumblist, product)
   - spokesmanbicycles.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   - goldsprintshop.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   - togabikes.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
-  - 99spokes.com: brak danych o cenie (typy na stronie: breadcrumblist, product)
   + imfixies.it: 2317.5 EUR = 9932.11 PLN [wariant 56 dopasowany]
   - yawpcyclery.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   - webcyclery.com: brak danych o cenie (typy na stronie: videoobject)
   - bikeman.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   - followmestore.de: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - 99spokes.com: brak danych o cenie (typy na stronie: breadcrumblist, product)
-  - stateofbike.it: blad pobierania (ConnectTimeout)
+  - stateofbike.it: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   + bikejamming.it: 2499.0 EUR = 10709.96 PLN [wariant 56 dopasowany]
   - biketour-global.de: brak danych o cenie (typy na stronie: brak JSON-LD)
   - biketour-global.de: HTTP 400
@@ -70,8 +54,8 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - ridefatbikes.ca: brak danych o cenie (typy na stronie: localbusiness, organization, website)
   - lunacycle.com: niedostepny (outofstock)
   + fatbikeadventures-store.com: 1100.0 EUR = 4714.27 PLN
-[MONITOR] Lake MX190-X Wide: sprawdzam 26 URL-i (wariant: 45)
-  - allegro.pl: HTTP 403
+[MONITOR] Lake MX190-X Wide: sprawdzam 29 URL-i (wariant: 45)
+  - allegro.pl: blad pobierania (ReadTimeout)
   - bike24.at: HTTP 403
   - bike24.com: HTTP 403
   - bike24.fi: HTTP 403
@@ -82,8 +66,7 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - bike24.de: HTTP 403
   - bike-discount.de: niedostepny (outofstock)
   + sport-bittl.com: 165.0 EUR = 707.14 PLN [wariant 45 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
-  - mtb-news.de: HTTP 403
-  ~ de.lakecycling.com: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
+  - de.lakecycling.com: brak danych o cenie (typy na stronie: collectionpage, faqpage)
   - hoopsvelo.com: brak danych o cenie (typy na stronie: organization, store)
   ~ biwakschachtel-tuebingen.de: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
   - bike-discount.de: niedostepny (outofstock)
@@ -98,54 +81,48 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   ~ nl.lakecycling.com: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
   + sport-bittl.com: 165.0 EUR = 707.14 PLN [wariant 45 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
   + de.lakecycling.com: 199.0 EUR = 852.85 PLN [wariant 45 dopasowany] [EAN OK]
+  + nl.lakecycling.com: 199.0 EUR = 852.85 PLN [wariant 45 dopasowany] [EAN OK]
+  ~ lakecycling.com: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
   - biwakschachtel-tuebingen.de: brak danych o cenie (typy na stronie: brak JSON-LD)
   - biwakschachtel-tuebingen.de: brak danych o cenie (typy na stronie: brak JSON-LD)
   - biwakschachtel-tuebingen.de: brak danych o cenie (typy na stronie: brak JSON-LD)
   - lakecycling.com: waluta USD poza dozwolonym regionem - pomijam
   + nl.lakecycling.com: 199.0 EUR = 852.85 PLN [wariant 45 dopasowany] [EAN OK]
-[MONITOR] DT Swiss Fatbike: sprawdzam 37 URL-i
+  - lakecycling.com: waluta USD poza dozwolonym regionem - pomijam
+[MONITOR] DT Swiss Fatbike: sprawdzam 40 URL-i
   - bike24.de: HTTP 403
   - universalcycles.com: waluta USD poza dozwolonym regionem - pomijam
-  - dtswiss.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   + rczbikeshop.com: 71.99 EUR = 308.53 PLN [EAN OK]
   - velosiped.com: HTTP 403
   - performancebike.com: niedostepny (outofstock)
   - bike24.com: HTTP 403
-  - dtswiss.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - rowertour.com: niedostepny (outofstock)
-  - bikestacja.pl: niedostepny (in stock)
+  + bikestacja.pl: 419.99 PLN = 419.99 PLN [EAN OK]
   + rczbikeshop.com: 71.99 EUR = 308.53 PLN [EAN OK]
-  - dtswiss.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - dtswiss.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - r2-bike.com: HTTP 403
   - bike24.de: HTTP 403
   - raaad.de: niedostepny (outofstock)
   - fat-bike.de: blad pobierania (SSLError)
   - ridewill.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - dtswiss.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  + bikestacja.pl: 2470.0 PLN = 2470.0 PLN [EAN niepotwierdzony]
+  - bikestacja.pl: 2470.0 PLN poza widelkami [-..1500.0] - pomijam
   - rowertour.com: brak danych o cenie (typy na stronie: breadcrumblist, itemlist, webpage)
-  + fitwheels.eu: 2470.0 PLN = 2470.0 PLN [EAN niepotwierdzony]
-  - ceneo.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - dtswiss.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  ~ bikecenter.pl: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
-  - dtswiss.com: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - fitwheels.eu: 2470.0 PLN poza widelkami [-..1500.0] - pomijam
+  - bikecenter.pl: brak danych o cenie (typy na stronie: breadcrumblist)
   - raaad.com: niedostepny (outofstock)
   - allegro.pl: HTTP 403
   + bike-discount.de: 71.99 EUR = 308.53 PLN [EAN OK]
   - r2-bike.com: HTTP 403
   - bike24.it: HTTP 403
   - pianetamountainbike.it: brak danych o cenie (typy na stronie: newsarticle)
-  - amazon.it: brak danych o cenie (typy na stronie: brak JSON-LD)
   - fedelebikes.ch: brak danych o cenie (typy na stronie: brak JSON-LD)
   - mtbcult.it: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, newsarticle, organization, person, webpage, website)
-  - dtswiss.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - 4actionsport.it: brak danych o cenie (typy na stronie: article, breadcrumblist, imageobject, organization, person, webpage, website)
-  - bikecenter.pl: brak danych o cenie (typy na stronie: breadcrumblist)
-[MONITOR] DT SWISS 350 12x148: sprawdzam 32 URL-i
+  - velosiped.com: HTTP 403
+  + bike-components.de: 71.99 EUR = 308.53 PLN [EAN OK]
+  - bike-rs.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
+[MONITOR] DT SWISS 350 12x148: sprawdzam 41 URL-i
   + bike-components.de: 119.99 EUR = 514.24 PLN [EAN OK]
   - bike24.de: HTTP 403
-  - dtswiss.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   + dt4you.com: 960.0 PLN = 960.0 PLN [EAN OK]
   ~ ridewill.com: brak ceny, ale znalazlem 2 link(i) produktowe - sprawdzam
   - velosiped.com: HTTP 403
@@ -154,243 +131,222 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - sportano.pl: niedostepny (outofstock)
   - bike24.com: HTTP 403
   - worldwidecyclery.com: waluta USD poza dozwolonym regionem - pomijam
-  - dtswiss.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   ~ ridewill.it: brak ceny, ale znalazlem 2 link(i) produktowe - sprawdzam
-  ~ kerekagy.arukereso.hu: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
   - bike24.de: HTTP 403
   - raaad.de: niedostepny (outofstock)
   + mtbiker.de: 249.0 EUR = 1067.14 PLN [EAN niepotwierdzony]
   - fahrrad24.de: HTTP 403
-  - dtswiss.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - whizz-wheels.de: brak danych o cenie (typy na stronie: brak JSON-LD)
+  ~ whizz-wheels.de: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
   + mtbiker.de: 209.0 EUR = 895.71 PLN [EAN niepotwierdzony]
   - tnc-hamburg.com: niedostepny (backorder)
   - bike24.it: HTTP 403
   + cingolanibikeshop.com: 204.9 EUR = 878.14 PLN [EAN niepotwierdzony]
-  - dtswiss.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - deporvillage.it: HTTP 403
   + mtbiker.it: 249.0 EUR = 1067.14 PLN [EAN niepotwierdzony]
   - bikedirection.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - bicidastrada.it: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, newsarticle, organization, person, sportsclub, webpage, website)
   - velondo.it: HTTP 403
-  - idealo.it: HTTP 503
   - 4actionsport.it: brak danych o cenie (typy na stronie: article, breadcrumblist, imageobject, organization, person, webpage, website)
+  - bike24.pl: HTTP 403
+  + bikestacja.pl: 922.99 PLN = 922.99 PLN [EAN OK]
+  - pl.wikipedia.org: brak danych o cenie (typy na stronie: article)
+  - dt-automatyzacja.pl: brak danych o cenie (typy na stronie: breadcrumblist, organization, webpage, website)
+  - diki.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - dt-consulting.com.pl: HTTP 500
+  - obroza-elektryczna.pl: brak danych o cenie (typy na stronie: organization, website)
+  - agrodane.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - rejestr.io: HTTP 403
   - ridewill.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - ridewill.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - formicki-bike.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - ridewill.it: brak danych o cenie (typy na stronie: brak JSON-LD)
   - ridewill.it: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - kerekagy.arukereso.hu: HTTP 403
-[MONITOR] Ritchey WCS Carbon ErgoMax: sprawdzam 36 URL-i (wariant: 42)
-  - performancebike.com: niedostepny (outofstock)
+  + whizz-wheels.de: 239.9 EUR = 1028.14 PLN [EAN niepotwierdzony]
+[MONITOR] Ritchey WCS Carbon ErgoMax: sprawdzam 42 URL-i (wariant: 42)
+  - performancebike.com: brak wymaganych slow (carbon) - pomijam
   - all4bikes.be: HTTP 403
-  - universalcycles.com: waluta USD poza dozwolonym regionem - pomijam
+  - universalcycles.com: brak wymaganych slow (carbon) - pomijam
   - bike24.de: HTTP 403
-  + ttw-offroad.de: 125.38 EUR = 537.34 PLN [wariant 42 NIEZWERYFIKOWANY - cena zbiorcza] [EAN OK]
-  - emeraldbaybikes.com: waluta USD poza dozwolonym regionem - pomijam
-  - amazon.de: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - ttw-offroad.de: brak wymaganych slow (carbon) - pomijam
+  - emeraldbaybikes.com: brak wymaganych slow (carbon) - pomijam
   - fahrrad-magdeburg.de: HTTP 403
-  - geizhals.at: HTTP 403
   - bike24.com: HTTP 403
-  - specializedrocklin.com: waluta USD poza dozwolonym regionem - pomijam
+  - specializedrocklin.com: brak wymaganych slow (carbon) - pomijam
   ~ cyklomania.pl: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
-  + rosebikes.pl: 88.95 EUR = 381.21 PLN [wariant 42 dopasowany] [EAN OK]
+  - rosebikes.pl: brak wymaganych slow (carbon) - pomijam
   - bikeparts.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - bike24.it: HTTP 403
-  + rosebikes.it: 91.19 EUR = 390.81 PLN [wariant 42 dopasowany] [EAN OK]
-  + rosebikes.de: 88.95 EUR = 381.21 PLN [wariant 42 dopasowany] [EAN OK]
+  - rosebikes.it: brak wymaganych slow (carbon) - pomijam
+  - rosebikes.de: brak wymaganych slow (carbon) - pomijam
   - bike24.de: HTTP 403
   + bikeshopzizers.ch: 230.34 CHF = 1074.05 PLN [wariant 42 dopasowany] [EAN niepotwierdzony]
-  + bike-components.de: 85.99 EUR = 368.53 PLN [wariant 42 dopasowany] [EAN OK]
-  - geizhals.de: HTTP 403
-  - ritcheylogic.com: waluta USD poza dozwolonym regionem - pomijam
+  - bike-components.de: brak wymaganych slow (carbon) - pomijam
+  - ritcheylogic.com: brak wymaganych slow (carbon) - pomijam
   - bike24.pl: HTTP 403
   - deporvillage.pl: HTTP 403
   - formicki-bike.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - velo-store.pl: brak danych o cenie (typy na stronie: product)
-  - centrumrowerowe.pl: blad pobierania (ConnectTimeout)
+  - centrumrowerowe.pl: brak wymaganych slow (carbon) - pomijam
   ~ topbici.es: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
   - allegrolokalnie.pl: brak danych o cenie (typy na stronie: itemlist, website)
   - bike-store-treviso.it: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - idealo.it: HTTP 503
-  - eventbike.it: blad pobierania (SSLError)
+  - eventbike.it: brak danych o cenie (typy na stronie: article, breadcrumblist, imageobject, organization, person, webpage, website)
   - ridewill.it: brak danych o cenie (typy na stronie: brak JSON-LD)
   - troianocicli.it: brak danych o cenie (typy na stronie: brak JSON-LD)
   - deporvillage.it: HTTP 403
-  - amazon.it: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - bike24.pl: HTTP 403
+  - sportisgood.pl: brak wymaganych slow (carbon) - pomijam
+  - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - deporvillage.pl: HTTP 403
+  - advntr.cc: brak wymaganych slow (carbon) - pomijam
+  - gravelbikeshop.com: waluta USD poza dozwolonym regionem - pomijam
   - cyklomania.pl: HTTP 404
   - cyklomania.pl: HTTP 404
   - cyklomania.pl: HTTP 404
   - topbici.es: brak danych o cenie (typy na stronie: breadcrumblist, itempage, organization, person, website)
   - topbici.es: brak danych o cenie (typy na stronie: breadcrumblist, itempage, organization, person, website)
   - topbici.es: brak danych o cenie (typy na stronie: breadcrumblist, itempage, organization, person, website)
-[MONITOR] Canyon S14 VCLS 2.0: sprawdzam 11 URL-i
+[MONITOR] Canyon S14 VCLS 2.0: sprawdzam 15 URL-i
   + canyon.com: 199.99 EUR = 857.1 PLN
   + canyon.com: 199.99 EUR = 857.1 PLN
-  - scribd.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   + canyon.com: 909.99 PLN = 909.99 PLN
-  + canyon.com: 909.99 PLN = 909.99 PLN
+  - canyon.com: brak wymaganych slow (s14) - pomijam
   ~ canyon.com: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
   - mtbiker.pl: HTTP 403
   + canyon.com: 199.99 EUR = 857.1 PLN
   + canyon.com: 199.99 EUR = 857.1 PLN
-  + canyon.com: 199.99 EUR = 857.1 PLN
-  ~ aliexpress.com: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
-  + canyon.com: 909.99 PLN = 909.99 PLN
-  + canyon.com: 679.99 PLN = 679.99 PLN
-  + canyon.com: 909.99 PLN = 909.99 PLN
-  - aliexpress.com: brak danych o cenie (typy na stronie: breadcrumblist)
-  - aliexpress.com: brak danych o cenie (typy na stronie: breadcrumblist, product)
-  - aliexpress.com: brak danych o cenie (typy na stronie: breadcrumblist)
-[MONITOR] SRAM GX Eagle Transmission: sprawdzam 67 URL-i
+  - canyon.com: brak wymaganych slow (s14) - pomijam
+  - canyon.com: brak wymaganych slow (s14) - pomijam
+  - canyon.com: brak wymaganych slow (s14) - pomijam
+  - canyon.com: brak wymaganych slow (s14) - pomijam
+  - mtbiker.de: brak wymaganych slow (s14) - pomijam
+  - canyon.com: brak wymaganych slow (s14) - pomijam
+  - canyon.com: brak wymaganych slow (s14) - pomijam
+  - canyon.com: brak wymaganych slow (s14) - pomijam
+[MONITOR] GX-T-KIT: sprawdzam 69 URL-i
   - r2-bike.com: HTTP 403
   - r2-bike.com: HTTP 403
   + bikesnboards.de: 617.5 EUR = 2646.42 PLN [EAN niepotwierdzony]
-  ~ support.sram.com: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
   - bike24.de: HTTP 403
-  + gocycle.de: 6.99 EUR = 29.96 PLN [EAN niepotwierdzony]
+  - gocycle.de: 29.96 PLN poza widelkami [800.0..-] - pomijam
   + bike-components.de: 299.0 EUR = 1281.42 PLN [EAN niepotwierdzony]
-  ~ sram.com: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
   + fahrrad.de: 439.0 EUR = 1881.42 PLN [EAN niepotwierdzony]
-  - kastor-bike.pl: niedostepny (in stock)
-  - 2wheels.pl: brak danych o cenie (typy na stronie: organization, website)
+  + kastor-bike.pl: 1796.99 PLN = 1796.99 PLN [EAN niepotwierdzony]
+  ~ 2wheels.pl: brak ceny, ale znalazlem 2 link(i) produktowe - sprawdzam
   + rowertour.com: 1889.46 PLN = 1889.46 PLN [EAN niepotwierdzony]
   - bike24.pl: HTTP 403
-  - sram.com: waluta USD poza dozwolonym regionem - pomijam
   - ampbike.pl: niedostepny (outofstock)
-  - bikestacja.pl: niedostepny (in stock)
+  + bikestacja.pl: 3764.0 PLN = 3764.0 PLN [EAN niepotwierdzony]
   - ridewill.it: brak danych o cenie (typy na stronie: brak JSON-LD)
   + ciclobottegabikeshop.com: 499.9 EUR = 2142.42 PLN [EAN niepotwierdzony]
-  - support.sram.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - bike24.it: HTTP 403
-  - support.sram.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - idealo.it: HTTP 503
   + cavalierebici.it: 402.04 EUR = 1723.02 PLN [EAN niepotwierdzony]
-  + bike-components.de: 36.99 EUR = 158.53 PLN [EAN niepotwierdzony]
-  - geizhals.de: HTTP 403
+  - bike-components.de: brak wymaganych slow (kit) - pomijam
   - bike24.de: HTTP 403
-  + bikeimport.ch: 40.55 CHF = 189.08 PLN [EAN niepotwierdzony]
-  + bike-discount.de: 36.99 EUR = 158.53 PLN [EAN niepotwierdzony]
-  + lvr-cycles.com: 40.9 EUR = 175.29 PLN [EAN niepotwierdzony]
-  + veloruf.de: 62.4 EUR = 267.43 PLN [EAN niepotwierdzony]
-  - guenstiger.de: HTTP 403
+  - bikeimport.ch: blad pobierania (ReadTimeout)
+  - bike-discount.de: brak wymaganych slow (kit) - pomijam
+  - lvr-cycles.com: brak wymaganych slow (kit) - pomijam
+  - veloruf.de: brak wymaganych slow (kit) - pomijam
   - lordgun.de: HTTP 403
-  - bikestacja.pl: niedostepny (in stock)
-  + wysepka.pl: 174.99 PLN = 174.99 PLN [EAN niepotwierdzony]
-  + lvr-cycles.com: 40.9 EUR = 175.29 PLN [EAN niepotwierdzony]
-  + alpebike.pl: 259.0 PLN = 259.0 PLN [EAN niepotwierdzony]
-  - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
-  + bike-components.de: 36.99 EUR = 158.53 PLN [EAN niepotwierdzony]
-  - zumbistore.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - universalcycles.com: waluta USD poza dozwolonym regionem - pomijam
+  - bikestacja.pl: brak wymaganych slow (kit) - pomijam
+  - wysepka.pl: brak wymaganych slow (kit) - pomijam
+  - lvr-cycles.com: brak wymaganych slow (kit) - pomijam
+  - alpebike.pl: brak wymaganych slow (kit) - pomijam
+  ~ cyklomania.pl: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
+  - bike-components.de: brak wymaganych slow (kit) - pomijam
+  ~ zumbistore.pl: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
+  - universalcycles.com: brak wymaganych slow (kit) - pomijam
   - ibike.pl: brak danych o cenie (typy na stronie: organization, website)
   - lordgunbicycles.com: HTTP 403
   - ridewill.it: brak danych o cenie (typy na stronie: brak JSON-LD)
   - cycleclub.eu: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - ebay.it: HTTP 403
-  + cingolanibikeshop.com: 44.9 EUR = 192.43 PLN [EAN niepotwierdzony]
-  + probikeshop.it: 41.19 EUR = 176.53 PLN [EAN niepotwierdzony]
-  + lvr-cycles.com: 40.9 EUR = 175.29 PLN [EAN niepotwierdzony]
-  - bikextreme.it: blad pobierania (ConnectTimeout)
-  + shop.biciclettezeta.it: 55.0 EUR = 235.71 PLN [EAN niepotwierdzony]
+  - cingolanibikeshop.com: brak wymaganych slow (kit) - pomijam
+  - probikeshop.it: brak wymaganych slow (kit) - pomijam
+  - lvr-cycles.com: brak wymaganych slow (kit) - pomijam
+  - bikextreme.it: brak wymaganych slow (kit) - pomijam
+  - shop.biciclettezeta.it: brak wymaganych slow (kit) - pomijam
   - taddeistore.com: HTTP 403
-  + alutech-cycles.com: 29.99 EUR = 128.53 PLN [EAN niepotwierdzony]
-  + bike-discount.de: 36.99 EUR = 158.53 PLN [EAN niepotwierdzony]
-  - sram.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - support.sram.com: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - alutech-cycles.com: brak wymaganych slow (kit) - pomijam
+  - bike-discount.de: brak wymaganych slow (kit) - pomijam
   - trekbikes.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - r2-bike.com: HTTP 403
   - velofactory.ch: HTTP 403
-  - sram.com: waluta USD poza dozwolonym regionem - pomijam
   - hibike.com: HTTP 403
-  - thundermountainbikes.com: waluta USD poza dozwolonym regionem - pomijam
-  - sram.com: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - thundermountainbikes.com: brak wymaganych slow (kit) - pomijam
   - velonova.lt: HTTP 403
-  - bikestacja.pl: niedostepny (in stock)
-  + capobianchi.eu: 44.9 EUR = 192.43 PLN [EAN niepotwierdzony]
-  - idealo.it: HTTP 503
-  + diliecicli.it: 51.9 EUR = 222.43 PLN [EAN niepotwierdzony]
-  - support.sram.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - support.sram.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - support.sram.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - sram.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - sram.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - sram.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-[MONITOR] SRAM GX Eagle Transmission: sprawdzam 67 URL-i
+  - bikestacja.pl: brak wymaganych slow (kit) - pomijam
+  - capobianchi.eu: brak wymaganych slow (kit) - pomijam
+  - diliecicli.it: brak wymaganych slow (kit) - pomijam
+  + erli.pl: 1995.93 PLN = 1995.93 PLN [EAN niepotwierdzony]
+  - evolutionbikes.it: brak danych o cenie (typy na stronie: breadcrumblist)
+  - 2wheels.pl: niedostepny (outofstock)
+  - 2wheels.pl: niedostepny (outofstock)
+  - cyklomania.pl: HTTP 404
+  - zumbistore.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - zumbistore.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - zumbistore.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
+[MONITOR] GX-T-CHAIN: sprawdzam 68 URL-i
   - r2-bike.com: HTTP 403
   - r2-bike.com: HTTP 403
-  + bikesnboards.de: 617.5 EUR = 2646.42 PLN [EAN niepotwierdzony]
-  ~ support.sram.com: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
+  - bikesnboards.de: brak wymaganych slow (chain) - pomijam
   - bike24.de: HTTP 403
-  + gocycle.de: 6.99 EUR = 29.96 PLN [EAN niepotwierdzony]
-  + bike-components.de: 299.0 EUR = 1281.42 PLN [EAN niepotwierdzony]
-  ~ sram.com: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
-  + fahrrad.de: 439.0 EUR = 1881.42 PLN [EAN niepotwierdzony]
-  - kastor-bike.pl: niedostepny (in stock)
-  - 2wheels.pl: brak danych o cenie (typy na stronie: organization, website)
-  + rowertour.com: 1889.46 PLN = 1889.46 PLN [EAN niepotwierdzony]
+  - gocycle.de: brak wymaganych slow (chain) - pomijam
+  - bike-components.de: brak wymaganych slow (chain) - pomijam
+  - fahrrad.de: 1881.42 PLN poza widelkami [80.0..600.0] - pomijam
+  - kastor-bike.pl: brak wymaganych slow (chain) - pomijam
+  ~ 2wheels.pl: brak ceny, ale znalazlem 2 link(i) produktowe - sprawdzam
+  - rowertour.com: brak wymaganych slow (chain) - pomijam
   - bike24.pl: HTTP 403
-  - sram.com: waluta USD poza dozwolonym regionem - pomijam
   - ampbike.pl: blad pobierania (ConnectTimeout)
-  - bikestacja.pl: niedostepny (in stock)
+  - bikestacja.pl: brak wymaganych slow (chain) - pomijam
   - ridewill.it: brak danych o cenie (typy na stronie: brak JSON-LD)
-  + ciclobottegabikeshop.com: 499.9 EUR = 2142.42 PLN [EAN niepotwierdzony]
-  - support.sram.com: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - ciclobottegabikeshop.com: brak wymaganych slow (chain) - pomijam
   - bike24.it: HTTP 403
-  - support.sram.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - idealo.it: HTTP 503
-  + cavalierebici.it: 402.04 EUR = 1723.02 PLN [EAN niepotwierdzony]
+  - cavalierebici.it: brak wymaganych slow (chain) - pomijam
   + bike-components.de: 36.99 EUR = 158.53 PLN [EAN OK]
-  - geizhals.de: HTTP 403
   - bike24.de: HTTP 403
   + bikeimport.ch: 40.55 CHF = 189.08 PLN [EAN OK]
   + bike-discount.de: 36.99 EUR = 158.53 PLN [EAN OK]
   + lvr-cycles.com: 40.9 EUR = 175.29 PLN [EAN OK]
   + veloruf.de: 62.4 EUR = 267.43 PLN [EAN OK]
-  - guenstiger.de: HTTP 403
   - lordgun.de: HTTP 403
-  - bikestacja.pl: niedostepny (in stock)
+  + bikestacja.pl: 169.9 PLN = 169.9 PLN [EAN OK]
   + wysepka.pl: 174.99 PLN = 174.99 PLN [EAN OK]
   + lvr-cycles.com: 40.9 EUR = 175.29 PLN [EAN OK]
   + alpebike.pl: 259.0 PLN = 259.0 PLN [EAN OK]
-  - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
+  ~ cyklomania.pl: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
   + bike-components.de: 36.99 EUR = 158.53 PLN [EAN OK]
-  - zumbistore.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
+  ~ zumbistore.pl: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
   - universalcycles.com: waluta USD poza dozwolonym regionem - pomijam
   - ibike.pl: brak danych o cenie (typy na stronie: organization, website)
   - lordgunbicycles.com: HTTP 403
   - ridewill.it: brak danych o cenie (typy na stronie: brak JSON-LD)
   - cycleclub.eu: brak danych o cenie (typy na stronie: brak JSON-LD)
-  + ebay.it: 67.14 EUR = 287.74 PLN [EAN OK]
   + cingolanibikeshop.com: 44.9 EUR = 192.43 PLN [EAN OK]
   + probikeshop.it: 41.19 EUR = 176.53 PLN [EAN OK]
   + lvr-cycles.com: 40.9 EUR = 175.29 PLN [EAN OK]
-  - bikextreme.it: blad pobierania (ConnectTimeout)
+  + bikextreme.it: 44.95 EUR = 192.64 PLN [EAN OK]
   + shop.biciclettezeta.it: 55.0 EUR = 235.71 PLN [EAN OK]
   - taddeistore.com: HTTP 403
   + alutech-cycles.com: 29.99 EUR = 128.53 PLN [EAN niepotwierdzony]
   + bike-discount.de: 36.99 EUR = 158.53 PLN [EAN OK]
-  - sram.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - support.sram.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - trekbikes.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - r2-bike.com: HTTP 403
   - velofactory.ch: HTTP 403
-  - sram.com: waluta USD poza dozwolonym regionem - pomijam
   - hibike.com: HTTP 403
   - thundermountainbikes.com: waluta USD poza dozwolonym regionem - pomijam
-  - sram.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - velonova.lt: HTTP 403
-  - bikestacja.pl: niedostepny (in stock)
+  + bikestacja.pl: 39.64 EUR = 169.89 PLN [EAN OK]
   + capobianchi.eu: 44.9 EUR = 192.43 PLN [EAN OK]
-  - idealo.it: HTTP 503
   + diliecicli.it: 51.9 EUR = 222.43 PLN [EAN OK]
-  - support.sram.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - support.sram.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - support.sram.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - sram.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - sram.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - sram.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-[MONITOR] Cane Creek 40 IS41/IS52: sprawdzam 37 URL-i
+  - thelostco.com: brak danych o cenie (typy na stronie: breadcrumblist, organization)
+  - 2wheels.pl: brak wymaganych slow (chain) - pomijam
+  - 2wheels.pl: brak wymaganych slow (chain) - pomijam
+  - cyklomania.pl: HTTP 404
+  - zumbistore.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - zumbistore.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - zumbistore.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
+[MONITOR] Cane Creek 40 IS41/IS52: sprawdzam 43 URL-i
   - rat-bikes.eu: HTTP 403
   - bikecomponents-us.com: waluta USD poza dozwolonym regionem - pomijam
   - allegro.pl: HTTP 403
@@ -407,15 +363,12 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - biker-boarder.de: brak danych o cenie (typy na stronie: bikestore, sportinggoodsstore, website)
   - r2-bike.com: HTTP 403
   + bike-discount.de: 58.99 EUR = 252.81 PLN [EAN niepotwierdzony]
-  - mtb-news.de: HTTP 403
-  - amazon.de: brak danych o cenie (typy na stronie: brak JSON-LD)
   + bike-components.de: 124.99 EUR = 535.67 PLN [EAN niepotwierdzony]
   ~ cyklomania.pl: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
   - allegro.pl: HTTP 403
   ~ formicki-bike.pl: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
-  + ceneo.pl: 249.7 PLN = 249.7 PLN [EAN niepotwierdzony]
-  - centrumrowerowe.pl: blad pobierania (ConnectTimeout)
-  - vincere.pl: niedostepny (out of stock)
+  + centrumrowerowe.pl: 239.99 PLN = 239.99 PLN [EAN niepotwierdzony]
+  - vincere.pl: niedostepny (outofstock)
   - allegro.pl: HTTP 403
   ~ rowerowy.com: brak ceny, ale znalazlem 2 link(i) produktowe - sprawdzam
   - bike24.pl: HTTP 403
@@ -426,24 +379,30 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   + alltricks.it: 69.0 EUR = 295.71 PLN [EAN niepotwierdzony]
   - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   + maciag-offroad.it: 63.95 EUR = 274.07 PLN [EAN niepotwierdzony]
-  - amazon.it: brak danych o cenie (typy na stronie: brak JSON-LD)
   + bike-discount.de: 58.99 EUR = 252.81 PLN [EAN niepotwierdzony]
+  - rat-bikes.com: HTTP 403
+  - bike24.be: HTTP 403
+  + tnc-hamburg.com: 60.9 EUR = 261.0 PLN [EAN niepotwierdzony]
+  - biker-boarder.de: brak danych o cenie (typy na stronie: bikestore, sportinggoodsstore, website)
+  + gocycle.de: 6.99 EUR = 29.96 PLN [EAN niepotwierdzony]
+  + cavalierebici.it: 62.63 EUR = 268.41 PLN [EAN niepotwierdzony]
   - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - formicki-bike.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - rowerowy.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - rowerowy.com: brak danych o cenie (typy na stronie: brak JSON-LD)
+  ! Cane Creek 40 IS41/IS52: odrzucam outlier 29.96 PLN (gocycle.de) - ponizej 25% mediany (261.0 PLN)
 [HISTORIA] FM2797: najnizsza 9932.11 PLN (imfixies.it)
 [HISTORIA] LAUF-CARBONARA: najnizsza 4452.98 PLN (laufcycles.com)
 [HISTORIA] Lake MX190-X Wide: najnizsza 707.14 PLN (sport-bittl.com)
 [HISTORIA] DT Swiss Fatbike: najnizsza 308.53 PLN (rczbikeshop.com)
 [HISTORIA] DT SWISS 350 12x148: najnizsza 514.24 PLN (bike-components.de)
-[HISTORIA] Ritchey WCS Carbon ErgoMax: najnizsza 368.53 PLN (bike-components.de)
-[HISTORIA] Canyon S14 VCLS 2.0: najnizsza 679.99 PLN (canyon.com)
-[HISTORIA] SRAM GX Eagle Transmission: najnizsza 29.96 PLN (gocycle.de)
-[HISTORIA] SRAM GX Eagle Transmission: najnizsza 29.96 PLN (gocycle.de)
-[HISTORIA] Cane Creek 40 IS41/IS52: najnizsza 249.7 PLN (ceneo.pl)
+[HISTORIA] Ritchey WCS Carbon ErgoMax: najnizsza 1074.05 PLN (bikeshopzizers.ch)
+[HISTORIA] Canyon S14 VCLS 2.0: najnizsza 857.1 PLN (canyon.com)
+[HISTORIA] GX-T-KIT: najnizsza 1281.42 PLN (bike-components.de)
+[HISTORIA] GX-T-CHAIN: najnizsza 128.53 PLN (alutech-cycles.com)
+[HISTORIA] Cane Creek 40 IS41/IS52: najnizsza 239.99 PLN (centrumrowerowe.pl)
 [EXCEL] Zapisano /home/runner/work/PriceChecker/PriceChecker/output/prices.xlsx
 [DASHBOARD] Zapisano /home/runner/work/PriceChecker/PriceChecker/output/dashboard.html (+ docs/index.html dla GitHub Pages)
 Gotowe.

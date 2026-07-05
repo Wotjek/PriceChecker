@@ -298,6 +298,16 @@
       "domain": "nl.lakecycling.com",
       "first_seen": "2026-07-05",
       "via": "crawl"
+    },
+    "https://www.lakecycling.com/collections/mtb": {
+      "domain": "lakecycling.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:it"
+    },
+    "https://nl.lakecycling.com/en/products/mx190": {
+      "domain": "nl.lakecycling.com",
+      "first_seen": "2026-07-05",
+      "via": "crawl"
     }
   },
   "DT Swiss Fatbike": {
@@ -485,6 +495,21 @@
       "domain": "4actionsport.it",
       "first_seen": "2026-07-05",
       "via": "serpapi:it"
+    },
+    "https://velosiped.com/vtulka-perednya-dt-swiss-350-fetbaik-15h150mm-32-otvory-rotor-pid-6-boltiv-chornyi-H350LDIXR32SA1859S": {
+      "domain": "velosiped.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://www.bike-components.de/de/DT-Swiss/350-Classic-Fatbike-Disc-6-Loch-VR-Nabe-p84200/": {
+      "domain": "bike-components.de",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://bike-rs.pl/pl/producer/DT-Swiss/117": {
+      "domain": "bike-rs.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
     }
   },
   "DT SWISS 350 12x148": {
@@ -647,6 +672,56 @@
       "domain": "4actionsport.it",
       "first_seen": "2026-07-05",
       "via": "serpapi:it"
+    },
+    "https://www.bike24.pl/produkty/505188": {
+      "domain": "bike24.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://www.bikestacja.pl/piasta-tylna-dt-swiss-350-mtb-centerlock-148x12-boost-32h-shimano-p-25717.html": {
+      "domain": "bikestacja.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://pl.wikipedia.org/wiki/Dt": {
+      "domain": "pl.wikipedia.org",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://dt-automatyzacja.pl/": {
+      "domain": "dt-automatyzacja.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://www.diki.pl/slownik-angielskiego?q=DT": {
+      "domain": "diki.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "http://dt-consulting.com.pl/": {
+      "domain": "dt-consulting.com.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://www.obroza-elektryczna.pl/Marki/d-t-systems": {
+      "domain": "obroza-elektryczna.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://www.agrodane.pl/ciagniki-rolnicze/belarus/dt-14-dt-20-dt-24-dane-techniczne/": {
+      "domain": "agrodane.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://rejestr.io/krs/496110/dt-automatyzacja": {
+      "domain": "rejestr.io",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://whizz-wheels.de/shop/HR-350-Disc-IS-Boost-12x148-mm-SRAM-XD-28-Loch-MY2021-schwarz-weiss/H350TDDRR28SA9100S": {
+      "domain": "whizz-wheels.de",
+      "first_seen": "2026-07-05",
+      "via": "crawl"
     }
   },
   "Ritchey WCS Carbon ErgoMax": {
@@ -829,6 +904,36 @@
       "domain": "amazon.it",
       "first_seen": "2026-07-05",
       "via": "serpapi:it"
+    },
+    "https://www.bike24.pl/produkty/294807": {
+      "domain": "bike24.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://sportisgood.pl/3035542707-wieszak-ritchey-wcs-ergomax-czarny?variant=5722134": {
+      "domain": "sportisgood.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://cyklomania.pl/produkt/ritchey-kierownica-gravel-wcs-ergomax-di2-44cm.html": {
+      "domain": "cyklomania.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://www.deporvillage.pl/kierownica-karbonowa-ritchey-wcs-ergomax": {
+      "domain": "deporvillage.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://advntr.cc/ritchey-wcs-ergomax-road-bar/index.html": {
+      "domain": "advntr.cc",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://gravelbikeshop.com/products/ritchey-wcs-carbon-ergomax-handlebar": {
+      "domain": "gravelbikeshop.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
     }
   },
   "Canyon S14 VCLS 2.0": {
@@ -901,6 +1006,11 @@
       "domain": "canyon.com",
       "first_seen": "2026-07-05",
       "via": "crawl"
+    },
+    "https://www.mtbiker.de/classifieds/komponenten/sattelstutzen/starr/4739903/canyon-s15-vcls-20-272mm-cf-seatpost.html": {
+      "domain": "mtbiker.de",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
     }
   },
   "Cane Creek 40 IS41/IS52": {
@@ -1086,6 +1196,36 @@
     },
     "https://www.bike-discount.de/it/cane-creek-40mm-is41/28.6-serie-sterzo-conica-is52/40": {
       "domain": "bike-discount.de",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:it"
+    },
+    "https://rat-bikes.com/cane-creek-40.html": {
+      "domain": "rat-bikes.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:it"
+    },
+    "https://www.bike24.be/fr/produits/1006909": {
+      "domain": "bike24.be",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:it"
+    },
+    "https://www.tnc-hamburg.com/Steuersaetze/Cane-Creek-Steuersatz/Cane-Creek-IS-Steuersaetze/Cane-Creek-IS-Steuersaetze-komplett/Cane-Creek-Forty-Tapered-Steuersatz-1-1-8-1-5-Zoll-IS42-28-6-IS52-40-Kappe-15mm-schwarz::50056.html": {
+      "domain": "tnc-hamburg.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.biker-boarder.de/cane-creek/3117921.html": {
+      "domain": "biker-boarder.de",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://www.gocycle.de/a.php/shop/gocycle/lang/en/a/51310/kw/Cane-Creek-40-IS41-IS52-tapered-short-schwarz-GO-CYCLE-Shop/": {
+      "domain": "gocycle.de",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:de"
+    },
+    "https://cavalierebici.it/en/products/cane-creek-serie-sterzo-40-series-is41-28-6-h9-is52-40": {
+      "domain": "cavalierebici.it",
       "first_seen": "2026-07-05",
       "via": "serpapi:it"
     }
@@ -1425,6 +1565,16 @@
       "domain": "diliecicli.it",
       "first_seen": "2026-07-05",
       "via": "serpapi:it"
+    },
+    "https://erli.pl/produkt/sram-gx-eagle-axs-transmission-upgrade-kit-do-przerzutek-eagle-70-90,320135754": {
+      "domain": "erli.pl",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
+    },
+    "https://evolutionbikes.it/collections/gruppi": {
+      "domain": "evolutionbikes.it",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:it"
     }
   },
   "GX-T-CHAIN": {
@@ -1762,6 +1912,11 @@
       "domain": "diliecicli.it",
       "first_seen": "2026-07-05",
       "via": "serpapi:it"
+    },
+    "https://thelostco.com/collections/sram-t-type-flattop-chains": {
+      "domain": "thelostco.com",
+      "first_seen": "2026-07-05",
+      "via": "serpapi:pl"
     }
   }
 }
