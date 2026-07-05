@@ -31,6 +31,7 @@ PRODUCTS_FILE = ROOT / "products.yaml"
 SOURCES_FILE = DATA / "sources.json"      # baza znanych URL-i per produkt
 HISTORY_FILE = DATA / "history.csv"       # najlepsza cena / produkt / dzien
 OFFERS_FILE = DATA / "all_offers.csv"     # wszystkie znalezione oferty (audyt)
+QUOTA_FILE = DATA / "serpapi_quota.json"  # stan limitu darmowych zapytan SerpAPI
 EXCEL_FILE = OUTPUT / "prices.xlsx"
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -113,6 +114,8 @@ def get_fx_rates():
 # ========================================================== discovery =======
 
 def google_search(query, api_key, cx, pages=1):
+    """Legacy: Google Programmable Search (dziala tylko dla starych wyszukiwarek
+    z wlaczonym 'Search the entire web'; funkcja wygasa 2027-01-01)."""
     urls = []
     for page in range(pages):
         params = {"key": api_key, "cx": cx, "q": query,
@@ -121,7 +124,7 @@ def google_search(query, api_key, cx, pages=1):
             r = requests.get("https://www.googleapis.com/customsearch/v1",
                              params=params, timeout=TIMEOUT)
             if r.status_code == 429:
-                log("[DISCOVERY] Limit dzienny API wyczerpany")
+                log("[DISCOVERY][google] Limit dzienny wyczerpany")
                 return urls
             r.raise_for_status()
             items = r.json().get("items", [])
@@ -129,20 +132,92 @@ def google_search(query, api_key, cx, pages=1):
             if len(items) < 10:
                 break
         except Exception as e:
-            log(f"[DISCOVERY] Blad zapytania '{query}': {e}")
+            log(f"[DISCOVERY][google] Blad zapytania '{query}': {e}")
             break
         time.sleep(0.5)
     return urls
 
 
-def run_discovery(products, sources):
-    api_key = os.environ.get("GOOGLE_API_KEY", "").strip()
-    cx = os.environ.get("GOOGLE_CX", "").strip()
-    if not api_key or not cx:
-        log("[DISCOVERY] Brak GOOGLE_API_KEY / GOOGLE_CX - pomijam discovery, "
-            "uzywam tylko znanych URL-i")
+def serpapi_search(query, api_key):
+    """SerpAPI - prawdziwe wyniki Google (plan darmowy: ~100 zapytan/mies.)."""
+    try:
+        r = requests.get("https://serpapi.com/search.json",
+                         params={"engine": "google", "q": query, "num": 20,
+                                 "api_key": api_key}, timeout=TIMEOUT)
+        r.raise_for_status()
+        j = r.json()
+        if j.get("error"):
+            log(f"[DISCOVERY][serpapi] {j['error']}")
+            return []
+        return [it["link"] for it in j.get("organic_results", []) if it.get("link")]
+    except Exception as e:
+        log(f"[DISCOVERY][serpapi] Blad zapytania '{query}': {e}")
+        return []
+
+
+def tavily_search(query, api_key):
+    """Tavily - web search API (plan darmowy: ~1000 zapytan/mies.)."""
+    try:
+        r = requests.post("https://api.tavily.com/search",
+                          json={"api_key": api_key, "query": query,
+                                "max_results": 20}, timeout=TIMEOUT)
+        r.raise_for_status()
+        return [it["url"] for it in r.json().get("results", []) if it.get("url")]
+    except Exception as e:
+        log(f"[DISCOVERY][tavily] Blad zapytania '{query}': {e}")
+        return []
+
+
+def brave_search(query, api_key):
+    """Brave Search API (plan platny/kredytowy)."""
+    try:
+        r = requests.get("https://api.search.brave.com/res/v1/web/search",
+                         params={"q": query, "count": 20},
+                         headers={"X-Subscription-Token": api_key,
+                                  "Accept": "application/json"}, timeout=TIMEOUT)
+        r.raise_for_status()
+        return [it["url"] for it in r.json().get("web", {}).get("results", [])
+                if it.get("url")]
+    except Exception as e:
+        log(f"[DISCOVERY][brave] Blad zapytania '{query}': {e}")
+        return []
+
+
+def _discovery_engines():
+    """Buduje liste dostepnych silnikow na podstawie sekretow w env."""
+    engines = []
+    if os.environ.get("SERPAPI_KEY", "").strip():
+        k = os.environ["SERPAPI_KEY"].strip()
+        engines.append(("serpapi", lambda q: serpapi_search(q, k)))
+    if os.environ.get("TAVILY_API_KEY", "").strip():
+        k = os.environ["TAVILY_API_KEY"].strip()
+        engines.append(("tavily", lambda q: tavily_search(q, k)))
+    if os.environ.get("BRAVE_API_KEY", "").strip():
+        k = os.environ["BRAVE_API_KEY"].strip()
+        engines.append(("brave", lambda q: brave_search(q, k)))
+    gk, cx = os.environ.get("GOOGLE_API_KEY", "").strip(), os.environ.get("GOOGLE_CX", "").strip()
+    if gk and cx:
+        engines.append(("google", lambda q: google_search(q, gk, cx)))
+    return engines
+
+
+def run_discovery(products, sources, settings):
+    engines = _discovery_engines()
+    if not engines:
+        log("[DISCOVERY] Brak kluczy (SERPAPI_KEY / TAVILY_API_KEY / BRAVE_API_KEY / "
+            "GOOGLE_API_KEY+CX) - pomijam discovery, uzywam znanych URL-i")
         return sources
 
+    # oszczedzanie limitu: przy trybie weekly harmonogram robi discovery tylko
+    # w poniedzialki; reczny FIRE (workflow_dispatch) i run lokalny - zawsze
+    mode = str(settings.get("discovery") or "weekly").lower()
+    event = os.environ.get("GITHUB_EVENT_NAME", "")
+    if event == "schedule" and mode == "weekly" and date.today().weekday() != 0:
+        log(f"[DISCOVERY] Tryb weekly - dzis pomijam (silniki: "
+            f"{[n for n, _ in engines]}), monitoring dziala normalnie")
+        return sources
+
+    log(f"[DISCOVERY] Silniki: {[n for n, _ in engines]}")
     today = date.today().isoformat()
     for p in products:
         pid = p["id"]
@@ -158,13 +233,39 @@ def run_discovery(products, sources):
 
         found = 0
         for q in queries:
-            for url in google_search(q, api_key, cx):
-                dom = domain_of(url)
-                if url not in known and domain_allowed(dom, excluded, worldwide):
-                    known[url] = {"domain": dom, "first_seen": today}
-                    found += 1
+            for name, fn in engines:
+                for url in fn(q):
+                    dom = domain_of(url)
+                    if url not in known and domain_allowed(dom, excluded, worldwide):
+                        known[url] = {"domain": dom, "first_seen": today,
+                                      "via": name}
+                        found += 1
+                time.sleep(0.4)
         log(f"[DISCOVERY] {pid}: +{found} nowych URL-i (razem {len(known)})")
     return sources
+
+
+def save_serpapi_quota():
+    """Zapisuje stan limitu SerpAPI (endpoint /account nie zuzywa zapytan)."""
+    key = os.environ.get("SERPAPI_KEY", "").strip()
+    if not key:
+        return
+    try:
+        r = requests.get("https://serpapi.com/account",
+                         params={"api_key": key}, timeout=TIMEOUT)
+        r.raise_for_status()
+        j = r.json()
+        data = {"plan": j.get("plan_name", ""),
+                "per_month": j.get("searches_per_month"),
+                "used": j.get("this_month_usage"),
+                "left": j.get("plan_searches_left"),
+                "checked": date.today().isoformat()}
+        DATA.mkdir(exist_ok=True)
+        QUOTA_FILE.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+        log(f"[SERPAPI] Limit: pozostalo {data['left']} z {data['per_month']} "
+            f"(zuzyte w tym miesiacu: {data['used']})")
+    except Exception as e:
+        log(f"[SERPAPI] Nie udalo sie pobrac stanu limitu: {e}")
 
 
 # ========================================================== extraction ======
@@ -504,9 +605,10 @@ def main():
     if SOURCES_FILE.exists():
         sources = json.loads(SOURCES_FILE.read_text(encoding="utf-8"))
 
-    sources = run_discovery(products, sources)
+    sources = run_discovery(products, sources, settings)
     SOURCES_FILE.write_text(json.dumps(sources, indent=2, ensure_ascii=False),
                             encoding="utf-8")
+    save_serpapi_quota()
 
     rates = get_fx_rates()
     offers = fetch_offers(products, sources, rates)
