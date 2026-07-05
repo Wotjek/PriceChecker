@@ -44,7 +44,7 @@ jobs:
         run: |
           git config user.name "price-tracker-bot"
           git config user.email "actions@github.com"
-          git add data/ output/
+          git add data/ output/ docs/
           git diff --cached --quiet && echo "Brak zmian" && exit 0
           git commit -m "Ceny $(date -u +%F)"
           git push

@@ -1,8 +1,8 @@
 # Price Tracker — monitoring najniższych cen (Europa kontynentalna)
 
 Codziennie o 12:00 skrypt:
-1. **Discovery** — pyta Google (Programmable Search) o EAN / frazy każdego produktu i dopisuje nowo znalezione sklepy do bazy (`data/sources.json`). Baza URL-i rośnie w czasie — to Twoje główne aktywo.
-2. **Monitoring** — odwiedza każdy znany URL, wyciąga cenę i dostępność z danych strukturalnych strony (JSON-LD `schema.org/Product`, fallback: meta OpenGraph oraz `__NEXT_DATA__` dla sklepów headless). Oferty niedostępne (`OutOfStock`) są odrzucane. Gdy URL nie ma ceny (np. strona kategorii lub artykuł), skrypt sam szuka na niej linku do karty tego produktu (dopasowanie po kodzie modelu / tokenach nazwy), sprawdza go od razu i — jeśli znajdzie cenę — dopisuje do bazy URL-i.
+1. **Discovery** — pyta wyszukiwarki (SerpAPI: zwykłe Google **oraz Google Shopping** per kraj z `serpapi_countries`; opcjonalnie Tavily/Brave) o EAN / frazy każdego produktu i dopisuje nowo znalezione sklepy do bazy (`data/sources.json`). URL-e są normalizowane (usuwane `srsltid`, `utm_*`, `gclid` itd.), więc baza nie puchnie od duplikatów. Google Shopping odpytywany jest tylko pierwszą (najprecyzyjniejszą) frazą — EAN-em, gdy jest podany — żeby oszczędzać limit. Baza URL-i rośnie w czasie — to Twoje główne aktywo.
+2. **Monitoring** — odwiedza każdy znany URL, wyciąga cenę i dostępność z danych strukturalnych strony (JSON-LD `schema.org/Product`, fallback: meta OpenGraph oraz `__NEXT_DATA__` dla sklepów headless). Oferty niedostępne (`OutOfStock`) są odrzucane. Gdy URL nie ma ceny (np. strona kategorii lub artykuł), skrypt sam szuka na niej linku do karty tego produktu (dopasowanie po kodzie modelu / tokenach nazwy), sprawdza go od razu i — jeśli znajdzie cenę — dopisuje do bazy URL-i. Jeśli produkt ma `ean`, skrypt sprawdza jego obecność w HTML sklepu i oznacza ofertę w logu `[EAN OK]` / `[EAN niepotwierdzony]` (uwaga: EAN-y bywają nadawane per rozmiar/kolor, więc brak kodu to ostrzeżenie, nie błąd). Dla problematycznych produktów `ean_strict: true` odrzuca oferty bez potwierdzonego EAN-u.
 3. **Filtr geograficzny** — tylko Europa kontynentalna: blokada TLD `.uk` (i innych spoza Europy) oraz walut GBP/USD. Akceptowane waluty: PLN, EUR, CZK, DKK, SEK, NOK, CHF, HUF, RON, BGN.
 4. **Przeliczenie na PLN** — po kursie średnim NBP z danego dnia (tabela A), fallback: frankfurter.app (kursy EBC).
 5. **Zapis** — najniższa cena per produkt trafia do `data/history.csv` (data, produkt, cena PLN, cena oryginalna, waluta, sklep, **URL źródła**). Pełny audyt wszystkich ofert: `data/all_offers.csv`.
@@ -85,6 +85,8 @@ python tracker.py
 | `data/history.csv` | historia: najniższa cena / produkt / dzień + URL źródła |
 | `data/all_offers.csv` | audyt: wszystkie znalezione oferty każdego dnia |
 | `output/prices.xlsx` | raport z podsumowaniem, historią i wykresami |
+| `output/dashboard.html` | panel (SPA) — kopia trafia też do `docs/index.html` (GitHub Pages) |
+| `data/last_run.log` | log ostatniego przebiegu (zakładka Diagnostyka w panelu) |
 
 ---
 
@@ -95,6 +97,8 @@ Interaktywny panel (SPA) regenerowany przy każdym uruchomieniu — otwierasz w 
 **Główna:** karuzela wykresów (jeden produkt na raz, strzałki ‹ › / klawiatura / kropki), zakres: Tydzień / Miesiąc / Kwartał / Max, tooltip każdego punktu pokazuje cenę **i sklep**, pod spodem sygnał KUP (gdy cena ≤ ceny docelowej) oraz tabela wszystkich dzisiejszych ofert z linkami.
 
 **Zakładka per produkt:** statystyki (aktualna najniższa, minimum historyczne, średnia okresu z odchyleniem %, liczba sklepów), wykres cen **per sklep** (osobna linia dla każdego sklepu z audytu ofert), tabela ostatnich ofert i pełna historia dziennych minimów z linkami.
+
+**Diagnostyka:** log ostatniego przebiegu wprost w panelu — kafelki z licznikami (oferty z ceną, błędy HTTP, brak danych o cenie, odfiltrowane, auto-crawl) działają jak filtry, linie logu są kolorowane wg kategorii. „Odśwież dane" pobiera świeży log z repo.
 
 **Konfiguracja:** edycja listy produktów (ID/kod, nazwa, EAN, cena docelowa, worldwide, frazy, seed URLs, wykluczenia) bezpośrednio z panelu. Zapis nadpisuje `products.yaml` w repo przez GitHub API — czyli dokładnie ten plik, którego używa workflow. Przycisk „Zapisz + Fire" od razu zbiera ceny dla nowej listy. Uwaga: zapis z panelu usuwa komentarze z pliku YAML.
 
@@ -107,6 +111,14 @@ Wymagania FIRE / odświeżania / konfiguracji:
 Uwaga techniczna: w pliku HTML osadzony jest pełny `history.csv` oraz audyt ofert z ostatnich 120 dni (żeby plik nie puchł latami); „Odśwież dane" zawsze pobiera komplet z repo.
 
 Alternatywa ręcznego uruchomienia: zakładka *Actions → Price Tracker → Run workflow* w GitHubie.
+
+### Dashboard pod stałym adresem (GitHub Pages)
+
+Skrypt zapisuje kopię panelu także do `docs/index.html`. Żeby mieć dashboard zawsze pod ręką (bez pobierania pliku):
+1. Repo → *Settings → Pages* → Source: **Deploy from a branch** → Branch: `main`, folder `/docs` → Save.
+2. Po chwili panel będzie dostępny pod `https://<login>.github.io/<repo>/` i będzie się aktualizował po każdym runie workflow.
+
+Uwaga: przy **prywatnym** repo strona Pages jest publiczna na planie Free (prywatne Pages wymagają planu Pro/Enterprise) — panel nie zawiera tokenu (token żyje tylko w Twojej przeglądarce), ale osadza historię cen i nazwy produktów. Jeśli to problem, po prostu nie włączaj Pages i otwieraj `output/dashboard.html` lokalnie.
 
 ## Wyjątki od filtra Europy (`worldwide`)
 

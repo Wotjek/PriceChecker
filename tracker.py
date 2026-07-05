@@ -18,7 +18,7 @@ import sys
 import time
 from datetime import date
 from pathlib import Path
-from urllib.parse import urljoin, urlparse
+from urllib.parse import parse_qsl, urlencode, urljoin, urlparse, urlunparse
 
 import requests
 import yaml
@@ -82,6 +82,42 @@ def save_run_log():
 def domain_of(url):
     d = urlparse(url).netloc.lower()
     return d[4:] if d.startswith("www.") else d
+
+
+# parametry sledzace w URL-ach (Google/e-mail/ads) - bez wplywu na tresc strony;
+# ich usuniecie scala duplikaty typu ?srsltid=... w bazie zrodel i audycie
+TRACKING_PARAM_RE = re.compile(
+    r"^(utm_|mc_|pk_|piwik_)|^(srsltid|gclid|dclid|fbclid|msclkid|igshid|"
+    r"ttclid|yclid|wbraid|gbraid|_ga|_gl|mkt_tok|sc_src|sc_uid)$", re.I)
+
+
+def normalize_url(url):
+    """Usuwa parametry sledzace i fragment (#...) - kanoniczna postac URL-a."""
+    try:
+        parts = urlparse(url)
+        q = [(k, v) for k, v in parse_qsl(parts.query, keep_blank_values=True)
+             if not TRACKING_PARAM_RE.match(k)]
+        return urlunparse(parts._replace(query=urlencode(q), fragment=""))
+    except Exception:
+        return url
+
+
+def normalize_sources(sources):
+    """Migracja bazy URL-i: scala wpisy rozniace sie tylko parametrami sledzacymi."""
+    merged = 0
+    for pid, urls in sources.items():
+        clean = {}
+        for url, meta in urls.items():
+            nu = normalize_url(url)
+            if nu in clean:
+                merged += 1
+            else:
+                clean[nu] = meta
+        sources[pid] = clean
+    if merged:
+        log(f"[NORMALIZACJA] Scalono {merged} zduplikowanych URL-i "
+            f"(parametry sledzace)")
+    return sources
 
 
 def tld_of(domain):
@@ -181,6 +217,33 @@ def serpapi_search(query, api_key, gl=None):
         return []
 
 
+def serpapi_shopping_search(query, api_key, gl=None):
+    """SerpAPI Google Shopping - agregator ofert sklepow z danego kraju.
+    Zwraca linki do stron sklepow; ceny i tak weryfikuje monitoring
+    bezposrednio na stronie (Shopping bywa nieaktualny)."""
+    try:
+        params = {"engine": "google_shopping", "q": query, "api_key": api_key}
+        if gl:
+            params["gl"] = gl
+        r = requests.get("https://serpapi.com/search.json",
+                         params=params, timeout=TIMEOUT)
+        r.raise_for_status()
+        j = r.json()
+        if j.get("error"):
+            log(f"[DISCOVERY][shopping] {j['error']}")
+            return []
+        out = []
+        for it in j.get("shopping_results", []):
+            link = it.get("link") or ""
+            # pomijamy linki do karty produktu Google (nie sklepu)
+            if link.startswith("http") and "google." not in domain_of(link):
+                out.append(link)
+        return out
+    except Exception as e:
+        log(f"[DISCOVERY][shopping] Blad zapytania '{query}': {e}")
+        return []
+
+
 def tavily_search(query, api_key):
     """Tavily - web search API (plan darmowy: ~1000 zapytan/mies.)."""
     try:
@@ -215,6 +278,8 @@ def _discovery_engines():
     if os.environ.get("SERPAPI_KEY", "").strip():
         k = os.environ["SERPAPI_KEY"].strip()
         engines.append(("serpapi", lambda q, gl=None: serpapi_search(q, k, gl)))
+        engines.append(("serpapi_shopping",
+                        lambda q, gl=None: serpapi_shopping_search(q, k, gl)))
     if os.environ.get("TAVILY_API_KEY", "").strip():
         k = os.environ["TAVILY_API_KEY"].strip()
         engines.append(("tavily", lambda q: tavily_search(q, k)))
@@ -262,11 +327,16 @@ def run_discovery(products, sources, settings):
         found = 0
         for q in queries:
             for name, fn in engines:
-                countries = ([None] if (worldwide or name != "serpapi")
+                # oszczedzanie limitu SerpAPI: Shopping tylko dla pierwszego
+                # (najprecyzyjniejszego) zapytania - EAN, gdy jest podany
+                if name == "serpapi_shopping" and q != queries[0]:
+                    continue
+                countries = ([None] if (worldwide or not name.startswith("serpapi"))
                              else list(eu_countries))
                 for gl in countries:
-                    urls = fn(q, gl=gl) if name == "serpapi" else fn(q)
+                    urls = fn(q, gl=gl) if name.startswith("serpapi") else fn(q)
                     for url in urls:
+                        url = normalize_url(url)
                         dom = domain_of(url)
                         if url not in known and url_allowed(url, excluded, worldwide):
                             known[url] = {"domain": dom, "first_seen": today,
@@ -504,7 +574,7 @@ def find_product_links(html, base_url, tokens, excluded, worldwide, known):
     base_dom = domain_of(base_url)
     scored = {}
     for a in soup.find_all("a", href=True):
-        url = urljoin(base_url, a["href"]).split("#")[0].rstrip("/")
+        url = normalize_url(urljoin(base_url, a["href"])).rstrip("/")
         if not url.startswith("http") or domain_of(url) != base_dom:
             continue
         if url in known or url == base_url.rstrip("/"):
@@ -535,9 +605,12 @@ def fetch_offers(products, sources, rates):
         worldwide = bool(p.get("worldwide"))
         variant = str(p.get("variant") or "").strip().lower()
         strict = bool(p.get("variant_strict"))
+        ean = str(p.get("ean") or "").strip()
+        ean_strict = bool(p.get("ean_strict"))
         allowed_cur = WORLDWIDE_CURRENCIES if worldwide else ALLOWED_CURRENCIES
         urls = dict(sources.get(pid, {}))
         for u in p.get("seed_urls") or []:
+            u = normalize_url(u)
             urls.setdefault(u, {"domain": domain_of(u), "first_seen": "seed"})
 
         tokens = _product_tokens(p)
@@ -555,7 +628,7 @@ def fetch_offers(products, sources, rates):
                 if r.status_code != 200:
                     log(f"  - {dom}: HTTP {r.status_code}")
                     continue
-                final_url = r.url or url  # kanoniczny adres po przekierowaniach
+                final_url = normalize_url(r.url or url)  # adres po przekierowaniach
                 cands, seen_types = extract_offers(r.text)
             except Exception as e:
                 log(f"  - {dom}: blad pobierania ({type(e).__name__})")
@@ -585,6 +658,19 @@ def fetch_offers(products, sources, rates):
                     types = ", ".join(sorted(seen_types)) or "brak JSON-LD"
                     log(f"  - {dom}: brak danych o cenie (typy na stronie: {types})")
                 continue
+
+            # weryfikacja EAN: kod na stronie = niemal pewne, ze to TEN produkt;
+            # brak kodu to tylko ostrzezenie (chyba ze ean_strict)
+            enote = ""
+            if ean:
+                if ean in r.text:
+                    enote = " [EAN OK]"
+                elif ean_strict:
+                    log(f"  - {dom}: EAN {ean} nieobecny na stronie "
+                        f"- pomijam (ean_strict)")
+                    continue
+                else:
+                    enote = " [EAN niepotwierdzony]"
 
             vnote = ""
             if variant:
@@ -628,7 +714,7 @@ def fetch_offers(products, sources, rates):
                            "availability": best["avail"] or "instock"})
             if meta.get("via") == "crawl":  # znaleziony crawlem i ma cene
                 sources.setdefault(pid, {})[url] = meta  # -> do bazy na stale
-            log(f"  + {dom}: {price} {currency} = {price_pln} PLN{vnote}")
+            log(f"  + {dom}: {price} {currency} = {price_pln} PLN{vnote}{enote}")
     return offers
 
 
@@ -827,6 +913,7 @@ def main():
     sources = {}
     if SOURCES_FILE.exists():
         sources = json.loads(SOURCES_FILE.read_text(encoding="utf-8"))
+    sources = normalize_sources(sources)
 
     sources = run_discovery(products, sources, settings)
     SOURCES_FILE.write_text(json.dumps(sources, indent=2, ensure_ascii=False),
@@ -843,8 +930,9 @@ def main():
     build_excel(rows, products)
 
     from dashboard import build_dashboard
+    save_run_log()  # dashboard osadza log biezacego przebiegu (Diagnostyka)
     out = build_dashboard(rows, products, settings, today)
-    log(f"[DASHBOARD] Zapisano {out}")
+    log(f"[DASHBOARD] Zapisano {out} (+ docs/index.html dla GitHub Pages)")
     log("Gotowe.")
     save_run_log()
     return 0

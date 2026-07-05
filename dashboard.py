@@ -9,8 +9,11 @@ ROOT = Path(__file__).parent
 OUTPUT = ROOT / "output"
 OFFERS_CSV = ROOT / "data" / "all_offers.csv"
 QUOTA_FILE = ROOT / "data" / "serpapi_quota.json"
+RUNLOG_FILE = ROOT / "data" / "last_run.log"
+DOCS = ROOT / "docs"           # kopia dashboardu dla GitHub Pages
 WORKFLOW_FILE = "price-tracker.yml"
-OFFERS_EMBED_DAYS = 120  # ile dni pelnego audytu ofert osadzac w HTML
+OFFERS_EMBED_DAYS = 120   # ile dni pelnego audytu ofert osadzac w HTML
+RUNLOG_EMBED_LINES = 600  # ile ostatnich linii logu osadzac (Diagnostyka)
 
 TEMPLATE = r"""<!DOCTYPE html>
 <html lang="pl">
@@ -138,6 +141,17 @@ input:focus,textarea:focus{outline:none;border-color:var(--teal)}
 .save{background:var(--teal);color:var(--bg);font-size:15px;padding:11px 24px}
 .note{font-size:12px;color:var(--faint);margin-top:10px;line-height:1.6}
 
+/* diagnostyka */
+.logbox{font-family:'JetBrains Mono',monospace;font-size:12px;line-height:1.75;
+  white-space:pre;overflow:auto;max-height:68vh}
+.ll{color:var(--muted)} .ll-info{color:var(--ink)} .ll-ok{color:var(--good)}
+.ll-http{color:var(--fire)} .ll-noprice{color:var(--bad)}
+.ll-skip{color:var(--faint)} .ll-crawl{color:var(--teal)}
+.logchip{cursor:pointer} .logchip:hover{border-color:var(--faint)}
+.logchip.onf{border-color:var(--teal)}
+.lv-ok{color:var(--good)} .lv-http{color:var(--fire)} .lv-noprice{color:var(--bad)}
+.lv-skip{color:var(--muted)} .lv-crawl{color:var(--teal)}
+
 #toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%);background:var(--panel);
   border:1px solid var(--line);border-radius:8px;padding:12px 20px;font-size:14px;opacity:0;
   pointer-events:none;transition:opacity .25s;max-width:90vw;z-index:9}
@@ -173,7 +187,7 @@ const WORKFLOW = "__WORKFLOW__";
 const PERIODS = [["T",7],["M",30],["K",91],["MAX",0]];
 const SHOP_COLORS = ["#5FD3C4","#F0A03C","#8FA9FF","#E77FB3","#A6E06B","#FF8F6B","#6BC7FF","#D6B25F"];
 let state = {
-  history: DATA.history, offers: DATA.offers,
+  history: DATA.history, offers: DATA.offers, runlog: DATA.runlog||[],
   tab: "home", idx: 0, period: {home:"M"}, charts: [],
   cfg: null, cfgSha: null,
 };
@@ -204,7 +218,8 @@ function setStatus(cls,txt){ $('led').className='led '+cls; $('statusTxt').textC
 
 /* ================= NAV ================= */
 function renderNav(){
-  const items = [["home","Główna"], ...DATA.products.map(p=>[p.id,p.id]), ["cfg","Konfiguracja"]];
+  const items = [["home","Główna"], ...DATA.products.map(p=>[p.id,p.id]),
+    ["diag","Diagnostyka"], ["cfg","Konfiguracja"]];
   $('nav').innerHTML = items.map(([k,l])=>
     `<button class="disp ${state.tab===k?'on':''}" data-tab="${esc(k)}">${esc(l)}</button>`).join('');
   $('nav').querySelectorAll('button').forEach(b=> b.onclick = ()=>{
@@ -392,6 +407,39 @@ function renderProduct(el, pid){
   } else h.innerHTML='<div class="emptybig">Brak historii w tym okresie</div>';
 }
 
+/* ================= DIAGNOSTYKA ================= */
+const LOG_CATS = [
+  ["ok",    "Oferty z ceną",  l=>/^\s*\+\s/.test(l)],
+  ["http",  "Błędy HTTP / sieć", l=>/HTTP \d+|blad pobierania/.test(l)],
+  ["noprice","Brak danych o cenie", l=>/brak danych o cenie/.test(l)],
+  ["skip",  "Odfiltrowane",   l=>/pomijam|niedostepny|brak wariantu/.test(l)],
+  ["crawl", "Auto-crawl",     l=>/^\s*~\s/.test(l)],
+];
+function classifyLog(l){ for(const [k,,fn] of LOG_CATS) if(fn(l)) return k; return 'info'; }
+function renderDiag(el){
+  const lines = state.runlog||[];
+  if(!lines.length){
+    el.innerHTML='<div class="emptybig">Brak logu ostatniego przebiegu — uruchom FIRE albo „Odśwież dane"</div>';
+    return;
+  }
+  const cls = lines.map(classifyLog);
+  const cnt = k => cls.filter(c=>c===k).length;
+  const flt = state.logFilter||'';
+  el.innerHTML = `
+  <div class="chips">${LOG_CATS.map(([k,lbl])=>
+    `<div class="chip logchip ${flt===k?'onf':''}" data-k="${k}">
+      <div class="lbl">${lbl}</div><div class="val lv-${k}">${cnt(k)}</div>
+    </div>`).join('')}</div>
+  <div class="panelbox">
+    <h3 class="sect" style="margin-top:0">Log ostatniego przebiegu
+      ${flt?`<span class="pill">· filtr aktywny — kliknij kafelek ponownie, by wyłączyć</span>`:''}</h3>
+    <div class="logbox">${lines.map((l,i)=> (!flt||cls[i]===flt)
+      ?`<div class="ll ll-${cls[i]}">${esc(l)||'&nbsp;'}</div>`:'').join('')}</div>
+  </div>`;
+  el.querySelectorAll('.logchip').forEach(c=> c.onclick=()=>{
+    state.logFilter = (state.logFilter===c.dataset.k)?'':c.dataset.k; render(); });
+}
+
 /* ================= KONFIGURACJA ================= */
 function renderConfig(el){
   el.innerHTML = `<div class="panelbox" id="cfgBox">
@@ -515,6 +563,7 @@ async function refresh(silent){
     const [h,o]=await Promise.all([fetchCSV('data/history.csv'),fetchCSV('data/all_offers.csv')]);
     state.history=h; state.offers=o;
     try{ DATA.serpapi=JSON.parse(await fetchText('data/serpapi_quota.json')); }catch(e){}
+    try{ state.runlog=(await fetchText('data/last_run.log')).split('\n'); }catch(e){}
     try{ const cfg=jsyaml.load(await fetchText('products.yaml'))||{};
       if(Array.isArray(cfg.products)) DATA.products=cfg.products.filter(p=>p&&p.id)
         .map(p=>({id:p.id,name:p.name||p.id,worldwide:!!p.worldwide,target_pln:p.target_pln}));
@@ -569,6 +618,7 @@ function render(){
   const v=$('view');
   if(state.tab==='home') renderHome(v);
   else if(state.tab==='cfg') renderConfig(v);
+  else if(state.tab==='diag') renderDiag(v);
   else renderProduct(v, state.tab);
   $('genInfo').textContent=`wygenerowano ${DATA.generated}`+(DATA.repo?` · repo ${DATA.repo}`:'')
     +` · audyt ofert osadzony za ostatnie ${DATA.offers_days} dni (pełny po „Odśwież dane")`;
@@ -604,10 +654,15 @@ def build_dashboard(rows, products, settings, generated):
         "offers": _load_offers_for_embed(),
         "serpapi": json.loads(QUOTA_FILE.read_text(encoding="utf-8"))
                    if QUOTA_FILE.exists() else None,
+        "runlog": (RUNLOG_FILE.read_text(encoding="utf-8")
+                   .splitlines()[-RUNLOG_EMBED_LINES:]
+                   if RUNLOG_FILE.exists() else []),
     }
     data_js = json.dumps(payload, ensure_ascii=False).replace("</", "<\\/")
     html = TEMPLATE.replace("__DATA__", data_js).replace("__WORKFLOW__", WORKFLOW_FILE)
     OUTPUT.mkdir(exist_ok=True)
     out = OUTPUT / "dashboard.html"
     out.write_text(html, encoding="utf-8")
+    DOCS.mkdir(exist_ok=True)  # GitHub Pages: Settings -> Pages -> main /docs
+    (DOCS / "index.html").write_text(html, encoding="utf-8")
     return out
