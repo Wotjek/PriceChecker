@@ -1,16 +1,16 @@
 Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide']
 [DISCOVERY] Silniki: ['serpapi']
-[DISCOVERY] FM2797: +0 nowych URL-i (razem 34)
-[DISCOVERY] LAUF-CARBONARA: +0 nowych URL-i (razem 4)
-[DISCOVERY] Lake MX190-X Wide: +0 nowych URL-i (razem 27)
-[SERPAPI] Limit: pozostalo 235 z 250 (zuzyte w tym miesiacu: 15)
+[DISCOVERY] FM2797: +17 nowych URL-i (razem 51)
+[DISCOVERY] LAUF-CARBONARA: +2 nowych URL-i (razem 6)
+[DISCOVERY] Lake MX190-X Wide: +12 nowych URL-i (razem 39)
+[SERPAPI] Limit: pozostalo 222 z 250 (zuzyte w tym miesiacu: 28)
 [FX] Kursy NBP pobrane (33 walut)
-[MONITOR] FM2797: sprawdzam 36 URL-i (wariant: 56)
-  - performancebike.com: brak wariantu '56' wsrod ofert - pomijam
-  - epicbikeshop.com: brak wariantu '56' wsrod ofert - pomijam
-  - 2riversbicycle.com: brak wariantu '56' wsrod ofert - pomijam
-  - bigshark.com: brak wariantu '56' wsrod ofert - pomijam
-  - papa-wheelies.com: brak wariantu '56' wsrod ofert - pomijam
+[MONITOR] FM2797: sprawdzam 53 URL-i (wariant: 56)
+  - performancebike.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
+  - epicbikeshop.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
+  - 2riversbicycle.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
+  - bigshark.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
+  - papa-wheelies.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   - bike-packing.de: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   - bobleisure.de: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   - bobleisure-australia.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
@@ -23,31 +23,50 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide']
   - lennysbikeshop.com: niedostepny (outofstock)
   - bobleisure.de: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   - goldsprintshop.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
-  - nowbikes-fitness.com: brak wariantu '56' wsrod ofert - pomijam
+  - nowbikes-fitness.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   - biketour-global.de: brak danych o cenie (typy na stronie: article, breadcrumblist, imageobject, organization, person, webpage, website)
   - bike-packing.de: brak danych o cenie (typy na stronie: brak JSON-LD)
   - 99spokes.com: brak danych o cenie (typy na stronie: breadcrumblist, product)
-  - spokesmanbicycles.com: brak wariantu '56' wsrod ofert - pomijam
+  - spokesmanbicycles.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   - goldsprintshop.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
-  - spokesmanbicycles.com: brak wariantu '56' wsrod ofert - pomijam
-  - togabikes.com: brak wariantu '56' wsrod ofert - pomijam
+  - spokesmanbicycles.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
+  - togabikes.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   - 99spokes.com: brak danych o cenie (typy na stronie: breadcrumblist, product)
   - lennysbikeshop.com: niedostepny (outofstock)
   - bobleisure-australia.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   - bobleisure.de: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   + imfixies.it: 2317.5 EUR = 9932.11 PLN [wariant 56 dopasowany]
-  - nowbikes-fitness.com: brak wariantu '56' wsrod ofert - pomijam
-  - yawpcyclery.com: brak wariantu '56' wsrod ofert - pomijam
+  - nowbikes-fitness.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
+  - yawpcyclery.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   - webcyclery.com: brak danych o cenie (typy na stronie: videoobject)
   - bikeman.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
-  - stateofbike.it: brak wariantu '56' wsrod ofert - pomijam
+  - bobleisure.de: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
+  - lennysbikeshop.com: niedostepny (outofstock)
+  - bobleisure-australia.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
+  - bobleisure.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
+  - bobleisure.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
+  - bobleisure-australia.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
+  - lennysbikeshop.com: niedostepny (outofstock)
+  - bobleisure.de: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
+  - bobleisure-australia.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
+  - lennysbikeshop.com: niedostepny (outofstock)
+  - bobleisure.de: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
+  - nowbikes-fitness.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
+  - followmestore.de: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - spokesmanbicycles.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
+  - nowbikes-fitness.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
+  - webcyclery.com: brak danych o cenie (typy na stronie: videoobject)
+  - bikeman.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
+  - stateofbike.it: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   + bikejamming.it: 2499.0 EUR = 10709.96 PLN [wariant 56 dopasowany]
-[MONITOR] LAUF-CARBONARA: sprawdzam 4 URL-i
-  - laufcycles.com: brak danych o cenie (typy na stronie: brak JSON-LD)
+[MONITOR] LAUF-CARBONARA: sprawdzam 6 URL-i
+  + laufcycles.com: 1190.0 USD = 4452.98 PLN
   - ridefatbikes.ca: brak danych o cenie (typy na stronie: localbusiness, organization, website)
   - lunacycle.com: niedostepny (outofstock)
   + fatbikeadventures-store.com: 1100.0 EUR = 4714.27 PLN
-[MONITOR] Lake MX190-X Wide: sprawdzam 27 URL-i
+  - lunacycle.com: niedostepny (outofstock)
+  + fatbikeadventures-store.com: 1100.0 EUR = 4714.27 PLN
+[MONITOR] Lake MX190-X Wide: sprawdzam 39 URL-i
   - allegro.pl: HTTP 403
   - bike24.at: HTTP 403
   - bike24.com: HTTP 403
@@ -75,8 +94,20 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide']
   - hoopsvelo.com: brak danych o cenie (typy na stronie: organization, store)
   - lakecycling.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - sigmasports.com: waluta GBP poza dozwolonym regionem - pomijam
+  - allegro.pl: HTTP 403
+  - allegro.pl: HTTP 403
+  - allegro.pl: HTTP 403
+  + sport-bittl.com: 165.0 EUR = 707.14 PLN
+  - hoopsvelo.com: brak danych o cenie (typy na stronie: organization, store)
+  - allegro.pl: HTTP 403
+  - hoopsvelo.com: brak danych o cenie (typy na stronie: organization, store)
+  - deporvillage.pl: HTTP 403
+  - lakecycling.com: brak danych o cenie (typy na stronie: collectionpage, faqpage)
+  - backcountry.com: HTTP 202
+  - lakecycling.com: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - hoopsvelo.com: brak danych o cenie (typy na stronie: organization, store)
 [HISTORIA] FM2797: najnizsza 9932.11 PLN (imfixies.it)
-[HISTORIA] LAUF-CARBONARA: najnizsza 4714.27 PLN (fatbikeadventures-store.com)
+[HISTORIA] LAUF-CARBONARA: najnizsza 4452.98 PLN (laufcycles.com)
 [HISTORIA] Lake MX190-X Wide: najnizsza 707.14 PLN (sport-bittl.com)
 [EXCEL] Zapisano /home/runner/work/PriceChecker/PriceChecker/output/prices.xlsx
 [DASHBOARD] Zapisano /home/runner/work/PriceChecker/PriceChecker/output/dashboard.html
