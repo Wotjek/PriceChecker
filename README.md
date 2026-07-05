@@ -18,14 +18,31 @@ Lista produktów w `products.yaml` — możesz dodawać/usuwać wpisy w dowolnym
 1. Utwórz **prywatne** repo na GitHubie i wgraj zawartość tego folderu.
 2. W repo: *Settings → Actions → General → Workflow permissions* → zaznacz **Read and write permissions** (bot musi commitować wyniki).
 
-### 2. Google Programmable Search (darmowe 100 zapytań/dzień)
-1. Wejdź na https://programmablesearchengine.google.com → *Add* → w polu "What to search" wybierz **Search the entire web** → utwórz. Skopiuj **Search engine ID** (to jest `GOOGLE_CX`).
-2. Wejdź na https://console.cloud.google.com → utwórz projekt → *APIs & Services → Library* → włącz **Custom Search API** → *Credentials → Create credentials → API key*. Skopiuj klucz (to jest `GOOGLE_API_KEY`).
+### 2. Silnik wyszukiwania (discovery)
+
+> Uwaga: Google Programmable Search wycofał opcję „przeszukuj cały internet" dla nowych
+> wyszukiwarek (całość znika 2027-01-01) — dlatego domyślnym silnikiem jest SerpAPI.
+
+**SerpAPI (zalecane):** zarejestruj się na https://serpapi.com (plan Free, ~100 wyszukiwań/mies.,
+prawdziwe wyniki Google — najlepszy zasięg dla zapytań EAN). Skopiuj API Key z dashboardu →
+sekret `SERPAPI_KEY`.
+
+**Tavily (zapas / większy limit):** https://tavily.com (plan Free, ~1000 zapytań/mies.) →
+sekret `TAVILY_API_KEY`.
+
+**Brave:** https://brave.com/search/api (obecnie bez planu darmowego — kredyty $5/mies.,
+wymagana karta) → sekret `BRAVE_API_KEY`.
+
+Skrypt używa wszystkich skonfigurowanych silników naraz i łączy wyniki. Dla oszczędzania
+limitu SerpAPI, przy runach z harmonogramu discovery wykonuje się raz w tygodniu
+(poniedziałki; `settings.discovery: "weekly"` w `products.yaml`, możesz zmienić na `"daily"`).
+Ręczny FIRE **zawsze** robi pełne discovery. Monitoring znanych URL-i działa codziennie
+niezależnie od discovery i nie zużywa żadnego limitu.
 
 ### 3. Sekrety w repo
 *Settings → Secrets and variables → Actions → New repository secret*:
-- `GOOGLE_API_KEY`
-- `GOOGLE_CX`
+- `SERPAPI_KEY` (zalecany minimalny zestaw)
+- opcjonalnie: `TAVILY_API_KEY`, `BRAVE_API_KEY`, `GOOGLE_API_KEY`+`GOOGLE_CX` (legacy)
 
 Bez sekretów skrypt też działa — pominie discovery i sprawdzi tylko URL-e już zapisane w `data/sources.json` + `seed_urls` z konfiguracji.
 
