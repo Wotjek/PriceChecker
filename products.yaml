@@ -1,5 +1,6 @@
 # Plik zarzadzany takze z dashboardu (zakladka Konfiguracja)
-# variant: token rozmiaru/wariantu weryfikowany w ofertach sklepu (np. "56")
+# variant: token rozmiaru weryfikowany w ofertach; variant_strict: true = licz
+# tylko sklepy z potwierdzonym wariantem (pomijaj ceny zbiorcze)
 settings:
   github_repo: Wotjek/PriceChecker
   branch: main
@@ -18,6 +19,7 @@ products:
   seed_urls:
   - https://stateofbike.it/negozio-bikepacking/salsa-cutthroat-frameset/
   - https://www.bikejamming.it/en/30986-16664salsa-cutthroat-carbon-frameset-tour-divide-bikepacking.html
+  variant_strict: true
 - id: LAUF-CARBONARA
   name: Lauf Carbonara fork
   worldwide: true
