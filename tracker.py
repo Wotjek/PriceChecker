@@ -1,0 +1,525 @@
+#!/usr/bin/env python3
+"""
+Price Tracker - monitoring najnizszych cen w sklepach Europy kontynentalnej.
+
+Pipeline:
+  1. DISCOVERY  - Google Programmable Search (EAN / frazy) -> nowe URL-e sklepow
+  2. MONITORING - pobranie stron, ekstrakcja ceny+dostepnosci z JSON-LD / meta
+  3. FX         - przeliczenie na PLN po kursie NBP z danego dnia (fallback: frankfurter.app)
+  4. HISTORIA   - dopisanie wiersza (data, produkt, najnizsza cena, sklep, URL) do CSV
+  5. RAPORT     - regeneracja pliku Excel z historia i wykresem dla kazdego produktu
+"""
+
+import csv
+import json
+import os
+import re
+import sys
+import time
+from datetime import date
+from pathlib import Path
+from urllib.parse import urlparse
+
+import requests
+import yaml
+from bs4 import BeautifulSoup
+
+ROOT = Path(__file__).parent
+DATA = ROOT / "data"
+OUTPUT = ROOT / "output"
+PRODUCTS_FILE = ROOT / "products.yaml"
+SOURCES_FILE = DATA / "sources.json"      # baza znanych URL-i per produkt
+HISTORY_FILE = DATA / "history.csv"       # najlepsza cena / produkt / dzien
+OFFERS_FILE = DATA / "all_offers.csv"     # wszystkie znalezione oferty (audyt)
+EXCEL_FILE = OUTPUT / "prices.xlsx"
+
+UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+      "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
+TIMEOUT = 25
+SLEEP_BETWEEN_FETCHES = 2.0
+
+# --- Europa kontynentalna: dozwolone waluty i TLD ---------------------------
+ALLOWED_CURRENCIES = {"PLN", "EUR", "CZK", "DKK", "SEK", "NOK", "CHF",
+                      "HUF", "RON", "BGN"}
+EU_TLDS = {"pl", "de", "nl", "fr", "it", "es", "be", "at", "cz", "sk", "dk",
+           "se", "fi", "no", "pt", "hu", "ro", "si", "hr", "lt", "lv", "ee",
+           "gr", "bg", "lu", "ch", "li", "ie", "eu"}
+NEUTRAL_TLDS = {"com", "net", "org", "shop", "bike", "cc", "io", "store"}
+BLOCKED_TLDS = {"uk", "gg", "je", "im", "us", "ca", "au", "nz", "jp", "cn",
+                "in", "br", "mx", "za", "kr", "sg", "hk", "tr", "ru", "by"}
+BLOCKED_DOMAINS = {"ebay.com", "ebay.de", "ebay.pl", "amazon.com",
+                   "idealo.de", "idealo.pl", "google.com", "youtube.com",
+                   "facebook.com", "reddit.com", "pinterest.com",
+                   "salsacycles.com"}  # strony producenta/agregatory bez ceny sklepowej
+
+IN_STOCK = {"instock", "limitedavailability", "onlineonly"}
+
+
+# ============================================================ helpers =======
+
+def log(msg):
+    print(msg, flush=True)
+
+
+def domain_of(url):
+    d = urlparse(url).netloc.lower()
+    return d[4:] if d.startswith("www.") else d
+
+
+def tld_of(domain):
+    return domain.rsplit(".", 1)[-1]
+
+
+WORLDWIDE_CURRENCIES = ALLOWED_CURRENCIES | {"USD", "GBP", "CAD", "AUD"}
+
+
+def domain_allowed(domain, extra_excluded, worldwide=False):
+    if not domain or domain in BLOCKED_DOMAINS or domain in extra_excluded:
+        return False
+    if worldwide:
+        return True  # produkt globalny (np. dostepny glownie w US)
+    if any(domain.endswith("." + b) or tld_of(domain) == b for b in BLOCKED_TLDS):
+        return False
+    tld = tld_of(domain)
+    return tld in EU_TLDS or tld in NEUTRAL_TLDS
+
+
+# ======================================================== FX (kurs dnia) ====
+
+def get_fx_rates():
+    """Zwraca slownik {waluta: kurs_PLN} z NBP (tabela A), fallback frankfurter.app."""
+    rates = {"PLN": 1.0}
+    try:
+        r = requests.get("https://api.nbp.pl/api/exchangerates/tables/A?format=json",
+                         timeout=TIMEOUT)
+        r.raise_for_status()
+        for row in r.json()[0]["rates"]:
+            rates[row["code"]] = float(row["mid"])
+        log(f"[FX] Kursy NBP pobrane ({len(rates)} walut)")
+        return rates
+    except Exception as e:
+        log(f"[FX] NBP niedostepne ({e}), probuje frankfurter.app")
+    try:
+        r = requests.get("https://api.frankfurter.app/latest?from=PLN", timeout=TIMEOUT)
+        r.raise_for_status()
+        for code, v in r.json()["rates"].items():
+            rates[code] = 1.0 / float(v)  # kurs waluty w PLN
+        log(f"[FX] Kursy frankfurter pobrane ({len(rates)} walut)")
+    except Exception as e:
+        log(f"[FX] BLAD: brak kursow walut ({e}) - tylko oferty w PLN beda uzyte")
+    return rates
+
+
+# ========================================================== discovery =======
+
+def google_search(query, api_key, cx, pages=1):
+    urls = []
+    for page in range(pages):
+        params = {"key": api_key, "cx": cx, "q": query,
+                  "num": 10, "start": 1 + page * 10}
+        try:
+            r = requests.get("https://www.googleapis.com/customsearch/v1",
+                             params=params, timeout=TIMEOUT)
+            if r.status_code == 429:
+                log("[DISCOVERY] Limit dzienny API wyczerpany")
+                return urls
+            r.raise_for_status()
+            items = r.json().get("items", [])
+            urls += [it["link"] for it in items if "link" in it]
+            if len(items) < 10:
+                break
+        except Exception as e:
+            log(f"[DISCOVERY] Blad zapytania '{query}': {e}")
+            break
+        time.sleep(0.5)
+    return urls
+
+
+def run_discovery(products, sources):
+    api_key = os.environ.get("GOOGLE_API_KEY", "").strip()
+    cx = os.environ.get("GOOGLE_CX", "").strip()
+    if not api_key or not cx:
+        log("[DISCOVERY] Brak GOOGLE_API_KEY / GOOGLE_CX - pomijam discovery, "
+            "uzywam tylko znanych URL-i")
+        return sources
+
+    today = date.today().isoformat()
+    for p in products:
+        pid = p["id"]
+        known = sources.setdefault(pid, {})
+        excluded = set(p.get("exclude_domains") or [])
+        worldwide = bool(p.get("worldwide"))
+        queries = []
+        if p.get("ean"):
+            queries.append(f'"{p["ean"]}"')
+        queries += p.get("queries") or []
+        if not queries:
+            queries = [f'"{p["name"]}"']
+
+        found = 0
+        for q in queries:
+            for url in google_search(q, api_key, cx):
+                dom = domain_of(url)
+                if url not in known and domain_allowed(dom, excluded, worldwide):
+                    known[url] = {"domain": dom, "first_seen": today}
+                    found += 1
+        log(f"[DISCOVERY] {pid}: +{found} nowych URL-i (razem {len(known)})")
+    return sources
+
+
+# ========================================================== extraction ======
+
+def _iter_jsonld_products(soup):
+    for tag in soup.find_all("script", type="application/ld+json"):
+        try:
+            data = json.loads(tag.string or "")
+        except Exception:
+            continue
+        stack = data if isinstance(data, list) else [data]
+        while stack:
+            node = stack.pop()
+            if not isinstance(node, dict):
+                continue
+            if "@graph" in node:
+                stack += [n for n in node["@graph"] if isinstance(n, dict)]
+            t = node.get("@type", "")
+            types = t if isinstance(t, list) else [t]
+            if any(str(x).lower() in ("product", "productgroup") for x in types):
+                yield node
+
+
+def _norm_availability(val):
+    if not val:
+        return ""
+    return str(val).rsplit("/", 1)[-1].strip().lower()
+
+
+def _parse_price(val):
+    if val is None:
+        return None
+    s = str(val).strip().replace("\xa0", "").replace(" ", "")
+    s = re.sub(r"[^\d,.\-]", "", s)
+    if "," in s and "." in s:
+        s = s.replace(",", "") if s.rfind(".") > s.rfind(",") else s.replace(".", "").replace(",", ".")
+    elif "," in s:
+        s = s.replace(",", ".")
+    try:
+        v = float(s)
+        return v if v > 0 else None
+    except ValueError:
+        return None
+
+
+def extract_offer(html):
+    """Zwraca (price, currency, availability) albo None."""
+    soup = BeautifulSoup(html, "html.parser")
+
+    best = None
+    for prod in _iter_jsonld_products(soup):
+        offers = prod.get("offers")
+        if not offers:
+            continue
+        offers = offers if isinstance(offers, list) else [offers]
+        for off in offers:
+            if not isinstance(off, dict):
+                continue
+            # AggregateOffer -> lowPrice, w srodku moga byc tez offers[]
+            inner = off.get("offers")
+            if isinstance(inner, list):
+                offers += [o for o in inner if isinstance(o, dict)]
+            price = _parse_price(off.get("price", off.get("lowPrice")))
+            currency = str(off.get("priceCurrency", "")).upper().strip()
+            avail = _norm_availability(off.get("availability"))
+            if price and currency:
+                cand = (price, currency, avail)
+                if best is None or price < best[0]:
+                    best = cand
+    if best:
+        return best
+
+    # Fallback: meta OpenGraph (czesc sklepow nie ma JSON-LD)
+    mp = soup.find("meta", attrs={"property": "product:price:amount"}) or \
+         soup.find("meta", attrs={"itemprop": "price"})
+    mc = soup.find("meta", attrs={"property": "product:price:currency"}) or \
+         soup.find("meta", attrs={"itemprop": "priceCurrency"})
+    ma = soup.find("meta", attrs={"property": "product:availability"}) or \
+         soup.find("link", attrs={"itemprop": "availability"})
+    if mp and mc:
+        price = _parse_price(mp.get("content"))
+        currency = str(mc.get("content", "")).upper().strip()
+        avail = _norm_availability((ma.get("content") if ma and ma.get("content")
+                                    else ma.get("href") if ma else "instock"))
+        if price and currency:
+            return price, currency, avail
+    return None
+
+
+# ========================================================== monitoring ======
+
+def fetch_offers(products, sources, rates):
+    """Zwraca liste ofert: dict(product_id, name, url, domain, price, currency,
+    price_pln, availability)."""
+    session = requests.Session()
+    session.headers.update({"User-Agent": UA, "Accept-Language": "en,de;q=0.9,pl;q=0.8"})
+    offers = []
+
+    for p in products:
+        pid = p["id"]
+        excluded = set(p.get("exclude_domains") or [])
+        worldwide = bool(p.get("worldwide"))
+        allowed_cur = WORLDWIDE_CURRENCIES if worldwide else ALLOWED_CURRENCIES
+        urls = dict(sources.get(pid, {}))
+        for u in p.get("seed_urls") or []:
+            urls.setdefault(u, {"domain": domain_of(u), "first_seen": "seed"})
+
+        log(f"[MONITOR] {pid}: sprawdzam {len(urls)} URL-i")
+        for url, meta in urls.items():
+            dom = meta.get("domain") or domain_of(url)
+            if not domain_allowed(dom, excluded, worldwide):
+                continue
+            try:
+                r = session.get(url, timeout=TIMEOUT, allow_redirects=True)
+                if r.status_code != 200:
+                    log(f"  - {dom}: HTTP {r.status_code}")
+                    continue
+                final_url = r.url or url  # kanoniczny adres po przekierowaniach
+                res = extract_offer(r.text)
+            except Exception as e:
+                log(f"  - {dom}: blad pobierania ({type(e).__name__})")
+                continue
+            finally:
+                time.sleep(SLEEP_BETWEEN_FETCHES)
+
+            if not res:
+                log(f"  - {dom}: brak danych o cenie")
+                continue
+            price, currency, avail = res
+            if currency not in allowed_cur:
+                log(f"  - {dom}: waluta {currency} poza dozwolonym regionem - pomijam")
+                continue
+            if avail and avail not in IN_STOCK:
+                log(f"  - {dom}: niedostepny ({avail})")
+                continue
+            if currency not in rates:
+                log(f"  - {dom}: brak kursu {currency}")
+                continue
+            price_pln = round(price * rates[currency], 2)
+            offers.append({"product_id": pid, "name": p["name"], "url": final_url,
+                           "domain": dom, "price": price, "currency": currency,
+                           "price_pln": price_pln, "availability": avail or "instock"})
+            log(f"  + {dom}: {price} {currency} = {price_pln} PLN")
+    return offers
+
+
+# ============================================================ storage =======
+
+HIST_COLS = ["date", "product_id", "product_name", "price_pln",
+             "price_orig", "currency", "shop", "url", "offers_checked"]
+OFFER_COLS = ["date", "product_id", "domain", "price", "currency",
+              "price_pln", "availability", "url"]
+
+
+def append_history(offers, products, today):
+    DATA.mkdir(exist_ok=True)
+    # pelny audyt ofert
+    new_file = not OFFERS_FILE.exists()
+    with OFFERS_FILE.open("a", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=OFFER_COLS)
+        if new_file:
+            w.writeheader()
+        for o in offers:
+            w.writerow({"date": today, "product_id": o["product_id"],
+                        "domain": o["domain"], "price": o["price"],
+                        "currency": o["currency"], "price_pln": o["price_pln"],
+                        "availability": o["availability"], "url": o["url"]})
+
+    # historia: najlepsza cena per produkt; nadpisz jesli dzis juz byl wpis
+    rows = []
+    if HISTORY_FILE.exists():
+        with HISTORY_FILE.open(newline="", encoding="utf-8") as f:
+            rows = [r for r in csv.DictReader(f)]
+    rows = [r for r in rows if not (r["date"] == today)]
+
+    by_product = {}
+    for o in offers:
+        cur = by_product.get(o["product_id"])
+        if cur is None or o["price_pln"] < cur["price_pln"]:
+            by_product[o["product_id"]] = o
+    counts = {}
+    for o in offers:
+        counts[o["product_id"]] = counts.get(o["product_id"], 0) + 1
+
+    for p in products:
+        pid = p["id"]
+        best = by_product.get(pid)
+        if best:
+            rows.append({"date": today, "product_id": pid,
+                         "product_name": p["name"],
+                         "price_pln": best["price_pln"],
+                         "price_orig": best["price"],
+                         "currency": best["currency"],
+                         "shop": best["domain"], "url": best["url"],
+                         "offers_checked": counts.get(pid, 0)})
+            log(f"[HISTORIA] {pid}: najnizsza {best['price_pln']} PLN "
+                f"({best['domain']})")
+        else:
+            log(f"[HISTORIA] {pid}: brak dostepnych ofert dzisiaj")
+
+    rows.sort(key=lambda r: (r["product_id"], r["date"]))
+    with HISTORY_FILE.open("w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=HIST_COLS)
+        w.writeheader()
+        w.writerows(rows)
+    return rows
+
+
+# ========================================================= excel report =====
+
+def safe_sheet_name(name):
+    return re.sub(r"[\[\]:*?/\\]", "-", str(name))[:31]
+
+
+def build_excel(rows, products):
+    from openpyxl import Workbook
+    from openpyxl.chart import LineChart, Reference
+    from openpyxl.styles import Alignment, Font, PatternFill
+    from openpyxl.utils import get_column_letter
+
+    OUTPUT.mkdir(exist_ok=True)
+    wb = Workbook()
+
+    hdr_font = Font(name="Arial", bold=True, color="FFFFFF")
+    hdr_fill = PatternFill("solid", start_color="1F4E79")
+    body_font = Font(name="Arial")
+    money_fmt = "#,##0.00\\ \\z\\ł"
+
+    def style_header(ws, ncols):
+        for c in range(1, ncols + 1):
+            cell = ws.cell(row=1, column=c)
+            cell.font = hdr_font
+            cell.fill = hdr_fill
+            cell.alignment = Alignment(horizontal="center")
+        ws.freeze_panes = "A2"
+
+    # --- Podsumowanie ---
+    ws = wb.active
+    ws.title = "Podsumowanie"
+    ws.append(["Produkt", "Nazwa", "Ostatni pomiar", "Aktualna najniższa (PLN)",
+               "Minimum historyczne (PLN)", "Data minimum", "Sklep (aktualny)", "Link"])
+    style_header(ws, 8)
+
+    per_product = {}
+    for r in rows:
+        per_product.setdefault(r["product_id"], []).append(r)
+
+    for p in products:
+        pid = p["id"]
+        hist = per_product.get(pid, [])
+        if not hist:
+            ws.append([pid, p["name"], "-", "-", "-", "-", "-", "-"])
+            continue
+        last = hist[-1]
+        m = min(hist, key=lambda r: float(r["price_pln"]))
+        row = [pid, p["name"], last["date"], float(last["price_pln"]),
+               float(m["price_pln"]), m["date"], last["shop"], last["url"]]
+        ws.append(row)
+        rr = ws.max_row
+        ws.cell(rr, 4).number_format = money_fmt
+        ws.cell(rr, 5).number_format = money_fmt
+        link = ws.cell(rr, 8)
+        link.hyperlink = last["url"]
+        link.font = Font(name="Arial", color="0563C1", underline="single")
+
+    widths = [14, 34, 14, 22, 24, 14, 26, 50]
+    for i, w in enumerate(widths, 1):
+        ws.column_dimensions[get_column_letter(i)].width = w
+    for row in ws.iter_rows(min_row=2):
+        for cell in row:
+            if cell.font == Font():
+                cell.font = body_font
+
+    # --- Historia (pelna tabela) ---
+    ws = wb.create_sheet("Historia")
+    ws.append(["Data", "Produkt", "Nazwa", "Cena (PLN)", "Cena oryg.",
+               "Waluta", "Sklep", "Link", "Ofert sprawdzonych"])
+    style_header(ws, 9)
+    for r in rows:
+        ws.append([r["date"], r["product_id"], r["product_name"],
+                   float(r["price_pln"]), float(r["price_orig"]), r["currency"],
+                   r["shop"], r["url"], int(r.get("offers_checked") or 0)])
+        ws.cell(ws.max_row, 4).number_format = money_fmt
+    for i, w in enumerate([12, 14, 32, 14, 12, 8, 24, 48, 10], 1):
+        ws.column_dimensions[get_column_letter(i)].width = w
+
+    # --- Arkusz per produkt z wykresem ---
+    for p in products:
+        pid = p["id"]
+        hist = per_product.get(pid, [])
+        ws = wb.create_sheet(safe_sheet_name(pid))
+        ws.append(["Data", "Najniższa cena (PLN)", "Sklep", "Link"])
+        style_header(ws, 4)
+        for r in hist:
+            ws.append([r["date"], float(r["price_pln"]), r["shop"], r["url"]])
+            ws.cell(ws.max_row, 2).number_format = money_fmt
+        for i, w in enumerate([12, 20, 26, 50], 1):
+            ws.column_dimensions[get_column_letter(i)].width = w
+
+        n = len(hist)
+        if n >= 1:
+            chart = LineChart()
+            chart.title = f"{p['name']} - najniższa cena dzienna (PLN)"
+            chart.style = 12
+            chart.y_axis.title = "PLN"
+            chart.x_axis.title = "Data"
+            chart.height = 9
+            chart.width = 22
+            data = Reference(ws, min_col=2, min_row=1, max_row=1 + n)
+            cats = Reference(ws, min_col=1, min_row=2, max_row=1 + n)
+            chart.add_data(data, titles_from_data=True)
+            chart.set_categories(cats)
+            s = chart.series[0]
+            s.marker.symbol = "circle"
+            s.marker.size = 6
+            s.smooth = False
+            ws.add_chart(chart, "F2")
+
+    wb.save(EXCEL_FILE)
+    log(f"[EXCEL] Zapisano {EXCEL_FILE}")
+
+
+# =============================================================== main =======
+
+def main():
+    with PRODUCTS_FILE.open(encoding="utf-8") as f:
+        cfg = yaml.safe_load(f) or {}
+    products = cfg.get("products") or []
+    settings = cfg.get("settings") or {}
+    if not products:
+        log("Brak produktow w products.yaml - koniec.")
+        return 0
+    log(f"Produkty: {[p['id'] for p in products]}")
+
+    DATA.mkdir(exist_ok=True)
+    sources = {}
+    if SOURCES_FILE.exists():
+        sources = json.loads(SOURCES_FILE.read_text(encoding="utf-8"))
+
+    sources = run_discovery(products, sources)
+    SOURCES_FILE.write_text(json.dumps(sources, indent=2, ensure_ascii=False),
+                            encoding="utf-8")
+
+    rates = get_fx_rates()
+    offers = fetch_offers(products, sources, rates)
+    today = date.today().isoformat()
+    rows = append_history(offers, products, today)
+    build_excel(rows, products)
+
+    from dashboard import build_dashboard
+    out = build_dashboard(rows, products, settings, today)
+    log(f"[DASHBOARD] Zapisano {out}")
+    log("Gotowe.")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
