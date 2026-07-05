@@ -18,7 +18,7 @@ import sys
 import time
 from datetime import date
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import urljoin, urlparse
 
 import requests
 import yaml
@@ -481,6 +481,47 @@ def extract_offers(html):
 
 # ========================================================== monitoring ======
 
+MAX_CRAWL_PER_PAGE = 3      # ile linkow produktowych podjac z jednej strony
+MAX_CRAWL_PER_PRODUCT = 6   # limit dodatkowych pobran per produkt / run
+
+
+def _product_tokens(p):
+    """Tokeny identyfikujace produkt (z id/nazwy/fraz): kody modelu z cyfra
+    (np. 'mx190', 'fm2797') oraz slowa >=4 znaki (np. 'cutthroat', 'wide')."""
+    text = " ".join([str(p.get("id") or ""), str(p.get("name") or "")]
+                    + [str(q) for q in (p.get("queries") or [])])
+    toks = set(re.findall(r"[a-z0-9]+", text.lower()))
+    return {t for t in toks
+            if (len(t) >= 3 and any(ch.isdigit() for ch in t)) or len(t) >= 4}
+
+
+def find_product_links(html, base_url, tokens, excluded, worldwide, known):
+    """Gdy strona nie ma ceny (kategoria, poradnik rozmiarow, artykul),
+    szuka na niej linkow wygladajacych na karte TEGO produktu. Link musi
+    zawierac w sciezce/tekscie token z cyfra (kod modelu) albo >=2 tokeny
+    nazwy. Tylko ta sama domena, max MAX_CRAWL_PER_PAGE najlepszych."""
+    soup = BeautifulSoup(html, "html.parser")
+    base_dom = domain_of(base_url)
+    scored = {}
+    for a in soup.find_all("a", href=True):
+        url = urljoin(base_url, a["href"]).split("#")[0].rstrip("/")
+        if not url.startswith("http") or domain_of(url) != base_dom:
+            continue
+        if url in known or url == base_url.rstrip("/"):
+            continue
+        if not url_allowed(url, excluded, worldwide):
+            continue
+        hay = (urlparse(url).path + " " + a.get_text(" ", strip=True)).lower()
+        hits = {t for t in tokens if t in hay}
+        strong = any(any(ch.isdigit() for ch in t) for t in hits)
+        if not strong and len(hits) < 2:
+            continue
+        score = len(hits) + (2 if strong else 0)
+        if score > scored.get(url, 0):
+            scored[url] = score
+    return sorted(scored, key=scored.get, reverse=True)[:MAX_CRAWL_PER_PAGE]
+
+
 def fetch_offers(products, sources, rates):
     """Zwraca liste ofert: dict(product_id, name, url, domain, price, currency,
     price_pln, availability)."""
@@ -499,9 +540,13 @@ def fetch_offers(products, sources, rates):
         for u in p.get("seed_urls") or []:
             urls.setdefault(u, {"domain": domain_of(u), "first_seen": "seed"})
 
+        tokens = _product_tokens(p)
+        queue = list(urls.items())
+        crawl_budget = MAX_CRAWL_PER_PRODUCT
         log(f"[MONITOR] {pid}: sprawdzam {len(urls)} URL-i"
             + (f" (wariant: {variant})" if variant else ""))
-        for url, meta in urls.items():
+        while queue:
+            url, meta = queue.pop(0)
             dom = meta.get("domain") or domain_of(url)
             if not url_allowed(url, excluded, worldwide):
                 continue
@@ -519,8 +564,26 @@ def fetch_offers(products, sources, rates):
                 time.sleep(SLEEP_BETWEEN_FETCHES)
 
             if not cands:
-                types = ", ".join(sorted(seen_types)) or "brak JSON-LD"
-                log(f"  - {dom}: brak danych o cenie (typy na stronie: {types})")
+                # auto-crawl (1 poziom): moze to kategoria/artykul - poszukaj
+                # na stronie linku do karty tego produktu
+                links = []
+                if crawl_budget > 0 and meta.get("via") != "crawl":
+                    links = find_product_links(r.text, final_url, tokens,
+                                               excluded, worldwide,
+                                               set(urls))[:crawl_budget]
+                if links:
+                    crawl_budget -= len(links)
+                    for link in links:
+                        m = {"domain": domain_of(link),
+                             "first_seen": date.today().isoformat(),
+                             "via": "crawl"}
+                        urls[link] = m
+                        queue.append((link, m))
+                    log(f"  ~ {dom}: brak ceny, ale znalazlem {len(links)} "
+                        f"link(i) produktowe - sprawdzam")
+                else:
+                    types = ", ".join(sorted(seen_types)) or "brak JSON-LD"
+                    log(f"  - {dom}: brak danych o cenie (typy na stronie: {types})")
                 continue
 
             vnote = ""
@@ -563,6 +626,8 @@ def fetch_offers(products, sources, rates):
                            "domain": dom, "price": price, "currency": currency,
                            "price_pln": price_pln,
                            "availability": best["avail"] or "instock"})
+            if meta.get("via") == "crawl":  # znaleziony crawlem i ma cene
+                sources.setdefault(pid, {})[url] = meta  # -> do bazy na stale
             log(f"  + {dom}: {price} {currency} = {price_pln} PLN{vnote}")
     return offers
 
@@ -770,6 +835,9 @@ def main():
 
     rates = get_fx_rates()
     offers = fetch_offers(products, sources, rates)
+    # URL-e znalezione auto-crawlem w monitoringu -> utrwal w bazie
+    SOURCES_FILE.write_text(json.dumps(sources, indent=2, ensure_ascii=False),
+                            encoding="utf-8")
     today = date.today().isoformat()
     rows = append_history(offers, products, today)
     build_excel(rows, products)

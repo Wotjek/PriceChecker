@@ -2,7 +2,7 @@
 
 Codziennie o 12:00 skrypt:
 1. **Discovery** — pyta Google (Programmable Search) o EAN / frazy każdego produktu i dopisuje nowo znalezione sklepy do bazy (`data/sources.json`). Baza URL-i rośnie w czasie — to Twoje główne aktywo.
-2. **Monitoring** — odwiedza każdy znany URL, wyciąga cenę i dostępność z danych strukturalnych strony (JSON-LD `schema.org/Product`, fallback: meta OpenGraph). Oferty niedostępne (`OutOfStock`) są odrzucane.
+2. **Monitoring** — odwiedza każdy znany URL, wyciąga cenę i dostępność z danych strukturalnych strony (JSON-LD `schema.org/Product`, fallback: meta OpenGraph oraz `__NEXT_DATA__` dla sklepów headless). Oferty niedostępne (`OutOfStock`) są odrzucane. Gdy URL nie ma ceny (np. strona kategorii lub artykuł), skrypt sam szuka na niej linku do karty tego produktu (dopasowanie po kodzie modelu / tokenach nazwy), sprawdza go od razu i — jeśli znajdzie cenę — dopisuje do bazy URL-i.
 3. **Filtr geograficzny** — tylko Europa kontynentalna: blokada TLD `.uk` (i innych spoza Europy) oraz walut GBP/USD. Akceptowane waluty: PLN, EUR, CZK, DKK, SEK, NOK, CHF, HUF, RON, BGN.
 4. **Przeliczenie na PLN** — po kursie średnim NBP z danego dnia (tabela A), fallback: frankfurter.app (kursy EBC).
 5. **Zapis** — najniższa cena per produkt trafia do `data/history.csv` (data, produkt, cena PLN, cena oryginalna, waluta, sklep, **URL źródła**). Pełny audyt wszystkich ofert: `data/all_offers.csv`.
