@@ -93,7 +93,7 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - bikestacja.pl: 2470.0 PLN poza widelkami [-..1500.0] - pomijam
   - rowertour.com: brak danych o cenie (typy na stronie: breadcrumblist, itemlist, webpage)
   - fitwheels.eu: 2470.0 PLN poza widelkami [-..1500.0] - pomijam
-  ~ bikecenter.pl: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
+  - bikecenter.pl: brak danych o cenie (typy na stronie: breadcrumblist)
   - raaad.com: niedostepny (outofstock)
   - allegro.pl: HTTP 403
   + bike-discount.de: 71.99 EUR = 308.64 PLN [EAN OK]
@@ -106,8 +106,7 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - velosiped.com: HTTP 403
   + bike-components.de: 71.99 EUR = 308.64 PLN [EAN OK]
   - bike-rs.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - bikecenter.pl: brak danych o cenie (typy na stronie: breadcrumblist)
-[MONITOR] DT SWISS 350 12x148: sprawdzam 42 URL-i
+[MONITOR] DT SWISS 350 12x148: sprawdzam 43 URL-i
   + bike-components.de: 119.99 EUR = 514.42 PLN [EAN OK]
   - bike24.de: HTTP 403
   + dt4you.com: 960.0 PLN = 960.0 PLN [EAN OK]
@@ -144,6 +143,7 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - agrodane.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - rejestr.io: HTTP 403
   + whizz-wheels.de: 239.9 EUR = 1028.5 PLN [EAN niepotwierdzony]
+  + whizz-wheels.de: 239.9 EUR = 1028.5 PLN [EAN niepotwierdzony]
   - ridewill.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - ridewill.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - formicki-bike.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -178,7 +178,7 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   ~ topbici.es: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
   - allegrolokalnie.pl: brak danych o cenie (typy na stronie: itemlist, website)
   - bike-store-treviso.it: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - eventbike.it: blad pobierania (SSLError)
+  - eventbike.it: brak danych o cenie (typy na stronie: article, breadcrumblist, imageobject, organization, person, webpage, website)
   - ridewill.it: brak danych o cenie (typy na stronie: brak JSON-LD)
   - troianocicli.it: brak danych o cenie (typy na stronie: brak JSON-LD)
   - deporvillage.it: HTTP 403
@@ -225,13 +225,13 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - bike24.pl: HTTP 403
   - ampbike.pl: niedostepny (outofstock)
   + bikestacja.pl: 3764.0 PLN = 3764.0 PLN [EAN niepotwierdzony]
-  - ridewill.it: brak danych o cenie (typy na stronie: brak JSON-LD)
+  ~ ridewill.it: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
   + ciclobottegabikeshop.com: 499.9 EUR = 2143.17 PLN [EAN niepotwierdzony]
   - bike24.it: HTTP 403
   + cavalierebici.it: 402.04 EUR = 1723.63 PLN [EAN niepotwierdzony]
   - bike-components.de: brak wymaganych slow (kit) - pomijam
   - bike24.de: HTTP 403
-  - bikeimport.ch: blad pobierania (ReadTimeout)
+  - bikeimport.ch: brak wymaganych slow (kit) - pomijam
   - bike-discount.de: brak wymaganych slow (kit) - pomijam
   - lvr-cycles.com: brak wymaganych slow (kit) - pomijam
   - veloruf.de: brak wymaganych slow (kit) - pomijam
@@ -242,7 +242,7 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - alpebike.pl: brak wymaganych slow (kit) - pomijam
   ~ cyklomania.pl: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
   - bike-components.de: brak wymaganych slow (kit) - pomijam
-  ~ zumbistore.pl: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
+  ~ zumbistore.pl: brak ceny, ale znalazlem 2 link(i) produktowe - sprawdzam
   - universalcycles.com: brak wymaganych slow (kit) - pomijam
   - ibike.pl: brak danych o cenie (typy na stronie: organization, website)
   - lordgunbicycles.com: HTTP 403
@@ -269,8 +269,8 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - evolutionbikes.it: brak danych o cenie (typy na stronie: breadcrumblist)
   - 2wheels.pl: niedostepny (outofstock)
   - 2wheels.pl: niedostepny (outofstock)
+  - ridewill.it: brak danych o cenie (typy na stronie: brak JSON-LD)
   - cyklomania.pl: HTTP 404
-  - zumbistore.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - zumbistore.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - zumbistore.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
 [MONITOR] GX-T-CHAIN: sprawdzam 68 URL-i
@@ -353,11 +353,11 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   + bike-discount.de: 58.99 EUR = 252.9 PLN [EAN niepotwierdzony]
   + bike-components.de: 124.99 EUR = 535.86 PLN [EAN niepotwierdzony]
   ~ cyklomania.pl: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
-  - allegro.pl: HTTP 403
+  - allegro.pl: blad pobierania (ReadTimeout)
   ~ formicki-bike.pl: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
   + centrumrowerowe.pl: 239.99 PLN = 239.99 PLN [EAN niepotwierdzony]
   - vincere.pl: niedostepny (outofstock)
-  - allegro.pl: blad pobierania (ReadTimeout)
+  - allegro.pl: HTTP 403
   ~ rowerowy.com: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
   - bike24.pl: HTTP 403
   - bikecenter.pl: brak danych o cenie (typy na stronie: breadcrumblist)

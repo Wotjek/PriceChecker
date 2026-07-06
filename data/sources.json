@@ -727,6 +727,11 @@
       "domain": "whizz-wheels.de",
       "first_seen": "2026-07-06",
       "via": "crawl"
+    },
+    "https://whizz-wheels.de/shop/HR-350-Disc-IS-Boost-12x148-mm-Micro-Spline-28-Loch-MY2021-schwarz-weiss/H350TDD2R28SA0479S": {
+      "domain": "whizz-wheels.de",
+      "first_seen": "2026-07-06",
+      "via": "crawl"
     }
   },
   "Ritchey WCS Carbon ErgoMax": {
