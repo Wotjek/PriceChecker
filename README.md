@@ -68,7 +68,7 @@ Wskazówki:
 - Agregatory cen (ceneo, idealo, geizhals, arukereso…) i marketplace'y (eBay, Amazon, AliExpress) są blokowane globalnie — pokazują ceny historyczne/aukcyjne, nie sklepowe.
 
 ### 5. Uruchomienie
-- Automatycznie: codziennie o **12:00 CEST** (cron `0 10 * * *` w UTC). Zimą, przy zmianie czasu na CET, podmień cron na `0 11 * * *` w `.github/workflows/price-tracker.yml`, żeby zostać przy 12:00. Uwaga: GitHub potrafi opóźnić crony o kilka–kilkanaście minut przy dużym obciążeniu.
+- Automatycznie: codziennie o **12:23 CEST** (cron `23 10 * * *` w UTC). Nieokrągła minuta celowo — crony o pełnych godzinach (szczególnie `:00`) trafiają w szczyt obciążenia GitHuba i bywają opóźniane, a czasem całkowicie pomijane (schedule nie ma gwarancji uruchomienia). Zimą, przy zmianie czasu na CET, podmień cron na `23 11 * * *`, żeby zostać przy ~12:23. Jeśli danego dnia run nie wystartuje, użyj FIRE z dashboardu albo *Actions → Run workflow*.
 - Ręcznie: zakładka *Actions → Price Tracker → Run workflow* (przydatne do pierwszego testu).
 
 ### Uruchomienie lokalne (opcjonalnie)

@@ -2,10 +2,12 @@ name: Price Tracker
 
 on:
   schedule:
-    # GitHub Actions używa UTC. 10:00 UTC = 12:00 czasu letniego (CEST).
-    # Zimą (CET) odkomentuj drugą linię i zakomentuj pierwszą, żeby zostać przy 12:00.
-    - cron: "0 10 * * *"
-    # - cron: "0 11 * * *"
+    # GitHub Actions używa UTC. 10:23 UTC = 12:23 czasu letniego (CEST).
+    # Nieokrągła minuta celowo: crony o pełnych godzinach (zwłaszcza :00)
+    # trafiają w szczyt obciążenia GitHuba i bywają opóźniane lub POMIJANE.
+    # Zimą (CET) odkomentuj drugą linię i zakomentuj pierwszą, żeby zostać przy ~12:23.
+    - cron: "23 10 * * *"
+    # - cron: "23 11 * * *"
   workflow_dispatch: {}   # możliwość ręcznego uruchomienia z zakładki Actions
 
 permissions:
