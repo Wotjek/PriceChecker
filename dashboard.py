@@ -63,6 +63,11 @@ button{font-family:'Barlow Condensed';text-transform:uppercase;letter-spacing:.1
   box-shadow:0 3px 0 var(--fire-press), inset 0 1px 0 rgba(255,255,255,.25);transition:transform .05s}
 #fireBtn:active{transform:translateY(2px);box-shadow:0 1px 0 var(--fire-press)}
 #fireBtn:disabled{background:#3a4148;box-shadow:none;color:var(--muted);cursor:default}
+#lightBtn{background:transparent;color:var(--teal);font-size:14px;padding:10px 18px;
+  border:1px solid var(--teal);transition:transform .05s}
+#lightBtn:hover{background:rgba(95,211,196,.08)}
+#lightBtn:active{transform:translateY(2px)}
+#lightBtn:disabled{border-color:var(--line);color:var(--muted);cursor:default;background:transparent}
 .ghost{background:transparent;color:var(--muted);font-size:12px;border:1px solid var(--line)!important;padding:9px 14px}
 .ghost:hover{color:var(--ink);border-color:var(--faint)!important}
 
@@ -173,7 +178,8 @@ footer{margin-top:44px;font-size:12px;color:var(--faint)}
   </div>
   <button class="ghost" id="refreshBtn">Odśwież dane</button>
   <button class="ghost" id="tokenBtn">Token</button>
-  <button id="fireBtn" class="disp">▶ Fire</button>
+  <button id="lightBtn" class="disp" title="Tylko monitoring znanych sklepów — nie zużywa limitu SerpAPI">▶ Light Fire</button>
+  <button id="fireBtn" class="disp" title="Pełne discovery (szuka nowych sklepów) + monitoring — zużywa limit SerpAPI">▶ Fire</button>
 </header>
 
 <nav id="nav"></nav>
@@ -631,16 +637,20 @@ async function loadLastRun(){
   $('lastRun').textContent = 'ostatni pomiar w danych: '+(lastHistDate()||'—');
 }
 
-async function fire(){
+async function fire(light){
   if(!DATA.repo){ toast('Uzupełnij settings.github_repo w products.yaml i uruchom skrypt ponownie'); return; }
   if(!getToken()){ toast('Bez tokenu nie mogę uruchomić workflow'); return; }
-  const btn=$('fireBtn'); btn.disabled=true;
+  $('fireBtn').disabled=true; $('lightBtn').disabled=true;
   try{
     const r = await gh(`/repos/${DATA.repo}/actions/workflows/${WORKFLOW}/dispatches`,
-      {method:'POST',body:JSON.stringify({ref:DATA.branch})});
+      {method:'POST',body:JSON.stringify({ref:DATA.branch,
+        inputs:{discovery: light?'skip':'full'}})});
     if(r.status!==204) throw new Error('HTTP '+r.status+(r.status===401?' (token?)':''));
-    setStatus('run','Workflow uruchomiony…'); toast('🔥 Odpalone. Zbieram ceny…'); poll(Date.now());
-  }catch(e){ btn.disabled=false; setStatus('err','Błąd uruchomienia'); toast('Nie udało się: '+e.message); }
+    setStatus('run','Workflow uruchomiony…');
+    toast(light?'💧 Light Fire — odświeżam ceny w znanych sklepach…':'🔥 Odpalone. Pełne discovery + ceny…');
+    poll(Date.now());
+  }catch(e){ $('fireBtn').disabled=false; $('lightBtn').disabled=false;
+    setStatus('err','Błąd uruchomienia'); toast('Nie udało się: '+e.message); }
 }
 async function poll(since){
   try{
@@ -650,7 +660,7 @@ async function poll(since){
       if(run.status==='completed'){
         if(run.conclusion==='success'){ setStatus('ok','Zakończono'); toast('Gotowe — odświeżam dane'); await refresh(true); }
         else { setStatus('err','Workflow: '+run.conclusion); toast('Workflow zakończony: '+run.conclusion); }
-        $('fireBtn').disabled=false; return; }
+        $('fireBtn').disabled=false; $('lightBtn').disabled=false; return; }
       setStatus('run','W trakcie… ('+run.status+')');
     }
   }catch(e){}
@@ -669,7 +679,8 @@ function render(){
   $('genInfo').textContent=`wygenerowano ${DATA.generated}`+(DATA.repo?` · repo ${DATA.repo}`:'')
     +` · audyt ofert osadzony za ostatnie ${DATA.offers_days} dni (pełny po „Odśwież dane")`;
 }
-$('fireBtn').onclick=fire;
+$('fireBtn').onclick=()=>fire(false);
+$('lightBtn').onclick=()=>fire(true);
 $('refreshBtn').onclick=()=>refresh(false);
 $('tokenBtn').onclick=()=>{ getToken(true); toast('Token zapisany w tej przeglądarce'); };
 setStatus('ok','Dane z pliku'); render(); loadLastRun();

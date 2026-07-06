@@ -313,6 +313,11 @@ def _discovery_engines():
 
 
 def run_discovery(products, sources, settings):
+    # Light FIRE: tylko monitoring znanych URL-i, zero zapytan do wyszukiwarek
+    if os.environ.get("SKIP_DISCOVERY", "").strip().lower() in ("1", "true", "yes"):
+        log("[DISCOVERY] Light FIRE - pomijam discovery, tylko monitoring "
+            "znanych URL-i (limit SerpAPI nietkniety)")
+        return sources
     engines = _discovery_engines()
     if not engines:
         log("[DISCOVERY] Brak kluczy (SERPAPI_KEY / TAVILY_API_KEY / BRAVE_API_KEY / "

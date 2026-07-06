@@ -36,8 +36,9 @@ wymagana karta) → sekret `BRAVE_API_KEY`.
 Skrypt używa wszystkich skonfigurowanych silników naraz i łączy wyniki. Dla oszczędzania
 limitu SerpAPI, przy runach z harmonogramu discovery wykonuje się raz w tygodniu
 (poniedziałki; `settings.discovery: "weekly"` w `products.yaml`, możesz zmienić na `"daily"`).
-Ręczny FIRE **zawsze** robi pełne discovery. Monitoring znanych URL-i działa codziennie
-niezależnie od discovery i nie zużywa żadnego limitu.
+Ręczny FIRE **zawsze** robi pełne discovery; **Light FIRE** pomija discovery i tylko
+odświeża ceny w znanych sklepach (zero zapytań do wyszukiwarek). Monitoring znanych URL-i
+działa codziennie niezależnie od discovery i nie zużywa żadnego limitu.
 
 ### 3. Sekrety w repo
 *Settings → Secrets and variables → Actions → New repository secret*:
@@ -109,7 +110,7 @@ Interaktywny panel (SPA) regenerowany przy każdym uruchomieniu — otwierasz w 
 
 **Konfiguracja:** edycja listy produktów (ID/kod, nazwa, EAN, cena docelowa, wariant, worldwide, widełki min/max PLN, wymagane słowa, frazy, seed URLs, wykluczenia) bezpośrednio z panelu. Zapis blokuje zduplikowane ID. Zapis nadpisuje `products.yaml` w repo przez GitHub API — czyli dokładnie ten plik, którego używa workflow. Przycisk „Zapisz + Fire" od razu zbiera ceny dla nowej listy. Uwaga: zapis z panelu usuwa komentarze z pliku YAML.
 
-**Nagłówek:** dioda statusu, data **ostatniego skutecznego odświeżenia** (ostatni udany run workflow z GitHub API; bez tokenu — data ostatniego pomiaru w danych), „Odśwież dane" (pobiera aktualne CSV z repo bez ściągania pliku), **▶ FIRE** (ręczne uruchomienie workflow; po zakończeniu panel sam pobiera świeże dane).
+**Nagłówek:** dioda statusu, data **ostatniego skutecznego odświeżenia** (ostatni udany run workflow z GitHub API; bez tokenu — data ostatniego pomiaru w danych), „Odśwież dane" (pobiera aktualne CSV z repo bez ściągania pliku), **▶ FIRE** (pełne discovery + monitoring; zużywa limit SerpAPI) i **▶ Light FIRE** (tylko odświeżenie cen w znanych sklepach — bez zapytań do wyszukiwarek, czyli to samo, co codzienny run z harmonogramu poza poniedziałkiem); po zakończeniu panel sam pobiera świeże dane.
 
 Wymagania FIRE / odświeżania / konfiguracji:
 1. W `products.yaml` uzupełnij `settings.github_repo` (np. `"twojlogin/price-tracker"`).
