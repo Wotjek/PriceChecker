@@ -722,6 +722,11 @@
       "domain": "whizz-wheels.de",
       "first_seen": "2026-07-05",
       "via": "crawl"
+    },
+    "https://whizz-wheels.de/shop/HR-350-Disc-IS-Boost-12x148-mm-SRAM-XD-32-Loch-MY2021-schwarz-weiss/H350TDDRR32SA9100S": {
+      "domain": "whizz-wheels.de",
+      "first_seen": "2026-07-06",
+      "via": "crawl"
     }
   },
   "Ritchey WCS Carbon ErgoMax": {
