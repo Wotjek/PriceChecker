@@ -164,8 +164,8 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - mtbiker.pl: HTTP 403
   - bike24.pl: HTTP 403
   + bikestacja.pl: 922.99 PLN = 922.99 PLN [EAN niepotwierdzony]
-  - allegro.pl: HTTP 403
-  - allegro.pl: HTTP 403
+  - allegro.pl: blad pobierania (ReadTimeout)
+  - allegro.pl: blad pobierania (ReadTimeout)
   - velondo.pl: HTTP 403
   + bike-discount.de: 159.99 EUR = 686.97 PLN [EAN niepotwierdzony]
   - koloshop.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -416,16 +416,17 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - formicki-bike.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - rowerowy.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-[MONITOR] ROCK SHOX SID: sprawdzam 3 URL-i
+[MONITOR] ROCK SHOX SID: sprawdzam 4 URL-i
+  - bike-components.de: brak wymaganych slow (sid) - pomijam
   ~ bike-components.de: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
   - r2-bike.com: HTTP 403
   - gambacicli.com: niedostepny (outofstock)
-  + bike-components.de: 339.0 EUR = 1455.6 PLN [EAN niepotwierdzony]
-  - bike-components.de: niedostepny (outofstock)
-  - bike-components.de: 983.28 PLN poza widelkami [1200.0..-] - pomijam
+  - bike-components.de: brak wymaganych slow (sid) - pomijam
+  - bike-components.de: brak wymaganych slow (sid) - pomijam
+  - bike-components.de: brak wymaganych slow (sid) - pomijam
 [MONITOR] Lake MX242: sprawdzam 2 URL-i (wariant: 45)
   + bike-discount.de: 299.99 EUR = 1288.1 PLN [wariant 45 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
-  + alltricks.de: 107.99 EUR = 463.69 PLN [wariant 45 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
+  - alltricks.de: brak wymaganych slow (mx242) - pomijam
   ! Cane Creek 40 IS41/IS52: odrzucam outlier 30.01 PLN (gocycle.de) - ponizej 25% mediany (261.49 PLN)
 [HISTORIA] FM2797: najnizsza 9950.88 PLN (imfixies.it)
 [HISTORIA] LAUF-CARBONARA: najnizsza 4471.19 PLN (laufcycles.com)
@@ -437,8 +438,8 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
 [HISTORIA] GX-T-KIT: najnizsza 1283.85 PLN (bike-components.de)
 [HISTORIA] GX-T-CHAIN: najnizsza 128.77 PLN (alutech-cycles.com)
 [HISTORIA] Cane Creek 40 IS41/IS52: najnizsza 239.99 PLN (centrumrowerowe.pl)
-[HISTORIA] ROCK SHOX SID: najnizsza 1455.6 PLN (bike-components.de)
-[HISTORIA] Lake MX242: najnizsza 463.69 PLN (alltricks.de)
+[HISTORIA] ROCK SHOX SID: brak dostepnych ofert dzisiaj
+[HISTORIA] Lake MX242: najnizsza 1288.1 PLN (bike-discount.de)
 [EXCEL] Zapisano /home/runner/work/PriceChecker/PriceChecker/output/prices.xlsx
 [DASHBOARD] Zapisano /home/runner/work/PriceChecker/PriceChecker/output/dashboard.html (+ docs/index.html dla GitHub Pages)
 Gotowe.
