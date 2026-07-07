@@ -1,51 +1,5 @@
 Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 'DT SWISS 350 12x148', 'Ritchey WCS Carbon ErgoMax', 'Canyon S14 VCLS 2.0', 'GX-T-KIT', 'GX-T-CHAIN', 'Cane Creek 40 IS41/IS52', 'ROCK SHOX SID', 'Lake MX242']
-[DISCOVERY] Silniki: ['serpapi', 'serpapi_shopping']
-[DISCOVERY] FM2797: +0 nowych URL-i (razem 27)
-[DISCOVERY] LAUF-CARBONARA: +1 nowych URL-i (razem 5)
-[DISCOVERY] Lake MX190-X Wide: +4 nowych URL-i (razem 34)
-[DISCOVERY] DT Swiss Fatbike: +8 nowych URL-i (razem 48)
-[DISCOVERY][shopping] Google hasn't returned any results for this query.
-[DISCOVERY] DT SWISS 350 12x148: +10 nowych URL-i (razem 55)
-[DISCOVERY] Ritchey WCS Carbon ErgoMax: +3 nowych URL-i (razem 45)
-[DISCOVERY] Canyon S14 VCLS 2.0: +1 nowych URL-i (razem 16)
-[DISCOVERY] GX-T-KIT: +1 nowych URL-i (razem 70)
-[DISCOVERY][shopping] Blad zapytania '"00.2518.054.010"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=00.2518.054.010&api_key=***&gl=de
-[DISCOVERY][shopping] Blad zapytania '"00.2518.054.010"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=00.2518.054.010&api_key=***&gl=pl
-[DISCOVERY][shopping] Blad zapytania '"00.2518.054.010"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=00.2518.054.010&api_key=***&gl=it
-[DISCOVERY][serpapi] Blad zapytania 'SRAM GX Eagle Transmission Flattop 12-speed Chain': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=SRAM+GX+Eagle+Transmission+Flattop+12-speed+Chain&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'SRAM GX Eagle Transmission Flattop 12-speed Chain': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=SRAM+GX+Eagle+Transmission+Flattop+12-speed+Chain&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'SRAM GX Eagle Transmission Flattop 12-speed Chain': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=SRAM+GX+Eagle+Transmission+Flattop+12-speed+Chain&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY] GX-T-CHAIN: +5 nowych URL-i (razem 73)
-[DISCOVERY][serpapi] Blad zapytania '"840226078472"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%22840226078472%22&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania '"840226078472"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%22840226078472%22&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania '"840226078472"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%22840226078472%22&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][shopping] Blad zapytania '"840226078472"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=840226078472&api_key=***&gl=de
-[DISCOVERY][shopping] Blad zapytania '"840226078472"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=840226078472&api_key=***&gl=pl
-[DISCOVERY][shopping] Blad zapytania '"840226078472"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=840226078472&api_key=***&gl=it
-[DISCOVERY][serpapi] Blad zapytania 'Cane Creek stery Forty tapered IS41|IS52/40': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Cane+Creek+stery+Forty+tapered+IS41%7CIS52%2F40&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Cane Creek stery Forty tapered IS41|IS52/40': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Cane+Creek+stery+Forty+tapered+IS41%7CIS52%2F40&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Cane Creek stery Forty tapered IS41|IS52/40': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Cane+Creek+stery+Forty+tapered+IS41%7CIS52%2F40&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY] Cane Creek 40 IS41/IS52: +0 nowych URL-i (razem 43)
-[DISCOVERY][serpapi] Blad zapytania '"710845917929"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%22710845917929%22&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania '"710845917929"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%22710845917929%22&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania '"710845917929"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%22710845917929%22&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][shopping] Blad zapytania '"710845917929"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=710845917929&api_key=***&gl=de
-[DISCOVERY][shopping] Blad zapytania '"710845917929"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=710845917929&api_key=***&gl=pl
-[DISCOVERY][shopping] Blad zapytania '"710845917929"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=710845917929&api_key=***&gl=it
-[DISCOVERY][serpapi] Blad zapytania 'Amortyzator rowerowy ROCK SHOX SID SL Select E1 3P 100mm': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Amortyzator+rowerowy+ROCK+SHOX+SID+SL+Select+E1+3P+100mm&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Amortyzator rowerowy ROCK SHOX SID SL Select E1 3P 100mm': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Amortyzator+rowerowy+ROCK+SHOX+SID+SL+Select+E1+3P+100mm&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Amortyzator rowerowy ROCK SHOX SID SL Select E1 3P 100mm': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Amortyzator+rowerowy+ROCK+SHOX+SID+SL+Select+E1+3P+100mm&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY] ROCK SHOX SID: +0 nowych URL-i (razem 0)
-[DISCOVERY][serpapi] Blad zapytania '"8718568144778"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%228718568144778%22&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania '"8718568144778"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%228718568144778%22&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania '"8718568144778"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%228718568144778%22&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][shopping] Blad zapytania '"8718568144778"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=8718568144778&api_key=***&gl=de
-[DISCOVERY][shopping] Blad zapytania '"8718568144778"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=8718568144778&api_key=***&gl=pl
-[DISCOVERY][shopping] Blad zapytania '"8718568144778"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=8718568144778&api_key=***&gl=it
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX242 MTB x-wide 45': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lake+MX242+MTB+x-wide+45&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX242 MTB x-wide 45': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lake+MX242+MTB+x-wide+45&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX242 MTB x-wide 45': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lake+MX242+MTB+x-wide+45&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY] Lake MX242: +0 nowych URL-i (razem 0)
+[DISCOVERY] Light FIRE - pomijam discovery, tylko monitoring znanych URL-i (limit SerpAPI nietkniety)
 [SERPAPI] Limit: pozostalo 0 z 250 (zuzyte w tym miesiacu: 250)
 [FX] Kursy NBP pobrane (33 walut)
 [MONITOR] FM2797: sprawdzam 29 URL-i (wariant: 56)
@@ -68,13 +22,13 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - spokesmanbicycles.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   - goldsprintshop.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   - togabikes.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
-  + imfixies.it: 2317.5 EUR = 9935.59 PLN [wariant 56 dopasowany]
+  + imfixies.it: 2317.5 EUR = 9950.88 PLN [wariant 56 dopasowany]
   - yawpcyclery.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   - webcyclery.com: brak danych o cenie (typy na stronie: videoobject)
   - bikeman.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   - followmestore.de: brak danych o cenie (typy na stronie: brak JSON-LD)
   - stateofbike.it: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
-  + bikejamming.it: 2499.0 EUR = 10713.71 PLN [wariant 56 dopasowany]
+  + bikejamming.it: 2499.0 EUR = 10730.21 PLN [wariant 56 dopasowany]
   - biketour-global.de: brak danych o cenie (typy na stronie: brak JSON-LD)
   - biketour-global.de: HTTP 400
   - biketour-global.de: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -82,28 +36,28 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - bike-packing.de: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   - bike-packing.de: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
 [MONITOR] LAUF-CARBONARA: sprawdzam 5 URL-i
-  + laufcycles.com: 1190.0 USD = 4467.26 PLN
+  + laufcycles.com: 1190.0 USD = 4471.19 PLN
   - ridefatbikes.ca: brak danych o cenie (typy na stronie: localbusiness, organization, website)
   - lunacycle.com: niedostepny (outofstock)
-  + fatbikeadventures-store.com: 1100.0 EUR = 4715.92 PLN
+  + fatbikeadventures-store.com: 1100.0 EUR = 4723.18 PLN
   - theproscloset.com: niedostepny (outofstock)
 [MONITOR] Lake MX190-X Wide: sprawdzam 34 URL-i (wariant: 45)
-  - allegro.pl: blad pobierania (ReadTimeout)
+  - allegro.pl: HTTP 403
   - bike24.at: HTTP 403
   - bike24.com: HTTP 403
   - bike24.fi: HTTP 403
   - bike24.es: HTTP 403
   - bike24.nl: HTTP 403
   - bike24.pl: HTTP 403
-  + fahrrad-sperk.de: 199.0 EUR = 853.15 PLN [wariant 45 dopasowany] [EAN niepotwierdzony]
+  + fahrrad-sperk.de: 199.0 EUR = 854.47 PLN [wariant 45 dopasowany] [EAN niepotwierdzony]
   - bike24.de: HTTP 403
   - bike-discount.de: niedostepny (outofstock)
-  + sport-bittl.com: 165.0 EUR = 707.39 PLN [wariant 45 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
+  + sport-bittl.com: 165.0 EUR = 708.48 PLN [wariant 45 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
   - de.lakecycling.com: brak danych o cenie (typy na stronie: collectionpage, faqpage)
   - hoopsvelo.com: brak danych o cenie (typy na stronie: organization, store)
   ~ biwakschachtel-tuebingen.de: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
   - bike-discount.de: niedostepny (outofstock)
-  - allegro.pl: blad pobierania (ReadTimeout)
+  - allegro.pl: HTTP 403
   - deporvillage.pl: HTTP 403
   - bike24.it: HTTP 403
   - bike-discount.de: niedostepny (outofstock)
@@ -112,14 +66,14 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - sigmasports.com: brak wariantu '45' wsrod ofert - pomijam
   - lakecycling.com: brak danych o cenie (typy na stronie: collectionpage, faqpage)
   - nl.lakecycling.com: brak danych o cenie (typy na stronie: collectionpage, faqpage)
-  + sport-bittl.com: 165.0 EUR = 707.39 PLN [wariant 45 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
-  + de.lakecycling.com: 199.0 EUR = 853.15 PLN [wariant 45 dopasowany] [EAN OK]
-  + nl.lakecycling.com: 199.0 EUR = 853.15 PLN [wariant 45 dopasowany] [EAN OK]
+  + sport-bittl.com: 165.0 EUR = 708.48 PLN [wariant 45 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
+  + de.lakecycling.com: 199.0 EUR = 854.47 PLN [wariant 45 dopasowany] [EAN OK]
+  + nl.lakecycling.com: 199.0 EUR = 854.47 PLN [wariant 45 dopasowany] [EAN OK]
   ~ lakecycling.com: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
-  + nl.lakecycling.com: 199.0 EUR = 853.15 PLN [wariant 45 dopasowany] [EAN OK]
+  + nl.lakecycling.com: 199.0 EUR = 854.47 PLN [wariant 45 dopasowany] [EAN OK]
   - bike24.be: HTTP 403
   - lakecycling.com: waluta USD poza dozwolonym regionem - pomijam
-  + varuste.net: 180.33 EUR = 773.11 PLN [wariant 45 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
+  + varuste.net: 180.33 EUR = 774.3 PLN [wariant 45 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
   - bikeshoes.com: waluta USD poza dozwolonym regionem - pomijam
   - biwakschachtel-tuebingen.de: brak danych o cenie (typy na stronie: brak JSON-LD)
   - biwakschachtel-tuebingen.de: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -128,13 +82,13 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
 [MONITOR] DT Swiss Fatbike: sprawdzam 48 URL-i
   - bike24.de: HTTP 403
   - universalcycles.com: waluta USD poza dozwolonym regionem - pomijam
-  + rczbikeshop.com: 71.99 EUR = 308.64 PLN [EAN OK]
+  + rczbikeshop.com: 71.99 EUR = 309.11 PLN [EAN OK]
   - velosiped.com: HTTP 403
   - performancebike.com: niedostepny (outofstock)
   - bike24.com: HTTP 403
   - rowertour.com: niedostepny (outofstock)
   + bikestacja.pl: 419.99 PLN = 419.99 PLN [EAN OK]
-  + rczbikeshop.com: 71.99 EUR = 308.64 PLN [EAN OK]
+  + rczbikeshop.com: 71.99 EUR = 309.11 PLN [EAN OK]
   - r2-bike.com: HTTP 403
   - bike24.de: HTTP 403
   - raaad.de: niedostepny (outofstock)
@@ -146,7 +100,7 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   ~ bikecenter.pl: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
   - raaad.com: niedostepny (outofstock)
   - allegro.pl: HTTP 403
-  + bike-discount.de: 71.99 EUR = 308.64 PLN [EAN OK]
+  + bike-discount.de: 71.99 EUR = 309.11 PLN [EAN OK]
   - r2-bike.com: HTTP 403
   - bike24.it: HTTP 403
   - pianetamountainbike.it: brak danych o cenie (typy na stronie: newsarticle)
@@ -154,7 +108,7 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - mtbcult.it: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, newsarticle, organization, person, webpage, website)
   - 4actionsport.it: brak danych o cenie (typy na stronie: article, breadcrumblist, imageobject, organization, person, webpage, website)
   - velosiped.com: HTTP 403
-  + bike-components.de: 71.99 EUR = 308.64 PLN [EAN OK]
+  + bike-components.de: 71.99 EUR = 309.11 PLN [EAN OK]
   - bike-rs.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - bike24.it: HTTP 403
   - pl.wikipedia.org: brak danych o cenie (typy na stronie: article)
@@ -165,8 +119,8 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - stat.gov.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - podatki.gov.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - bikecenter.pl: brak danych o cenie (typy na stronie: breadcrumblist)
-[MONITOR] DT SWISS 350 12x148: sprawdzam 55 URL-i
-  + bike-components.de: 119.99 EUR = 514.42 PLN [EAN OK]
+[MONITOR] DT SWISS 350 12x148: sprawdzam 56 URL-i
+  + bike-components.de: 119.99 EUR = 515.21 PLN [EAN OK]
   - bike24.de: HTTP 403
   + dt4you.com: 960.0 PLN = 960.0 PLN [EAN OK]
   ~ ridewill.com: brak ceny, ale znalazlem 2 link(i) produktowe - sprawdzam
@@ -179,15 +133,15 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   ~ ridewill.it: brak ceny, ale znalazlem 2 link(i) produktowe - sprawdzam
   - bike24.de: HTTP 403
   - raaad.de: niedostepny (outofstock)
-  + mtbiker.de: 249.0 EUR = 1067.51 PLN [EAN niepotwierdzony]
+  + mtbiker.de: 249.0 EUR = 1069.16 PLN [EAN niepotwierdzony]
   - fahrrad24.de: HTTP 403
   ~ whizz-wheels.de: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
-  + mtbiker.de: 209.0 EUR = 896.02 PLN [EAN niepotwierdzony]
+  + mtbiker.de: 209.0 EUR = 897.4 PLN [EAN niepotwierdzony]
   - tnc-hamburg.com: blad pobierania (ConnectTimeout)
   - bike24.it: HTTP 403
-  + cingolanibikeshop.com: 204.9 EUR = 878.45 PLN [EAN niepotwierdzony]
+  + cingolanibikeshop.com: 204.9 EUR = 879.8 PLN [EAN niepotwierdzony]
   - deporvillage.it: HTTP 403
-  + mtbiker.it: 249.0 EUR = 1067.51 PLN [EAN niepotwierdzony]
+  + mtbiker.it: 249.0 EUR = 1069.16 PLN [EAN niepotwierdzony]
   - bikedirection.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - bicidastrada.it: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, newsarticle, organization, person, sportsclub, webpage, website)
   - velondo.it: HTTP 403
@@ -197,15 +151,15 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - pl.wikipedia.org: brak danych o cenie (typy na stronie: article)
   - dt-automatyzacja.pl: brak danych o cenie (typy na stronie: breadcrumblist, organization, webpage, website)
   - diki.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - dt-consulting.com.pl: HTTP 500
+  - dt-consulting.com.pl: brak danych o cenie (typy na stronie: breadcrumblist, organization, webpage, website)
   - obroza-elektryczna.pl: brak danych o cenie (typy na stronie: organization, website)
-  - agrodane.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - agrodane.pl: blad pobierania (ConnectTimeout)
   - rejestr.io: HTTP 403
-  + whizz-wheels.de: 239.9 EUR = 1028.5 PLN [EAN niepotwierdzony]
-  + whizz-wheels.de: 239.9 EUR = 1028.5 PLN [EAN niepotwierdzony]
-  + whizz-wheels.de: 239.9 EUR = 1028.5 PLN [EAN niepotwierdzony]
-  + whizz-wheels.de: 239.9 EUR = 1028.5 PLN [EAN niepotwierdzony]
-  + bike-components.de: 119.99 EUR = 514.42 PLN [EAN OK]
+  + whizz-wheels.de: 239.9 EUR = 1030.08 PLN [EAN niepotwierdzony]
+  + whizz-wheels.de: 239.9 EUR = 1030.08 PLN [EAN niepotwierdzony]
+  + whizz-wheels.de: 239.9 EUR = 1030.08 PLN [EAN niepotwierdzony]
+  + whizz-wheels.de: 239.9 EUR = 1030.08 PLN [EAN niepotwierdzony]
+  + bike-components.de: 119.99 EUR = 515.21 PLN [EAN OK]
   - deporvillage.de: HTTP 403
   - mtbiker.pl: HTTP 403
   - bike24.pl: HTTP 403
@@ -213,14 +167,15 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - allegro.pl: HTTP 403
   - allegro.pl: HTTP 403
   - velondo.pl: HTTP 403
-  + bike-discount.de: 159.99 EUR = 685.91 PLN [EAN niepotwierdzony]
+  + bike-discount.de: 159.99 EUR = 686.97 PLN [EAN niepotwierdzony]
   - koloshop.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
+  + whizz-wheels.de: 92.9 EUR = 398.89 PLN [EAN niepotwierdzony]
   - ridewill.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - ridewill.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - formicki-bike.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - ridewill.it: brak danych o cenie (typy na stronie: brak JSON-LD)
   - ridewill.it: brak danych o cenie (typy na stronie: brak JSON-LD)
-  + whizz-wheels.de: 92.9 EUR = 398.28 PLN [EAN niepotwierdzony]
+  - whizz-wheels.de: niedostepny (outofstock)
 [MONITOR] Ritchey WCS Carbon ErgoMax: sprawdzam 45 URL-i (wariant: 42)
   - performancebike.com: brak wymaganych slow (carbon) - pomijam
   - all4bikes.be: HTTP 403
@@ -238,7 +193,7 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - rosebikes.it: brak wymaganych slow (carbon) - pomijam
   - rosebikes.de: brak wymaganych slow (carbon) - pomijam
   - bike24.de: HTTP 403
-  + bikeshopzizers.ch: 230.34 CHF = 1073.61 PLN [wariant 42 dopasowany] [EAN niepotwierdzony]
+  + bikeshopzizers.ch: 230.34 CHF = 1073.29 PLN [wariant 42 dopasowany] [EAN niepotwierdzony]
   - bike-components.de: brak wymaganych slow (carbon) - pomijam
   - ritcheylogic.com: brak wymaganych slow (carbon) - pomijam
   - bike24.pl: HTTP 403
@@ -249,7 +204,7 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   ~ topbici.es: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
   - allegrolokalnie.pl: brak danych o cenie (typy na stronie: itemlist, website)
   - bike-store-treviso.it: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - eventbike.it: blad pobierania (ConnectionError)
+  - eventbike.it: blad pobierania (SSLError)
   - ridewill.it: brak danych o cenie (typy na stronie: brak JSON-LD)
   - troianocicli.it: brak danych o cenie (typy na stronie: brak JSON-LD)
   - deporvillage.it: HTTP 403
@@ -261,7 +216,7 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - gravelbikeshop.com: waluta USD poza dozwolonym regionem - pomijam
   - formicki-bike.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - deporvillage.it: HTTP 403
-  - eventbike.it: blad pobierania (ConnectionError)
+  - eventbike.it: blad pobierania (SSLError)
   - cyklomania.pl: HTTP 404
   - cyklomania.pl: HTTP 404
   - cyklomania.pl: HTTP 404
@@ -269,14 +224,14 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - topbici.es: brak danych o cenie (typy na stronie: breadcrumblist, itempage, organization, person, website)
   - topbici.es: brak danych o cenie (typy na stronie: breadcrumblist, itempage, organization, person, website)
 [MONITOR] Canyon S14 VCLS 2.0: sprawdzam 16 URL-i
-  + canyon.com: 199.99 EUR = 857.4 PLN
-  + canyon.com: 199.99 EUR = 857.4 PLN
+  + canyon.com: 199.99 EUR = 858.72 PLN
+  + canyon.com: 199.99 EUR = 858.72 PLN
   + canyon.com: 909.99 PLN = 909.99 PLN
   - canyon.com: brak wymaganych slow (s14) - pomijam
   ~ canyon.com: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
   - mtbiker.pl: HTTP 403
-  + canyon.com: 199.99 EUR = 857.4 PLN
-  + canyon.com: 199.99 EUR = 857.4 PLN
+  + canyon.com: 199.99 EUR = 858.72 PLN
+  + canyon.com: 199.99 EUR = 858.72 PLN
   - canyon.com: brak wymaganych slow (s14) - pomijam
   - canyon.com: brak wymaganych slow (s14) - pomijam
   - canyon.com: brak wymaganych slow (s14) - pomijam
@@ -289,11 +244,11 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
 [MONITOR] GX-T-KIT: sprawdzam 70 URL-i
   - r2-bike.com: HTTP 403
   - r2-bike.com: HTTP 403
-  + bikesnboards.de: 617.5 EUR = 2647.35 PLN [EAN niepotwierdzony]
+  + bikesnboards.de: 617.5 EUR = 2651.42 PLN [EAN niepotwierdzony]
   - bike24.de: HTTP 403
-  - gocycle.de: 29.97 PLN poza widelkami [800.0..-] - pomijam
-  + bike-components.de: 299.0 EUR = 1281.87 PLN [EAN niepotwierdzony]
-  + fahrrad.de: 439.0 EUR = 1882.08 PLN [EAN niepotwierdzony]
+  - gocycle.de: 30.01 PLN poza widelkami [800.0..-] - pomijam
+  + bike-components.de: 299.0 EUR = 1283.85 PLN [EAN niepotwierdzony]
+  + fahrrad.de: 439.0 EUR = 1884.98 PLN [EAN niepotwierdzony]
   + kastor-bike.pl: 1796.99 PLN = 1796.99 PLN [EAN niepotwierdzony]
   ~ 2wheels.pl: brak ceny, ale znalazlem 2 link(i) produktowe - sprawdzam
   + rowertour.com: 1889.46 PLN = 1889.46 PLN [EAN niepotwierdzony]
@@ -301,9 +256,9 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - ampbike.pl: niedostepny (outofstock)
   + bikestacja.pl: 3766.0 PLN = 3766.0 PLN [EAN niepotwierdzony]
   - ridewill.it: brak danych o cenie (typy na stronie: brak JSON-LD)
-  + ciclobottegabikeshop.com: 499.9 EUR = 2143.17 PLN [EAN niepotwierdzony]
+  + ciclobottegabikeshop.com: 499.9 EUR = 2146.47 PLN [EAN niepotwierdzony]
   - bike24.it: HTTP 403
-  + cavalierebici.it: 402.04 EUR = 1723.63 PLN [EAN niepotwierdzony]
+  + cavalierebici.it: 402.04 EUR = 1726.28 PLN [EAN niepotwierdzony]
   - bike-components.de: brak wymaganych slow (kit) - pomijam
   - bike24.de: HTTP 403
   - bikeimport.ch: brak wymaganych slow (kit) - pomijam
@@ -356,7 +311,7 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - bike24.de: HTTP 403
   - gocycle.de: brak wymaganych slow (chain) - pomijam
   - bike-components.de: brak wymaganych slow (chain) - pomijam
-  - fahrrad.de: 1882.08 PLN poza widelkami [80.0..600.0] - pomijam
+  - fahrrad.de: 1884.98 PLN poza widelkami [80.0..600.0] - pomijam
   - kastor-bike.pl: brak wymaganych slow (chain) - pomijam
   ~ 2wheels.pl: brak ceny, ale znalazlem 2 link(i) produktowe - sprawdzam
   - rowertour.com: brak wymaganych slow (chain) - pomijam
@@ -367,48 +322,48 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - ciclobottegabikeshop.com: brak wymaganych slow (chain) - pomijam
   - bike24.it: HTTP 403
   - cavalierebici.it: brak wymaganych slow (chain) - pomijam
-  + bike-components.de: 36.99 EUR = 158.58 PLN [EAN OK]
+  + bike-components.de: 36.99 EUR = 158.83 PLN [EAN OK]
   - bike24.de: HTTP 403
-  + bikeimport.ch: 40.55 CHF = 189.0 PLN [EAN OK]
-  + bike-discount.de: 36.99 EUR = 158.58 PLN [EAN OK]
-  + lvr-cycles.com: 40.9 EUR = 175.35 PLN [EAN OK]
-  + veloruf.de: 62.4 EUR = 267.52 PLN [EAN OK]
+  + bikeimport.ch: 40.55 CHF = 188.95 PLN [EAN OK]
+  + bike-discount.de: 36.99 EUR = 158.83 PLN [EAN OK]
+  + lvr-cycles.com: 40.9 EUR = 175.62 PLN [EAN OK]
+  + veloruf.de: 62.4 EUR = 267.93 PLN [EAN OK]
   - lordgun.de: HTTP 403
   + bikestacja.pl: 169.9 PLN = 169.9 PLN [EAN OK]
   + wysepka.pl: 174.99 PLN = 174.99 PLN [EAN OK]
-  + lvr-cycles.com: 40.9 EUR = 175.35 PLN [EAN OK]
+  + lvr-cycles.com: 40.9 EUR = 175.62 PLN [EAN OK]
   + alpebike.pl: 259.0 PLN = 259.0 PLN [EAN OK]
   ~ cyklomania.pl: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
-  + bike-components.de: 36.99 EUR = 158.58 PLN [EAN OK]
+  + bike-components.de: 36.99 EUR = 158.83 PLN [EAN OK]
   ~ zumbistore.pl: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
   - universalcycles.com: waluta USD poza dozwolonym regionem - pomijam
   - ibike.pl: brak danych o cenie (typy na stronie: organization, website)
   - lordgunbicycles.com: HTTP 403
   - ridewill.it: brak danych o cenie (typy na stronie: brak JSON-LD)
   - cycleclub.eu: brak danych o cenie (typy na stronie: brak JSON-LD)
-  + cingolanibikeshop.com: 44.9 EUR = 192.5 PLN [EAN OK]
-  + probikeshop.it: 41.19 EUR = 176.59 PLN [EAN OK]
-  + lvr-cycles.com: 40.9 EUR = 175.35 PLN [EAN OK]
-  + bikextreme.it: 44.95 EUR = 192.71 PLN [EAN OK]
-  + shop.biciclettezeta.it: 55.0 EUR = 235.8 PLN [EAN OK]
+  + cingolanibikeshop.com: 44.9 EUR = 192.79 PLN [EAN OK]
+  + probikeshop.it: 41.19 EUR = 176.86 PLN [EAN OK]
+  + lvr-cycles.com: 40.9 EUR = 175.62 PLN [EAN OK]
+  + bikextreme.it: 44.95 EUR = 193.01 PLN [EAN OK]
+  + shop.biciclettezeta.it: 55.0 EUR = 236.16 PLN [EAN OK]
   - taddeistore.com: HTTP 403
-  + alutech-cycles.com: 29.99 EUR = 128.57 PLN [EAN niepotwierdzony]
-  + bike-discount.de: 36.99 EUR = 158.58 PLN [EAN OK]
+  + alutech-cycles.com: 29.99 EUR = 128.77 PLN [EAN niepotwierdzony]
+  + bike-discount.de: 36.99 EUR = 158.83 PLN [EAN OK]
   - trekbikes.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - r2-bike.com: HTTP 403
   - velofactory.ch: HTTP 403
   - hibike.com: HTTP 403
   - thundermountainbikes.com: waluta USD poza dozwolonym regionem - pomijam
   - velonova.lt: HTTP 403
-  + bikestacja.pl: 39.63 EUR = 169.9 PLN [EAN OK]
-  + capobianchi.eu: 44.9 EUR = 192.5 PLN [EAN OK]
-  + diliecicli.it: 51.9 EUR = 222.51 PLN [EAN OK]
+  + bikestacja.pl: 39.57 EUR = 169.91 PLN [EAN OK]
+  + capobianchi.eu: 44.9 EUR = 192.79 PLN [EAN OK]
+  + diliecicli.it: 51.9 EUR = 222.85 PLN [EAN OK]
   - thelostco.com: brak danych o cenie (typy na stronie: breadcrumblist, organization)
-  + testbericht.de: 36.99 EUR = 158.58 PLN [EAN OK]
-  + preissuchmaschine.de: 36.99 EUR = 158.58 PLN [EAN OK]
+  + testbericht.de: 36.99 EUR = 158.83 PLN [EAN OK]
+  + preissuchmaschine.de: 36.99 EUR = 158.83 PLN [EAN OK]
   - goride.pl: brak danych o cenie (typy na stronie: store)
   + goodsport.pl: 194.64 PLN = 194.64 PLN [EAN OK]
-  + alltricks.it: 39.99 EUR = 171.45 PLN [EAN OK]
+  + alltricks.it: 39.99 EUR = 171.71 PLN [EAN OK]
   - 2wheels.pl: brak wymaganych slow (chain) - pomijam
   - 2wheels.pl: brak wymaganych slow (chain) - pomijam
   - cyklomania.pl: HTTP 404
@@ -418,23 +373,23 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
 [MONITOR] Cane Creek 40 IS41/IS52: sprawdzam 43 URL-i
   - rat-bikes.eu: HTTP 403
   - bikecomponents-us.com: waluta USD poza dozwolonym regionem - pomijam
-  - allegro.pl: HTTP 403
+  - allegro.pl: blad pobierania (ReadTimeout)
   - oxygenbikes.com: waluta CAD poza dozwolonym regionem - pomijam
   - bike24.de: HTTP 403
-  + vpg.no: 799.0 NOK = 304.9 PLN [EAN OK]
+  + vpg.no: 799.0 NOK = 306.42 PLN [EAN OK]
   - fr-ca.cyclescampus.com: waluta CAD poza dozwolonym regionem - pomijam
   - bike24.it: HTTP 403
   - bike24.pl: HTTP 403
   - spokeomotion.com: waluta CAD poza dozwolonym regionem - pomijam
   - tnc-hamburg.com: blad pobierania (ConnectTimeout)
   - bike24.de: HTTP 403
-  + maciag-offroad.de: 58.95 EUR = 252.73 PLN [EAN niepotwierdzony]
+  + maciag-offroad.de: 58.95 EUR = 253.12 PLN [EAN niepotwierdzony]
   ~ biker-boarder.de: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
   - r2-bike.com: HTTP 403
-  + bike-discount.de: 58.99 EUR = 252.9 PLN [EAN niepotwierdzony]
-  + bike-components.de: 124.99 EUR = 535.86 PLN [EAN niepotwierdzony]
+  + bike-discount.de: 58.99 EUR = 253.29 PLN [EAN niepotwierdzony]
+  + bike-components.de: 124.99 EUR = 536.68 PLN [EAN niepotwierdzony]
   ~ cyklomania.pl: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
-  - allegro.pl: HTTP 403
+  - allegro.pl: blad pobierania (ReadTimeout)
   ~ formicki-bike.pl: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
   + centrumrowerowe.pl: 239.99 PLN = 239.99 PLN [EAN niepotwierdzony]
   - vincere.pl: niedostepny (outofstock)
@@ -444,35 +399,42 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - bikecenter.pl: brak danych o cenie (typy na stronie: breadcrumblist)
   - lordgunbicycles.com: HTTP 403
   - bike24.it: HTTP 403
-  + lineabici.com: 63.68 EUR = 273.01 PLN [EAN niepotwierdzony]
-  + alltricks.it: 69.0 EUR = 295.82 PLN [EAN niepotwierdzony]
+  + lineabici.com: 63.68 EUR = 273.43 PLN [EAN niepotwierdzony]
+  + alltricks.it: 69.0 EUR = 296.27 PLN [EAN niepotwierdzony]
   - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - maciag-offroad.it: HTTP 521
-  + bike-discount.de: 58.99 EUR = 252.9 PLN [EAN niepotwierdzony]
+  + maciag-offroad.it: 63.95 EUR = 274.59 PLN [EAN niepotwierdzony]
+  + bike-discount.de: 58.99 EUR = 253.29 PLN [EAN niepotwierdzony]
   - rat-bikes.com: HTTP 403
   - bike24.be: HTTP 403
   - tnc-hamburg.com: blad pobierania (ConnectTimeout)
   - biker-boarder.de: brak danych o cenie (typy na stronie: bikestore, sportinggoodsstore, website)
-  + gocycle.de: 6.99 EUR = 29.97 PLN [EAN niepotwierdzony]
-  + cavalierebici.it: 62.63 EUR = 268.51 PLN [EAN niepotwierdzony]
+  + gocycle.de: 6.99 EUR = 30.01 PLN [EAN niepotwierdzony]
+  + cavalierebici.it: 62.63 EUR = 268.92 PLN [EAN niepotwierdzony]
   - biker-boarder.de: brak danych o cenie (typy na stronie: bikestore, sportinggoodsstore, website)
   - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - formicki-bike.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - rowerowy.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-[MONITOR] ROCK SHOX SID: sprawdzam 0 URL-i
-[MONITOR] Lake MX242: sprawdzam 0 URL-i (wariant: 45)
-  ! Cane Creek 40 IS41/IS52: odrzucam outlier 29.97 PLN (gocycle.de) - ponizej 25% mediany (260.7 PLN)
-[HISTORIA] FM2797: najnizsza 9935.59 PLN (imfixies.it)
-[HISTORIA] LAUF-CARBONARA: najnizsza 4467.26 PLN (laufcycles.com)
-[HISTORIA] Lake MX190-X Wide: najnizsza 707.39 PLN (sport-bittl.com)
-[HISTORIA] DT Swiss Fatbike: najnizsza 308.64 PLN (rczbikeshop.com)
-[HISTORIA] DT SWISS 350 12x148: najnizsza 398.28 PLN (whizz-wheels.de)
-[HISTORIA] Ritchey WCS Carbon ErgoMax: najnizsza 1073.61 PLN (bikeshopzizers.ch)
-[HISTORIA] Canyon S14 VCLS 2.0: najnizsza 857.4 PLN (canyon.com)
-[HISTORIA] GX-T-KIT: najnizsza 1281.87 PLN (bike-components.de)
-[HISTORIA] GX-T-CHAIN: najnizsza 128.57 PLN (alutech-cycles.com)
+[MONITOR] ROCK SHOX SID: sprawdzam 3 URL-i
+  - bike24.com: HTTP 403
+  ~ starbike.com: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
+  - gambacicli.com: niedostepny (outofstock)
+  - starbike.com: HTTP 404
+  - starbike.com: HTTP 404
+  - starbike.com: HTTP 404
+[MONITOR] Lake MX242: sprawdzam 1 URL-i (wariant: 45)
+  - bike24.com: HTTP 403
+  ! Cane Creek 40 IS41/IS52: odrzucam outlier 30.01 PLN (gocycle.de) - ponizej 25% mediany (268.92 PLN)
+[HISTORIA] FM2797: najnizsza 9950.88 PLN (imfixies.it)
+[HISTORIA] LAUF-CARBONARA: najnizsza 4471.19 PLN (laufcycles.com)
+[HISTORIA] Lake MX190-X Wide: najnizsza 708.48 PLN (sport-bittl.com)
+[HISTORIA] DT Swiss Fatbike: najnizsza 309.11 PLN (rczbikeshop.com)
+[HISTORIA] DT SWISS 350 12x148: najnizsza 398.89 PLN (whizz-wheels.de)
+[HISTORIA] Ritchey WCS Carbon ErgoMax: najnizsza 1073.29 PLN (bikeshopzizers.ch)
+[HISTORIA] Canyon S14 VCLS 2.0: najnizsza 858.72 PLN (canyon.com)
+[HISTORIA] GX-T-KIT: najnizsza 1283.85 PLN (bike-components.de)
+[HISTORIA] GX-T-CHAIN: najnizsza 128.77 PLN (alutech-cycles.com)
 [HISTORIA] Cane Creek 40 IS41/IS52: najnizsza 239.99 PLN (centrumrowerowe.pl)
 [HISTORIA] ROCK SHOX SID: brak dostepnych ofert dzisiaj
 [HISTORIA] Lake MX242: brak dostepnych ofert dzisiaj
