@@ -149,6 +149,7 @@ date,product_id,domain,price,currency,price_pln,availability,url
 2026-07-07,Lake MX190-X Wide,de.lakecycling.com,199.0,EUR,853.15,instock,https://de.lakecycling.com/products/mx190
 2026-07-07,Lake MX190-X Wide,nl.lakecycling.com,199.0,EUR,853.15,instock,https://nl.lakecycling.com/en/collections/mtb/products/mx190
 2026-07-07,Lake MX190-X Wide,nl.lakecycling.com,199.0,EUR,853.15,instock,https://nl.lakecycling.com/en/products/mx190
+2026-07-07,Lake MX190-X Wide,varuste.net,180.33,EUR,773.11,instock,https://varuste.net/en/p140724/lake-mx190-x-wide
 2026-07-07,DT Swiss Fatbike,rczbikeshop.com,71.99,EUR,308.64,instock,https://www.rczbikeshop.com/default/dt-swiss-rear-hub-350-classic-fatbike-is-32h-12x197mm-exp-xd-7613052319606.html?___store=default&___from_store=de
 2026-07-07,DT Swiss Fatbike,bikestacja.pl,419.99,PLN,419.99,instock,https://www.bikestacja.pl/piasta-przednia-dt-swiss-350-mtb-fatbike-6-srub-150x15-32h-p-25628.html
 2026-07-07,DT Swiss Fatbike,rczbikeshop.com,71.99,EUR,308.64,instock,https://www.rczbikeshop.com/en_ue/dt-swiss-rear-hub-350-classic-fatbike-is-32h-12x197mm-exp-xd-7613052319606.html
@@ -165,6 +166,10 @@ date,product_id,domain,price,currency,price_pln,availability,url
 2026-07-07,DT SWISS 350 12x148,whizz-wheels.de,239.9,EUR,1028.5,limitedavailability,https://whizz-wheels.de/shop/HR-350-Disc-IS-Boost-12x148-mm-SRAM-XD-32-Loch-MY2021-schwarz-weiss/H350TDDRR32SA9100S
 2026-07-07,DT SWISS 350 12x148,whizz-wheels.de,239.9,EUR,1028.5,limitedavailability,https://whizz-wheels.de/shop/HR-350-Disc-IS-Boost-12x148-mm-Micro-Spline-28-Loch-MY2021-schwarz-weiss/H350TDD2R28SA0479S
 2026-07-07,DT SWISS 350 12x148,whizz-wheels.de,239.9,EUR,1028.5,limitedavailability,https://whizz-wheels.de/shop/HR-350-Disc-IS-Boost-12x148-mm-Micro-Spline-32-Loch-MY2021-schwarz-weiss/H350TDD2R32SA0479S
+2026-07-07,DT SWISS 350 12x148,bike-components.de,119.99,EUR,514.42,instock,https://www.bike-components.de/en/DT-Swiss/350-Classic-MTB-Boost-Centre-Lock-Disc-Rear-Hub-p84203/
+2026-07-07,DT SWISS 350 12x148,bikestacja.pl,922.99,PLN,922.99,instock,https://www.bikestacja.pl/piasta-tylna-dt-swiss-350-mtb-centerlock-148x12-boost-32h-sram-xd-p-25802.html
+2026-07-07,DT SWISS 350 12x148,bike-discount.de,159.99,EUR,685.91,instock,https://www.bike-discount.de/en/dt-swiss-350-classic-mtb-disc-6-bolt-boost-rear-hub-1
+2026-07-07,DT SWISS 350 12x148,whizz-wheels.de,92.9,EUR,398.28,limitedavailability,https://whizz-wheels.de/shop/DT-Swiss-350-Hybrid-Disc-IS-100-mm-32-Loch-MY2023-Vorderradnabe/H350ADQXR32SO0732S
 2026-07-07,Ritchey WCS Carbon ErgoMax,bikeshopzizers.ch,230.34,CHF,1073.61,instock,https://bikeshopzizers.ch/ritchey-road-lenker-wcs-ergomax-42cm-c-c-oben-ud-carbon-31-8mm/
 2026-07-07,Canyon S14 VCLS 2.0,canyon.com,199.99,EUR,857.4,instock,https://www.canyon.com/de-de/fahrradzubehoer/fahrradteile/sattelstuetze-sattelklemme/canyon-s14-vcls-2.0-27.2mm-cf-sattelstuetze/148286.html
 2026-07-07,Canyon S14 VCLS 2.0,canyon.com,199.99,EUR,857.4,instock,https://www.canyon.com/en-de/gear/bike-parts/posts-and-clamps/canyon-s14-vcls-2.0-27.2mm-cf-seatpost/148286.html
@@ -200,15 +205,16 @@ date,product_id,domain,price,currency,price_pln,availability,url
 2026-07-07,GX-T-CHAIN,bikestacja.pl,39.63,EUR,169.9,instock,https://www.bikestacja.pl/en/sram-gx-eagle-t-type-12-speed-126l-chain-clip-p-23816.html
 2026-07-07,GX-T-CHAIN,capobianchi.eu,44.9,EUR,192.5,instock,https://capobianchi.eu/en/products/catena-sram-12v-gx-eagle-126-maglie
 2026-07-07,GX-T-CHAIN,diliecicli.it,51.9,EUR,222.51,instock,https://www.diliecicli.it/en/products/catena-sram-gx-eagle-t-type-flattop
+2026-07-07,GX-T-CHAIN,testbericht.de,36.99,EUR,158.58,instock,https://www.testbericht.de/produkte/sram-gx-eagle-t-type-solid-pin-flattop-powerlock-chain-126-links-12s
+2026-07-07,GX-T-CHAIN,preissuchmaschine.de,36.99,EUR,158.58,instock,https://www.preissuchmaschine.de/in-Fahrrad/Fahrradteile/SRAM-GX-Eagle-Kette-00-2518-054-010.html
+2026-07-07,GX-T-CHAIN,goodsport.pl,194.64,PLN,194.64,instock,https://goodsport.pl/akcesoria-rowerowe/czesci-rowerowe/lancuchy/lancuch-sram-gx-eagle-t-type-12rz-126ogniw/
+2026-07-07,GX-T-CHAIN,alltricks.it,39.99,EUR,171.45,instock,https://www.alltricks.it/F-32737-chaines/P-2586616-catena_sram_gx_t_type_eagle_12_speed_126_link_silver_con_powerlock
 2026-07-07,Cane Creek 40 IS41/IS52,vpg.no,799.0,NOK,304.9,instock,https://www.vpg.no/Cane-Creek-Forty-Complete-BAA1175K/404348/
-2026-07-07,Cane Creek 40 IS41/IS52,tnc-hamburg.com,60.9,EUR,261.09,instock,https://www.tnc-hamburg.com/Steuersaetze/Cane-Creek-Steuersatz/Cane-Creek-IS-Steuersaetze/Cane-Creek-IS-Steuersaetze-komplett/Cane-Creek-Forty-Tapered-Steuersatz-1-1-8-1-5-Zoll-IS41-28-6-IS52-40-Kappe-8mm-schwarz::59495.html
 2026-07-07,Cane Creek 40 IS41/IS52,maciag-offroad.de,58.95,EUR,252.73,instock,https://www.maciag-offroad.de/cane-creek-steuersatz-40-is41-28-6-is52-40-short-tapered-sid88363.html
 2026-07-07,Cane Creek 40 IS41/IS52,bike-discount.de,58.99,EUR,252.9,instock,https://www.bike-discount.de/de/cane-creek-40er-is41/28.6-is52/40-tapered-steuersatz
 2026-07-07,Cane Creek 40 IS41/IS52,bike-components.de,124.99,EUR,535.86,instock,https://www.bike-components.de/de/Cane-Creek/110er-IS41-28-6-IS52-40-Steuersatz-p93293/
 2026-07-07,Cane Creek 40 IS41/IS52,centrumrowerowe.pl,239.99,PLN,239.99,instock,https://www.centrumrowerowe.pl/stery-zintegrowane-1-1-8-1-1-2-tapered-cane-creek-40-series-is42-is52-short-pd10206/
 2026-07-07,Cane Creek 40 IS41/IS52,lineabici.com,63.68,EUR,273.01,instock,https://lineabici.com/ricambi_seriesterzo_lineabici/7389-ssterzo-40-s-is41-is52-short-nero-is41286h9-is5240.html
 2026-07-07,Cane Creek 40 IS41/IS52,alltricks.it,69.0,EUR,295.82,instock,https://www.alltricks.it/F-11925-jeux-de-direction/P-2079029-serie_sterzo_cane_creek_40_serie_1__39_1_8_1_5__39__integrata_tapered_is41_is52
-2026-07-07,Cane Creek 40 IS41/IS52,maciag-offroad.it,63.95,EUR,274.17,instock,https://www.maciag-offroad.it/cane-creek-serie-sterzo-40-is41-28-6-is52-40-short-tapered-sid88363.html
 2026-07-07,Cane Creek 40 IS41/IS52,bike-discount.de,58.99,EUR,252.9,instock,https://www.bike-discount.de/it/cane-creek-40mm-is41/28.6-serie-sterzo-conica-is52/40
-2026-07-07,Cane Creek 40 IS41/IS52,tnc-hamburg.com,60.9,EUR,261.09,instock,https://www.tnc-hamburg.com/Steuersaetze/Cane-Creek-Steuersatz/Cane-Creek-IS-Steuersaetze/Cane-Creek-IS-Steuersaetze-komplett/Cane-Creek-Forty-Tapered-Steuersatz-1-1-8-1-5-Zoll-IS42-28-6-IS52-40-Kappe-15mm-schwarz::50056.html
 2026-07-07,Cane Creek 40 IS41/IS52,cavalierebici.it,62.63,EUR,268.51,instock,https://cavalierebici.it/en/products/cane-creek-serie-sterzo-40-series-is41-28-6-h9-is52-40
