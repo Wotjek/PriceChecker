@@ -85,9 +85,15 @@ products:
     min_pln: 1200
     queries:
       - Amortyzator rowerowy ROCK SHOX SID SL Select E1 3P 100mm
+    seed_urls:
+      - https://www.bike24.com/p2934489.html
+      - https://www.starbike.com/en/rockshox-sid-sl-select-rl-29er-100mm-black-tapered-32mm-44mm-15x110mm-boost/
+      - https://www.gambacicli.com/en/rock-shox-sid-sl-select-rl-29-boost-100mm-tapered.html
   - id: Lake MX242
     name: Lake MX242
     ean: "8718568144778"
     variant: "45"
     queries:
       - Lake MX242 MTB x-wide 45
+    seed_urls:
+      - https://www.bike24.com/p2720840.html
