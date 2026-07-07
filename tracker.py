@@ -81,10 +81,27 @@ IN_STOCK = {"instock", "limitedavailability", "onlineonly"}
 
 LOG_BUFFER = []
 
+# maskowanie sekretow w logach: log trafia do repo i do dashboardu
+# publikowanego na (publicznych) GitHub Pages - klucz API nie moze wyciec,
+# np. w komunikacie bledu HTTP z pelnym URL-em zapytania
+_SECRET_PARAM_RE = re.compile(r"(api_key|apikey|key|token)=[^&\s\"']+", re.I)
+_SECRET_ENV_VARS = ("SERPAPI_KEY", "TAVILY_API_KEY", "BRAVE_API_KEY",
+                    "GOOGLE_API_KEY")
+
+
+def _mask_secrets(s):
+    s = _SECRET_PARAM_RE.sub(r"\1=***", s)
+    for var in _SECRET_ENV_VARS:
+        v = os.environ.get(var, "").strip()
+        if v:
+            s = s.replace(v, "***")
+    return s
+
 
 def log(msg):
+    msg = _mask_secrets(str(msg))
     print(msg, flush=True)
-    LOG_BUFFER.append(str(msg))
+    LOG_BUFFER.append(msg)
 
 
 def save_run_log():
