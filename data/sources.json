@@ -2104,6 +2104,12 @@
       "via": "serpapi:it"
     }
   },
-  "ROCK SHOX SID": {},
+  "ROCK SHOX SID": {
+    "https://www.bike-components.de/en/RockShox/ZEB-Select-RC2-A3-DebonAir-Boost-29-suspension-fork-for-e-MTBs-OE-p251308/?v=64157-black": {
+      "domain": "bike-components.de",
+      "first_seen": "2026-07-07",
+      "via": "crawl"
+    }
+  },
   "Lake MX242": {}
 }

@@ -1,7 +1,7 @@
 date,product_id,product_name,price_pln,price_orig,currency,shop,url,offers_checked
 2026-07-05,Cane Creek 40 IS41/IS52,Cane Creek 40 IS41/IS52,239.99,239.99,PLN,centrumrowerowe.pl,https://www.centrumrowerowe.pl/stery-zintegrowane-1-1-8-1-1-2-tapered-cane-creek-40-series-is42-is52-short-pd10206/,12
 2026-07-06,Cane Creek 40 IS41/IS52,Cane Creek 40 IS41/IS52,239.99,239.99,PLN,centrumrowerowe.pl,https://www.centrumrowerowe.pl/stery-zintegrowane-1-1-8-1-1-2-tapered-cane-creek-40-series-is42-is52-short-pd10206/,10
-2026-07-07,Cane Creek 40 IS41/IS52,Cane Creek 40 IS41/IS52,239.99,239.99,PLN,centrumrowerowe.pl,https://www.centrumrowerowe.pl/stery-zintegrowane-1-1-8-1-1-2-tapered-cane-creek-40-series-is42-is52-short-pd10206/,10
+2026-07-07,Cane Creek 40 IS41/IS52,Cane Creek 40 IS41/IS52,239.99,239.99,PLN,centrumrowerowe.pl,https://www.centrumrowerowe.pl/stery-zintegrowane-1-1-8-1-1-2-tapered-cane-creek-40-series-is42-is52-short-pd10206/,12
 2026-07-05,Canyon S14 VCLS 2.0,Canyon S14 VCLS 2.0,857.1,199.99,EUR,canyon.com,https://www.canyon.com/de-de/fahrradzubehoer/fahrradteile/sattelstuetze-sattelklemme/canyon-s14-vcls-2.0-27.2mm-cf-sattelstuetze/148286.html,5
 2026-07-06,Canyon S14 VCLS 2.0,Canyon S14 VCLS 2.0,857.4,199.99,EUR,canyon.com,https://www.canyon.com/de-de/fahrradzubehoer/fahrradteile/sattelstuetze-sattelklemme/canyon-s14-vcls-2.0-27.2mm-cf-sattelstuetze/148286.html,5
 2026-07-07,Canyon S14 VCLS 2.0,Canyon S14 VCLS 2.0,858.72,199.99,EUR,canyon.com,https://www.canyon.com/de-de/fahrradzubehoer/fahrradteile/sattelstuetze-sattelklemme/canyon-s14-vcls-2.0-27.2mm-cf-sattelstuetze/148286.html,5
@@ -26,6 +26,8 @@ date,product_id,product_name,price_pln,price_orig,currency,shop,url,offers_check
 2026-07-05,Lake MX190-X Wide,Lake MX190-X Wide,707.14,165.0,EUR,sport-bittl.com,https://www.sport-bittl.com/de/lake-mx190-wide-mountainbikeschuhe-schwarz::255373.html,6
 2026-07-06,Lake MX190-X Wide,Lake MX190-X Wide,707.39,165.0,EUR,sport-bittl.com,https://www.sport-bittl.com/de/lake-mx190-wide-mountainbikeschuhe-schwarz::255373.html,6
 2026-07-07,Lake MX190-X Wide,Lake MX190-X Wide,708.48,165.0,EUR,sport-bittl.com,https://www.sport-bittl.com/de/lake-mx190-wide-mountainbikeschuhe-schwarz::255373.html,7
+2026-07-07,Lake MX242,Lake MX242,463.69,107.99,EUR,alltricks.de,https://www.alltricks.de/C-1586355-lake,2
+2026-07-07,ROCK SHOX SID,ROCK SHOX SID SL Select+,1455.6,339.0,EUR,bike-components.de,https://www.bike-components.de/en/RockShox/ZEB-Select-RC2-A3-DebonAir-Boost-29-suspension-fork-for-e-MTBs-OE-p251308/?v=64157-black,1
 2026-07-05,Ritchey WCS Carbon ErgoMax,Ritchey WCS Carbon ErgoMax,1074.05,230.34,CHF,bikeshopzizers.ch,https://bikeshopzizers.ch/ritchey-road-lenker-wcs-ergomax-42cm-c-c-oben-ud-carbon-31-8mm/,1
 2026-07-06,Ritchey WCS Carbon ErgoMax,Ritchey WCS Carbon ErgoMax,1073.61,230.34,CHF,bikeshopzizers.ch,https://bikeshopzizers.ch/ritchey-road-lenker-wcs-ergomax-42cm-c-c-oben-ud-carbon-31-8mm/,1
 2026-07-07,Ritchey WCS Carbon ErgoMax,Ritchey WCS Carbon ErgoMax,1073.29,230.34,CHF,bikeshopzizers.ch,https://bikeshopzizers.ch/ritchey-road-lenker-wcs-ergomax-42cm-c-c-oben-ud-carbon-31-8mm/,1
