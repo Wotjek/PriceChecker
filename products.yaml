@@ -85,3 +85,7 @@ products:
     min_pln: 1200
     queries:
       - Amortyzator rowerowy ROCK SHOX SID SL Select E1 3P 100mm
+  - id: Lake MX242
+    name: Lake MX242
+    ean: "8718568144778"
+    variant: "45"
