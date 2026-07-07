@@ -83,6 +83,8 @@ products:
     name: ROCK SHOX SID SL Select+
     ean: "710845917929"
     min_pln: 1200
+    require_tokens:
+      - sid
     queries:
       - Amortyzator rowerowy ROCK SHOX SID SL Select E1 3P 100mm
     seed_urls:
@@ -93,6 +95,8 @@ products:
     name: Lake MX242
     ean: "8718568144778"
     variant: "45"
+    require_tokens:
+      - mx242|mx 242|mx-242
     queries:
       - Lake MX242 MTB x-wide 45
     seed_urls:

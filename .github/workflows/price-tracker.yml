@@ -56,4 +56,6 @@ jobs:
           git add data/ output/ docs/
           git diff --cached --quiet && echo "Brak zmian" && exit 0
           git commit -m "Ceny $(date -u +%F)"
+          # ktoś mógł wypchnąć zmiany (np. konfigurację) w trakcie runu
+          git pull --rebase
           git push
