@@ -89,3 +89,5 @@ products:
     name: Lake MX242
     ean: "8718568144778"
     variant: "45"
+    queries:
+      - Lake MX242 MTB x-wide 45
