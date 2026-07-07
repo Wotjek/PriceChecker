@@ -1,4 +1,4 @@
-Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 'DT SWISS 350 12x148', 'Ritchey WCS Carbon ErgoMax', 'Canyon S14 VCLS 2.0', 'GX-T-KIT', 'GX-T-CHAIN', 'Cane Creek 40 IS41/IS52', 'ROCK SHOX SID']
+Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 'DT SWISS 350 12x148', 'Ritchey WCS Carbon ErgoMax', 'Canyon S14 VCLS 2.0', 'GX-T-KIT', 'GX-T-CHAIN', 'Cane Creek 40 IS41/IS52', 'ROCK SHOX SID', 'Lake MX242']
 [DISCOVERY] Light FIRE - pomijam discovery, tylko monitoring znanych URL-i (limit SerpAPI nietkniety)
 [SERPAPI] Limit: pozostalo 63 z 250 (zuzyte w tym miesiacu: 187)
 [FX] Kursy NBP pobrane (33 walut)
@@ -56,7 +56,7 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - hoopsvelo.com: brak danych o cenie (typy na stronie: organization, store)
   ~ biwakschachtel-tuebingen.de: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
   - bike-discount.de: niedostepny (outofstock)
-  - allegro.pl: HTTP 403
+  - allegro.pl: blad pobierania (ReadTimeout)
   - deporvillage.pl: HTTP 403
   - bike24.it: HTTP 403
   - bike-discount.de: niedostepny (outofstock)
@@ -93,7 +93,7 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - bikestacja.pl: 2470.0 PLN poza widelkami [-..1500.0] - pomijam
   - rowertour.com: brak danych o cenie (typy na stronie: breadcrumblist, itemlist, webpage)
   - fitwheels.eu: 2470.0 PLN poza widelkami [-..1500.0] - pomijam
-  - bikecenter.pl: brak danych o cenie (typy na stronie: breadcrumblist)
+  ~ bikecenter.pl: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
   - raaad.com: niedostepny (outofstock)
   - allegro.pl: HTTP 403
   + bike-discount.de: 71.99 EUR = 308.64 PLN [EAN OK]
@@ -106,7 +106,8 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - velosiped.com: HTTP 403
   + bike-components.de: 71.99 EUR = 308.64 PLN [EAN OK]
   - bike-rs.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
-[MONITOR] DT SWISS 350 12x148: sprawdzam 43 URL-i
+  - bikecenter.pl: brak danych o cenie (typy na stronie: breadcrumblist)
+[MONITOR] DT SWISS 350 12x148: sprawdzam 44 URL-i
   + bike-components.de: 119.99 EUR = 514.42 PLN [EAN OK]
   - bike24.de: HTTP 403
   + dt4you.com: 960.0 PLN = 960.0 PLN [EAN OK]
@@ -124,7 +125,7 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - fahrrad24.de: HTTP 403
   ~ whizz-wheels.de: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
   + mtbiker.de: 209.0 EUR = 896.02 PLN [EAN niepotwierdzony]
-  - tnc-hamburg.com: blad pobierania (ConnectTimeout)
+  - tnc-hamburg.com: niedostepny (backorder)
   - bike24.it: HTTP 403
   + cingolanibikeshop.com: 204.9 EUR = 878.45 PLN [EAN niepotwierdzony]
   - deporvillage.it: HTTP 403
@@ -142,6 +143,7 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - obroza-elektryczna.pl: brak danych o cenie (typy na stronie: organization, website)
   - agrodane.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - rejestr.io: HTTP 403
+  + whizz-wheels.de: 239.9 EUR = 1028.5 PLN [EAN niepotwierdzony]
   + whizz-wheels.de: 239.9 EUR = 1028.5 PLN [EAN niepotwierdzony]
   + whizz-wheels.de: 239.9 EUR = 1028.5 PLN [EAN niepotwierdzony]
   - ridewill.com: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -224,8 +226,8 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   + rowertour.com: 1889.46 PLN = 1889.46 PLN [EAN niepotwierdzony]
   - bike24.pl: HTTP 403
   - ampbike.pl: niedostepny (outofstock)
-  + bikestacja.pl: 3764.0 PLN = 3764.0 PLN [EAN niepotwierdzony]
-  ~ ridewill.it: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
+  + bikestacja.pl: 3766.0 PLN = 3766.0 PLN [EAN niepotwierdzony]
+  - ridewill.it: brak danych o cenie (typy na stronie: brak JSON-LD)
   + ciclobottegabikeshop.com: 499.9 EUR = 2143.17 PLN [EAN niepotwierdzony]
   - bike24.it: HTTP 403
   + cavalierebici.it: 402.04 EUR = 1723.63 PLN [EAN niepotwierdzony]
@@ -242,7 +244,7 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - alpebike.pl: brak wymaganych slow (kit) - pomijam
   ~ cyklomania.pl: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
   - bike-components.de: brak wymaganych slow (kit) - pomijam
-  ~ zumbistore.pl: brak ceny, ale znalazlem 2 link(i) produktowe - sprawdzam
+  ~ zumbistore.pl: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
   - universalcycles.com: brak wymaganych slow (kit) - pomijam
   - ibike.pl: brak danych o cenie (typy na stronie: organization, website)
   - lordgunbicycles.com: HTTP 403
@@ -269,8 +271,8 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - evolutionbikes.it: brak danych o cenie (typy na stronie: breadcrumblist)
   - 2wheels.pl: niedostepny (outofstock)
   - 2wheels.pl: niedostepny (outofstock)
-  - ridewill.it: brak danych o cenie (typy na stronie: brak JSON-LD)
   - cyklomania.pl: HTTP 404
+  - zumbistore.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - zumbistore.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - zumbistore.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
 [MONITOR] GX-T-CHAIN: sprawdzam 68 URL-i
@@ -345,7 +347,7 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - bike24.it: HTTP 403
   - bike24.pl: HTTP 403
   - spokeomotion.com: waluta CAD poza dozwolonym regionem - pomijam
-  - tnc-hamburg.com: blad pobierania (ConnectTimeout)
+  + tnc-hamburg.com: 60.9 EUR = 261.09 PLN [EAN OK]
   - bike24.de: HTTP 403
   + maciag-offroad.de: 58.95 EUR = 252.73 PLN [EAN niepotwierdzony]
   ~ biker-boarder.de: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
@@ -353,7 +355,7 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   + bike-discount.de: 58.99 EUR = 252.9 PLN [EAN niepotwierdzony]
   + bike-components.de: 124.99 EUR = 535.86 PLN [EAN niepotwierdzony]
   ~ cyklomania.pl: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
-  - allegro.pl: blad pobierania (ReadTimeout)
+  - allegro.pl: HTTP 403
   ~ formicki-bike.pl: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
   + centrumrowerowe.pl: 239.99 PLN = 239.99 PLN [EAN niepotwierdzony]
   - vincere.pl: niedostepny (outofstock)
@@ -370,7 +372,7 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   + bike-discount.de: 58.99 EUR = 252.9 PLN [EAN niepotwierdzony]
   - rat-bikes.com: HTTP 403
   - bike24.be: HTTP 403
-  - tnc-hamburg.com: blad pobierania (ConnectTimeout)
+  + tnc-hamburg.com: 60.9 EUR = 261.09 PLN [EAN niepotwierdzony]
   - biker-boarder.de: brak danych o cenie (typy na stronie: bikestore, sportinggoodsstore, website)
   + gocycle.de: 6.99 EUR = 29.97 PLN [EAN niepotwierdzony]
   + cavalierebici.it: 62.63 EUR = 268.51 PLN [EAN niepotwierdzony]
@@ -381,7 +383,8 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - formicki-bike.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - rowerowy.com: brak danych o cenie (typy na stronie: brak JSON-LD)
 [MONITOR] ROCK SHOX SID: sprawdzam 0 URL-i
-  ! Cane Creek 40 IS41/IS52: odrzucam outlier 29.97 PLN (gocycle.de) - ponizej 25% mediany (268.51 PLN)
+[MONITOR] Lake MX242: sprawdzam 0 URL-i (wariant: 45)
+  ! Cane Creek 40 IS41/IS52: odrzucam outlier 29.97 PLN (gocycle.de) - ponizej 25% mediany (261.09 PLN)
 [HISTORIA] FM2797: najnizsza 9935.59 PLN (imfixies.it)
 [HISTORIA] LAUF-CARBONARA: najnizsza 4467.26 PLN (laufcycles.com)
 [HISTORIA] Lake MX190-X Wide: najnizsza 707.39 PLN (sport-bittl.com)
@@ -393,6 +396,7 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
 [HISTORIA] GX-T-CHAIN: najnizsza 128.57 PLN (alutech-cycles.com)
 [HISTORIA] Cane Creek 40 IS41/IS52: najnizsza 239.99 PLN (centrumrowerowe.pl)
 [HISTORIA] ROCK SHOX SID: brak dostepnych ofert dzisiaj
+[HISTORIA] Lake MX242: brak dostepnych ofert dzisiaj
 [EXCEL] Zapisano /home/runner/work/PriceChecker/PriceChecker/output/prices.xlsx
 [DASHBOARD] Zapisano /home/runner/work/PriceChecker/PriceChecker/output/dashboard.html (+ docs/index.html dla GitHub Pages)
 Gotowe.
