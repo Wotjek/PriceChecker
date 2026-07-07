@@ -86,8 +86,8 @@ products:
     queries:
       - Amortyzator rowerowy ROCK SHOX SID SL Select E1 3P 100mm
     seed_urls:
-      - https://www.bike24.com/p2934489.html
-      - https://www.starbike.com/en/rockshox-sid-sl-select-rl-29er-100mm-black-tapered-32mm-44mm-15x110mm-boost/
+      - https://www.bike-components.de/en/RockShox/SID-SL-Select-RL-3P-DebonAir-Boost-29-Suspension-Fork-p91498/
+      - https://r2-bike.com/ROCKSHOX-Suspension-Fork-29-SID-SL-Select-Charger-RL-Crown-DebonAir-100-mm-BOOST-44-mm-Offset-tapered-black-2026
       - https://www.gambacicli.com/en/rock-shox-sid-sl-select-rl-29-boost-100mm-tapered.html
   - id: Lake MX242
     name: Lake MX242
@@ -96,4 +96,5 @@ products:
     queries:
       - Lake MX242 MTB x-wide 45
     seed_urls:
-      - https://www.bike24.com/p2720840.html
+      - https://www.bike-discount.de/de/lake-mx242-x-wide-mtb-schuhe-20154493
+      - https://www.alltricks.de/F-10006-chaussures-velo/P-2557093-lake_mx242_wide_schuhe_schwarz_silber_42_1_2
