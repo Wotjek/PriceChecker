@@ -1639,10 +1639,16 @@ def _run_mode():
 
 def _check_key_lengths():
     """Klucze SerpAPI (64 znaki) i Serpera (40) latwo zamienic miejscami
-    w sekretach - dlugosc zdradza pomylke bez ujawniania wartosci."""
+    w sekretach - dlugosc i odcisk (prefiks SHA-256) zdradzaja pomylke bez
+    ujawniania wartosci. Odcisk lokalnie: printf %s 'KLUCZ' | shasum -a 256"""
+    import hashlib
     for name, expect in (("SERPAPI_KEY", 64), ("SERPER_API_KEY", 40)):
         val = os.environ.get(name, "").strip()
-        if val and len(val) != expect:
+        if not val:
+            continue
+        fp = hashlib.sha256(val.encode()).hexdigest()[:8]
+        log(f"[KONFIG] {name}: {len(val)} znakow, odcisk sha256 {fp}")
+        if len(val) != expect:
             log(f"[KONFIG] UWAGA: {name} ma {len(val)} znakow, a klucz tego "
                 f"dostawcy ma zwykle {expect} - sprawdz, czy sekrety nie sa "
                 f"zamienione miejscami")
