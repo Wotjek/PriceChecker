@@ -1,7 +1,9 @@
-# Diagnostyka: czy Serper odrzuca ruch z runnerow GitHub Actions?
-# 6 rownoleglych jobow = 6 (zwykle roznych) IP z puli Azure; kazdy robi
-# jedno zapytanie i loguje swoj adres wyjsciowy + status odpowiedzi.
-# Uruchamiany tylko recznie; do skasowania po zakonczeniu sledztwa.
+# Diagnostyka: dlaczego tracker dostaje 403 od Serpera, skoro identyczne
+# reczne zapytania przechodza? Trzy warianty na runnerze:
+#  - tracker: checkout + requirements.txt (Brotli!) + tracker.serper_shopping_items
+#  - brotli:  golasy requests + Brotli (Accept-Encoding: br)
+#  - plain:   golasy requests bez Brotli
+# Do skasowania po zakonczeniu sledztwa.
 name: Serper Probe
 on: workflow_dispatch
 
@@ -11,33 +13,43 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        n: [1, 2]
+        variant: [tracker, brotli, plain]
     steps:
-      - name: Zapytanie testowe z runnera (curl + python requests)
+      - uses: actions/checkout@v4
+        if: matrix.variant == 'tracker'
+      - name: Instalacja zaleznosci
+        run: |
+          if [ "${{ matrix.variant }}" = "tracker" ]; then
+            pip install -q -r requirements.txt
+          elif [ "${{ matrix.variant }}" = "brotli" ]; then
+            pip install -q requests Brotli
+          else
+            pip install -q requests
+          fi
+      - name: Zapytanie testowe
         env:
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+          VARIANT: ${{ matrix.variant }}
         run: |
           echo "IP wyjsciowe runnera: $(curl -s https://api.ipify.org)"
-          code=$(curl -s -o /tmp/resp.json -w "%{http_code}" \
-            https://google.serper.dev/search \
-            -H "X-API-KEY: $SERPER_API_KEY" \
-            -H "Content-Type: application/json" \
-            -d '{"q":"probe"}')
-          echo "curl /search: $code"
-          pip install -q requests
           python3 - <<'EOF'
-          import os, requests
-          k = os.environ["SERPER_API_KEY"]
-          UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/124.0.0.0 Safari/537.36")
-          for ua in (None, UA):
-              h = {"X-API-KEY": k, "Content-Type": "application/json"}
-              if ua:
-                  h["User-Agent"] = ua
+          import os
+          v = os.environ["VARIANT"]
+          key = os.environ["SERPER_API_KEY"].strip()
+          if v == "tracker":
+              import tracker
+              items = tracker.serper_shopping_items("salsa cutthroat grx",
+                                                    key, "de")
+              print("wariant tracker: items =", len(items))
+              print("log trackera:", tracker.LOG_BUFFER)
+          else:
+              import requests
               r = requests.post("https://google.serper.dev/shopping",
-                                headers=h, json={"q": "probe", "gl": "de"},
+                                headers={"X-API-KEY": key,
+                                         "Content-Type": "application/json"},
+                                json={"q": "salsa cutthroat grx", "gl": "de"},
                                 timeout=20)
-              print(f"python /shopping UA={'Mozilla' if ua else 'domyslny'}: "
-                    f"{r.status_code} {r.text[:80]}")
+              print(f"wariant {v}: {r.status_code} {r.text[:80]}")
+              print("wyslane Accept-Encoding:",
+                    r.request.headers.get("Accept-Encoding"))
           EOF
