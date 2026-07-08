@@ -1,0 +1,27 @@
+# Diagnostyka: czy Serper odrzuca ruch z runnerow GitHub Actions?
+# 6 rownoleglych jobow = 6 (zwykle roznych) IP z puli Azure; kazdy robi
+# jedno zapytanie i loguje swoj adres wyjsciowy + status odpowiedzi.
+# Uruchamiany tylko recznie; do skasowania po zakonczeniu sledztwa.
+name: Serper Probe
+on: workflow_dispatch
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        n: [1, 2, 3, 4, 5, 6]
+    steps:
+      - name: Zapytanie testowe z runnera
+        env:
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+        run: |
+          echo "IP wyjsciowe runnera: $(curl -s https://api.ipify.org)"
+          code=$(curl -s -o /tmp/resp.json -w "%{http_code}" \
+            https://google.serper.dev/search \
+            -H "X-API-KEY: $SERPER_API_KEY" \
+            -H "Content-Type: application/json" \
+            -d '{"q":"probe"}')
+          echo "Status serpera: $code"
+          echo "Poczatek odpowiedzi: $(head -c 120 /tmp/resp.json)"
