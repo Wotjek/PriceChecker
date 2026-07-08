@@ -138,6 +138,13 @@ tr.rowlink:hover td{background:rgba(95,211,196,.09)}
 .pctup{font-size:11px;color:var(--faint);font-family:'JetBrains Mono'}
 .up{color:var(--bad)} .down{color:var(--good)}
 .avail-ok{color:var(--good)} .avail-no{color:var(--fire)}
+th.sortable{cursor:pointer;user-select:none}
+th.sortable:hover{color:var(--ink)}
+.range{position:relative;height:4px;background:var(--line);border-radius:2px;min-width:80px;max-width:110px;margin:6px 0}
+.range i{position:absolute;top:-3px;width:10px;height:10px;border-radius:50%;transform:translateX(-50%)}
+.stalebadge{display:inline-block;margin-left:6px;padding:0 6px;border-radius:4px;font-size:10px;vertical-align:2px;
+  font-family:'Barlow Condensed';letter-spacing:.1em;text-transform:uppercase;
+  background:rgba(240,160,60,.12);color:var(--bad);border:1px solid rgba(240,160,60,.35)}
 
 /* konfiguracja */
 .cfgcard{border:1px solid var(--line);border-radius:10px;padding:16px;margin-bottom:14px;background:var(--panel2)}
@@ -358,32 +365,71 @@ function renderList(el){
   const products = DATA.products;
   if(!products.length){ el.innerHTML='<div class="emptybig">Dodaj produkty w zakładce Konfiguracja</div>'; return; }
   const hist = byKey(state.history,'product_id');
-  let html = `<div class="panelbox"><h3 class="sect" style="margin-top:0">Wszystkie produkty
-      <span class="pill">· kliknij wiersz, żeby zobaczyć szczegóły</span></h3>
-    <table><thead><tr><th>Produkt</th><th>Aktualnie (PLN)</th><th>vs min</th><th>Min. historyczne</th>
-      <th>Cel</th><th>Sklep</th><th></th></tr></thead><tbody>`;
-  for(const p of products){
+  const offersBy = byKey(state.offers,'product_id');
+
+  const items = products.map(p=>{
     const h=(hist[p.id]||[]).slice().sort((a,b)=>a.date<b.date?-1:1);
     const last=h[h.length-1];
     const prev=h.length>1?h[h.length-2]:null;
     const min=h.length?h.reduce((a,b)=>+a.price_pln<=+b.price_pln?a:b):null;
+    const max=h.length?h.reduce((a,b)=>+a.price_pln>=+b.price_pln?a:b):null;
+    const offs=offersBy[p.id]||[];
+    const lastOfferDate=offs.length?offs.map(o=>o.date).sort().pop():'';
+    const shops=lastOfferDate?new Set(offs.filter(o=>o.date===lastOfferDate).map(o=>o.domain)).size:0;
     const target=p.target_pln?+p.target_pln:0;
     const buy=target&&last&&+last.price_pln<=target;
-    const atMin=last&&min&&+last.price_pln<=+min.price_pln+0.001;
+    const atMin=!!(last&&min&&+last.price_pln<=+min.price_pln+0.001);
     const vsMin=(last&&min&&!atMin)?((+last.price_pln-+min.price_pln)/+min.price_pln*100):0;
     const dd=(last&&prev)?((+last.price_pln-+prev.price_pln)/+prev.price_pln*100):0;
+    const staleDays=last?Math.floor((Date.now()-new Date(last.date+'T12:00:00'))/864e5):0;
+    return {p,last,prev,min,max,shops,buy,atMin,vsMin,dd,staleDays};
+  });
+
+  const s = state.listSort || {key:'name',dir:1};
+  const keyFns = {
+    name: r=>r.p.name.toLowerCase(),
+    cur:  r=>r.last?+r.last.price_pln:Infinity,
+    vsmin:r=>(r.last&&r.min)?(r.atMin?0:r.vsMin):Infinity,
+    min:  r=>r.min?+r.min.price_pln:Infinity,
+    shops:r=>r.shops
+  };
+  const fn = keyFns[s.key]||keyFns.name;
+  items.sort((a,b)=>{const x=fn(a),y=fn(b);return (x<y?-1:x>y?1:0)*s.dir;});
+
+  const TH=(key,label)=>`<th class="sortable" data-k="${key}" title="Kliknij, żeby sortować">${label}${s.key===key?(s.dir>0?' ▲':' ▼'):''}</th>`;
+  let html = `<div class="panelbox"><h3 class="sect" style="margin-top:0">Wszystkie produkty
+      <span class="pill">· kliknij wiersz, żeby zobaczyć szczegóły · kliknij nagłówek, żeby sortować</span></h3>
+    <table><thead><tr>${TH('name','Produkt')}${TH('cur','Aktualnie (PLN)')}${TH('vsmin','vs min')}
+      <th title="Pozycja aktualnej ceny między minimum a maksimum historycznym">Zakres min–max</th>
+      ${TH('min','Min. historyczne')}${TH('shops','Sklepy')}<th>Sklep</th><th></th></tr></thead><tbody>`;
+
+  for(const r of items){
+    const {p,last,prev,min,max,shops,buy,atMin,vsMin,dd,staleDays}=r;
     const trend=(prev&&Math.abs(dd)>=0.05)?` · <span class="${dd>0?'up':'down'}">${dd>0?'▲':'▼'} ${Math.abs(dd).toFixed(1).replace('.',',')}%</span>`:'';
+    const stale=(last&&staleDays>=2)?` <span class="stalebadge" title="Ostatni pomiar jest starszy niż 2 dni">sprzed ${staleDays} dni</span>`:'';
+    let range='<span style="color:var(--faint)">—</span>';
+    if(last&&min&&max&&(+max.price_pln-+min.price_pln)>=0.01){
+      const pct=Math.max(0,Math.min(100,(+last.price_pln-+min.price_pln)/(+max.price_pln-+min.price_pln)*100));
+      const col=pct<=15?'var(--good)':pct>=85?'var(--bad)':'var(--teal)';
+      range=`<div class="range" title="min ${pln.format(+min.price_pln)} · max ${pln.format(+max.price_pln)} · aktualna w ${pct.toFixed(0)}% zakresu"><i style="left:${pct}%;background:${col}"></i></div>`;
+    }
     html+=`<tr class="rowlink ${buy?'best':''}" data-pid="${esc(p.id)}">
-      <td><b>${esc(p.name)}</b><br><span class="mono" style="color:var(--faint);font-size:11px">${esc(p.id)}${p.worldwide?' · WW':''}</span></td>
-      <td class="num">${last?pln.format(+last.price_pln):'—'}${last?`<br><span style="color:var(--faint);font-size:11px">${esc(last.date)}${trend}</span>`:''}</td>
+      <td><b>${esc(p.name)}</b>${buy?' <span class="buy">● KUP</span>':''}<br><span class="mono" style="color:var(--faint);font-size:11px">${esc(p.id)}${p.worldwide?' · WW':''}</span></td>
+      <td class="num">${last?pln.format(+last.price_pln):'—'}${stale}${last?`<br><span style="color:var(--faint);font-size:11px">${esc(last.date)}${trend}</span>`:''}</td>
       <td class="num">${!last||!min?'—':atMin?'<span class="down" title="Aktualna cena równa minimum historycznemu">● = min</span>':`<span class="up" title="O tyle drożej niż minimum historyczne">▲ +${vsMin.toFixed(1).replace('.',',')}%</span>`}</td>
+      <td>${range}</td>
       <td class="num">${min?pln.format(+min.price_pln):'—'}${min?`<br><span style="color:var(--faint);font-size:11px">${esc(min.date)}</span>`:''}</td>
-      <td class="num">${target?pln.format(target):'—'}${buy?'<br><span class="buy">● KUP</span>':''}</td>
+      <td class="num">${shops||'—'}${shops===1?' <span class="up" title="Tylko jeden sklep z ofertą — słabe pokrycie">!</span>':''}</td>
       <td>${last?`<a href="${esc(last.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(last.shop)} →</a>`:'—'}</td>
       <td style="color:var(--faint)">›</td></tr>`;
   }
   el.innerHTML = html+'</tbody></table></div>';
   el.querySelectorAll('.rowlink').forEach(r=> r.onclick=()=>{ state.tab=r.dataset.pid; render(); });
+  el.querySelectorAll('th.sortable').forEach(t=> t.onclick=()=>{
+    const k=t.dataset.k;
+    state.listSort = (s.key===k)?{key:k,dir:-s.dir}:{key:k,dir:1};
+    render();
+  });
 }
 
 /* ================= ZAKŁADKA PRODUKTU ================= */
