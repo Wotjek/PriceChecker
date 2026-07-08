@@ -71,6 +71,8 @@ Dwa pliki Pythona, reszta to dane:
 
 **Baza źródeł (`data/sources.json`) jest tylko dopisywana** — to główne aktywo projektu. Sklep niedostępny danego dnia zostaje w bazie. URL-e normalizowane (`normalize_url` usuwa `srsltid`, `utm_*` itd.). Agregatory cen (ceneo, idealo, geizhals…) i marketplace'y (eBay, Amazon) blokowane globalnie w `BLOCKED_DOMAINS` z dopasowaniem subdomen.
 
-## Limit SerpAPI
+## Limity API (SerpAPI, Serper)
 
-Plan Free: 250 zapytań/mies. Pełny FIRE przy ~10 produktach ≈ 90 zapytań (frazy × kraje × silniki + Shopping). Timeout SerpAPI i tak zużywa zapytanie (stąd `SERPAPI_TIMEOUT=60`). Do testów zmian w monitoringu/dashboardzie używaj Light FIRE — nie zużywa limitu. Stan limitu: `data/serpapi_quota.json`; fallback Shopping dla blind spotów czyta ten plik i pomija się, gdy `left − serpapi_reserve ≤ 0` (wtedy ceny łata tylko warstwa CSE, która ma osobny darmowy limit dzienny Google).
+SerpAPI Free: 250 zapytań/mies. Pełny FIRE przy ~10 produktach ≈ 90 zapytań (frazy × kraje × silniki + Shopping). Timeout SerpAPI i tak zużywa zapytanie (stąd `SERPAPI_TIMEOUT=60`). Do testów zmian w monitoringu/dashboardzie używaj Light FIRE — nie zużywa limitu. Stan limitu: `data/serpapi_quota.json` (endpoint `/account`); fallback Shopping dla blind spotów czyta ten plik i pomija silnik SerpAPI, gdy `left − serpapi_reserve ≤ 0`.
+
+Serper: brak endpointu stanu konta — tracker sam zlicza udane zapytania (`_serper_used`) i kumuluje w `data/serper_quota.json` (`save_serper_quota`); pula w `settings.serper_credits` (domyślnie 2500). Po dokupieniu kredytów: zaktualizuj `serper_credits` i usuń `data/serper_quota.json` (albo wyedytuj `used`). Oba stany widać na głównej stronie dashboardu (`quotaWidget`).

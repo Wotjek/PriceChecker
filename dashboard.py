@@ -9,6 +9,7 @@ ROOT = Path(__file__).parent
 OUTPUT = ROOT / "output"
 OFFERS_CSV = ROOT / "data" / "all_offers.csv"
 QUOTA_FILE = ROOT / "data" / "serpapi_quota.json"
+SERPER_QUOTA_FILE = ROOT / "data" / "serper_quota.json"
 RUNLOG_FILE = ROOT / "data" / "last_run.log"
 DOCS = ROOT / "docs"           # kopia dashboardu dla GitHub Pages
 WORKFLOW_FILE = "price-tracker.yml"
@@ -328,15 +329,21 @@ function renderHome(el){
 }
 
 function quotaWidget(){
-  const q = DATA.serpapi;
-  if(!q || !q.per_month) return '';
-  const left = +q.left||0, total = +q.per_month||0, used = +q.used||0;
-  const pct = total ? Math.max(0, Math.min(100, left/total*100)) : 0;
-  return `<div class="quota">
-    <span class="lbl">Limit SerpAPI</span>
+  const bar = (lbl, left, total, used, info, checked) => {
+    const pct = total ? Math.max(0, Math.min(100, left/total*100)) : 0;
+    return `<div class="quota">
+    <span class="lbl">${lbl}</span>
     <div class="qbar ${pct<20?'low':''}"><div style="width:${pct.toFixed(0)}%"></div></div>
-    <span>pozostało <b>${left}</b> z <b>${total}</b> darmowych zapytań (zużyte: ${used}) · stan z ${esc(q.checked||'')}</span>
-  </div>`;
+    <span>pozostało <b>${left}</b> z <b>${total}</b> ${info} · stan z ${esc(checked||'')}</span>
+  </div>`;};
+  let html='';
+  const q = DATA.serpapi;
+  if(q && q.per_month) html += bar('Limit SerpAPI', +q.left||0, +q.per_month||0, +q.used||0,
+    `darmowych zapytań (zużyte: ${+q.used||0})`, q.checked);
+  const s = DATA.serper;
+  if(s && s.total) html += bar('Kredyty Serper', +s.left||0, +s.total||0, +s.used||0,
+    `kredytów (zużyte: ${+s.used||0}, licznik lokalny)`, s.checked);
+  return html;
 }
 function renderOffersTables(wrap, products){
   const dates = state.offers.map(o=>o.date).sort();
@@ -688,6 +695,7 @@ async function refresh(silent){
     const [h,o]=await Promise.all([fetchCSV('data/history.csv'),fetchCSV('data/all_offers.csv')]);
     state.history=h; state.offers=o;
     try{ DATA.serpapi=JSON.parse(await fetchText('data/serpapi_quota.json')); }catch(e){}
+    try{ DATA.serper=JSON.parse(await fetchText('data/serper_quota.json')); }catch(e){}
     try{ state.runlog=(await fetchText('data/last_run.log')).split('\n'); }catch(e){}
     try{ const cfg=jsyaml.load(await fetchText('products.yaml'))||{};
       if(Array.isArray(cfg.products)) DATA.products=cfg.products.filter(p=>p&&p.id)
@@ -785,6 +793,8 @@ def build_dashboard(rows, products, settings, generated):
         "offers": _load_offers_for_embed(),
         "serpapi": json.loads(QUOTA_FILE.read_text(encoding="utf-8"))
                    if QUOTA_FILE.exists() else None,
+        "serper": json.loads(SERPER_QUOTA_FILE.read_text(encoding="utf-8"))
+                  if SERPER_QUOTA_FILE.exists() else None,
         "runlog": (RUNLOG_FILE.read_text(encoding="utf-8")
                    .splitlines()[-RUNLOG_EMBED_LINES:]
                    if RUNLOG_FILE.exists() else []),

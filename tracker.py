@@ -33,6 +33,7 @@ SOURCES_FILE = DATA / "sources.json"      # baza znanych URL-i per produkt
 HISTORY_FILE = DATA / "history.csv"       # najlepsza cena / produkt / dzien
 OFFERS_FILE = DATA / "all_offers.csv"     # wszystkie znalezione oferty (audyt)
 QUOTA_FILE = DATA / "serpapi_quota.json"  # stan limitu darmowych zapytan SerpAPI
+SERPER_QUOTA_FILE = DATA / "serper_quota.json"  # lokalny licznik kredytow Serper
 EXCEL_FILE = OUTPUT / "prices.xlsx"
 
 # Naglowki jak w prawdziwym Chrome - czesc sklepow (bike24, r2-bike, allegro)
@@ -335,6 +336,12 @@ def brave_search(query, api_key):
         return []
 
 
+# Serper nie ma endpointu stanu konta, a kredyt schodzi za kazda udana
+# odpowiedz - tracker jest jedynym konsumentem klucza, wiec zlicza zuzycie
+# sam i utrwala kumulatywnie w data/serper_quota.json (save_serper_quota)
+_serper_used = {"n": 0}
+
+
 def serper_shopping_items(query, api_key, gl=None):
     """Serper.dev Google Shopping - te same dane co serpapi_shopping_items
     (feed Merchant Center), inny dostawca: 2500 darmowych zapytan bez karty.
@@ -348,6 +355,7 @@ def serper_shopping_items(query, api_key, gl=None):
                                    "Content-Type": "application/json"},
                           json=payload, timeout=TIMEOUT)
         r.raise_for_status()
+        _serper_used["n"] += 1
         return r.json().get("shopping", [])
     except Exception as e:
         log(f"[SHOPPING][serper] Blad zapytania '{query}': {e}")
@@ -365,6 +373,7 @@ def serper_search(query, api_key, gl=None):
                                    "Content-Type": "application/json"},
                           json=payload, timeout=TIMEOUT)
         r.raise_for_status()
+        _serper_used["n"] += 1
         return [it["link"] for it in r.json().get("organic", [])
                 if it.get("link")]
     except Exception as e:
@@ -482,6 +491,30 @@ def save_serpapi_quota():
             f"(zuzyte w tym miesiacu: {data['used']})")
     except Exception as e:
         log(f"[SERPAPI] Nie udalo sie pobrac stanu limitu: {e}")
+
+
+def save_serper_quota(settings):
+    """Utrwala lokalny licznik kredytow Serper (brak API stanu konta).
+    Pula startowa/dokupiona: settings.serper_credits (domyslnie 2500);
+    po dokupieniu kredytow zaktualizuj settings i usun serper_quota.json."""
+    if _serper_used["n"] == 0 and not SERPER_QUOTA_FILE.exists():
+        return  # Serper nieuzywany i nie byl uzywany - nic do pokazania
+    used = 0
+    try:
+        used = int(json.loads(SERPER_QUOTA_FILE
+                              .read_text(encoding="utf-8")).get("used") or 0)
+    except Exception:
+        pass
+    used += _serper_used["n"]
+    total = int(settings.get("serper_credits") or 2500)
+    data = {"total": total, "used": used, "left": max(0, total - used),
+            "this_run": _serper_used["n"],
+            "checked": date.today().isoformat()}
+    DATA.mkdir(exist_ok=True)
+    SERPER_QUOTA_FILE.write_text(json.dumps(data, ensure_ascii=False),
+                                 encoding="utf-8")
+    log(f"[SERPER] Kredyty: zuzyte {_serper_used['n']} w tym runie, "
+        f"lacznie {used} z {total} (pozostalo {data['left']})")
 
 
 # ========================================================== extraction ======
@@ -1567,6 +1600,7 @@ def main():
     # sklepy, ktore odrzucily pobranie -> ceny z Google (Shopping / indeks)
     offers += fill_blind_spots(products, blind, rates, settings)
     offers = drop_outliers(offers)
+    save_serper_quota(settings)  # po discovery i blind spotach - pelne zuzycie
     # URL-e znalezione auto-crawlem w monitoringu -> utrwal w bazie
     SOURCES_FILE.write_text(json.dumps(sources, indent=2, ensure_ascii=False),
                             encoding="utf-8")
