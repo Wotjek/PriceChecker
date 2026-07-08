@@ -94,7 +94,17 @@ BLOCKED_DOMAINS = {"google.com", "youtube.com",
                    # media/recenzje/fora - artykuly, nie sklepy
                    "fat-bike.com", "singletracks.com", "bikeradar.com",
                    "pinkbike.com", "bikerumor.com", "cyclingnews.com",
-                   "mtb-news.de", "99spokes.com", "scribd.com"}
+                   "mtb-news.de", "99spokes.com", "scribd.com",
+                   "mtbr.com", "expeditionportal.com",
+                   # social / katalogi / rejestry - nie sklepy
+                   "instagram.com", "yelp.com", "upcindex.com", "rejestr.io",
+                   # marketplace'y aukcyjne i ogloszenia
+                   "allegro.pl", "allegro.hu", "allegro.cz", "allegro.sk",
+                   "fillaritori.com",
+                   # sklepy nie-rowerowe (kolizje EAN/kodow produktow)
+                   "memorialtacostx.com", "americanpharmawholesale.com",
+                   "bbqguys.com", "staples.com", "bestbuy.com",
+                   "dkhardware.com"}
 BLOCKED_PATH_RE = re.compile(r"/(blogs?|news|review|artykul|magazin)e?s?/", re.I)
 
 IN_STOCK = {"instock", "limitedavailability", "onlineonly"}
@@ -230,10 +240,40 @@ def get_fx_rates():
 
 # ========================================================== discovery =======
 
+# Klucz odrzucony (401/403) powtarza sie dla KAZDEGO zapytania - bez sensu
+# mielic setki blednych wywolan i smiecic log. Po pierwszym odrzuceniu silnik
+# jest wylaczany do konca runu, z jedna czytelna wskazowka co naprawic.
+_auth_dead = set()
+
+
+def _auth_fail(engine, err, hint):
+    """True gdy blad to odrzucony klucz - wylacza silnik do konca runu."""
+    code = getattr(getattr(err, "response", None), "status_code", None)
+    if code in (401, 402, 403):
+        if engine not in _auth_dead:
+            _auth_dead.add(engine)
+            log(f"[AUTH] {engine}: klucz odrzucony (HTTP {code}) - wylaczam "
+                f"silnik do konca runu. {hint}")
+        return True
+    return False
+
+
+_HINT_SERPAPI = ("Limit SerpAPI wyczerpany albo zly sekret SERPAPI_KEY "
+                 "(serpapi.com -> Api Key).")
+_HINT_SERPER = ("Sprawdz sekret SERPER_API_KEY (serper.dev -> API keys); "
+                "wartosc bez cudzyslowow i spacji.")
+_HINT_GOOGLE = ("Sprawdz GOOGLE_API_KEY: w Google Cloud wlacz Custom Search "
+                "API i ustaw Application restrictions klucza na None "
+                "(restrykcja 'Websites' odrzuca wywolania z serwera).")
+
+
 def google_search(query, api_key, cx, pages=1):
-    """Legacy: Google Programmable Search (dziala tylko dla starych wyszukiwarek
-    z wlaczonym 'Search the entire web'; funkcja wygasa 2027-01-01)."""
+    """Google Programmable Search (JSON API) - wyszukiwarka PSE uzytkownika.
+    Od 2026-01-20 nowe PSE nie moga przeszukiwac calej sieci - wyniki tylko
+    z domen dopisanych do wyszukiwarki (max 50)."""
     urls = []
+    if "google" in _auth_dead:
+        return urls
     for page in range(pages):
         params = {"key": api_key, "cx": cx, "q": query,
                   "num": 10, "start": 1 + page * 10}
@@ -249,7 +289,8 @@ def google_search(query, api_key, cx, pages=1):
             if len(items) < 10:
                 break
         except Exception as e:
-            log(f"[DISCOVERY][google] Blad zapytania '{query}': {e}")
+            if not _auth_fail("google", e, _HINT_GOOGLE):
+                log(f"[DISCOVERY][google] Blad zapytania '{query}': {e}")
             break
         time.sleep(0.5)
     return urls
@@ -258,6 +299,8 @@ def google_search(query, api_key, cx, pages=1):
 def serpapi_search(query, api_key, gl=None):
     """SerpAPI - prawdziwe wyniki Google (plan darmowy: 250 zapytan/mies.).
     gl = kod kraju (np. 'de', 'pl') - wyniki z lokalnej wersji Google."""
+    if "serpapi" in _auth_dead:
+        return []
     try:
         params = {"engine": "google", "q": query, "num": 20, "api_key": api_key}
         if gl:
@@ -271,7 +314,8 @@ def serpapi_search(query, api_key, gl=None):
             return []
         return [it["link"] for it in j.get("organic_results", []) if it.get("link")]
     except Exception as e:
-        log(f"[DISCOVERY][serpapi] Blad zapytania '{query}': {e}")
+        if not _auth_fail("serpapi", e, _HINT_SERPAPI):
+            log(f"[DISCOVERY][serpapi] Blad zapytania '{query}': {e}")
         return []
 
 
@@ -279,6 +323,8 @@ def serpapi_shopping_items(query, api_key, gl=None):
     """SerpAPI Google Shopping - surowe oferty (tytul, cena, sklep, link).
     Zrodlem cen jest feed Merchant Center wysylany Google przez same sklepy,
     wiec dziala takze dla sklepow blokujacych boty (bike24, r2-bike)."""
+    if "serpapi" in _auth_dead:
+        return []
     try:
         # Shopping nie radzi sobie z cudzyslowami (zwraca "no results")
         params = {"engine": "google_shopping", "q": query.replace('"', ""),
@@ -294,7 +340,8 @@ def serpapi_shopping_items(query, api_key, gl=None):
             return []
         return j.get("shopping_results", [])
     except Exception as e:
-        log(f"[SHOPPING] Blad zapytania '{query}': {e}")
+        if not _auth_fail("serpapi", e, _HINT_SERPAPI):
+            log(f"[SHOPPING] Blad zapytania '{query}': {e}")
         return []
 
 
@@ -347,6 +394,8 @@ def serper_shopping_items(query, api_key, gl=None):
     """Serper.dev Google Shopping - te same dane co serpapi_shopping_items
     (feed Merchant Center), inny dostawca: 2500 darmowych zapytan bez karty.
     Ceny tylko jako tekst ('3.499,00 EUR') - parsowane przy dopasowaniu."""
+    if "serper" in _auth_dead:
+        return []
     try:
         payload = {"q": query.replace('"', "")}
         if gl:
@@ -359,12 +408,15 @@ def serper_shopping_items(query, api_key, gl=None):
         _serper_used["n"] += 1
         return r.json().get("shopping", [])
     except Exception as e:
-        log(f"[SHOPPING][serper] Blad zapytania '{query}': {e}")
+        if not _auth_fail("serper", e, _HINT_SERPER):
+            log(f"[SHOPPING][serper] Blad zapytania '{query}': {e}")
         return []
 
 
 def serper_search(query, api_key, gl=None):
     """Serper.dev - organiczne wyniki Google (discovery)."""
+    if "serper" in _auth_dead:
+        return []
     try:
         payload = {"q": query, "num": 20}
         if gl:
@@ -378,7 +430,8 @@ def serper_search(query, api_key, gl=None):
         return [it["link"] for it in r.json().get("organic", [])
                 if it.get("link")]
     except Exception as e:
-        log(f"[DISCOVERY][serper] Blad zapytania '{query}': {e}")
+        if not _auth_fail("serper", e, _HINT_SERPER):
+            log(f"[DISCOVERY][serper] Blad zapytania '{query}': {e}")
         return []
 
 
@@ -1295,6 +1348,8 @@ def _cse_fill(products_by_id, blind, rates, settings):
             if budget <= 0:
                 log("[CSE] Budzet zapytan na ten run wyczerpany")
                 return offers
+            if "google" in _auth_dead:
+                return offers
             budget -= 1
             try:
                 r = requests.get("https://www.googleapis.com/customsearch/v1",
@@ -1308,6 +1363,8 @@ def _cse_fill(products_by_id, blind, rates, settings):
                 r.raise_for_status()
                 items = r.json().get("items", [])
             except Exception as e:
+                if _auth_fail("google", e, _HINT_GOOGLE):
+                    return offers
                 log(f"[CSE] {pid}/{dom}: blad zapytania ({type(e).__name__})")
                 continue
             best = None

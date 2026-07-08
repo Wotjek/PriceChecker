@@ -182,6 +182,16 @@ input:focus,textarea:focus{outline:none;border-color:var(--teal)}
 .blindbox.okbb{border-color:rgba(70,211,154,.35);background:rgba(70,211,154,.05);
   color:var(--good);font-size:13px}
 .blindbox .hint{margin-top:10px;font-size:12px;color:var(--faint);line-height:1.5}
+.blindbox .agghead{display:flex;align-items:center;justify-content:space-between;
+  gap:12px;margin-bottom:8px;font-size:13px}
+.blindbox .agghead button{background:rgba(240,160,60,.15);color:var(--bad);
+  border:1px solid rgba(240,160,60,.4);padding:5px 14px;border-radius:6px;
+  font-size:12px;cursor:pointer}
+.blindbox .agglist{max-height:220px;overflow:auto;margin:0 0 10px;padding:10px 12px;
+  background:rgba(0,0,0,.25);border-radius:8px;font-family:'JetBrains Mono';
+  font-size:12px;line-height:1.6;color:var(--ink)}
+.blindbox details summary{cursor:pointer;font-size:13px;color:var(--muted);
+  margin-bottom:6px}
 .blindbox code{background:rgba(240,160,60,.14);padding:1px 7px;border-radius:4px;
   font-size:12px;font-family:'JetBrains Mono'}
 
@@ -552,18 +562,34 @@ function blindPanel(){
   const pids = Object.keys(spots);
   const pname = id => ((DATA.products||[]).find(p=>p.id===id)||{name:id}).name;
   if(!pids.length) return `<div class="blindbox okbb">✓ Brak blind spotów — każdy sklep z bazy dał cenę (bezpośrednio albo przez Google) · stan z ${esc(b.date||'')}</div>`;
+  const uniq = [...new Set(pids.flatMap(pid=>spots[pid]))].sort();
   return `<div class="blindbox">
     <h3 class="sect" style="margin-top:0">Blind spoty <span class="pill">· sklepy blokujące bez ceny z Google · stan z ${esc(b.date||'')}</span></h3>
+    <div class="agghead"><b>Do dodania w Google PSE — ${uniq.length} unikalnych domen</b>
+      <button id="copyBlind">Kopiuj listę</button></div>
+    <pre class="agglist">${uniq.map(esc).join('\n')}</pre>
+    <details><summary>Rozbicie per produkt (${pids.length})</summary>
     <table><thead><tr><th>Produkt</th><th>Sklepy bez ceny</th></tr></thead><tbody>
     ${pids.map(pid=>`<tr><td>${esc(pname(pid))}</td><td>${spots[pid].map(d=>`<code>${esc(d)}</code>`).join(' ')}</td></tr>`).join('')}
-    </tbody></table>
-    <div class="hint">Te sklepy odrzucają pobieranie, a Google (Shopping i indeks) nie dał ich ceny. Dodaj powyższe domeny do swojej wyszukiwarki Programmable Search (programmablesearchengine.google.com → Twoja wyszukiwarka → „Witryny do przeszukania") — przy kolejnym FIRE warstwa CSE pobierze cenę z indeksu Google, a sklep zniknie z tej listy. Lista jest nadpisywana po każdym runie i pokazuje wyłącznie aktualne braki.</div>
+    </tbody></table></details>
+    <div class="hint">Te sklepy odrzucają pobieranie, a Google (Shopping i indeks) nie dał ich ceny. Dodaj domeny z listy do swojej wyszukiwarki Programmable Search (programmablesearchengine.google.com → Twoja wyszukiwarka → „Witryny do przeszukania") — przy kolejnym FIRE warstwa CSE pobierze cenę z indeksu Google, a sklep zniknie z tej listy. Lista jest nadpisywana po każdym runie i pokazuje wyłącznie aktualne braki.</div>
   </div>`;
+}
+function bindBlindCopy(el){
+  const btn = el.querySelector('#copyBlind');
+  if(!btn) return;
+  btn.onclick = ()=>{
+    const txt = el.querySelector('.agglist').textContent;
+    navigator.clipboard.writeText(txt)
+      .then(()=>toast('Skopiowano '+txt.split('\n').length+' domen do schowka'))
+      .catch(()=>toast('Nie udało się skopiować — zaznacz listę ręcznie'));
+  };
 }
 function renderDiag(el){
   const lines = state.runlog||[];
   if(!lines.length){
     el.innerHTML=blindPanel()+'<div class="emptybig">Brak logu ostatniego przebiegu — uruchom FIRE albo „Odśwież dane"</div>';
+    bindBlindCopy(el);
     return;
   }
   const cls = lines.map(classifyLog);
@@ -582,6 +608,7 @@ function renderDiag(el){
   </div>`;
   el.querySelectorAll('.logchip').forEach(c=> c.onclick=()=>{
     state.logFilter = (state.logFilter===c.dataset.k)?'':c.dataset.k; render(); });
+  bindBlindCopy(el);
 }
 
 /* ================= KONFIGURACJA ================= */
