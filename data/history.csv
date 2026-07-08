@@ -10,11 +10,11 @@ date,product_id,product_name,price_pln,price_orig,currency,shop,url,offers_check
 2026-07-05,DT SWISS 350 12x148,DT SWISS 350 12x148,514.24,119.99,EUR,bike-components.de,https://www.bike-components.de/de/DT-Swiss/350-Classic-MTB-Boost-Disc-Center-Lock-HR-Nabe-p84203/,8
 2026-07-06,DT SWISS 350 12x148,DT SWISS 350 12x148,514.42,119.99,EUR,bike-components.de,https://www.bike-components.de/de/DT-Swiss/350-Classic-MTB-Boost-Disc-Center-Lock-HR-Nabe-p84203/,10
 2026-07-07,DT SWISS 350 12x148,DT SWISS 350 12x148,398.89,92.9,EUR,whizz-wheels.de,https://whizz-wheels.de/shop/DT-Swiss-350-Hybrid-Disc-IS-100-mm-32-Loch-MY2023-Vorderradnabe/H350ADQXR32SO0732S,15
-2026-07-08,DT SWISS 350 12x148,DT SWISS 350 12x148,400.21,92.9,EUR,whizz-wheels.de,https://whizz-wheels.de/shop/DT-Swiss-350-Hybrid-Disc-IS-100-mm-32-Loch-MY2023-Vorderradnabe/H350ADQXR32SO0732S,21
+2026-07-08,DT SWISS 350 12x148,DT SWISS 350 12x148,400.21,92.9,EUR,whizz-wheels.de,https://whizz-wheels.de/shop/DT-Swiss-350-Hybrid-Disc-IS-100-mm-32-Loch-MY2023-Vorderradnabe/H350ADQXR32SO0732S,23
 2026-07-05,DT Swiss Fatbike,DT Swiss Fatbike,308.53,71.99,EUR,rczbikeshop.com,https://www.rczbikeshop.com/default/dt-swiss-rear-hub-350-classic-fatbike-is-32h-12x197mm-exp-xd-7613052319606.html?___store=default&___from_store=de,5
 2026-07-06,DT Swiss Fatbike,DT Swiss Fatbike,308.64,71.99,EUR,rczbikeshop.com,https://www.rczbikeshop.com/default/dt-swiss-rear-hub-350-classic-fatbike-is-32h-12x197mm-exp-xd-7613052319606.html?___store=default&___from_store=de,5
 2026-07-07,DT Swiss Fatbike,DT Swiss Fatbike,309.11,71.99,EUR,rczbikeshop.com,https://www.rczbikeshop.com/default/dt-swiss-rear-hub-350-classic-fatbike-is-32h-12x197mm-exp-xd-7613052319606.html?___store=default&___from_store=de,5
-2026-07-08,DT Swiss Fatbike,DT Swiss Fatbike,310.13,71.99,EUR,rczbikeshop.com,https://www.rczbikeshop.com/default/dt-swiss-rear-hub-350-classic-fatbike-is-32h-12x197mm-exp-xd-7613052319606.html?___store=default&___from_store=de,4
+2026-07-08,DT Swiss Fatbike,DT Swiss Fatbike,310.13,71.99,EUR,rczbikeshop.com,https://www.rczbikeshop.com/default/dt-swiss-rear-hub-350-classic-fatbike-is-32h-12x197mm-exp-xd-7613052319606.html?___store=default&___from_store=de,5
 2026-07-05,FM2797,Salsa Cutthroat C Frameset,9932.11,2317.5,EUR,imfixies.it,https://imfixies.it/telai-gravel/telaio-gravel-salsa-cutthroat-c-29-carbonio.html,2
 2026-07-06,FM2797,Salsa Cutthroat C Frameset,9935.59,2317.5,EUR,imfixies.it,https://imfixies.it/telai-gravel/telaio-gravel-salsa-cutthroat-c-29-carbonio.html,2
 2026-07-07,FM2797,Salsa Cutthroat C Frameset,9950.88,2317.5,EUR,imfixies.it,https://imfixies.it/telai-gravel/telaio-gravel-salsa-cutthroat-c-29-carbonio.html,2
@@ -22,11 +22,11 @@ date,product_id,product_name,price_pln,price_orig,currency,shop,url,offers_check
 2026-07-05,GX-T-CHAIN,SRAM GX Eagle Transmission Łańcuch,128.53,29.99,EUR,alutech-cycles.com,https://alutech-cycles.com/SRAM-chain-GX-T-Type-118-12-speed-silver,20
 2026-07-06,GX-T-CHAIN,SRAM GX Eagle Transmission Łańcuch,128.57,29.99,EUR,alutech-cycles.com,https://alutech-cycles.com/SRAM-chain-GX-T-Type-118-12-speed-silver,20
 2026-07-07,GX-T-CHAIN,SRAM GX Eagle Transmission Łańcuch,128.77,29.99,EUR,alutech-cycles.com,https://alutech-cycles.com/SRAM-chain-GX-T-Type-118-12-speed-silver,24
-2026-07-08,GX-T-CHAIN,SRAM GX Eagle Transmission Łańcuch,159.35,36.99,EUR,bike-components.de,https://www.bike-components.de/de/SRAM/GX-Eagle-Transmission-12-fach-PowerLock-T-Type-Kette-p90547/,18
+2026-07-08,GX-T-CHAIN,SRAM GX Eagle Transmission Łańcuch,129.2,29.99,EUR,alutech-cycles.com,https://alutech-cycles.com/SRAM-chain-GX-T-Type-118-12-speed-silver,25
 2026-07-05,GX-T-KIT,SRAM GX Eagle Transmission Upgrade Kit,1281.42,299.0,EUR,bike-components.de,https://www.bike-components.de/en/SRAM/GX-Eagle-Transmission-Upgrade-Kit-p172400/,9
 2026-07-06,GX-T-KIT,SRAM GX Eagle Transmission Upgrade Kit,1281.87,299.0,EUR,bike-components.de,https://www.bike-components.de/en/SRAM/GX-Eagle-Transmission-Upgrade-Kit-p172400/,9
 2026-07-07,GX-T-KIT,SRAM GX Eagle Transmission Upgrade Kit,1283.85,299.0,EUR,bike-components.de,https://www.bike-components.de/en/SRAM/GX-Eagle-Transmission-Upgrade-Kit-p172400/,9
-2026-07-08,GX-T-KIT,SRAM GX Eagle Transmission Upgrade Kit,1288.09,299.0,EUR,bike-components.de,https://www.bike-components.de/en/SRAM/GX-Eagle-Transmission-Upgrade-Kit-p172400/,8
+2026-07-08,GX-T-KIT,SRAM GX Eagle Transmission Upgrade Kit,1288.09,299.0,EUR,bike-components.de,https://www.bike-components.de/en/SRAM/GX-Eagle-Transmission-Upgrade-Kit-p172400/,9
 2026-07-05,LAUF-CARBONARA,Lauf Carbonara fork,4452.98,1190.0,USD,laufcycles.com,https://www.laufcycles.com/product/lauf-carbonara,2
 2026-07-06,LAUF-CARBONARA,Lauf Carbonara fork,4467.26,1190.0,USD,laufcycles.com,https://www.laufcycles.com/product/lauf-carbonara,2
 2026-07-07,LAUF-CARBONARA,Lauf Carbonara fork,4471.19,1190.0,USD,laufcycles.com,https://www.laufcycles.com/product/lauf-carbonara,2
@@ -38,7 +38,7 @@ date,product_id,product_name,price_pln,price_orig,currency,shop,url,offers_check
 2026-07-07,Lake MX242,Lake MX242,1288.1,299.99,EUR,bike-discount.de,https://www.bike-discount.de/de/lake-mx242-x-wide-mtb-schuhe-20154493,1
 2026-07-08,Lake MX242,Lake MX242,1292.36,299.99,EUR,bike-discount.de,https://www.bike-discount.de/en/lake-mx242-x-wide-mtb-shoes-20154493,3
 2026-07-07,ROCK SHOX SID,ROCK SHOX SID SL Select+,1799.0,1799.0,PLN,centrumrowerowe.pl,https://www.centrumrowerowe.pl/amortyzator-rowerowy-rock-shox-sid-sl-select-pd49824/,1
-2026-07-08,ROCK SHOX SID,ROCK SHOX SID SL Select+,1799.0,1799.0,PLN,centrumrowerowe.pl,https://www.centrumrowerowe.pl/amortyzator-rowerowy-rock-shox-sid-sl-select-pd49824/,7
+2026-07-08,ROCK SHOX SID,ROCK SHOX SID SL Select+,1799.0,1799.0,PLN,centrumrowerowe.pl,https://www.centrumrowerowe.pl/amortyzator-rowerowy-rock-shox-sid-sl-select-pd49824/,8
 2026-07-05,Ritchey WCS Carbon ErgoMax,Ritchey WCS Carbon ErgoMax,1074.05,230.34,CHF,bikeshopzizers.ch,https://bikeshopzizers.ch/ritchey-road-lenker-wcs-ergomax-42cm-c-c-oben-ud-carbon-31-8mm/,1
 2026-07-06,Ritchey WCS Carbon ErgoMax,Ritchey WCS Carbon ErgoMax,1073.61,230.34,CHF,bikeshopzizers.ch,https://bikeshopzizers.ch/ritchey-road-lenker-wcs-ergomax-42cm-c-c-oben-ud-carbon-31-8mm/,1
 2026-07-07,Ritchey WCS Carbon ErgoMax,Ritchey WCS Carbon ErgoMax,1073.29,230.34,CHF,bikeshopzizers.ch,https://bikeshopzizers.ch/ritchey-road-lenker-wcs-ergomax-42cm-c-c-oben-ud-carbon-31-8mm/,1
