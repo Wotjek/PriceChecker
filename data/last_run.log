@@ -1,286 +1,6 @@
 Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 'DT SWISS 350 12x148', 'Ritchey WCS Carbon ErgoMax', 'Canyon S14 VCLS 2.0', 'GX-T-KIT', 'GX-T-CHAIN', 'Cane Creek 40 IS41/IS52', 'ROCK SHOX SID', 'Lake MX242']
-[DISCOVERY] Silniki: ['serpapi', 'serpapi_shopping', 'serper', 'tavily', 'google']
-[DISCOVERY][serpapi] Blad zapytania '"FM2797" salsa': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=%22FM2797%22+salsa&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania '"FM2797" salsa': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=%22FM2797%22+salsa&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania '"FM2797" salsa': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=%22FM2797%22+salsa&num=20&api_key=***&gl=it&google_domain=google.it
-[SHOPPING] Blad zapytania '"FM2797" salsa': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google_shopping&q=FM2797+salsa&api_key=***&gl=de
-[SHOPPING] Blad zapytania '"FM2797" salsa': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google_shopping&q=FM2797+salsa&api_key=***&gl=pl
-[SHOPPING] Blad zapytania '"FM2797" salsa': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google_shopping&q=FM2797+salsa&api_key=***&gl=it
-[DISCOVERY][serper] Blad zapytania '"FM2797" salsa': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"FM2797" salsa': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"FM2797" salsa': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"FM2797" salsa': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"FM2797" salsa': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"FM2797" salsa': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"FM2797" salsa': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][google] Blad zapytania '"FM2797" salsa': 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?key=***&cx=52ad8a0e95a68487b&q=%22FM2797%22+salsa&num=10&start=1
-[DISCOVERY][serpapi] Blad zapytania '"Salsa Cutthroat C" frameset': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=%22Salsa+Cutthroat+C%22+frameset&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania '"Salsa Cutthroat C" frameset': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=%22Salsa+Cutthroat+C%22+frameset&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania '"Salsa Cutthroat C" frameset': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=%22Salsa+Cutthroat+C%22+frameset&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serper] Blad zapytania '"Salsa Cutthroat C" frameset': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"Salsa Cutthroat C" frameset': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"Salsa Cutthroat C" frameset': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"Salsa Cutthroat C" frameset': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"Salsa Cutthroat C" frameset': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"Salsa Cutthroat C" frameset': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"Salsa Cutthroat C" frameset': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][google] Blad zapytania '"Salsa Cutthroat C" frameset': 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?key=***&cx=52ad8a0e95a68487b&q=%22Salsa+Cutthroat+C%22+frameset&num=10&start=1
-[DISCOVERY] FM2797: +24 nowych URL-i (razem 51)
-[DISCOVERY][serpapi] Blad zapytania '"Lauf Carbonara" fork': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=%22Lauf+Carbonara%22+fork&num=20&api_key=***
-[SHOPPING] Blad zapytania '"Lauf Carbonara" fork': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google_shopping&q=Lauf+Carbonara+fork&api_key=***
-[DISCOVERY][serper] Blad zapytania '"Lauf Carbonara" fork': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][google] Blad zapytania '"Lauf Carbonara" fork': 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?key=***&cx=52ad8a0e95a68487b&q=%22Lauf+Carbonara%22+fork&num=10&start=1
-[DISCOVERY] LAUF-CARBONARA: +6 nowych URL-i (razem 11)
-[DISCOVERY][serpapi] Blad zapytania '"8718568168347"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=%228718568168347%22&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania '"8718568168347"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=%228718568168347%22&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania '"8718568168347"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=%228718568168347%22&num=20&api_key=***&gl=it&google_domain=google.it
-[SHOPPING] Blad zapytania '"8718568168347"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google_shopping&q=8718568168347&api_key=***&gl=de
-[SHOPPING] Blad zapytania '"8718568168347"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google_shopping&q=8718568168347&api_key=***&gl=pl
-[SHOPPING] Blad zapytania '"8718568168347"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google_shopping&q=8718568168347&api_key=***&gl=it
-[DISCOVERY][serper] Blad zapytania '"8718568168347"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"8718568168347"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"8718568168347"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"8718568168347"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"8718568168347"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"8718568168347"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"8718568168347"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][google] Blad zapytania '"8718568168347"': 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?key=***&cx=52ad8a0e95a68487b&q=%228718568168347%22&num=10&start=1
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX190-X Wide': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=Lake+MX190-X+Wide&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX190-X Wide': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=Lake+MX190-X+Wide&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX190-X Wide': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=Lake+MX190-X+Wide&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serper] Blad zapytania 'Lake MX190-X Wide': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Lake MX190-X Wide': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Lake MX190-X Wide': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Lake MX190-X Wide': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Lake MX190-X Wide': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Lake MX190-X Wide': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Lake MX190-X Wide': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][google] Blad zapytania 'Lake MX190-X Wide': 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?key=***&cx=52ad8a0e95a68487b&q=Lake+MX190-X+Wide&num=10&start=1
-[DISCOVERY] Lake MX190-X Wide: +18 nowych URL-i (razem 52)
-[DISCOVERY][serpapi] Blad zapytania '"H350LDIXR32SA1859S"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=%22H350LDIXR32SA1859S%22&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania '"H350LDIXR32SA1859S"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=%22H350LDIXR32SA1859S%22&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania '"H350LDIXR32SA1859S"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=%22H350LDIXR32SA1859S%22&num=20&api_key=***&gl=it&google_domain=google.it
-[SHOPPING] Blad zapytania '"H350LDIXR32SA1859S"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google_shopping&q=H350LDIXR32SA1859S&api_key=***&gl=de
-[SHOPPING] Blad zapytania '"H350LDIXR32SA1859S"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google_shopping&q=H350LDIXR32SA1859S&api_key=***&gl=pl
-[SHOPPING] Blad zapytania '"H350LDIXR32SA1859S"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google_shopping&q=H350LDIXR32SA1859S&api_key=***&gl=it
-[DISCOVERY][serper] Blad zapytania '"H350LDIXR32SA1859S"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"H350LDIXR32SA1859S"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"H350LDIXR32SA1859S"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"H350LDIXR32SA1859S"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"H350LDIXR32SA1859S"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"H350LDIXR32SA1859S"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"H350LDIXR32SA1859S"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][google] Blad zapytania '"H350LDIXR32SA1859S"': 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?key=***&cx=52ad8a0e95a68487b&q=%22H350LDIXR32SA1859S%22&num=10&start=1
-[DISCOVERY][serpapi] Blad zapytania 'DT Swiss Fatbike 15x150': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=DT+Swiss+Fatbike+15x150&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'DT Swiss Fatbike 15x150': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=DT+Swiss+Fatbike+15x150&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'DT Swiss Fatbike 15x150': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=DT+Swiss+Fatbike+15x150&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serper] Blad zapytania 'DT Swiss Fatbike 15x150': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'DT Swiss Fatbike 15x150': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'DT Swiss Fatbike 15x150': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'DT Swiss Fatbike 15x150': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'DT Swiss Fatbike 15x150': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'DT Swiss Fatbike 15x150': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'DT Swiss Fatbike 15x150': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][google] Blad zapytania 'DT Swiss Fatbike 15x150': 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?key=***&cx=52ad8a0e95a68487b&q=DT+Swiss+Fatbike+15x150&num=10&start=1
-[DISCOVERY] DT Swiss Fatbike: +20 nowych URL-i (razem 68)
-[DISCOVERY][serpapi] Blad zapytania '"H350TCDBR32SA0465S"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=%22H350TCDBR32SA0465S%22&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania '"H350TCDBR32SA0465S"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=%22H350TCDBR32SA0465S%22&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania '"H350TCDBR32SA0465S"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=%22H350TCDBR32SA0465S%22&num=20&api_key=***&gl=it&google_domain=google.it
-[SHOPPING] Blad zapytania '"H350TCDBR32SA0465S"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google_shopping&q=H350TCDBR32SA0465S&api_key=***&gl=de
-[SHOPPING] Blad zapytania '"H350TCDBR32SA0465S"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google_shopping&q=H350TCDBR32SA0465S&api_key=***&gl=pl
-[SHOPPING] Blad zapytania '"H350TCDBR32SA0465S"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google_shopping&q=H350TCDBR32SA0465S&api_key=***&gl=it
-[DISCOVERY][serper] Blad zapytania '"H350TCDBR32SA0465S"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"H350TCDBR32SA0465S"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"H350TCDBR32SA0465S"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"H350TCDBR32SA0465S"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"H350TCDBR32SA0465S"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"H350TCDBR32SA0465S"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"H350TCDBR32SA0465S"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][google] Blad zapytania '"H350TCDBR32SA0465S"': 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?key=***&cx=52ad8a0e95a68487b&q=%22H350TCDBR32SA0465S%22&num=10&start=1
-[DISCOVERY][serpapi] Blad zapytania 'DT SWISS 350 12x148 32 Sram XD': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=DT+SWISS+350+12x148+32+Sram+XD&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'DT SWISS 350 12x148 32 Sram XD': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=DT+SWISS+350+12x148+32+Sram+XD&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'DT SWISS 350 12x148 32 Sram XD': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=DT+SWISS+350+12x148+32+Sram+XD&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serper] Blad zapytania 'DT SWISS 350 12x148 32 Sram XD': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'DT SWISS 350 12x148 32 Sram XD': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'DT SWISS 350 12x148 32 Sram XD': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'DT SWISS 350 12x148 32 Sram XD': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'DT SWISS 350 12x148 32 Sram XD': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'DT SWISS 350 12x148 32 Sram XD': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'DT SWISS 350 12x148 32 Sram XD': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][google] Blad zapytania 'DT SWISS 350 12x148 32 Sram XD': 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?key=***&cx=52ad8a0e95a68487b&q=DT+SWISS+350+12x148+32+Sram+XD&num=10&start=1
-[DISCOVERY] DT SWISS 350 12x148: +17 nowych URL-i (razem 73)
-[DISCOVERY][serpapi] Blad zapytania '"30355427076"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=%2230355427076%22&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania '"30355427076"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=%2230355427076%22&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania '"30355427076"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=%2230355427076%22&num=20&api_key=***&gl=it&google_domain=google.it
-[SHOPPING] Blad zapytania '"30355427076"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google_shopping&q=30355427076&api_key=***&gl=de
-[SHOPPING] Blad zapytania '"30355427076"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google_shopping&q=30355427076&api_key=***&gl=pl
-[SHOPPING] Blad zapytania '"30355427076"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google_shopping&q=30355427076&api_key=***&gl=it
-[DISCOVERY][serper] Blad zapytania '"30355427076"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"30355427076"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"30355427076"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"30355427076"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"30355427076"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"30355427076"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"30355427076"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][google] Blad zapytania '"30355427076"': 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?key=***&cx=52ad8a0e95a68487b&q=%2230355427076%22&num=10&start=1
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey WCS Carbon ErgoMax 42cm': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=Ritchey+WCS+Carbon+ErgoMax+42cm&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey WCS Carbon ErgoMax 42cm': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=Ritchey+WCS+Carbon+ErgoMax+42cm&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey WCS Carbon ErgoMax 42cm': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=Ritchey+WCS+Carbon+ErgoMax+42cm&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serper] Blad zapytania 'Ritchey WCS Carbon ErgoMax 42cm': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Ritchey WCS Carbon ErgoMax 42cm': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Ritchey WCS Carbon ErgoMax 42cm': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Ritchey WCS Carbon ErgoMax 42cm': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Ritchey WCS Carbon ErgoMax 42cm': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Ritchey WCS Carbon ErgoMax 42cm': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Ritchey WCS Carbon ErgoMax 42cm': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][google] Blad zapytania 'Ritchey WCS Carbon ErgoMax 42cm': 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?key=***&cx=52ad8a0e95a68487b&q=Ritchey+WCS+Carbon+ErgoMax+42cm&num=10&start=1
-[DISCOVERY] Ritchey WCS Carbon ErgoMax: +12 nowych URL-i (razem 57)
-[DISCOVERY][serpapi] Blad zapytania 'Canyon S14 VCLS 2.0 27.2mm CF Seatpost': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=Canyon+S14+VCLS+2.0+27.2mm+CF+Seatpost&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Canyon S14 VCLS 2.0 27.2mm CF Seatpost': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=Canyon+S14+VCLS+2.0+27.2mm+CF+Seatpost&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Canyon S14 VCLS 2.0 27.2mm CF Seatpost': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=Canyon+S14+VCLS+2.0+27.2mm+CF+Seatpost&num=20&api_key=***&gl=it&google_domain=google.it
-[SHOPPING] Blad zapytania 'Canyon S14 VCLS 2.0 27.2mm CF Seatpost': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google_shopping&q=Canyon+S14+VCLS+2.0+27.2mm+CF+Seatpost&api_key=***&gl=de
-[SHOPPING] Blad zapytania 'Canyon S14 VCLS 2.0 27.2mm CF Seatpost': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google_shopping&q=Canyon+S14+VCLS+2.0+27.2mm+CF+Seatpost&api_key=***&gl=pl
-[SHOPPING] Blad zapytania 'Canyon S14 VCLS 2.0 27.2mm CF Seatpost': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google_shopping&q=Canyon+S14+VCLS+2.0+27.2mm+CF+Seatpost&api_key=***&gl=it
-[DISCOVERY][serper] Blad zapytania 'Canyon S14 VCLS 2.0 27.2mm CF Seatpost': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Canyon S14 VCLS 2.0 27.2mm CF Seatpost': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Canyon S14 VCLS 2.0 27.2mm CF Seatpost': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Canyon S14 VCLS 2.0 27.2mm CF Seatpost': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Canyon S14 VCLS 2.0 27.2mm CF Seatpost': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Canyon S14 VCLS 2.0 27.2mm CF Seatpost': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Canyon S14 VCLS 2.0 27.2mm CF Seatpost': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][google] Blad zapytania 'Canyon S14 VCLS 2.0 27.2mm CF Seatpost': 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?key=***&cx=52ad8a0e95a68487b&q=Canyon+S14+VCLS+2.0+27.2mm+CF+Seatpost&num=10&start=1
-[DISCOVERY] Canyon S14 VCLS 2.0: +4 nowych URL-i (razem 20)
-[DISCOVERY][serpapi] Blad zapytania '"4251761517573"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=%224251761517573%22&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania '"4251761517573"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=%224251761517573%22&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania '"4251761517573"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=%224251761517573%22&num=20&api_key=***&gl=it&google_domain=google.it
-[SHOPPING] Blad zapytania '"4251761517573"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google_shopping&q=4251761517573&api_key=***&gl=de
-[SHOPPING] Blad zapytania '"4251761517573"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google_shopping&q=4251761517573&api_key=***&gl=pl
-[SHOPPING] Blad zapytania '"4251761517573"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google_shopping&q=4251761517573&api_key=***&gl=it
-[DISCOVERY][serper] Blad zapytania '"4251761517573"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"4251761517573"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"4251761517573"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"4251761517573"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"4251761517573"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"4251761517573"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"4251761517573"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][google] Blad zapytania '"4251761517573"': 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?key=***&cx=52ad8a0e95a68487b&q=%224251761517573%22&num=10&start=1
-[DISCOVERY][serpapi] Blad zapytania 'SRAM GX Eagle Transmission 1x12 Upgrade Kit': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=SRAM+GX+Eagle+Transmission+1x12+Upgrade+Kit&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'SRAM GX Eagle Transmission 1x12 Upgrade Kit': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=SRAM+GX+Eagle+Transmission+1x12+Upgrade+Kit&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'SRAM GX Eagle Transmission 1x12 Upgrade Kit': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=SRAM+GX+Eagle+Transmission+1x12+Upgrade+Kit&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serper] Blad zapytania 'SRAM GX Eagle Transmission 1x12 Upgrade Kit': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'SRAM GX Eagle Transmission 1x12 Upgrade Kit': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'SRAM GX Eagle Transmission 1x12 Upgrade Kit': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'SRAM GX Eagle Transmission 1x12 Upgrade Kit': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'SRAM GX Eagle Transmission 1x12 Upgrade Kit': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'SRAM GX Eagle Transmission 1x12 Upgrade Kit': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'SRAM GX Eagle Transmission 1x12 Upgrade Kit': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][google] Blad zapytania 'SRAM GX Eagle Transmission 1x12 Upgrade Kit': 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?key=***&cx=52ad8a0e95a68487b&q=SRAM+GX+Eagle+Transmission+1x12+Upgrade+Kit&num=10&start=1
-[DISCOVERY] GX-T-KIT: +20 nowych URL-i (razem 90)
-[DISCOVERY][serpapi] Blad zapytania '"00.2518.054.010"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=%2200.2518.054.010%22&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania '"00.2518.054.010"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=%2200.2518.054.010%22&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania '"00.2518.054.010"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=%2200.2518.054.010%22&num=20&api_key=***&gl=it&google_domain=google.it
-[SHOPPING] Blad zapytania '"00.2518.054.010"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google_shopping&q=00.2518.054.010&api_key=***&gl=de
-[SHOPPING] Blad zapytania '"00.2518.054.010"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google_shopping&q=00.2518.054.010&api_key=***&gl=pl
-[SHOPPING] Blad zapytania '"00.2518.054.010"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google_shopping&q=00.2518.054.010&api_key=***&gl=it
-[DISCOVERY][serper] Blad zapytania '"00.2518.054.010"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"00.2518.054.010"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"00.2518.054.010"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"00.2518.054.010"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"00.2518.054.010"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"00.2518.054.010"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"00.2518.054.010"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][google] Blad zapytania '"00.2518.054.010"': 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?key=***&cx=52ad8a0e95a68487b&q=%2200.2518.054.010%22&num=10&start=1
-[DISCOVERY][serpapi] Blad zapytania 'SRAM GX Eagle Transmission Flattop 12-speed Chain': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=SRAM+GX+Eagle+Transmission+Flattop+12-speed+Chain&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'SRAM GX Eagle Transmission Flattop 12-speed Chain': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=SRAM+GX+Eagle+Transmission+Flattop+12-speed+Chain&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'SRAM GX Eagle Transmission Flattop 12-speed Chain': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=SRAM+GX+Eagle+Transmission+Flattop+12-speed+Chain&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serper] Blad zapytania 'SRAM GX Eagle Transmission Flattop 12-speed Chain': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'SRAM GX Eagle Transmission Flattop 12-speed Chain': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'SRAM GX Eagle Transmission Flattop 12-speed Chain': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'SRAM GX Eagle Transmission Flattop 12-speed Chain': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'SRAM GX Eagle Transmission Flattop 12-speed Chain': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'SRAM GX Eagle Transmission Flattop 12-speed Chain': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'SRAM GX Eagle Transmission Flattop 12-speed Chain': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][google] Blad zapytania 'SRAM GX Eagle Transmission Flattop 12-speed Chain': 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?key=***&cx=52ad8a0e95a68487b&q=SRAM+GX+Eagle+Transmission+Flattop+12-speed+Chain&num=10&start=1
-[DISCOVERY] GX-T-CHAIN: +19 nowych URL-i (razem 92)
-[DISCOVERY][serpapi] Blad zapytania '"840226078472"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=%22840226078472%22&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania '"840226078472"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=%22840226078472%22&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania '"840226078472"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=%22840226078472%22&num=20&api_key=***&gl=it&google_domain=google.it
-[SHOPPING] Blad zapytania '"840226078472"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google_shopping&q=840226078472&api_key=***&gl=de
-[SHOPPING] Blad zapytania '"840226078472"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google_shopping&q=840226078472&api_key=***&gl=pl
-[SHOPPING] Blad zapytania '"840226078472"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google_shopping&q=840226078472&api_key=***&gl=it
-[DISCOVERY][serper] Blad zapytania '"840226078472"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"840226078472"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"840226078472"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"840226078472"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"840226078472"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"840226078472"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"840226078472"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][google] Blad zapytania '"840226078472"': 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?key=***&cx=52ad8a0e95a68487b&q=%22840226078472%22&num=10&start=1
-[DISCOVERY][serpapi] Blad zapytania 'Cane Creek stery Forty tapered IS41|IS52/40': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=Cane+Creek+stery+Forty+tapered+IS41%7CIS52%2F40&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Cane Creek stery Forty tapered IS41|IS52/40': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=Cane+Creek+stery+Forty+tapered+IS41%7CIS52%2F40&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Cane Creek stery Forty tapered IS41|IS52/40': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=Cane+Creek+stery+Forty+tapered+IS41%7CIS52%2F40&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serper] Blad zapytania 'Cane Creek stery Forty tapered IS41|IS52/40': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Cane Creek stery Forty tapered IS41|IS52/40': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Cane Creek stery Forty tapered IS41|IS52/40': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Cane Creek stery Forty tapered IS41|IS52/40': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Cane Creek stery Forty tapered IS41|IS52/40': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Cane Creek stery Forty tapered IS41|IS52/40': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Cane Creek stery Forty tapered IS41|IS52/40': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][google] Blad zapytania 'Cane Creek stery Forty tapered IS41|IS52/40': 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?key=***&cx=52ad8a0e95a68487b&q=Cane+Creek+stery+Forty+tapered+IS41%7CIS52%2F40&num=10&start=1
-[DISCOVERY] Cane Creek 40 IS41/IS52: +23 nowych URL-i (razem 66)
-[DISCOVERY][serpapi] Blad zapytania '"710845917929"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=%22710845917929%22&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania '"710845917929"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=%22710845917929%22&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania '"710845917929"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=%22710845917929%22&num=20&api_key=***&gl=it&google_domain=google.it
-[SHOPPING] Blad zapytania '"710845917929"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google_shopping&q=710845917929&api_key=***&gl=de
-[SHOPPING] Blad zapytania '"710845917929"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google_shopping&q=710845917929&api_key=***&gl=pl
-[SHOPPING] Blad zapytania '"710845917929"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google_shopping&q=710845917929&api_key=***&gl=it
-[DISCOVERY][serper] Blad zapytania '"710845917929"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"710845917929"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"710845917929"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"710845917929"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"710845917929"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"710845917929"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"710845917929"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][google] Blad zapytania '"710845917929"': 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?key=***&cx=52ad8a0e95a68487b&q=%22710845917929%22&num=10&start=1
-[DISCOVERY][serpapi] Blad zapytania 'Amortyzator rowerowy ROCK SHOX SID SL Select E1 3P 100mm': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=Amortyzator+rowerowy+ROCK+SHOX+SID+SL+Select+E1+3P+100mm&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Amortyzator rowerowy ROCK SHOX SID SL Select E1 3P 100mm': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=Amortyzator+rowerowy+ROCK+SHOX+SID+SL+Select+E1+3P+100mm&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Amortyzator rowerowy ROCK SHOX SID SL Select E1 3P 100mm': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=Amortyzator+rowerowy+ROCK+SHOX+SID+SL+Select+E1+3P+100mm&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serper] Blad zapytania 'Amortyzator rowerowy ROCK SHOX SID SL Select E1 3P 100mm': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Amortyzator rowerowy ROCK SHOX SID SL Select E1 3P 100mm': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Amortyzator rowerowy ROCK SHOX SID SL Select E1 3P 100mm': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Amortyzator rowerowy ROCK SHOX SID SL Select E1 3P 100mm': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Amortyzator rowerowy ROCK SHOX SID SL Select E1 3P 100mm': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Amortyzator rowerowy ROCK SHOX SID SL Select E1 3P 100mm': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Amortyzator rowerowy ROCK SHOX SID SL Select E1 3P 100mm': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][google] Blad zapytania 'Amortyzator rowerowy ROCK SHOX SID SL Select E1 3P 100mm': 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?key=***&cx=52ad8a0e95a68487b&q=Amortyzator+rowerowy+ROCK+SHOX+SID+SL+Select+E1+3P+100mm&num=10&start=1
-[DISCOVERY] ROCK SHOX SID: +32 nowych URL-i (razem 33)
-[DISCOVERY][serpapi] Blad zapytania '"8718568144778"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=%228718568144778%22&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania '"8718568144778"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=%228718568144778%22&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania '"8718568144778"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=%228718568144778%22&num=20&api_key=***&gl=it&google_domain=google.it
-[SHOPPING] Blad zapytania '"8718568144778"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google_shopping&q=8718568144778&api_key=***&gl=de
-[SHOPPING] Blad zapytania '"8718568144778"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google_shopping&q=8718568144778&api_key=***&gl=pl
-[SHOPPING] Blad zapytania '"8718568144778"': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google_shopping&q=8718568144778&api_key=***&gl=it
-[DISCOVERY][serper] Blad zapytania '"8718568144778"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"8718568144778"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"8718568144778"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"8718568144778"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"8718568144778"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"8718568144778"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"8718568144778"': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][google] Blad zapytania '"8718568144778"': 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?key=***&cx=52ad8a0e95a68487b&q=%228718568144778%22&num=10&start=1
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX242 MTB x-wide 45': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=Lake+MX242+MTB+x-wide+45&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX242 MTB x-wide 45': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=Lake+MX242+MTB+x-wide+45&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX242 MTB x-wide 45': 401 Client Error: Unauthorized for url: https://serpapi.com/search.json?engine=google&q=Lake+MX242+MTB+x-wide+45&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serper] Blad zapytania 'Lake MX242 MTB x-wide 45': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Lake MX242 MTB x-wide 45': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Lake MX242 MTB x-wide 45': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Lake MX242 MTB x-wide 45': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Lake MX242 MTB x-wide 45': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Lake MX242 MTB x-wide 45': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania 'Lake MX242 MTB x-wide 45': 403 Client Error: Forbidden for url: https://google.serper.dev/search
-[DISCOVERY][google] Blad zapytania 'Lake MX242 MTB x-wide 45': 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?key=***&cx=52ad8a0e95a68487b&q=Lake+MX242+MTB+x-wide+45&num=10&start=1
-[DISCOVERY] Lake MX242: +20 nowych URL-i (razem 20)
-[SERPAPI] Limit: pozostalo 0 z 250 (zuzyte w tym miesiacu: 250)
+[DISCOVERY] Tryb weekly - dzis pomijam (silniki: ['serpapi', 'serpapi_shopping', 'serper', 'tavily', 'google']), monitoring dziala normalnie
+[SERPAPI] Nie udalo sie pobrac stanu limitu: 401 Client Error: Unauthorized for url: https://serpapi.com/account?api_key=***
 [FX] Kursy NBP pobrane (33 walut)
 [MONITOR] FM2797: sprawdzam 53 URL-i (wariant: 56)
   - performancebike.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
@@ -316,11 +36,8 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - fox5atlanta.com: brak danych o cenie (typy na stronie: imageobject, newsmediaorganization, videoobject, webpage, website)
   - fusioncraftiness.com: brak danych o cenie (typy na stronie: article, breadcrumblist, organization, recipe, website)
   - samsclub.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - yelp.com: HTTP 403 (przegladarka tez nie przeszla)
   - store.505southwestern.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   - salsalovesalsa.com: brak danych o cenie (typy na stronie: website)
-  - instagram.com: HTTP 429 (przegladarka tez nie przeszla)
-  - memorialtacostx.com: HTTP 202
   - unclejalapeno.com: brak danych o cenie (typy na stronie: breadcrumblist, organization, webpage, website)
   - grubhub.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - cooking.nytimes.com: brak danych o cenie (typy na stronie: newsmediaorganization, organization, recipe, webpage)
@@ -350,12 +67,9 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - starbike.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   + bikeman.com: 1190.0 USD = 4492.85 PLN
   - lunacycle.com: niedostepny (outofstock)
-  - expeditionportal.com: HTTP 403 (przegladarka tez nie przeszla)
   ~ traversbikes.com: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
-  - mtbr.com: HTTP 202
   - traversbikes.com: brak danych o cenie (typy na stronie: brak JSON-LD)
 [MONITOR] Lake MX190-X Wide: sprawdzam 52 URL-i (wariant: 45)
-  - allegro.pl: HTTP 403 (przegladarka tez nie przeszla)
   - bike24.at: HTTP 403 (przegladarka tez nie przeszla)
   - bike24.com: HTTP 403 (przegladarka tez nie przeszla)
   - bike24.fi: HTTP 403 (przegladarka tez nie przeszla)
@@ -370,8 +84,8 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - hoopsvelo.com: brak danych o cenie (typy na stronie: organization, store)
   ~ biwakschachtel-tuebingen.de: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
   - bike-discount.de: niedostepny (outofstock)
-  - allegro.pl: pomijam (blokada potwierdzona w tym runie)
-  - deporvillage.pl: HTTP 403 (przegladarka tez nie przeszla)
+  + deporvillage.pl: blokada ominieta headless Chromium
+  - deporvillage.pl: niedostepny (outofstock)
   - bike24.it: HTTP 403 (przegladarka tez nie przeszla)
   - bike-discount.de: niedostepny (outofstock)
   - backcountry.com: HTTP 202
@@ -390,16 +104,13 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - bikeshoes.com: waluta USD poza dozwolonym regionem - pomijam
   - homary.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - shopcgx.com: niedostepny (outofstock)
-  - upcindex.com: HTTP 403 (przegladarka tez nie przeszla)
   - brandclub.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - dkhardware.com: HTTP 200 (przegladarka tez nie przeszla)
   - mscdirect.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - doitbest.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - acmemarkets.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - platt.com: brak danych o cenie (typy na stronie: breadcrumblist, product)
   - hardwareworld.com: waluta USD poza dozwolonym regionem - pomijam
   - walmart.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - bestbuy.com: blad pobierania (ReadTimeout)
   - dialedcyclinglab.com: waluta USD poza dozwolonym regionem - pomijam
   - racycles.com: waluta USD poza dozwolonym regionem - pomijam
   - bikeshoes.com: waluta USD poza dozwolonym regionem - pomijam
@@ -430,7 +141,6 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - fitwheels.eu: 2470.0 PLN poza widelkami [-..1500.0] - pomijam
   ~ bikecenter.pl: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
   - raaad.com: niedostepny (outofstock)
-  - allegro.pl: pomijam (blokada potwierdzona w tym runie)
   + bike-discount.de: 71.99 EUR = 310.13 PLN [EAN OK]
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
@@ -496,7 +206,8 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - tnc-hamburg.com: niedostepny (backorder)
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
   + cingolanibikeshop.com: 204.9 EUR = 882.71 PLN [EAN niepotwierdzony]
-  - deporvillage.it: HTTP 403 (przegladarka tez nie przeszla)
+  + deporvillage.it: blokada ominieta headless Chromium
+  + deporvillage.it: 212.95 EUR = 917.39 PLN [EAN niepotwierdzony]
   + mtbiker.it: 249.0 EUR = 1072.69 PLN [EAN niepotwierdzony]
   - bikedirection.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - bicidastrada.it: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, newsarticle, organization, person, sportsclub, webpage, website)
@@ -511,7 +222,6 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - dt-consulting.com.pl: brak danych o cenie (typy na stronie: breadcrumblist, organization, webpage, website)
   - obroza-elektryczna.pl: brak danych o cenie (typy na stronie: organization, website)
   - agrodane.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - rejestr.io: HTTP 403 (przegladarka tez nie przeszla)
   + whizz-wheels.de: 239.9 EUR = 1033.49 PLN [EAN niepotwierdzony]
   + whizz-wheels.de: 239.9 EUR = 1033.49 PLN [EAN niepotwierdzony]
   + whizz-wheels.de: 239.9 EUR = 1033.49 PLN [EAN niepotwierdzony]
@@ -522,8 +232,6 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - mtbiker.pl: brak danych o cenie (typy na stronie: breadcrumblist, collectionpage)
   - bike24.pl: pomijam (blokada potwierdzona w tym runie)
   + bikestacja.pl: 922.99 PLN = 922.99 PLN [EAN niepotwierdzony]
-  - allegro.pl: pomijam (blokada potwierdzona w tym runie)
-  - allegro.pl: pomijam (blokada potwierdzona w tym runie)
   + velondo.pl: blokada ominieta headless Chromium
   + velondo.pl: 871.55 PLN = 871.55 PLN [EAN niepotwierdzony]
   + bike-discount.de: 159.99 EUR = 689.24 PLN [EAN niepotwierdzony]
@@ -565,7 +273,7 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - fahrrad-magdeburg.de: brak wymaganych slow (carbon) - pomijam
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
   - specializedrocklin.com: brak wymaganych slow (carbon) - pomijam
-  - cyklomania.pl: blad pobierania (ConnectTimeout)
+  ~ cyklomania.pl: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
   - rosebikes.pl: brak wymaganych slow (carbon) - pomijam
   - bikeparts.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
@@ -576,26 +284,29 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - bike-components.de: brak wymaganych slow (carbon) - pomijam
   - ritcheylogic.com: brak wymaganych slow (carbon) - pomijam
   - bike24.pl: pomijam (blokada potwierdzona w tym runie)
-  - deporvillage.pl: pomijam (blokada potwierdzona w tym runie)
+  + deporvillage.pl: blokada ominieta headless Chromium
+  - deporvillage.pl: brak wymaganych slow (carbon) - pomijam
   - formicki-bike.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - velo-store.pl: brak danych o cenie (typy na stronie: product)
-  - centrumrowerowe.pl: blad pobierania (ConnectTimeout)
-  ~ topbici.es: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
+  - centrumrowerowe.pl: brak wymaganych slow (carbon) - pomijam
+  - topbici.es: brak danych o cenie (typy na stronie: article, breadcrumblist, organization, person, webpage, website)
   - allegrolokalnie.pl: brak danych o cenie (typy na stronie: itemlist, website)
   - bike-store-treviso.it: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - eventbike.it: blad pobierania (ConnectionError)
+  - eventbike.it: blad pobierania (SSLError)
   - ridewill.it: brak danych o cenie (typy na stronie: brak JSON-LD)
   - troianocicli.it: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - deporvillage.it: pomijam (blokada potwierdzona w tym runie)
+  + deporvillage.it: blokada ominieta headless Chromium
+  - deporvillage.it: brak wymaganych slow (carbon) - pomijam
   - bike24.pl: pomijam (blokada potwierdzona w tym runie)
   - sportisgood.pl: brak wymaganych slow (carbon) - pomijam
-  - cyklomania.pl: blad pobierania (ConnectTimeout)
-  - deporvillage.pl: pomijam (blokada potwierdzona w tym runie)
+  - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
+  + deporvillage.pl: blokada ominieta headless Chromium
+  - deporvillage.pl: brak wymaganych slow (carbon) - pomijam
   - advntr.cc: brak wymaganych slow (carbon) - pomijam
   - gravelbikeshop.com: waluta USD poza dozwolonym regionem - pomijam
   - formicki-bike.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - deporvillage.it: pomijam (blokada potwierdzona w tym runie)
-  - eventbike.it: blad pobierania (ConnectionError)
+  - deporvillage.it: blokada botow (przegladarka tez nie przeszla)
+  - eventbike.it: blad pobierania (SSLError)
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
   - universalcycles.com: brak wymaganych slow (carbon) - pomijam
   - amgcyclery.com: niedostepny (outofstock)
@@ -614,9 +325,9 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   + all4bikes.be: blokada ominieta headless Chromium
   - all4bikes.be: brak danych o cenie (typy na stronie: breadcrumblist)
   - all4bikes.be: blokada botow (przegladarka tez nie przeszla)
-  - topbici.es: brak danych o cenie (typy na stronie: breadcrumblist, itempage, organization, person, website)
-  - topbici.es: brak danych o cenie (typy na stronie: breadcrumblist, itempage, organization, person, website)
-  - topbici.es: brak danych o cenie (typy na stronie: breadcrumblist, itempage, organization, person, website)
+  - cyklomania.pl: HTTP 404
+  - cyklomania.pl: HTTP 404
+  - cyklomania.pl: HTTP 404
 [MONITOR] Canyon S14 VCLS 2.0: sprawdzam 20 URL-i
   + canyon.com: 199.99 EUR = 861.56 PLN
   + canyon.com: 199.99 EUR = 861.56 PLN
@@ -635,7 +346,6 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - canyon.com: waluta USD poza dozwolonym regionem - pomijam
   - canyon.com: waluta USD poza dozwolonym regionem - pomijam
   - velonova.ee: HTTP 403 (przegladarka tez nie przeszla)
-  - fillaritori.com: HTTP 403 (przegladarka tez nie przeszla)
   ~ handsonbike.blogspot.com: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
   - canyon.com: brak wymaganych slow (s14) - pomijam
   - canyon.com: brak wymaganych slow (s14) - pomijam
@@ -657,13 +367,13 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - bike24.pl: pomijam (blokada potwierdzona w tym runie)
   - ampbike.pl: niedostepny (outofstock)
   + bikestacja.pl: 3771.0 PLN = 3771.0 PLN [EAN niepotwierdzony]
-  ~ ridewill.it: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
+  - ridewill.it: brak danych o cenie (typy na stronie: brak JSON-LD)
   + ciclobottegabikeshop.com: 499.9 EUR = 2153.57 PLN [EAN niepotwierdzony]
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
   + cavalierebici.it: 402.04 EUR = 1731.99 PLN [EAN niepotwierdzony]
   - bike-components.de: brak wymaganych slow (kit) - pomijam
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
-  - bikeimport.ch: blad pobierania (ReadTimeout)
+  - bikeimport.ch: brak wymaganych slow (kit) - pomijam
   - bike-discount.de: brak wymaganych slow (kit) - pomijam
   - lvr-cycles.com: brak wymaganych slow (kit) - pomijam
   - veloruf.de: brak wymaganych slow (kit) - pomijam
@@ -672,7 +382,7 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - wysepka.pl: brak wymaganych slow (kit) - pomijam
   - lvr-cycles.com: brak wymaganych slow (kit) - pomijam
   - alpebike.pl: brak wymaganych slow (kit) - pomijam
-  - cyklomania.pl: blad pobierania (ConnectTimeout)
+  ~ cyklomania.pl: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
   - bike-components.de: brak wymaganych slow (kit) - pomijam
   ~ zumbistore.pl: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
   - universalcycles.com: brak wymaganych slow (kit) - pomijam
@@ -692,7 +402,8 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - trekbikes.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   - velofactory.ch: HTTP 403 (przegladarka tez nie przeszla)
-  - hibike.com: HTTP 403 (przegladarka tez nie przeszla)
+  + hibike.com: blokada ominieta headless Chromium
+  - hibike.com: brak wymaganych slow (kit) - pomijam
   - thundermountainbikes.com: brak wymaganych slow (kit) - pomijam
   - velonova.lt: HTTP 403 (przegladarka tez nie przeszla)
   - bikestacja.pl: brak wymaganych slow (kit) - pomijam
@@ -703,10 +414,8 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - sprint-rowery.pl: HTTP 403 (przegladarka tez nie przeszla)
   - leedistributors.com: brak wymaganych slow (kit) - pomijam
   - hardwareworld.com: waluta USD poza dozwolonym regionem - pomijam
-  - staples.com: blad pobierania (ReadTimeout)
   - walmart.com: brak danych o cenie (typy na stronie: webpage)
   - officedepot.com: brak wymaganych slow (kit) - pomijam
-  - dkhardware.com: pomijam (blokada potwierdzona w tym runie)
   - esbenshades.com: brak wymaganych slow (kit) - pomijam
   - andersonlumbercompany.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - familyhardware.com: brak wymaganych slow (kit) - pomijam
@@ -714,17 +423,15 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   + penntoolco.com: blokada ominieta headless Chromium
   - penntoolco.com: brak wymaganych slow (kit) - pomijam
   - doitbest.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - dkhardware.com: pomijam (blokada potwierdzona w tym runie)
   - shelllumber.com: brak wymaganych slow (kit) - pomijam
   - biketiresdirect.com: waluta USD poza dozwolonym regionem - pomijam
   - mikesbikes.com: waluta USD poza dozwolonym regionem - pomijam
-  - mtbr.com: HTTP 202
   - competitivecyclist.com: HTTP 202
   - thundermountainbikes.com: waluta USD poza dozwolonym regionem - pomijam
   - twohoosierscyclery.com: waluta USD poza dozwolonym regionem - pomijam
   - 2wheels.pl: niedostepny (outofstock)
   - 2wheels.pl: niedostepny (outofstock)
-  - ridewill.it: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - cyklomania.pl: HTTP 404
   - zumbistore.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - zumbistore.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - zumbistore.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -757,11 +464,11 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   + wysepka.pl: 174.99 PLN = 174.99 PLN [EAN OK]
   - lvr-cycles.com: waluta USD poza dozwolonym regionem - pomijam
   + alpebike.pl: 259.0 PLN = 259.0 PLN [EAN OK]
-  - cyklomania.pl: blad pobierania (ConnectTimeout)
+  ~ cyklomania.pl: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
   + bike-components.de: 36.99 EUR = 159.35 PLN [EAN OK]
   ~ zumbistore.pl: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
   - universalcycles.com: waluta USD poza dozwolonym regionem - pomijam
-  ~ ibike.pl: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
+  - ibike.pl: brak danych o cenie (typy na stronie: organization, website)
   - lordgunbicycles.com: pomijam (blokada potwierdzona w tym runie)
   - ridewill.it: brak danych o cenie (typy na stronie: brak JSON-LD)
   - cycleclub.eu: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -776,10 +483,10 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - trekbikes.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   - velofactory.ch: pomijam (blokada potwierdzona w tym runie)
-  - hibike.com: pomijam (blokada potwierdzona w tym runie)
+  - hibike.com: blokada botow (przegladarka tez nie przeszla)
   - thundermountainbikes.com: waluta USD poza dozwolonym regionem - pomijam
   - velonova.lt: pomijam (blokada potwierdzona w tym runie)
-  + bikestacja.pl: 39.57 EUR = 170.47 PLN [EAN OK]
+  + bikestacja.pl: 39.44 EUR = 169.91 PLN [EAN OK]
   + capobianchi.eu: 44.9 EUR = 193.43 PLN [EAN OK]
   + diliecicli.it: 51.9 EUR = 223.59 PLN [EAN OK]
   - thelostco.com: brak danych o cenie (typy na stronie: breadcrumblist, organization)
@@ -810,14 +517,13 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - pinemountainsports.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - 2wheels.pl: brak wymaganych slow (chain) - pomijam
   - 2wheels.pl: brak wymaganych slow (chain) - pomijam
+  - cyklomania.pl: HTTP 404
   - zumbistore.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - zumbistore.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - zumbistore.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - ibike.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
 [MONITOR] Cane Creek 40 IS41/IS52: sprawdzam 66 URL-i
   - rat-bikes.eu: HTTP 403 (przegladarka tez nie przeszla)
   - bikecomponents-us.com: waluta USD poza dozwolonym regionem - pomijam
-  - allegro.pl: pomijam (blokada potwierdzona w tym runie)
   - oxygenbikes.com: waluta CAD poza dozwolonym regionem - pomijam
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
   + vpg.no: 799.0 NOK = 308.73 PLN [EAN OK]
@@ -832,20 +538,18 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   + bike-discount.de: 58.99 EUR = 254.13 PLN [EAN niepotwierdzony]
   + bike-components.de: 124.99 EUR = 538.46 PLN [EAN niepotwierdzony]
-  - cyklomania.pl: blad pobierania (ConnectTimeout)
-  - allegro.pl: pomijam (blokada potwierdzona w tym runie)
+  ~ cyklomania.pl: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
   ~ formicki-bike.pl: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
-  - centrumrowerowe.pl: blad pobierania (ConnectTimeout)
+  + centrumrowerowe.pl: 239.99 PLN = 239.99 PLN [EAN niepotwierdzony]
   - vincere.pl: niedostepny (outofstock)
-  - allegro.pl: pomijam (blokada potwierdzona w tym runie)
-  ~ rowerowy.com: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
+  ~ rowerowy.com: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
   - bike24.pl: pomijam (blokada potwierdzona w tym runie)
-  ~ bikecenter.pl: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
+  - bikecenter.pl: brak danych o cenie (typy na stronie: breadcrumblist)
   - lordgunbicycles.com: pomijam (blokada potwierdzona w tym runie)
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
   + lineabici.com: 63.68 EUR = 274.33 PLN [EAN niepotwierdzony]
   + alltricks.it: 69.0 EUR = 297.25 PLN [EAN niepotwierdzony]
-  - cyklomania.pl: blad pobierania (ConnectTimeout)
+  - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   + maciag-offroad.it: 63.95 EUR = 275.5 PLN [EAN niepotwierdzony]
   + bike-discount.de: 58.99 EUR = 254.13 PLN [EAN niepotwierdzony]
   - rat-bikes.com: HTTP 403 (przegladarka tez nie przeszla)
@@ -858,13 +562,11 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - gosupps.com: waluta USD poza dozwolonym regionem - pomijam
   + dstewart.com: blokada ominieta headless Chromium
   - dstewart.com: waluta USD poza dozwolonym regionem - pomijam
-  - americanpharmawholesale.com: HTTP 403 (przegladarka tez nie przeszla)
   - officedepot.com: waluta USD poza dozwolonym regionem - pomijam
-  - upcindex.com: pomijam (blokada potwierdzona w tym runie)
   - martinandsnyder.com: waluta USD poza dozwolonym regionem - pomijam
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
   - ontimesupplies.com: waluta USD poza dozwolonym regionem - pomijam
-  - newegg.com: brak danych o cenie (typy na stronie: breadcrumblist, imageobject)
+  - newegg.com: waluta USD poza dozwolonym regionem - pomijam
   + vpg.no: 799.0 NOK = 308.73 PLN [EAN OK]
   - perkiomenbicycles.com: waluta USD poza dozwolonym regionem - pomijam
   - universalcycles.com: waluta USD poza dozwolonym regionem - pomijam
@@ -879,20 +581,19 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - canecreek.com: brak danych o cenie (typy na stronie: breadcrumblist, webpage)
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
   - biker-boarder.de: brak danych o cenie (typy na stronie: bikestore, sportinggoodsstore, website)
+  - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - formicki-bike.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - rowerowy.com: HTTP 502
-  - rowerowy.com: HTTP 502
-  - rowerowy.com: HTTP 502
-  - bikecenter.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - rowerowy.com: brak danych o cenie (typy na stronie: brak JSON-LD)
 [MONITOR] ROCK SHOX SID: sprawdzam 37 URL-i
   - bike-components.de: brak wymaganych slow (sid) - pomijam
-  - cyklomania.pl: blad pobierania (ConnectTimeout)
+  ~ cyklomania.pl: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
   + gtstore.cz: 841.6 EUR = 3625.61 PLN [EAN OK]
   - bikable.com: brak wymaganych slow (sid) - pomijam
   - bouldernordic.com: waluta USD poza dozwolonym regionem - pomijam
   ~ hearnscycling.com: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
   - stealthtahoe.com: waluta USD poza dozwolonym regionem - pomijam
-  - allegro.hu: blad pobierania (ReadTimeout)
   + nanobike.de: 599.0 EUR = 2580.49 PLN [EAN OK]
   - trekbikesflorida.com: waluta USD poza dozwolonym regionem - pomijam
   - starbike.com: HTTP 404
@@ -901,42 +602,38 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
   - spokex.com: waluta USD poza dozwolonym regionem - pomijam
   - ccache.cc: niedostepny (outofstock)
-  - bestbuy.com: blad pobierania (ReadTimeout)
   - walmart.com: brak danych o cenie (typy na stronie: webpage)
   + rotoruabike.com: 632.76 EUR = 2725.93 PLN [EAN OK]
   - performancebike.com: niedostepny (outofstock)
   + mtb-xc.pl: blokada ominieta headless Chromium
-  ~ mtb-xc.pl: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
-  ~ walmart.com: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
+  ~ mtb-xc.pl: brak ceny, ale znalazlem 2 link(i) produktowe - sprawdzam
+  - walmart.com: brak danych o cenie (typy na stronie: webpage)
   + mtbiker.pl: blokada ominieta headless Chromium
   + mtbiker.pl: 5699.0 PLN = 5699.0 PLN [EAN niepotwierdzony]
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
-  - centrumrowerowe.pl: blad pobierania (ConnectTimeout)
-  ~ axit.cz: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
+  + centrumrowerowe.pl: 2499.0 PLN = 2499.0 PLN [EAN niepotwierdzony]
+  - axit.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
   + flowmountainbike.com: blokada ominieta headless Chromium
   - flowmountainbike.com: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, webpage, website)
-  - probikesupply.com: HTTP 404
+  - probikesupply.com: waluta USD poza dozwolonym regionem - pomijam
   - bici.cc: waluta CAD poza dozwolonym regionem - pomijam
   + gambacicli.com: 789.0 EUR = 3399.01 PLN [EAN niepotwierdzony]
-  - allegro.pl: pomijam (blokada potwierdzona w tym runie)
   - portal.bikeworld.pl: brak danych o cenie (typy na stronie: article)
   - forumrowerowe.org: brak danych o cenie (typy na stronie: breadcrumblist, discussionforumposting, organization, website)
-  - centrumrowerowe.pl: blad pobierania (ConnectTimeout)
+  + centrumrowerowe.pl: 1799.0 PLN = 1799.0 PLN [EAN niepotwierdzony]
   - bike-discount.de: HTTP 404
   - bike-discount.de: HTTP 404
   - gambacicli.com: niedostepny (outofstock)
+  - cyklomania.pl: HTTP 404
+  - cyklomania.pl: HTTP 404
+  - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - hearnscycling.com: brak danych o cenie (typy na stronie: store, website)
+  + mtb-xc.pl: blokada ominieta headless Chromium
+  - mtb-xc.pl: brak danych o cenie (typy na stronie: breadcrumblist, collectionpage, organization, website)
   - mtb-xc.pl: blokada botow (przegladarka tez nie przeszla)
-  - mtb-xc.pl: pomijam (blokada potwierdzona w tym runie)
-  - mtb-xc.pl: pomijam (blokada potwierdzona w tym runie)
-  - walmart.com: brak danych o cenie (typy na stronie: collectionpage)
-  - axit.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
 [MONITOR] Lake MX242: sprawdzam 22 URL-i (wariant: 45)
-  - upcindex.com: pomijam (blokada potwierdzona w tym runie)
-  - bbqguys.com: HTTP 403 (przegladarka tez nie przeszla)
   - opticsplanet.com: brak wymaganych slow (mx242) - pomijam
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
-  - americanpharmawholesale.com: pomijam (blokada potwierdzona w tym runie)
   - hardwareworld.com: brak wymaganych slow (mx242) - pomijam
   - doordash.com: brak wymaganych slow (mx242) - pomijam
   - walmart.com: brak danych o cenie (typy na stronie: webpage)
@@ -945,10 +642,11 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - bikeshoes.com: waluta USD poza dozwolonym regionem - pomijam
   - racycles.com: waluta USD poza dozwolonym regionem - pomijam
   - alltricks.com: brak wymaganych slow (mx242) - pomijam
-  - deporvillage.net: HTTP 403 (przegladarka tez nie przeszla)
+  + deporvillage.net: blokada ominieta headless Chromium
+  - deporvillage.net: niedostepny (outofstock)
   - dialedcyclinglab.com: waluta USD poza dozwolonym regionem - pomijam
   - oymbike.com: brak wymaganych slow (mx242) - pomijam
-  + bikeshoe4u.com: 346.0 EUR = 1490.57 PLN [wariant 45 dopasowany] [EAN niepotwierdzony]
+  + bikeshoe4u.com: 345.0 EUR = 1486.26 PLN [wariant 45 dopasowany] [EAN niepotwierdzony]
   - biketiresdirect.com: brak wymaganych slow (mx242) - pomijam
   - backcountry.com: HTTP 202
   - bikefit-kit.com: waluta GBP poza dozwolonym regionem - pomijam
@@ -957,57 +655,36 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
   - saltdogcycling.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - saltdogcycling.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - saltdogcycling.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-[MONITOR] Cane Creek 40 IS41/IS52: blind spoty do sprawdzenia przez Google: allegro.pl, americanpharmawholesale.com, bike24.be, bike24.com, bike24.de, bike24.it, bike24.pl, centrumrowerowe.pl, competitivecyclist.com, cyklomania.pl, lordgunbicycles.com, r2-bike.com, rat-bikes.com, rat-bikes.eu, rowerowy.com, upcindex.com
-[MONITOR] Ritchey WCS Carbon ErgoMax: blind spoty do sprawdzenia przez Google: all4bikes.be, bike24.com, bike24.de, bike24.it, bike24.pl, centrumrowerowe.pl, cyklomania.pl, deporvillage.it, deporvillage.pl, dynamitebikelab.com, eventbike.it, rei.com
-[MONITOR] DT SWISS 350 12x148: blind spoty do sprawdzenia przez Google: allegro.pl, bike24.com, bike24.de, bike24.it, bike24.pl, deporvillage.de, deporvillage.it, modernbike.com, prowheelbuilder.com, rejestr.io, velosiped.com
-[MONITOR] LAUF-CARBONARA: blind spoty do sprawdzenia przez Google: expeditionportal.com, mtbr.com
-[MONITOR] DT Swiss Fatbike: blind spoty do sprawdzenia przez Google: allegro.pl, bike24.com, bike24.de, bike24.it, fat-bike.de, modernbike.com, prowheelbuilder.com, r2-bike.com, velosiped.com
-[MONITOR] GX-T-KIT: blind spoty do sprawdzenia przez Google: bike24.de, bike24.it, bike24.pl, bikeimport.ch, competitivecyclist.com, cyklomania.pl, dkhardware.com, hibike.com, lordgun.de, lordgunbicycles.com, mtbr.com, r2-bike.com, sprint-rowery.pl, staples.com, velofactory.ch, velonova.lt
+[MONITOR] Ritchey WCS Carbon ErgoMax: blind spoty do sprawdzenia przez Google: all4bikes.be, bike24.com, bike24.de, bike24.it, bike24.pl, cyklomania.pl, deporvillage.it, dynamitebikelab.com, eventbike.it, rei.com
+[MONITOR] Lake MX190-X Wide: blind spoty do sprawdzenia przez Google: backcountry.com, bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fi, bike24.it, bike24.nl, bike24.pl, competitivecyclist.com, steepandcheap.com
+[MONITOR] Cane Creek 40 IS41/IS52: blind spoty do sprawdzenia przez Google: bike24.be, bike24.com, bike24.de, bike24.it, bike24.pl, competitivecyclist.com, lordgunbicycles.com, r2-bike.com, rat-bikes.com, rat-bikes.eu
+[MONITOR] ROCK SHOX SID: blind spoty do sprawdzenia przez Google: bike-discount.de, bike24.com, cyklomania.pl, mtb-xc.pl, rat-bikes.eu, starbike.com
 [MONITOR] GX-T-CHAIN: blind spoty do sprawdzenia przez Google: ampbike.pl, bike24.com, bike24.de, bike24.it, bike24.pl, competitivecyclist.com, cyklomania.pl, hibike.com, lordgun.com, lordgun.de, lordgunbicycles.com, r2-bike.com, taddeistore.com, velofactory.ch, velonova.lt
-[MONITOR] ROCK SHOX SID: blind spoty do sprawdzenia przez Google: allegro.hu, allegro.pl, bestbuy.com, bike-discount.de, bike24.com, centrumrowerowe.pl, cyklomania.pl, mtb-xc.pl, probikesupply.com, rat-bikes.eu, starbike.com
-[MONITOR] FM2797: blind spoty do sprawdzenia przez Google: instagram.com, memorialtacostx.com, yelp.com
-[MONITOR] Lake MX190-X Wide: blind spoty do sprawdzenia przez Google: allegro.pl, backcountry.com, bestbuy.com, bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fi, bike24.it, bike24.nl, bike24.pl, competitivecyclist.com, deporvillage.pl, dkhardware.com, steepandcheap.com, upcindex.com
-[MONITOR] Lake MX242: blind spoty do sprawdzenia przez Google: americanpharmawholesale.com, backcountry.com, bbqguys.com, bike24.com, deporvillage.net, upcindex.com
-[MONITOR] Canyon S14 VCLS 2.0: blind spoty do sprawdzenia przez Google: fillaritori.com, velonova.ee
+[MONITOR] DT Swiss Fatbike: blind spoty do sprawdzenia przez Google: bike24.com, bike24.de, bike24.it, fat-bike.de, modernbike.com, prowheelbuilder.com, r2-bike.com, velosiped.com
+[MONITOR] GX-T-KIT: blind spoty do sprawdzenia przez Google: bike24.de, bike24.it, bike24.pl, competitivecyclist.com, cyklomania.pl, lordgun.de, lordgunbicycles.com, r2-bike.com, sprint-rowery.pl, velofactory.ch, velonova.lt
+[MONITOR] DT SWISS 350 12x148: blind spoty do sprawdzenia przez Google: bike24.com, bike24.de, bike24.it, bike24.pl, deporvillage.de, modernbike.com, prowheelbuilder.com, velosiped.com
+[MONITOR] Lake MX242: blind spoty do sprawdzenia przez Google: backcountry.com, bike24.com
+[MONITOR] Canyon S14 VCLS 2.0: blind spoty do sprawdzenia przez Google: velonova.ee
 [SHOPPING] SerpAPI na wyczerpaniu (pozostalo 0, rezerwa 10) - pomijam ten silnik
-[SHOPPING][serper] Blad zapytania '840226078472': 403 Client Error: Forbidden for url: https://google.serper.dev/shopping
-[SHOPPING] Cane Creek 40 IS41/IS52 (gl=pl, serper): 0 ofert w feedzie, szukam: allegro.pl, bike24.pl, centrumrowerowe.pl, cyklomania.pl
-[SHOPPING][serper] Blad zapytania '840226078472': 403 Client Error: Forbidden for url: https://google.serper.dev/shopping
-[SHOPPING] Cane Creek 40 IS41/IS52 (gl=de, serper): 0 ofert w feedzie, szukam: americanpharmawholesale.com, bike24.com, bike24.de, competitivecyclist.com, lordgunbicycles.com, r2-bike.com, rat-bikes.com, rat-bikes.eu, rowerowy.com, upcindex.com
-[SHOPPING][serper] Blad zapytania '840226078472': 403 Client Error: Forbidden for url: https://google.serper.dev/shopping
-[SHOPPING] Cane Creek 40 IS41/IS52 (gl=be, serper): 0 ofert w feedzie, szukam: bike24.be
-[SHOPPING][serper] Blad zapytania '840226078472': 403 Client Error: Forbidden for url: https://google.serper.dev/shopping
-[SHOPPING] Cane Creek 40 IS41/IS52 (gl=it, serper): 0 ofert w feedzie, szukam: bike24.it
+[SHOPPING] Ritchey WCS Carbon ErgoMax (gl=be, serper): 4 ofert w feedzie, szukam: all4bikes.be
+[SHOPPING] Ritchey WCS Carbon ErgoMax (gl=de, serper): 3 ofert w feedzie, szukam: bike24.com, bike24.de, dynamitebikelab.com, rei.com
+[SHOPPING] Ritchey WCS Carbon ErgoMax (gl=it, serper): 5 ofert w feedzie, szukam: bike24.it, deporvillage.it, eventbike.it
+  - deporvillage.it: tytul nie pasuje do produktu ('Ritchey WCS Ergo Max Handlebar')
+[SHOPPING] Ritchey WCS Carbon ErgoMax (gl=pl, serper): 7 ofert w feedzie, szukam: bike24.pl, cyklomania.pl
 [SHOPPING] Budzet zapytan na ten run wyczerpany
-[CSE] Cane Creek 40 IS41/IS52/allegro.pl: blad zapytania (HTTPError)
-[CSE] Cane Creek 40 IS41/IS52/americanpharmawholesale.com: blad zapytania (HTTPError)
-[CSE] Cane Creek 40 IS41/IS52/bike24.be: blad zapytania (HTTPError)
-[CSE] Cane Creek 40 IS41/IS52/bike24.com: blad zapytania (HTTPError)
-[CSE] Cane Creek 40 IS41/IS52/bike24.de: blad zapytania (HTTPError)
-[CSE] Cane Creek 40 IS41/IS52/bike24.it: blad zapytania (HTTPError)
-[CSE] Cane Creek 40 IS41/IS52/bike24.pl: blad zapytania (HTTPError)
-[CSE] Cane Creek 40 IS41/IS52/centrumrowerowe.pl: blad zapytania (HTTPError)
-[CSE] Cane Creek 40 IS41/IS52/competitivecyclist.com: blad zapytania (HTTPError)
-[CSE] Cane Creek 40 IS41/IS52/cyklomania.pl: blad zapytania (HTTPError)
-[CSE] Cane Creek 40 IS41/IS52/lordgunbicycles.com: blad zapytania (HTTPError)
-[CSE] Cane Creek 40 IS41/IS52/r2-bike.com: blad zapytania (HTTPError)
-[CSE] Cane Creek 40 IS41/IS52/rat-bikes.com: blad zapytania (HTTPError)
-[CSE] Cane Creek 40 IS41/IS52/rat-bikes.eu: blad zapytania (HTTPError)
-[CSE] Cane Creek 40 IS41/IS52/rowerowy.com: blad zapytania (HTTPError)
-[CSE] Budzet zapytan na ten run wyczerpany
-  ! Cane Creek 40 IS41/IS52: odrzucam outlier 30.11 PLN (gocycle.de) - ponizej 25% mediany (269.81 PLN)
-[BLIND] Cane Creek 40 IS41/IS52: bez ceny (sklep blokuje, Google nie pokryl): allegro.pl, americanpharmawholesale.com, bike24.be, bike24.com, bike24.de, bike24.it, bike24.pl, centrumrowerowe.pl, competitivecyclist.com, cyklomania.pl, lordgunbicycles.com, r2-bike.com, rat-bikes.com, rat-bikes.eu, rowerowy.com, upcindex.com
-[BLIND] Ritchey WCS Carbon ErgoMax: bez ceny (sklep blokuje, Google nie pokryl): all4bikes.be, bike24.com, bike24.de, bike24.it, bike24.pl, centrumrowerowe.pl, cyklomania.pl, deporvillage.it, deporvillage.pl, dynamitebikelab.com, eventbike.it, rei.com
-[BLIND] DT SWISS 350 12x148: bez ceny (sklep blokuje, Google nie pokryl): allegro.pl, bike24.com, bike24.de, bike24.it, bike24.pl, deporvillage.de, deporvillage.it, modernbike.com, prowheelbuilder.com, rejestr.io, velosiped.com
-[BLIND] LAUF-CARBONARA: bez ceny (sklep blokuje, Google nie pokryl): expeditionportal.com, mtbr.com
-[BLIND] DT Swiss Fatbike: bez ceny (sklep blokuje, Google nie pokryl): allegro.pl, bike24.com, bike24.de, bike24.it, fat-bike.de, modernbike.com, prowheelbuilder.com, r2-bike.com, velosiped.com
-[BLIND] GX-T-KIT: bez ceny (sklep blokuje, Google nie pokryl): bike24.de, bike24.it, bike24.pl, bikeimport.ch, competitivecyclist.com, cyklomania.pl, dkhardware.com, hibike.com, lordgun.de, lordgunbicycles.com, mtbr.com, r2-bike.com, sprint-rowery.pl, staples.com, velofactory.ch, velonova.lt
+[AUTH] google: klucz odrzucony (HTTP 403) - wylaczam silnik do konca runu. Sprawdz GOOGLE_API_KEY: w Google Cloud wlacz Custom Search API i ustaw Application restrictions klucza na None (restrykcja 'Websites' odrzuca wywolania z serwera).
+  ! Cane Creek 40 IS41/IS52: odrzucam outlier 30.11 PLN (gocycle.de) - ponizej 25% mediany (266.09 PLN)
+[SERPER] Kredyty: zuzyte 4 w tym runie, lacznie 4 z 2500 (pozostalo 2496)
+[BLIND] Ritchey WCS Carbon ErgoMax: bez ceny (sklep blokuje, Google nie pokryl): all4bikes.be, bike24.com, bike24.de, bike24.it, bike24.pl, cyklomania.pl, deporvillage.it, dynamitebikelab.com, eventbike.it, rei.com
+[BLIND] Lake MX190-X Wide: bez ceny (sklep blokuje, Google nie pokryl): backcountry.com, bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fi, bike24.it, bike24.nl, bike24.pl, competitivecyclist.com, steepandcheap.com
+[BLIND] Cane Creek 40 IS41/IS52: bez ceny (sklep blokuje, Google nie pokryl): bike24.be, bike24.com, bike24.de, bike24.it, bike24.pl, competitivecyclist.com, lordgunbicycles.com, r2-bike.com, rat-bikes.com, rat-bikes.eu
+[BLIND] ROCK SHOX SID: bez ceny (sklep blokuje, Google nie pokryl): bike-discount.de, bike24.com, cyklomania.pl, mtb-xc.pl, rat-bikes.eu, starbike.com
 [BLIND] GX-T-CHAIN: bez ceny (sklep blokuje, Google nie pokryl): ampbike.pl, bike24.com, bike24.de, bike24.it, bike24.pl, competitivecyclist.com, cyklomania.pl, hibike.com, lordgun.com, lordgun.de, lordgunbicycles.com, r2-bike.com, taddeistore.com, velofactory.ch, velonova.lt
-[BLIND] ROCK SHOX SID: bez ceny (sklep blokuje, Google nie pokryl): allegro.hu, allegro.pl, bestbuy.com, bike-discount.de, bike24.com, centrumrowerowe.pl, cyklomania.pl, mtb-xc.pl, probikesupply.com, rat-bikes.eu, starbike.com
-[BLIND] FM2797: bez ceny (sklep blokuje, Google nie pokryl): instagram.com, memorialtacostx.com, yelp.com
-[BLIND] Lake MX190-X Wide: bez ceny (sklep blokuje, Google nie pokryl): allegro.pl, backcountry.com, bestbuy.com, bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fi, bike24.it, bike24.nl, bike24.pl, competitivecyclist.com, deporvillage.pl, dkhardware.com, steepandcheap.com, upcindex.com
-[BLIND] Lake MX242: bez ceny (sklep blokuje, Google nie pokryl): americanpharmawholesale.com, backcountry.com, bbqguys.com, bike24.com, deporvillage.net, upcindex.com
-[BLIND] Canyon S14 VCLS 2.0: bez ceny (sklep blokuje, Google nie pokryl): fillaritori.com, velonova.ee
+[BLIND] DT Swiss Fatbike: bez ceny (sklep blokuje, Google nie pokryl): bike24.com, bike24.de, bike24.it, fat-bike.de, modernbike.com, prowheelbuilder.com, r2-bike.com, velosiped.com
+[BLIND] GX-T-KIT: bez ceny (sklep blokuje, Google nie pokryl): bike24.de, bike24.it, bike24.pl, competitivecyclist.com, cyklomania.pl, lordgun.de, lordgunbicycles.com, r2-bike.com, sprint-rowery.pl, velofactory.ch, velonova.lt
+[BLIND] DT SWISS 350 12x148: bez ceny (sklep blokuje, Google nie pokryl): bike24.com, bike24.de, bike24.it, bike24.pl, deporvillage.de, modernbike.com, prowheelbuilder.com, velosiped.com
+[BLIND] Lake MX242: bez ceny (sklep blokuje, Google nie pokryl): backcountry.com, bike24.com
+[BLIND] Canyon S14 VCLS 2.0: bez ceny (sklep blokuje, Google nie pokryl): velonova.ee
 [HISTORIA] FM2797: najnizsza 9983.79 PLN (imfixies.it)
 [HISTORIA] LAUF-CARBONARA: najnizsza 4492.85 PLN (laufcycles.com)
 [HISTORIA] Lake MX190-X Wide: najnizsza 710.82 PLN (sport-bittl.com)
@@ -1017,8 +694,8 @@ Produkty: ['FM2797', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 
 [HISTORIA] Canyon S14 VCLS 2.0: najnizsza 861.56 PLN (canyon.com)
 [HISTORIA] GX-T-KIT: najnizsza 1288.09 PLN (bike-components.de)
 [HISTORIA] GX-T-CHAIN: najnizsza 129.2 PLN (alutech-cycles.com)
-[HISTORIA] Cane Creek 40 IS41/IS52: najnizsza 253.96 PLN (maciag-offroad.de)
-[HISTORIA] ROCK SHOX SID: najnizsza 2580.49 PLN (nanobike.de)
+[HISTORIA] Cane Creek 40 IS41/IS52: najnizsza 239.99 PLN (centrumrowerowe.pl)
+[HISTORIA] ROCK SHOX SID: najnizsza 1799.0 PLN (centrumrowerowe.pl)
 [HISTORIA] Lake MX242: najnizsza 1292.36 PLN (bike-discount.de)
 [EXCEL] Zapisano /home/runner/work/PriceChecker/PriceChecker/output/prices.xlsx
 [DASHBOARD] Zapisano /home/runner/work/PriceChecker/PriceChecker/output/dashboard.html (+ docs/index.html dla GitHub Pages)
