@@ -270,8 +270,10 @@ def _auth_fail(engine, err, hint):
 
 _HINT_SERPAPI = ("Limit SerpAPI wyczerpany albo zly sekret SERPAPI_KEY "
                  "(serpapi.com -> Api Key).")
-_HINT_SERPER = ("Sprawdz sekret SERPER_API_KEY (serper.dev -> API keys); "
-                "wartosc bez cudzyslowow i spacji.")
+_HINT_SERPER = ("Jesli odcisk sha256 wyzej zgadza sie z kluczem, sekret "
+                "jest dobry - Serper odrzuca ruch z IP GitHub Actions dla "
+                "kont trial (anty-abuse). Opcje: support serper.dev, "
+                "platny pakiet kredytow albo run lokalny (python tracker.py).")
 _HINT_GOOGLE = ("Custom Search JSON API jest zamkniete dla nowych klientow "
                 "(od 2026; starzy do 2027-01-01). Warstwa CSE dziala tylko "
                 "na starych projektach Google Cloud - jesli nie masz takiego, "
