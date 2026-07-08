@@ -35,9 +35,30 @@ OFFERS_FILE = DATA / "all_offers.csv"     # wszystkie znalezione oferty (audyt)
 QUOTA_FILE = DATA / "serpapi_quota.json"  # stan limitu darmowych zapytan SerpAPI
 EXCEL_FILE = OUTPUT / "prices.xlsx"
 
+# Naglowki jak w prawdziwym Chrome - czesc sklepow (bike24, r2-bike, allegro)
+# odrzuca requesty z golym User-Agentem. Accept-Encoding ustawia requests
+# samodzielnie (z pakietem Brotli takze "br", jak przegladarka).
+# Kolejnosc jezykow jak dotychczas (en > de > pl), zeby sklepy wielojezyczne
+# nie zaczely nagle serwowac innych wersji/walut niz w historii.
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-      "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
+      "(KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36")
+BROWSER_HEADERS = {
+    "User-Agent": UA,
+    "Accept": ("text/html,application/xhtml+xml,application/xml;q=0.9,"
+               "image/avif,image/webp,image/apng,*/*;q=0.8,"
+               "application/signed-exchange;v=b3;q=0.7"),
+    "Accept-Language": "en-US,en;q=0.9,de;q=0.8,pl;q=0.7",
+    "sec-ch-ua": '"Not)A;Brand";v="8", "Chromium";v="143", "Google Chrome";v="143"',
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": '"Windows"',
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Upgrade-Insecure-Requests": "1",
+}
 TIMEOUT = 25
+BROWSER_TIMEOUT = 40   # headless Chromium: strona + ewentualny challenge JS
 SERPAPI_TIMEOUT = 60   # SerpAPI (zwlaszcza Shopping) bywa wolne; timeout i tak zuzywa limit
 SLEEP_BETWEEN_FETCHES = 2.0
 
@@ -252,10 +273,10 @@ def serpapi_search(query, api_key, gl=None):
         return []
 
 
-def serpapi_shopping_search(query, api_key, gl=None):
-    """SerpAPI Google Shopping - agregator ofert sklepow z danego kraju.
-    Zwraca linki do stron sklepow; ceny i tak weryfikuje monitoring
-    bezposrednio na stronie (Shopping bywa nieaktualny)."""
+def serpapi_shopping_items(query, api_key, gl=None):
+    """SerpAPI Google Shopping - surowe oferty (tytul, cena, sklep, link).
+    Zrodlem cen jest feed Merchant Center wysylany Google przez same sklepy,
+    wiec dziala takze dla sklepow blokujacych boty (bike24, r2-bike)."""
     try:
         # Shopping nie radzi sobie z cudzyslowami (zwraca "no results")
         params = {"engine": "google_shopping", "q": query.replace('"', ""),
@@ -267,18 +288,23 @@ def serpapi_shopping_search(query, api_key, gl=None):
         r.raise_for_status()
         j = r.json()
         if j.get("error"):
-            log(f"[DISCOVERY][shopping] {j['error']}")
+            log(f"[SHOPPING] {j['error']}")
             return []
-        out = []
-        for it in j.get("shopping_results", []):
-            link = it.get("link") or ""
-            # pomijamy linki do karty produktu Google (nie sklepu)
-            if link.startswith("http") and "google." not in domain_of(link):
-                out.append(link)
-        return out
+        return j.get("shopping_results", [])
     except Exception as e:
-        log(f"[DISCOVERY][shopping] Blad zapytania '{query}': {e}")
+        log(f"[SHOPPING] Blad zapytania '{query}': {e}")
         return []
+
+
+def serpapi_shopping_search(query, api_key, gl=None):
+    """Discovery przez Shopping: same linki do stron sklepow."""
+    out = []
+    for it in serpapi_shopping_items(query, api_key, gl):
+        link = it.get("link") or ""
+        # pomijamy linki do karty produktu Google (nie sklepu)
+        if link.startswith("http") and "google." not in domain_of(link):
+            out.append(link)
+    return out
 
 
 def tavily_search(query, api_key):
@@ -635,12 +661,113 @@ def find_product_links(html, base_url, tokens, excluded, worldwide, known):
     return sorted(scored, key=scored.get, reverse=True)[:MAX_CRAWL_PER_PAGE]
 
 
+# --- Fallback przegladarkowy: headless Chromium (Playwright) ----------------
+# Sklepy z ochrona anty-bot (Cloudflare itp.) odrzucaja requests nawet
+# z pelnymi naglowkami, bo rozpoznaja fingerprint TLS biblioteki. Wtedy
+# pobieramy strone prawdziwa przegladarka. Chromium startuje leniwie -
+# tylko gdy cos faktycznie blokuje (w typowym runie ~kilka domen).
+BLOCK_STATUSES = {403, 429, 503}
+# Interstitiale anty-bota potrafia przyjsc z HTTP 200 (Akamai serwuje stub
+# z <meta refresh ...bm-verify=...>, Cloudflare "Just a moment"). Rozpoznajemy
+# je po sygnaturach w naglowku HTML, zeby nie ekstrahowac ceny ze strony-zapory
+# i od razu przejsc na przegladarke. Sygnatury dobrane wasko (male ryzyko
+# falszywych trafien na normalnej karcie produktu).
+_CHALLENGE_RE = re.compile(
+    r"just a moment|cf-chl|challenge-platform|cf-browser-verification|"
+    r"checking your browser|verifying you are human|"        # Cloudflare
+    r"bm-verify|/_sec/verify|"                               # Akamai Bot Manager
+    r"captcha-delivery|datadome|px-captcha",                 # DataDome / PerimeterX
+    re.I)
+
+
+def _is_challenge(html):
+    """True gdy HTML to strona-zapora anty-bota, a nie wlasciwa tresc."""
+    return bool(html) and bool(_CHALLENGE_RE.search(html[:8000]))
+_pw_state = {"pw": None, "browser": None, "ctx": None, "failed": False}
+_blocked_doms = set()  # requests dostal blokade -> kolejne URL-e od razu przegladarka
+_dead_doms = set()     # przegladarka tez polegla -> nie marnuj czasu w tym runie
+
+
+def _browser_context():
+    """Leniwie startuje wspolna przegladarke; None gdy Playwright niedostepny."""
+    if _pw_state["failed"]:
+        return None
+    if _pw_state["ctx"] is None:
+        try:
+            from playwright.sync_api import sync_playwright
+            pw = sync_playwright().start()
+            browser = pw.chromium.launch(
+                headless=True,
+                args=["--disable-blink-features=AutomationControlled"])
+            ctx = browser.new_context(
+                user_agent=UA, locale="en-US",
+                viewport={"width": 1366, "height": 900})
+            ctx.add_init_script(
+                "Object.defineProperty(navigator,'webdriver',"
+                "{get:()=>undefined})")
+            ctx.set_default_timeout(BROWSER_TIMEOUT * 1000)
+            _pw_state.update(pw=pw, browser=browser, ctx=ctx)
+            log("[BROWSER] Start headless Chromium (fallback na blokady botow)")
+        except Exception as e:
+            _pw_state["failed"] = True
+            log(f"[BROWSER] Playwright niedostepny ({type(e).__name__}) - "
+                f"zablokowanych sklepow nie obejde. "
+                f"Instalacja: pip install playwright && playwright install chromium")
+    return _pw_state["ctx"]
+
+
+def fetch_via_browser(url):
+    """Pobiera strone headless Chromium. Zwraca (html, final_url) lub (None, None)."""
+    ctx = _browser_context()
+    if ctx is None:
+        return None, None
+    page = ctx.new_page()
+    try:
+        # obrazki/fonty/media sa zbedne do ekstrakcji ceny - nie pobieraj
+        page.route(re.compile(r"\.(png|jpe?g|webp|avif|gif|svg|woff2?|ttf|mp4)"
+                              r"(\?|$)"),
+                   lambda route: route.abort())
+        resp = page.goto(url, wait_until="domcontentloaded")
+        html = page.content()
+        # challenge JS (np. Cloudflare "Just a moment...") - daj mu czas przejsc
+        saw_challenge = False
+        for _ in range(4):
+            if not _is_challenge(html):
+                break
+            saw_challenge = True
+            page.wait_for_timeout(4000)
+            html = page.content()
+        if _is_challenge(html):
+            return None, None                       # challenge nieprzejscie
+        if resp and resp.status >= 400 and not saw_challenge:
+            return None, None                       # zwykla blokada bez challenge
+        return html, normalize_url(page.url)
+    except Exception as e:
+        log(f"  ! przegladarka: blad ({type(e).__name__})")
+        return None, None
+    finally:
+        page.close()
+
+
+def close_browser():
+    if _pw_state["ctx"] is not None:
+        try:
+            _pw_state["browser"].close()
+            _pw_state["pw"].stop()
+        except Exception:
+            pass
+        _pw_state.update(pw=None, browser=None, ctx=None)
+
+
 def fetch_offers(products, sources, rates):
-    """Zwraca liste ofert: dict(product_id, name, url, domain, price, currency,
-    price_pln, availability)."""
+    """Zwraca (offers, blind): offers to lista dict(product_id, name, url,
+    domain, price, currency, price_pln, availability); blind to mapa
+    {product_id: [domeny]}, z ktorych zaden URL nie dal sie pobrac
+    (blokada botow / blad HTTP) - kandydaci do sprawdzenia przez Google."""
     session = requests.Session()
-    session.headers.update({"User-Agent": UA, "Accept-Language": "en,de;q=0.9,pl;q=0.8"})
+    session.headers.update(BROWSER_HEADERS)
     offers = []
+    rejected = set()  # (pid, dom) - sklep odrzucil pobranie
 
     for p in products:
         pid = p["id"]
@@ -672,15 +799,39 @@ def fetch_offers(products, sources, rates):
             dom = meta.get("domain") or domain_of(url)
             if not url_allowed(url, excluded, worldwide):
                 continue
+            if dom in _dead_doms:
+                log(f"  - {dom}: pomijam (blokada potwierdzona w tym runie)")
+                rejected.add((pid, dom))
+                continue
             try:
-                r = session.get(url, timeout=TIMEOUT, allow_redirects=True)
-                if r.status_code != 200:
-                    log(f"  - {dom}: HTTP {r.status_code}")
-                    continue
-                final_url = normalize_url(r.url or url)  # adres po przekierowaniach
-                cands, seen_types = extract_offers(r.text)
+                html = final_url = None
+                status = 0
+                if dom not in _blocked_doms:
+                    r = session.get(url, timeout=TIMEOUT, allow_redirects=True)
+                    status = r.status_code
+                    if status == 200 and not _is_challenge(r.text):
+                        html = r.text
+                        final_url = normalize_url(r.url or url)  # po przekierowaniach
+                    elif status == 200 or status in BLOCK_STATUSES:
+                        _blocked_doms.add(dom)   # dalsze URL-e od razu przegladarka
+                    else:
+                        log(f"  - {dom}: HTTP {status}")
+                        rejected.add((pid, dom))
+                        continue
+                if html is None:
+                    # blokada botow -> proba prawdziwa przegladarka
+                    html, final_url = fetch_via_browser(url)
+                    if html is None:
+                        _dead_doms.add(dom)
+                        rejected.add((pid, dom))
+                        why = f"HTTP {status}" if status else "blokada botow"
+                        log(f"  - {dom}: {why} (przegladarka tez nie przeszla)")
+                        continue
+                    log(f"  + {dom}: blokada ominieta headless Chromium")
+                cands, seen_types = extract_offers(html)
             except Exception as e:
                 log(f"  - {dom}: blad pobierania ({type(e).__name__})")
+                rejected.add((pid, dom))
                 continue
             finally:
                 time.sleep(SLEEP_BETWEEN_FETCHES)
@@ -690,7 +841,7 @@ def fetch_offers(products, sources, rates):
                 # na stronie linku do karty tego produktu
                 links = []
                 if crawl_budget > 0 and meta.get("via") != "crawl":
-                    links = find_product_links(r.text, final_url, tokens,
+                    links = find_product_links(html, final_url, tokens,
                                                excluded, worldwide,
                                                set(urls))[:crawl_budget]
                 if links:
@@ -712,7 +863,7 @@ def fetch_offers(products, sources, rates):
             # brak kodu to tylko ostrzezenie (chyba ze ean_strict)
             enote = ""
             if ean:
-                if ean in r.text:
+                if ean in html:
                     enote = " [EAN OK]"
                 elif ean_strict:
                     log(f"  - {dom}: EAN {ean} nieobecny na stronie "
@@ -724,7 +875,7 @@ def fetch_offers(products, sources, rates):
             # require_tokens: slowa musza wystapic w URL-u, tytule strony
             # lub identyfikatorze oferty (np. "carbon", "s14", "kit")
             if req_tokens:
-                tm = re.search(r"<title[^>]*>(.*?)</title>", r.text, re.I | re.S)
+                tm = re.search(r"<title[^>]*>(.*?)</title>", html, re.I | re.S)
                 page_txt = (final_url + " " + (tm.group(1) if tm else "")).lower()
                 matching = [c for c in cands
                             if all(any(alt in page_txt + " " + c["ident"]
@@ -754,7 +905,7 @@ def fetch_offers(products, sources, rates):
                     # cena zbiorcza - ale niektore sklepy (np. Shopware) maja
                     # osobny URL per rozmiar: wariant widac w URL-u lub tytule
                     # (".../...-m-56-cm", "Rahmenkit 29 M / 56 cm")
-                    tm = re.search(r"<title[^>]*>(.*?)</title>", r.text,
+                    tm = re.search(r"<title[^>]*>(.*?)</title>", html,
                                    re.I | re.S)
                     page_txt = (final_url + " "
                                 + (tm.group(1) if tm else "")).lower()
@@ -805,7 +956,17 @@ def fetch_offers(products, sources, rates):
             if meta.get("via") == "crawl":  # znaleziony crawlem i ma cene
                 sources.setdefault(pid, {})[url] = meta  # -> do bazy na stale
             log(f"  + {dom}: {price} {currency} = {price_pln} PLN{vnote}{enote}")
-    return drop_outliers(offers)
+
+    # blind spoty: domeny odrzucone, ktore nie daly ceny zadnym innym URL-em
+    have = {(o["product_id"], o["domain"]) for o in offers}
+    blind = {}
+    for pid, dom in rejected - have:
+        blind.setdefault(pid, []).append(dom)
+    for pid in blind:
+        blind[pid].sort()
+        log(f"[MONITOR] {pid}: blind spoty do sprawdzenia przez Google: "
+            f"{', '.join(blind[pid])}")
+    return offers, blind
 
 
 def drop_outliers(offers):
@@ -828,12 +989,291 @@ def drop_outliers(offers):
     return kept
 
 
+# ============================== blind spoty: ceny przez Google ==============
+# Sklepy z twarda ochrona anty-bot (Akamai na bike24, Cloudflare na r2-bike)
+# odrzucaja i requests, i headless Chromium. Ich ceny bierzemy z Google:
+#  1. Google Shopping (SerpAPI) - feed Merchant Center wysylany przez sam
+#     sklep; cena oficjalna, swieza (opoznienie godziny), 1 zapytanie
+#     pokrywa wszystkie blind spoty produktu. Budzet: settings.shopping_budget
+#     zapytan per run + rezerwa settings.serpapi_reserve na discovery.
+#  2. Google Programmable Search (GOOGLE_API_KEY+GOOGLE_CX) - pagemap wynikow
+#     zawiera cene ze structured data zebrana przez Googlebota (sklepy go
+#     nie blokuja). 100 zapytan/dzien za darmo; cena moze byc sprzed kilku
+#     dni (czestotliwosc crawla), stad to warstwa druga.
+
+_GL_CURRENCY = {"pl": "PLN", "de": "EUR", "at": "EUR", "be": "EUR",
+                "nl": "EUR", "fr": "EUR", "it": "EUR", "es": "EUR",
+                "pt": "EUR", "ie": "EUR", "fi": "EUR", "sk": "EUR",
+                "si": "EUR", "cz": "CZK", "ch": "CHF", "dk": "DKK",
+                "se": "SEK", "no": "NOK", "gb": "GBP", "uk": "GBP"}
+
+
+def _shopping_currency(price_str, gl):
+    """Waluta oferty Shopping: symbol w cenie, fallback kraj zapytania."""
+    s = (price_str or "").lower()
+    if "zł" in s or "pln" in s:
+        return "PLN"
+    if "€" in s or "eur" in s:
+        return "EUR"
+    if "chf" in s:
+        return "CHF"
+    if "£" in s or "gbp" in s:
+        return "GBP"
+    if "kč" in s or "czk" in s:
+        return "CZK"
+    if "$" in s or "usd" in s:
+        return "USD"
+    return _GL_CURRENCY.get((gl or "").lower(), "")
+
+
+def _serpapi_quota_left():
+    try:
+        return json.loads(QUOTA_FILE.read_text(encoding="utf-8")).get("left")
+    except Exception:
+        return None
+
+
+def _google_query(p):
+    """Najprecyzyjniejsze zapytanie o produkt: EAN > pierwsza fraza > nazwa."""
+    if p.get("ean"):
+        return str(p["ean"])
+    qs = p.get("queries") or []
+    return str(qs[0]) if qs else str(p["name"])
+
+
+def _title_ok(p, text):
+    """Filtry jakosci na tytule oferty z Google (odpowiednik require_tokens
+    + wariant + tokeny nazwy z monitoringu). Zwraca (ok, notka_do_logu)."""
+    text = text.lower()
+    # tytul musi wygladac na TEN produkt: kod modelu z cyfra albo >=2 tokeny
+    tokens = _product_tokens(p)
+    hits = {t for t in tokens if t in text}
+    strong = any(any(ch.isdigit() for ch in t) for t in hits)
+    if not strong and len(hits) < 2:
+        return False, "tytul nie pasuje do produktu"
+    req = [[alt.strip().lower() for alt in str(t).split("|") if alt.strip()]
+           for t in (p.get("require_tokens") or [])]
+    if any(not any(alt in text for alt in grp) for grp in req):
+        return False, "brak wymaganych slow"
+    variant = str(p.get("variant") or "").strip().lower()
+    if variant:
+        if re.search(r"(?<![0-9a-z])" + re.escape(variant) + r"(?![0-9a-z])",
+                     text):
+            return True, f" [wariant {variant} w tytule]"
+        if p.get("variant_strict"):
+            return False, f"brak wariantu '{variant}' w tytule (variant_strict)"
+        return True, f" [wariant {variant} NIEZWERYFIKOWANY - tytul feedu]"
+    return True, ""
+
+
+def _price_in_range(p, price_pln):
+    min_pln = float(p.get("min_pln") or 0)
+    max_pln = float(p.get("max_pln") or 0)
+    return ((not min_pln or price_pln >= min_pln)
+            and (not max_pln or price_pln <= max_pln))
+
+
+def _to_float(s):
+    """Cena z tekstu: radzi sobie z '1299.00', '1.299,00', '1 299,00'."""
+    s = str(s).replace("\xa0", "").replace(" ", "")
+    if "," in s and "." in s:
+        s = (s.replace(".", "") if s.rfind(",") > s.rfind(".")
+             else s.replace(",", ""))
+    return float(s.replace(",", "."))
+
+
+def _shopping_fill(products_by_id, blind, rates, settings):
+    """Warstwa 1: SerpAPI Google Shopping. Zwraca (oferty, pokryte_pary)."""
+    key = os.environ.get("SERPAPI_KEY", "").strip()
+    if not key:
+        return [], set()
+    budget = int(settings.get("shopping_budget", 4))
+    reserve = int(settings.get("serpapi_reserve", 10))
+    left = _serpapi_quota_left()
+    if left is not None:
+        budget = min(budget, max(0, int(left) - reserve))
+    if budget <= 0:
+        log(f"[SHOPPING] Pomijam - limit SerpAPI na wyczerpaniu "
+            f"(pozostalo {left}, rezerwa {reserve})")
+        return [], set()
+    eu = [str(c).lower() for c in (settings.get("serpapi_countries")
+                                   or ["de", "pl"])]
+    offers, covered = [], set()
+    for pid, doms in blind.items():
+        p = products_by_id[pid]
+        allowed_cur = (WORLDWIDE_CURRENCIES if p.get("worldwide")
+                       else ALLOWED_CURRENCIES)
+        # kraj zapytania wg TLD sklepu (bike24.de -> gl=de); inne TLD -> eu[0]
+        by_gl = {}
+        for dom in doms:
+            tld = dom.rsplit(".", 1)[-1]
+            by_gl.setdefault(tld if tld in eu else eu[0], set()).add(dom)
+        query = _google_query(p)
+        for gl, want in by_gl.items():
+            if budget <= 0:
+                log("[SHOPPING] Budzet zapytan na ten run wyczerpany")
+                return offers, covered
+            budget -= 1
+            items = serpapi_shopping_items(query, key, gl)
+            log(f"[SHOPPING] {pid} (gl={gl}): {len(items)} ofert w feedzie, "
+                f"szukam: {', '.join(sorted(want))}")
+            best = {}
+            for it in items:
+                if it.get("second_hand_condition"):
+                    continue
+                # dopasowanie do blind spotu: domena linku albo nazwa sklepu
+                # z feedu ("BIKE24" ~ bike24.de, "r2-bike.com" ~ r2-bike.com)
+                link = it.get("link") or ""
+                dom = domain_of(link) if link.startswith("http") else ""
+                src = re.sub(r"\W", "", str(it.get("source") or "").lower())
+                hit = next((d for d in want if d == dom
+                            or (len(src) >= 4
+                                and (src in re.sub(r"\W", "", d)
+                                     or re.sub(r"\W", "", d) in src))), None)
+                if not hit:
+                    continue
+                ok, note = _title_ok(p, str(it.get("title") or ""))
+                if not ok:
+                    log(f"  - {hit}: {note} ('{it.get('title', '')[:60]}')")
+                    continue
+                price = it.get("extracted_price")
+                cur = _shopping_currency(str(it.get("price") or ""), gl)
+                if not isinstance(price, (int, float)) or price <= 0 \
+                        or cur not in allowed_cur or cur not in rates:
+                    continue
+                price_pln = round(price * rates[cur], 2)
+                if not _price_in_range(p, price_pln):
+                    log(f"  - {hit}: {price_pln} PLN poza widelkami - pomijam")
+                    continue
+                # link bywa karta produktu Google - wtedy lepszy product_link
+                url = (link if link and "google." not in dom
+                       else it.get("product_link") or link or "")
+                o = {"product_id": pid, "name": p["name"], "url": url,
+                     "domain": hit, "price": price, "currency": cur,
+                     "price_pln": price_pln, "availability": "instock",
+                     "via": "shopping"}
+                o["_note"] = note
+                if hit not in best or price_pln < best[hit]["price_pln"]:
+                    best[hit] = o
+            for dom, o in best.items():
+                note = o.pop("_note", "")
+                covered.add((pid, dom))
+                offers.append(o)
+                log(f"  + {dom}: {o['price']} {o['currency']} = "
+                    f"{o['price_pln']} PLN [Google Shopping]{note}")
+            time.sleep(0.4)
+    return offers, covered
+
+
+def _cse_fill(products_by_id, blind, rates, settings):
+    """Warstwa 2: Google Programmable Search - cena z indeksu Googlebota
+    (pagemap offer/metatags). Dla par (produkt, domena) bez ceny z Shopping."""
+    key = os.environ.get("GOOGLE_API_KEY", "").strip()
+    cx = os.environ.get("GOOGLE_CX", "").strip()
+    if not (key and cx):
+        return []
+    budget = int(settings.get("cse_budget", 15))
+    offers = []
+    for pid, doms in blind.items():
+        p = products_by_id[pid]
+        allowed_cur = (WORLDWIDE_CURRENCIES if p.get("worldwide")
+                       else ALLOWED_CURRENCIES)
+        query = _google_query(p)
+        for dom in doms:
+            if budget <= 0:
+                log("[CSE] Budzet zapytan na ten run wyczerpany")
+                return offers
+            budget -= 1
+            try:
+                r = requests.get("https://www.googleapis.com/customsearch/v1",
+                                 params={"key": key, "cx": cx, "q": query,
+                                         "num": 5, "siteSearch": dom,
+                                         "siteSearchFilter": "i"},
+                                 timeout=TIMEOUT)
+                if r.status_code == 429:
+                    log("[CSE] Limit dzienny wyczerpany")
+                    return offers
+                r.raise_for_status()
+                items = r.json().get("items", [])
+            except Exception as e:
+                log(f"[CSE] {pid}/{dom}: blad zapytania ({type(e).__name__})")
+                continue
+            best = None
+            for it in items:
+                link = it.get("link") or ""
+                # siteSearch filtruje po stronie Google; kontrola defensywna
+                if not domain_of(link).endswith(dom):
+                    continue
+                ok, note = _title_ok(p, (it.get("title") or "") + " " + link)
+                if not ok:
+                    continue
+                pm = it.get("pagemap") or {}
+                cands = []
+                for of in pm.get("offer") or []:
+                    avail = re.sub(r"\W", "", str(of.get("availability")
+                                                  or "").lower())
+                    if "outofstock" in avail or "discontinued" in avail:
+                        continue
+                    try:
+                        cands.append((_to_float(of.get("price", "")),
+                                      str(of.get("pricecurrency")
+                                          or "").upper()))
+                    except ValueError:
+                        continue
+                mt = (pm.get("metatags") or [{}])[0]
+                for pk, ck in (("product:price:amount",
+                                "product:price:currency"),
+                               ("og:price:amount", "og:price:currency")):
+                    try:
+                        cands.append((_to_float(mt.get(pk, "")),
+                                      str(mt.get(ck) or "").upper()))
+                    except ValueError:
+                        continue
+                for price, cur in cands:
+                    if price <= 0 or cur not in allowed_cur or cur not in rates:
+                        continue
+                    price_pln = round(price * rates[cur], 2)
+                    if not _price_in_range(p, price_pln):
+                        continue
+                    o = {"product_id": pid, "name": p["name"],
+                         "url": it.get("link") or "", "domain": dom,
+                         "price": price, "currency": cur,
+                         "price_pln": price_pln, "availability": "instock",
+                         "via": "google", "_note": note}
+                    if best is None or price_pln < best["price_pln"]:
+                        best = o
+            if best:
+                note = best.pop("_note", "")
+                offers.append(best)
+                log(f"  + {dom}: {best['price']} {best['currency']} = "
+                    f"{best['price_pln']} PLN [indeks Google - cena moze byc "
+                    f"sprzed kilku dni]{note}")
+            else:
+                log(f"[CSE] {pid}/{dom}: brak ceny w indeksie Google")
+            time.sleep(0.5)
+    return offers
+
+
+def fill_blind_spots(products, blind, rates, settings):
+    """Laczy warstwy: Shopping -> CSE. Zwraca oferty dla blind spotow."""
+    if not blind:
+        return []
+    products_by_id = {p["id"]: p for p in products}
+    offers, covered = _shopping_fill(products_by_id, blind, rates, settings)
+    remaining = {pid: [d for d in doms if (pid, d) not in covered]
+                 for pid, doms in blind.items()}
+    remaining = {pid: doms for pid, doms in remaining.items() if doms}
+    if remaining:
+        offers += _cse_fill(products_by_id, remaining, rates, settings)
+    return offers
+
+
 # ============================================================ storage =======
 
 HIST_COLS = ["date", "product_id", "product_name", "price_pln",
              "price_orig", "currency", "shop", "url", "offers_checked"]
 OFFER_COLS = ["date", "product_id", "domain", "price", "currency",
-              "price_pln", "availability", "url"]
+              "price_pln", "availability", "url", "via"]
 
 
 def append_history(offers, products, today):
@@ -851,7 +1291,8 @@ def append_history(offers, products, today):
             w.writerow({"date": today, "product_id": o["product_id"],
                         "domain": o["domain"], "price": o["price"],
                         "currency": o["currency"], "price_pln": o["price_pln"],
-                        "availability": o["availability"], "url": o["url"]})
+                        "availability": o["availability"], "url": o["url"],
+                        "via": o.get("via", "")})
 
     # historia: najlepsza cena per produkt; nadpisz jesli dzis juz byl wpis
     rows = []
@@ -1041,7 +1482,13 @@ def main():
     save_serpapi_quota()
 
     rates = get_fx_rates()
-    offers = fetch_offers(products, sources, rates)
+    try:
+        offers, blind = fetch_offers(products, sources, rates)
+    finally:
+        close_browser()
+    # sklepy, ktore odrzucily pobranie -> ceny z Google (Shopping / indeks)
+    offers += fill_blind_spots(products, blind, rates, settings)
+    offers = drop_outliers(offers)
     # URL-e znalezione auto-crawlem w monitoringu -> utrwal w bazie
     SOURCES_FILE.write_text(json.dumps(sources, indent=2, ensure_ascii=False),
                             encoding="utf-8")

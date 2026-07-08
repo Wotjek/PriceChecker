@@ -2,3 +2,5 @@ requests>=2.31
 beautifulsoup4>=4.12
 PyYAML>=6.0
 openpyxl>=3.1
+Brotli>=1.1          # requests deklaruje wtedy Accept-Encoding: br, jak przegladarka
+playwright>=1.45     # headless Chromium - fallback na sklepy z blokada botow

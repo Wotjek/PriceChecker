@@ -119,6 +119,9 @@ tr.rowlink:hover td{background:rgba(95,211,196,.09)}
   font-family:'Barlow Condensed';letter-spacing:.12em;text-transform:uppercase;font-weight:700;
   background:rgba(70,211,154,.15);color:var(--good);border:1px solid rgba(70,211,154,.4)}
 .pctup{font-size:11px;color:var(--faint);font-family:'JetBrains Mono'}
+.tagvia{display:inline-block;margin-left:8px;padding:1px 8px;border-radius:4px;font-size:10px;
+  font-family:'Barlow Condensed';letter-spacing:.12em;text-transform:uppercase;font-weight:700;
+  background:rgba(95,160,255,.13);color:var(--accent2,#7ab3ff);border:1px solid rgba(95,160,255,.35)}
 .up{color:var(--bad)} .down{color:var(--good)}
 .avail-ok{color:var(--good)} .avail-no{color:var(--fire)}
 th.sortable{cursor:pointer;user-select:none}
@@ -333,7 +336,7 @@ function renderOffersTables(wrap, products){
       const isBest = +o.price_pln <= best + 0.001;
       const diff = best ? (+o.price_pln - best) / best * 100 : 0;
       html+=`<tr class="${isBest?'best':''}">
-      <td>${esc(o.domain)}${isBest?'<span class="tagbest">najtaniej</span>':''}</td>
+      <td>${esc(o.domain)}${isBest?'<span class="tagbest">najtaniej</span>':''}${o.via?`<span class="tagvia" title="${o.via==='shopping'?'cena z feedu Google Shopping (sklep blokuje boty)':'cena z indeksu Google — może być sprzed kilku dni'}">Google</span>`:''}</td>
       <td class="num">${(+o.price).toLocaleString('pl-PL')} ${esc(o.currency)}</td>
       <td class="num">${pln.format(+o.price_pln)}${isBest?'':` <span class="pctup">+${diff.toFixed(1).replace('.',',')}%</span>`}</td>
       <td class="pill ${/instock|dostepn/i.test(o.availability)?'avail-ok':'avail-no'}">${esc(o.availability)}</td>

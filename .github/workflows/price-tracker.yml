@@ -39,11 +39,23 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      # Chromium dla Playwright (fallback na sklepy z blokadą botów).
+      # Cache ~/.cache/ms-playwright oszczędza ~150 MB pobierania per run.
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
+
+      - name: Install Playwright Chromium
+        run: playwright install --with-deps chromium
+
       - name: Run tracker
         env:
           SKIP_DISCOVERY: ${{ github.event.inputs.discovery == 'skip' && '1' || '' }}
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
-          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          # sekret u użytkownika nazywa się TAVILY_KEY; fallback obsługuje obie nazwy
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY || secrets.TAVILY_KEY }}
           BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           GOOGLE_CX: ${{ secrets.GOOGLE_CX }}
