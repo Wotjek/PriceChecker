@@ -247,13 +247,23 @@ _auth_dead = set()
 
 
 def _auth_fail(engine, err, hint):
-    """True gdy blad to odrzucony klucz - wylacza silnik do konca runu."""
-    code = getattr(getattr(err, "response", None), "status_code", None)
+    """True gdy blad to odrzucony klucz/dostep - wylacza silnik do konca
+    runu. Loguje poczatek tresci odpowiedzi: JSON = decyzja API (zly klucz),
+    HTML = zapora (np. Cloudflare blokuje IP runnera GitHub)."""
+    resp = getattr(err, "response", None)
+    code = getattr(resp, "status_code", None)
     if code in (401, 402, 403):
         if engine not in _auth_dead:
             _auth_dead.add(engine)
-            log(f"[AUTH] {engine}: klucz odrzucony (HTTP {code}) - wylaczam "
+            body = ""
+            try:
+                body = re.sub(r"\s+", " ", resp.text[:150]).strip()
+            except Exception:
+                pass
+            log(f"[AUTH] {engine}: dostep odrzucony (HTTP {code}) - wylaczam "
                 f"silnik do konca runu. {hint}")
+            if body:
+                log(f"[AUTH] {engine}: poczatek odpowiedzi: {body}")
         return True
     return False
 
@@ -403,7 +413,8 @@ def serper_shopping_items(query, api_key, gl=None):
             payload["gl"] = gl
         r = requests.post("https://google.serper.dev/shopping",
                           headers={"X-API-KEY": api_key,
-                                   "Content-Type": "application/json"},
+                                   "Content-Type": "application/json",
+                                   "User-Agent": UA},
                           json=payload, timeout=TIMEOUT)
         r.raise_for_status()
         _serper_used["n"] += 1
@@ -424,7 +435,8 @@ def serper_search(query, api_key, gl=None):
             payload["gl"] = gl
         r = requests.post("https://google.serper.dev/search",
                           headers={"X-API-KEY": api_key,
-                                   "Content-Type": "application/json"},
+                                   "Content-Type": "application/json",
+                                   "User-Agent": UA},
                           json=payload, timeout=TIMEOUT)
         r.raise_for_status()
         _serper_used["n"] += 1
