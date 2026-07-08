@@ -432,6 +432,9 @@ def run_discovery(products, sources, settings):
 
         # produkty EU: pytaj lokalne wersje Google (serpapi); worldwide: domyslna (US)
         eu_countries = settings.get("serpapi_countries") or ["de", "pl"]
+        # Serper ma osobna, duza pule zapytan - moze przeszukiwac szersza
+        # liste krajow Europy bez obciazania limitu SerpAPI
+        serper_countries = settings.get("discovery_countries") or eu_countries
         found = 0
         for q in queries:
             for name, fn in engines:
@@ -440,8 +443,10 @@ def run_discovery(products, sources, settings):
                 if name == "serpapi_shopping" and q != queries[0]:
                     continue
                 # silniki Google (serpapi*, serper) obsluguja gl= per kraj
+                country_list = (serper_countries if name == "serper"
+                                else eu_countries)
                 countries = ([None] if (worldwide or not name.startswith("serp"))
-                             else list(eu_countries))
+                             else list(country_list))
                 for gl in countries:
                     urls = fn(q, gl=gl) if name.startswith("serp") else fn(q)
                     for url in urls:
@@ -1045,8 +1050,11 @@ def drop_outliers(offers):
 _GL_CURRENCY = {"pl": "PLN", "de": "EUR", "at": "EUR", "be": "EUR",
                 "nl": "EUR", "fr": "EUR", "it": "EUR", "es": "EUR",
                 "pt": "EUR", "ie": "EUR", "fi": "EUR", "sk": "EUR",
-                "si": "EUR", "cz": "CZK", "ch": "CHF", "dk": "DKK",
-                "se": "SEK", "no": "NOK", "gb": "GBP", "uk": "GBP"}
+                "si": "EUR", "hr": "EUR", "lt": "EUR", "lv": "EUR",
+                "ee": "EUR", "gr": "EUR", "lu": "EUR", "cz": "CZK",
+                "ch": "CHF", "dk": "DKK", "se": "SEK", "no": "NOK",
+                "hu": "HUF", "ro": "RON", "bg": "BGN",
+                "gb": "GBP", "uk": "GBP"}
 
 
 def _shopping_currency(price_str, gl):
@@ -1161,11 +1169,13 @@ def _shopping_fill(products_by_id, blind, rates, settings):
         p = products_by_id[pid]
         allowed_cur = (WORLDWIDE_CURRENCIES if p.get("worldwide")
                        else ALLOWED_CURRENCIES)
-        # kraj zapytania wg TLD sklepu (bike24.de -> gl=de); inne TLD -> eu[0]
+        # kraj zapytania wg TLD sklepu (bike24.de -> gl=de, bikero.cz ->
+        # gl=cz - kazdy kraj Europy); TLD neutralne (.com) -> eu[0]
         by_gl = {}
         for dom in doms:
             tld = dom.rsplit(".", 1)[-1]
-            by_gl.setdefault(tld if tld in eu else eu[0], set()).add(dom)
+            by_gl.setdefault(tld if tld in _GL_CURRENCY else eu[0],
+                             set()).add(dom)
         query = _google_query(p)
         for gl, want in by_gl.items():
             items, used = [], None

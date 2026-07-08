@@ -7,6 +7,15 @@ settings:
     - de
     - pl
     - it
+  # szersza Europa dla Serpera (osobna pula 2500 darmowych zapytan)
+  discovery_countries:
+    - de
+    - pl
+    - it
+    - cz
+    - fr
+    - es
+    - nl
 products:
   - variant_strict: true
     id: FM2797
