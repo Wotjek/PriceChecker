@@ -419,8 +419,10 @@ def serper_shopping_items(query, api_key, gl=None):
                                    "User-Agent": UA},
                           json=payload, timeout=TIMEOUT)
         r.raise_for_status()
-        _serper_used["n"] += 1
-        return r.json().get("shopping", [])
+        j = r.json()
+        # /shopping kosztuje 2 kredyty - odpowiedz podaje realny koszt
+        _serper_used["n"] += int(j.get("credits") or 1)
+        return j.get("shopping", [])
     except Exception as e:
         if not _auth_fail("serper", e, _HINT_SERPER):
             log(f"[SHOPPING][serper] Blad zapytania '{query}': {e}")
@@ -441,8 +443,9 @@ def serper_search(query, api_key, gl=None):
                                    "User-Agent": UA},
                           json=payload, timeout=TIMEOUT)
         r.raise_for_status()
-        _serper_used["n"] += 1
-        return [it["link"] for it in r.json().get("organic", [])
+        j = r.json()
+        _serper_used["n"] += int(j.get("credits") or 1)
+        return [it["link"] for it in j.get("organic", [])
                 if it.get("link")]
     except Exception as e:
         if not _auth_fail("serper", e, _HINT_SERPER):
