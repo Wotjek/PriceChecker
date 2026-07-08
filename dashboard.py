@@ -126,11 +126,18 @@ th{font-family:'Barlow Condensed';text-transform:uppercase;letter-spacing:.1em;f
   font-size:12px;color:var(--faint);text-align:left;padding:8px 12px;border-bottom:1px solid var(--line)}
 td{padding:9px 12px;border-bottom:1px solid rgba(38,48,58,.5)}
 td.num{font-family:'JetBrains Mono';font-weight:500}
-tr.best td{background:rgba(95,211,196,.06)}
-tr.best td:first-child{border-left:3px solid var(--teal)}
+tr.best td{background:rgba(70,211,154,.10)}
+tr.best td:first-child{border-left:3px solid var(--good)}
+tr.best td.num{color:var(--good)}
 tr.rowlink{cursor:pointer}
 tr.rowlink:hover td{background:rgba(95,211,196,.09)}
 .pill{font-size:12px;color:var(--faint)}
+.tagbest{display:inline-block;margin-left:8px;padding:1px 8px;border-radius:4px;font-size:10px;
+  font-family:'Barlow Condensed';letter-spacing:.12em;text-transform:uppercase;font-weight:700;
+  background:rgba(70,211,154,.15);color:var(--good);border:1px solid rgba(70,211,154,.4)}
+.pctup{font-size:11px;color:var(--faint);font-family:'JetBrains Mono'}
+.up{color:var(--bad)} .down{color:var(--good)}
+.avail-ok{color:var(--good)} .avail-no{color:var(--fire)}
 
 /* konfiguracja */
 .cfgcard{border:1px solid var(--line);border-radius:10px;padding:16px;margin-bottom:14px;background:var(--panel2)}
@@ -331,9 +338,15 @@ function renderOffersTables(wrap, products){
     const rows=(todays[p.id]||[]).sort((a,b)=>+a.price_pln-+b.price_pln);
     if(!rows.length) continue;
     let html=`<table><thead><tr><th>${esc(p.name)}</th><th>Cena</th><th>PLN</th><th>Dostępność</th><th>Link</th></tr></thead><tbody>`;
-    rows.forEach((o,i)=>{html+=`<tr class="${i===0?'best':''}">
-      <td>${esc(o.domain)}</td><td class="num">${(+o.price).toLocaleString('pl-PL')} ${esc(o.currency)}</td>
-      <td class="num">${pln.format(+o.price_pln)}</td><td class="pill">${esc(o.availability)}</td>
+    const best = +rows[0].price_pln;
+    rows.forEach(o=>{
+      const isBest = +o.price_pln <= best + 0.001;
+      const diff = best ? (+o.price_pln - best) / best * 100 : 0;
+      html+=`<tr class="${isBest?'best':''}">
+      <td>${esc(o.domain)}${isBest?'<span class="tagbest">najtaniej</span>':''}</td>
+      <td class="num">${(+o.price).toLocaleString('pl-PL')} ${esc(o.currency)}</td>
+      <td class="num">${pln.format(+o.price_pln)}${isBest?'':` <span class="pctup">+${diff.toFixed(1).replace('.',',')}%</span>`}</td>
+      <td class="pill ${/instock|dostepn/i.test(o.availability)?'avail-ok':'avail-no'}">${esc(o.availability)}</td>
       <td><a href="${esc(o.url)}" target="_blank" rel="noopener">otwórz →</a></td></tr>`;});
     wrap.insertAdjacentHTML('beforeend', html+'</tbody></table><br>');
   }
@@ -347,17 +360,23 @@ function renderList(el){
   const hist = byKey(state.history,'product_id');
   let html = `<div class="panelbox"><h3 class="sect" style="margin-top:0">Wszystkie produkty
       <span class="pill">· kliknij wiersz, żeby zobaczyć szczegóły</span></h3>
-    <table><thead><tr><th>Produkt</th><th>Aktualnie (PLN)</th><th>Min. historyczne</th>
+    <table><thead><tr><th>Produkt</th><th>Aktualnie (PLN)</th><th>vs min</th><th>Min. historyczne</th>
       <th>Cel</th><th>Sklep</th><th></th></tr></thead><tbody>`;
   for(const p of products){
     const h=(hist[p.id]||[]).slice().sort((a,b)=>a.date<b.date?-1:1);
     const last=h[h.length-1];
+    const prev=h.length>1?h[h.length-2]:null;
     const min=h.length?h.reduce((a,b)=>+a.price_pln<=+b.price_pln?a:b):null;
     const target=p.target_pln?+p.target_pln:0;
     const buy=target&&last&&+last.price_pln<=target;
+    const atMin=last&&min&&+last.price_pln<=+min.price_pln+0.001;
+    const vsMin=(last&&min&&!atMin)?((+last.price_pln-+min.price_pln)/+min.price_pln*100):0;
+    const dd=(last&&prev)?((+last.price_pln-+prev.price_pln)/+prev.price_pln*100):0;
+    const trend=(prev&&Math.abs(dd)>=0.05)?` · <span class="${dd>0?'up':'down'}">${dd>0?'▲':'▼'} ${Math.abs(dd).toFixed(1).replace('.',',')}%</span>`:'';
     html+=`<tr class="rowlink ${buy?'best':''}" data-pid="${esc(p.id)}">
       <td><b>${esc(p.name)}</b><br><span class="mono" style="color:var(--faint);font-size:11px">${esc(p.id)}${p.worldwide?' · WW':''}</span></td>
-      <td class="num">${last?pln.format(+last.price_pln):'—'}${last?`<br><span style="color:var(--faint);font-size:11px">${esc(last.date)}</span>`:''}</td>
+      <td class="num">${last?pln.format(+last.price_pln):'—'}${last?`<br><span style="color:var(--faint);font-size:11px">${esc(last.date)}${trend}</span>`:''}</td>
+      <td class="num">${!last||!min?'—':atMin?'<span class="down" title="Aktualna cena równa minimum historycznemu">● = min</span>':`<span class="up" title="O tyle drożej niż minimum historyczne">▲ +${vsMin.toFixed(1).replace('.',',')}%</span>`}</td>
       <td class="num">${min?pln.format(+min.price_pln):'—'}${min?`<br><span style="color:var(--faint);font-size:11px">${esc(min.date)}</span>`:''}</td>
       <td class="num">${target?pln.format(target):'—'}${buy?'<br><span class="buy">● KUP</span>':''}</td>
       <td>${last?`<a href="${esc(last.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(last.shop)} →</a>`:'—'}</td>
