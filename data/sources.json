@@ -1407,6 +1407,11 @@
       "domain": "whizz-wheels.de",
       "first_seen": "2026-07-08",
       "via": "crawl"
+    },
+    "https://whizz-wheels.de/shop/Tool-Kit-Set-For-FW-350-370-SA15/HWTXXX00N5290S": {
+      "domain": "whizz-wheels.de",
+      "first_seen": "2026-07-08",
+      "via": "crawl"
     }
   },
   "Ritchey WCS Carbon ErgoMax": {
