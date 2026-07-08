@@ -1402,6 +1402,11 @@
       "domain": "whizz-wheels.de",
       "first_seen": "2026-07-08",
       "via": "crawl"
+    },
+    "https://whizz-wheels.de/shop/Wartungskit-fuer-240s-440-Freeride-Huegi-240-Huegi-FR-DT-350-190-Ceramic/HWTXXX00NSK24S": {
+      "domain": "whizz-wheels.de",
+      "first_seen": "2026-07-08",
+      "via": "crawl"
     }
   },
   "Ritchey WCS Carbon ErgoMax": {
