@@ -254,6 +254,36 @@
       "domain": "bikeinsights.com",
       "first_seen": "2026-07-08",
       "via": "tavily"
+    },
+    "https://www.randalls.com/shop/product-details.960088132.html": {
+      "domain": "randalls.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.texasfood.com/austin-grand-prize-salsa.html": {
+      "domain": "texasfood.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.heb.com/product-detail/eva-s-kitchen-cantina-style-mild-salsa/2916506": {
+      "domain": "heb.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://oasisbroadcastingnetwork.com": {
+      "domain": "oasisbroadcastingnetwork.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://cooking.nytimes.com/recipes/1023521-salsa-taquera": {
+      "domain": "cooking.nytimes.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://solitatacos.com/vibrant-baja-cuisine-balboa-marina": {
+      "domain": "solitatacos.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
     }
   },
   "LAUF-CARBONARA": {
@@ -571,6 +601,71 @@
     },
     "https://www.steepandcheap.com/lake-mx190-wide-mountain-bike-shoe": {
       "domain": "steepandcheap.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.walmart.com/ip/Luxrite-16-Pack-3-Inch-Ultra-Thin-LED-Recessed-Light-J-Box-6W-5-Color-Options-Dimmable-400-Lumens-Baffle-IC-Rated/561116300": {
+      "domain": "walmart.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.instacart.com/products/21933851-monster-illuminessence-3-led-strip-kit-with-premium-rf-touch-remote-each": {
+      "domain": "instacart.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.gosupps.com/libby-s-pears-sliced-in-pear-juices-concentrate-15-ounces-cans-pack-of-12.html": {
+      "domain": "gosupps.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://branzoe.com/products/lifetime-commercial-fold-in-half-table-72l-x-30w-x-29h-almond": {
+      "domain": "branzoe.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.officedepot.com/a/products/9212267/Cascade-Platinum-Dishwasher-ActionPacs-Fresh-199": {
+      "domain": "officedepot.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.truevalue.com/product/952590/lumineo-durawise-multi-48-bulb-3mm-led-battery-operated-light-set-952590": {
+      "domain": "truevalue.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.homelectrical.com/charmin-ultra-soft-2-ply-mega-roll-18-count.pgc-86809.1.html": {
+      "domain": "homelectrical.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.target.com/p/ge-household-lighting-6-39-39-cync-reveal-hd-wafer-full-color/-/A-94970642": {
+      "domain": "target.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.target.com/p/lumabase-10ct-electric-led-luminaria-kit-multicolor/-/A-94785647": {
+      "domain": "target.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.lowes.com/pd/Choco-Moon-Bookshelf-Storage-Shelf-Bookcase-6-Tier-Bookshelf-71in-Industrial-Bookcase-Display-Shelf-Walnut-Black/8906275": {
+      "domain": "lowes.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.hillnmarkes.com/12723/brand/101": {
+      "domain": "hillnmarkes.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.carrefouruae.com/mafuae/en/xmas-home-decoration/christmas-atmosphera-plastic-bauble-set-18-pc-3-x-4-2-cm-red-/p/1256485872352": {
+      "domain": "carrefouruae.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://playtristore.com/products/lake-cycling-mx-190-wide-cycling-shoe": {
+      "domain": "playtristore.com",
       "first_seen": "2026-07-08",
       "via": "tavily"
     }
@@ -913,6 +1008,16 @@
     },
     "https://wheelbuilder.com/dt-swiss-hub-conversion-kits": {
       "domain": "wheelbuilder.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.fat-bike.de/dt-swiss-br2250_en": {
+      "domain": "fat-bike.de",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://icancycling.com/products/90c-fat-bike-wheels-dt350s": {
+      "domain": "icancycling.com",
       "first_seen": "2026-07-08",
       "via": "tavily"
     }
@@ -1282,6 +1387,16 @@
       "domain": "performancebike.com",
       "first_seen": "2026-07-08",
       "via": "tavily"
+    },
+    "https://www.jensonusa.com/dt-swiss-350-mountain-rear-hub": {
+      "domain": "jensonusa.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.prowheelbuilder.com/dt-swiss-350-2021-front-black-hub.html": {
+      "domain": "prowheelbuilder.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
     }
   },
   "Ritchey WCS Carbon ErgoMax": {
@@ -1567,6 +1682,81 @@
     },
     "https://www.rei.com/product/219220/ritchey-comp-ergomax-drop-handlebar": {
       "domain": "rei.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://ridebicycles.com/products/ritchey-wcs-ergomax-drop-handlebar": {
+      "domain": "ridebicycles.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.probikesupply.com/products/ritchey-wcs-ergomax-drop-handlebar-aluminum-31-8mm-42cm-matte-black": {
+      "domain": "probikesupply.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.treefortbikes.com/Ritchey-WCS-Ergomax-Handlebar": {
+      "domain": "treefortbikes.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.ridewill.com/p/en/ritchey-rt30355427076-wcs-ergomax-42cm-gravel-handlebar-compatible-di2/594960": {
+      "domain": "ridewill.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.modernbike.com/mone-pebblito-drop-bar-31.8-42cm-16deg-black": {
+      "domain": "modernbike.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://bicyclewarehouse.com/products/wcs-ergomax-drop-handlebar-aluminum-42cm-31-8mm-matte-black": {
+      "domain": "bicyclewarehouse.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.bike-components.de/en/Ritchey/WCS-EvoMax-31-8-Handlebars-p68501": {
+      "domain": "bike-components.de",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://northwestbicycle.com/products/ritchey-wcs-ergomax-drop-handlebar-aluminum-31-8mm-42cm-matte-black-hb4915": {
+      "domain": "northwestbicycle.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.thebikerack.com/product/ritchey-wcs-ergomax-handlebar-389650-1.htm": {
+      "domain": "thebikerack.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.whitepages.com/phone/1-770-254-2711": {
+      "domain": "whitepages.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.smallenginesprodealer.com/part-redmax-582342701": {
+      "domain": "smallenginesprodealer.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.bikeparts.com/BPC490265/ritchey-wcs-carbon-ergomax-drop-handlebar-carbon-42cm-318mm-matte-carbon-": {
+      "domain": "bikeparts.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.ridinggravel.com/components/ritchey-wcs-butano-and-ergomax-handle-bars-quick-review": {
+      "domain": "ridinggravel.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.thewashingmachinepost.net/ritchey/ergomax_bars/review.html": {
+      "domain": "thewashingmachinepost.net",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://ritcheylogic.com/bike/handlebars": {
+      "domain": "ritcheylogic.com",
       "first_seen": "2026-07-08",
       "via": "tavily"
     }
@@ -2001,6 +2191,71 @@
     },
     "https://www.bike24.com/p2116191.html": {
       "domain": "bike24.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.acehardware.com/departments/home-and-decor/novelty-items/toys-and-games/9126782": {
+      "domain": "acehardware.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.wal-mart.com/c/kp/2020-core": {
+      "domain": "wal-mart.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.instacart.com/products/29794929-hubbell-1g-wp-box-cover-wrtr-duplex-kit-brz-58397wrtrb-box-1-g": {
+      "domain": "instacart.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.walmart.com/ip/11-Pieces-Air-Accessory-Set-Air-Accessory-Kits-Pneumatics/5398235494": {
+      "domain": "walmart.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.homedepot.com/p/HomeRoots-Multi-Colored-12-25-in-x-17-in-Novelty-Metal-Abstract-2000628146/339797833": {
+      "domain": "homedepot.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.walmart.com/ip/24PC-Airtigh-Stor-Set/47054240": {
+      "domain": "walmart.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.target.com/p/scotch-1-5-24pk-felt-pads/-/A-84129437": {
+      "domain": "target.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.wal-mart.com/ip/7pcs-Air-compressor-accessory-kit/3408360168": {
+      "domain": "wal-mart.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.walmart.com/seller/102907315/cp/shopall?affinityOverride=default": {
+      "domain": "walmart.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.target.com/p/lalo-9-84-34-stainless-steel-suction-baby-plate-bubble-gum/-/A-95047910": {
+      "domain": "target.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://bikable.com/parts/headsets/cane-creek-40-headset-is41286-is5240": {
+      "domain": "bikable.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.bicycleway.com/product/cane-creek-40-is41-is52-tapered-headset-236521-1.htm": {
+      "domain": "bicycleway.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.paradisegarage.com/product/cane-creek-40-is41-is52-tapered-headset-236521-1.htm": {
+      "domain": "paradisegarage.com",
       "first_seen": "2026-07-08",
       "via": "tavily"
     }
@@ -2453,6 +2708,41 @@
     },
     "https://www.twohoosierscyclery.com/sram-gx-t-type-upgrade-kit.html": {
       "domain": "twohoosierscyclery.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.buycott.com/upc/887615175374": {
+      "domain": "buycott.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.homedepot.com/p/Golden-Vantage-HEX-16-in-W-x-12-in-H-x-4-in-D-Silver-Shower-Niche-Set-of-1-Piece-in-Stainless-Steel-SN2-1S/338282075": {
+      "domain": "homedepot.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://ratiotechnology.com/product/12-speed-upgrade-kit": {
+      "domain": "ratiotechnology.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://reactionteam.org?m=18009396051550": {
+      "domain": "reactionteam.org",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.exportersvyapar.com?a=18009396001480": {
+      "domain": "exportersvyapar.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://theradavist.com/sram-gx-eagle-axs-transmission-upgrade-kit": {
+      "domain": "theradavist.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.trekbikes.com/us/en_US/equipment/cycling-components/bike-groupsets-build-kits/sram-gx-transmission-axs-upgrade-kit/p/5336558": {
+      "domain": "trekbikes.com",
       "first_seen": "2026-07-08",
       "via": "tavily"
     }
@@ -2917,6 +3207,41 @@
       "domain": "pinemountainsports.com",
       "first_seen": "2026-07-08",
       "via": "tavily"
+    },
+    "https://www.superflywheels.com/product/sram-gx-eagle-transmission-flattop-chain-678202-1.htm": {
+      "domain": "superflywheels.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.sledshedshop.com/product/sram-gx-eagle-transmission-flattop-chain-678202-1.htm": {
+      "domain": "sledshedshop.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.rei.com/product/232343/sram-gx-eagle-transmission-t-type-flattop-12-speed-chain": {
+      "domain": "rei.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.t-townbicycles.com/product/sram-gx-eagle-transmission-flattop-chain-678202-1.htm": {
+      "domain": "t-townbicycles.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.machineryrowbicycles.com/product/sram-gx-eagle-transmission-flattop-chain-678202-1.htm": {
+      "domain": "machineryrowbicycles.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.cyclecenter.com/product/sram-gx-eagle-transmission-flattop-chain-678202-1.htm": {
+      "domain": "cyclecenter.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.bikeshopak.com/product/sram-gx-eagle-transmission-flattop-chain-678202-1.htm": {
+      "domain": "bikeshopak.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
     }
   },
   "ROCK SHOX SID": {
@@ -3084,6 +3409,26 @@
       "domain": "forumrowerowe.org",
       "first_seen": "2026-07-08",
       "via": "tavily"
+    },
+    "https://saebycykler.dk/vare/rockshox-sid-sl-select-charger-rl-29-3p-110mm-schwarz-konisch-remote-44mm-offset-15x110-boost-exkl-remote": {
+      "domain": "saebycykler.dk",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://dragonspinecycling.com/products/rockshox-sid-sl-select-3p-remote-e1-suspension-fork-29-debonair-110mm-1-1-8-1-5-15x110mm-ta-rake-44mm-black-remote-sold-separately": {
+      "domain": "dragonspinecycling.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.blackmountainbicycles.com/products/rockshox-sid-sl-select-3p-remote-e1-suspension-fork-29-debonair-110mm-1-1-8-1-5-15x110mm-ta-rake-44mm-black-remote-sold-separately": {
+      "domain": "blackmountainbicycles.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://business.walmart.com/ip/3-Pcs-Cabinet-Lights-Plug-in-12-Inch-Ultra-Thin-Cabinet-Lighting-Super-Bright-Daylight-White-Counter-Lights-Kitchen-Dimmable-Light-Cabinet-Counter-Wo/12676904852": {
+      "domain": "business.walmart.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
     }
   },
   "Lake MX242": {
@@ -3184,6 +3529,61 @@
     },
     "https://bikefit-kit.com/products/lake-mx242-mtb-cycling-shoes": {
       "domain": "bikefit-kit.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.lowes.com/pd/Bayfeve-45In-Modern-Chrome-7-Light-LED-Vanity-Light-Square-Acrylic-Lampshades-Wall-Mount-Fixture/5016083757": {
+      "domain": "lowes.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.target-specialty.com/vector-plasma-one-screened-insect-light-trap": {
+      "domain": "target-specialty.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.countrymax.com/miracle-gro-performance-organics-all-purpose-container-mix-1-cu-ft": {
+      "domain": "countrymax.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.healthwarehouse.com/cetaphil-gentle-cleansing-bar-4-5oz": {
+      "domain": "healthwarehouse.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.nassaucandy.com/arizona-tallboy-fruit-punch-20oz.html": {
+      "domain": "nassaucandy.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://cart2india.com/mens/lake-mx242-endurance-wide-cycling-shoe-mens-blacksilver-400/00000000004397092776": {
+      "domain": "cart2india.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.thehiddenreef.com/omega-catfish-pellets-45-oz.html": {
+      "domain": "thehiddenreef.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.southsidecyclery.com/product/lake-mx242-wide-455607-1.htm": {
+      "domain": "southsidecyclery.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.lakecycling.com/collections/offroad": {
+      "domain": "lakecycling.com",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.bike-discount.de/en/lake-mx242-x-wide-mtb-shoes-20154493": {
+      "domain": "bike-discount.de",
+      "first_seen": "2026-07-08",
+      "via": "tavily"
+    },
+    "https://www.biketiresdirect.com/search/lake-shoes": {
+      "domain": "biketiresdirect.com",
       "first_seen": "2026-07-08",
       "via": "tavily"
     }
