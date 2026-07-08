@@ -1397,6 +1397,11 @@
       "domain": "prowheelbuilder.com",
       "first_seen": "2026-07-08",
       "via": "tavily"
+    },
+    "https://whizz-wheels.de/shop/HR-Achse-boost-12-x-148-t.a.-240-350-370/HCCXXX00S6450S": {
+      "domain": "whizz-wheels.de",
+      "first_seen": "2026-07-08",
+      "via": "crawl"
     }
   },
   "Ritchey WCS Carbon ErgoMax": {
