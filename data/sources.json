@@ -1412,6 +1412,11 @@
       "domain": "whizz-wheels.de",
       "first_seen": "2026-07-08",
       "via": "crawl"
+    },
+    "https://whizz-wheels.de/shop/HR-Kit-fuer-135x12-mm-DT-240-440-350-370-3-Klinken-System/HWGXXX0002218S": {
+      "domain": "whizz-wheels.de",
+      "first_seen": "2026-07-08",
+      "via": "crawl"
     }
   },
   "Ritchey WCS Carbon ErgoMax": {
