@@ -1206,9 +1206,12 @@ def _title_ok(p, text):
     """Filtry jakosci na tytule oferty z Google (odpowiednik require_tokens
     + wariant + tokeny nazwy z monitoringu). Zwraca (ok, notka_do_logu)."""
     text = text.lower()
+    # tytuly w feedach bywaja rozstrzelone ("Ergo Max" vs "ergomax",
+    # "42 cm" vs "42cm") - tokeny dopasowujemy takze na tekscie bez spacji
+    squeezed = re.sub(r"\s+", "", text)
     # tytul musi wygladac na TEN produkt: kod modelu z cyfra albo >=2 tokeny
     tokens = _product_tokens(p)
-    hits = {t for t in tokens if t in text}
+    hits = {t for t in tokens if t in text or t in squeezed}
     strong = any(any(ch.isdigit() for ch in t) for t in hits)
     if not strong and len(hits) < 2:
         return False, "tytul nie pasuje do produktu"
