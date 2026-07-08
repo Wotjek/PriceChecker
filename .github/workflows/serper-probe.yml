@@ -11,9 +11,9 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        n: [1, 2, 3, 4, 5, 6]
+        n: [1, 2]
     steps:
-      - name: Zapytanie testowe z runnera
+      - name: Zapytanie testowe z runnera (curl + python requests)
         env:
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
         run: |
@@ -23,5 +23,18 @@ jobs:
             -H "X-API-KEY: $SERPER_API_KEY" \
             -H "Content-Type: application/json" \
             -d '{"q":"probe"}')
-          echo "Status serpera: $code"
-          echo "Poczatek odpowiedzi: $(head -c 120 /tmp/resp.json)"
+          echo "curl /search: $code"
+          pip install -q requests
+          python3 - <<'EOF'
+          import os, requests
+          k = os.environ["SERPER_API_KEY"]
+          for ep, payload in (("search", {"q": "probe"}),
+                              ("shopping", {"q": "probe"}),
+                              ("shopping", {"q": "probe", "gl": "de"})):
+              r = requests.post(f"https://google.serper.dev/{ep}",
+                                headers={"X-API-KEY": k,
+                                         "Content-Type": "application/json"},
+                                json=payload, timeout=20)
+              print(f"python /{ep} gl={payload.get('gl')}: {r.status_code} "
+                    f"{r.text[:80]}")
+          EOF
