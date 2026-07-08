@@ -28,13 +28,16 @@ jobs:
           python3 - <<'EOF'
           import os, requests
           k = os.environ["SERPER_API_KEY"]
-          for ep, payload in (("search", {"q": "probe"}),
-                              ("shopping", {"q": "probe"}),
-                              ("shopping", {"q": "probe", "gl": "de"})):
-              r = requests.post(f"https://google.serper.dev/{ep}",
-                                headers={"X-API-KEY": k,
-                                         "Content-Type": "application/json"},
-                                json=payload, timeout=20)
-              print(f"python /{ep} gl={payload.get('gl')}: {r.status_code} "
-                    f"{r.text[:80]}")
+          UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/124.0.0.0 Safari/537.36")
+          for ua in (None, UA):
+              h = {"X-API-KEY": k, "Content-Type": "application/json"}
+              if ua:
+                  h["User-Agent"] = ua
+              r = requests.post("https://google.serper.dev/shopping",
+                                headers=h, json={"q": "probe", "gl": "de"},
+                                timeout=20)
+              print(f"python /shopping UA={'Mozilla' if ua else 'domyslny'}: "
+                    f"{r.status_code} {r.text[:80]}")
           EOF
