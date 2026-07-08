@@ -10,6 +10,7 @@ OUTPUT = ROOT / "output"
 OFFERS_CSV = ROOT / "data" / "all_offers.csv"
 QUOTA_FILE = ROOT / "data" / "serpapi_quota.json"
 SERPER_QUOTA_FILE = ROOT / "data" / "serper_quota.json"
+BLIND_FILE = ROOT / "data" / "blind_spots.json"
 RUNLOG_FILE = ROOT / "data" / "last_run.log"
 DOCS = ROOT / "docs"           # kopia dashboardu dla GitHub Pages
 WORKFLOW_FILE = "price-tracker.yml"
@@ -171,11 +172,18 @@ input:focus,textarea:focus{outline:none;border-color:var(--teal)}
   white-space:pre;overflow:auto;max-height:68vh}
 .ll{color:var(--muted)} .ll-info{color:var(--ink)} .ll-ok{color:var(--good)}
 .ll-http{color:var(--fire)} .ll-noprice{color:var(--bad)}
-.ll-skip{color:var(--faint)} .ll-crawl{color:var(--teal)}
+.ll-skip{color:var(--faint)} .ll-crawl{color:var(--teal)} .ll-blind{color:var(--fire)}
 .logchip{cursor:pointer} .logchip:hover{border-color:var(--faint)}
 .logchip.onf{border-color:var(--teal)}
 .lv-ok{color:var(--good)} .lv-http{color:var(--fire)} .lv-noprice{color:var(--bad)}
-.lv-skip{color:var(--muted)} .lv-crawl{color:var(--teal)}
+.lv-skip{color:var(--muted)} .lv-crawl{color:var(--teal)} .lv-blind{color:var(--fire)}
+.blindbox{margin-bottom:18px;padding:14px 16px;border:1px solid rgba(240,160,60,.4);
+  border-radius:10px;background:rgba(240,160,60,.06)}
+.blindbox.okbb{border-color:rgba(70,211,154,.35);background:rgba(70,211,154,.05);
+  color:var(--good);font-size:13px}
+.blindbox .hint{margin-top:10px;font-size:12px;color:var(--faint);line-height:1.5}
+.blindbox code{background:rgba(240,160,60,.14);padding:1px 7px;border-radius:4px;
+  font-size:12px;font-family:'JetBrains Mono'}
 
 #toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%);background:var(--panel);
   border:1px solid var(--line);border-radius:8px;padding:12px 20px;font-size:14px;opacity:0;
@@ -530,22 +538,38 @@ function renderProduct(el, pid){
 /* ================= DIAGNOSTYKA ================= */
 const LOG_CATS = [
   ["ok",    "Oferty z ceną",  l=>/^\s*\+\s/.test(l)],
+  ["blind", "Blind spoty",    l=>/\[BLIND\]|blind spoty/.test(l)],
   ["http",  "Błędy HTTP / sieć", l=>/HTTP \d+|blad pobierania/.test(l)],
   ["noprice","Brak danych o cenie", l=>/brak danych o cenie/.test(l)],
   ["skip",  "Odfiltrowane",   l=>/pomijam|niedostepny|brak wariantu/.test(l)],
   ["crawl", "Auto-crawl",     l=>/^\s*~\s/.test(l)],
 ];
 function classifyLog(l){ for(const [k,,fn] of LOG_CATS) if(fn(l)) return k; return 'info'; }
+function blindPanel(){
+  const b = DATA.blind;
+  if(!b) return '';
+  const spots = b.spots||{};
+  const pids = Object.keys(spots);
+  const pname = id => ((DATA.products||[]).find(p=>p.id===id)||{name:id}).name;
+  if(!pids.length) return `<div class="blindbox okbb">✓ Brak blind spotów — każdy sklep z bazy dał cenę (bezpośrednio albo przez Google) · stan z ${esc(b.date||'')}</div>`;
+  return `<div class="blindbox">
+    <h3 class="sect" style="margin-top:0">Blind spoty <span class="pill">· sklepy blokujące bez ceny z Google · stan z ${esc(b.date||'')}</span></h3>
+    <table><thead><tr><th>Produkt</th><th>Sklepy bez ceny</th></tr></thead><tbody>
+    ${pids.map(pid=>`<tr><td>${esc(pname(pid))}</td><td>${spots[pid].map(d=>`<code>${esc(d)}</code>`).join(' ')}</td></tr>`).join('')}
+    </tbody></table>
+    <div class="hint">Te sklepy odrzucają pobieranie, a Google (Shopping i indeks) nie dał ich ceny. Dodaj powyższe domeny do swojej wyszukiwarki Programmable Search (programmablesearchengine.google.com → Twoja wyszukiwarka → „Witryny do przeszukania") — przy kolejnym FIRE warstwa CSE pobierze cenę z indeksu Google, a sklep zniknie z tej listy. Lista jest nadpisywana po każdym runie i pokazuje wyłącznie aktualne braki.</div>
+  </div>`;
+}
 function renderDiag(el){
   const lines = state.runlog||[];
   if(!lines.length){
-    el.innerHTML='<div class="emptybig">Brak logu ostatniego przebiegu — uruchom FIRE albo „Odśwież dane"</div>';
+    el.innerHTML=blindPanel()+'<div class="emptybig">Brak logu ostatniego przebiegu — uruchom FIRE albo „Odśwież dane"</div>';
     return;
   }
   const cls = lines.map(classifyLog);
   const cnt = k => cls.filter(c=>c===k).length;
   const flt = state.logFilter||'';
-  el.innerHTML = `
+  el.innerHTML = blindPanel() + `
   <div class="chips">${LOG_CATS.map(([k,lbl])=>
     `<div class="chip logchip ${flt===k?'onf':''}" data-k="${k}">
       <div class="lbl">${lbl}</div><div class="val lv-${k}">${cnt(k)}</div>
@@ -696,6 +720,7 @@ async function refresh(silent){
     state.history=h; state.offers=o;
     try{ DATA.serpapi=JSON.parse(await fetchText('data/serpapi_quota.json')); }catch(e){}
     try{ DATA.serper=JSON.parse(await fetchText('data/serper_quota.json')); }catch(e){}
+    try{ DATA.blind=JSON.parse(await fetchText('data/blind_spots.json')); }catch(e){}
     try{ state.runlog=(await fetchText('data/last_run.log')).split('\n'); }catch(e){}
     try{ const cfg=jsyaml.load(await fetchText('products.yaml'))||{};
       if(Array.isArray(cfg.products)) DATA.products=cfg.products.filter(p=>p&&p.id)
@@ -795,6 +820,8 @@ def build_dashboard(rows, products, settings, generated):
                    if QUOTA_FILE.exists() else None,
         "serper": json.loads(SERPER_QUOTA_FILE.read_text(encoding="utf-8"))
                   if SERPER_QUOTA_FILE.exists() else None,
+        "blind": json.loads(BLIND_FILE.read_text(encoding="utf-8"))
+                 if BLIND_FILE.exists() else None,
         "runlog": (RUNLOG_FILE.read_text(encoding="utf-8")
                    .splitlines()[-RUNLOG_EMBED_LINES:]
                    if RUNLOG_FILE.exists() else []),

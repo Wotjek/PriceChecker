@@ -34,6 +34,7 @@ HISTORY_FILE = DATA / "history.csv"       # najlepsza cena / produkt / dzien
 OFFERS_FILE = DATA / "all_offers.csv"     # wszystkie znalezione oferty (audyt)
 QUOTA_FILE = DATA / "serpapi_quota.json"  # stan limitu darmowych zapytan SerpAPI
 SERPER_QUOTA_FILE = DATA / "serper_quota.json"  # lokalny licznik kredytow Serper
+BLIND_FILE = DATA / "blind_spots.json"  # sklepy bez ceny mimo Google (per run)
 EXCEL_FILE = OUTPUT / "prices.xlsx"
 
 # Naglowki jak w prawdziwym Chrome - czesc sklepow (bike24, r2-bike, allegro)
@@ -1601,6 +1602,21 @@ def main():
     offers += fill_blind_spots(products, blind, rates, settings)
     offers = drop_outliers(offers)
     save_serper_quota(settings)  # po discovery i blind spotach - pelne zuzycie
+
+    # nierozwiazane blind spoty: sklep blokuje, a Google tez nie dal ceny.
+    # Plik nadpisywany co run - sklep znika z listy, gdy tylko cena wroci
+    # (dashboard pokazuje to w Diagnostyce jako liste domen do recznego
+    # dopisania do wyszukiwarki PSE)
+    have = {(o["product_id"], o["domain"]) for o in offers}
+    unresolved = {pid: [d for d in doms if (pid, d) not in have]
+                  for pid, doms in blind.items()}
+    unresolved = {pid: doms for pid, doms in unresolved.items() if doms}
+    BLIND_FILE.write_text(json.dumps(
+        {"date": date.today().isoformat(), "spots": unresolved},
+        indent=2, ensure_ascii=False), encoding="utf-8")
+    for pid, doms in unresolved.items():
+        log(f"[BLIND] {pid}: bez ceny (sklep blokuje, Google nie pokryl): "
+            f"{', '.join(doms)}")
     # URL-e znalezione auto-crawlem w monitoringu -> utrwal w bazie
     SOURCES_FILE.write_text(json.dumps(sources, indent=2, ensure_ascii=False),
                             encoding="utf-8")
