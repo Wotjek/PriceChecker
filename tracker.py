@@ -335,6 +335,43 @@ def brave_search(query, api_key):
         return []
 
 
+def serper_shopping_items(query, api_key, gl=None):
+    """Serper.dev Google Shopping - te same dane co serpapi_shopping_items
+    (feed Merchant Center), inny dostawca: 2500 darmowych zapytan bez karty.
+    Ceny tylko jako tekst ('3.499,00 EUR') - parsowane przy dopasowaniu."""
+    try:
+        payload = {"q": query.replace('"', "")}
+        if gl:
+            payload["gl"] = gl
+        r = requests.post("https://google.serper.dev/shopping",
+                          headers={"X-API-KEY": api_key,
+                                   "Content-Type": "application/json"},
+                          json=payload, timeout=TIMEOUT)
+        r.raise_for_status()
+        return r.json().get("shopping", [])
+    except Exception as e:
+        log(f"[SHOPPING][serper] Blad zapytania '{query}': {e}")
+        return []
+
+
+def serper_search(query, api_key, gl=None):
+    """Serper.dev - organiczne wyniki Google (discovery)."""
+    try:
+        payload = {"q": query, "num": 20}
+        if gl:
+            payload["gl"] = gl
+        r = requests.post("https://google.serper.dev/search",
+                          headers={"X-API-KEY": api_key,
+                                   "Content-Type": "application/json"},
+                          json=payload, timeout=TIMEOUT)
+        r.raise_for_status()
+        return [it["link"] for it in r.json().get("organic", [])
+                if it.get("link")]
+    except Exception as e:
+        log(f"[DISCOVERY][serper] Blad zapytania '{query}': {e}")
+        return []
+
+
 def _discovery_engines():
     """Buduje liste dostepnych silnikow na podstawie sekretow w env."""
     engines = []
@@ -343,6 +380,9 @@ def _discovery_engines():
         engines.append(("serpapi", lambda q, gl=None: serpapi_search(q, k, gl)))
         engines.append(("serpapi_shopping",
                         lambda q, gl=None: serpapi_shopping_search(q, k, gl)))
+    if os.environ.get("SERPER_API_KEY", "").strip():
+        k = os.environ["SERPER_API_KEY"].strip()
+        engines.append(("serper", lambda q, gl=None: serper_search(q, k, gl)))
     if os.environ.get("TAVILY_API_KEY", "").strip():
         k = os.environ["TAVILY_API_KEY"].strip()
         engines.append(("tavily", lambda q: tavily_search(q, k)))
@@ -399,10 +439,11 @@ def run_discovery(products, sources, settings):
                 # (najprecyzyjniejszego) zapytania - EAN, gdy jest podany
                 if name == "serpapi_shopping" and q != queries[0]:
                     continue
-                countries = ([None] if (worldwide or not name.startswith("serpapi"))
+                # silniki Google (serpapi*, serper) obsluguja gl= per kraj
+                countries = ([None] if (worldwide or not name.startswith("serp"))
                              else list(eu_countries))
                 for gl in countries:
-                    urls = fn(q, gl=gl) if name.startswith("serpapi") else fn(q)
+                    urls = fn(q, gl=gl) if name.startswith("serp") else fn(q)
                     for url in urls:
                         url = normalize_url(url)
                         dom = domain_of(url)
@@ -1082,19 +1123,36 @@ def _to_float(s):
     return float(s.replace(",", "."))
 
 
+def _shopping_providers(settings):
+    """Dostawcy Google Shopping w kolejnosci uzycia: Serper.dev (osobna,
+    duza pula darmowych zapytan) przed SerpAPI (chronionym rezerwa na
+    discovery). Nastepny dostawca wchodzi, gdy poprzedni nic nie zwrocil."""
+    provs = []
+    k = os.environ.get("SERPER_API_KEY", "").strip()
+    if k:
+        provs.append(("serper",
+                      lambda q, gl: serper_shopping_items(q, k, gl)))
+    k = os.environ.get("SERPAPI_KEY", "").strip()
+    if k:
+        reserve = int(settings.get("serpapi_reserve", 10))
+        left = _serpapi_quota_left()
+        if left is None or int(left) - reserve > 0:
+            provs.append(("serpapi",
+                          lambda q, gl: serpapi_shopping_items(q, k, gl)))
+        else:
+            log(f"[SHOPPING] SerpAPI na wyczerpaniu (pozostalo {left}, "
+                f"rezerwa {reserve}) - pomijam ten silnik")
+    return provs
+
+
 def _shopping_fill(products_by_id, blind, rates, settings):
-    """Warstwa 1: SerpAPI Google Shopping. Zwraca (oferty, pokryte_pary)."""
-    key = os.environ.get("SERPAPI_KEY", "").strip()
-    if not key:
+    """Warstwa 1: Google Shopping (Serper/SerpAPI).
+    Zwraca (oferty, pokryte_pary)."""
+    providers = _shopping_providers(settings)
+    if not providers:
         return [], set()
     budget = int(settings.get("shopping_budget", 4))
-    reserve = int(settings.get("serpapi_reserve", 10))
-    left = _serpapi_quota_left()
-    if left is not None:
-        budget = min(budget, max(0, int(left) - reserve))
     if budget <= 0:
-        log(f"[SHOPPING] Pomijam - limit SerpAPI na wyczerpaniu "
-            f"(pozostalo {left}, rezerwa {reserve})")
         return [], set()
     eu = [str(c).lower() for c in (settings.get("serpapi_countries")
                                    or ["de", "pl"])]
@@ -1110,13 +1168,17 @@ def _shopping_fill(products_by_id, blind, rates, settings):
             by_gl.setdefault(tld if tld in eu else eu[0], set()).add(dom)
         query = _google_query(p)
         for gl, want in by_gl.items():
-            if budget <= 0:
-                log("[SHOPPING] Budzet zapytan na ten run wyczerpany")
-                return offers, covered
-            budget -= 1
-            items = serpapi_shopping_items(query, key, gl)
-            log(f"[SHOPPING] {pid} (gl={gl}): {len(items)} ofert w feedzie, "
-                f"szukam: {', '.join(sorted(want))}")
+            items, used = [], None
+            for pname, fn in providers:
+                if budget <= 0:
+                    log("[SHOPPING] Budzet zapytan na ten run wyczerpany")
+                    return offers, covered
+                budget -= 1
+                items, used = fn(query, gl), pname
+                if items:
+                    break
+            log(f"[SHOPPING] {pid} (gl={gl}, {used}): {len(items)} ofert "
+                f"w feedzie, szukam: {', '.join(sorted(want))}")
             best = {}
             for it in items:
                 if it.get("second_hand_condition"):
@@ -1136,10 +1198,16 @@ def _shopping_fill(products_by_id, blind, rates, settings):
                 if not ok:
                     log(f"  - {hit}: {note} ('{it.get('title', '')[:60]}')")
                     continue
+                # SerpAPI daje extracted_price; Serper tylko tekst ceny
                 price = it.get("extracted_price")
+                if not isinstance(price, (int, float)):
+                    try:
+                        price = _to_float(re.sub(r"[^\d.,]", "",
+                                                 str(it.get("price") or "")))
+                    except ValueError:
+                        continue
                 cur = _shopping_currency(str(it.get("price") or ""), gl)
-                if not isinstance(price, (int, float)) or price <= 0 \
-                        or cur not in allowed_cur or cur not in rates:
+                if price <= 0 or cur not in allowed_cur or cur not in rates:
                     continue
                 price_pln = round(price * rates[cur], 2)
                 if not _price_in_range(p, price_pln):
