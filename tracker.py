@@ -262,9 +262,10 @@ _HINT_SERPAPI = ("Limit SerpAPI wyczerpany albo zly sekret SERPAPI_KEY "
                  "(serpapi.com -> Api Key).")
 _HINT_SERPER = ("Sprawdz sekret SERPER_API_KEY (serper.dev -> API keys); "
                 "wartosc bez cudzyslowow i spacji.")
-_HINT_GOOGLE = ("Sprawdz GOOGLE_API_KEY: w Google Cloud wlacz Custom Search "
-                "API i ustaw Application restrictions klucza na None "
-                "(restrykcja 'Websites' odrzuca wywolania z serwera).")
+_HINT_GOOGLE = ("Custom Search JSON API jest zamkniete dla nowych klientow "
+                "(od 2026; starzy do 2027-01-01). Warstwa CSE dziala tylko "
+                "na starych projektach Google Cloud - jesli nie masz takiego, "
+                "usun sekrety GOOGLE_API_KEY/GOOGLE_CX.")
 
 
 def google_search(query, api_key, cx, pages=1):
@@ -1249,6 +1250,11 @@ def _shopping_fill(products_by_id, blind, rates, settings):
     budget = int(settings.get("shopping_budget", 4))
     if budget <= 0:
         return [], set()
+    # rotacja startu po dniu: przy budzecie mniejszym niz liczba produktow
+    # z blind spotami kazdy produkt dostaje swoja kolej co kilka dni
+    items = list(blind.items())
+    shift = date.today().toordinal() % max(1, len(items))
+    blind = dict(items[shift:] + items[:shift])
     eu = [str(c).lower() for c in (settings.get("serpapi_countries")
                                    or ["de", "pl"])]
     offers, covered = [], set()

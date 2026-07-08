@@ -572,7 +572,7 @@ function blindPanel(){
     <table><thead><tr><th>Produkt</th><th>Sklepy bez ceny</th></tr></thead><tbody>
     ${pids.map(pid=>`<tr><td>${esc(pname(pid))}</td><td>${spots[pid].map(d=>`<code>${esc(d)}</code>`).join(' ')}</td></tr>`).join('')}
     </tbody></table></details>
-    <div class="hint">Te sklepy odrzucają pobieranie, a Google (Shopping i indeks) nie dał ich ceny. Dodaj domeny z listy do swojej wyszukiwarki Programmable Search (programmablesearchengine.google.com → Twoja wyszukiwarka → „Witryny do przeszukania") — przy kolejnym FIRE warstwa CSE pobierze cenę z indeksu Google, a sklep zniknie z tej listy. Lista jest nadpisywana po każdym runie i pokazuje wyłącznie aktualne braki.</div>
+    <div class="hint">Te sklepy odrzucają pobieranie, a Google Shopping (Serper/SerpAPI) nie dał ich ceny — czyli sklepu nie ma w feedach Merchant Center albo tytuł oferty nie przeszedł filtrów produktu. Sklep zniknie z listy, gdy tylko cena wróci dowolną drogą; lista jest nadpisywana po każdym runie. Sklep wiszący tu tygodniami prawdopodobnie nie sprzedaje tego produktu — rozważ <code>exclude_domains</code> w konfiguracji produktu. (Warstwa CSE z indeksu Google działa wyłącznie na starych projektach Cloud — Custom Search JSON API jest zamknięte dla nowych klientów.)</div>
   </div>`;
 }
 function bindBlindCopy(el){

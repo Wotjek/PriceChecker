@@ -7,6 +7,8 @@ settings:
     - de
     - pl
     - it
+  # budzet zapytan Google Shopping per run (blind spoty; glownie Serper)
+  shopping_budget: 12
   # szersza Europa dla Serpera (osobna pula 2500 darmowych zapytan)
   discovery_countries:
     - de
