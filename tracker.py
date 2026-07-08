@@ -1625,7 +1625,36 @@ def build_excel(rows, products):
 
 # =============================================================== main =======
 
+def _run_mode():
+    if os.environ.get("SKIP_DISCOVERY", "").strip().lower() in ("1", "true",
+                                                                "yes"):
+        return "Light FIRE"
+    ev = os.environ.get("GITHUB_EVENT_NAME", "")
+    if ev == "schedule":
+        return "run z harmonogramu"
+    if ev == "workflow_dispatch":
+        return "FIRE"
+    return "run lokalny"
+
+
+def _check_key_lengths():
+    """Klucze SerpAPI (64 znaki) i Serpera (40) latwo zamienic miejscami
+    w sekretach - dlugosc zdradza pomylke bez ujawniania wartosci."""
+    for name, expect in (("SERPAPI_KEY", 64), ("SERPER_API_KEY", 40)):
+        val = os.environ.get(name, "").strip()
+        if val and len(val) != expect:
+            log(f"[KONFIG] UWAGA: {name} ma {len(val)} znakow, a klucz tego "
+                f"dostawcy ma zwykle {expect} - sprawdz, czy sekrety nie sa "
+                f"zamienione miejscami")
+    a = os.environ.get("SERPAPI_KEY", "").strip()
+    b = os.environ.get("SERPER_API_KEY", "").strip()
+    if a and a == b:
+        log("[KONFIG] UWAGA: SERPAPI_KEY i SERPER_API_KEY maja identyczna "
+            "wartosc - jeden z sekretow jest zly")
+
+
 def main():
+    t0 = time.monotonic()
     with PRODUCTS_FILE.open(encoding="utf-8") as f:
         cfg = yaml.safe_load(f) or {}
     products = cfg.get("products") or []
@@ -1644,6 +1673,7 @@ def main():
         unique.append(p)
     products = unique
     log(f"Produkty: {[p['id'] for p in products]}")
+    _check_key_lengths()
 
     DATA.mkdir(exist_ok=True)
     sources = {}
@@ -1687,6 +1717,9 @@ def main():
     rows = append_history(offers, products, today)
     build_excel(rows, products)
 
+    elapsed = int(time.monotonic() - t0)
+    log(f"[CZAS] {_run_mode()}: przebieg trwal "
+        f"{elapsed // 60} min {elapsed % 60} s")
     from dashboard import build_dashboard
     save_run_log()  # dashboard osadza log biezacego przebiegu (Diagnostyka)
     out = build_dashboard(rows, products, settings, today)

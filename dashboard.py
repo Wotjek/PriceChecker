@@ -192,6 +192,7 @@ input:focus,textarea:focus{outline:none;border-color:var(--teal)}
   font-size:12px;line-height:1.6;color:var(--ink)}
 .blindbox details summary{cursor:pointer;font-size:13px;color:var(--muted);
   margin-bottom:6px}
+.runmeta{margin-top:10px;font-size:12px;color:var(--faint)}
 .blindbox code{background:rgba(240,160,60,.14);padding:1px 7px;border-radius:4px;
   font-size:12px;font-family:'JetBrains Mono'}
 
@@ -318,6 +319,7 @@ function renderHome(el){
     <div class="dots">${products.map((_,i)=>`<span class="dot ${i===state.idx?'on':''}" data-i="${i}"></span>`).join('')}</div>
   </div>
   ${quotaWidget()}
+  ${runMeta()}
   <section class="offers"><h3 class="sect">Wszystkie dzisiejsze oferty <span class="pill" id="offersDate"></span></h3>
   <div id="offersTables"></div></section>`;
 
@@ -346,6 +348,12 @@ function renderHome(el){
   renderOffersTables($('offersTables'), DATA.products);
 }
 
+function runMeta(){
+  const lines = state.runlog && state.runlog.length ? state.runlog : (DATA.runlog||[]);
+  const l = lines.find(x=>x.includes('[CZAS]'));
+  if(!l) return '';
+  return `<div class="runmeta">⏱ Ostatni przebieg: ${esc(l.replace(/^\s*\[CZAS\]\s*/,''))} · dane z ${esc(DATA.generated||'')}</div>`;
+}
 function quotaWidget(){
   const bar = (lbl, left, total, used, info, checked) => {
     const pct = total ? Math.max(0, Math.min(100, left/total*100)) : 0;
