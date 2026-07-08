@@ -454,25 +454,32 @@ def serper_search(query, api_key, gl=None):
 
 
 def _discovery_engines():
-    """Buduje liste dostepnych silnikow na podstawie sekretow w env."""
+    """Buduje liste dostepnych silnikow na podstawie sekretow w env.
+
+    UWAGA na domkniecia: lambdy MUSZA wiazac klucz argumentem domyslnym
+    (k=k), bo zmienna k jest nadpisywana przez kolejne bloki - bez tego
+    kazdy silnik dostaje w runtime klucz OSTATNIEGO dostawcy (late
+    binding) i sypie 401/403 mimo poprawnych sekretow."""
     engines = []
     if os.environ.get("SERPAPI_KEY", "").strip():
         k = os.environ["SERPAPI_KEY"].strip()
-        engines.append(("serpapi", lambda q, gl=None: serpapi_search(q, k, gl)))
+        engines.append(("serpapi",
+                        lambda q, gl=None, k=k: serpapi_search(q, k, gl)))
         engines.append(("serpapi_shopping",
-                        lambda q, gl=None: serpapi_shopping_search(q, k, gl)))
+                        lambda q, gl=None, k=k: serpapi_shopping_search(q, k, gl)))
     if os.environ.get("SERPER_API_KEY", "").strip():
         k = os.environ["SERPER_API_KEY"].strip()
-        engines.append(("serper", lambda q, gl=None: serper_search(q, k, gl)))
+        engines.append(("serper",
+                        lambda q, gl=None, k=k: serper_search(q, k, gl)))
     if os.environ.get("TAVILY_API_KEY", "").strip():
         k = os.environ["TAVILY_API_KEY"].strip()
-        engines.append(("tavily", lambda q: tavily_search(q, k)))
+        engines.append(("tavily", lambda q, k=k: tavily_search(q, k)))
     if os.environ.get("BRAVE_API_KEY", "").strip():
         k = os.environ["BRAVE_API_KEY"].strip()
-        engines.append(("brave", lambda q: brave_search(q, k)))
+        engines.append(("brave", lambda q, k=k: brave_search(q, k)))
     gk, cx = os.environ.get("GOOGLE_API_KEY", "").strip(), os.environ.get("GOOGLE_CX", "").strip()
     if gk and cx:
-        engines.append(("google", lambda q: google_search(q, gk, cx)))
+        engines.append(("google", lambda q, gk=gk, cx=cx: google_search(q, gk, cx)))
     return engines
 
 
@@ -1243,15 +1250,18 @@ def _shopping_providers(settings):
     provs = []
     k = os.environ.get("SERPER_API_KEY", "").strip()
     if k:
+        # k=k wiaze wartosc TERAZ - bez tego lambda czyta zmienna k po jej
+        # nadpisaniu kluczem SerpAPI ponizej (late binding) i Serper dostaje
+        # cudzy klucz -> 403 Unauthorized mimo poprawnego sekretu
         provs.append(("serper",
-                      lambda q, gl: serper_shopping_items(q, k, gl)))
+                      lambda q, gl, k=k: serper_shopping_items(q, k, gl)))
     k = os.environ.get("SERPAPI_KEY", "").strip()
     if k:
         reserve = int(settings.get("serpapi_reserve", 10))
         left = _serpapi_quota_left()
         if left is None or int(left) - reserve > 0:
             provs.append(("serpapi",
-                          lambda q, gl: serpapi_shopping_items(q, k, gl)))
+                          lambda q, gl, k=k: serpapi_shopping_items(q, k, gl)))
         else:
             log(f"[SHOPPING] SerpAPI na wyczerpaniu (pozostalo {left}, "
                 f"rezerwa {reserve}) - pomijam ten silnik")
