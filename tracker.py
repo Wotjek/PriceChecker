@@ -403,16 +403,19 @@ def brave_search(query, api_key):
 _serper_used = {"n": 0}
 
 
-def serper_shopping_items(query, api_key, gl=None):
+def serper_shopping_items(query, api_key, gl=None, page=1):
     """Serper.dev Google Shopping - te same dane co serpapi_shopping_items
     (feed Merchant Center), inny dostawca: 2500 darmowych zapytan bez karty.
-    Ceny tylko jako tekst ('3.499,00 EUR') - parsowane przy dopasowaniu."""
+    Ceny tylko jako tekst ('3.499,00 EUR') - parsowane przy dopasowaniu.
+    page=2 pobiera kolejna strone feedu (popularne produkty maja >40 ofert)."""
     if "serper" in _auth_dead:
         return []
     try:
         payload = {"q": query.replace('"', "")}
         if gl:
             payload["gl"] = gl
+        if page > 1:
+            payload["page"] = page
         r = requests.post("https://google.serper.dev/shopping",
                           headers={"X-API-KEY": api_key,
                                    "Content-Type": "application/json",
@@ -1194,13 +1197,21 @@ def _serpapi_quota_left():
         return None
 
 
-def _google_query(p):
-    """Zapytanie o produkt do feedu Shopping: fraza tekstowa > nazwa.
-    Celowo NIE EAN - zapytanie EAN-em zweza feed do kilku ofert bez
-    bike24/r2-bike, a tekstowe zwraca ~40 ofert z tymi sklepami
+def _google_queries(p):
+    """Do dwoch fraz tekstowych do feedu Shopping (pierwsze dwie z queries,
+    fallback nazwa). Celowo NIE EAN - zapytanie EAN-em zweza feed do kilku
+    ofert bez bike24/r2-bike, a tekstowe zwraca ~40 ofert z tymi sklepami
     (zweryfikowane empirycznie); tozsamosci produktu pilnuje _title_ok."""
-    qs = p.get("queries") or []
-    return str(qs[0]) if qs else str(p["name"])
+    qs = [str(q).strip() for q in (p.get("queries") or []) if str(q).strip()]
+    if not qs:
+        qs = [str(p["name"])]
+    out = []
+    for q in qs:
+        if q not in out:
+            out.append(q)
+        if len(out) == 2:
+            break
+    return out
 
 
 def _title_ok(p, text):
@@ -1257,15 +1268,18 @@ def _shopping_providers(settings):
         # k=k wiaze wartosc TERAZ - bez tego lambda czyta zmienna k po jej
         # nadpisaniu kluczem SerpAPI ponizej (late binding) i Serper dostaje
         # cudzy klucz -> 403 Unauthorized mimo poprawnego sekretu
+        # trzeci element krotki: czy dostawca umie stronicowac feed
         provs.append(("serper",
-                      lambda q, gl, k=k: serper_shopping_items(q, k, gl)))
+                      lambda q, gl, page=1, k=k:
+                          serper_shopping_items(q, k, gl, page), True))
     k = os.environ.get("SERPAPI_KEY", "").strip()
     if k:
         reserve = int(settings.get("serpapi_reserve", 10))
         left = _serpapi_quota_left()
         if left is None or int(left) - reserve > 0:
             provs.append(("serpapi",
-                          lambda q, gl, k=k: serpapi_shopping_items(q, k, gl)))
+                          lambda q, gl, page=1, k=k:
+                              serpapi_shopping_items(q, k, gl), False))
         else:
             log(f"[SHOPPING] SerpAPI na wyczerpaniu (pozostalo {left}, "
                 f"rezerwa {reserve}) - pomijam ten silnik")
@@ -1309,72 +1323,100 @@ def _shopping_fill(products_by_id, blind, rates, settings):
             skipped = ", ".join(gl for gl, _ in ranked[gl_cap:])
             log(f"[SHOPPING] {pid}: pomijam kraje {skipped} "
                 f"(limit {gl_cap}/produkt/run)")
-        query = _google_query(p)
+        queries = _google_queries(p)
+        has_paged = any(paged for _, _, paged in providers)
         for gl, want in ranked[:gl_cap]:
-            items, used = [], None
-            for pname, fn in providers:
-                if budget <= 0:
-                    log("[SHOPPING] Budzet zapytan na ten run wyczerpany")
-                    return offers, covered
-                budget -= 1
-                items, used = fn(query, gl), pname
-                if items:
-                    break
-            shown = sorted(want)
-            more = f" (+{len(shown) - 12})" if len(shown) > 12 else ""
-            log(f"[SHOPPING] {pid} (gl={gl}, {used}): {len(items)} ofert "
-                f"w feedzie, szukam: {', '.join(shown[:12])}{more}")
             best = {}
-            for it in items:
-                if it.get("second_hand_condition"):
-                    continue
-                # dopasowanie do blind spotu: domena linku albo nazwa sklepu
-                # z feedu ("BIKE24" ~ bike24.de, "r2-bike.com" ~ r2-bike.com)
-                link = it.get("link") or ""
-                dom = domain_of(link) if link.startswith("http") else ""
-                src = re.sub(r"\W", "", str(it.get("source") or "").lower())
-                hit = next((d for d in want if d == dom
-                            or (len(src) >= 4
-                                and (src in re.sub(r"\W", "", d)
-                                     or re.sub(r"\W", "", d) in src))), None)
-                if not hit:
-                    continue
-                ok, note = _title_ok(p, str(it.get("title") or ""))
-                if not ok:
-                    log(f"  - {hit}: {note} ('{it.get('title', '')[:60]}')")
-                    continue
-                # SerpAPI daje extracted_price; Serper tylko tekst ceny
-                price = it.get("extracted_price")
-                if not isinstance(price, (int, float)):
-                    try:
-                        price = _to_float(re.sub(r"[^\d.,]", "",
-                                                 str(it.get("price") or "")))
-                    except ValueError:
+
+            def ingest(items):
+                for it in items:
+                    if it.get("second_hand_condition"):
                         continue
-                cur = _shopping_currency(str(it.get("price") or ""), gl)
-                if price <= 0 or cur not in allowed_cur or cur not in rates:
-                    continue
-                price_pln = round(price * rates[cur], 2)
-                if not _price_in_range(p, price_pln):
-                    log(f"  - {hit}: {price_pln} PLN poza widelkami - pomijam")
-                    continue
-                # link bywa karta produktu Google - wtedy lepszy product_link
-                url = (link if link and "google." not in dom
-                       else it.get("product_link") or link or "")
-                o = {"product_id": pid, "name": p["name"], "url": url,
-                     "domain": hit, "price": price, "currency": cur,
-                     "price_pln": price_pln, "availability": "instock",
-                     "via": "shopping"}
-                o["_note"] = note
-                if hit not in best or price_pln < best[hit]["price_pln"]:
-                    best[hit] = o
-            for dom, o in best.items():
-                note = o.pop("_note", "")
-                covered.add((pid, dom))
-                offers.append(o)
-                log(f"  + {dom}: {o['price']} {o['currency']} = "
-                    f"{o['price_pln']} PLN [Google Shopping]{note}")
-            time.sleep(0.4)
+                    # dopasowanie do celu: domena linku albo nazwa sklepu
+                    # z feedu ("BIKE24" ~ bike24.de)
+                    link = it.get("link") or ""
+                    dom = domain_of(link) if link.startswith("http") else ""
+                    src = re.sub(r"\W", "",
+                                 str(it.get("source") or "").lower())
+                    hit = next((d for d in want if d == dom
+                                or (len(src) >= 4
+                                    and (src in re.sub(r"\W", "", d)
+                                         or re.sub(r"\W", "", d) in src))),
+                               None)
+                    if not hit:
+                        continue
+                    ok, note = _title_ok(p, str(it.get("title") or ""))
+                    if not ok:
+                        log(f"  - {hit}: {note} "
+                            f"('{it.get('title', '')[:60]}')")
+                        continue
+                    # SerpAPI daje extracted_price; Serper tylko tekst ceny
+                    price = it.get("extracted_price")
+                    if not isinstance(price, (int, float)):
+                        try:
+                            price = _to_float(re.sub(
+                                r"[^\d.,]", "", str(it.get("price") or "")))
+                        except ValueError:
+                            continue
+                    cur = _shopping_currency(str(it.get("price") or ""), gl)
+                    if price <= 0 or cur not in allowed_cur \
+                            or cur not in rates:
+                        continue
+                    price_pln = round(price * rates[cur], 2)
+                    if not _price_in_range(p, price_pln):
+                        log(f"  - {hit}: {price_pln} PLN poza widelkami "
+                            f"- pomijam")
+                        continue
+                    # link bywa karta Google - wtedy lepszy product_link
+                    url = (link if link and "google." not in dom
+                           else it.get("product_link") or link or "")
+                    o = {"product_id": pid, "name": p["name"], "url": url,
+                         "domain": hit, "price": price, "currency": cur,
+                         "price_pln": price_pln, "availability": "instock",
+                         "via": "shopping", "_note": note}
+                    if hit not in best or price_pln < best[hit]["price_pln"]:
+                        best[hit] = o
+
+            def flush():
+                for dom, o in best.items():
+                    note = o.pop("_note", "")
+                    covered.add((pid, dom))
+                    offers.append(o)
+                    log(f"  + {dom}: {o['price']} {o['currency']} = "
+                        f"{o['price_pln']} PLN [Google Shopping]{note}")
+
+            # plan pobran per kraj: fraza 1 str. 1 -> przy pelnej stronie
+            # i brakach str. 2 -> przy dalszych brakach fraza 2; max 3
+            steps, si = [(0, 1)], 0
+            while si < len(steps):
+                qi, page = steps[si]
+                si += 1
+                items, used = [], None
+                for pname, fn, paged in providers:
+                    if page > 1 and not paged:
+                        continue
+                    if budget <= 0:
+                        log("[SHOPPING] Budzet zapytan na ten run "
+                            "wyczerpany")
+                        flush()
+                        return offers, covered
+                    budget -= 1
+                    items, used = fn(queries[qi], gl, page), pname
+                    if items:
+                        break
+                shown = sorted(want)
+                more = f" (+{len(shown) - 12})" if len(shown) > 12 else ""
+                log(f"[SHOPPING] {pid} (gl={gl}, {used}, fraza {qi + 1}, "
+                    f"str. {page}): {len(items)} ofert w feedzie, "
+                    f"szukam: {', '.join(shown[:12])}{more}")
+                ingest(items)
+                if want - set(best) and len(steps) < 3:
+                    if page == 1 and len(items) >= 35 and has_paged:
+                        steps.append((qi, 2))
+                    elif qi == 0 and len(queries) > 1:
+                        steps.append((1, 1))
+                time.sleep(0.4)
+            flush()
     return offers, covered
 
 
@@ -1391,7 +1433,7 @@ def _cse_fill(products_by_id, blind, rates, settings):
         p = products_by_id[pid]
         allowed_cur = (WORLDWIDE_CURRENCIES if p.get("worldwide")
                        else ALLOWED_CURRENCIES)
-        query = _google_query(p)
+        query = _google_queries(p)[0]
         for dom in doms:
             if budget <= 0:
                 log("[CSE] Budzet zapytan na ten run wyczerpany")

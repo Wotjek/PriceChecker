@@ -7,8 +7,9 @@ settings:
     - de
     - pl
     - it
-  # budzet zapytan Google Shopping per run (blind spoty; glownie Serper)
-  shopping_budget: 12
+  # budzet zapytan Google Shopping per run (blind spoty; glownie Serper);
+  # plan per kraj potrafi zjesc do 3 pobran (str. 2 feedu, druga fraza)
+  shopping_budget: 18
   # szersza Europa dla Serpera (osobna pula 2500 darmowych zapytan)
   discovery_countries:
     - de
@@ -24,8 +25,12 @@ products:
     name: Salsa Cutthroat C Frameset
     variant: "56"
     queries:
+      - Salsa Cutthroat C frameset
+      - Salsa Cutthroat Rahmenset
       - "\"FM2797\" salsa"
-      - "\"Salsa Cutthroat C\" frameset"
+      - Salsa Cutthroat telaio carbonio
+      - Salsa Cutthroat cadre bikepacking
+      - Salsa Cutthroat cuadro
     seed_urls:
       - https://stateofbike.it/negozio-bikepacking/salsa-cutthroat-frameset/
       - https://www.bikejamming.it/en/30986-16664salsa-cutthroat-carbon-frameset-tour-divide-bikepacking.html
@@ -33,7 +38,8 @@ products:
     name: Lauf Carbonara fork
     worldwide: true
     queries:
-      - "\"Lauf Carbonara\" fork"
+      - Lauf Carbonara fork
+      - Lauf Carbonara Gabel fatbike
     seed_urls:
       - https://www.laufcycles.com/product/lauf-carbonara
   - id: Lake MX190-X Wide
@@ -42,17 +48,28 @@ products:
     variant: "45"
     queries:
       - Lake MX190-X Wide
+      - Lake MX190 Winterschuhe MTB
+      - Lake MX190 buty zimowe
+      - Lake MX190 scarpe invernali
+      - Lake MX190 winterschoenen
   - id: DT Swiss Fatbike
     name: DT Swiss Fatbike
     ean: H350LDIXR32SA1859S
     max_pln: 1500
     queries:
-      - DT Swiss Fatbike 15x150
+      - DT Swiss 350 Fatbike hub 15x150
+      - DT Swiss 350 Fatbike Nabe 15x150
+      - DT Swiss 350 fatbike piasta
+      - DT Swiss 350 mozzo fatbike
   - id: DT SWISS 350 12x148
     name: DT SWISS 350 12x148
     ean: H350TCDBR32SA0465S
     queries:
+      - DT Swiss 350 hub 12x148 Sram XD
+      - DT Swiss 350 Hinterradnabe 12x148
       - DT SWISS 350 12x148 32 Sram XD
+      - DT Swiss 350 piasta 12x148
+      - DT Swiss 350 mozzo 12x148
   - id: Ritchey WCS Carbon ErgoMax
     name: Ritchey WCS Carbon ErgoMax
     ean: "30355427076"
@@ -61,35 +78,51 @@ products:
     require_tokens:
       - carbon
     queries:
+      - Ritchey WCS Carbon ErgoMax handlebar
+      - Ritchey WCS ErgoMax Carbon Lenker
       - Ritchey WCS Carbon ErgoMax 42cm
+      - Ritchey WCS ErgoMax carbon kierownica
+      - Ritchey WCS ErgoMax carbon manubrio
+      - Ritchey WCS ErgoMax carbone cintre
   - id: Canyon S14 VCLS 2.0
     name: Canyon S14 VCLS 2.0
     require_tokens:
       - s14
     queries:
+      - Canyon S14 VCLS 2.0 CF seatpost
+      - Canyon S14 VCLS Sattelstütze
       - Canyon S14 VCLS 2.0 27.2mm CF Seatpost
+      - Canyon S14 VCLS sztyca
   - id: GX-T-KIT
     name: SRAM GX Eagle Transmission Upgrade Kit
     ean: "4251761517573"
     min_pln: 800
     require_tokens:
-      - kit
+      - kit|zestaw|upgrade
     queries:
-      - SRAM GX Eagle Transmission 1x12 Upgrade Kit
+      - SRAM GX Eagle Transmission T-Type Upgrade Kit
+      - SRAM GX T-Type Eagle AXS Upgrade Kit
+      - SRAM GX Eagle Transmission zestaw
   - id: GX-T-CHAIN
     name: SRAM GX Eagle Transmission Łańcuch
     ean: 00.2518.054.010
     min_pln: 80
     max_pln: 600
     require_tokens:
-      - chain|kette|catena|lancuch|łańcuch|ketting|chaine
+      - chain|kette|catena|lancuch|łańcuch|ketting|chaine|chaîne|cadena|retez|řetěz
     queries:
       - SRAM GX Eagle Transmission Flattop 12-speed Chain
+      - SRAM GX Eagle T-Type Kette Flattop
+      - SRAM Eagle Transmission Flattop łańcuch
+      - catena SRAM GX Eagle Transmission
   - id: Cane Creek 40 IS41/IS52
     name: Cane Creek 40 IS41/IS52
     ean: "840226078472"
     queries:
-      - Cane Creek stery Forty tapered IS41|IS52/40
+      - Cane Creek 40 IS41 IS52 tapered headset
+      - Cane Creek 40 Steuersatz tapered
+      - Cane Creek 40 stery IS41 IS52
+      - Cane Creek 40 serie sterzo IS41
   - id: ROCK SHOX SID
     name: ROCK SHOX SID SL Select+
     ean: "710845917929"
@@ -97,7 +130,11 @@ products:
     require_tokens:
       - sid
     queries:
+      - RockShox SID SL Select 100mm 29 fork
+      - RockShox SID SL Select Federgabel 100mm
       - Amortyzator rowerowy ROCK SHOX SID SL Select E1 3P 100mm
+      - RockShox SID SL Select forcella 100mm
+      - RockShox SID SL Select horquilla
     seed_urls:
       - https://www.centrumrowerowe.pl/amortyzator-rowerowy-rock-shox-sid-sl-select-pd49824/
       - https://www.bike-discount.de/en/rockshox-sid-sl-select-3p-29-debonair-100-tapered-boost-remote
@@ -110,7 +147,11 @@ products:
     require_tokens:
       - mx242|mx 242|mx-242
     queries:
+      - Lake MX242 X-Wide MTB shoes
+      - Lake MX242 Wide MTB Schuhe
       - Lake MX242 MTB x-wide 45
+      - Lake MX242 wide buty MTB
+      - Lake MX242 scarpe MTB
     seed_urls:
       - https://www.bike-discount.de/de/lake-mx242-x-wide-mtb-schuhe-20154493
       - https://www.alltricks.de/F-10006-chaussures-velo/P-2557093-lake_mx242_wide_schuhe_schwarz_silber_42_1_2
