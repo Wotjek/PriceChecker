@@ -1320,8 +1320,10 @@ def _shopping_fill(products_by_id, blind, rates, settings):
                 items, used = fn(query, gl), pname
                 if items:
                     break
+            shown = sorted(want)
+            more = f" (+{len(shown) - 12})" if len(shown) > 12 else ""
             log(f"[SHOPPING] {pid} (gl={gl}, {used}): {len(items)} ofert "
-                f"w feedzie, szukam: {', '.join(sorted(want))}")
+                f"w feedzie, szukam: {', '.join(shown[:12])}{more}")
             best = {}
             for it in items:
                 if it.get("second_hand_condition"):
@@ -1469,14 +1471,36 @@ def _cse_fill(products_by_id, blind, rates, settings):
     return offers
 
 
-def fill_blind_spots(products, blind, rates, settings):
-    """Laczy warstwy: Shopping -> CSE. Zwraca oferty dla blind spotow."""
-    if not blind:
+def shopping_targets(products, sources, offers):
+    """Cele dla feedu Shopping: WSZYSTKIE znane sklepy produktu, ktore w tym
+    runie nie daly ceny - nie tylko blokujace boty. Kazde zapytanie Shopping
+    zwraca 25-40 ofert; dopasowanie ich takze do sklepow z padnieta
+    ekstrakcja (kategoria, cena z JS, martwy URL) to darmowe pokrycie."""
+    targets = {}
+    for p in products:
+        pid = p["id"]
+        excluded = set(p.get("exclude_domains") or [])
+        worldwide = bool(p.get("worldwide"))
+        doms = {m.get("domain") or domain_of(u)
+                for u, m in (sources.get(pid) or {}).items()
+                if url_allowed(u, excluded, worldwide)}
+        for u in p.get("seed_urls") or []:
+            doms.add(domain_of(u))
+        doms -= {o["domain"] for o in offers if o["product_id"] == pid}
+        doms.discard("")
+        if doms:
+            targets[pid] = sorted(doms)
+    return targets
+
+
+def fill_blind_spots(products, targets, rates, settings):
+    """Laczy warstwy: Shopping -> CSE. Zwraca oferty dla celow bez ceny."""
+    if not targets:
         return []
     products_by_id = {p["id"]: p for p in products}
-    offers, covered = _shopping_fill(products_by_id, blind, rates, settings)
+    offers, covered = _shopping_fill(products_by_id, targets, rates, settings)
     remaining = {pid: [d for d in doms if (pid, d) not in covered]
-                 for pid, doms in blind.items()}
+                 for pid, doms in targets.items()}
     remaining = {pid: doms for pid, doms in remaining.items() if doms}
     if remaining:
         offers += _cse_fill(products_by_id, remaining, rates, settings)
@@ -1737,8 +1761,11 @@ def main():
         offers, blind = fetch_offers(products, sources, rates)
     finally:
         close_browser()
-    # sklepy, ktore odrzucily pobranie -> ceny z Google (Shopping / indeks)
-    offers += fill_blind_spots(products, blind, rates, settings)
+    # kazdy znany sklep bez ceny w tym runie (blokada botow, kategoria,
+    # cena z JS, martwy URL) -> proba przez Google (Shopping / indeks)
+    offers += fill_blind_spots(products,
+                               shopping_targets(products, sources, offers),
+                               rates, settings)
     offers = drop_outliers(offers)
     save_serper_quota(settings)  # po discovery i blind spotach - pelne zuzycie
 
