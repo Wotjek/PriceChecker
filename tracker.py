@@ -1195,9 +1195,10 @@ def _serpapi_quota_left():
 
 
 def _google_query(p):
-    """Najprecyzyjniejsze zapytanie o produkt: EAN > pierwsza fraza > nazwa."""
-    if p.get("ean"):
-        return str(p["ean"])
+    """Zapytanie o produkt do feedu Shopping: fraza tekstowa > nazwa.
+    Celowo NIE EAN - zapytanie EAN-em zweza feed do kilku ofert bez
+    bike24/r2-bike, a tekstowe zwraca ~40 ofert z tymi sklepami
+    (zweryfikowane empirycznie); tozsamosci produktu pilnuje _title_ok."""
     qs = p.get("queries") or []
     return str(qs[0]) if qs else str(p["name"])
 
@@ -1299,8 +1300,17 @@ def _shopping_fill(products_by_id, blind, rates, settings):
             tld = dom.rsplit(".", 1)[-1]
             by_gl.setdefault(tld if tld in _GL_CURRENCY else eu[0],
                              set()).add(dom)
+        # sklepy z wieloma TLD (bike24.*) rozdmuchuja liste krajow - per
+        # produkt pytamy najwyzej gl_cap najbogatszych krajow; reszta
+        # dostanie swoja kolej innego dnia (rotacja startu listy)
+        gl_cap = int(settings.get("shopping_gl_cap", 3))
+        ranked = sorted(by_gl.items(), key=lambda kv: -len(kv[1]))
+        if len(ranked) > gl_cap:
+            skipped = ", ".join(gl for gl, _ in ranked[gl_cap:])
+            log(f"[SHOPPING] {pid}: pomijam kraje {skipped} "
+                f"(limit {gl_cap}/produkt/run)")
         query = _google_query(p)
-        for gl, want in by_gl.items():
+        for gl, want in ranked[:gl_cap]:
             items, used = [], None
             for pname, fn in providers:
                 if budget <= 0:
