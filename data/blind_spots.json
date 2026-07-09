@@ -1,61 +1,7 @@
 {
   "date": "2026-07-09",
   "spots": {
-    "GX-T-KIT": [
-      "bike24.de",
-      "bike24.it",
-      "bike24.pl",
-      "competitivecyclist.com",
-      "cyklomania.pl",
-      "homedepot.com",
-      "lordgun.de",
-      "lordgunbicycles.com",
-      "r2-bike.com",
-      "reactionteam.org",
-      "sprint-rowery.pl",
-      "velofactory.ch",
-      "velonova.lt"
-    ],
-    "Lake MX190-X Wide": [
-      "backcountry.com",
-      "bike24.at",
-      "bike24.be",
-      "bike24.com",
-      "bike24.de",
-      "bike24.es",
-      "bike24.fi",
-      "bike24.it",
-      "bike24.nl",
-      "bike24.pl",
-      "competitivecyclist.com",
-      "hillnmarkes.com",
-      "steepandcheap.com"
-    ],
-    "DT Swiss Fatbike": [
-      "bike24.com",
-      "bike24.de",
-      "bike24.it",
-      "fat-bike.de",
-      "modernbike.com",
-      "prowheelbuilder.com",
-      "r2-bike.com",
-      "velosiped.com"
-    ],
-    "Cane Creek 40 IS41/IS52": [
-      "bike24.be",
-      "bike24.com",
-      "bike24.de",
-      "bike24.it",
-      "bike24.pl",
-      "competitivecyclist.com",
-      "homedepot.com",
-      "lordgunbicycles.com",
-      "r2-bike.com",
-      "rat-bikes.com",
-      "rat-bikes.eu"
-    ],
     "GX-T-CHAIN": [
-      "alpebike.pl",
       "ampbike.pl",
       "bike24.com",
       "bike24.de",
@@ -73,19 +19,67 @@
       "velofactory.ch",
       "velonova.lt"
     ],
-    "FM2797": [
-      "heb.com",
-      "texasfood.com"
-    ],
-    "DT SWISS 350 12x148": [
+    "Ritchey WCS Carbon ErgoMax": [
+      "365cycles.com",
+      "all4bikes.be",
       "bike24.com",
       "bike24.de",
+      "bikeparts.com",
+      "cyklomania.pl",
+      "deporvillage.pl",
+      "dynamitebikelab.com",
+      "modernbike.com",
+      "rei.com",
+      "ridinggravel.com",
+      "whitepages.com"
+    ],
+    "ROCK SHOX SID": [
+      "bike24.com",
+      "cyklomania.pl",
+      "mtb-xc.pl",
+      "rat-bikes.eu",
+      "starbike.com"
+    ],
+    "GX-T-KIT": [
+      "bike24.de",
+      "bike24.pl",
+      "competitivecyclist.com",
+      "cyklomania.pl",
+      "homedepot.com",
+      "lordgunbicycles.com",
+      "reactionteam.org",
+      "sprint-rowery.pl",
+      "velofactory.ch",
+      "velonova.lt"
+    ],
+    "Lake MX190-X Wide": [
+      "backcountry.com",
+      "bike24.at",
+      "bike24.be",
+      "bike24.com",
+      "bike24.de",
+      "bike24.es",
+      "bike24.fi",
+      "bike24.it",
+      "bike24.nl",
+      "bike24.pl",
+      "competitivecyclist.com",
+      "deporvillage.pl",
+      "hillnmarkes.com",
+      "lowes.com",
+      "steepandcheap.com"
+    ],
+    "Cane Creek 40 IS41/IS52": [
+      "bike24.be",
+      "bike24.com",
       "bike24.it",
       "bike24.pl",
-      "deporvillage.it",
-      "modernbike.com",
-      "prowheelbuilder.com",
-      "velosiped.com"
+      "competitivecyclist.com",
+      "homedepot.com",
+      "lordgunbicycles.com",
+      "r2-bike.com",
+      "rat-bikes.com",
+      "rat-bikes.eu"
     ],
     "Lake MX242": [
       "backcountry.com",
@@ -93,31 +87,30 @@
       "cart2india.com",
       "lowes.com"
     ],
-    "Ritchey WCS Carbon ErgoMax": [
-      "365cycles.com",
-      "all4bikes.be",
+    "DT Swiss Fatbike": [
+      "bike24.com",
+      "bike24.de",
+      "bike24.it",
+      "fat-bike.de",
+      "modernbike.com",
+      "prowheelbuilder.com",
+      "r2-bike.com",
+      "velosiped.com"
+    ],
+    "DT SWISS 350 12x148": [
       "bike24.com",
       "bike24.de",
       "bike24.it",
       "bike24.pl",
-      "bikeparts.com",
-      "cyklomania.pl",
+      "deporvillage.de",
       "deporvillage.it",
-      "deporvillage.pl",
-      "dynamitebikelab.com",
-      "eventbike.it",
       "modernbike.com",
-      "rei.com",
-      "ridinggravel.com",
-      "whitepages.com"
+      "prowheelbuilder.com",
+      "velosiped.com"
     ],
-    "ROCK SHOX SID": [
-      "bike-discount.de",
-      "bike24.com",
-      "cyklomania.pl",
-      "mtb-xc.pl",
-      "rat-bikes.eu",
-      "starbike.com"
+    "FM2797": [
+      "heb.com",
+      "texasfood.com"
     ],
     "Canyon S14 VCLS 2.0": [
       "velonova.ee"
