@@ -1,36 +1,12 @@
 {
-  "date": "2026-07-08",
+  "date": "2026-07-09",
   "spots": {
-    "Ritchey WCS Carbon ErgoMax": [
-      "all4bikes.be",
-      "bike24.com",
-      "bike24.de",
-      "bike24.it",
-      "bike24.pl",
-      "cyklomania.pl",
-      "deporvillage.it",
-      "deporvillage.pl",
-      "dynamitebikelab.com",
-      "modernbike.com",
-      "rei.com",
-      "ridinggravel.com",
-      "whitepages.com"
-    ],
-    "ROCK SHOX SID": [
-      "bike-discount.de",
-      "bike24.com",
-      "cyklomania.pl",
-      "mtb-xc.pl",
-      "rat-bikes.eu",
-      "starbike.com"
-    ],
     "GX-T-KIT": [
       "bike24.de",
       "bike24.it",
       "bike24.pl",
       "competitivecyclist.com",
       "cyklomania.pl",
-      "hibike.com",
       "homedepot.com",
       "lordgun.de",
       "lordgunbicycles.com",
@@ -40,7 +16,46 @@
       "velofactory.ch",
       "velonova.lt"
     ],
+    "Lake MX190-X Wide": [
+      "backcountry.com",
+      "bike24.at",
+      "bike24.be",
+      "bike24.com",
+      "bike24.de",
+      "bike24.es",
+      "bike24.fi",
+      "bike24.it",
+      "bike24.nl",
+      "bike24.pl",
+      "competitivecyclist.com",
+      "hillnmarkes.com",
+      "steepandcheap.com"
+    ],
+    "DT Swiss Fatbike": [
+      "bike24.com",
+      "bike24.de",
+      "bike24.it",
+      "fat-bike.de",
+      "modernbike.com",
+      "prowheelbuilder.com",
+      "r2-bike.com",
+      "velosiped.com"
+    ],
+    "Cane Creek 40 IS41/IS52": [
+      "bike24.be",
+      "bike24.com",
+      "bike24.de",
+      "bike24.it",
+      "bike24.pl",
+      "competitivecyclist.com",
+      "homedepot.com",
+      "lordgunbicycles.com",
+      "r2-bike.com",
+      "rat-bikes.com",
+      "rat-bikes.eu"
+    ],
     "GX-T-CHAIN": [
+      "alpebike.pl",
       "ampbike.pl",
       "bike24.com",
       "bike24.de",
@@ -59,10 +74,6 @@
       "velonova.lt"
     ],
     "FM2797": [
-      "bobleisure-australia.com",
-      "bobleisure-canada.com",
-      "bobleisure.com",
-      "bobleisure.de",
       "heb.com",
       "texasfood.com"
     ],
@@ -71,7 +82,6 @@
       "bike24.de",
       "bike24.it",
       "bike24.pl",
-      "deporvillage.de",
       "deporvillage.it",
       "modernbike.com",
       "prowheelbuilder.com",
@@ -81,50 +91,33 @@
       "backcountry.com",
       "bike24.com",
       "cart2india.com",
-      "deporvillage.net",
       "lowes.com"
     ],
-    "DT Swiss Fatbike": [
+    "Ritchey WCS Carbon ErgoMax": [
+      "365cycles.com",
+      "all4bikes.be",
       "bike24.com",
       "bike24.de",
       "bike24.it",
-      "fat-bike.de",
-      "modernbike.com",
-      "prowheelbuilder.com",
-      "r2-bike.com",
-      "velosiped.com"
-    ],
-    "Lake MX190-X Wide": [
-      "backcountry.com",
-      "bike24.at",
-      "bike24.be",
-      "bike24.com",
-      "bike24.de",
-      "bike24.es",
-      "bike24.fi",
-      "bike24.it",
-      "bike24.nl",
       "bike24.pl",
-      "competitivecyclist.com",
+      "bikeparts.com",
+      "cyklomania.pl",
+      "deporvillage.it",
       "deporvillage.pl",
-      "hillnmarkes.com",
-      "lowes.com",
-      "steepandcheap.com"
+      "dynamitebikelab.com",
+      "eventbike.it",
+      "modernbike.com",
+      "rei.com",
+      "ridinggravel.com",
+      "whitepages.com"
     ],
-    "Cane Creek 40 IS41/IS52": [
-      "bike24.be",
+    "ROCK SHOX SID": [
+      "bike-discount.de",
       "bike24.com",
-      "bike24.de",
-      "bike24.it",
-      "bike24.pl",
-      "competitivecyclist.com",
-      "dstewart.com",
-      "homedepot.com",
-      "lordgunbicycles.com",
-      "r2-bike.com",
-      "rat-bikes.com",
+      "cyklomania.pl",
+      "mtb-xc.pl",
       "rat-bikes.eu",
-      "walmart.com"
+      "starbike.com"
     ],
     "Canyon S14 VCLS 2.0": [
       "velonova.ee"

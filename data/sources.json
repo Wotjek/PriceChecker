@@ -1417,6 +1417,11 @@
       "domain": "whizz-wheels.de",
       "first_seen": "2026-07-08",
       "via": "crawl"
+    },
+    "https://whizz-wheels.de/shop/Rotor-Kit-Shimano-Micro-Spline-12-fach-12x142-12x148mm-ratchet/HWYABL00S2562S": {
+      "domain": "whizz-wheels.de",
+      "first_seen": "2026-07-09",
+      "via": "crawl"
     }
   },
   "Ritchey WCS Carbon ErgoMax": {
