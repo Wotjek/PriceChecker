@@ -8,7 +8,7 @@ Użytkownik jest Polakiem. Komunikacja, komentarze w kodzie, komunikaty commitó
 
 ## Czym jest ten projekt
 
-Tracker najniższych cen produktów rowerowych w Europie kontynentalnej. Działa jako GitHub Actions (cron `23 10 * * *` UTC = 12:23 CEST; nieokrągła minuta celowo — crony `:00` bywają pomijane przez GitHub). Bot commituje wyniki do repo. Nie ma serwera — dashboard to statyczny HTML z osadzonymi danymi, gadający z GitHub API tokenem z localStorage przeglądarki.
+Tracker najniższych cen produktów rowerowych w Europie kontynentalnej. Działa jako GitHub Actions (cron `23 10 * * *` UTC = 12:23 CEST; nieokrągła minuta celowo — crony `:00` bywają pomijane przez GitHub). Drugi workflow `watchdog.yml` (14:23 UTC) odpala Light FIRE, jeśli danego dnia nie było udanego runa (crony bywają gubione, a joby ubijane przez brak runnerów — „not acquired by Runner"). Bot commituje wyniki do repo. Nie ma serwera — dashboard to statyczny HTML z osadzonymi danymi, gadający z GitHub API tokenem z localStorage przeglądarki.
 
 ## Komendy
 

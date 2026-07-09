@@ -1,0 +1,38 @@
+# Straznik codziennych danych: crony GitHuba bywaja opozniane, pomijane,
+# a joby czasem ubijane przez brak runnerow ("not acquired by Runner").
+# Ten workflow sprawdza po poludniu, czy dzisiejszy run Price Trackera
+# doszedl do skutku - jesli nie, odpala Light FIRE (bez discovery, zeby
+# nie zuzywac limitow wyszukiwarek na dogrywke).
+name: Watchdog
+on:
+  schedule:
+    - cron: "23 14 * * *"   # ~3h po glownym cronie (10:23 UTC)
+  workflow_dispatch:
+
+permissions:
+  actions: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dogrywka, jesli dzis nie bylo udanego runa
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          today=$(date -u +%F)
+          ok=$(curl -s -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/$REPO/actions/workflows/price-tracker.yml/runs?created=%3E%3D$today&per_page=20" \
+            | python3 -c "import json,sys; rs=json.load(sys.stdin)['workflow_runs']; print(sum(1 for r in rs if r['conclusion']=='success' or r['status'] in ('in_progress','queued')))")
+          if [ "$ok" -eq 0 ]; then
+            echo "Brak udanego/trwajacego runa dzisiaj - odpalam Light FIRE"
+            curl -s -o /dev/null -w "dispatch: %{http_code}\n" -X POST \
+              -H "Authorization: Bearer $GH_TOKEN" \
+              -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/repos/$REPO/actions/workflows/price-tracker.yml/dispatches" \
+              -d '{"ref":"main","inputs":{"discovery":"skip"}}'
+          else
+            echo "Dzisiejszy run OK (znaleziono: $ok) - nic do roboty"
+          fi
