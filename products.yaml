@@ -34,6 +34,26 @@ products:
     seed_urls:
       - https://stateofbike.it/negozio-bikepacking/salsa-cutthroat-frameset/
       - https://www.bikejamming.it/en/30986-16664salsa-cutthroat-carbon-frameset-tour-divide-bikepacking.html
+  - id: FARGO-TI
+    name: Salsa Fargo Ti Frameset
+    # rozmiar Medium; sklepy oznaczaja go roznie (M / Medium) - bez
+    # variant_strict, bo cena ramy jest ta sama dla wszystkich rozmiarow
+    variant: medium
+    # rama+widelec ~3300-3900 EUR; min odcina czesci/akcesoria, max caly rower
+    min_pln: 6000
+    max_pln: 20000
+    require_tokens:
+      - fargo
+      - fargo ti|titan|tytan|titanio|titane
+    queries:
+      - Salsa Fargo Ti frameset
+      - Salsa Fargo Ti Rahmenset
+      - "\"FM0872\" salsa"
+      - Salsa Fargo Ti rama tytanowa
+      - Salsa Fargo Ti telaio titanio
+      - Salsa Fargo Ti cadre titane
+    seed_urls:
+      - https://rat-bikes.eu/salsa-fargo-ti-mtb-frameset-27-5-29.html
   - id: LAUF-CARBONARA
     name: Lauf Carbonara fork
     worldwide: true
