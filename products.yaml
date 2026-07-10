@@ -54,6 +54,27 @@ products:
       - Salsa Fargo Ti cadre titane
     seed_urls:
       - https://rat-bikes.eu/salsa-fargo-ti-mtb-frameset-27-5-29.html
+  - id: FARGO-STEEL
+    name: Salsa Fargo Steel Frameset 27.5+/29 Gunmetal Grey
+    # rozmiar Medium; cena ramy taka sama dla rozmiarow - bez strict
+    variant: medium
+    # stalowa rama ~1200 EUR (wyprzedaze 2024 od ~600 USD); max odcina
+    # wersje Ti (min 6000 PLN) i caly rower
+    min_pln: 2000
+    max_pln: 7500
+    # gunmetal = kolor tylko tej wersji stalowej - odcina czarna i Ti
+    require_tokens:
+      - fargo
+      - gunmetal
+    queries:
+      - Salsa Fargo Steel frameset gunmetal grey
+      - Salsa Fargo Steel Rahmenset gunmetal
+      - "\"FM0869\" salsa"
+      - Salsa Fargo rama stalowa gunmetal
+      - Salsa Fargo telaio acciaio
+      - Salsa Fargo cadre acier
+    seed_urls:
+      - https://www.bike-packing.de/en/salsa-fargo-steel-frameset-275-29-gunmetal-grey
   - id: LAUF-CARBONARA
     name: Lauf Carbonara fork
     worldwide: true
