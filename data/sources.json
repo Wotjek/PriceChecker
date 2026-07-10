@@ -694,6 +694,91 @@
       "domain": "bicyclebluebook.com",
       "first_seen": "2026-07-09",
       "via": "tavily"
+    },
+    "https://www.wheelworld.com/product/salsa-cutthroat-c-frameset-1249534-1.htm": {
+      "domain": "wheelworld.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:pl"
+    },
+    "https://revolutionbikeshop.com/2026-salsa-cutthroat-c-frameset-deep-orchid/": {
+      "domain": "revolutionbikeshop.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:cz"
+    },
+    "https://www.kscycleworks.com/product/salsa-cutthroat-c-frameset-1249534-1.htm": {
+      "domain": "kscycleworks.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.treefortbikes.com/Salsa-MY24-Cutthroat-C-Frameset-29": {
+      "domain": "treefortbikes.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.bikejamming.it/en/1104-salsa-cycles-bikepacking-adventure-bikes/": {
+      "domain": "bikejamming.it",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://www.bigshark.com/product/salsa-cutthroat-frameset-346072-1.htm": {
+      "domain": "bigshark.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://swehomes.com/property/2189-fm-2797": {
+      "domain": "swehomes.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.coldwellbanker.com/tx/dayton/2245-fm-2797/lid-P00800000GhL7o1RWuhLM0Z7sHjGZXEf8ZEe4Gor": {
+      "domain": "coldwellbanker.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.7milecycles.com/product/salsa-cutthroat-c-x01-eagle-axs-408835-1.htm": {
+      "domain": "7milecycles.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:pl"
+    },
+    "https://www.bike24.it/prodotti/1027375": {
+      "domain": "bike24.it",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://lennysbikeshop.com/products/salsa-cutthroat-c-gx-eagle-bike-29-carbon-dark-blue-60cm": {
+      "domain": "lennysbikeshop.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://bikepacking.com/bikes/salsa-cutthroat-v2-review": {
+      "domain": "bikepacking.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.nubuk-bikes.de/produkte/bikes/gravelbikes-cyclecross/salsa-cutthroat-carbon-rival-gx-axs-transmission-komplettrad-29-m-56cm-teal-fade/a-21402891": {
+      "domain": "nubuk-bikes.de",
+      "first_seen": "2026-07-10",
+      "via": "serper:de"
+    },
+    "https://www.bike-forum.cz/foto/detail/73407-salsa-cutthroat-2021": {
+      "domain": "bike-forum.cz",
+      "first_seen": "2026-07-10",
+      "via": "serper:cz"
+    },
+    "https://buycycle.com/nl-nl/product/cutthroat-c-grx-600-1x-2022-10159": {
+      "domain": "buycycle.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
+    },
+    "https://geometrygeeks.bike/bike/salsa-cutthroat-2022": {
+      "domain": "geometrygeeks.bike",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.davegieger.com/2017/05/new-bike-salsa-cutthroat": {
+      "domain": "davegieger.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
     }
   },
   "LAUF-CARBONARA": {
@@ -756,6 +841,26 @@
       "domain": "jensonusa.com",
       "first_seen": "2026-07-09",
       "via": "tavily"
+    },
+    "https://www.treefortbikes.com/Lauf-Carbonara-Fat-Bike-Suspension-Fork": {
+      "domain": "treefortbikes.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.laufcycles.com/products/components": {
+      "domain": "laufcycles.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.incycle.com/products/lauf-carbonara-fat-bike-suspension-fork": {
+      "domain": "incycle.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.laufcycles.com/product/lauf-grit-sl": {
+      "domain": "laufcycles.com",
+      "first_seen": "2026-07-10",
+      "via": "crawl"
     }
   },
   "Lake MX190-X Wide": {
@@ -1423,6 +1528,41 @@
       "domain": "de.lakecycling.com",
       "first_seen": "2026-07-09",
       "via": "crawl"
+    },
+    "https://www.microcenter.com/product/696924/microsoft-xbox-wireless-controller-carbon-black": {
+      "domain": "microcenter.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.dstewart.com/dormandhome-dsc/householdessentials-dsc.html": {
+      "domain": "dstewart.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.ohioknifesales.com/products/Rite-Edge-DOUBLE-CHISEL-PICK-SET-7606_14130.html": {
+      "domain": "ohioknifesales.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.samsclub.com/p/prod25221223": {
+      "domain": "samsclub.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.lowes.com/pd/LOVMOR-Black-Outdoor-Metal-Base-Stainless-Steel-Top-Kitchen-Islands-20in-x-39-5in-x-33-82in-Rolling-Wheels-Spice-Rack-LED-Light/9056824": {
+      "domain": "lowes.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://varuste.net/nl/p140724/lake-mx190-x-wide": {
+      "domain": "varuste.net",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
+    },
+    "https://racycles.com/pt/products/lake-mx190-shoe-regular": {
+      "domain": "racycles.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
     }
   },
   "DT Swiss Fatbike": {
@@ -2229,6 +2369,96 @@
     "https://speedgearbike.com/439079192/439096269": {
       "domain": "speedgearbike.com",
       "first_seen": "2026-07-09",
+      "via": "tavily"
+    },
+    "https://northwestbicycle.com/products/dt-swiss-350-front-hub-15-x-150mm-6-bolt-black-32h": {
+      "domain": "northwestbicycle.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.modernbike.com/dt-swiss-350-mtb-big-ride-15ta-x-150-32h-6b-blk": {
+      "domain": "modernbike.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://wheelproject.com/product/dt-swiss-350-classic-front-hub": {
+      "domain": "wheelproject.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://worldwidecyclery.com/products/dt-swiss-350-front-hub-20-x-110mm-dh-boost-6-bolt-black-32h": {
+      "domain": "worldwidecyclery.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://wheelbuilder.com/dt-swiss-350-classic-center-lock-disc-brake-front-hub": {
+      "domain": "wheelbuilder.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://velodrop.com/resources/hubs/dt-swiss-mtb-classic-hub-dimensions": {
+      "domain": "velodrop.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.use-elitebikes.com/naben/15966-dt-swiss-350-nabe-vorne-15x110-28l-disc-is-neu.html": {
+      "domain": "use-elitebikes.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:de"
+    },
+    "https://www.bikebox-shop.de/en/bike-accessories/additional-accessories/dt-swiss-nabe-fatbike-hr-350-classic-6-loch_35513_187588/": {
+      "domain": "bikebox-shop.de",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://www.ebikecult.it/archivio-tecnica/dt-swiss-350-kit-ratchet-system/": {
+      "domain": "ebikecult.it",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://www.rowertour.com/p/g6239/piasta-tylna-dt-swiss-350-fatbike?type=ajax": {
+      "domain": "rowertour.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:fr"
+    },
+    "https://www.bike24.pl/marki/dt-swiss/f.seria.dt-swiss-350": {
+      "domain": "bike24.pl",
+      "first_seen": "2026-07-10",
+      "via": "serper:es"
+    },
+    "https://smartrowery.pl/piasty-osie/98702-dt-swiss-350-mtb-fatbike-disc-brake-rw-hub-7613052328539.html": {
+      "domain": "smartrowery.pl",
+      "first_seen": "2026-07-10",
+      "via": "serper:pl"
+    },
+    "https://carbonone.pl/pl/p/DT-Swiss-350-J-bend/73": {
+      "domain": "carbonone.pl",
+      "first_seen": "2026-07-10",
+      "via": "serper:pl"
+    },
+    "https://www.ridewill.it/m3/it/ciclismo/1/dt-swiss/1828/ruote-accessori/59/mozzi/94/mozzi-mtb/205/": {
+      "domain": "ridewill.it",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://alumach.com/itm/Mozzo-Anteriore-DT-Swiss-350-MTB-Trazione-Dritta-28H/348216": {
+      "domain": "alumach.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:fr"
+    },
+    "https://www.bike24.nl/merken/dt-swiss/f.serie.dt-swiss-350": {
+      "domain": "bike24.nl",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
+    },
+    "https://community.mtb-mag.com/t/dt-swiss-370-350.288031/": {
+      "domain": "community.mtb-mag.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
+    },
+    "https://www.mtbcult.it/tecnica/dt-swiss-350-kit-ratchet-system": {
+      "domain": "mtbcult.it",
+      "first_seen": "2026-07-10",
       "via": "tavily"
     }
   },
@@ -3362,6 +3592,251 @@
       "domain": "whizz-wheels.de",
       "first_seen": "2026-07-09",
       "via": "crawl"
+    },
+    "https://www.prowheelbuilder.com/dt-swiss-350-2021-rear-black-centerlock-disc-hub.html": {
+      "domain": "prowheelbuilder.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.bikester.se/sv/articles/2.2850.105029/dt-swiss-350-rear-hub-disc-cl-12x148mm-sram-xd": {
+      "domain": "bikester.se",
+      "first_seen": "2026-07-10",
+      "via": "serper:pl"
+    },
+    "https://www.bikesportadventure.com/gb/hubs/29971-dt-swiss-350-straightpull-rear-hub-6-bolt-12x148mm-boost-sram-xd-7613052353722.html": {
+      "domain": "bikesportadventure.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://www.bike-mailorder.com/en-pt/products/350-deg-classic-6-loch-mtb-nabe-hr-12-148-mm-boost-32-loch-sram-xd-mtb": {
+      "domain": "bike-mailorder.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://www.mtbiker.cz/shop/kola-a-rafky/naboje/mtb-kotoucove/dt-swiss-350-boost-zadni-naboj-28-der-12x148-mm-centerlock-orech-sram-xd-p188906.html": {
+      "domain": "mtbiker.cz",
+      "first_seen": "2026-07-10",
+      "via": "serper:cz"
+    },
+    "https://backgammon.cz/?h=24775925111120": {
+      "domain": "backgammon.cz",
+      "first_seen": "2026-07-10",
+      "via": "serper:cz"
+    },
+    "https://www.spoke.cz/dt-swiss-sram-xd-3-pawl-freehub-kit/": {
+      "domain": "spoke.cz",
+      "first_seen": "2026-07-10",
+      "via": "serper:cz"
+    },
+    "https://www.bike24.com/p2505272.html": {
+      "domain": "bike24.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:fr"
+    },
+    "https://biciobiker.es/buje-trasero/dt-swiss-350-star-ratchet-sram-xd-driver-body-12mm-thru-axle-148mm-spacing-28h/": {
+      "domain": "biciobiker.es",
+      "first_seen": "2026-07-10",
+      "via": "serper:es"
+    },
+    "https://www.koloshop24.com/dt-swiss-350-classic-deg-72z-cl-boost-rear-hub-12-148-mm-freehub-sram-xd-ratchet/170297": {
+      "domain": "koloshop24.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
+    },
+    "https://www.bike24.at/p1868622.html": {
+      "domain": "bike24.at",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://www.rnr-components.ch/webshop/dt-swiss-350-12x148/": {
+      "domain": "rnr-components.ch",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://www.velondo.nl/dt-swiss-350-hybrid-mtb-hinterradnabe-148-12mm-ta-boost-32l-cl-shimano-steel.html": {
+      "domain": "velondo.nl",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
+    },
+    "https://www.rnr-components.ch/webshop/dt-swiss-350-12x148": {
+      "domain": "rnr-components.ch",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.tnc-hamburg.com/Naben/DT-Swiss-Naben/DT-Hybrid-Naben/DT-Swiss-350-Hybrid-Hinterradnabe-Classic-Disc-6-Loch-Boost-12x148mm-36-Loch-Mod-24::61418.html": {
+      "domain": "tnc-hamburg.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.velofactory.ch/DT-Swiss-350-CLASSIC-hub-Hybrid-MTB-IS-36L-148-12-HG": {
+      "domain": "velofactory.ch",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://r2-bike.com/DT-SWISS-Hinterradnabe-350-Classic-Center-Lock-12x148-mm-BOOST-Steckachse-Freilauf-SRAM-XD": {
+      "domain": "r2-bike.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:de"
+    },
+    "https://www.koloshop24.de/dt-swiss-350-classic-dbis-boost-hinterradnabe-12-157-mm-ratchet-deg-72-32-loecher-freilaufkoerper-sram-xd/170332": {
+      "domain": "koloshop24.de",
+      "first_seen": "2026-07-10",
+      "via": "serper:de"
+    },
+    "https://www.centrumrowerowe.pl/zestaw-bebenek-adapter-dt-swiss-sram-xd-pd37407/": {
+      "domain": "centrumrowerowe.pl",
+      "first_seen": "2026-07-10",
+      "via": "serper:pl"
+    },
+    "https://utadka.eu/products/Mozzo-Posteriore-DT-Swiss-350-12x197-Mm-6-Bulloni-SRAM-XD/493379": {
+      "domain": "utadka.eu",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://www.mtbiker.cz/shop/kola-a-rafky/naboje/mtb-kotoucove/dt-swiss-350-boost-zadni-naboj-32-der-12x148-mm-centerlock-orech-sram-xd-p188909.html": {
+      "domain": "mtbiker.cz",
+      "first_seen": "2026-07-10",
+      "via": "serper:cz"
+    },
+    "https://www.axit.cz/d153684_dt-swiss_naboj_zadni_350_centerlock_148-12_mm_boost_sram_xd/": {
+      "domain": "axit.cz",
+      "first_seen": "2026-07-10",
+      "via": "serper:cz"
+    },
+    "https://www.heureka.cz/?h%5Bfraze%5D=mtb+dt+swiss+xd+sram": {
+      "domain": "heureka.cz",
+      "first_seen": "2026-07-10",
+      "via": "serper:cz"
+    },
+    "https://campingtour.fr/items/moyeu-arrire-dt-swiss-350-mtb-db-148-12mm-boost-cl-32t-sram-xd--s1-A419173528": {
+      "domain": "campingtour.fr",
+      "first_seen": "2026-07-10",
+      "via": "serper:fr"
+    },
+    "https://www.jpracingbike1.com/fr/760-corps-de-roue-libre-dt-swiss-ratchet-xd.html": {
+      "domain": "jpracingbike1.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:fr"
+    },
+    "https://www.deporvillage.nl/dt-swiss-350-straightpull-mtb-achternaaf-12x148-mm-boost-voor-sram-xd": {
+      "domain": "deporvillage.nl",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
+    },
+    "https://www.alltricks.nl/F-1858562-naven/P-3063040-dt_swiss_350_classic_32_gaats_achternaaf___boost_12x148mm___centerlock": {
+      "domain": "alltricks.nl",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
+    },
+    "https://www.velondo.nl/dt-swiss-350-mtb-db-hinterradnabe-142-12mm-ta-cl-32-loch-sram-xd.html": {
+      "domain": "velondo.nl",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
+    },
+    "https://365cycles.com/products/dt-swiss-350-deg-32-hole-6-bolt-disc-sram-xd-rrhb2696-bicycle-rear-hub": {
+      "domain": "365cycles.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.forumrowerowe.org/topic/236496-piasta-adaptery-do-piasty-dt350/": {
+      "domain": "forumrowerowe.org",
+      "first_seen": "2026-07-10",
+      "via": "serper:de"
+    },
+    "https://www.bike24.pl/marki/dt-swiss/f.seria.dt-swiss-350": {
+      "domain": "bike24.pl",
+      "first_seen": "2026-07-10",
+      "via": "serper:pl"
+    },
+    "https://www.ebikecult.it/archivio-tecnica/dt-swiss-350-kit-ratchet-system/": {
+      "domain": "ebikecult.it",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://community.mtb-mag.com/t/mozzo-anteriore-dt-swiss-350-scorrevolezza.409848/": {
+      "domain": "community.mtb-mag.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://www.bike24.pl/produkty/868622": {
+      "domain": "bike24.pl",
+      "first_seen": "2026-07-10",
+      "via": "serper:fr"
+    },
+    "https://www.velofactory.ch/DT-Swiss-350-CLASSIC-Mozzo-MTB-IS-28L-148-12mm-MS-DEG": {
+      "domain": "velofactory.ch",
+      "first_seen": "2026-07-10",
+      "via": "serper:de"
+    },
+    "https://www.olx.pl/sport-hobby/q-dt-swiss-350-148x12/": {
+      "domain": "olx.pl",
+      "first_seen": "2026-07-10",
+      "via": "serper:pl"
+    },
+    "https://www.mtbiker.it/shop/ruote-e-cerchi/mozzi-per-bici-/mozzi-disco-mtb/dt-swiss-350-classic-mozzo-posteriore-6-fori-32-fori-12x148-mm-shimano-microspline-p188902.html": {
+      "domain": "mtbiker.it",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://the-witcher.cz/32H-XD-Freehub-6-Bulloni-36T-Nuovo-Con-Lievi-Difetti/805450": {
+      "domain": "the-witcher.cz",
+      "first_seen": "2026-07-10",
+      "via": "serper:cz"
+    },
+    "https://www.deporvillage.it/mozzo-posteriore-dt-swiss-350-classic-mtb-12x148-mm-boost-disc-is-6-bolt": {
+      "domain": "deporvillage.it",
+      "first_seen": "2026-07-10",
+      "via": "serper:cz"
+    },
+    "https://www.bike24.it/prodotti/505188": {
+      "domain": "bike24.it",
+      "first_seen": "2026-07-10",
+      "via": "serper:fr"
+    },
+    "https://endubikes.com/tienda/componentes-mtb/ruedas-mtb/bujes-mtb/dt-swiss-350-classic-center-lock/": {
+      "domain": "endubikes.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:es"
+    },
+    "https://bikeshop.es/products/buje-trasero-dt-swiss-350-classic-12x148-mm-boost-6-agujeros": {
+      "domain": "bikeshop.es",
+      "first_seen": "2026-07-10",
+      "via": "serper:es"
+    },
+    "https://www.velofactory.ch/DT-Swiss-350-CLASSIC-Mozzo-MTB-CL-32L-148-12mm-MS-DEG": {
+      "domain": "velofactory.ch",
+      "first_seen": "2026-07-10",
+      "via": "serper:es"
+    },
+    "https://www.mtbiker.it/shop/ruote-e-cerchi/mozzi-per-bici-/mozzi-disco-mtb/mozzo-posteriore-dt-swiss-350-6-fori-28-fori-boost-12x148-mm-straightpull-corpetto-xd-p188917.html": {
+      "domain": "mtbiker.it",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.mtbiker.it/shop/ruote-e-cerchi/mozzi-per-bici-/mozzi-disco-mtb/mozzo-posteriore-dt-swiss-350-6-fori-28-fori-boost-12x148-mm-straightpull-corpetto-microspline-p188911.html": {
+      "domain": "mtbiker.it",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.lordgunbicycles.com/mozzo-posteriore-dt-swiss-350-mtb-boost-straightpull-is-28-fori-12x148-mm": {
+      "domain": "lordgunbicycles.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.mtbiker.shop/shop/wheels-and-rims/hubs/mtb-disc/dt-swiss-350-rear-hub-6-hole-28-hole-boost-12x148-mm-straightpull-nut-microspline-p188911.html": {
+      "domain": "mtbiker.shop",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://r2-bike.com/DT-SWISS-Rear-Hub-350-Straightpull-6-Hole-12x148-mm-BOOST-Thru-Axle-Freehub-SRAM-XD": {
+      "domain": "r2-bike.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://r2-bike.com/DT-SWISS-Rear-Hub-350-Classic-6-Hole-12x148-mm-BOOST-Thru-Axle-Freehub-Shimano-Micro-Spline": {
+      "domain": "r2-bike.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
     }
   },
   "Ritchey WCS Carbon ErgoMax": {
@@ -4079,6 +4554,61 @@
       "domain": "alltricks.fr",
       "first_seen": "2026-07-09",
       "via": "tavily"
+    },
+    "https://www.macraesbluebook.com/search/company.cfm?company=346569": {
+      "domain": "macraesbluebook.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.rosebikes.es/p/ritchey-wcs-ergomax-roadgravelallroad-bar-2673926": {
+      "domain": "rosebikes.es",
+      "first_seen": "2026-07-10",
+      "via": "serper:es"
+    },
+    "https://www.deporvillage.net/ritchey-ergomax-wcs-handlebar-black": {
+      "domain": "deporvillage.net",
+      "first_seen": "2026-07-10",
+      "via": "serper:es"
+    },
+    "https://www.velofactory.ch/Ritchey-Road-handlebar-WCS-Ergomax-42cm-c-c-top-blatte-black-318mm-Di2-internal-routing": {
+      "domain": "velofactory.ch",
+      "first_seen": "2026-07-10",
+      "via": "serper:cz"
+    },
+    "https://www.deporvillage.fr/guidon-ritchey-ergomax-wcs-noir": {
+      "domain": "deporvillage.fr",
+      "first_seen": "2026-07-10",
+      "via": "serper:fr"
+    },
+    "https://www.mtbiker.pl/shop/komponenty/kierownice-i-rogi/kierownice-szosowe-i-gravelowe/ritchey-wcs-ergomax-kierownica-318-mm-p276015.html": {
+      "domain": "mtbiker.pl",
+      "first_seen": "2026-07-10",
+      "via": "serper:pl"
+    },
+    "https://www.velodrome-cycling.com/de/lenker/ritchey-wcs-ergomax-rennradlenker.html": {
+      "domain": "velodrome-cycling.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:de"
+    },
+    "https://www.forumsport.com/es-es/ritchey-manillar-carretera-ritchmanwcs-carboergomax-46-di2-rout-ritch30355427078-1000796958-p": {
+      "domain": "forumsport.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:es"
+    },
+    "https://agriper.nl/details/ErgoMax-Manubrio-Strada-In-Carbonio-UD-Opaco-44cm-Comfort-E/500810": {
+      "domain": "agriper.nl",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
+    },
+    "https://www.cinevittoria.it/Ritchey-WCS-Carbon-ErgoMax-Guidon-De-Route-UD-Mat-44-Cm-Noir-618393/": {
+      "domain": "cinevittoria.it",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://trenerterapeut.cz/Guidon-Route-Ritchey-WCS-Carbon-ErgoMax-44-Cm-UD-Mat-Pour-o-535718": {
+      "domain": "trenerterapeut.cz",
+      "first_seen": "2026-07-10",
+      "via": "serper:cz"
     }
   },
   "Canyon S14 VCLS 2.0": {
@@ -4410,6 +4940,146 @@
     "https://www.canyon.com/en-us/about/innovation/vcls-technology": {
       "domain": "canyon.com",
       "first_seen": "2026-07-09",
+      "via": "tavily"
+    },
+    "https://www.canyon.com/en-at/gear/bike-parts/spare-wear-parts/canyon-s14-vcls-2.0-27.2mm-cf-seatpost/148286.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.canyon.com/en-no/gear/bike-parts/spare-wear-parts/canyon-s14-vcls-2.0-27.2mm-cf-seatpost/148286.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.canyon.com/en-rs/gear/bike-parts/spare-wear-parts/canyon-s14-vcls-2.0-27.2mm-cf-seatpost/148286.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.canyon.com/en-bg/gear/bike-parts/spare-wear-parts/canyon-s14-vcls-2.0-27.2mm-cf-seatpost/148286.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.canyon.com/en-mx/gear/bike-parts/spare-wear-parts/canyon-s14-vcls-2.0-27.2mm-cf-seatpost/148286.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.canyon.com/en-gr/gear/bike-parts/spare-wear-parts/canyon-s14-vcls-2.0-27.2mm-cf-seatpost/148286.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.canyon.com/en-hn/gear/bike-parts/spare-wear-parts/canyon-s14-vcls-2.0-27.2mm-cf-seatpost/148286.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.canyon.com/en-tw/gear/bike-parts/spare-wear-parts/canyon-s14-vcls-2.0-27.2mm-cf-seatpost/148286.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.canyon.com/en-th/gear/bike-parts/spare-wear-parts/canyon-s14-vcls-2.0-27.2mm-cf-seatpost/148286.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.canyon.com/en-be/gear/bike-parts/spare-wear-parts/canyon-s14-vcls-2.0-27.2mm-cf-seatpost/148286.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.canyon.com/en-au/gear/bike-parts/spare-wear-parts/canyon-s14-vcls-2.0-27.2mm-cf-seatpost/148286.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.canyon.com/en-se/gear/bike-parts/spare-wear-parts/canyon-s14-vcls-2.0-27.2mm-cf-seatpost/148286.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.canyon.com/nl-be/gear/bike-parts/spare-wear-parts/canyon-s14-vcls-2.0-27.2mm-cf-seatpost/148286.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.canyon.com/no-no/sykkeltilbehor/sykkeldeler/spare-wear-parts/canyon-s14-vcls-2.0-27.2mm-cf-seatpost/148286.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.canyon.com/fi-fi/pyorailytarvikkeet/pyoran-komponentit/kulutusosat/canyon-s14-vcls-2.0-27.2mm-cf-seatpost/148286.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.canyon.com/en-in/gear/bike-parts/spare-wear-parts/canyon-s14-vcls-2.0-27.2mm-cf-seatpost/148286.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.canyon.com/en-is/gear/bike-parts/spare-wear-parts/canyon-s14-vcls-2.0-27.2mm-cf-seatpost/148286.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.canyon.com/en-it/gear/bike-parts/spare-wear-parts/canyon-s14-vcls-2.0-27.2mm-cf-seatpost/148286.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.canyon.com/sv-se/cykeltillbehoer/delar/reserv-slitdelar/canyon-s14-vcls-2.0-27.2mm-cf-seatpost/148286.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.canyon.com/da-dk/udstyr/cykeldele/reservedele/canyon-s14-vcls-2.0-27.2mm-cf-seatpost/148286.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.radforum.de/threads/3163256-canyon-oder-ergon-sattelstuetze": {
+      "domain": "radforum.de",
+      "first_seen": "2026-07-10",
+      "via": "serper:de"
+    },
+    "https://www.canyon.com/de-de/about/innovation/vcls-technology/": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:fr"
+    },
+    "https://www.kleinanzeigen.de/s-canyon-vcls/k0": {
+      "domain": "kleinanzeigen.de",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.canyon.com/en-br/gear/bike-parts/posts-and-clamps/canyon-s14-vcls-2.0-27.2mm-cf-seatpost/148286.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:fr"
+    },
+    "https://community.escapecollective.com/t/gravel-seatpost-recommendation/4364": {
+      "domain": "community.escapecollective.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:fr"
+    },
+    "https://allegrolokalnie.pl/oferta/sztyca-sztywna-karbonowa-canyon-siodelko-selle": {
+      "domain": "allegrolokalnie.pl",
+      "first_seen": "2026-07-10",
+      "via": "serper:pl"
+    },
+    "https://buycycle.com/pl-pl/shop/main-types/cycling-gear/types/saddle/categories/seatpost/brands/canyon/search/Canyon%20S15%20VCLS%202.0%20CF": {
+      "domain": "buycycle.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:fr"
+    },
+    "https://www.canyon.com/en-bm/gear/bike-parts/posts-and-clamps/canyon-s14-vcls-2.0-27.2mm-cf-seatpost/148286.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-10",
       "via": "tavily"
     }
   },
@@ -5458,6 +6128,101 @@
       "domain": "worldwidecyclery.com",
       "first_seen": "2026-07-09",
       "via": "tavily"
+    },
+    "https://www.opticsplanet.com/kwik-tek-dry-pak-multi-purpose-case.html": {
+      "domain": "opticsplanet.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.homedepot.com/p/PAKOKULA-2-Pack-11-8-in-1-Light-Navy-Blue-White-Industrial-Semi-Flush-Mount-with-Metal-Dome-Shade-G-165-2/340320255": {
+      "domain": "homedepot.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://dragonspinecycling.com/pl/products/cane-creek-50-series-headset-is41-28-6-is52-40-black": {
+      "domain": "dragonspinecycling.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:pl"
+    },
+    "https://www.merlincycles.com/cane-creek-40-is41-286-is52-40-integrated-headset-336812.html": {
+      "domain": "merlincycles.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:fr"
+    },
+    "https://www.alltricks.com/F-11925-jeux-de-direction/P-1725712-cane_creek_40_series_integrated_headset_is41___28_6___is52___40": {
+      "domain": "alltricks.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:es"
+    },
+    "https://boc24.de/products/cane-creek-40-tapered": {
+      "domain": "boc24.de",
+      "first_seen": "2026-07-10",
+      "via": "serper:cz"
+    },
+    "https://www.mantel.com/de/cane-creek-40-is-tapered-steuersatz": {
+      "domain": "mantel.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.absolutebikes.net/product/cane-creek-40-series-tapered-402796-1.htm": {
+      "domain": "absolutebikes.net",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.western-cycle.com/product/cane-creek-40-series-tapered-402796-1.htm": {
+      "domain": "western-cycle.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.tradeinn.com/bikeinn/pl/cane-creek-40-is41-is52-zintegrowane-stery/139801371/p": {
+      "domain": "tradeinn.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:pl"
+    },
+    "https://www.alltricks.nl/F-11925-balfhoofdstel/P-1725712-cane_creek_40_series_integrated_headset_is41_28_6___is52_40": {
+      "domain": "alltricks.nl",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
+    },
+    "https://racycles.com/products/cane-creek-40-is41-28-6-is52-40-short-cover-headset": {
+      "domain": "racycles.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.fanatikbike.com/products/cane-creek40-is41-is52-40-headset": {
+      "domain": "fanatikbike.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.pro-mstore.com/products/serie-sterzo-cane-creek-40-series-integrata-1-5-is41-28-6-h15-is52-40-2225504753613500": {
+      "domain": "pro-mstore.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:pl"
+    },
+    "https://www.santafixie.it/serie-sterzo-cane-creek-forty-is41-28-6-is52-40-copertura-corta-nero.html": {
+      "domain": "santafixie.it",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://www.clcbike.com/it/serie-sterzo-integrate/16709-serie-sterzo-integrata-cane-creek-40-is41-1-1-8-short.html": {
+      "domain": "clcbike.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://www.mammothbikes.com/it/cane-creek-40_series-is41-_-is52-40-_/p-574503": {
+      "domain": "mammothbikes.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:es"
+    },
+    "https://ebikelab.it/cane-creek-serie-sterzo-40-series-is41-28-6-h9-is41-30-c1-484102101": {
+      "domain": "ebikelab.it",
+      "first_seen": "2026-07-10",
+      "via": "serper:es"
+    },
+    "https://www.ridewill.it/p/it/cane-creek-484102115-serie-sterzo-40-series-integrata-15-is41-286-h15-is52-40-cono-alto-nero/736864": {
+      "domain": "ridewill.it",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
     }
   },
   "GX-T-KIT": {
@@ -6490,6 +7255,171 @@
       "domain": "bikepacking.com",
       "first_seen": "2026-07-09",
       "via": "tavily"
+    },
+    "https://www.homedepot.com/p/16-75-in-W-x-5-5-in-D-x-2-75-in-H-Rustic-Silver-Wood-and-Metal-Wall-Mount-Bathroom-Set-of-2-Shelves-with-Towel-Bar-B07SGXDZMZ/323468894": {
+      "domain": "homedepot.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://business.walmart.com/ip/Top-Knobs-Corner-Adjustable-11-81-W-x-11-81-D-x-35-43-H-4-Shelf-Wired-Bath-Shelves-Silver/327062144": {
+      "domain": "business.walmart.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.lowes.com/pd/Slickblue-Natural-Rustic-Brown-5-Tier-Kids-Bookshelf-with-Front-Facing-Display-15W-x-30H-x-30D-for-Books-Magazines-and-Comics/7386353": {
+      "domain": "lowes.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.lowes.com/pd/LOVMOR-Rustic-Grey-Oak-and-Chrome-8-Shelf-Bookshelf/8047616": {
+      "domain": "lowes.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.homedepot.com/p/10-6-in-W-x-6-7-in-D-x-17-7-in-H-3-Tier-Corner-Chrome-White-Bathroom-Organizer-Countertop-B08XQ1D97R/323409217": {
+      "domain": "homedepot.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.hardwareworld.com/ptvdypy/High-Temp-Grease-1-Lb": {
+      "domain": "hardwareworld.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.target.com/p/71-5-34-ginrel-metal-display-5-shelves-bookshelf-black-mibasics/-/A-81103013": {
+      "domain": "target.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.bike24.pl/produkty/756893": {
+      "domain": "bike24.pl",
+      "first_seen": "2026-07-10",
+      "via": "serper:pl"
+    },
+    "https://www.bike24.it/prodotti/756894": {
+      "domain": "bike24.it",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://ebikestore.shop/home/4029-kit-upgrade-sram-gx-eagle-t-type-per-eagle7090.html": {
+      "domain": "ebikestore.shop",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://www.velozine.nl/nieuws/sram-komt-nu-al-met-axs-upgradekit-voor-mechanische-eagle-90-en-70-transmission/": {
+      "domain": "velozine.nl",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
+    },
+    "https://www.bike24.com/p2993076.html": {
+      "domain": "bike24.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
+    },
+    "https://www.mountainbike.nl/nieuws/2025/upgrade-je-sram-70-90-transmissie-naar-een-gx-eagle-axs": {
+      "domain": "mountainbike.nl",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
+    },
+    "https://ridersguide.nl/sram-gx-eagle-axs-transmission-upgrade-kit/": {
+      "domain": "ridersguide.nl",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
+    },
+    "https://www.paragoncycling.com/product/sram-gx-eagle-90-70-t-type-axs-upgrade-kit-1244851-1.htm": {
+      "domain": "paragoncycling.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://thundermountainbikes.com/products/sram-gx-t-type-eagle-axs-upgrade-kit": {
+      "domain": "thundermountainbikes.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.bike24.com/brands/sram/f.series.sram-gx-eagle-axs": {
+      "domain": "bike24.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:de"
+    },
+    "https://www.kupkolo.cz/sram-gx-eagle-axs-upgrade-kit-prehazovacka-s-baterii-pod-tlacitka-nabijecka-chain-gap_z125476/": {
+      "domain": "kupkolo.cz",
+      "first_seen": "2026-07-10",
+      "via": "serper:cz"
+    },
+    "https://www.lvr-cycles.com/fr/groupes-vtt/9845-kit-d-amelioration-sram-gx-eagle-axs-007918104001-gs-gx-1e-a1.html": {
+      "domain": "lvr-cycles.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:fr"
+    },
+    "https://www.alltricks.nl/F-46287-groepen/P-2851438-sram_gx_eagle_axs_upgrade_kit_12v": {
+      "domain": "alltricks.nl",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
+    },
+    "https://www.dynamitebikelab.com/products/sram-gx-t-type-eagle-axs-upgrade-kit": {
+      "domain": "dynamitebikelab.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://racycles.com/products/sram-gx-eagle-axs-t-type-groupset": {
+      "domain": "racycles.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.bike-x.de/mtb/parts/sram-gx-eagle-axs/": {
+      "domain": "bike-x.de",
+      "first_seen": "2026-07-10",
+      "via": "serper:de"
+    },
+    "https://www.bikestacja.pl/grupa-sram-gx-axs-eagle-transmission-e-mtb-175-mm-usb-c-1x12-36t-p-46630.html": {
+      "domain": "bikestacja.pl",
+      "first_seen": "2026-07-10",
+      "via": "serper:pl"
+    },
+    "https://goodsport.pl/akcesoria-rowerowe/grupa-mtb-sram-gx-eagle-axs-transmission/": {
+      "domain": "goodsport.pl",
+      "first_seen": "2026-07-10",
+      "via": "serper:pl"
+    },
+    "https://www.sanvit.com/it/Fahrradteile/Gruppenteile-Mountainbike/Komplettgruppen/Sram-GX-Eagle-Transmission-AXS/7332": {
+      "domain": "sanvit.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://www.bike24.com/p2756893.html": {
+      "domain": "bike24.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
+    },
+    "https://www.deporvillage.nl/sram-gx-eagle-axs-type-complete-groepset": {
+      "domain": "deporvillage.nl",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
+    },
+    "https://www.rosebikes.nl/p/sram-gx-eagle-transmissiontm-12-speed-ketting-2721912": {
+      "domain": "rosebikes.nl",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
+    },
+    "https://bikenos.com/nl/products/238627-gx-axs-eagle-transmission-12-speed-ombouwset": {
+      "domain": "bikenos.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
+    },
+    "https://thundermountainbikes.com/products/sram-gx-eagle-transmission-axs-groupset": {
+      "domain": "thundermountainbikes.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.koloshop24.com/sram-gx-eagle-transmission-t-type-axs-set/144879": {
+      "domain": "koloshop24.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://mikesbikes.com/products/sram-gx-eagle-axs-transmission-groupset": {
+      "domain": "mikesbikes.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
     }
   },
   "GX-T-CHAIN": {
@@ -7477,6 +8407,156 @@
       "domain": "thundermountainbikes.com",
       "first_seen": "2026-07-09",
       "via": "tavily"
+    },
+    "https://bikesacr.com/en/chains/corrente-gx-eagle-flattop-126-elos-12-veloc": {
+      "domain": "bikesacr.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://cavalierebici.it/en/products/sram-gx-eagle-t-type-flattop-126-chain-12-speed-links": {
+      "domain": "cavalierebici.it",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://www.ciclesberenguer.com/producto/sram-gx-eagle-transmission-flattop/": {
+      "domain": "ciclesberenguer.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:es"
+    },
+    "https://ociodeporte.es/cadenas/23600-cadena-sram-gx-eagle-t-type.html": {
+      "domain": "ociodeporte.es",
+      "first_seen": "2026-07-10",
+      "via": "serper:es"
+    },
+    "https://evolutionbikes.it/products/catena-sram-gx-eagle-t-type-flattop-12-speed": {
+      "domain": "evolutionbikes.it",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://www.sportler.com/it/p/sram-gx-eagle-12-t-type-flattop-catena-11537749": {
+      "domain": "sportler.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://www.profbike.it/prodotto/sram-catena-gx-t-type-eagle-flattop-12v/": {
+      "domain": "profbike.it",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://snyt-primka.cz/12-fach-Kette-SRAM-EAGLE-70-T-TYPE-Flattop/169726": {
+      "domain": "snyt-primka.cz",
+      "first_seen": "2026-07-10",
+      "via": "serper:cz"
+    },
+    "https://www.idealo.es/precios/204272328/sram-gx-eagle-t-type-solid-pin-flattop-powerlock-chain-126-links-12s.html": {
+      "domain": "idealo.es",
+      "first_seen": "2026-07-10",
+      "via": "serper:es"
+    },
+    "https://www.bicispasaje.es/cadenas/14626-cadena-sram-xx-eagle-t-type-flattop-710845891472.html": {
+      "domain": "bicispasaje.es",
+      "first_seen": "2026-07-10",
+      "via": "serper:es"
+    },
+    "https://www.bike-discount.de/es/sram-cadena-de-12-velocidades-gx-eagle-transmission-flattop": {
+      "domain": "bike-discount.de",
+      "first_seen": "2026-07-10",
+      "via": "serper:es"
+    },
+    "https://community.escapecollective.com/t/interoperability-between-sram-t-type-and-flat-top-chains-quick-links/3301": {
+      "domain": "community.escapecollective.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
+    },
+    "https://www.bluezonesports.com/sram/sram-gx-eagle-t-type-flattop-c-56249": {
+      "domain": "bluezonesports.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.biker-boarder.de/sram/3073669.html": {
+      "domain": "biker-boarder.de",
+      "first_seen": "2026-07-10",
+      "via": "serper:de"
+    },
+    "https://www.bikestacja.pl/lancuch-sram-xx-eagle-t-type-flattop-12s-126l-spinka-p-22913.html": {
+      "domain": "bikestacja.pl",
+      "first_seen": "2026-07-10",
+      "via": "serper:pl"
+    },
+    "https://www.bikestacja.pl/lancuch-sram-eagle-70-transmission-12-rzedowy-126-ogniw-srebrny-p-27225.html": {
+      "domain": "bikestacja.pl",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://allegrolokalnie.pl/oferta/lancuch-sram-gx-eagle-126-box-ttype-flattop-transmission": {
+      "domain": "allegrolokalnie.pl",
+      "first_seen": "2026-07-10",
+      "via": "serper:es"
+    },
+    "https://powermetercity.com/product/sram-xx-eagle-transmission-flattop-chain": {
+      "domain": "powermetercity.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://thundermountainbikes.com/products/sram-x0-eagle-transmission-chain": {
+      "domain": "thundermountainbikes.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.biketiresdirect.com/product/sram-x0-eagle-transmission-flattop-chain": {
+      "domain": "biketiresdirect.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.athleticfeat.com/product/sram-gx-eagle-transmission-flattop-chain-678202-1.htm": {
+      "domain": "athleticfeat.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.bicyclechain.com/product/sram-eagle-70-transmission-flattop-chain-1238758-1.htm": {
+      "domain": "bicyclechain.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.rosebikes.de/p/sram-gx-eagle-transmissiontm-12-fach-kette-2721912": {
+      "domain": "rosebikes.de",
+      "first_seen": "2026-07-10",
+      "via": "serper:de"
+    },
+    "https://www.bike-discount.de/de/sram/eagle-transmission/gx-eagle-transmission": {
+      "domain": "bike-discount.de",
+      "first_seen": "2026-07-10",
+      "via": "serper:de"
+    },
+    "https://www.thokbikes.com/negozio/accessori-e-componenti/transmission/catena-sram-gx-126-black/?set_country_zone=AT": {
+      "domain": "thokbikes.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:de"
+    },
+    "https://www.all4cycling.com/fr/products/catena-sram-gx-eagle-flattop-12v": {
+      "domain": "all4cycling.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:fr"
+    },
+    "https://www.bike24.es/marcas/sram/f.serie.sram-gx-eagle-transmission": {
+      "domain": "bike24.es",
+      "first_seen": "2026-07-10",
+      "via": "serper:es"
+    },
+    "https://www.rosebikes.nl/p/sram-gx-eagle-transmissiontm-12-speed-ketting-2721912": {
+      "domain": "rosebikes.nl",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
+    },
+    "https://www.fiets.nl/mtb/sram-eagle-transmission-alles-wat-je-moet-weten/": {
+      "domain": "fiets.nl",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
+    },
+    "https://www.bicycling.nl/nieuws/1279309/review-sram-gx-t-type": {
+      "domain": "bicycling.nl",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
     }
   },
   "ROCK SHOX SID": {
@@ -8314,6 +9394,231 @@
       "domain": "mtbpro.es",
       "first_seen": "2026-07-09",
       "via": "tavily"
+    },
+    "https://www.target.com/p/general-electric-unisex-dipped-gloves-black-blue-xl-box-of-12-pairs/-/A-90967752": {
+      "domain": "target.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.bkstr.com/converseuniversitystore/product/usb-wall-charg-iessentials-wht-419210-1": {
+      "domain": "bkstr.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.crescentelectric.com/product/286692/hi-impact-hidrubckit-2-port-standard-unloaded-utility-box-kit-composite-34-cu-in-capacity-1-outlet": {
+      "domain": "crescentelectric.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.grangecoop.com/176284-true-value-gray-plastic-expandable-gate": {
+      "domain": "grangecoop.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.raaad.com/products/rockshox-sid-sl-select-100-mm-29-zoll-federgabel-boost-44-mm-offset": {
+      "domain": "raaad.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:de"
+    },
+    "https://silverbackbikes.de/products/sid-ultimate-fork": {
+      "domain": "silverbackbikes.de",
+      "first_seen": "2026-07-10",
+      "via": "serper:de"
+    },
+    "https://www.spoke.cz/rockshox-sid-sl-select-3p-crown-100-29/": {
+      "domain": "spoke.cz",
+      "first_seen": "2026-07-10",
+      "via": "serper:cz"
+    },
+    "https://www.heureka.cz/?f=16&h%5Bfraze%5D=rockshox+sid+29": {
+      "domain": "heureka.cz",
+      "first_seen": "2026-07-10",
+      "via": "serper:cz"
+    },
+    "https://www.absolubike.fr/fourche-rockshox-sid-sl-select-remote-2p-29-15x110-boost-100mm-debon-air-noir-brillant-32377.html": {
+      "domain": "absolubike.fr",
+      "first_seen": "2026-07-10",
+      "via": "serper:fr"
+    },
+    "https://www.rczbikeshop.com/fr/rockshox-fork-sid-sl-select-rl-29-100mm-boost-15x110mm-tapered-black-00-4020-212-012.html": {
+      "domain": "rczbikeshop.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:fr"
+    },
+    "https://buycycle.com/fr-ch/product/suspension-fork-rock-shox-sid-sl-select-29-rl": {
+      "domain": "buycycle.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:fr"
+    },
+    "https://newbikes.es/producto/horquilla-rock-shox-sid-select-rl-29-100-boost/": {
+      "domain": "newbikes.es",
+      "first_seen": "2026-07-10",
+      "via": "serper:es"
+    },
+    "https://www.lvr-cycles.com/es/horquillas-de-montana/1868-rockshox-fork-sid-sl-select-charger-rl-29-120mm.html": {
+      "domain": "lvr-cycles.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:es"
+    },
+    "https://bikemonkey.shop/verende-voorvork-29-rockshox-1-1-8-1-1-2-sid-sl-select-charger-rl-e1-remote-100mm-110-15mm-zwart-1.html": {
+      "domain": "bikemonkey.shop",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
+    },
+    "https://www.deporvillage.nl/vork-rockshox-sid-32-sl-select-charger-rl-29-15x100-mm-boost-110-mm-av44-zwart": {
+      "domain": "deporvillage.nl",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
+    },
+    "https://buycycle.com/nl-be/product/suspension-fork-rock-shox-sid-sl-select-29-rl": {
+      "domain": "buycycle.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
+    },
+    "https://www.merlincycles.com/en-us/rockshox-sid-sl-select-boost-mtb-forks-29-339521.html": {
+      "domain": "merlincycles.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.treefortbikes.com/RockShox-SID-SL-Ultimate-Race-Day-2-Suspension-Fork": {
+      "domain": "treefortbikes.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://spokex.com/products/rockshox-sid-sl-select-2p-remote-e1-suspension-fork-29-debonair-100mm-1-1-8-1-5-15x110mm-ta-rake-44mm-black-remote-sold-separately": {
+      "domain": "spokex.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://thebikerschoice.com/products/rockshox-sid-sl-select-fork-29-black?id=d4ccbf79e17d936949a42be63d889d5d2cfe39772beb2aa950a995fe0162e20a&variant=B-RS8832": {
+      "domain": "thebikerschoice.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.incycle.com/products/rockshox-sid-sl-select-suspension-fork": {
+      "domain": "incycle.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.spoke.cz/rockshox-sid-sl-select-2p-remote-100-29-e1-black/": {
+      "domain": "spoke.cz",
+      "first_seen": "2026-07-10",
+      "via": "serper:cz"
+    },
+    "https://www.bikeandride.cz/2020/03/rockshox-sid-sid-sl-sidluxe-novy-lechci-lepsi/": {
+      "domain": "bikeandride.cz",
+      "first_seen": "2026-07-10",
+      "via": "serper:cz"
+    },
+    "https://vidlice.heureka.cz/rock-shox-sid-sl-ultimate/": {
+      "domain": "vidlice.heureka.cz",
+      "first_seen": "2026-07-10",
+      "via": "serper:cz"
+    },
+    "https://www.tnc-hamburg.com/Federgabeln-Daempfer/Federgabeln/RockShox-Federgabeln/RockShox-Sid-Federgabel/RockShox-SID-Select-2P/RockShox-SID-SL-Select-3P-Remote-Gloss-Black-E1-MTB-Federgabel-Boost-29-Zoll-Tapered-100-mm::60740.html": {
+      "domain": "tnc-hamburg.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:fr"
+    },
+    "https://www.mtbiker.de/classifieds/komponenten/gabeln-und-stosdampfer/federgabeln/gabeln-29/4659098/rock-shox-sid-sl-select-100mm-29.html": {
+      "domain": "mtbiker.de",
+      "first_seen": "2026-07-10",
+      "via": "serper:fr"
+    },
+    "https://www.alltricks.fr/v/rockshox-sid-100mm": {
+      "domain": "alltricks.fr",
+      "first_seen": "2026-07-10",
+      "via": "serper:fr"
+    },
+    "https://www.velondo.nl/rock-shox-sid-sl-ultimate-da-federgabel-29-1-5tap-100mm-schwarz-b15x110-crown-44off-rd-dis-c1.html": {
+      "domain": "velondo.nl",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
+    },
+    "https://www.raaad.de/products/rockshox-sid-sl-select-100-mm-29-zoll-federgabel-boost-44-mm-offset": {
+      "domain": "raaad.de",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
+    },
+    "https://www.goride.pl/czesci/amortyzator-rockshox-sid-sl-select-2-position": {
+      "domain": "goride.pl",
+      "first_seen": "2026-07-10",
+      "via": "serper:pl"
+    },
+    "https://www.probikesupply.com/products/rockshox-sid-sl-select-3p-remote-e1-suspension-fork-29-debonair-100mm-1-1-8-1-5-15x110mm-ta-rake-44mm-black-remote-sold-separately": {
+      "domain": "probikesupply.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://motomentum.com/products/rockshox-sid-sl-select-3p-remote-e1-suspension-fork-29-100mm-black-00-4021-168-001": {
+      "domain": "motomentum.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://bouldernordic.com/products/rockshox-sid-sl-select-3p-remote-e1-suspension-fork-29-debonair-100mm-1-1-8-1-5-15x110mm-ta-rake-44mm-black-remote-sold-separately": {
+      "domain": "bouldernordic.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.universalcycles.com/shopping/product_details.php?id=117897": {
+      "domain": "universalcycles.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://flowmountainbike.com/tests/2026-rockshox-sid-sl-review-first-ride": {
+      "domain": "flowmountainbike.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://support.rockshox.com/hc/en-us/articles/17383331213595-What-is-the-weight-difference-between-the-2021-and-2024-SID-SID-SL-models": {
+      "domain": "support.rockshox.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:de"
+    },
+    "https://vidlice.heureka.cz/rock-shox-sid-sl-select-rl/": {
+      "domain": "vidlice.heureka.cz",
+      "first_seen": "2026-07-10",
+      "via": "serper:cz"
+    },
+    "https://www.spectrumbike.cz/vidlice-na-jizdni-kolo/vidlice-na-horske-kolo-rockshox-sid-sl-ultimate-race-day/": {
+      "domain": "spectrumbike.cz",
+      "first_seen": "2026-07-10",
+      "via": "serper:cz"
+    },
+    "https://www.kolokram.cz/vidlice-rockshox-sid-sl-select-charger-rl-2p-remote-29-boost-15x110-100mm-black-p419428/": {
+      "domain": "kolokram.cz",
+      "first_seen": "2026-07-10",
+      "via": "serper:cz"
+    },
+    "https://www.bike24.it/marchi/rockshox/f.serie.rockshox-sid": {
+      "domain": "bike24.it",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
+    },
+    "https://support.rockshox.com/hc/it/articles/17383331213595-Qual-%C3%A8-la-differenza-di-peso-tra-i-modelli-2021-e-2024-delle-SID-SID-SL": {
+      "domain": "support.rockshox.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.bike24.de/p1984080.html": {
+      "domain": "bike24.de",
+      "first_seen": "2026-07-10",
+      "via": "serper:de"
+    },
+    "https://piwnicarowerowa.pl/en/widelec-rockshox-sid-sl-select-charger-rl-sterow,3,43199,47669": {
+      "domain": "piwnicarowerowa.pl",
+      "first_seen": "2026-07-10",
+      "via": "serper:pl"
+    },
+    "https://buycycle.com/it-it/product/suspension-fork-rockshox-horquilla-sid-select-rl": {
+      "domain": "buycycle.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://www.bike-chollos.com/horquilla-rockshox-sid-world-cup-mtb/": {
+      "domain": "bike-chollos.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:fr"
     }
   },
   "Lake MX242": {
@@ -8845,6 +10150,468 @@
     "https://lakepajamas.com": {
       "domain": "lakepajamas.com",
       "first_seen": "2026-07-09",
+      "via": "tavily"
+    },
+    "https://www.hardwareworld.com/pc448z3/M18-Brushless-Blower-450-CFM-Bare-Tool": {
+      "domain": "hardwareworld.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://singletrackworld.com/forum/bike-forum/lake-shoes-4": {
+      "domain": "singletrackworld.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.deporvillage.fr/chaussures-lake-mx242-x-vtt-large-gris-noir": {
+      "domain": "deporvillage.fr",
+      "first_seen": "2026-07-10",
+      "via": "serper:fr"
+    },
+    "https://buycycle.com/en-gr/product/mountain-bike-mtb-shoes-lake-mx242-blanco-45-wide": {
+      "domain": "buycycle.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:es"
+    },
+    "https://www.lakecycling.com/": {
+      "domain": "lakecycling.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://www.bike24.com/p2720839.html": {
+      "domain": "bike24.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:cz"
+    },
+    "https://www.idealo.fr/cat/19160F1840971-1841174/chaussures-velo.html": {
+      "domain": "idealo.fr",
+      "first_seen": "2026-07-10",
+      "via": "serper:fr"
+    },
+    "https://www.bike24.es/productos/720838": {
+      "domain": "bike24.es",
+      "first_seen": "2026-07-10",
+      "via": "serper:es"
+    },
+    "https://es.lakecycling.com/pages/search-results-page?q=mx+242+wide": {
+      "domain": "es.lakecycling.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:es"
+    },
+    "https://www.bike-discount.de/es/lake-mx242-x-ancho-zapatillas-mtb-20154492": {
+      "domain": "bike-discount.de",
+      "first_seen": "2026-07-10",
+      "via": "serper:es"
+    },
+    "https://velo-store.it/3022153-scarpe-lake-mx242-nero-argento?variant=12079846": {
+      "domain": "velo-store.it",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://www.competitivecyclist.com/lake-mx242-endurance-cycling-shoe-mens": {
+      "domain": "competitivecyclist.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.backcountry.com/lake-mx242-endurance-cycling-shoe-mens": {
+      "domain": "backcountry.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://bikecheckstudio.com/producto/lake-cycling-mx-242-endurance-mtb-cycling-shoes": {
+      "domain": "bikecheckstudio.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    }
+  },
+  "FARGO-TI": {
+    "https://www.bike-packing.de/en/bikes/salsa-fargo": {
+      "domain": "bike-packing.de",
+      "first_seen": "2026-07-10",
+      "via": "serper:de"
+    },
+    "https://www.biketour-global.de/en/2022/07/31/nupdate-my-salsa-fargo-titanium-2022/": {
+      "domain": "biketour-global.de",
+      "first_seen": "2026-07-10",
+      "via": "serper:de"
+    },
+    "https://a-bikeshop.com/en/p/salsa-fargo-titanium-frameset": {
+      "domain": "a-bikeshop.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:de"
+    },
+    "https://bikepacking.com/bikes/salsa-fargo-ti-josh-kato-tour-divide/": {
+      "domain": "bikepacking.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:de"
+    },
+    "https://rat-bikes.eu/salsa-fargo-ti-mtb-frameset-27-5-29.html": {
+      "domain": "rat-bikes.eu",
+      "first_seen": "2026-07-10",
+      "via": "serper:pl"
+    },
+    "https://www.bike24.com/p21027377.html": {
+      "domain": "bike24.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:pl"
+    },
+    "https://stateofbike.it/negozio-bikepacking/salsa-fargo-titanio/": {
+      "domain": "stateofbike.it",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://www.bikejamming.it/en/30984-salsa-fargo-ti-frameset-titanium-bikepacking-frame.html": {
+      "domain": "bikejamming.it",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://www.cycloergosum.com/salsa-fargo-ti-2023/": {
+      "domain": "cycloergosum.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://ciclocentrico.it/prodotto/salsa-fargo-titanio-frameset/": {
+      "domain": "ciclocentrico.it",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://www.starbike.com/fr/salsa-fargo-ti-mtb-frameset-27.5-29er-titanium/": {
+      "domain": "starbike.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:fr"
+    },
+    "https://rat-bikes.com/salsa-fargo-ti-mtb-frameset-27-5-29.html": {
+      "domain": "rat-bikes.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
+    },
+    "https://rat-bikes.eu/urban-bicycles/fietsframes/salsa-cycles-frames.html": {
+      "domain": "rat-bikes.eu",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
+    },
+    "https://offcourse.bike/product/salsa-fargo-ti-frameset-2025": {
+      "domain": "offcourse.bike",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.competitivecyclist.com/salsa-fargo-ti-gravel-frameset": {
+      "domain": "competitivecyclist.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.hersheycycles.com/product/salsa-fargo-ti-frameset-1194275-1.htm": {
+      "domain": "hersheycycles.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.nbxbikes.com/product/salsa-fargo-ti-frameset-1194275-1.htm": {
+      "domain": "nbxbikes.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.villagebikes.com/product/salsa-fargo-ti-frameset-1194275-1.htm": {
+      "domain": "villagebikes.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.joe-bike.com/product/salsa-fargo-ti-frameset-1194275-1.htm": {
+      "domain": "joe-bike.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.wheatridgecyclery.com/product/salsa-fargo-ti-frameset-1249341-1.htm": {
+      "domain": "wheatridgecyclery.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://bikepacking.com/bikes/salsa-fargo-ti-josh-kato-tour-divide": {
+      "domain": "bikepacking.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://theradavist.com/salsa-32er-fargo": {
+      "domain": "theradavist.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.biketour-global.de/en/2022/07/31/nupdate-my-salsa-fargo-titanium-2022": {
+      "domain": "biketour-global.de",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.bike-packing.de/salsa-fargo-ti-frameset-titanium-rahmenkit": {
+      "domain": "bike-packing.de",
+      "first_seen": "2026-07-10",
+      "via": "serper:de"
+    },
+    "https://www.biketour-global.de/2019/12/08/salsa-fargo-titan/": {
+      "domain": "biketour-global.de",
+      "first_seen": "2026-07-10",
+      "via": "serper:de"
+    },
+    "https://www.campfirecycling.com/product/salsa-fargo-ti-frameset-2.html": {
+      "domain": "campfirecycling.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:pl"
+    },
+    "https://www.bikejamming.it/it/30984-salsa-fargo-ti-frameset-telaio-titanio-bikepacking-off-road.html": {
+      "domain": "bikejamming.it",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://8ciclo.com/product/salsa-fargo-frameset-black/": {
+      "domain": "8ciclo.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://offcourse.bike/product/salsa-fargo-ti-frameset-2025/": {
+      "domain": "offcourse.bike",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://www.cyclingabout.com/2018-salsa-fargo-ti-frameset/": {
+      "domain": "cyclingabout.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:cz"
+    },
+    "https://www.bike-packing.de/salsa-fargo-ti-frameset-rahmenkit-275-29-titan-xl-62-cm": {
+      "domain": "bike-packing.de",
+      "first_seen": "2026-07-10",
+      "via": "serper:fr"
+    },
+    "https://www.championcycling.com/product/salsa-fargo-ti-frameset-1194275-1.htm": {
+      "domain": "championcycling.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:es"
+    },
+    "https://www.rahtour.nl/product/20362840/salsa-fargo-frame": {
+      "domain": "rahtour.nl",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
+    },
+    "https://www.mellofellos.com/product/salsa-fargo-ti-frameset-1194275-1.htm": {
+      "domain": "mellofellos.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.treefortbikes.com/Salsa-MY25-Fargo-Ti-Frameset-29": {
+      "domain": "treefortbikes.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.papa-wheelies.com/products/salsa-fargo-ti-frameset-small?id=d48c16ac6435f1414a2a14b13c990d2496953dc5c989d90ab63471d9021b42a5&from=All-Road+Frame&fromSlug=All-Road%2520Frame": {
+      "domain": "papa-wheelies.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.bikeexchange.com/en-US/products/salsa_fargo_ti_frameset_29_2025": {
+      "domain": "bikeexchange.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.thespokeeasyclt.com/product/salsa-salsa-fargo-ti-frameset-435065-1.htm": {
+      "domain": "thespokeeasyclt.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.megamexfoodservice.com/products/embasa-salsa-mexicana-medium-07872": {
+      "domain": "megamexfoodservice.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.flightaware.com/live/flight/CSH872": {
+      "domain": "flightaware.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.benscycle.com/salsa-fargo-ti-frameset---29---titanium--raw--small-c1291-salsa-c1134-fm0871/p": {
+      "domain": "benscycle.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.papa-wheelies.com/products/salsa-fargo-ti-frameset-29-titanium-raw?id=b986fc52bd32bf15c7df3ea13a78e3a3f9fdd45b97d0aee9954fa70ce71ac4f0&variant=FM0872": {
+      "domain": "papa-wheelies.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.dynamitebikelab.com/products/salsa-fargo-ti-frameset-29-titanium-raw-medium": {
+      "domain": "dynamitebikelab.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://open.spotify.com/track/1gP9sLbQv69CcNNlITcaRq": {
+      "domain": "open.spotify.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://roundeyesupply.com/products/embasa-salsa-mexican-medium-channel-6-99-oz-434606": {
+      "domain": "roundeyesupply.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.bike24.pl/produkty/1027377": {
+      "domain": "bike24.pl",
+      "first_seen": "2026-07-10",
+      "via": "serper:pl"
+    },
+    "https://www.olx.pl/sport-hobby/rowery/rowery-gravel/q-rama-tytanowa/": {
+      "domain": "olx.pl",
+      "first_seen": "2026-07-10",
+      "via": "serper:pl"
+    },
+    "https://koloridecycling.com/produkt/https-koloridecycling-com-konfigurator-fieldseyjvvzjiq2xhufdcohhgt3mytvd1t3oioijcbunqufpmnnf1ewtvuwc5ejdmegeilcixm2pcmeneblbit211ternv0lpaeyioijxqlrvm1g0rdbjvxkyue1sn2pznnqilcjysgflvxjkcvdzwnppsnv-2/": {
+      "domain": "koloridecycling.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:pl"
+    },
+    "https://road.cc/content/tech-news/221883-salsa-fargo-ti-back-highly-capable-adventurebikepacking-drop-bar-bike": {
+      "domain": "road.cc",
+      "first_seen": "2026-07-10",
+      "via": "serper:pl"
+    },
+    "https://gravelbike.eu/cs/ramy/835-salsa-fargo-ocelovy-monster-cross-ram.html": {
+      "domain": "gravelbike.eu",
+      "first_seen": "2026-07-10",
+      "via": "serper:cz"
+    },
+    "https://rat-bikes.com/salsa-fargo-ti-mtb-frameset-27-5-29.html?___store=ratbikes_migrated": {
+      "domain": "rat-bikes.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
+    },
+    "https://exploringwild.com/salsa-fargo-review": {
+      "domain": "exploringwild.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.treefortbikes.com/Salsa-MY25-Fargo-Ti-Custom-Build": {
+      "domain": "treefortbikes.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.benscycle.com/salsa-fargo-ti-frameset---29---titanium--raw--large-c1291-salsa-c1134-fm0873/p": {
+      "domain": "benscycle.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://velo.outsideonline.com/gravel/gravel-gear/the-salsa-fargo-forgoes-a-full-overhaul-will-still-haul-your-stuff-all-over": {
+      "domain": "velo.outsideonline.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://bikeinsights.com/bikes/59efa7bf7d3fa99819dfe1bf-salsa-cycles-fargo?version=2026&build=32-titanium": {
+      "domain": "bikeinsights.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://g-tedproductions.blogspot.com/p/salsa-cycles-fargo-conclusions.html": {
+      "domain": "g-tedproductions.blogspot.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://theradavist.com/salsa-cycles-ti-fargo-review": {
+      "domain": "theradavist.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.bike-packing.de/en/salsa-fargo-ti-frameset-titanium": {
+      "domain": "bike-packing.de",
+      "first_seen": "2026-07-10",
+      "via": "serper:de"
+    },
+    "https://www.galaxus.it/it/s3/product/salsa-kit-telaio-mtb-fargo-ti-27529-xs-titanio-telaio-bici-33090811": {
+      "domain": "galaxus.it",
+      "first_seen": "2026-07-10",
+      "via": "serper:de"
+    },
+    "https://www.bike24.it/prodotti/1027377": {
+      "domain": "bike24.it",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://www.bikecafe.org/torna-la-salsa-fargo-titanio/": {
+      "domain": "bikecafe.org",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://stateofbike.it/salsa-fargo-5-generazioni-dellesploratrice-del-mondo/": {
+      "domain": "stateofbike.it",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://www.subito.it/annunci-italia/vendita/biciclette/?q=salsa+fargo": {
+      "domain": "subito.it",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://www.cicloshelike.com/products/cuadro-salsa-fargo-titanio": {
+      "domain": "cicloshelike.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:es"
+    },
+    "https://stateofbike.it/negozio-bikepacking/salsa-fargo-titanio": {
+      "domain": "stateofbike.it",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://ciclocentrico.it/prodotto/salsa-fargo-titanio-frameset": {
+      "domain": "ciclocentrico.it",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://www.victoryvelo.com/product/salsa-fargo-ti-frameset-1249341-1.htm": {
+      "domain": "victoryvelo.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://stateofbike.it/negozio-bikepacking/salsa-fargo-titanio-bike/": {
+      "domain": "stateofbike.it",
+      "first_seen": "2026-07-10",
+      "via": "serper:it"
+    },
+    "https://www.galaxus.ch/fr/s3/product/salsa-fargo-ti-mtb-kit-cadre-27529-xs-titane-cadre-de-velo-33090811": {
+      "domain": "galaxus.ch",
+      "first_seen": "2026-07-10",
+      "via": "serper:cz"
+    },
+    "https://lesvelosmigrateurs.fr/articles/salsa-fargo-un-precurseur-toujours-dans-la-course": {
+      "domain": "lesvelosmigrateurs.fr",
+      "first_seen": "2026-07-10",
+      "via": "serper:cz"
+    },
+    "https://imfixies.fr/cadres-vtt/cadre-vtt-salsa-fargo-steel-27529-chromoly.html": {
+      "domain": "imfixies.fr",
+      "first_seen": "2026-07-10",
+      "via": "serper:fr"
+    },
+    "https://www.galaxus.fr/en/s3/product/salsa-fargo-ti-mtb-frame-kit-27529-xs-titanium-bike-frames-33090811": {
+      "domain": "galaxus.fr",
+      "first_seen": "2026-07-10",
+      "via": "serper:fr"
+    },
+    "https://www.starbike.com/en/salsa-fargo-ti-mtb-frameset-27.5-29er-titanium/": {
+      "domain": "starbike.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:fr"
+    },
+    "https://www.bike24.lu/fr/marques/salsa": {
+      "domain": "bike24.lu",
+      "first_seen": "2026-07-10",
+      "via": "serper:es"
+    },
+    "https://rat-bikes.com/urban-bicycles/fietsframes/salsa-cycles-frames.html": {
+      "domain": "rat-bikes.com",
+      "first_seen": "2026-07-10",
+      "via": "serper:nl"
+    },
+    "https://www.performancebike.com/salsa-fargo-ti-frameset-brushed-titanium-xl-06-004557-xl/p1818347?v=1809953": {
+      "domain": "performancebike.com",
+      "first_seen": "2026-07-10",
+      "via": "tavily"
+    },
+    "https://ottawabikeandtrail.com/products/salsa-fargo-ti-frameset-29-titanium-brushed-titanium-x-large": {
+      "domain": "ottawabikeandtrail.com",
+      "first_seen": "2026-07-10",
       "via": "tavily"
     }
   }
