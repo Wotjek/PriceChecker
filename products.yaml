@@ -118,6 +118,8 @@ products:
     min_pln: 600
     require_tokens:
       - carbon
+      # wcs odcina wyzsza linie Superlogic (osobny produkt) i tansza Comp
+      - wcs
     queries:
       - Ritchey WCS Carbon ErgoMax handlebar
       - Ritchey WCS ErgoMax Carbon Lenker
@@ -125,6 +127,24 @@ products:
       - Ritchey WCS ErgoMax carbon kierownica
       - Ritchey WCS ErgoMax carbon manubrio
       - Ritchey WCS ErgoMax carbone cintre
+  - id: SUPERLOGIC-ERGOMAX
+    name: Ritchey Superlogic ErgoMax 42cm
+    variant: "42"
+    # MSRP ~350 EUR (~1500 PLN); min odcina czesci, max zestawy/kokpity
+    min_pln: 700
+    max_pln: 2500
+    # superlogic odroznia od linii WCS Carbon (osobny produkt) i Comp
+    require_tokens:
+      - superlogic
+    queries:
+      - Ritchey Superlogic ErgoMax handlebar
+      - Ritchey Superlogic ErgoMax Lenker carbon
+      - Ritchey Superlogic ErgoMax 42cm
+      - Ritchey Superlogic ErgoMax kierownica
+      - Ritchey Superlogic ErgoMax manubrio
+      - Ritchey Superlogic ErgoMax cintre carbone
+    seed_urls:
+      - https://www.tradeinn.com/bikeinn/en/ritchey-superlogic-ergomax-handlebar/142611487/p
   - id: Canyon S14 VCLS 2.0
     name: Canyon S14 VCLS 2.0
     require_tokens:
