@@ -9,7 +9,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - epicbikeshop.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   - 2riversbicycle.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   - bigshark.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
-  - papa-wheelies.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
+  - papa-wheelies.com: HTTP 404
   - bike-packing.de: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   - bobleisure.de: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   - bobleisure-australia.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
@@ -25,7 +25,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - goldsprintshop.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   - togabikes.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   + imfixies.it: 2317.5 EUR = 10073.01 PLN [wariant 56 dopasowany]
-  - yawpcyclery.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
+  - yawpcyclery.com: HTTP 404
   - webcyclery.com: brak danych o cenie (typy na stronie: videoobject)
   - bikeman.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   - followmestore.de: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -86,7 +86,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - brazosballroomdance.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - bikejamming.it: brak danych o cenie (typy na stronie: breadcrumblist, organization, webpage)
   - followmestore.de: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - bikejamming.it: blad pobierania (ConnectionError)
+  - bikejamming.it: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   - weply.it: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   - stateofbike.it: brak danych o cenie (typy na stronie: article, breadcrumblist, imageobject, organization, person, webpage, website)
   - raceware.it: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -200,13 +200,13 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - rahtour.nl: brak wymaganych slow (fargo ti) - pomijam
   - mellofellos.com: waluta USD poza dozwolonym regionem - pomijam
   - treefortbikes.com: waluta USD poza dozwolonym regionem - pomijam
-  - papa-wheelies.com: niedostepny (outofstock)
+  - papa-wheelies.com: HTTP 404
   - bikeexchange.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - thespokeeasyclt.com: waluta USD poza dozwolonym regionem - pomijam
   - megamexfoodservice.com: brak danych o cenie (typy na stronie: breadcrumblist, organization, webpage, website)
   - flightaware.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - benscycle.com: waluta USD poza dozwolonym regionem - pomijam
-  - papa-wheelies.com: waluta USD poza dozwolonym regionem - pomijam
+  - benscycle.com: HTTP 404
+  - papa-wheelies.com: HTTP 404
   - dynamitebikelab.com: niedostepny (outofstock)
   - open.spotify.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - roundeyesupply.com: brak wymaganych slow (fargo, fargo ti) - pomijam
@@ -218,7 +218,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - rat-bikes.com: pomijam (blokada potwierdzona w tym runie)
   - exploringwild.com: brak danych o cenie (typy na stronie: article, breadcrumblist, faqpage, imageobject, organization, person, product, question, webpage, website)
   - treefortbikes.com: niedostepny (outofstock)
-  - benscycle.com: waluta USD poza dozwolonym regionem - pomijam
+  - benscycle.com: HTTP 404
   - velo.outsideonline.com: brak danych o cenie (typy na stronie: article, breadcrumblist, imageobject, organization, person, webpage, website)
   - bikeinsights.com: brak danych o cenie (typy na stronie: breadcrumblist, product)
   - g-tedproductions.blogspot.com: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -245,7 +245,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - bike24.lu: HTTP 403 (przegladarka tez nie przeszla)
   - rat-bikes.com: pomijam (blokada potwierdzona w tym runie)
   - performancebike.com: niedostepny (soldout)
-  - ottawabikeandtrail.com: waluta USD poza dozwolonym regionem - pomijam
+  - ottawabikeandtrail.com: niedostepny (outofstock)
   - bike-packing.de: niedostepny (outofstock)
   - bike-packing.de: brak wymaganych slow (fargo ti) - pomijam
   - bike-packing.de: brak wymaganych slow (fargo ti) - pomijam
@@ -402,7 +402,8 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + de.lakecycling.com: 199.0 EUR = 864.95 PLN [wariant 45 dopasowany] [EAN OK]
   + de.lakecycling.com: 199.0 EUR = 864.95 PLN [wariant 45 dopasowany] [EAN OK]
   - microcenter.com: HTTP 403 (przegladarka tez nie przeszla)
-  - dstewart.com: HTTP 403 (przegladarka tez nie przeszla)
+  + dstewart.com: blokada ominieta headless Chromium
+  - dstewart.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - ohioknifesales.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - samsclub.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - lowes.com: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -546,7 +547,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + cingolanibikeshop.com: 18.9 EUR = 82.15 PLN [EAN niepotwierdzony]
   - bikedirection.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - koloshop.cz: niedostepny (outofstock)
-  - axit.cz: blad pobierania (ConnectTimeout)
+  - axit.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
   + bikestacja.pl: 999.99 PLN = 999.99 PLN [EAN niepotwierdzony]
   + velotracker.pl: 904.9 PLN = 904.9 PLN [EAN niepotwierdzony]
   - bicyclehabitat.com: waluta USD poza dozwolonym regionem - pomijam
@@ -611,11 +612,10 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
   - raaad.de: niedostepny (outofstock)
   + mtbiker.de: 249.0 EUR = 1082.28 PLN [EAN niepotwierdzony]
-  + fahrrad24.de: blokada ominieta headless Chromium
-  + fahrrad24.de: 196.13 EUR = 852.48 PLN [EAN niepotwierdzony]
+  - fahrrad24.de: blokada botow (przegladarka tez nie przeszla)
   ~ whizz-wheels.de: brak ceny, ale znalazlem 2 link(i) produktowe - sprawdzam
   + mtbiker.de: 209.0 EUR = 908.42 PLN [EAN niepotwierdzony]
-  - tnc-hamburg.com: niedostepny (backorder)
+  - tnc-hamburg.com: blad pobierania (ConnectTimeout)
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
   + cingolanibikeshop.com: 204.9 EUR = 890.6 PLN [EAN niepotwierdzony]
   - deporvillage.it: pomijam (blokada potwierdzona w tym runie)
@@ -690,8 +690,9 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   + extremevital.com: 229.46 EUR = 997.35 PLN [EAN niepotwierdzony]
   - cykloteket.se: niedostepny (outofstock)
-  - axit.cz: blad pobierania (ConnectTimeout)
-  - deporvillage.cz: HTTP 403 (przegladarka tez nie przeszla)
+  - axit.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
+  + deporvillage.cz: blokada ominieta headless Chromium
+  + deporvillage.cz: 5166.94 CZK = 925.4 PLN [EAN niepotwierdzony]
   - pepebike.cz: brak danych o cenie (typy na stronie: organization)
   - deporvillage.net: HTTP 403 (przegladarka tez nie przeszla)
   - comparer.be: brak danych o cenie (typy na stronie: breadcrumblist, itemlist, webpage, website)
@@ -714,18 +715,19 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + raaad.de: 80.0 EUR = 347.72 PLN [EAN niepotwierdzony]
   + mtbiker.de: 199.0 EUR = 864.95 PLN [EAN niepotwierdzony]
   - lordgun.de: HTTP 403 (przegladarka tez nie przeszla)
-  - fahrrad24.de: blokada botow (przegladarka tez nie przeszla)
+  - fahrrad24.de: pomijam (blokada potwierdzona w tym runie)
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   + bikestacja.pl: 749.0 PLN = 749.0 PLN [EAN niepotwierdzony]
   - bike24.pl: pomijam (blokada potwierdzona w tym runie)
   + koloshop.pl: 1018.99 PLN = 1018.99 PLN [EAN niepotwierdzony]
   + probikeshop.com.pl: 953.0 PLN = 953.0 PLN [EAN niepotwierdzony]
-  - velondo.pl: blokada botow (przegladarka tez nie przeszla)
+  + velondo.pl: blokada ominieta headless Chromium
+  - velondo.pl: niedostepny (outofstock)
   + velotracker.pl: 853.9 PLN = 853.9 PLN [EAN niepotwierdzony]
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   + bike-discount.de: 164.99 EUR = 717.13 PLN [EAN niepotwierdzony]
   - velondo.at: blokada botow (przegladarka tez nie przeszla)
-  - tnc-hamburg.com: niedostepny (backorder)
+  - tnc-hamburg.com: blad pobierania (ConnectTimeout)
   + rnr-components.ch: 225.0 CHF = 1061.03 PLN [EAN niepotwierdzony]
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
   - mojekolo.cz: niedostepny (backorder)
@@ -760,7 +762,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + probikeshop.fr: 199.9 EUR = 868.87 PLN [EAN niepotwierdzony]
   - velofactory.ch: pomijam (blokada potwierdzona w tym runie)
   - bike24.fr: pomijam (blokada potwierdzona w tym runie)
-  + bicycleparts24.fr: 200.57 EUR = 871.78 PLN [EAN niepotwierdzony]
+  - bicycleparts24.fr: blad pobierania (ConnectTimeout)
   - velondo.fr: pomijam (blokada potwierdzona w tym runie)
   - vastutalks.com: HTTP 404
   + legendwheels.com: 69.99 EUR = 304.21 PLN [EAN niepotwierdzony]
@@ -772,7 +774,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + velondo.es: blokada ominieta headless Chromium
   + velondo.es: 199.43 EUR = 866.82 PLN [EAN niepotwierdzony]
   - ltmracing.com: pomijam (blokada potwierdzona w tym runie)
-  + biciescapa.com: 83.99 EUR = 365.06 PLN [EAN niepotwierdzony]
+  - biciescapa.com: blad pobierania (ConnectTimeout)
   + endubikes.com: 62.9 EUR = 273.39 PLN [EAN niepotwierdzony]
   - bike24.nl: pomijam (blokada potwierdzona w tym runie)
   + bikemonkey.shop: blokada ominieta headless Chromium
@@ -794,12 +796,13 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - deporvillage.it: pomijam (blokada potwierdzona w tym runie)
   + ebikelab.it: 191.92 EUR = 834.18 PLN [EAN niepotwierdzony]
   + clcbike.com: 222.25 EUR = 966.01 PLN [EAN niepotwierdzony]
-  - axit.cz: blad pobierania (ConnectTimeout)
+  - axit.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
   + kupkolo.cz: 5490.0 CZK = 983.26 PLN [EAN OK]
   - forumrowerowe.org: brak danych o cenie (typy na stronie: breadcrumblist, discussionforumposting, organization, website)
   + bikestacja.pl: 172.32 EUR = 748.99 PLN [EAN niepotwierdzony]
   + endubikes.com: 72.3 EUR = 314.25 PLN [EAN niepotwierdzony]
-  - thebikevillage.com: blokada botow (przegladarka tez nie przeszla)
+  + thebikevillage.com: blokada ominieta headless Chromium
+  + thebikevillage.com: 215.91 EUR = 938.45 PLN [EAN niepotwierdzony]
   - bike24.es: pomijam (blokada potwierdzona w tym runie)
   - olx.pl: brak danych o cenie (typy na stronie: breadcrumblist)
   - allegrolokalnie.pl: brak danych o cenie (typy na stronie: itemlist, website)
@@ -838,14 +841,14 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + rnr-components.ch: 175.0 CHF = 825.25 PLN [EAN niepotwierdzony]
   - velondo.nl: pomijam (blokada potwierdzona w tym runie)
   + rnr-components.ch: 175.0 CHF = 825.25 PLN [EAN niepotwierdzony]
-  - tnc-hamburg.com: niedostepny (backorder)
+  - tnc-hamburg.com: blad pobierania (ConnectTimeout)
   - velofactory.ch: pomijam (blokada potwierdzona w tym runie)
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   + koloshop24.de: 290.93 EUR = 1264.53 PLN [EAN niepotwierdzony]
   + centrumrowerowe.pl: 299.99 PLN = 299.99 PLN [EAN niepotwierdzony]
   - utadka.eu: HTTP 404
   + mtbiker.cz: 5799.0 CZK = 1038.6 PLN [EAN niepotwierdzony]
-  - axit.cz: blad pobierania (ConnectTimeout)
+  - axit.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
   - heureka.cz: HTTP 403 (przegladarka tez nie przeszla)
   - campingtour.fr: HTTP 404
   + jpracingbike1.com: 76.9 EUR = 334.25 PLN [EAN niepotwierdzony]
@@ -882,8 +885,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - whizz-wheels.de: niedostepny (outofstock)
 [MONITOR] Ritchey WCS Carbon ErgoMax: sprawdzam 154 URL-i (wariant: 42)
   - performancebike.com: brak wymaganych slow (carbon) - pomijam
-  + all4bikes.be: blokada ominieta headless Chromium
-  ~ all4bikes.be: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
+  - all4bikes.be: HTTP 403 (przegladarka tez nie przeszla)
   - universalcycles.com: brak wymaganych slow (carbon) - pomijam
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
   - ttw-offroad.de: brak wymaganych slow (carbon) - pomijam
@@ -907,7 +909,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - formicki-bike.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - velo-store.pl: brak danych o cenie (typy na stronie: product)
   - centrumrowerowe.pl: brak wymaganych slow (carbon) - pomijam
-  - topbici.es: brak danych o cenie (typy na stronie: article, breadcrumblist, organization, person, webpage, website)
+  ~ topbici.es: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
   - allegrolokalnie.pl: brak danych o cenie (typy na stronie: itemlist, website)
   - bike-store-treviso.it: brak danych o cenie (typy na stronie: brak JSON-LD)
   - eventbike.it: blad pobierania (SSLError)
@@ -922,7 +924,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - gravelbikeshop.com: waluta USD poza dozwolonym regionem - pomijam
   - formicki-bike.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - deporvillage.it: pomijam (blokada potwierdzona w tym runie)
-  - eventbike.it: blad pobierania (SSLError)
+  - eventbike.it: blad pobierania (ConnectionError)
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
   - universalcycles.com: brak wymaganych slow (carbon) - pomijam
   - amgcyclery.com: niedostepny (outofstock)
@@ -976,8 +978,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - bike24.fr: pomijam (blokada potwierdzona w tym runie)
   - bike24.es: pomijam (blokada potwierdzona w tym runie)
   - idealo.es: pomijam (blokada potwierdzona w tym runie)
-  + carrefour.es: blokada ominieta headless Chromium
-  - carrefour.es: 489.98 PLN poza widelkami [600.0..-] - pomijam
+  - carrefour.es: HTTP 403 (przegladarka tez nie przeszla)
   - deporvillage.com: pomijam (blokada potwierdzona w tym runie)
   - kylesbikeshop.net: waluta USD poza dozwolonym regionem - pomijam
   - mariettaadventurecompany.com: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -1022,7 +1023,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - mantel.com: brak wymaganych slow (carbon) - pomijam
   - romijninstallaties.nl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - velo-store.fr: brak danych o cenie (typy na stronie: product)
-  - leboncoin.fr: HTTP 410
+  - leboncoin.fr: HTTP 403 (przegladarka tez nie przeszla)
   - alltricks.fr: brak wymaganych slow (carbon) - pomijam
   - macraesbluebook.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - rosebikes.es: brak wymaganych slow (carbon) - pomijam
@@ -1036,15 +1037,12 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - agriper.nl: HTTP 404
   - cinevittoria.it: HTTP 404
   - trenerterapeut.cz: HTTP 404
-  + all4bikes.be: blokada ominieta headless Chromium
-  - all4bikes.be: brak danych o cenie (typy na stronie: breadcrumblist)
-  + all4bikes.be: blokada ominieta headless Chromium
-  - all4bikes.be: brak danych o cenie (typy na stronie: breadcrumblist)
-  + all4bikes.be: blokada ominieta headless Chromium
-  - all4bikes.be: brak danych o cenie (typy na stronie: breadcrumblist)
   - cyklomania.pl: HTTP 404
   - cyklomania.pl: HTTP 404
   - cyklomania.pl: HTTP 404
+  - topbici.es: brak danych o cenie (typy na stronie: breadcrumblist, itempage, organization, person, website)
+  - topbici.es: brak danych o cenie (typy na stronie: breadcrumblist, itempage, organization, person, website)
+  - topbici.es: brak danych o cenie (typy na stronie: breadcrumblist, itempage, organization, person, website)
 [MONITOR] SUPERLOGIC-ERGOMAX: sprawdzam 1 URL-i (wariant: 42)
   ~ tradeinn.com: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
   - tradeinn.com: brak danych o cenie (typy na stronie: organization, webpage)
@@ -1099,8 +1097,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + canyon.com: 909.99 PLN = 909.99 PLN
   + canyon.com: 179.99 CHF = 848.78 PLN
   - canyon.com: brak danych o cenie (typy na stronie: breadcrumblist, organization)
-  + ricardo.ch: blokada ominieta headless Chromium
-  - ricardo.ch: niedostepny (outofstock)
+  - ricardo.ch: HTTP 403 (przegladarka tez nie przeszla)
   - mtbiker.at: niedostepny (discontinued)
   - rennrad-news.de: pomijam (blokada potwierdzona w tym runie)
   - bike-magazin.de: brak danych o cenie (typy na stronie: article, breadcrumblist, imageobject, organization, webpage, website)
@@ -1213,7 +1210,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - walmart.com: brak danych o cenie (typy na stronie: webpage)
   - officedepot.com: brak wymaganych slow (kit) - pomijam
   - esbenshades.com: brak wymaganych slow (kit) - pomijam
-  - andersonlumbercompany.com: HTTP 500
+  - andersonlumbercompany.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - familyhardware.com: brak wymaganych slow (kit) - pomijam
   - walmart.com: brak danych o cenie (typy na stronie: webpage)
   + penntoolco.com: blokada ominieta headless Chromium
@@ -1402,7 +1399,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - ciclobottegabikeshop.com: brak wymaganych slow (chain) - pomijam
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
   - cavalierebici.it: brak wymaganych slow (chain) - pomijam
-  + bike-components.de: 36.99 EUR = 160.78 PLN [EAN OK]
+  - bike-components.de: niedostepny (backorder)
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
   + bikeimport.ch: 40.55 CHF = 191.22 PLN [EAN OK]
   + bike-discount.de: 36.99 EUR = 160.78 PLN [EAN OK]
@@ -1414,7 +1411,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - lvr-cycles.com: waluta USD poza dozwolonym regionem - pomijam
   + alpebike.pl: 259.0 PLN = 259.0 PLN [EAN OK]
   ~ cyklomania.pl: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
-  + bike-components.de: 36.99 EUR = 160.78 PLN [EAN OK]
+  - bike-components.de: niedostepny (backorder)
   ~ zumbistore.pl: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
   - universalcycles.com: waluta USD poza dozwolonym regionem - pomijam
   - ibike.pl: brak danych o cenie (typy na stronie: organization, website)
@@ -1441,7 +1438,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + diliecicli.it: 51.9 EUR = 225.58 PLN [EAN OK]
   - thelostco.com: brak danych o cenie (typy na stronie: breadcrumblist, organization)
   + testbericht.de: 36.99 EUR = 160.78 PLN [EAN OK]
-  + preissuchmaschine.de: 36.99 EUR = 160.78 PLN [EAN OK]
+  + preissuchmaschine.de: 40.95 EUR = 177.99 PLN [EAN OK]
   - goride.pl: brak danych o cenie (typy na stronie: store)
   + goodsport.pl: 194.64 PLN = 194.64 PLN [EAN OK]
   + alltricks.it: 39.99 EUR = 173.82 PLN [EAN OK]
@@ -1455,7 +1452,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - tweekscycles.com: waluta GBP poza dozwolonym regionem - pomijam
   - mikesbikes.com: waluta USD poza dozwolonym regionem - pomijam
   - excelsports.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  + bike-components.de: 36.99 EUR = 160.78 PLN [EAN OK]
+  - bike-components.de: niedostepny (backorder)
   - thelostco.com: waluta USD poza dozwolonym regionem - pomijam
   - competitivecyclist.com: HTTP 202
   - fanatikbike.com: waluta USD poza dozwolonym regionem - pomijam
@@ -1590,7 +1587,8 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + bikestacja.pl: 493.0 PLN = 493.0 PLN [EAN niepotwierdzony]
   + bikestacja.pl: 115.9 PLN = 115.9 PLN [EAN niepotwierdzony]
   - allegrolokalnie.pl: niedostepny (soldout)
-  - powermetercity.com: blokada botow (przegladarka tez nie przeszla)
+  + powermetercity.com: blokada ominieta headless Chromium
+  - powermetercity.com: waluta USD poza dozwolonym regionem - pomijam
   - thundermountainbikes.com: waluta USD poza dozwolonym regionem - pomijam
   - biketiresdirect.com: waluta USD poza dozwolonym regionem - pomijam
   - athleticfeat.com: waluta USD poza dozwolonym regionem - pomijam
@@ -1619,7 +1617,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
   - bike24.pl: pomijam (blokada potwierdzona w tym runie)
   - spokeomotion.com: waluta CAD poza dozwolonym regionem - pomijam
-  + tnc-hamburg.com: 60.9 EUR = 264.7 PLN [EAN OK]
+  - tnc-hamburg.com: blad pobierania (ConnectTimeout)
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
   + maciag-offroad.de: 64.95 EUR = 282.31 PLN [EAN niepotwierdzony]
   ~ biker-boarder.de: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
@@ -1642,13 +1640,14 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + bike-discount.de: 58.99 EUR = 256.4 PLN [EAN niepotwierdzony]
   - rat-bikes.com: pomijam (blokada potwierdzona w tym runie)
   - bike24.be: pomijam (blokada potwierdzona w tym runie)
-  + tnc-hamburg.com: 60.9 EUR = 264.7 PLN [EAN niepotwierdzony]
+  - tnc-hamburg.com: blad pobierania (ConnectTimeout)
   - biker-boarder.de: brak danych o cenie (typy na stronie: bikestore, sportinggoodsstore, website)
   + gocycle.de: 6.99 EUR = 30.38 PLN [EAN niepotwierdzony]
   + cavalierebici.it: 62.63 EUR = 272.22 PLN [EAN niepotwierdzony]
   - mexmax.com: waluta USD poza dozwolonym regionem - pomijam
   - gosupps.com: waluta USD poza dozwolonym regionem - pomijam
-  - dstewart.com: pomijam (blokada potwierdzona w tym runie)
+  + dstewart.com: blokada ominieta headless Chromium
+  - dstewart.com: waluta USD poza dozwolonym regionem - pomijam
   - officedepot.com: waluta USD poza dozwolonym regionem - pomijam
   - martinandsnyder.com: waluta USD poza dozwolonym regionem - pomijam
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
@@ -1716,7 +1715,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
   + sport-schindele.de: 59.9 EUR = 260.36 PLN [EAN niepotwierdzony]
   + shop.zweirad-stadler.de: 64.99 EUR = 282.48 PLN [EAN niepotwierdzony]
-  + tnc-hamburg.com: 76.5 EUR = 332.51 PLN [EAN niepotwierdzony]
+  - tnc-hamburg.com: blad pobierania (ConnectTimeout)
   - bike24.at: pomijam (blokada potwierdzona w tym runie)
   - formicki-bike.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - centrumrowerowe.pl: niedostepny (outofstock)
@@ -1732,7 +1731,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   - bike-discount.de: brak danych o cenie (typy na stronie: breadcrumblist, onlinestore)
   - bike24.nl: pomijam (blokada potwierdzona w tym runie)
-  + futurumshop.nl: 59.95 EUR = 260.57 PLN [EAN niepotwierdzony]
+  - futurumshop.nl: niedostepny (outofstock)
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   + fitse.nl: 79.99 EUR = 347.68 PLN [EAN niepotwierdzony]
   - bike24.at: pomijam (blokada potwierdzona w tym runie)
@@ -1763,17 +1762,17 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - mtbiker.pl: niedostepny (outofstock)
   + lineabici.com: 75.9 EUR = 329.9 PLN [EAN niepotwierdzony]
   + bikesportadventure.com: 89.9 EUR = 390.75 PLN [EAN niepotwierdzony]
-  + alltricks.it: 69.0 EUR = 299.91 PLN [EAN niepotwierdzony]
+  + alltricks.it: 68.0 EUR = 295.56 PLN [EAN niepotwierdzony]
   + krabcycles.cz: 1690.0 CZK = 302.68 PLN [EAN niepotwierdzony]
   - koloshop.cz: niedostepny (outofstock)
-  + slovakbikeparks.sk: 62.0 EUR = 269.48 PLN [EAN niepotwierdzony]
+  - slovakbikeparks.sk: blad pobierania (ConnectTimeout)
   + sklep.baribalbike.pl: 299.0 PLN = 299.0 PLN [EAN niepotwierdzony]
   + alltricks.com: 135.99 EUR = 591.08 PLN [EAN niepotwierdzony]
   - lordgunbicycles.fr: pomijam (blokada potwierdzona w tym runie)
   - bike24.fr: pomijam (blokada potwierdzona w tym runie)
   + probikeshop.fr: 64.99 EUR = 282.48 PLN [EAN niepotwierdzony]
   + mammothbikes.com: 56.16 EUR = 244.1 PLN [EAN niepotwierdzony]
-  + alltricks.es: 69.0 EUR = 299.91 PLN [EAN niepotwierdzony]
+  + alltricks.es: 68.0 EUR = 295.56 PLN [EAN niepotwierdzony]
   - bike24.es: pomijam (blokada potwierdzona w tym runie)
   - lordgunbicycles.es: pomijam (blokada potwierdzona w tym runie)
   - bike24.nl: pomijam (blokada potwierdzona w tym runie)
@@ -1815,13 +1814,13 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - homedepot.com: pomijam (blokada potwierdzona w tym runie)
   - dragonspinecycling.com: waluta USD poza dozwolonym regionem - pomijam
   - merlincycles.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  + alltricks.com: 69.0 EUR = 299.91 PLN [EAN niepotwierdzony]
+  + alltricks.com: 68.0 EUR = 295.56 PLN [EAN niepotwierdzony]
   + boc24.de: 44.99 EUR = 195.55 PLN [EAN niepotwierdzony]
   + mantel.com: 58.96 EUR = 256.27 PLN [EAN niepotwierdzony]
   - absolutebikes.net: waluta USD poza dozwolonym regionem - pomijam
   - western-cycle.com: waluta USD poza dozwolonym regionem - pomijam
   - tradeinn.com: brak danych o cenie (typy na stronie: organization, webpage)
-  + alltricks.nl: 69.0 EUR = 299.91 PLN [EAN niepotwierdzony]
+  + alltricks.nl: 68.0 EUR = 295.56 PLN [EAN niepotwierdzony]
   - racycles.com: waluta USD poza dozwolonym regionem - pomijam
   - fanatikbike.com: waluta USD poza dozwolonym regionem - pomijam
   - pro-mstore.com: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -1842,7 +1841,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + gtstore.cz: 841.6 EUR = 3658.01 PLN [EAN OK]
   - bikable.com: brak wymaganych slow (sid) - pomijam
   - bouldernordic.com: waluta USD poza dozwolonym regionem - pomijam
-  - hearnscycling.com: blad pobierania (ReadTimeout)
+  ~ hearnscycling.com: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
   - stealthtahoe.com: waluta USD poza dozwolonym regionem - pomijam
   + nanobike.de: 599.0 EUR = 2603.55 PLN [EAN OK]
   - trekbikesflorida.com: waluta USD poza dozwolonym regionem - pomijam
@@ -1856,13 +1855,13 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + rotoruabike.com: 632.76 EUR = 2750.29 PLN [EAN OK]
   - performancebike.com: niedostepny (outofstock)
   + mtb-xc.pl: blokada ominieta headless Chromium
-  ~ mtb-xc.pl: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
+  ~ mtb-xc.pl: brak ceny, ale znalazlem 2 link(i) produktowe - sprawdzam
   - walmart.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   + mtbiker.pl: blokada ominieta headless Chromium
   + mtbiker.pl: 5799.0 PLN = 5799.0 PLN [EAN niepotwierdzony]
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
   + centrumrowerowe.pl: 2499.0 PLN = 2499.0 PLN [EAN niepotwierdzony]
-  - axit.cz: blad pobierania (ConnectTimeout)
+  - axit.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
   + flowmountainbike.com: blokada ominieta headless Chromium
   - flowmountainbike.com: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, webpage, website)
   - probikesupply.com: HTTP 404
@@ -1913,10 +1912,12 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - alltricks.es: brak danych o cenie (typy na stronie: brak JSON-LD)
   - idealo.es: pomijam (blokada potwierdzona w tym runie)
   - mountainbike.es: brak danych o cenie (typy na stronie: newsarticle, organization, videoobject)
-  - flowmountainbike.com: blokada botow (przegladarka tez nie przeszla)
+  + flowmountainbike.com: blokada ominieta headless Chromium
+  - flowmountainbike.com: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, webpage, website)
   - rat-bikes.eu: pomijam (blokada potwierdzona w tym runie)
   - bikable.com: niedostepny (outofstock)
-  - flowmountainbike.com: pomijam (blokada potwierdzona w tym runie)
+  + flowmountainbike.com: blokada ominieta headless Chromium
+  - flowmountainbike.com: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, webpage, website)
   - probikesupply.com: brak danych o cenie (typy na stronie: breadcrumblist, website)
   - theproscloset.com: niedostepny (outofstock)
   - airparkbikeco.com: niedostepny (outofstock)
@@ -1945,14 +1946,14 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - bike-components.de: niedostepny (soldout)
   - esmtb.com: brak danych o cenie (typy na stronie: article, breadcrumblist, imageobject, organization, person, webpage, website)
   - mount7.com: niedostepny (outofstock)
-  - tnc-hamburg.com: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - tnc-hamburg.com: blad pobierania (ConnectTimeout)
   - bike-magazin.de: brak danych o cenie (typy na stronie: article, breadcrumblist, imageobject, organization, webpage, website)
   - worldofmtb.de: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, person, webpage, website)
   - velofactory.ch: pomijam (blokada potwierdzona w tym runie)
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   + centrumrowerowe.pl: 2499.0 PLN = 2499.0 PLN [EAN niepotwierdzony]
   - zumbistore.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - axit.cz: blad pobierania (ConnectTimeout)
+  - axit.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
   - forumrowerowe.org: brak danych o cenie (typy na stronie: breadcrumblist, discussionforumposting, organization, website)
   - bike24.pl: pomijam (blokada potwierdzona w tym runie)
   + mtb-xc.pl: blokada ominieta headless Chromium
@@ -1961,7 +1962,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + bikestacja.pl: 1649.99 PLN = 1649.99 PLN [EAN niepotwierdzony]
   + kupkolo.cz: 13649.0 CZK = 2444.54 PLN [EAN niepotwierdzony]
   - cyklozitny.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - axit.cz: blad pobierania (ConnectTimeout)
+  - axit.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
   + gambacicli.com: 499.9 EUR = 2172.82 PLN [EAN niepotwierdzony]
   - mtb-mag.com: pomijam (blokada potwierdzona w tym runie)
   - bike24.pl: pomijam (blokada potwierdzona w tym runie)
@@ -1980,7 +1981,8 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - bike24.es: pomijam (blokada potwierdzona w tym runie)
   + topfun.com: 619.01 EUR = 2690.53 PLN [EAN niepotwierdzony]
   - gambacicli.com: niedostepny (outofstock)
-  - mountainbike.nl: blokada botow (przegladarka tez nie przeszla)
+  + mountainbike.nl: blokada ominieta headless Chromium
+  - mountainbike.nl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - mtb-mag.com: pomijam (blokada potwierdzona w tym runie)
   - thelostco.com: niedostepny (outofstock)
   - mtbcult.it: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, newsarticle, organization, person, videoobject, webpage, website)
@@ -2008,10 +2010,11 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - mtbpro.es: brak danych o cenie (typy na stronie: brak JSON-LD)
   - target.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - bkstr.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - crescentelectric.com: HTTP 403 (przegladarka tez nie przeszla)
+  + crescentelectric.com: blokada ominieta headless Chromium
+  - crescentelectric.com: brak wymaganych slow (sid) - pomijam
   - grangecoop.com: brak wymaganych slow (sid) - pomijam
   - raaad.com: niedostepny (outofstock)
-  - silverbackbikes.de: HTTP 500
+  + silverbackbikes.de: 930.28 EUR = 4043.46 PLN [EAN niepotwierdzony]
   + spoke.cz: 15649.0 CZK = 2802.74 PLN [EAN niepotwierdzony]
   - heureka.cz: pomijam (blokada potwierdzona w tym runie)
   - absolubike.fr: blad pobierania (ConnectTimeout)
@@ -2031,7 +2034,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + spoke.cz: 15649.0 CZK = 2802.74 PLN [EAN niepotwierdzony]
   - bikeandride.cz: brak danych o cenie (typy na stronie: article, breadcrumblist, organization, person, webpage, website)
   - vidlice.heureka.cz: pomijam (blokada potwierdzona w tym runie)
-  + tnc-hamburg.com: 584.9 EUR = 2542.27 PLN [EAN niepotwierdzony]
+  - tnc-hamburg.com: blad pobierania (ConnectTimeout)
   - mtbiker.de: niedostepny (discontinued)
   - alltricks.fr: brak danych o cenie (typy na stronie: brak JSON-LD)
   - velondo.nl: pomijam (blokada potwierdzona w tym runie)
@@ -2041,7 +2044,8 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - motomentum.com: waluta USD poza dozwolonym regionem - pomijam
   - bouldernordic.com: waluta USD poza dozwolonym regionem - pomijam
   - universalcycles.com: waluta USD poza dozwolonym regionem - pomijam
-  - flowmountainbike.com: pomijam (blokada potwierdzona w tym runie)
+  + flowmountainbike.com: blokada ominieta headless Chromium
+  - flowmountainbike.com: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, webpage, website)
   - support.rockshox.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - vidlice.heureka.cz: pomijam (blokada potwierdzona w tym runie)
   - spectrumbike.cz: niedostepny (outofstock)
@@ -2059,11 +2063,11 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - cyklomania.pl: HTTP 404
   - cyklomania.pl: HTTP 404
   - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - hearnscycling.com: brak danych o cenie (typy na stronie: store, website)
   + mtb-xc.pl: blokada ominieta headless Chromium
   - mtb-xc.pl: brak danych o cenie (typy na stronie: breadcrumblist, collectionpage, organization, website)
   + mtb-xc.pl: blokada ominieta headless Chromium
   - mtb-xc.pl: brak danych o cenie (typy na stronie: breadcrumblist, collectionpage, organization, website)
-  - mtb-xc.pl: blokada botow (przegladarka tez nie przeszla)
 [MONITOR] Lake MX242: sprawdzam 121 URL-i (wariant: 45)
   - opticsplanet.com: brak wymaganych slow (mx242) - pomijam
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
@@ -2127,7 +2131,8 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - alltricks.it: brak wariantu '45' wsrod ofert - pomijam
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
   + ciclimattio.com: 305.15 EUR = 1326.33 PLN [wariant 45 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
-  - deporvillage.cz: pomijam (blokada potwierdzona w tym runie)
+  + deporvillage.cz: blokada ominieta headless Chromium
+  - deporvillage.cz: niedostepny (outofstock)
   + buycycle.com: 283.0 EUR = 1230.06 PLN [wariant 45 dopasowany] [EAN niepotwierdzony]
   - deporvillage.com: pomijam (blokada potwierdzona w tym runie)
   - alltricks.es: brak wariantu '45' wsrod ofert - pomijam
@@ -2149,12 +2154,14 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + bikeshoe4u.com: 346.0 EUR = 1503.89 PLN [wariant 45 dopasowany] [EAN niepotwierdzony]
   - pedaalkracht.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - competitivecyclist.com: HTTP 202
+  + engearment.com: blokada ominieta headless Chromium
   - engearment.com: brak danych o cenie (typy na stronie: article, imageobject, organization, person, place, webpage, website)
   - de.lakecycling.com: brak danych o cenie (typy na stronie: collectionpage, faqpage)
   + bike-discount.de: 258.3 EUR = 1122.7 PLN [wariant 45 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
   + bike-discount.de: 258.3 EUR = 1122.7 PLN [wariant 45 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
   - deporvillage.it: pomijam (blokada potwierdzona w tym runie)
   - velo-store.it: brak wariantu '45' wsrod ofert - pomijam
+  + engearment.com: blokada ominieta headless Chromium
   - engearment.com: brak danych o cenie (typy na stronie: article, imageobject, organization, person, place, webpage, website)
   - deporvillage.fr: pomijam (blokada potwierdzona w tym runie)
   - alltricks.nl: brak wariantu '45' wsrod ofert - pomijam
@@ -2169,7 +2176,8 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - britannica.com: HTTP 403 (przegladarka tez nie przeszla)
   - lakepajamas.com: brak danych o cenie (typy na stronie: organization, website)
   - hardwareworld.com: brak wymaganych slow (mx242) - pomijam
-  - singletrackworld.com: HTTP 403 (przegladarka tez nie przeszla)
+  + singletrackworld.com: blokada ominieta headless Chromium
+  - singletrackworld.com: brak danych o cenie (typy na stronie: discussionforumposting)
   - deporvillage.fr: pomijam (blokada potwierdzona w tym runie)
   + buycycle.com: 283.0 EUR = 1230.06 PLN [wariant 45 dopasowany] [EAN niepotwierdzony]
   - lakecycling.com: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -2189,125 +2197,99 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - lakecycling.com: waluta USD poza dozwolonym regionem - pomijam
   - lakecycling.com: waluta USD poza dozwolonym regionem - pomijam
   - lakecycling.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-[MONITOR] DT SWISS 350 12x148: blind spoty do sprawdzenia przez Google: axit.cz, bike24.at, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.nl, bike24.pl, campingtour.fr, community.mtb-mag.com, deporvillage.com, deporvillage.cz, deporvillage.de, deporvillage.it, deporvillage.net, deporvillage.nl, deporvillage.pl, heureka.cz, idealo.es, lordgun.de, lordgunbicycles.com, ltmracing.com, mrozbike.pl, prowheelbuilder.com, r2-bike.com, reinwald-gaertnerei.de, the-witcher.cz, thebikevillage.com, utadka.eu, vastutalks.com, velofactory.ch, velondo.at, velondo.nl, velosiped.com
-[MONITOR] Lake MX190-X Wide: blind spoty do sprawdzenia przez Google: backcountry.com, bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fi, bike24.fr, bike24.it, bike24.nl, bike24.pl, bol.com, competitivecyclist.com, deporvillage.pl, dstewart.com, hillnmarkes.com, microcenter.com, outdoor49.com, steepandcheap.com
-[MONITOR] ROCK SHOX SID: blind spoty do sprawdzenia przez Google: absolubike.fr, announcementconverters.com, axevotech.eu, axit.cz, bike-discount.de, bike24.com, bike24.de, bike24.es, bike24.it, bike24.pl, crescentelectric.com, cyklomania.pl, deporvillage.com, deporvillage.nl, dev.nanobike.de, flowmountainbike.com, gambacicli.fr, hearnscycling.com, heureka.cz, idealo.es, mountainbike.nl, mtb-mag.com, mtb-xc.pl, probikesupply.com, r2-bike.com, rat-bikes.eu, silverbackbikes.de, sprint-rowery.pl, starbike.com, velofactory.ch, velondo.it, velondo.nl, vidlice.heureka.cz
-[MONITOR] GX-T-CHAIN: blind spoty do sprawdzenia przez Google: ampbike.pl, bike24.at, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.pl, bikemag.com, competitivecyclist.com, cyklomania.pl, fiets.nl, fresherica.com, gambacicli.fr, hibike.com, idealo.es, lordgun.com, lordgun.de, lordgunbicycles.com, mtb-mag.com, ociodeporte.es, powermetercity.com, r2-bike.com, rei.com, retezy.heureka.cz, snyt-primka.cz, sportler.com, velofactory.ch, velonova.lt, velosiped.com
-[MONITOR] Lake MX242: blind spoty do sprawdzenia przez Google: backcountry.com, bike24.com, bike24.de, bike24.es, bike24.it, bike24.pl, britannica.com, cart2india.com, competitivecyclist.com, cyclexperience.nl, deporvillage.com, deporvillage.cz, deporvillage.de, deporvillage.fr, deporvillage.it, deporvillage.net, deporvillage.nl, deporvillage.pl, idealo.es, idealo.fr, kroger.com, racycles.com, singletrackworld.com
-[MONITOR] FM2797: blind spoty do sprawdzenia przez Google: bike-forum.cz, bike24.it, bikeflip.com, crazyguyonabike.com, heb.com, rat-bikes.com, rat-bikes.eu, texasfood.com, via-camina.fr
-[MONITOR] Ritchey WCS Carbon ErgoMax: blind spoty do sprawdzenia przez Google: 365cycles.com, absolubike.fr, agriper.nl, bbb.org, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.pl, bikeparts.com, cinevittoria.it, cyklomania.pl, deporvillage.com, deporvillage.fr, deporvillage.it, deporvillage.net, deporvillage.nl, deporvillage.pl, eventbike.it, faithchurchonaway.org, galaxus.ch, idealo.es, idealo.fr, klub300.cz, leboncoin.fr, pianowithjonny.com, r2-bike.com, rat-bikes.eu, rei.com, ridinggravel.com, trenerterapeut.cz, velodrome-cycling.com, velofactory.ch, whitepages.com
-[MONITOR] GX-T-KIT: blind spoty do sprawdzenia przez Google: absolubike.fr, andersonlumbercompany.com, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.nl, bike24.pl, bikechill.pl, competitivecyclist.com, cyklomania.pl, deporvillage.nl, hibike.com, homedepot.com, idealo.es, idealo.fr, kliky.heureka.cz, lordgun.de, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, r2-bike.com, razeni.heureka.cz, reactionteam.org, rei.com, retezy.heureka.cz, rgbikes.com, sprint-rowery.pl, velofactory.ch, velonova.lt
-[MONITOR] Cane Creek 40 IS41/IS52: blind spoty do sprawdzenia przez Google: bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.lu, bike24.nl, bike24.pl, competitivecyclist.com, decathlon.it, dstewart.com, galaxus.ch, homedepot.com, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, mtb-mag.com, r2-bike.com, rat-bikes.com, rat-bikes.eu
-[MONITOR] FARGO-TI: blind spoty do sprawdzenia przez Google: bike24.com, bike24.it, bike24.lu, bike24.pl, competitivecyclist.com, galaxus.ch, galaxus.fr, galaxus.it, rat-bikes.com, rat-bikes.eu, subito.it
-[MONITOR] DT Swiss Fatbike: blind spoty do sprawdzenia przez Google: alumach.com, axit.cz, bdc-mag.com, bike24.com, bike24.de, bike24.fr, bike24.it, bike24.nl, bike24.pl, community.mtb-mag.com, deporvillage.it, fat-bike.de, kstoerz.com, las4cimas.com, naboje.heureka.cz, olympiateatern.se, prowheelbuilder.com, r2-bike.com, velofactory.ch, velosiped.com
-[MONITOR] Canyon S14 VCLS 2.0: blind spoty do sprawdzenia przez Google: forum.ridinggravel.com, radforum.de, rennrad-news.de, velonova.ee, velonova.lt
+[MONITOR] ROCK SHOX SID: blind spoty do sprawdzenia przez Google: absolubike.fr, announcementconverters.com, axevotech.eu, bike-discount.de, bike24.com, bike24.de, bike24.es, bike24.it, bike24.pl, cyklomania.pl, deporvillage.com, deporvillage.nl, dev.nanobike.de, gambacicli.fr, heureka.cz, idealo.es, mtb-mag.com, probikesupply.com, r2-bike.com, rat-bikes.eu, sprint-rowery.pl, starbike.com, tnc-hamburg.com, velofactory.ch, velondo.it, velondo.nl, vidlice.heureka.cz
+[MONITOR] Cane Creek 40 IS41/IS52: blind spoty do sprawdzenia przez Google: bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.lu, bike24.nl, bike24.pl, competitivecyclist.com, decathlon.it, galaxus.ch, homedepot.com, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, mtb-mag.com, r2-bike.com, rat-bikes.com, rat-bikes.eu, slovakbikeparks.sk, tnc-hamburg.com
+[MONITOR] Ritchey WCS Carbon ErgoMax: blind spoty do sprawdzenia przez Google: 365cycles.com, absolubike.fr, agriper.nl, all4bikes.be, bbb.org, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.pl, bikeparts.com, carrefour.es, cinevittoria.it, cyklomania.pl, deporvillage.com, deporvillage.fr, deporvillage.it, deporvillage.net, deporvillage.nl, deporvillage.pl, eventbike.it, faithchurchonaway.org, galaxus.ch, idealo.es, idealo.fr, klub300.cz, leboncoin.fr, pianowithjonny.com, r2-bike.com, rat-bikes.eu, rei.com, ridinggravel.com, trenerterapeut.cz, velodrome-cycling.com, velofactory.ch, whitepages.com
+[MONITOR] DT Swiss Fatbike: blind spoty do sprawdzenia przez Google: alumach.com, bdc-mag.com, bike24.com, bike24.de, bike24.fr, bike24.it, bike24.nl, bike24.pl, community.mtb-mag.com, deporvillage.it, fat-bike.de, kstoerz.com, las4cimas.com, naboje.heureka.cz, olympiateatern.se, prowheelbuilder.com, r2-bike.com, velofactory.ch, velosiped.com
+[MONITOR] DT SWISS 350 12x148: blind spoty do sprawdzenia przez Google: biciescapa.com, bicycleparts24.fr, bike24.at, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.nl, bike24.pl, campingtour.fr, community.mtb-mag.com, deporvillage.com, deporvillage.de, deporvillage.it, deporvillage.net, deporvillage.nl, deporvillage.pl, fahrrad24.de, heureka.cz, idealo.es, lordgun.de, lordgunbicycles.com, ltmracing.com, mrozbike.pl, prowheelbuilder.com, r2-bike.com, reinwald-gaertnerei.de, the-witcher.cz, tnc-hamburg.com, utadka.eu, vastutalks.com, velofactory.ch, velondo.at, velondo.nl, velosiped.com
+[MONITOR] Lake MX190-X Wide: blind spoty do sprawdzenia przez Google: backcountry.com, bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fi, bike24.fr, bike24.it, bike24.nl, bike24.pl, bol.com, competitivecyclist.com, deporvillage.pl, hillnmarkes.com, microcenter.com, outdoor49.com, steepandcheap.com
+[MONITOR] GX-T-CHAIN: blind spoty do sprawdzenia przez Google: ampbike.pl, bike24.at, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.pl, bikemag.com, competitivecyclist.com, cyklomania.pl, fiets.nl, fresherica.com, gambacicli.fr, hibike.com, idealo.es, lordgun.com, lordgun.de, lordgunbicycles.com, mtb-mag.com, ociodeporte.es, r2-bike.com, rei.com, retezy.heureka.cz, snyt-primka.cz, sportler.com, velofactory.ch, velonova.lt, velosiped.com
+[MONITOR] GX-T-KIT: blind spoty do sprawdzenia przez Google: absolubike.fr, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.nl, bike24.pl, bikechill.pl, competitivecyclist.com, cyklomania.pl, deporvillage.nl, hibike.com, homedepot.com, idealo.es, idealo.fr, kliky.heureka.cz, lordgun.de, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, r2-bike.com, razeni.heureka.cz, reactionteam.org, rei.com, retezy.heureka.cz, rgbikes.com, sprint-rowery.pl, velofactory.ch, velonova.lt
+[MONITOR] Lake MX242: blind spoty do sprawdzenia przez Google: backcountry.com, bike24.com, bike24.de, bike24.es, bike24.it, bike24.pl, britannica.com, cart2india.com, competitivecyclist.com, cyclexperience.nl, deporvillage.com, deporvillage.de, deporvillage.fr, deporvillage.it, deporvillage.net, deporvillage.nl, deporvillage.pl, idealo.es, idealo.fr, kroger.com, racycles.com
+[MONITOR] FM2797: blind spoty do sprawdzenia przez Google: bike-forum.cz, bike24.it, bikeflip.com, crazyguyonabike.com, heb.com, papa-wheelies.com, rat-bikes.com, rat-bikes.eu, texasfood.com, via-camina.fr, yawpcyclery.com
+[MONITOR] Canyon S14 VCLS 2.0: blind spoty do sprawdzenia przez Google: forum.ridinggravel.com, radforum.de, rennrad-news.de, ricardo.ch, velonova.ee, velonova.lt
+[MONITOR] FARGO-TI: blind spoty do sprawdzenia przez Google: benscycle.com, bike24.com, bike24.it, bike24.lu, bike24.pl, competitivecyclist.com, galaxus.ch, galaxus.fr, galaxus.it, papa-wheelies.com, rat-bikes.com, rat-bikes.eu, subito.it
 [SHOPPING] SerpAPI na wyczerpaniu (pozostalo 0, rezerwa 10) - pomijam ten silnik
-[SHOPPING] Ritchey WCS Carbon ErgoMax: pomijam kraje it, cz, es, nl, be, ch (limit 3/produkt/run)
-[SHOPPING] Ritchey WCS Carbon ErgoMax (gl=de, serper, fraza 1, str. 1): 40 ofert w feedzie, szukam: 365cycles.com, advntr.cc, amgcyclery.com, bbb.org, bicyclewarehouse.com, bike-components.de, bike-discount.de, bike24.com, bike24.de, bikeman.com, bikeparts.com, ciclimattio.com (+57)
-  - bike-discount.de: brak wymaganych slow ('Ritchey WCS ErgoMax Lenker')
-  - r2-bike.com: brak wymaganych slow ('RITCHEY Lenker WCS Road ErgoMax | Di2 ready')
-  - mantel.com: brak wymaganych slow ('Ritchey WCS Ergomax Rennrad-Lenker')
-  - ridewill.com: brak wymaganych slow ('RITCHEY Gravel-Lenker WCS ErgoMax Di2 kompatibel 400 mm')
-  - velodrome-cycling.com: brak wymaganych slow ('Ritchey WCS Ergomax Rennradlenker')
-  - r2-bike.com: brak wymaganych slow ('RITCHEY Lenker Comp ErgoMax | 10 mm Rise 440 mm')
-  - ridewill.com: brak wymaganych slow ('Ritchey WCS Evomax Handlebar 2019')
-  - velodrome-cycling.com: brak wymaganych slow ('Ritchey WCS Evo Curve Di2 Handlebar')
-[SHOPPING] Ritchey WCS Carbon ErgoMax (gl=de, serper, fraza 1, str. 2): 18 ofert w feedzie, szukam: 365cycles.com, advntr.cc, amgcyclery.com, bbb.org, bicyclewarehouse.com, bike-components.de, bike-discount.de, bike24.com, bike24.de, bikeman.com, bikeparts.com, ciclimattio.com (+57)
-  - velodrome-cycling.com: brak wymaganych slow ('Ritchey WCS Evo Curve Di2 Handlebar')
-  - bike-discount.de: brak wymaganych slow ('Ritchey WCS Trail Flat Handlebar')
-  - rat-bikes.eu: brak wymaganych slow ('Ritchey WCS Logic II Handlebar')
-  - velodrome-cycling.com: brak wymaganych slow ('Ritchey WCS EvoMax Rennradlenker')
-  - bike-discount.de: brak wymaganych slow ('Ritchey Comp VentureMax Lenker')
-  - rosebikes.de: tytul nie pasuje do produktu ('Ritchey Comp Venturemax V2')
-  - velodrome-cycling.com: brak wymaganych slow ('Ritchey SUPERLOGIC Carbon Evo Curve Rennradlenker')
-[SHOPPING] Ritchey WCS Carbon ErgoMax (gl=de, serper, fraza 2, str. 1): 40 ofert w feedzie, szukam: 365cycles.com, advntr.cc, amgcyclery.com, bbb.org, bicyclewarehouse.com, bike-components.de, bike-discount.de, bike24.com, bike24.de, bikeman.com, bikeparts.com, ciclimattio.com (+57)
-  - bike-discount.de: brak wymaganych slow ('Ritchey WCS ErgoMax Lenker')
-  - r2-bike.com: brak wymaganych slow ('RITCHEY Lenker WCS Road ErgoMax | Di2 ready')
-  - rosebikes.de: brak wymaganych slow ('Ritchey Comp ErgoMax Handlebar')
-  - ridewill.com: brak wymaganych slow ('RITCHEY Gravel-Lenker WCS ErgoMax Di2 kompatibel 400 mm')
-  - mantel.com: brak wymaganych slow ('Ritchey WCS Ergomax Rennrad-Lenker')
-  - bike-discount.de: 347.68 PLN poza widelkami - pomijam
-  - velodrome-cycling.com: brak wymaganych slow ('Ritchey WCS Ergomax Rennradlenker')
-  - bike-discount.de: brak wymaganych slow ('Ritchey Comp ErgoMax Lenker')
-  - r2-bike.com: brak wymaganych slow ('RITCHEY Lenker Comp ErgoMax | 10 mm Rise 440 mm')
-  - bike24.de: brak wymaganych slow ('Ritchey Superlogic Streem Handlebar')
-  - bike-discount.de: tytul nie pasuje do produktu ('Ritchey WCS Venturemax')
-  - mantel.com: brak wymaganych slow ('Ritchey Comp Ergomax Rennrad-Lenker')
-  - ridewill.com: brak wymaganych slow ('Ritchey WCS Evomax Handlebar 2019')
-  - bike24.de: tytul nie pasuje do produktu ('Ritchey WCS VentureMax XL')
-  - bike-discount.de: brak wymaganych slow ('Ritchey WCS Streem Blatte Handlebar')
-  - r2-bike.com: tytul nie pasuje do produktu ('Ritchey WCS Beacon Blatte')
-  - bike24.de: brak wymaganych slow ('Ritchey WCS Skyline Lenker | 31.8mm')
-  - bike-discount.de: brak wymaganych slow ('Ritchey Superlogic Flat 2X Handlebar 31.8')
-[SHOPPING] Ritchey WCS Carbon ErgoMax (gl=pl, serper, fraza 1, str. 1): 40 ofert w feedzie, szukam: allegrolokalnie.pl, bike24.pl, centrumrowerowe.pl, cyklomania.pl, deporvillage.pl, formicki-bike.pl, mtbiker.pl, rosebikes.pl, sportisgood.pl, velo-store.pl
-  - centrumrowerowe.pl: brak wymaganych slow ('Kierownica szosowa RITCHEY WCS Ergomax')
-  - bike24.pl: 550.23 PLN poza widelkami - pomijam
-  - centrumrowerowe.pl: brak wymaganych slow ('Kierownica szosowa RITCHEY Comp Ergomax')
-  - allegrolokalnie.pl: brak wymaganych slow ('Ritchey kierownica Gravel Comp ErgoMax Di2 42cm')
-  - bike24.pl: brak wymaganych slow ('Ritchey WCS Skyline Handlebar | 31.8mm')
-[SHOPPING] Ritchey WCS Carbon ErgoMax (gl=pl, serper, fraza 1, str. 2): 1 ofert w feedzie, szukam: allegrolokalnie.pl, bike24.pl, centrumrowerowe.pl, cyklomania.pl, deporvillage.pl, formicki-bike.pl, mtbiker.pl, rosebikes.pl, sportisgood.pl, velo-store.pl
-[SHOPPING] Ritchey WCS Carbon ErgoMax (gl=pl, serper, fraza 2, str. 1): 34 ofert w feedzie, szukam: allegrolokalnie.pl, bike24.pl, centrumrowerowe.pl, cyklomania.pl, deporvillage.pl, formicki-bike.pl, mtbiker.pl, rosebikes.pl, sportisgood.pl, velo-store.pl
-  - centrumrowerowe.pl: brak wymaganych slow ('Kierownica szosowa RITCHEY WCS Ergomax')
-  - bike24.pl: 550.23 PLN poza widelkami - pomijam
-  - centrumrowerowe.pl: brak wymaganych slow ('Kierownica szosowa RITCHEY Comp Ergomax')
-  - allegrolokalnie.pl: brak wymaganych slow ('Ritchey kierownica Gravel Comp ErgoMax Di2 42cm')
-  - bike24.pl: brak wymaganych slow ('Ritchey WCS Skyline Handlebar | 31.8mm')
-  - bike24.pl: brak wymaganych slow ('Ritchey Superlogic Rizer handlebar 2026 Rise')
-  + bike24.pl: 702.37 PLN = 702.37 PLN [Google Shopping] [wariant 42 NIEZWERYFIKOWANY - tytul feedu]
-[SHOPPING] Ritchey WCS Carbon ErgoMax (gl=fr, serper, fraza 1, str. 1): 40 ofert w feedzie, szukam: absolubike.fr, alltricks.fr, bike24.fr, deporvillage.fr, gyro.fr, idealo.fr, leboncoin.fr, rosebikes.fr, velo-store.fr
-  - alltricks.fr: brak wymaganych slow ('Guidon ritchey ergomax comp di2 bb noir')
-  - absolubike.fr: brak wymaganych slow ('Cintre Ritchey Ergomax COMP Di2 BB Black')
-  - bike24.fr: brak wymaganych slow ('Ritchey Superlogic Venturemax Guidon Carbone - Road | 31.8mm')
-  - gyro.fr: brak wymaganych slow ('Cintre Comp Ergomax')
-[SHOPPING] Ritchey WCS Carbon ErgoMax (gl=fr, serper, fraza 1, str. 2): 19 ofert w feedzie, szukam: absolubike.fr, alltricks.fr, bike24.fr, deporvillage.fr, gyro.fr, idealo.fr, leboncoin.fr, rosebikes.fr, velo-store.fr
-  - bike24.fr: brak wymaganych slow ('Ritchey Superlogic Venturemax Guidon Carbone - Road | 31.8mm')
-[SHOPPING] Ritchey WCS Carbon ErgoMax (gl=fr, serper, fraza 2, str. 1): 39 ofert w feedzie, szukam: absolubike.fr, alltricks.fr, bike24.fr, deporvillage.fr, gyro.fr, idealo.fr, leboncoin.fr, rosebikes.fr, velo-store.fr
-  - gyro.fr: brak wymaganych slow ('Cintre Comp Ergomax')
-  - alltricks.fr: brak wymaganych slow ('Guidon ritchey ergomax comp di2 bb noir')
-  - absolubike.fr: brak wymaganych slow ('Cintre Ritchey Ergomax COMP Di2 BB Black')
-  - bike24.fr: brak wymaganych slow ('Ritchey Superlogic Venturemax Guidon Carbone - Road | 31.8mm')
-  + leboncoin.fr: 190.0 EUR = 825.83 PLN [Google Shopping] [wariant 42 NIEZWERYFIKOWANY - tytul feedu]
-  + gyro.fr: 319.2 EUR = 1387.4 PLN [Google Shopping] [wariant 42 NIEZWERYFIKOWANY - tytul feedu]
 [SHOPPING] SUPERLOGIC-ERGOMAX (gl=de, serper, fraza 1, str. 1): 40 ofert w feedzie, szukam: tradeinn.com
 [SHOPPING] SUPERLOGIC-ERGOMAX (gl=de, serper, fraza 1, str. 2): 40 ofert w feedzie, szukam: tradeinn.com
 [SHOPPING] SUPERLOGIC-ERGOMAX (gl=de, serper, fraza 2, str. 1): 40 ofert w feedzie, szukam: tradeinn.com
 [SHOPPING] Canyon S14 VCLS 2.0: pomijam kraje cz, ch, ee, lt (limit 3/produkt/run)
-[SHOPPING] Canyon S14 VCLS 2.0 (gl=de, serper, fraza 1, str. 1): 10 ofert w feedzie, szukam: bike-magazin.de, buycycle.com, canyon1687.rssing.com, community.escapecollective.com, cyclingclaude.de, forum.ridinggravel.com, forumrowerowe.org, gravelunion.cc, handsonbike.blogspot.com, kleinanzeigen.de, mtbiker.de, prasaddaggupati.com (+6)
+[SHOPPING] Canyon S14 VCLS 2.0 (gl=de, serper, fraza 1, str. 1): 12 ofert w feedzie, szukam: bike-magazin.de, buycycle.com, canyon1687.rssing.com, community.escapecollective.com, cyclingclaude.de, forum.ridinggravel.com, forumrowerowe.org, gravelunion.cc, handsonbike.blogspot.com, kleinanzeigen.de, mtbiker.de, prasaddaggupati.com (+6)
   - buycycle.com: brak wymaganych slow ('Canyon SP0057 VCLS CF Seatpost')
+  - buycycle.com: brak wymaganych slow ('Canyon S15 VCLS 2.0 27.2mm CF Seatpost 2024')
+  - buycycle.com: brak wymaganych slow ('Canyon S15 Seatpost')
 [SHOPPING] Canyon S14 VCLS 2.0 (gl=de, serper, fraza 2, str. 1): 40 ofert w feedzie, szukam: bike-magazin.de, buycycle.com, canyon1687.rssing.com, community.escapecollective.com, cyclingclaude.de, forum.ridinggravel.com, forumrowerowe.org, gravelunion.cc, handsonbike.blogspot.com, kleinanzeigen.de, mtbiker.de, prasaddaggupati.com (+6)
   - buycycle.com: brak wymaganych slow ('Canyon SP0057 VCLS CF Seatpost')
   - buycycle.com: brak wymaganych slow ('Canyon S15 Seatpost')
-[SHOPPING] Canyon S14 VCLS 2.0 (gl=de, serper, fraza 2, str. 2): 13 ofert w feedzie, szukam: bike-magazin.de, buycycle.com, canyon1687.rssing.com, community.escapecollective.com, cyclingclaude.de, forum.ridinggravel.com, forumrowerowe.org, gravelunion.cc, handsonbike.blogspot.com, kleinanzeigen.de, mtbiker.de, prasaddaggupati.com (+6)
-[SHOPPING] Canyon S14 VCLS 2.0 (gl=pl, serper, fraza 1, str. 1): 6 ofert w feedzie, szukam: allegrolokalnie.pl, mtbiker.pl, olx.pl
+[SHOPPING] Canyon S14 VCLS 2.0 (gl=de, serper, fraza 2, str. 2): 14 ofert w feedzie, szukam: bike-magazin.de, buycycle.com, canyon1687.rssing.com, community.escapecollective.com, cyclingclaude.de, forum.ridinggravel.com, forumrowerowe.org, gravelunion.cc, handsonbike.blogspot.com, kleinanzeigen.de, mtbiker.de, prasaddaggupati.com (+6)
+[SHOPPING] Canyon S14 VCLS 2.0 (gl=pl, serper, fraza 1, str. 1): 8 ofert w feedzie, szukam: allegrolokalnie.pl, mtbiker.pl, olx.pl
 [SHOPPING] Canyon S14 VCLS 2.0 (gl=pl, serper, fraza 2, str. 1): 11 ofert w feedzie, szukam: allegrolokalnie.pl, mtbiker.pl, olx.pl
 [SHOPPING] Canyon S14 VCLS 2.0 (gl=at, serper, fraza 1, str. 1): 5 ofert w feedzie, szukam: mtbiker.at
+[SHOPPING] Canyon S14 VCLS 2.0 (gl=at, serper, fraza 2, str. 1): 32 ofert w feedzie, szukam: mtbiker.at
+[SHOPPING] GX-T-KIT: pomijam kraje nl, fr, it, es, ch, lt (limit 3/produkt/run)
+[SHOPPING] GX-T-KIT (gl=de, serper, fraza 1, str. 1): 40 ofert w feedzie, szukam: alamedabicycle.com, alutech-cycles.com, andersonlumbercompany.com, bertsbikes.com, bike-discount.de, bike-test.com, bike-x.de, bike24.com, bike24.de, bikenos.com, bikepacking.com, biketiresdirect.com (+59)
+  - bike24.de: brak wymaganych slow ('SRAM GX Eagle E-MTB AXS group')
+  - r2-bike.com: brak wymaganych slow ('Schaltgr.set SRAM GX T-Type Eagle AXS')
+  - bike-discount.de: brak wymaganych slow ('SRAM GX Eagle Transmission 10-52 Verschleissset + Schaltroll')
+  - lvr-cycles.com: brak wymaganych slow ('SRAM GX T-Type Eagle Transmission AXS Groupset')
+  - lvr-cycles.com: brak wymaganych slow ('SRAM Groupe complet GX T-TYPE Eagle AXS DUB 12s 32T 10-52')
+  - r2-bike.com: brak wymaganych slow ('SRAM Groupset GX Eagle AXS Transmission')
+  - bike-discount.de: tytul nie pasuje do produktu ('SRAM GX Isis Cranks')
+  - bike24.de: brak wymaganych slow ('SRAM Groupset GX Eagle AXS Transmission 104BCD')
+  - bike24.de: brak wymaganych slow ('Garbaruk Sram Eagle T-type Derailleur Cage')
+  - bike-discount.de: brak wymaganych slow ('SRAM GX Eagle DUB MTB Wide 1x12-fach Transmission Kurbel 32T')
+[SHOPPING] GX-T-KIT (gl=de, serper, fraza 1, str. 2): 0 ofert w feedzie, szukam: alamedabicycle.com, alutech-cycles.com, andersonlumbercompany.com, bertsbikes.com, bike-discount.de, bike-test.com, bike-x.de, bike24.com, bike24.de, bikenos.com, bikepacking.com, biketiresdirect.com (+59)
+[SHOPPING] GX-T-KIT (gl=de, serper, fraza 2, str. 1): 40 ofert w feedzie, szukam: alamedabicycle.com, alutech-cycles.com, andersonlumbercompany.com, bertsbikes.com, bike-discount.de, bike-test.com, bike-x.de, bike24.com, bike24.de, bikenos.com, bikepacking.com, biketiresdirect.com (+59)
+  - bike24.de: brak wymaganych slow ('SRAM GX Eagle E-MTB AXS group')
+  - lvr-cycles.com: brak wymaganych slow ('SRAM Groupe complet GX T-TYPE Eagle AXS DUB 12s 32T 10-52')
+  - r2-bike.com: brak wymaganych slow ('SRAM Groupset GX Eagle AXS Transmission')
+  - lvr-cycles.com: brak wymaganych slow ('SRAM GX T-Type Eagle Transmission AXS Groupset')
+  - r2-bike.com: brak wymaganych slow ('Schaltgr.set SRAM GX T-Type Eagle AXS')
+  - bike24.de: brak wymaganych slow ('SRAM GX Eagle Trigger')
+  - bike-discount.de: brak wymaganych slow ('Sram X0 AXS Eagle E-mtb Groupset')
+  + bike-discount.de: 374.99 EUR = 1629.89 PLN [Google Shopping]
+  + r2-bike.com: 375.0 EUR = 1629.94 PLN [Google Shopping]
+  + lordgun.de: 419.33 EUR = 1822.62 PLN [Google Shopping]
+[SHOPPING] GX-T-KIT (gl=pl, serper, fraza 1, str. 1): 40 ofert w feedzie, szukam: 2wheels.pl, airbike.pl, alpebike.pl, ampbike.pl, bike24.pl, bikechill.pl, centrumrowerowe.pl, cyklomania.pl, goodsport.pl, greenbike.pl, ibike.pl, power-bikes.pl (+3)
+  - bike24.pl: brak wymaganych slow ('SRAM GX Eagle E-MTB AXS group')
+  - centrumrowerowe.pl: brak wymaganych slow ('Grupa MTB SRAM GX Eagle AXS Transmission T-Type')
+  - bike24.pl: brak wymaganych slow ('SRAM Eagle 90 Wide 32D Dub Boost T-Type')
+  - bike24.pl: brak wymaganych slow ('SRAM GX AXS Eagle Transmission groupset DUB Wide 32T 10-52T')
+[SHOPPING] GX-T-KIT (gl=pl, serper, fraza 1, str. 2): 21 ofert w feedzie, szukam: 2wheels.pl, airbike.pl, alpebike.pl, ampbike.pl, bike24.pl, bikechill.pl, centrumrowerowe.pl, cyklomania.pl, goodsport.pl, greenbike.pl, ibike.pl, power-bikes.pl (+3)
+[SHOPPING] GX-T-KIT (gl=pl, serper, fraza 2, str. 1): 40 ofert w feedzie, szukam: 2wheels.pl, airbike.pl, alpebike.pl, ampbike.pl, bike24.pl, bikechill.pl, centrumrowerowe.pl, cyklomania.pl, goodsport.pl, greenbike.pl, ibike.pl, power-bikes.pl (+3)
+  - centrumrowerowe.pl: brak wymaganych slow ('Grupa MTB SRAM GX Eagle AXS Transmission T-Type')
+  - bike24.pl: brak wymaganych slow ('SRAM GX Eagle E-MTB AXS group')
+  + bike24.pl: 1771.33 PLN = 1771.33 PLN [Google Shopping]
+[SHOPPING] GX-T-KIT (gl=cz, serper, fraza 1, str. 1): 40 ofert w feedzie, szukam: bikeandride.cz, cyklozitny.cz, fdfbikeshop.cz, hupnakolo.cz, kliky.heureka.cz, kolokram.cz, mojekolo.cz, pepebike.cz, razeni.heureka.cz, retezy.heureka.cz, spoke.cz, zbozi.cz
+  - kliky.heureka.cz: brak wymaganych slow ('Sram GX SL T-Type Eagle Transmission AXS')
+[SHOPPING] GX-T-KIT (gl=cz, serper, fraza 1, str. 2): 6 ofert w feedzie, szukam: bikeandride.cz, cyklozitny.cz, fdfbikeshop.cz, hupnakolo.cz, kliky.heureka.cz, kolokram.cz, mojekolo.cz, pepebike.cz, razeni.heureka.cz, retezy.heureka.cz, spoke.cz, zbozi.cz
 [SHOPPING] Budzet zapytan na ten run wyczerpany
 [AUTH] google: dostep odrzucony (HTTP 403) - wylaczam silnik do konca runu. Custom Search JSON API jest zamkniete dla nowych klientow (od 2026; starzy do 2027-01-01). Warstwa CSE dziala tylko na starych projektach Google Cloud - jesli nie masz takiego, usun sekrety GOOGLE_API_KEY/GOOGLE_CX.
 [AUTH] google: poczatek odpowiedzi: { "error": { "code": 403, "message": "This project does not have the access to Custom Search JSON API.", "errors": [ { "me
   ! DT Swiss Fatbike: odrzucam outlier 82.15 PLN (cingolanibikeshop.com) - ponizej 25% mediany (408.57 PLN)
   ! DT Swiss Fatbike: odrzucam outlier 47.38 PLN (cingolanibikeshop.com) - ponizej 25% mediany (408.57 PLN)
-  ! DT SWISS 350 12x148: odrzucam outlier 126.05 PLN (whizz-wheels.de) - ponizej 25% mediany (868.87 PLN)
-  ! DT SWISS 350 12x148: odrzucam outlier 173.43 PLN (whizz-wheels.de) - ponizej 25% mediany (868.87 PLN)
-  ! DT SWISS 350 12x148: odrzucam outlier 169.08 PLN (whizz-wheels.de) - ponizej 25% mediany (868.87 PLN)
-  ! DT SWISS 350 12x148: odrzucam outlier 77.8 PLN (whizz-wheels.de) - ponizej 25% mediany (868.87 PLN)
-  ! DT SWISS 350 12x148: odrzucam outlier 180.0 PLN (olx.pl) - ponizej 25% mediany (868.87 PLN)
-  ! DT SWISS 350 12x148: odrzucam outlier 86.93 PLN (whizz-wheels.de) - ponizej 25% mediany (868.87 PLN)
-  ! DT SWISS 350 12x148: odrzucam outlier 52.11 PLN (alltricks.nl) - ponizej 25% mediany (868.87 PLN)
-  ! DT SWISS 350 12x148: odrzucam outlier 110.0 PLN (olx.pl) - ponizej 25% mediany (868.87 PLN)
+  ! DT SWISS 350 12x148: odrzucam outlier 126.05 PLN (whizz-wheels.de) - ponizej 25% mediany (870.4 PLN)
+  ! DT SWISS 350 12x148: odrzucam outlier 173.43 PLN (whizz-wheels.de) - ponizej 25% mediany (870.4 PLN)
+  ! DT SWISS 350 12x148: odrzucam outlier 169.08 PLN (whizz-wheels.de) - ponizej 25% mediany (870.4 PLN)
+  ! DT SWISS 350 12x148: odrzucam outlier 77.8 PLN (whizz-wheels.de) - ponizej 25% mediany (870.4 PLN)
+  ! DT SWISS 350 12x148: odrzucam outlier 180.0 PLN (olx.pl) - ponizej 25% mediany (870.4 PLN)
+  ! DT SWISS 350 12x148: odrzucam outlier 86.93 PLN (whizz-wheels.de) - ponizej 25% mediany (870.4 PLN)
+  ! DT SWISS 350 12x148: odrzucam outlier 52.11 PLN (alltricks.nl) - ponizej 25% mediany (870.4 PLN)
+  ! DT SWISS 350 12x148: odrzucam outlier 110.0 PLN (olx.pl) - ponizej 25% mediany (870.4 PLN)
   ! Cane Creek 40 IS41/IS52: odrzucam outlier 30.38 PLN (gocycle.de) - ponizej 25% mediany (282.48 PLN)
-[SERPER] Kredyty: zuzyte 36 w tym runie, lacznie 995 z 2500 (pozostalo 1505)
-[BLIND] DT SWISS 350 12x148: bez ceny (sklep blokuje, Google nie pokryl): axit.cz, bike24.at, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.nl, bike24.pl, campingtour.fr, community.mtb-mag.com, deporvillage.com, deporvillage.cz, deporvillage.de, deporvillage.it, deporvillage.net, deporvillage.nl, deporvillage.pl, heureka.cz, idealo.es, lordgun.de, lordgunbicycles.com, ltmracing.com, mrozbike.pl, prowheelbuilder.com, r2-bike.com, reinwald-gaertnerei.de, the-witcher.cz, thebikevillage.com, utadka.eu, vastutalks.com, velofactory.ch, velondo.at, velondo.nl, velosiped.com
-[BLIND] Lake MX190-X Wide: bez ceny (sklep blokuje, Google nie pokryl): backcountry.com, bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fi, bike24.fr, bike24.it, bike24.nl, bike24.pl, bol.com, competitivecyclist.com, deporvillage.pl, dstewart.com, hillnmarkes.com, microcenter.com, outdoor49.com, steepandcheap.com
-[BLIND] ROCK SHOX SID: bez ceny (sklep blokuje, Google nie pokryl): absolubike.fr, announcementconverters.com, axevotech.eu, axit.cz, bike-discount.de, bike24.com, bike24.de, bike24.es, bike24.it, bike24.pl, crescentelectric.com, cyklomania.pl, deporvillage.com, deporvillage.nl, dev.nanobike.de, flowmountainbike.com, gambacicli.fr, hearnscycling.com, heureka.cz, idealo.es, mountainbike.nl, mtb-mag.com, mtb-xc.pl, probikesupply.com, r2-bike.com, rat-bikes.eu, silverbackbikes.de, sprint-rowery.pl, starbike.com, velofactory.ch, velondo.it, velondo.nl, vidlice.heureka.cz
-[BLIND] GX-T-CHAIN: bez ceny (sklep blokuje, Google nie pokryl): ampbike.pl, bike24.at, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.pl, bikemag.com, competitivecyclist.com, cyklomania.pl, fiets.nl, fresherica.com, gambacicli.fr, hibike.com, idealo.es, lordgun.com, lordgun.de, lordgunbicycles.com, mtb-mag.com, ociodeporte.es, powermetercity.com, r2-bike.com, rei.com, retezy.heureka.cz, snyt-primka.cz, sportler.com, velofactory.ch, velonova.lt, velosiped.com
-[BLIND] Lake MX242: bez ceny (sklep blokuje, Google nie pokryl): backcountry.com, bike24.com, bike24.de, bike24.es, bike24.it, bike24.pl, britannica.com, cart2india.com, competitivecyclist.com, cyclexperience.nl, deporvillage.com, deporvillage.cz, deporvillage.de, deporvillage.fr, deporvillage.it, deporvillage.net, deporvillage.nl, deporvillage.pl, idealo.es, idealo.fr, kroger.com, racycles.com, singletrackworld.com
-[BLIND] FM2797: bez ceny (sklep blokuje, Google nie pokryl): bike-forum.cz, bike24.it, bikeflip.com, crazyguyonabike.com, heb.com, rat-bikes.com, rat-bikes.eu, texasfood.com, via-camina.fr
-[BLIND] Ritchey WCS Carbon ErgoMax: bez ceny (sklep blokuje, Google nie pokryl): 365cycles.com, absolubike.fr, agriper.nl, bbb.org, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bikeparts.com, cinevittoria.it, cyklomania.pl, deporvillage.com, deporvillage.fr, deporvillage.it, deporvillage.net, deporvillage.nl, deporvillage.pl, eventbike.it, faithchurchonaway.org, galaxus.ch, idealo.es, idealo.fr, klub300.cz, pianowithjonny.com, r2-bike.com, rat-bikes.eu, rei.com, ridinggravel.com, trenerterapeut.cz, velodrome-cycling.com, velofactory.ch, whitepages.com
-[BLIND] GX-T-KIT: bez ceny (sklep blokuje, Google nie pokryl): absolubike.fr, andersonlumbercompany.com, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.nl, bike24.pl, bikechill.pl, competitivecyclist.com, cyklomania.pl, deporvillage.nl, hibike.com, homedepot.com, idealo.es, idealo.fr, kliky.heureka.cz, lordgun.de, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, r2-bike.com, razeni.heureka.cz, reactionteam.org, rei.com, retezy.heureka.cz, rgbikes.com, sprint-rowery.pl, velofactory.ch, velonova.lt
-[BLIND] Cane Creek 40 IS41/IS52: bez ceny (sklep blokuje, Google nie pokryl): bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.lu, bike24.nl, bike24.pl, competitivecyclist.com, decathlon.it, dstewart.com, galaxus.ch, homedepot.com, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, mtb-mag.com, r2-bike.com, rat-bikes.com, rat-bikes.eu
-[BLIND] FARGO-TI: bez ceny (sklep blokuje, Google nie pokryl): bike24.com, bike24.it, bike24.lu, bike24.pl, competitivecyclist.com, galaxus.ch, galaxus.fr, galaxus.it, rat-bikes.com, rat-bikes.eu, subito.it
-[BLIND] DT Swiss Fatbike: bez ceny (sklep blokuje, Google nie pokryl): alumach.com, axit.cz, bdc-mag.com, bike24.com, bike24.de, bike24.fr, bike24.it, bike24.nl, bike24.pl, community.mtb-mag.com, deporvillage.it, fat-bike.de, kstoerz.com, las4cimas.com, naboje.heureka.cz, olympiateatern.se, prowheelbuilder.com, r2-bike.com, velofactory.ch, velosiped.com
-[BLIND] Canyon S14 VCLS 2.0: bez ceny (sklep blokuje, Google nie pokryl): forum.ridinggravel.com, radforum.de, rennrad-news.de, velonova.ee, velonova.lt
+[SERPER] Kredyty: zuzyte 36 w tym runie, lacznie 1031 z 2500 (pozostalo 1469)
+[BLIND] ROCK SHOX SID: bez ceny (sklep blokuje, Google nie pokryl): absolubike.fr, announcementconverters.com, axevotech.eu, bike-discount.de, bike24.com, bike24.de, bike24.es, bike24.it, bike24.pl, cyklomania.pl, deporvillage.com, deporvillage.nl, dev.nanobike.de, gambacicli.fr, heureka.cz, idealo.es, mtb-mag.com, probikesupply.com, r2-bike.com, rat-bikes.eu, sprint-rowery.pl, starbike.com, tnc-hamburg.com, velofactory.ch, velondo.it, velondo.nl, vidlice.heureka.cz
+[BLIND] Cane Creek 40 IS41/IS52: bez ceny (sklep blokuje, Google nie pokryl): bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.lu, bike24.nl, bike24.pl, competitivecyclist.com, decathlon.it, galaxus.ch, homedepot.com, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, mtb-mag.com, r2-bike.com, rat-bikes.com, rat-bikes.eu, slovakbikeparks.sk, tnc-hamburg.com
+[BLIND] Ritchey WCS Carbon ErgoMax: bez ceny (sklep blokuje, Google nie pokryl): 365cycles.com, absolubike.fr, agriper.nl, all4bikes.be, bbb.org, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.pl, bikeparts.com, carrefour.es, cinevittoria.it, cyklomania.pl, deporvillage.com, deporvillage.fr, deporvillage.it, deporvillage.net, deporvillage.nl, deporvillage.pl, eventbike.it, faithchurchonaway.org, galaxus.ch, idealo.es, idealo.fr, klub300.cz, leboncoin.fr, pianowithjonny.com, r2-bike.com, rat-bikes.eu, rei.com, ridinggravel.com, trenerterapeut.cz, velodrome-cycling.com, velofactory.ch, whitepages.com
+[BLIND] DT Swiss Fatbike: bez ceny (sklep blokuje, Google nie pokryl): alumach.com, bdc-mag.com, bike24.com, bike24.de, bike24.fr, bike24.it, bike24.nl, bike24.pl, community.mtb-mag.com, deporvillage.it, fat-bike.de, kstoerz.com, las4cimas.com, naboje.heureka.cz, olympiateatern.se, prowheelbuilder.com, r2-bike.com, velofactory.ch, velosiped.com
+[BLIND] DT SWISS 350 12x148: bez ceny (sklep blokuje, Google nie pokryl): biciescapa.com, bicycleparts24.fr, bike24.at, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.nl, bike24.pl, campingtour.fr, community.mtb-mag.com, deporvillage.com, deporvillage.de, deporvillage.it, deporvillage.net, deporvillage.nl, deporvillage.pl, fahrrad24.de, heureka.cz, idealo.es, lordgun.de, lordgunbicycles.com, ltmracing.com, mrozbike.pl, prowheelbuilder.com, r2-bike.com, reinwald-gaertnerei.de, the-witcher.cz, tnc-hamburg.com, utadka.eu, vastutalks.com, velofactory.ch, velondo.at, velondo.nl, velosiped.com
+[BLIND] Lake MX190-X Wide: bez ceny (sklep blokuje, Google nie pokryl): backcountry.com, bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fi, bike24.fr, bike24.it, bike24.nl, bike24.pl, bol.com, competitivecyclist.com, deporvillage.pl, hillnmarkes.com, microcenter.com, outdoor49.com, steepandcheap.com
+[BLIND] GX-T-CHAIN: bez ceny (sklep blokuje, Google nie pokryl): ampbike.pl, bike24.at, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.pl, bikemag.com, competitivecyclist.com, cyklomania.pl, fiets.nl, fresherica.com, gambacicli.fr, hibike.com, idealo.es, lordgun.com, lordgun.de, lordgunbicycles.com, mtb-mag.com, ociodeporte.es, r2-bike.com, rei.com, retezy.heureka.cz, snyt-primka.cz, sportler.com, velofactory.ch, velonova.lt, velosiped.com
+[BLIND] GX-T-KIT: bez ceny (sklep blokuje, Google nie pokryl): absolubike.fr, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.nl, bikechill.pl, competitivecyclist.com, cyklomania.pl, deporvillage.nl, hibike.com, homedepot.com, idealo.es, idealo.fr, kliky.heureka.cz, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, razeni.heureka.cz, reactionteam.org, rei.com, retezy.heureka.cz, rgbikes.com, sprint-rowery.pl, velofactory.ch, velonova.lt
+[BLIND] Lake MX242: bez ceny (sklep blokuje, Google nie pokryl): backcountry.com, bike24.com, bike24.de, bike24.es, bike24.it, bike24.pl, britannica.com, cart2india.com, competitivecyclist.com, cyclexperience.nl, deporvillage.com, deporvillage.de, deporvillage.fr, deporvillage.it, deporvillage.net, deporvillage.nl, deporvillage.pl, idealo.es, idealo.fr, kroger.com, racycles.com
+[BLIND] FM2797: bez ceny (sklep blokuje, Google nie pokryl): bike-forum.cz, bike24.it, bikeflip.com, crazyguyonabike.com, heb.com, papa-wheelies.com, rat-bikes.com, rat-bikes.eu, texasfood.com, via-camina.fr, yawpcyclery.com
+[BLIND] Canyon S14 VCLS 2.0: bez ceny (sklep blokuje, Google nie pokryl): forum.ridinggravel.com, radforum.de, rennrad-news.de, ricardo.ch, velonova.ee, velonova.lt
+[BLIND] FARGO-TI: bez ceny (sklep blokuje, Google nie pokryl): benscycle.com, bike24.com, bike24.it, bike24.lu, bike24.pl, competitivecyclist.com, galaxus.ch, galaxus.fr, galaxus.it, papa-wheelies.com, rat-bikes.com, rat-bikes.eu, subito.it
 [HISTORIA] FM2797: najnizsza 10073.01 PLN (imfixies.it)
 [HISTORIA] FARGO-TI: najnizsza 11731.2 PLN (bike-packing.de)
 [HISTORIA] FARGO-STEEL: najnizsza 5211.45 PLN (bike-packing.de)
@@ -2315,7 +2297,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
 [HISTORIA] Lake MX190-X Wide: najnizsza 469.38 PLN (alltricks.nl)
 [HISTORIA] DT Swiss Fatbike: najnizsza 210.02 PLN (use-elitebikes.com)
 [HISTORIA] DT SWISS 350 12x148: najnizsza 229.93 PLN (whizz-wheels.de)
-[HISTORIA] Ritchey WCS Carbon ErgoMax: najnizsza 702.37 PLN (bike24.pl)
+[HISTORIA] Ritchey WCS Carbon ErgoMax: najnizsza 1086.21 PLN (bikeshopzizers.ch)
 [HISTORIA] SUPERLOGIC-ERGOMAX: brak dostepnych ofert dzisiaj
 [HISTORIA] Canyon S14 VCLS 2.0: najnizsza 738.86 PLN (canyon.com)
 [HISTORIA] GX-T-KIT: najnizsza 1299.6 PLN (bike-components.de)
@@ -2324,6 +2306,6 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
 [HISTORIA] ROCK SHOX SID: najnizsza 1386.53 PLN (buycycle.com)
 [HISTORIA] Lake MX242: najnizsza 1122.7 PLN (bike-discount.de)
 [EXCEL] Zapisano /home/runner/work/PriceChecker/PriceChecker/output/prices.xlsx
-[CZAS] run z harmonogramu: przebieg trwal 118 min 8 s
+[CZAS] run z harmonogramu: przebieg trwal 121 min 19 s
 [DASHBOARD] Zapisano /home/runner/work/PriceChecker/PriceChecker/output/dashboard.html (+ docs/index.html dla GitHub Pages)
 Gotowe.
