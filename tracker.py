@@ -1308,11 +1308,14 @@ def _shopping_fill(products_by_id, blind, rates, settings):
         allowed_cur = (WORLDWIDE_CURRENCIES if p.get("worldwide")
                        else ALLOWED_CURRENCIES)
         # kraj zapytania wg TLD sklepu (bike24.de -> gl=de, bikero.cz ->
-        # gl=cz - kazdy kraj Europy); TLD neutralne (.com) -> eu[0]
+        # gl=cz - kazdy kraj Europy); TLD neutralne (.com) -> eu[0],
+        # a dla produktow worldwide -> domyslne (amerykanskie) Google,
+        # bo tam siedza feedy sklepow US (gl=None)
+        fallback_gl = None if p.get("worldwide") else eu[0]
         by_gl = {}
         for dom in doms:
             tld = dom.rsplit(".", 1)[-1]
-            by_gl.setdefault(tld if tld in _GL_CURRENCY else eu[0],
+            by_gl.setdefault(tld if tld in _GL_CURRENCY else fallback_gl,
                              set()).add(dom)
         # sklepy z wieloma TLD (bike24.*) rozdmuchuja liste krajow - per
         # produkt pytamy najwyzej gl_cap najbogatszych krajow; reszta
@@ -1406,9 +1409,9 @@ def _shopping_fill(products_by_id, blind, rates, settings):
                         break
                 shown = sorted(want)
                 more = f" (+{len(shown) - 12})" if len(shown) > 12 else ""
-                log(f"[SHOPPING] {pid} (gl={gl}, {used}, fraza {qi + 1}, "
-                    f"str. {page}): {len(items)} ofert w feedzie, "
-                    f"szukam: {', '.join(shown[:12])}{more}")
+                log(f"[SHOPPING] {pid} (gl={gl or 'us'}, {used}, "
+                    f"fraza {qi + 1}, str. {page}): {len(items)} ofert "
+                    f"w feedzie, szukam: {', '.join(shown[:12])}{more}")
                 ingest(items)
                 if want - set(best) and len(steps) < 3:
                     if page == 1 and len(items) >= 35 and has_paged:
