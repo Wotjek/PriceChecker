@@ -83,6 +83,27 @@ products:
       - Lauf Carbonara Gabel fatbike
     seed_urls:
       - https://www.laufcycles.com/product/lauf-carbonara
+  - id: IBS-V1X
+    name: Infinity Bike Seat V1X
+    # marka amerykanska (sprzedaz glownie direct + dealerzy US) - worldwide
+    # jak Lauf; wysylke do PL weryfikuje uzytkownik
+    worldwide: true
+    # $387-427 (~1400-1550 PLN), promocje "-$50"; min odcina akcesoria
+    min_pln: 900
+    max_pln: 2200
+    # v1x = seria Vegan; odcina pozostale serie (E1X/E2X/A1X/NX)
+    require_tokens:
+      - infinity
+      - v1x
+    queries:
+      - Infinity Bike Seat V1X saddle
+      - Infinity Vegan V1X saddle
+      - "\"IBS-V1X\""
+      - Infinity Bike Seat V1X Sattel
+      - siodelko Infinity V1X
+    seed_urls:
+      - https://www.cyclingupgrades.com/products/new-_infinity_vegan_v1x_black_7x7mm_stainless_rails_saddle06242025-1104-05
+      - https://infinitybikeseat.com/product-category/bike-seats/
   - id: Lake MX190-X Wide
     name: Lake MX190-X Wide
     ean: "8718568168347"
