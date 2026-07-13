@@ -1,387 +1,7 @@
-Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 'DT SWISS 350 12x148', 'Ritchey WCS Carbon ErgoMax', 'SUPERLOGIC-ERGOMAX', 'Canyon S14 VCLS 2.0', 'GX-T-KIT', 'GX-T-CHAIN', 'Cane Creek 40 IS41/IS52', 'ROCK SHOX SID', 'Lake MX242']
+Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'IBS-V1X', 'Lake MX190-X Wide', 'DT Swiss Fatbike', 'DT SWISS 350 12x148', 'Ritchey WCS Carbon ErgoMax', 'SUPERLOGIC-ERGOMAX', 'Canyon S14 VCLS 2.0', 'GX-T-KIT', 'GX-T-CHAIN', 'Cane Creek 40 IS41/IS52', 'ROCK SHOX SID', 'Lake MX242']
 [KONFIG] SERPAPI_KEY: 64 znakow, odcisk sha256 31b3c0ca
 [KONFIG] SERPER_API_KEY: 40 znakow, odcisk sha256 c6c09c67
-[DISCOVERY] Silniki: ['serpapi', 'serpapi_shopping', 'serper', 'tavily', 'google']
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Cutthroat C frameset': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Cutthroat+C+frameset&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Cutthroat C frameset': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Cutthroat+C+frameset&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Cutthroat C frameset': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Cutthroat+C+frameset&num=20&api_key=***&gl=it&google_domain=google.it
-[SHOPPING] Blad zapytania 'Salsa Cutthroat C frameset': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=Salsa+Cutthroat+C+frameset&api_key=***&gl=de
-[SHOPPING] Blad zapytania 'Salsa Cutthroat C frameset': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=Salsa+Cutthroat+C+frameset&api_key=***&gl=pl
-[SHOPPING] Blad zapytania 'Salsa Cutthroat C frameset': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=Salsa+Cutthroat+C+frameset&api_key=***&gl=it
-[AUTH] google: dostep odrzucony (HTTP 403) - wylaczam silnik do konca runu. Custom Search JSON API jest zamkniete dla nowych klientow (od 2026; starzy do 2027-01-01). Warstwa CSE dziala tylko na starych projektach Google Cloud - jesli nie masz takiego, usun sekrety GOOGLE_API_KEY/GOOGLE_CX.
-[AUTH] google: poczatek odpowiedzi: { "error": { "code": 403, "message": "This project does not have the access to Custom Search JSON API.", "errors": [ { "me
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Cutthroat Rahmenset': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Cutthroat+Rahmenset&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Cutthroat Rahmenset': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Cutthroat+Rahmenset&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Cutthroat Rahmenset': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Cutthroat+Rahmenset&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania '"FM2797" salsa': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%22FM2797%22+salsa&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania '"FM2797" salsa': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%22FM2797%22+salsa&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania '"FM2797" salsa': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%22FM2797%22+salsa&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serper] Blad zapytania '"FM2797" salsa': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"FM2797" salsa': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"FM2797" salsa': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"FM2797" salsa': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"FM2797" salsa': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"FM2797" salsa': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"FM2797" salsa': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Cutthroat telaio carbonio': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Cutthroat+telaio+carbonio&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Cutthroat telaio carbonio': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Cutthroat+telaio+carbonio&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Cutthroat telaio carbonio': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Cutthroat+telaio+carbonio&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Cutthroat cadre bikepacking': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Cutthroat+cadre+bikepacking&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Cutthroat cadre bikepacking': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Cutthroat+cadre+bikepacking&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Cutthroat cadre bikepacking': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Cutthroat+cadre+bikepacking&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Cutthroat cuadro': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Cutthroat+cuadro&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Cutthroat cuadro': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Cutthroat+cuadro&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Cutthroat cuadro': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Cutthroat+cuadro&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY] FM2797: +22 nowych URL-i (razem 178)
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Fargo Ti frameset': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Fargo+Ti+frameset&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Fargo Ti frameset': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Fargo+Ti+frameset&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Fargo Ti frameset': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Fargo+Ti+frameset&num=20&api_key=***&gl=it&google_domain=google.it
-[SHOPPING] Blad zapytania 'Salsa Fargo Ti frameset': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=Salsa+Fargo+Ti+frameset&api_key=***&gl=de
-[SHOPPING] Blad zapytania 'Salsa Fargo Ti frameset': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=Salsa+Fargo+Ti+frameset&api_key=***&gl=pl
-[SHOPPING] Blad zapytania 'Salsa Fargo Ti frameset': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=Salsa+Fargo+Ti+frameset&api_key=***&gl=it
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Fargo Ti Rahmenset': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Fargo+Ti+Rahmenset&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Fargo Ti Rahmenset': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Fargo+Ti+Rahmenset&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Fargo Ti Rahmenset': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Fargo+Ti+Rahmenset&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania '"FM0872" salsa': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%22FM0872%22+salsa&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania '"FM0872" salsa': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%22FM0872%22+salsa&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania '"FM0872" salsa': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%22FM0872%22+salsa&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serper] Blad zapytania '"FM0872" salsa': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"FM0872" salsa': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"FM0872" salsa': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"FM0872" salsa': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"FM0872" salsa': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"FM0872" salsa': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"FM0872" salsa': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Fargo Ti rama tytanowa': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Fargo+Ti+rama+tytanowa&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Fargo Ti rama tytanowa': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Fargo+Ti+rama+tytanowa&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Fargo Ti rama tytanowa': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Fargo+Ti+rama+tytanowa&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Fargo Ti telaio titanio': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Fargo+Ti+telaio+titanio&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Fargo Ti telaio titanio': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Fargo+Ti+telaio+titanio&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Fargo Ti telaio titanio': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Fargo+Ti+telaio+titanio&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Fargo Ti cadre titane': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Fargo+Ti+cadre+titane&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Fargo Ti cadre titane': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Fargo+Ti+cadre+titane&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Fargo Ti cadre titane': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Fargo+Ti+cadre+titane&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY] FARGO-TI: +16 nowych URL-i (razem 94)
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Fargo Steel frameset gunmetal grey': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Fargo+Steel+frameset+gunmetal+grey&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Fargo Steel frameset gunmetal grey': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Fargo+Steel+frameset+gunmetal+grey&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Fargo Steel frameset gunmetal grey': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Fargo+Steel+frameset+gunmetal+grey&num=20&api_key=***&gl=it&google_domain=google.it
-[SHOPPING] Blad zapytania 'Salsa Fargo Steel frameset gunmetal grey': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=Salsa+Fargo+Steel+frameset+gunmetal+grey&api_key=***&gl=de
-[SHOPPING] Blad zapytania 'Salsa Fargo Steel frameset gunmetal grey': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=Salsa+Fargo+Steel+frameset+gunmetal+grey&api_key=***&gl=pl
-[SHOPPING] Blad zapytania 'Salsa Fargo Steel frameset gunmetal grey': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=Salsa+Fargo+Steel+frameset+gunmetal+grey&api_key=***&gl=it
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Fargo Steel Rahmenset gunmetal': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Fargo+Steel+Rahmenset+gunmetal&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Fargo Steel Rahmenset gunmetal': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Fargo+Steel+Rahmenset+gunmetal&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Fargo Steel Rahmenset gunmetal': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Fargo+Steel+Rahmenset+gunmetal&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania '"FM0869" salsa': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%22FM0869%22+salsa&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania '"FM0869" salsa': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%22FM0869%22+salsa&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania '"FM0869" salsa': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%22FM0869%22+salsa&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serper] Blad zapytania '"FM0869" salsa': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"FM0869" salsa': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"FM0869" salsa': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"FM0869" salsa': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"FM0869" salsa': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"FM0869" salsa': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"FM0869" salsa': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Fargo rama stalowa gunmetal': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Fargo+rama+stalowa+gunmetal&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Fargo rama stalowa gunmetal': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Fargo+rama+stalowa+gunmetal&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Fargo rama stalowa gunmetal': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Fargo+rama+stalowa+gunmetal&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Fargo telaio acciaio': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Fargo+telaio+acciaio&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Fargo telaio acciaio': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Fargo+telaio+acciaio&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Fargo telaio acciaio': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Fargo+telaio+acciaio&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Fargo cadre acier': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Fargo+cadre+acier&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Fargo cadre acier': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Fargo+cadre+acier&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Salsa Fargo cadre acier': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Salsa+Fargo+cadre+acier&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY] FARGO-STEEL: +87 nowych URL-i (razem 87)
-[DISCOVERY][serpapi] Blad zapytania 'Lauf Carbonara fork': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lauf+Carbonara+fork&num=20&api_key=***
-[SHOPPING] Blad zapytania 'Lauf Carbonara fork': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=Lauf+Carbonara+fork&api_key=***
-[DISCOVERY][serpapi] Blad zapytania 'Lauf Carbonara Gabel fatbike': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lauf+Carbonara+Gabel+fatbike&num=20&api_key=***
-[DISCOVERY] LAUF-CARBONARA: +0 nowych URL-i (razem 16)
-[DISCOVERY][serpapi] Blad zapytania '"8718568168347"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%228718568168347%22&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania '"8718568168347"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%228718568168347%22&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania '"8718568168347"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%228718568168347%22&num=20&api_key=***&gl=it&google_domain=google.it
-[SHOPPING] Blad zapytania '"8718568168347"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=8718568168347&api_key=***&gl=de
-[SHOPPING] Blad zapytania '"8718568168347"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=8718568168347&api_key=***&gl=pl
-[SHOPPING] Blad zapytania '"8718568168347"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=8718568168347&api_key=***&gl=it
-[DISCOVERY][serper] Blad zapytania '"8718568168347"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"8718568168347"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"8718568168347"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"8718568168347"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"8718568168347"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"8718568168347"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"8718568168347"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX190-X Wide': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lake+MX190-X+Wide&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX190-X Wide': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lake+MX190-X+Wide&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX190-X Wide': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lake+MX190-X+Wide&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX190 Winterschuhe MTB': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lake+MX190+Winterschuhe+MTB&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX190 Winterschuhe MTB': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lake+MX190+Winterschuhe+MTB&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX190 Winterschuhe MTB': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lake+MX190+Winterschuhe+MTB&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX190 buty zimowe': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lake+MX190+buty+zimowe&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX190 buty zimowe': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lake+MX190+buty+zimowe&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX190 buty zimowe': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lake+MX190+buty+zimowe&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX190 scarpe invernali': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lake+MX190+scarpe+invernali&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX190 scarpe invernali': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lake+MX190+scarpe+invernali&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX190 scarpe invernali': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lake+MX190+scarpe+invernali&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX190 winterschoenen': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lake+MX190+winterschoenen&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX190 winterschoenen': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lake+MX190+winterschoenen&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX190 winterschoenen': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lake+MX190+winterschoenen&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY] Lake MX190-X Wide: +9 nowych URL-i (razem 149)
-[DISCOVERY][serpapi] Blad zapytania '"H350LDIXR32SA1859S"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%22H350LDIXR32SA1859S%22&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania '"H350LDIXR32SA1859S"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%22H350LDIXR32SA1859S%22&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania '"H350LDIXR32SA1859S"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%22H350LDIXR32SA1859S%22&num=20&api_key=***&gl=it&google_domain=google.it
-[SHOPPING] Blad zapytania '"H350LDIXR32SA1859S"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=H350LDIXR32SA1859S&api_key=***&gl=de
-[SHOPPING] Blad zapytania '"H350LDIXR32SA1859S"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=H350LDIXR32SA1859S&api_key=***&gl=pl
-[SHOPPING] Blad zapytania '"H350LDIXR32SA1859S"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=H350LDIXR32SA1859S&api_key=***&gl=it
-[DISCOVERY][serper] Blad zapytania '"H350LDIXR32SA1859S"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"H350LDIXR32SA1859S"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"H350LDIXR32SA1859S"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"H350LDIXR32SA1859S"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"H350LDIXR32SA1859S"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"H350LDIXR32SA1859S"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"H350LDIXR32SA1859S"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serpapi] Blad zapytania 'DT Swiss 350 Fatbike hub 15x150': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=DT+Swiss+350+Fatbike+hub+15x150&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'DT Swiss 350 Fatbike hub 15x150': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=DT+Swiss+350+Fatbike+hub+15x150&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'DT Swiss 350 Fatbike hub 15x150': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=DT+Swiss+350+Fatbike+hub+15x150&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'DT Swiss 350 Fatbike Nabe 15x150': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=DT+Swiss+350+Fatbike+Nabe+15x150&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'DT Swiss 350 Fatbike Nabe 15x150': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=DT+Swiss+350+Fatbike+Nabe+15x150&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'DT Swiss 350 Fatbike Nabe 15x150': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=DT+Swiss+350+Fatbike+Nabe+15x150&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'DT Swiss 350 fatbike piasta': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=DT+Swiss+350+fatbike+piasta&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'DT Swiss 350 fatbike piasta': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=DT+Swiss+350+fatbike+piasta&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'DT Swiss 350 fatbike piasta': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=DT+Swiss+350+fatbike+piasta&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'DT Swiss 350 mozzo fatbike': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=DT+Swiss+350+mozzo+fatbike&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'DT Swiss 350 mozzo fatbike': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=DT+Swiss+350+mozzo+fatbike&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'DT Swiss 350 mozzo fatbike': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=DT+Swiss+350+mozzo+fatbike&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY] DT Swiss Fatbike: +40 nowych URL-i (razem 219)
-[DISCOVERY][serpapi] Blad zapytania '"H350TCDBR32SA0465S"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%22H350TCDBR32SA0465S%22&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania '"H350TCDBR32SA0465S"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%22H350TCDBR32SA0465S%22&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania '"H350TCDBR32SA0465S"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%22H350TCDBR32SA0465S%22&num=20&api_key=***&gl=it&google_domain=google.it
-[SHOPPING] Blad zapytania '"H350TCDBR32SA0465S"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=H350TCDBR32SA0465S&api_key=***&gl=de
-[SHOPPING] Blad zapytania '"H350TCDBR32SA0465S"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=H350TCDBR32SA0465S&api_key=***&gl=pl
-[SHOPPING] Blad zapytania '"H350TCDBR32SA0465S"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=H350TCDBR32SA0465S&api_key=***&gl=it
-[DISCOVERY][serper] Blad zapytania '"H350TCDBR32SA0465S"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"H350TCDBR32SA0465S"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"H350TCDBR32SA0465S"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"H350TCDBR32SA0465S"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"H350TCDBR32SA0465S"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"H350TCDBR32SA0465S"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"H350TCDBR32SA0465S"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serpapi] Blad zapytania 'DT Swiss 350 hub 12x148 Sram XD': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=DT+Swiss+350+hub+12x148+Sram+XD&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'DT Swiss 350 hub 12x148 Sram XD': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=DT+Swiss+350+hub+12x148+Sram+XD&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'DT Swiss 350 hub 12x148 Sram XD': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=DT+Swiss+350+hub+12x148+Sram+XD&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'DT Swiss 350 Hinterradnabe 12x148': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=DT+Swiss+350+Hinterradnabe+12x148&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'DT Swiss 350 Hinterradnabe 12x148': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=DT+Swiss+350+Hinterradnabe+12x148&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'DT Swiss 350 Hinterradnabe 12x148': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=DT+Swiss+350+Hinterradnabe+12x148&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'DT SWISS 350 12x148 32 Sram XD': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=DT+SWISS+350+12x148+32+Sram+XD&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'DT SWISS 350 12x148 32 Sram XD': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=DT+SWISS+350+12x148+32+Sram+XD&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'DT SWISS 350 12x148 32 Sram XD': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=DT+SWISS+350+12x148+32+Sram+XD&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'DT Swiss 350 piasta 12x148': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=DT+Swiss+350+piasta+12x148&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'DT Swiss 350 piasta 12x148': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=DT+Swiss+350+piasta+12x148&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'DT Swiss 350 piasta 12x148': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=DT+Swiss+350+piasta+12x148&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'DT Swiss 350 mozzo 12x148': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=DT+Swiss+350+mozzo+12x148&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'DT Swiss 350 mozzo 12x148': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=DT+Swiss+350+mozzo+12x148&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'DT Swiss 350 mozzo 12x148': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=DT+Swiss+350+mozzo+12x148&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY] DT SWISS 350 12x148: +41 nowych URL-i (razem 316)
-[DISCOVERY][serpapi] Blad zapytania '"30355427076"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%2230355427076%22&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania '"30355427076"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%2230355427076%22&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania '"30355427076"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%2230355427076%22&num=20&api_key=***&gl=it&google_domain=google.it
-[SHOPPING] Blad zapytania '"30355427076"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=30355427076&api_key=***&gl=de
-[SHOPPING] Blad zapytania '"30355427076"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=30355427076&api_key=***&gl=pl
-[SHOPPING] Blad zapytania '"30355427076"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=30355427076&api_key=***&gl=it
-[DISCOVERY][serper] Blad zapytania '"30355427076"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"30355427076"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"30355427076"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"30355427076"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"30355427076"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"30355427076"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"30355427076"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey WCS Carbon ErgoMax handlebar': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+WCS+Carbon+ErgoMax+handlebar&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey WCS Carbon ErgoMax handlebar': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+WCS+Carbon+ErgoMax+handlebar&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey WCS Carbon ErgoMax handlebar': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+WCS+Carbon+ErgoMax+handlebar&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey WCS ErgoMax Carbon Lenker': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+WCS+ErgoMax+Carbon+Lenker&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey WCS ErgoMax Carbon Lenker': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+WCS+ErgoMax+Carbon+Lenker&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey WCS ErgoMax Carbon Lenker': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+WCS+ErgoMax+Carbon+Lenker&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey WCS Carbon ErgoMax 42cm': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+WCS+Carbon+ErgoMax+42cm&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey WCS Carbon ErgoMax 42cm': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+WCS+Carbon+ErgoMax+42cm&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey WCS Carbon ErgoMax 42cm': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+WCS+Carbon+ErgoMax+42cm&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey WCS ErgoMax carbon kierownica': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+WCS+ErgoMax+carbon+kierownica&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey WCS ErgoMax carbon kierownica': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+WCS+ErgoMax+carbon+kierownica&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey WCS ErgoMax carbon kierownica': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+WCS+ErgoMax+carbon+kierownica&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey WCS ErgoMax carbon manubrio': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+WCS+ErgoMax+carbon+manubrio&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey WCS ErgoMax carbon manubrio': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+WCS+ErgoMax+carbon+manubrio&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey WCS ErgoMax carbon manubrio': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+WCS+ErgoMax+carbon+manubrio&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey WCS ErgoMax carbone cintre': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+WCS+ErgoMax+carbone+cintre&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey WCS ErgoMax carbone cintre': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+WCS+ErgoMax+carbone+cintre&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey WCS ErgoMax carbone cintre': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+WCS+ErgoMax+carbone+cintre&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY] Ritchey WCS Carbon ErgoMax: +36 nowych URL-i (razem 190)
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey Superlogic ErgoMax handlebar': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+Superlogic+ErgoMax+handlebar&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey Superlogic ErgoMax handlebar': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+Superlogic+ErgoMax+handlebar&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey Superlogic ErgoMax handlebar': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+Superlogic+ErgoMax+handlebar&num=20&api_key=***&gl=it&google_domain=google.it
-[SHOPPING] Blad zapytania 'Ritchey Superlogic ErgoMax handlebar': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=Ritchey+Superlogic+ErgoMax+handlebar&api_key=***&gl=de
-[SHOPPING] Blad zapytania 'Ritchey Superlogic ErgoMax handlebar': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=Ritchey+Superlogic+ErgoMax+handlebar&api_key=***&gl=pl
-[SHOPPING] Blad zapytania 'Ritchey Superlogic ErgoMax handlebar': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=Ritchey+Superlogic+ErgoMax+handlebar&api_key=***&gl=it
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey Superlogic ErgoMax Lenker carbon': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+Superlogic+ErgoMax+Lenker+carbon&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey Superlogic ErgoMax Lenker carbon': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+Superlogic+ErgoMax+Lenker+carbon&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey Superlogic ErgoMax Lenker carbon': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+Superlogic+ErgoMax+Lenker+carbon&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey Superlogic ErgoMax 42cm': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+Superlogic+ErgoMax+42cm&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey Superlogic ErgoMax 42cm': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+Superlogic+ErgoMax+42cm&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey Superlogic ErgoMax 42cm': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+Superlogic+ErgoMax+42cm&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey Superlogic ErgoMax kierownica': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+Superlogic+ErgoMax+kierownica&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey Superlogic ErgoMax kierownica': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+Superlogic+ErgoMax+kierownica&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey Superlogic ErgoMax kierownica': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+Superlogic+ErgoMax+kierownica&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey Superlogic ErgoMax manubrio': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+Superlogic+ErgoMax+manubrio&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey Superlogic ErgoMax manubrio': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+Superlogic+ErgoMax+manubrio&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey Superlogic ErgoMax manubrio': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+Superlogic+ErgoMax+manubrio&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey Superlogic ErgoMax cintre carbone': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+Superlogic+ErgoMax+cintre+carbone&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey Superlogic ErgoMax cintre carbone': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+Superlogic+ErgoMax+cintre+carbone&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Ritchey Superlogic ErgoMax cintre carbone': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Ritchey+Superlogic+ErgoMax+cintre+carbone&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY] SUPERLOGIC-ERGOMAX: +133 nowych URL-i (razem 133)
-[DISCOVERY][serpapi] Blad zapytania 'Canyon S14 VCLS 2.0 CF seatpost': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Canyon+S14+VCLS+2.0+CF+seatpost&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Canyon S14 VCLS 2.0 CF seatpost': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Canyon+S14+VCLS+2.0+CF+seatpost&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Canyon S14 VCLS 2.0 CF seatpost': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Canyon+S14+VCLS+2.0+CF+seatpost&num=20&api_key=***&gl=it&google_domain=google.it
-[SHOPPING] Blad zapytania 'Canyon S14 VCLS 2.0 CF seatpost': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=Canyon+S14+VCLS+2.0+CF+seatpost&api_key=***&gl=de
-[SHOPPING] Blad zapytania 'Canyon S14 VCLS 2.0 CF seatpost': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=Canyon+S14+VCLS+2.0+CF+seatpost&api_key=***&gl=pl
-[SHOPPING] Blad zapytania 'Canyon S14 VCLS 2.0 CF seatpost': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=Canyon+S14+VCLS+2.0+CF+seatpost&api_key=***&gl=it
-[DISCOVERY][serpapi] Blad zapytania 'Canyon S14 VCLS Sattelstütze': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Canyon+S14+VCLS+Sattelst%C3%BCtze&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Canyon S14 VCLS Sattelstütze': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Canyon+S14+VCLS+Sattelst%C3%BCtze&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Canyon S14 VCLS Sattelstütze': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Canyon+S14+VCLS+Sattelst%C3%BCtze&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'Canyon S14 VCLS 2.0 27.2mm CF Seatpost': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Canyon+S14+VCLS+2.0+27.2mm+CF+Seatpost&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Canyon S14 VCLS 2.0 27.2mm CF Seatpost': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Canyon+S14+VCLS+2.0+27.2mm+CF+Seatpost&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Canyon S14 VCLS 2.0 27.2mm CF Seatpost': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Canyon+S14+VCLS+2.0+27.2mm+CF+Seatpost&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'Canyon S14 VCLS sztyca': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Canyon+S14+VCLS+sztyca&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Canyon S14 VCLS sztyca': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Canyon+S14+VCLS+sztyca&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Canyon S14 VCLS sztyca': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Canyon+S14+VCLS+sztyca&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY] Canyon S14 VCLS 2.0: +19 nowych URL-i (razem 113)
-[DISCOVERY][serpapi] Blad zapytania '"4251761517573"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%224251761517573%22&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania '"4251761517573"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%224251761517573%22&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania '"4251761517573"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%224251761517573%22&num=20&api_key=***&gl=it&google_domain=google.it
-[SHOPPING] Blad zapytania '"4251761517573"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=4251761517573&api_key=***&gl=de
-[SHOPPING] Blad zapytania '"4251761517573"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=4251761517573&api_key=***&gl=pl
-[SHOPPING] Blad zapytania '"4251761517573"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=4251761517573&api_key=***&gl=it
-[DISCOVERY][serper] Blad zapytania '"4251761517573"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"4251761517573"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"4251761517573"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"4251761517573"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"4251761517573"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"4251761517573"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"4251761517573"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serpapi] Blad zapytania 'SRAM GX Eagle Transmission T-Type Upgrade Kit': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=SRAM+GX+Eagle+Transmission+T-Type+Upgrade+Kit&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'SRAM GX Eagle Transmission T-Type Upgrade Kit': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=SRAM+GX+Eagle+Transmission+T-Type+Upgrade+Kit&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'SRAM GX Eagle Transmission T-Type Upgrade Kit': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=SRAM+GX+Eagle+Transmission+T-Type+Upgrade+Kit&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'SRAM GX T-Type Eagle AXS Upgrade Kit': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=SRAM+GX+T-Type+Eagle+AXS+Upgrade+Kit&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'SRAM GX T-Type Eagle AXS Upgrade Kit': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=SRAM+GX+T-Type+Eagle+AXS+Upgrade+Kit&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'SRAM GX T-Type Eagle AXS Upgrade Kit': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=SRAM+GX+T-Type+Eagle+AXS+Upgrade+Kit&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'SRAM GX Eagle Transmission zestaw': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=SRAM+GX+Eagle+Transmission+zestaw&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'SRAM GX Eagle Transmission zestaw': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=SRAM+GX+Eagle+Transmission+zestaw&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'SRAM GX Eagle Transmission zestaw': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=SRAM+GX+Eagle+Transmission+zestaw&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY] GX-T-KIT: +33 nowych URL-i (razem 272)
-[DISCOVERY][serpapi] Blad zapytania '"00.2518.054.010"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%2200.2518.054.010%22&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania '"00.2518.054.010"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%2200.2518.054.010%22&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania '"00.2518.054.010"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%2200.2518.054.010%22&num=20&api_key=***&gl=it&google_domain=google.it
-[SHOPPING] Blad zapytania '"00.2518.054.010"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=00.2518.054.010&api_key=***&gl=de
-[SHOPPING] Blad zapytania '"00.2518.054.010"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=00.2518.054.010&api_key=***&gl=pl
-[SHOPPING] Blad zapytania '"00.2518.054.010"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=00.2518.054.010&api_key=***&gl=it
-[DISCOVERY][serper] Blad zapytania '"00.2518.054.010"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"00.2518.054.010"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"00.2518.054.010"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"00.2518.054.010"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"00.2518.054.010"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"00.2518.054.010"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"00.2518.054.010"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serpapi] Blad zapytania 'SRAM GX Eagle Transmission Flattop 12-speed Chain': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=SRAM+GX+Eagle+Transmission+Flattop+12-speed+Chain&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'SRAM GX Eagle Transmission Flattop 12-speed Chain': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=SRAM+GX+Eagle+Transmission+Flattop+12-speed+Chain&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'SRAM GX Eagle Transmission Flattop 12-speed Chain': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=SRAM+GX+Eagle+Transmission+Flattop+12-speed+Chain&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'SRAM GX Eagle T-Type Kette Flattop': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=SRAM+GX+Eagle+T-Type+Kette+Flattop&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'SRAM GX Eagle T-Type Kette Flattop': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=SRAM+GX+Eagle+T-Type+Kette+Flattop&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'SRAM GX Eagle T-Type Kette Flattop': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=SRAM+GX+Eagle+T-Type+Kette+Flattop&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'SRAM Eagle Transmission Flattop łańcuch': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=SRAM+Eagle+Transmission+Flattop+%C5%82a%C5%84cuch&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'SRAM Eagle Transmission Flattop łańcuch': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=SRAM+Eagle+Transmission+Flattop+%C5%82a%C5%84cuch&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'SRAM Eagle Transmission Flattop łańcuch': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=SRAM+Eagle+Transmission+Flattop+%C5%82a%C5%84cuch&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'catena SRAM GX Eagle Transmission': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=catena+SRAM+GX+Eagle+Transmission&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'catena SRAM GX Eagle Transmission': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=catena+SRAM+GX+Eagle+Transmission&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'catena SRAM GX Eagle Transmission': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=catena+SRAM+GX+Eagle+Transmission&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY] GX-T-CHAIN: +31 nowych URL-i (razem 258)
-[DISCOVERY][serpapi] Blad zapytania '"840226078472"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%22840226078472%22&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania '"840226078472"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%22840226078472%22&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania '"840226078472"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%22840226078472%22&num=20&api_key=***&gl=it&google_domain=google.it
-[SHOPPING] Blad zapytania '"840226078472"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=840226078472&api_key=***&gl=de
-[SHOPPING] Blad zapytania '"840226078472"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=840226078472&api_key=***&gl=pl
-[SHOPPING] Blad zapytania '"840226078472"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=840226078472&api_key=***&gl=it
-[DISCOVERY][serper] Blad zapytania '"840226078472"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"840226078472"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"840226078472"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"840226078472"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"840226078472"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"840226078472"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"840226078472"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serpapi] Blad zapytania 'Cane Creek 40 IS41 IS52 tapered headset': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Cane+Creek+40+IS41+IS52+tapered+headset&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Cane Creek 40 IS41 IS52 tapered headset': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Cane+Creek+40+IS41+IS52+tapered+headset&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Cane Creek 40 IS41 IS52 tapered headset': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Cane+Creek+40+IS41+IS52+tapered+headset&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'Cane Creek 40 Steuersatz tapered': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Cane+Creek+40+Steuersatz+tapered&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Cane Creek 40 Steuersatz tapered': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Cane+Creek+40+Steuersatz+tapered&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Cane Creek 40 Steuersatz tapered': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Cane+Creek+40+Steuersatz+tapered&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'Cane Creek 40 stery IS41 IS52': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Cane+Creek+40+stery+IS41+IS52&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Cane Creek 40 stery IS41 IS52': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Cane+Creek+40+stery+IS41+IS52&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Cane Creek 40 stery IS41 IS52': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Cane+Creek+40+stery+IS41+IS52&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'Cane Creek 40 serie sterzo IS41': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Cane+Creek+40+serie+sterzo+IS41&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Cane Creek 40 serie sterzo IS41': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Cane+Creek+40+serie+sterzo+IS41&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Cane Creek 40 serie sterzo IS41': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Cane+Creek+40+serie+sterzo+IS41&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY] Cane Creek 40 IS41/IS52: +48 nowych URL-i (razem 276)
-[DISCOVERY][serpapi] Blad zapytania '"710845917929"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%22710845917929%22&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania '"710845917929"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%22710845917929%22&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania '"710845917929"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%22710845917929%22&num=20&api_key=***&gl=it&google_domain=google.it
-[SHOPPING] Blad zapytania '"710845917929"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=710845917929&api_key=***&gl=de
-[SHOPPING] Blad zapytania '"710845917929"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=710845917929&api_key=***&gl=pl
-[SHOPPING] Blad zapytania '"710845917929"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=710845917929&api_key=***&gl=it
-[DISCOVERY][serper] Blad zapytania '"710845917929"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"710845917929"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"710845917929"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"710845917929"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"710845917929"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"710845917929"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"710845917929"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serpapi] Blad zapytania 'RockShox SID SL Select 100mm 29 fork': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=RockShox+SID+SL+Select+100mm+29+fork&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'RockShox SID SL Select 100mm 29 fork': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=RockShox+SID+SL+Select+100mm+29+fork&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'RockShox SID SL Select 100mm 29 fork': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=RockShox+SID+SL+Select+100mm+29+fork&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'RockShox SID SL Select Federgabel 100mm': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=RockShox+SID+SL+Select+Federgabel+100mm&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'RockShox SID SL Select Federgabel 100mm': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=RockShox+SID+SL+Select+Federgabel+100mm&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'RockShox SID SL Select Federgabel 100mm': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=RockShox+SID+SL+Select+Federgabel+100mm&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'Amortyzator rowerowy ROCK SHOX SID SL Select E1 3P 100mm': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Amortyzator+rowerowy+ROCK+SHOX+SID+SL+Select+E1+3P+100mm&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Amortyzator rowerowy ROCK SHOX SID SL Select E1 3P 100mm': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Amortyzator+rowerowy+ROCK+SHOX+SID+SL+Select+E1+3P+100mm&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Amortyzator rowerowy ROCK SHOX SID SL Select E1 3P 100mm': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Amortyzator+rowerowy+ROCK+SHOX+SID+SL+Select+E1+3P+100mm&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'RockShox SID SL Select forcella 100mm': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=RockShox+SID+SL+Select+forcella+100mm&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'RockShox SID SL Select forcella 100mm': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=RockShox+SID+SL+Select+forcella+100mm&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'RockShox SID SL Select forcella 100mm': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=RockShox+SID+SL+Select+forcella+100mm&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'RockShox SID SL Select horquilla': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=RockShox+SID+SL+Select+horquilla&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'RockShox SID SL Select horquilla': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=RockShox+SID+SL+Select+horquilla&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'RockShox SID SL Select horquilla': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=RockShox+SID+SL+Select+horquilla&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY] ROCK SHOX SID: +33 nowych URL-i (razem 245)
-[DISCOVERY][serpapi] Blad zapytania '"8718568144778"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%228718568144778%22&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania '"8718568144778"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%228718568144778%22&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania '"8718568144778"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=%228718568144778%22&num=20&api_key=***&gl=it&google_domain=google.it
-[SHOPPING] Blad zapytania '"8718568144778"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=8718568144778&api_key=***&gl=de
-[SHOPPING] Blad zapytania '"8718568144778"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=8718568144778&api_key=***&gl=pl
-[SHOPPING] Blad zapytania '"8718568144778"': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google_shopping&q=8718568144778&api_key=***&gl=it
-[DISCOVERY][serper] Blad zapytania '"8718568144778"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"8718568144778"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"8718568144778"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"8718568144778"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"8718568144778"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"8718568144778"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serper] Blad zapytania '"8718568144778"': 400 Client Error: Bad Request for url: https://google.serper.dev/search
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX242 X-Wide MTB shoes': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lake+MX242+X-Wide+MTB+shoes&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX242 X-Wide MTB shoes': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lake+MX242+X-Wide+MTB+shoes&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX242 X-Wide MTB shoes': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lake+MX242+X-Wide+MTB+shoes&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX242 Wide MTB Schuhe': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lake+MX242+Wide+MTB+Schuhe&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX242 Wide MTB Schuhe': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lake+MX242+Wide+MTB+Schuhe&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX242 Wide MTB Schuhe': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lake+MX242+Wide+MTB+Schuhe&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX242 MTB x-wide 45': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lake+MX242+MTB+x-wide+45&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX242 MTB x-wide 45': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lake+MX242+MTB+x-wide+45&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX242 MTB x-wide 45': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lake+MX242+MTB+x-wide+45&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX242 wide buty MTB': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lake+MX242+wide+buty+MTB&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX242 wide buty MTB': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lake+MX242+wide+buty+MTB&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX242 wide buty MTB': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lake+MX242+wide+buty+MTB&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX242 scarpe MTB': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lake+MX242+scarpe+MTB&num=20&api_key=***&gl=de&google_domain=google.de
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX242 scarpe MTB': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lake+MX242+scarpe+MTB&num=20&api_key=***&gl=pl&google_domain=google.pl
-[DISCOVERY][serpapi] Blad zapytania 'Lake MX242 scarpe MTB': 429 Client Error: Too Many Requests for url: https://serpapi.com/search.json?engine=google&q=Lake+MX242+scarpe+MTB&num=20&api_key=***&gl=it&google_domain=google.it
-[DISCOVERY] Lake MX242: +15 nowych URL-i (razem 135)
+[DISCOVERY] Light FIRE - pomijam discovery, tylko monitoring znanych URL-i (limit SerpAPI nietkniety)
 [SERPAPI] Limit: pozostalo 0 z 250 (zuzyte w tym miesiacu: 250)
 [FX] Kursy NBP pobrane (33 walut)
 [MONITOR] FM2797: sprawdzam 179 URL-i (wariant: 56)
@@ -444,7 +64,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - stateofbike.it: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   - pedaldomain.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   - bikejamming.it: brak danych o cenie (typy na stronie: breadcrumblist, organization, webpage)
-  - bmxavenue.com: blad pobierania (ConnectionError)
+  - bmxavenue.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   + imfixies.fr: 2317.5 EUR = 10030.37 PLN [wariant 56 dopasowany]
   - justpedal.nl: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
   - wheelbillybikes.com: cena zbiorcza bez informacji o wariantach - pomijam (variant_strict)
@@ -754,7 +374,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - bike24.lu: pomijam (blokada potwierdzona w tym runie)
   - gravelbike.eu: brak wymaganych slow (gunmetal) - pomijam
   - alltricks.fr: brak wymaganych slow (gunmetal) - pomijam
-  - bmxavenue.com: blad pobierania (ConnectionError)
+  - bmxavenue.com: brak wymaganych slow (gunmetal) - pomijam
   - hirondellebikeshop.com: brak wymaganych slow (gunmetal) - pomijam
   - cicloslaferro.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - racefietsblog.nl: brak danych o cenie (typy na stronie: article, breadcrumblist, imageobject, person, webpage, website)
@@ -767,7 +387,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - g-tedproductions.blogspot.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - g-tedproductions.blogspot.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - biketour-global.de: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, organization, person, webpage, website)
-[MONITOR] LAUF-CARBONARA: sprawdzam 16 URL-i
+[MONITOR] LAUF-CARBONARA: sprawdzam 19 URL-i
   + laufcycles.com: 1190.0 USD = 4503.67 PLN
   - ridefatbikes.ca: brak danych o cenie (typy na stronie: localbusiness, organization, website)
   - lunacycle.com: niedostepny (outofstock)
@@ -782,9 +402,18 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   ~ laufcycles.com: brak ceny, ale znalazlem 2 link(i) produktowe - sprawdzam
   - incycle.com: niedostepny (outofstock)
   + laufcycles.com: 1190.0 USD = 4503.67 PLN
+  - bikestoredirect.com: HTTP 403 (przegladarka tez nie przeszla)
+  + fullsusbikes.com: 990.0 USD = 3746.75 PLN
+  - laufcycles.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - traversbikes.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - laufcycles.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - laufcycles.com: brak danych o cenie (typy na stronie: brak JSON-LD)
+[MONITOR] IBS-V1X: sprawdzam 2 URL-i
+  + cyclingupgrades.com: 387.0 USD = 1464.64 PLN
+  ~ infinitybikeseat.com: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
+  - infinitybikeseat.com: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, organization, webpage, website)
+  - infinitybikeseat.com: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, organization, webpage, website)
+  - infinitybikeseat.com: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, organization, webpage, website)
 [MONITOR] Lake MX190-X Wide: sprawdzam 149 URL-i (wariant: 45)
   - bike24.at: HTTP 403 (przegladarka tez nie przeszla)
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
@@ -800,8 +429,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - hoopsvelo.com: brak danych o cenie (typy na stronie: organization, store)
   ~ biwakschachtel-tuebingen.de: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
   - bike-discount.de: niedostepny (outofstock)
-  + deporvillage.pl: blokada ominieta headless Chromium
-  - deporvillage.pl: niedostepny (outofstock)
+  - deporvillage.pl: HTTP 403 (przegladarka tez nie przeszla)
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
   - bike-discount.de: niedostepny (outofstock)
   - backcountry.com: HTTP 202
@@ -810,7 +438,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - lakecycling.com: brak danych o cenie (typy na stronie: collectionpage, faqpage)
   - nl.lakecycling.com: brak danych o cenie (typy na stronie: collectionpage, faqpage)
   - sport-bittl.com: brak danych o cenie (typy na stronie: organization)
-  + de.lakecycling.com: 199.0 EUR = 861.29 PLN [wariant 45 dopasowany] [EAN OK]
+  - de.lakecycling.com: HTTP 503 (przegladarka tez nie przeszla)
   + nl.lakecycling.com: 199.0 EUR = 861.29 PLN [wariant 45 dopasowany] [EAN OK]
   ~ lakecycling.com: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
   + nl.lakecycling.com: 199.0 EUR = 861.29 PLN [wariant 45 dopasowany] [EAN OK]
@@ -850,7 +478,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - beta.walmart.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - walmart.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - lowes.com: pomijam (blokada potwierdzona w tym runie)
-  - de.lakecycling.com: brak danych o cenie (typy na stronie: collectionpage, faqpage)
+  - de.lakecycling.com: pomijam (blokada potwierdzona w tym runie)
   + varuste.net: 180.33 EUR = 780.49 PLN [wariant 45 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
   + kerda.cz: 4490.0 CZK = 801.02 PLN [wariant 45 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
   + varuste.net: 180.33 EUR = 780.49 PLN [wariant 45 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
@@ -863,8 +491,8 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + cyclexperience.nl: blokada ominieta headless Chromium
   + cyclexperience.nl: 199.0 EUR = 861.29 PLN [wariant 45 dopasowany] [EAN niepotwierdzony]
   + bikeandtravel.nl: 199.0 EUR = 861.29 PLN [wariant 45 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
-  + bikeshoe4u.com: 193.0 EUR = 835.32 PLN [wariant 45 dopasowany] [EAN niepotwierdzony]
-  - de.lakecycling.com: brak danych o cenie (typy na stronie: collectionpage, faqpage)
+  + bikeshoe4u.com: 192.0 EUR = 831.0 PLN [wariant 45 dopasowany] [EAN niepotwierdzony]
+  - de.lakecycling.com: pomijam (blokada potwierdzona w tym runie)
   + bike-discount.de: 139.3 EUR = 602.9 PLN [wariant 45 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
   - bike-x.de: brak danych o cenie (typy na stronie: article, breadcrumblist)
   - bike-magazin.de: brak danych o cenie (typy na stronie: article, breadcrumblist, imageobject, organization, webpage, website)
@@ -901,7 +529,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - poshmark.com: niedostepny (outofstock)
   - lakecycling.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   + sport-bittl.com: 165.0 EUR = 714.14 PLN [wariant 45 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
-  - de.lakecycling.com: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - de.lakecycling.com: pomijam (blokada potwierdzona w tym runie)
   - nl.lakecycling.com: brak danych o cenie (typy na stronie: collectionpage, faqpage)
   + cyclexperience.nl: blokada ominieta headless Chromium
   - cyclexperience.nl: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -914,12 +542,10 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - d-cycling.nl: brak danych o cenie (typy na stronie: breadcrumblist, organization)
   - nl.lakecycling.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   + johnknoops.nl: 199.0 EUR = 861.29 PLN [wariant 45 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
-  + de.lakecycling.com: 199.0 EUR = 861.29 PLN [wariant 45 dopasowany] [EAN OK]
-  + de.lakecycling.com: 199.0 EUR = 861.29 PLN [wariant 45 dopasowany] [EAN OK]
-  + microcenter.com: blokada ominieta headless Chromium
-  - microcenter.com: waluta USD poza dozwolonym regionem - pomijam
-  + dstewart.com: blokada ominieta headless Chromium
-  - dstewart.com: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - de.lakecycling.com: pomijam (blokada potwierdzona w tym runie)
+  - de.lakecycling.com: pomijam (blokada potwierdzona w tym runie)
+  - microcenter.com: HTTP 403 (przegladarka tez nie przeszla)
+  - dstewart.com: HTTP 403 (przegladarka tez nie przeszla)
   - ohioknifesales.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - samsclub.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - lowes.com: pomijam (blokada potwierdzona w tym runie)
@@ -933,7 +559,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + koloshop24.de: 196.99 EUR = 852.59 PLN [wariant 45 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
   - hollandbikeshop.com: brak danych o cenie (typy na stronie: breadcrumblist)
   + varuste.net: 180.33 EUR = 780.49 PLN [wariant 45 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
-  - de.lakecycling.com: brak danych o cenie (typy na stronie: collectionpage, faqpage)
+  - de.lakecycling.com: pomijam (blokada potwierdzona w tym runie)
   + cyclexperience.nl: blokada ominieta headless Chromium
   + cyclexperience.nl: 199.0 EUR = 861.29 PLN [wariant 45 dopasowany] [EAN niepotwierdzony]
   - biwakschachtel-tuebingen.de: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -978,7 +604,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   ~ dt4you.com: brak ceny, ale znalazlem 2 link(i) produktowe - sprawdzam
   - dt-automatyzacja.pl: brak danych o cenie (typy na stronie: breadcrumblist, organization, webpage, website)
   - diki.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - stat.gov.pl: blad pobierania (ReadTimeout)
+  - stat.gov.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - podatki.gov.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - bikeparts.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - stealthtahoe.com: waluta USD poza dozwolonym regionem - pomijam
@@ -998,12 +624,12 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - walmart.com: brak danych o cenie (typy na stronie: webpage)
   - thebikesmiths.com: waluta USD poza dozwolonym regionem - pomijam
   - prowheelbuilder.com: HTTP 403 (przegladarka tez nie przeszla)
-  - speedgearbike.com: blad pobierania (ConnectionError)
+  - speedgearbike.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - theproscloset.com: brak danych o cenie (typy na stronie: bikestore, breadcrumblist, webpage)
   - wheelbuilder.com: waluta USD poza dozwolonym regionem - pomijam
   - fat-bike.de: blad pobierania (SSLError)
   - icancycling.com: waluta USD poza dozwolonym regionem - pomijam
-  - olympiateatern.se: blad pobierania (ConnectionError)
+  - olympiateatern.se: HTTP 404
   - kstoerz.com: HTTP 403 (przegladarka tez nie przeszla)
   + bike-discount.de: 71.99 EUR = 311.58 PLN [EAN OK]
   - velodrop.com: brak danych o cenie (typy na stronie: webpage, website)
@@ -1065,8 +691,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + bikestacja.pl: 599.0 PLN = 599.0 PLN [EAN niepotwierdzony]
   + centrumrowerowe.pl: 799.99 PLN = 799.99 PLN [EAN niepotwierdzony]
   + bike-discount.de: 179.99 EUR = 779.01 PLN [EAN niepotwierdzony]
-  + deporvillage.it: blokada ominieta headless Chromium
-  - deporvillage.it: niedostepny (outofstock)
+  - deporvillage.it: HTTP 403 (przegladarka tez nie przeszla)
   - community.mtb-mag.com: HTTP 403 (przegladarka tez nie przeszla)
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
   + ebikelab.it: 191.92 EUR = 830.65 PLN [EAN niepotwierdzony]
@@ -1085,7 +710,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - treefortbikes.com: niedostepny (discontinued)
   + bike-discount.de: 179.99 EUR = 779.01 PLN [EAN niepotwierdzony]
   - electricbike-blog.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - thebicyclestation.com: HTTP 503 (przegladarka tez nie przeszla)
+  - thebicyclestation.com: waluta USD poza dozwolonym regionem - pomijam
   - tiktok.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
   - bdc-mag.com: HTTP 403 (przegladarka tez nie przeszla)
@@ -1100,7 +725,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - 4actionsport.it: brak danych o cenie (typy na stronie: article, breadcrumblist, imageobject, organization, person, webpage, website)
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
   - las4cimas.com: HTTP 404
-  - speedgearbike.com: blad pobierania (ConnectionError)
+  - speedgearbike.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - northwestbicycle.com: waluta USD poza dozwolonym regionem - pomijam
   - modernbike.com: waluta USD poza dozwolonym regionem - pomijam
   + wheelproject.com: 92.5 EUR = 400.35 PLN [EAN OK]
@@ -1142,7 +767,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - roweroweporady.pl: brak danych o cenie (typy na stronie: breadcrumblist, discussionforumposting, organization, website)
   - forumrowerowe.org: brak danych o cenie (typy na stronie: breadcrumblist, discussionforumposting, organization, website)
   - szosa.org: brak danych o cenie (typy na stronie: brak JSON-LD)
-  + velotracker.pl: 844.99 PLN = 844.99 PLN [EAN niepotwierdzony]
+  + velotracker.pl: 846.49 PLN = 846.49 PLN [EAN niepotwierdzony]
   + koloshop.pl: 1206.49 PLN = 1206.49 PLN [EAN niepotwierdzony]
   - centrumrowerowe.pl: brak danych o cenie (typy na stronie: breadcrumblist, itemlist, webpage)
   - centrumrowerowe.pl: brak danych o cenie (typy na stronie: breadcrumblist, itemlist, webpage)
@@ -1176,7 +801,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   ~ ridewill.com: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
   - velosiped.com: pomijam (blokada potwierdzona w tym runie)
   - universalcycles.com: waluta USD poza dozwolonym regionem - pomijam
-  ~ formicki-bike.pl: brak ceny, ale znalazlem 2 link(i) produktowe - sprawdzam
+  ~ formicki-bike.pl: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
   - sportano.pl: niedostepny (outofstock)
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
   - worldwidecyclery.com: waluta USD poza dozwolonym regionem - pomijam
@@ -1186,13 +811,12 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + mtbiker.de: 249.0 EUR = 1077.7 PLN [EAN niepotwierdzony]
   + fahrrad24.de: blokada ominieta headless Chromium
   + fahrrad24.de: 196.13 EUR = 848.87 PLN [EAN niepotwierdzony]
-  ~ whizz-wheels.de: brak ceny, ale znalazlem 2 link(i) produktowe - sprawdzam
+  ~ whizz-wheels.de: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
   + mtbiker.de: 209.0 EUR = 904.57 PLN [EAN niepotwierdzony]
   - tnc-hamburg.com: niedostepny (backorder)
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
   + cingolanibikeshop.com: 204.9 EUR = 886.83 PLN [EAN niepotwierdzony]
-  + deporvillage.it: blokada ominieta headless Chromium
-  + deporvillage.it: 212.95 EUR = 921.67 PLN [EAN niepotwierdzony]
+  - deporvillage.it: pomijam (blokada potwierdzona w tym runie)
   + mtbiker.it: 249.0 EUR = 1077.7 PLN [EAN niepotwierdzony]
   - bikedirection.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - bicidastrada.it: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, newsarticle, organization, person, sportsclub, webpage, website)
@@ -1212,8 +836,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + whizz-wheels.de: 239.9 EUR = 1038.31 PLN [EAN niepotwierdzony]
   + whizz-wheels.de: 239.9 EUR = 1038.31 PLN [EAN niepotwierdzony]
   + bike-components.de: 119.99 EUR = 519.33 PLN [EAN OK]
-  + deporvillage.de: blokada ominieta headless Chromium
-  - deporvillage.de: niedostepny (outofstock)
+  - deporvillage.de: HTTP 403 (przegladarka tez nie przeszla)
   + mtbiker.pl: blokada ominieta headless Chromium
   - mtbiker.pl: brak danych o cenie (typy na stronie: breadcrumblist, collectionpage)
   - bike24.pl: pomijam (blokada potwierdzona w tym runie)
@@ -1268,8 +891,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - axit.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
   - deporvillage.cz: HTTP 403 (przegladarka tez nie przeszla)
   - pepebike.cz: brak danych o cenie (typy na stronie: organization)
-  + deporvillage.net: blokada ominieta headless Chromium
-  + deporvillage.net: 212.95 EUR = 921.67 PLN [EAN niepotwierdzony]
+  - deporvillage.net: HTTP 403 (przegladarka tez nie przeszla)
   - comparer.be: brak danych o cenie (typy na stronie: breadcrumblist, itemlist, webpage, website)
   + bike-components.de: 172.99 EUR = 748.72 PLN [EAN niepotwierdzony]
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
@@ -1315,8 +937,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + velondo.fr: 197.78 EUR = 856.01 PLN [EAN niepotwierdzony]
   + velondo.fr: blokada ominieta headless Chromium
   - velondo.fr: niedostepny (outofstock)
-  + deporvillage.de: blokada ominieta headless Chromium
-  - deporvillage.de: niedostepny (outofstock)
+  - deporvillage.de: pomijam (blokada potwierdzona w tym runie)
   - velofactory.ch: pomijam (blokada potwierdzona w tym runie)
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   - bike24.nl: pomijam (blokada potwierdzona w tym runie)
@@ -1352,11 +973,9 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + legendwheels.com: 69.99 EUR = 302.92 PLN [EAN niepotwierdzony]
   + thebikevillage.com: blokada ominieta headless Chromium
   - thebikevillage.com: brak danych o cenie (typy na stronie: breadcrumblist, organization, webpage)
-  + deporvillage.com: blokada ominieta headless Chromium
-  + deporvillage.com: 212.95 EUR = 921.67 PLN [EAN niepotwierdzony]
+  - deporvillage.com: HTTP 403 (przegladarka tez nie przeszla)
   - idealo.es: HTTP 503 (przegladarka tez nie przeszla)
-  + deporvillage.com: blokada ominieta headless Chromium
-  - deporvillage.com: niedostepny (outofstock)
+  - deporvillage.com: pomijam (blokada potwierdzona w tym runie)
   + velondo.es: blokada ominieta headless Chromium
   + velondo.es: 199.43 EUR = 863.15 PLN [EAN niepotwierdzony]
   - ltmracing.com: pomijam (blokada potwierdzona w tym runie)
@@ -1372,15 +991,14 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - thelostco.com: waluta USD poza dozwolonym regionem - pomijam
   - forumrowerowe.org: brak danych o cenie (typy na stronie: breadcrumblist, discussionforumposting, organization, website)
   + velotracker.pl: 839.0 PLN = 839.0 PLN [EAN niepotwierdzony]
-  + olx.pl: 199.0 PLN = 199.0 PLN [EAN niepotwierdzony]
+  + olx.pl: 90.0 PLN = 90.0 PLN [EAN niepotwierdzony]
   - sklep.baribalbike.pl: brak danych o cenie (typy na stronie: breadcrumblist, onlinestore)
   + centrumrowerowe.pl: 799.99 PLN = 799.99 PLN [EAN niepotwierdzony]
   - mrozbike.pl: pomijam (blokada potwierdzona w tym runie)
   - lordgunbicycles.com: HTTP 403 (przegladarka tez nie przeszla)
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
   + mtbiker.it: 199.0 EUR = 861.29 PLN [EAN niepotwierdzony]
-  + deporvillage.it: blokada ominieta headless Chromium
-  - deporvillage.it: niedostepny (outofstock)
+  - deporvillage.it: pomijam (blokada potwierdzona w tym runie)
   + ebikelab.it: 191.92 EUR = 830.65 PLN [EAN niepotwierdzony]
   + clcbike.com: 222.25 EUR = 961.92 PLN [EAN niepotwierdzony]
   - axit.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -1395,8 +1013,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - allegrolokalnie.pl: brak danych o cenie (typy na stronie: itemlist, website)
   + centrumrowerowe.pl: 799.99 PLN = 799.99 PLN [EAN niepotwierdzony]
   - forumrowerowe.org: brak danych o cenie (typy na stronie: breadcrumblist, discussionforumposting, organization, website)
-  + deporvillage.pl: blokada ominieta headless Chromium
-  + deporvillage.pl: 887.29 PLN = 887.29 PLN [EAN niepotwierdzony]
+  - deporvillage.pl: pomijam (blokada potwierdzona w tym runie)
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
   - reinwald-gaertnerei.de: HTTP 404
   - mtbcult.it: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, newsarticle, organization, person, webpage, website)
@@ -1417,7 +1034,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - weareonecomposites.com: brak danych o cenie (typy na stronie: collectionpage)
   + whizz-wheels.de: 20.0 EUR = 86.56 PLN [EAN niepotwierdzony]
   - prowheelbuilder.com: pomijam (blokada potwierdzona w tym runie)
-  - bikester.se: HTTP 503 (przegladarka tez nie przeszla)
+  - bikester.se: niedostepny (outofstock)
   - bikesportadventure.com: niedostepny (outofstock)
   - bike-mailorder.com: niedostepny (outofstock)
   + mtbiker.cz: 5799.0 CZK = 1034.54 PLN [EAN niepotwierdzony]
@@ -1456,8 +1073,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + olx.pl: 110.0 PLN = 110.0 PLN [EAN niepotwierdzony]
   + mtbiker.it: 199.0 EUR = 861.29 PLN [EAN niepotwierdzony]
   - the-witcher.cz: HTTP 404
-  + deporvillage.it: blokada ominieta headless Chromium
-  + deporvillage.it: 205.95 EUR = 891.37 PLN [EAN niepotwierdzony]
+  - deporvillage.it: pomijam (blokada potwierdzona w tym runie)
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
   + endubikes.com: 72.3 EUR = 312.92 PLN [EAN niepotwierdzony]
   + bikeshop.es: 203.9 EUR = 882.5 PLN [EAN niepotwierdzony]
@@ -1476,8 +1092,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + bikestacja.pl: 213.26 EUR = 923.01 PLN [EAN niepotwierdzony]
   + foxcomp.fi: 289.0 EUR = 1250.82 PLN [EAN niepotwierdzony]
   - marcovecchiobikes.com: waluta ARS poza dozwolonym regionem - pomijam
-  + deporvillage.de: blokada ominieta headless Chromium
-  + deporvillage.de: 216.95 EUR = 938.98 PLN [EAN niepotwierdzony]
+  - deporvillage.de: pomijam (blokada potwierdzona w tym runie)
   - thebikesmiths.com: waluta USD poza dozwolonym regionem - pomijam
   - velosiped.com: pomijam (blokada potwierdzona w tym runie)
   - formicki-bike.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -1498,7 +1113,6 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + velondo.es: 199.43 EUR = 863.15 PLN [EAN niepotwierdzony]
   - commencal.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   + 9thwave-cycling.com: 65.0 EUR = 281.33 PLN [EAN niepotwierdzony]
-  + bike-mailorder.com: blokada ominieta headless Chromium
   - bike-mailorder.com: niedostepny (outofstock)
   - modernbike.com: waluta USD poza dozwolonym regionem - pomijam
   - thebikesmiths.com: waluta USD poza dozwolonym regionem - pomijam
@@ -1508,8 +1122,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + mtbiker.shop: 209.0 EUR = 904.57 PLN [EAN niepotwierdzony]
   - rowerowelove.shop: brak danych o cenie (typy na stronie: brak JSON-LD)
   - mojekolo.cz: niedostepny (backorder)
-  + deporvillage.com: blokada ominieta headless Chromium
-  + deporvillage.com: 205.95 EUR = 891.37 PLN [EAN niepotwierdzony]
+  - deporvillage.com: pomijam (blokada potwierdzona w tym runie)
   - bike24.pl: pomijam (blokada potwierdzona w tym runie)
   + olx.pl: 199.0 PLN = 199.0 PLN [EAN niepotwierdzony]
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
@@ -1521,8 +1134,8 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - ridewill.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - formicki-bike.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - formicki-bike.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - formicki-bike.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - ridewill.it: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - whizz-wheels.de: niedostepny (outofstock)
   - whizz-wheels.de: niedostepny (outofstock)
 [MONITOR] Ritchey WCS Carbon ErgoMax: sprawdzam 190 URL-i (wariant: 42)
   - performancebike.com: brak wymaganych slow (carbon) - pomijam
@@ -1546,8 +1159,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - bike-components.de: brak wymaganych slow (carbon) - pomijam
   - ritcheylogic.com: brak wymaganych slow (carbon, wcs) - pomijam
   - bike24.pl: pomijam (blokada potwierdzona w tym runie)
-  + deporvillage.pl: blokada ominieta headless Chromium
-  - deporvillage.pl: brak wymaganych slow (carbon) - pomijam
+  - deporvillage.pl: pomijam (blokada potwierdzona w tym runie)
   - formicki-bike.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - velo-store.pl: brak danych o cenie (typy na stronie: product)
   - centrumrowerowe.pl: brak wymaganych slow (carbon) - pomijam
@@ -1557,18 +1169,15 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - eventbike.it: brak danych o cenie (typy na stronie: article, breadcrumblist, imageobject, organization, person, webpage, website)
   - ridewill.it: brak danych o cenie (typy na stronie: brak JSON-LD)
   - troianocicli.it: brak danych o cenie (typy na stronie: brak JSON-LD)
-  + deporvillage.it: blokada ominieta headless Chromium
-  - deporvillage.it: brak wymaganych slow (carbon, wcs) - pomijam
+  - deporvillage.it: pomijam (blokada potwierdzona w tym runie)
   - bike24.pl: pomijam (blokada potwierdzona w tym runie)
   - sportisgood.pl: brak wymaganych slow (carbon) - pomijam
   - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
-  + deporvillage.pl: blokada ominieta headless Chromium
-  - deporvillage.pl: brak wymaganych slow (carbon) - pomijam
+  - deporvillage.pl: pomijam (blokada potwierdzona w tym runie)
   - advntr.cc: brak wymaganych slow (carbon) - pomijam
   - gravelbikeshop.com: waluta USD poza dozwolonym regionem - pomijam
   - formicki-bike.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
-  + deporvillage.it: blokada ominieta headless Chromium
-  - deporvillage.it: brak wymaganych slow (carbon) - pomijam
+  - deporvillage.it: pomijam (blokada potwierdzona w tym runie)
   - eventbike.it: brak danych o cenie (typy na stronie: article, breadcrumblist, imageobject, organization, person, webpage, website)
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
   - universalcycles.com: brak wymaganych slow (carbon) - pomijam
@@ -1581,7 +1190,8 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - bikeman.com: niedostepny (outofstock)
   - n1bikes.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - dynamitebikelab.com: brak danych o cenie (typy na stronie: organization, website)
-  - rei.com: pomijam (blokada potwierdzona w tym runie)
+  ! przegladarka: blad (Error)
+  - rei.com: HTTP 403 (przegladarka tez nie przeszla)
   - ridebicycles.com: brak wymaganych slow (carbon) - pomijam
   - probikesupply.com: brak wymaganych slow (carbon) - pomijam
   - treefortbikes.com: brak wymaganych slow (carbon) - pomijam
@@ -1622,10 +1232,8 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - bike24.fr: pomijam (blokada potwierdzona w tym runie)
   - bike24.es: pomijam (blokada potwierdzona w tym runie)
   - idealo.es: pomijam (blokada potwierdzona w tym runie)
-  + carrefour.es: blokada ominieta headless Chromium
-  - carrefour.es: 481.67 PLN poza widelkami [600.0..-] - pomijam
-  + deporvillage.com: blokada ominieta headless Chromium
-  - deporvillage.com: niedostepny (outofstock)
+  - carrefour.es: HTTP 403 (przegladarka tez nie przeszla)
+  - deporvillage.com: pomijam (blokada potwierdzona w tym runie)
   - kylesbikeshop.net: waluta USD poza dozwolonym regionem - pomijam
   - mariettaadventurecompany.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - downtownbicycles.com: waluta USD poza dozwolonym regionem - pomijam
@@ -1653,8 +1261,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - mammothbikes.com: brak wymaganych slow (wcs) - pomijam
   - mojekolo.cz: niedostepny (discontinued)
   - deporvillage.net: pomijam (blokada potwierdzona w tym runie)
-  + deporvillage.it: blokada ominieta headless Chromium
-  - deporvillage.it: niedostepny (outofstock)
+  - deporvillage.it: pomijam (blokada potwierdzona w tym runie)
   - bike-discount.de: brak wymaganych slow (carbon) - pomijam
   - pianowithjonny.com: HTTP 404
   - rat-bikes.eu: pomijam (blokada potwierdzona w tym runie)
@@ -1674,20 +1281,17 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - alltricks.fr: brak wymaganych slow (carbon) - pomijam
   - macraesbluebook.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - rosebikes.es: brak wymaganych slow (carbon) - pomijam
-  + deporvillage.net: blokada ominieta headless Chromium
-  - deporvillage.net: brak wymaganych slow (carbon) - pomijam
+  - deporvillage.net: pomijam (blokada potwierdzona w tym runie)
   - velofactory.ch: pomijam (blokada potwierdzona w tym runie)
-  + deporvillage.fr: blokada ominieta headless Chromium
-  - deporvillage.fr: brak wymaganych slow (carbon) - pomijam
+  - deporvillage.fr: HTTP 403 (przegladarka tez nie przeszla)
   + mtbiker.pl: blokada ominieta headless Chromium
   - mtbiker.pl: brak wymaganych slow (carbon) - pomijam
   - velodrome-cycling.com: HTTP 403 (przegladarka tez nie przeszla)
   - forumsport.com: brak wymaganych slow (carbon) - pomijam
-  - agriper.nl: blad pobierania (ConnectionError)
+  - agriper.nl: HTTP 404
   - cinevittoria.it: HTTP 404
   - trenerterapeut.cz: HTTP 404
-  + deporvillage.fr: blokada ominieta headless Chromium
-  - deporvillage.fr: brak wymaganych slow (carbon, wcs) - pomijam
+  - deporvillage.fr: pomijam (blokada potwierdzona w tym runie)
   - gpsportsebikes.com: waluta USD poza dozwolonym regionem - pomijam
   - bike-discount.de: brak wymaganych slow (carbon) - pomijam
   - redrockbicycle.com: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -1701,8 +1305,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - hairpinsnothairshorts.com: brak danych o cenie (typy na stronie: article, website)
   - bike-forum.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
   - velofactory.ch: pomijam (blokada potwierdzona w tym runie)
-  + deporvillage.com: blokada ominieta headless Chromium
-  - deporvillage.com: brak wymaganych slow (carbon) - pomijam
+  - deporvillage.com: pomijam (blokada potwierdzona w tym runie)
   - mantel.com: brak wymaganych slow (carbon, wcs) - pomijam
   - attitudesports.com: waluta USD poza dozwolonym regionem - pomijam
   - bike24.at: pomijam (blokada potwierdzona w tym runie)
@@ -1754,9 +1357,8 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - ritcheylogic.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - 365cycles.com: waluta USD poza dozwolonym regionem - pomijam
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
-  + starbike.com: 216.53 CHF = 1013.92 PLN [wariant 42 NIEZWERYFIKOWANY - cena zbiorcza]
-  + deporvillage.de: blokada ominieta headless Chromium
-  - deporvillage.de: brak wymaganych slow (superlogic) - pomijam
+  + starbike.com: 2619.92 NOK = 1014.96 PLN [wariant 42 NIEZWERYFIKOWANY - cena zbiorcza]
+  - deporvillage.de: pomijam (blokada potwierdzona w tym runie)
   + mtbiker.at: 359.0 EUR = 1553.79 PLN [wariant 42 dopasowany]
   - bike24.pl: pomijam (blokada potwierdzona w tym runie)
   ~ formicki-bike.pl: brak ceny, ale znalazlem 2 link(i) produktowe - sprawdzam
@@ -1793,8 +1395,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + koloshop.pl: 1467.99 PLN = 1467.99 PLN [wariant 42 dopasowany]
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
   - gambacicli.com: brak wymaganych slow (superlogic) - pomijam
-  + deporvillage.it: blokada ominieta headless Chromium
-  - deporvillage.it: brak wymaganych slow (superlogic) - pomijam
+  - deporvillage.it: pomijam (blokada potwierdzona w tym runie)
   + bikejamming.it: 259.39 EUR = 1122.67 PLN [wariant 42 dopasowany]
   + zookee.cz: 8490.0 CZK = 1514.62 PLN [wariant 42 dopasowany]
   - heureka.cz: pomijam (blokada potwierdzona w tym runie)
@@ -1813,15 +1414,14 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - ottawabikeandtrail.com: waluta USD poza dozwolonym regionem - pomijam
   + bikeporn.cc: 350.1 EUR = 1515.27 PLN [wariant 42 dopasowany]
   - ratscycles.com: waluta USD poza dozwolonym regionem - pomijam
-  - benscycle.com: waluta USD poza dozwolonym regionem - pomijam
+  - benscycle.com: niedostepny (outofstock)
   - cahabacycles.com: waluta USD poza dozwolonym regionem - pomijam
   - excelsports.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - 365cycles.com: waluta USD poza dozwolonym regionem - pomijam
+  - 365cycles.com: niedostepny (outofstock)
   - rei.com: pomijam (blokada potwierdzona w tym runie)
   - advntr.cc: brak wymaganych slow (superlogic) - pomijam
   - formicki-bike.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
-  + deporvillage.pl: blokada ominieta headless Chromium
-  - deporvillage.pl: brak wymaganych slow (superlogic) - pomijam
+  - deporvillage.pl: pomijam (blokada potwierdzona w tym runie)
   - mammothbikes.com: brak wymaganych slow (superlogic) - pomijam
   - centrumrowerowe.pl: brak wymaganych slow (superlogic) - pomijam
   - bikecheck.pl: brak wymaganych slow (superlogic) - pomijam
@@ -1829,13 +1429,11 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - mtbiker.pl: niedostepny (discontinued)
   - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - eventbike.it: brak danych o cenie (typy na stronie: article, breadcrumblist, imageobject, organization, person, webpage, website)
-  + deporvillage.pl: blokada ominieta headless Chromium
-  - deporvillage.pl: brak wymaganych slow (superlogic) - pomijam
+  - deporvillage.pl: pomijam (blokada potwierdzona w tym runie)
   + mojekolo.cz: 7999.0 CZK = 1427.02 PLN [wariant 42 NIEZWERYFIKOWANY - cena zbiorcza]
   - bike-forum.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - tradeinn.com: brak danych o cenie (typy na stronie: organization, webpage)
-  + deporvillage.it: blokada ominieta headless Chromium
-  - deporvillage.it: brak wymaganych slow (superlogic) - pomijam
+  - tradeinn.com: brak danych o cenie (typy na stronie: faqpage, organization, webpage)
+  - deporvillage.it: pomijam (blokada potwierdzona w tym runie)
   + mtbiker.it: 359.0 EUR = 1553.79 PLN [wariant 42 dopasowany]
   + taddeistore.com: blokada ominieta headless Chromium
   - taddeistore.com: brak wymaganych slow (superlogic) - pomijam
@@ -1845,19 +1443,17 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - sportovnidum.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
   - ilovebike.cz: brak danych o cenie (typy na stronie: breadcrumblist, organization, website)
   - bike24.es: pomijam (blokada potwierdzona w tym runie)
-  + deporvillage.com: blokada ominieta headless Chromium
-  - deporvillage.com: brak wymaganych slow (superlogic) - pomijam
+  - deporvillage.com: pomijam (blokada potwierdzona w tym runie)
   - idealo.es: pomijam (blokada potwierdzona w tym runie)
   - bike24.nl: pomijam (blokada potwierdzona w tym runie)
   - deporvillage.net: pomijam (blokada potwierdzona w tym runie)
   - mantel.com: brak wymaganych slow (superlogic) - pomijam
   - bks-dachbau.de: HTTP 404
-  + starbike.com: 216.53 CHF = 1013.92 PLN [wariant 42 NIEZWERYFIKOWANY - cena zbiorcza]
+  + starbike.com: 2619.92 NOK = 1014.96 PLN [wariant 42 NIEZWERYFIKOWANY - cena zbiorcza]
   - gyro.fr: niedostepny (outofstock)
   - biker-boarder.de: brak danych o cenie (typy na stronie: bikestore, sportinggoodsstore, website)
   - bike-discount.de: brak wymaganych slow (superlogic) - pomijam
-  + deporvillage.it: blokada ominieta headless Chromium
-  + deporvillage.it: 249.95 EUR = 1081.81 PLN [wariant 42 dopasowany]
+  - deporvillage.it: pomijam (blokada potwierdzona w tym runie)
   - buycycle.com: 519.37 PLN poza widelkami [700.0..2500.0] - pomijam
   - deporvillage.cz: pomijam (blokada potwierdzona w tym runie)
   - srovnanicen.cz: HTTP 403 (przegladarka tez nie przeszla)
@@ -1865,8 +1461,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - bike24.fr: pomijam (blokada potwierdzona w tym runie)
   - origine-cycles.com: brak danych o cenie (typy na stronie: organization)
   - idealo.fr: pomijam (blokada potwierdzona w tym runie)
-  + deporvillage.fr: blokada ominieta headless Chromium
-  - deporvillage.fr: brak wymaganych slow (superlogic) - pomijam
+  - deporvillage.fr: pomijam (blokada potwierdzona w tym runie)
   - alltricks.fr: brak wymaganych slow (superlogic) - pomijam
   - gyro.fr: brak danych o cenie (typy na stronie: breadcrumblist, organization, webpage, website)
   - leboncoin.fr: HTTP 403 (przegladarka tez nie przeszla)
@@ -1930,8 +1525,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + canyon.com: 909.99 PLN = 909.99 PLN
   + canyon.com: 179.99 CHF = 842.82 PLN
   - canyon.com: brak danych o cenie (typy na stronie: breadcrumblist, organization)
-  + ricardo.ch: blokada ominieta headless Chromium
-  - ricardo.ch: niedostepny (outofstock)
+  - ricardo.ch: HTTP 403 (przegladarka tez nie przeszla)
   - mtbiker.at: niedostepny (discontinued)
   - rennrad-news.de: pomijam (blokada potwierdzona w tym runie)
   - bike-magazin.de: brak danych o cenie (typy na stronie: article, breadcrumblist, imageobject, organization, webpage, website)
@@ -1975,27 +1569,6 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - allegrolokalnie.pl: brak wymaganych slow (s14) - pomijam
   - buycycle.com: brak danych o cenie (typy na stronie: breadcrumblist, organization, website)
   - canyon.com: waluta USD poza dozwolonym regionem - pomijam
-  - buycycle.com: niedostepny (soldout)
-  - canyon.com: brak wymaganych slow (s14) - pomijam
-  - canyon.com: brak wymaganych slow (s14) - pomijam
-  - canyon.com: brak wymaganych slow (s14) - pomijam
-  - canyon.com: brak wymaganych slow (s14) - pomijam
-  - buycycle.com: niedostepny (soldout)
-  - canyon.com: brak wymaganych slow (s14) - pomijam
-  + canyon.com: 201.99 EUR = 874.23 PLN
-  - cyclingclaude.de: brak danych o cenie (typy na stronie: blogposting, breadcrumblist, imageobject, organization, person, sportsteam, webpage, website)
-  - lactatepro.es: brak danych o cenie (typy na stronie: breadcrumblist, organization, webpage, website)
-  - forumrowerowe.org: brak danych o cenie (typy na stronie: breadcrumblist, discussionforumposting, organization, website)
-  - forumrowerowe.org: brak danych o cenie (typy na stronie: breadcrumblist, discussionforumposting, organization, website)
-  - bike-forum.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - allegrolokalnie.pl: brak danych o cenie (typy na stronie: itemlist, website)
-  - buycycle.com: niedostepny (soldout)
-  - canyon.com: brak danych o cenie (typy na stronie: organization, website)
-  - en.wikipedia.org: brak danych o cenie (typy na stronie: article)
-  - canyon-sf.com: brak danych o cenie (typy na stronie: website)
-  - dictionary.cambridge.org: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - visitcanyon.com: brak danych o cenie (typy na stronie: breadcrumblist, organization, webpage, website)
-  - merriam-webster.com: brak danych o cenie (typy na stronie: audioobject, book, definedterm, definedtermset, webpage, website)
   - canyon.com: brak wymaganych slow (s14) - pomijam
   - canyon.com: brak wymaganych slow (s14) - pomijam
   - canyon.com: brak wymaganych slow (s14) - pomijam
@@ -2003,8 +1576,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - canyon.com: brak wymaganych slow (s14) - pomijam
   - canyon.com: brak wymaganych slow (s14) - pomijam
   + canyon.com: 201.99 EUR = 874.23 PLN
-  + ricardo.ch: blokada ominieta headless Chromium
-  - ricardo.ch: niedostepny (outofstock)
+  - ricardo.ch: pomijam (blokada potwierdzona w tym runie)
   - rennrad-news.de: pomijam (blokada potwierdzona w tym runie)
   + canyon.com: 201.99 EUR = 874.23 PLN
   + canyon.com: 199.99 EUR = 865.58 PLN
@@ -2071,8 +1643,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - trekbikes.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   - velofactory.ch: pomijam (blokada potwierdzona w tym runie)
-  + hibike.com: blokada ominieta headless Chromium
-  - hibike.com: brak wymaganych slow (kit) - pomijam
+  - hibike.com: HTTP 403 (przegladarka tez nie przeszla)
   - thundermountainbikes.com: brak wymaganych slow (kit) - pomijam
   - velonova.lt: pomijam (blokada potwierdzona w tym runie)
   - bikestacja.pl: brak wymaganych slow (kit) - pomijam
@@ -2233,7 +1804,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - mountainbike.nl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - ridersguide.nl: brak danych o cenie (typy na stronie: article, breadcrumblist, imageobject, organization, person, webpage, website)
   - paragoncycling.com: waluta USD poza dozwolonym regionem - pomijam
-  - thundermountainbikes.com: niedostepny (outofstock)
+  - thundermountainbikes.com: waluta USD poza dozwolonym regionem - pomijam
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
   + kupkolo.cz: 10279.0 CZK = 1833.77 PLN [EAN niepotwierdzony]
   - lvr-cycles.com: waluta USD poza dozwolonym regionem - pomijam
@@ -2251,7 +1822,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - thundermountainbikes.com: brak wymaganych slow (kit) - pomijam
   - koloshop24.com: brak wymaganych slow (kit) - pomijam
   - mikesbikes.com: brak wymaganych slow (kit) - pomijam
-  - picclick.com: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - picclick.com: HTTP 403 (przegladarka tez nie przeszla)
   - homedepot.com: pomijam (blokada potwierdzona w tym runie)
   - walmart.com: brak danych o cenie (typy na stronie: webpage)
   - homedepot.com: pomijam (blokada potwierdzona w tym runie)
@@ -2310,7 +1881,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - cavalierebici.it: brak wymaganych slow (chain) - pomijam
   - bike-components.de: niedostepny (backorder)
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
-  - bikeimport.ch: blad pobierania (ReadTimeout)
+  + bikeimport.ch: 40.55 CHF = 189.88 PLN [EAN OK]
   + bike-discount.de: 36.99 EUR = 160.1 PLN [EAN OK]
   - lvr-cycles.com: waluta USD poza dozwolonym regionem - pomijam
   + veloruf.de: 62.4 EUR = 270.07 PLN [EAN OK]
@@ -2339,8 +1910,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - trekbikes.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   - velofactory.ch: pomijam (blokada potwierdzona w tym runie)
-  + hibike.com: blokada ominieta headless Chromium
-  + hibike.com: 37.0 EUR = 160.14 PLN [EAN OK]
+  - hibike.com: pomijam (blokada potwierdzona w tym runie)
   - thundermountainbikes.com: waluta USD poza dozwolonym regionem - pomijam
   - velonova.lt: pomijam (blokada potwierdzona w tym runie)
   + bikestacja.pl: 39.26 EUR = 169.92 PLN [EAN OK]
@@ -2409,7 +1979,6 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + evolutionbikes.it: 36.9 EUR = 159.71 PLN [EAN OK]
   - velofactory.ch: pomijam (blokada potwierdzona w tym runie)
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
-  + bike-mailorder.com: blokada ominieta headless Chromium
   + bike-mailorder.com: 40.23 EUR = 174.12 PLN [EAN niepotwierdzony]
   + gambacicli.com: 38.9 EUR = 168.36 PLN [EAN OK]
   - retezy.heureka.cz: pomijam (blokada potwierdzona w tym runie)
@@ -2482,7 +2051,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + bikesacr.com: blokada ominieta headless Chromium
   + bikesacr.com: 60.0 EUR = 259.69 PLN [EAN OK]
   + cavalierebici.it: 36.85 EUR = 159.49 PLN [EAN OK]
-  - ciclesberenguer.com: brak wymaganych slow (chain) - pomijam
+  - ciclesberenguer.com: blad pobierania (ConnectTimeout)
   - ociodeporte.es: HTTP 403 (przegladarka tez nie przeszla)
   + evolutionbikes.it: 36.9 EUR = 159.71 PLN [EAN OK]
   - sportler.com: pomijam (blokada potwierdzona w tym runie)
@@ -2513,8 +2082,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - idealo.fr: pomijam (blokada potwierdzona w tym runie)
   + pedalmoto.com: 39.5 EUR = 170.96 PLN [EAN OK]
   + biciescapa.com: 108.0 EUR = 467.43 PLN [EAN niepotwierdzony]
-  + hibike.com: blokada ominieta headless Chromium
-  + hibike.com: 37.0 EUR = 160.14 PLN [EAN OK]
+  - hibike.com: pomijam (blokada potwierdzona w tym runie)
   + mpracingbike.es: 40.99 EUR = 177.41 PLN [EAN OK]
   - idealo.es: pomijam (blokada potwierdzona w tym runie)
   + best-bike-parts.de: 49.9 EUR = 215.97 PLN [EAN OK]
@@ -2561,12 +2129,12 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + tnc-hamburg.com: 60.9 EUR = 263.58 PLN [EAN OK]
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
   + maciag-offroad.de: 64.95 EUR = 281.11 PLN [EAN niepotwierdzony]
-  ~ biker-boarder.de: brak ceny, ale znalazlem 2 link(i) produktowe - sprawdzam
+  ~ biker-boarder.de: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   + bike-discount.de: 58.99 EUR = 255.31 PLN [EAN niepotwierdzony]
   + bike-components.de: 124.99 EUR = 540.97 PLN [EAN niepotwierdzony]
   ~ cyklomania.pl: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
-  ~ formicki-bike.pl: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
+  ~ formicki-bike.pl: brak ceny, ale znalazlem 2 link(i) produktowe - sprawdzam
   + centrumrowerowe.pl: 239.99 PLN = 239.99 PLN [EAN niepotwierdzony]
   - vincere.pl: niedostepny (outofstock)
   - rowerowy.com: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -2664,7 +2232,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - bike-discount.de: brak danych o cenie (typy na stronie: breadcrumblist, onlinestore)
   - mount7.com: niedostepny (outofstock)
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
-  + starbike.com: 56.84 CHF = 266.16 PLN [EAN niepotwierdzony]
+  + starbike.com: 687.76 NOK = 266.44 PLN [EAN niepotwierdzony]
   - galaxus.ch: pomijam (blokada potwierdzona w tym runie)
   - bike24.fr: pomijam (blokada potwierdzona w tym runie)
   - bike-discount.de: brak danych o cenie (typy na stronie: breadcrumblist, onlinestore)
@@ -2769,8 +2337,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + mammothbikes.com: 56.16 EUR = 243.07 PLN [EAN niepotwierdzony]
   + ebikelab.it: 51.0 EUR = 220.73 PLN [EAN niepotwierdzony]
   - ridewill.it: brak danych o cenie (typy na stronie: brak JSON-LD)
-  + grabagun.com: blokada ominieta headless Chromium
-  - grabagun.com: waluta USD poza dozwolonym regionem - pomijam
+  - grabagun.com: HTTP 403 (przegladarka tez nie przeszla)
   - homedepot.com: pomijam (blokada potwierdzona w tym runie)
   + bike-components.de: 34.99 EUR = 151.44 PLN [EAN niepotwierdzony]
   + last-bikes.com: 34.9 EUR = 151.05 PLN [EAN niepotwierdzony]
@@ -2820,10 +2387,10 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + maciag-offroad.it: 115.95 EUR = 501.84 PLN [EAN niepotwierdzony]
   - universalcycles.com: waluta USD poza dozwolonym regionem - pomijam
   - biker-boarder.de: brak danych o cenie (typy na stronie: bikestore, sportinggoodsstore, website)
-  - biker-boarder.de: brak danych o cenie (typy na stronie: bikestore, sportinggoodsstore, website)
   - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - formicki-bike.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - formicki-bike.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
 [MONITOR] ROCK SHOX SID: sprawdzam 248 URL-i
   - bike-components.de: brak wymaganych slow (sid) - pomijam
@@ -2841,12 +2408,12 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
   - spokex.com: waluta USD poza dozwolonym regionem - pomijam
   - ccache.cc: niedostepny (outofstock)
-  - walmart.com: brak danych o cenie (typy na stronie: webpage)
+  - walmart.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   + rotoruabike.com: 632.76 EUR = 2738.65 PLN [EAN OK]
   - performancebike.com: niedostepny (outofstock)
   + mtb-xc.pl: blokada ominieta headless Chromium
   ~ mtb-xc.pl: brak ceny, ale znalazlem 2 link(i) produktowe - sprawdzam
-  - walmart.com: brak danych o cenie (typy na stronie: webpage)
+  - walmart.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   + mtbiker.pl: blokada ominieta headless Chromium
   + mtbiker.pl: 5799.0 PLN = 5799.0 PLN [EAN niepotwierdzony]
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
@@ -2891,7 +2458,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + roadbikeshop.cz: 14199.0 CZK = 2533.1 PLN [EAN niepotwierdzony]
   - heureka.cz: pomijam (blokada potwierdzona w tym runie)
   - thepathbikeshop.com: niedostepny (outofstock)
-  - outlet.wheelandsprocket.com: HTTP 500
+  - outlet.wheelandsprocket.com: niedostepny (outofstock)
   - jensonusa.com: brak danych o cenie (typy na stronie: product)
   - blisterreview.mystagingwebsite.com: brak danych o cenie (typy na stronie: article, breadcrumblist, imageobject, organization, person, webpage, website)
   - probikesupply.com: waluta USD poza dozwolonym regionem - pomijam
@@ -2989,8 +2556,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - heureka.cz: pomijam (blokada potwierdzona w tym runie)
   - bicperbanda.com: waluta ARS poza dozwolonym regionem - pomijam
   + bike-components.de: 539.0 EUR = 2332.85 PLN [EAN niepotwierdzony]
-  + deporvillage.com: blokada ominieta headless Chromium
-  - deporvillage.com: niedostepny (outofstock)
+  - deporvillage.com: pomijam (blokada potwierdzona w tym runie)
   - blackmountainbicycles.com: waluta USD poza dozwolonym regionem - pomijam
   - ridersguide.nl: brak danych o cenie (typy na stronie: article, breadcrumblist, imageobject, organization, person, webpage, website)
   - vojomag.nl: brak danych o cenie (typy na stronie: article, breadcrumblist, imageobject, organization, person, webpage, website)
@@ -3005,7 +2571,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - crescentelectric.com: HTTP 403 (przegladarka tez nie przeszla)
   - grangecoop.com: brak wymaganych slow (sid) - pomijam
   - raaad.com: niedostepny (outofstock)
-  - silverbackbikes.de: HTTP 500
+  + silverbackbikes.de: 927.6 EUR = 4014.75 PLN [EAN niepotwierdzony]
   + spoke.cz: 15649.0 CZK = 2791.78 PLN [EAN niepotwierdzony]
   - heureka.cz: pomijam (blokada potwierdzona w tym runie)
   - absolubike.fr: blad pobierania (ConnectTimeout)
@@ -3014,7 +2580,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   + newbikes.es: 413.0 EUR = 1787.51 PLN [EAN niepotwierdzony]
   - lvr-cycles.com: niedostepny (preorder)
   + bikemonkey.shop: blokada ominieta headless Chromium
-  + bikemonkey.shop: 699.0 EUR = 3025.34 PLN [EAN niepotwierdzony]
+  + bikemonkey.shop: 699.0 EUR = 3025.34 PLN [EAN OK]
   - deporvillage.nl: pomijam (blokada potwierdzona w tym runie)
   + buycycle.com: 650.0 EUR = 2813.26 PLN [EAN niepotwierdzony]
   - merlincycles.com: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -3057,8 +2623,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - bikable.com: niedostepny (outofstock)
   - blisterreview.com: brak danych o cenie (typy na stronie: article, breadcrumblist, imageobject, organization, person, webpage, website)
   - merlincycles.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  + ubuy.fr: blokada ominieta headless Chromium
-  - ubuy.fr: brak danych o cenie (typy na stronie: organization, website)
+  - ubuy.fr: HTTP 403 (przegladarka tez nie przeszla)
   - rat-bikes.eu: pomijam (blokada potwierdzona w tym runie)
   - thebikerschoice.com: waluta USD poza dozwolonym regionem - pomijam
   - bicyclesport.com: waluta USD poza dozwolonym regionem - pomijam
@@ -3104,8 +2669,7 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - bikeshoes.com: waluta USD poza dozwolonym regionem - pomijam
   - racycles.com: waluta USD poza dozwolonym regionem - pomijam
   - alltricks.com: brak wymaganych slow (mx242) - pomijam
-  + deporvillage.net: blokada ominieta headless Chromium
-  - deporvillage.net: niedostepny (outofstock)
+  - deporvillage.net: pomijam (blokada potwierdzona w tym runie)
   - dialedcyclinglab.com: niedostepny (outofstock)
   - oymbike.com: brak wymaganych slow (mx242) - pomijam
   + bikeshoe4u.com: 345.0 EUR = 1493.19 PLN [wariant 45 dopasowany] [EAN niepotwierdzony]
@@ -3126,15 +2690,13 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - leedistributors.com: brak wymaganych slow (mx242) - pomijam
   - kroger.com: blad pobierania (ReadTimeout)
   + bike-discount.de: 258.3 EUR = 1117.95 PLN [wariant 45 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
-  - de.lakecycling.com: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - de.lakecycling.com: pomijam (blokada potwierdzona w tym runie)
   - bikeshoes.com: waluta USD poza dozwolonym regionem - pomijam
   - wertykal.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  + deporvillage.pl: blokada ominieta headless Chromium
-  - deporvillage.pl: niedostepny (outofstock)
+  - deporvillage.pl: pomijam (blokada potwierdzona w tym runie)
   - saltdogcycling.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - deporvillage.net: pomijam (blokada potwierdzona w tym runie)
-  + deporvillage.it: blokada ominieta headless Chromium
-  - deporvillage.it: niedostepny (outofstock)
+  - deporvillage.it: pomijam (blokada potwierdzona w tym runie)
   + bike-discount.de: 258.3 EUR = 1117.95 PLN [wariant 45 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
   - lakecycling.com: brak danych o cenie (typy na stronie: collectionpage, faqpage)
   - idealo.es: pomijam (blokada potwierdzona w tym runie)
@@ -3144,10 +2706,9 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - competitivecyclist.com: HTTP 202
   - cyclecraft.com: waluta USD poza dozwolonym regionem - pomijam
   - pedalnorth.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - de.lakecycling.com: brak danych o cenie (typy na stronie: collectionpage, faqpage)
+  - de.lakecycling.com: pomijam (blokada potwierdzona w tym runie)
   + bike-discount.de: 258.3 EUR = 1117.95 PLN [wariant 45 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
-  + deporvillage.de: blokada ominieta headless Chromium
-  - deporvillage.de: niedostepny (outofstock)
+  - deporvillage.de: pomijam (blokada potwierdzona w tym runie)
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
   - kleinanzeigen.de: brak danych o cenie (typy na stronie: imageobject, website)
   - alltricks.de: brak wymaganych slow (mx242) - pomijam
@@ -3156,16 +2717,14 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - backcountry.com: HTTP 202
   - futurumshop.nl: brak wariantu '45' wsrod ofert - pomijam
   - deporvillage.nl: pomijam (blokada potwierdzona w tym runie)
-  + deporvillage.de: blokada ominieta headless Chromium
-  - deporvillage.de: niedostepny (outofstock)
+  - deporvillage.de: pomijam (blokada potwierdzona w tym runie)
   + bike-discount.de: 258.3 EUR = 1117.95 PLN [wariant 45 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
   - alltricks.it: brak wariantu '45' wsrod ofert - pomijam
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
   + ciclimattio.com: 305.15 EUR = 1320.72 PLN [wariant 45 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
   - deporvillage.cz: pomijam (blokada potwierdzona w tym runie)
   + buycycle.com: 283.0 EUR = 1224.85 PLN [wariant 45 dopasowany] [EAN niepotwierdzony]
-  + deporvillage.com: blokada ominieta headless Chromium
-  - deporvillage.com: niedostepny (outofstock)
+  - deporvillage.com: pomijam (blokada potwierdzona w tym runie)
   - alltricks.es: brak wariantu '45' wsrod ofert - pomijam
   - futurumshop.nl: brak wariantu '45' wsrod ofert - pomijam
   + d-cycling.nl: 369.0 EUR = 1597.07 PLN [wariant 45 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
@@ -3173,30 +2732,28 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - racycles.com: HTTP 404
   - lakecycling.com: brak danych o cenie (typy na stronie: collectionpage, faqpage)
   - wertykal.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  + deporvillage.pl: blokada ominieta headless Chromium
-  - deporvillage.pl: brak danych o cenie (typy na stronie: breadcrumblist, collectionpage, organization)
+  - deporvillage.pl: pomijam (blokada potwierdzona w tym runie)
   - bike24.pl: pomijam (blokada potwierdzona w tym runie)
   - velo-store.pl: brak wariantu '45' wsrod ofert - pomijam
   + ciclimattio.com: 305.15 EUR = 1320.72 PLN [wariant 45 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
   + ciclimattio.com: 305.15 EUR = 1320.72 PLN [wariant 45 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
   + bike-gourmet.com: 282.95 EUR = 1224.64 PLN [wariant 45 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
-  + deporvillage.com: blokada ominieta headless Chromium
-  - deporvillage.com: niedostepny (outofstock)
+  - deporvillage.com: pomijam (blokada potwierdzona w tym runie)
   - idealo.es: pomijam (blokada potwierdzona w tym runie)
   + bikeshoe4u.com: 345.0 EUR = 1493.19 PLN [wariant 45 dopasowany] [EAN niepotwierdzony]
   - pedaalkracht.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - competitivecyclist.com: HTTP 202
+  + engearment.com: blokada ominieta headless Chromium
   - engearment.com: brak danych o cenie (typy na stronie: article, imageobject, organization, person, place, webpage, website)
-  - de.lakecycling.com: brak danych o cenie (typy na stronie: collectionpage, faqpage)
+  - de.lakecycling.com: pomijam (blokada potwierdzona w tym runie)
   + bike-discount.de: 258.3 EUR = 1117.95 PLN [wariant 45 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
   + bike-discount.de: 258.3 EUR = 1117.95 PLN [wariant 45 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
-  + deporvillage.it: blokada ominieta headless Chromium
-  - deporvillage.it: niedostepny (outofstock)
+  - deporvillage.it: pomijam (blokada potwierdzona w tym runie)
   - velo-store.it: brak wariantu '45' wsrod ofert - pomijam
+  + engearment.com: blokada ominieta headless Chromium
   - engearment.com: brak danych o cenie (typy na stronie: article, imageobject, organization, person, place, webpage, website)
-  + deporvillage.fr: blokada ominieta headless Chromium
-  - deporvillage.fr: niedostepny (outofstock)
+  - deporvillage.fr: pomijam (blokada potwierdzona w tym runie)
   - alltricks.nl: brak wariantu '45' wsrod ofert - pomijam
   - en.wikipedia.org: brak danych o cenie (typy na stronie: article)
   - dictionary.com: brak danych o cenie (typy na stronie: audioobject, definedterm, definedtermset, webpage, website)
@@ -3206,12 +2763,11 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - open.spotify.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - education.nationalgeographic.org: brak danych o cenie (typy na stronie: brak JSON-LD)
   - lakemonster.com: brak wymaganych slow (mx242) - pomijam
-  - britannica.com: pomijam (blokada potwierdzona w tym runie)
+  - britannica.com: HTTP 403 (przegladarka tez nie przeszla)
   - lakepajamas.com: brak danych o cenie (typy na stronie: organization, website)
   - hardwareworld.com: brak wymaganych slow (mx242) - pomijam
   - singletrackworld.com: HTTP 403 (przegladarka tez nie przeszla)
-  + deporvillage.fr: blokada ominieta headless Chromium
-  - deporvillage.fr: niedostepny (outofstock)
+  - deporvillage.fr: pomijam (blokada potwierdzona w tym runie)
   + buycycle.com: 283.0 EUR = 1224.85 PLN [wariant 45 dopasowany] [EAN niepotwierdzony]
   - lakecycling.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
@@ -3229,15 +2785,13 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - algopix.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - racycles.com: waluta USD poza dozwolonym regionem - pomijam
   + bikable.com: 305.99 EUR = 1324.36 PLN [wariant 45 dopasowany] [EAN niepotwierdzony]
-  - de.lakecycling.com: brak danych o cenie (typy na stronie: collectionpage, faqpage)
+  - de.lakecycling.com: pomijam (blokada potwierdzona w tym runie)
   + cyclexperience.nl: blokada ominieta headless Chromium
   + cyclexperience.nl: 369.0 EUR = 1597.07 PLN [wariant 45 dopasowany] [EAN niepotwierdzony]
-  + deporvillage.pl: blokada ominieta headless Chromium
-  - deporvillage.pl: niedostepny (outofstock)
+  - deporvillage.pl: pomijam (blokada potwierdzona w tym runie)
   + bike-discount.de: 258.3 EUR = 1117.95 PLN [wariant 45 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
   - wertykal.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  + deporvillage.pl: blokada ominieta headless Chromium
-  - deporvillage.pl: niedostepny (outofstock)
+  - deporvillage.pl: pomijam (blokada potwierdzona w tym runie)
   - pedalnorth.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
   - alltricks.com: brak wariantu '45' wsrod ofert - pomijam
@@ -3248,146 +2802,127 @@ Produkty: ['FM2797', 'FARGO-TI', 'FARGO-STEEL', 'LAUF-CARBONARA', 'Lake MX190-X 
   - lakecycling.com: waluta USD poza dozwolonym regionem - pomijam
   - lakecycling.com: waluta USD poza dozwolonym regionem - pomijam
   - lakecycling.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-[MONITOR] GX-T-KIT: blind spoty do sprawdzenia przez Google: absolubike.fr, andersonlumbercompany.com, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.nl, bike24.pl, bikechill.pl, competitivecyclist.com, cyklomania.pl, deporvillage.nl, homedepot.com, idealo.es, idealo.fr, kliky.heureka.cz, lordgun.de, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, lowes.com, r2-bike.com, razeni.heureka.cz, reactionteam.org, rei.com, retezy.heureka.cz, rgbikes.com, sprint-rowery.pl, velofactory.ch, velonova.lt
-[MONITOR] GX-T-CHAIN: blind spoty do sprawdzenia przez Google: absolubike.fr, ampbike.pl, bike24.at, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.pl, bikeimport.ch, bikemag.com, competitivecyclist.com, cyklomania.pl, fiets.nl, fresherica.com, gambacicli.fr, granisa.com, idealo.es, idealo.fr, kliky.heureka.cz, lordgun.com, lordgun.de, lordgunbicycles.com, mtb-mag.com, ociodeporte.es, powermetercity.com, r2-bike.com, rei.com, retezy.heureka.cz, snyt-primka.cz, sportler.com, velofactory.ch, velonova.lt, velosiped.com
-[MONITOR] Ritchey WCS Carbon ErgoMax: blind spoty do sprawdzenia przez Google: 365cycles.com, absolubike.fr, agriper.nl, all4bikes.be, bbb.org, bike24.at, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.pl, bikeparts.com, cinevittoria.it, cyklomania.pl, deporvillage.net, deporvillage.nl, faithchurchonaway.org, galaxus.ch, idealo.es, idealo.fr, klub300.cz, leboncoin.fr, pianowithjonny.com, r2-bike.com, rat-bikes.eu, rei.com, ridinggravel.com, sport365.cz, trenerterapeut.cz, velodrome-cycling.com, velofactory.ch, whitepages.com
-[MONITOR] SUPERLOGIC-ERGOMAX: blind spoty do sprawdzenia przez Google: bike24.at, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.nl, bike24.pl, bks-dachbau.de, deporvillage.cz, deporvillage.net, deporvillage.nl, galaxus.ch, gambacicli.fr, heureka.cz, idealo.at, idealo.es, idealo.fr, leboncoin.fr, lordgun.com, lordgun.de, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, rat-bikes.com, rat-bikes.eu, rei.com, rennrad-news.de, srovnanicen.cz
-[MONITOR] Canyon S14 VCLS 2.0: blind spoty do sprawdzenia przez Google: forum.ridinggravel.com, radforum.de, rennrad-news.de, velonova.ee, velonova.lt
-[MONITOR] ROCK SHOX SID: blind spoty do sprawdzenia przez Google: absolubike.fr, announcementconverters.com, axevotech.eu, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.pl, community.mtb-mag.com, cyklomania.pl, deporvillage.nl, dev.nanobike.de, fiets.nl, gambacicli.fr, heureka.cz, idealo.es, mtb-mag.com, r2-bike.com, rat-bikes.eu, silverbackbikes.de, sprint-rowery.pl, starbike.com, velofactory.ch, vidlice.heureka.cz
+[MONITOR] Cane Creek 40 IS41/IS52: blind spoty do sprawdzenia przez Google: bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.lu, bike24.nl, bike24.pl, competitivecyclist.com, decathlon.it, dstewart.com, galaxus.ch, grabagun.com, homedepot.com, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, mtb-mag.com, novicedock.com, r2-bike.com, rat-bikes.com, rat-bikes.eu
+[MONITOR] Ritchey WCS Carbon ErgoMax: blind spoty do sprawdzenia przez Google: 365cycles.com, absolubike.fr, agriper.nl, all4bikes.be, bbb.org, bike24.at, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.pl, bikeparts.com, carrefour.es, cinevittoria.it, cyklomania.pl, deporvillage.com, deporvillage.fr, deporvillage.it, deporvillage.net, deporvillage.nl, deporvillage.pl, faithchurchonaway.org, galaxus.ch, idealo.es, idealo.fr, klub300.cz, leboncoin.fr, pianowithjonny.com, r2-bike.com, rat-bikes.eu, rei.com, ridinggravel.com, sport365.cz, trenerterapeut.cz, velodrome-cycling.com, velofactory.ch, whitepages.com
+[MONITOR] GX-T-CHAIN: blind spoty do sprawdzenia przez Google: absolubike.fr, ampbike.pl, bike24.at, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.pl, bikemag.com, ciclesberenguer.com, competitivecyclist.com, cyklomania.pl, fiets.nl, fresherica.com, gambacicli.fr, granisa.com, hibike.com, idealo.es, idealo.fr, kliky.heureka.cz, lordgun.com, lordgun.de, lordgunbicycles.com, mtb-mag.com, ociodeporte.es, powermetercity.com, r2-bike.com, rei.com, retezy.heureka.cz, snyt-primka.cz, sportler.com, velofactory.ch, velonova.lt, velosiped.com
+[MONITOR] Lake MX190-X Wide: blind spoty do sprawdzenia przez Google: backcountry.com, bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fi, bike24.fr, bike24.it, bike24.nl, bike24.pl, bol.com, competitivecyclist.com, de.lakecycling.com, deporvillage.pl, dstewart.com, hillnmarkes.com, lowes.com, microcenter.com, outdoor49.com, steepandcheap.com
+[MONITOR] SUPERLOGIC-ERGOMAX: blind spoty do sprawdzenia przez Google: bike24.at, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.nl, bike24.pl, bks-dachbau.de, deporvillage.com, deporvillage.cz, deporvillage.de, deporvillage.fr, deporvillage.it, deporvillage.net, deporvillage.nl, deporvillage.pl, galaxus.ch, gambacicli.fr, heureka.cz, idealo.at, idealo.es, idealo.fr, leboncoin.fr, lordgun.com, lordgun.de, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, rat-bikes.com, rat-bikes.eu, rei.com, rennrad-news.de, srovnanicen.cz
+[MONITOR] GX-T-KIT: blind spoty do sprawdzenia przez Google: absolubike.fr, andersonlumbercompany.com, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.nl, bike24.pl, bikechill.pl, competitivecyclist.com, cyklomania.pl, deporvillage.nl, hibike.com, homedepot.com, idealo.es, idealo.fr, kliky.heureka.cz, lordgun.de, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, lowes.com, picclick.com, r2-bike.com, razeni.heureka.cz, reactionteam.org, rei.com, retezy.heureka.cz, rgbikes.com, sprint-rowery.pl, velofactory.ch, velonova.lt
+[MONITOR] DT SWISS 350 12x148: blind spoty do sprawdzenia przez Google: bike24.at, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.nl, bike24.pl, campingtour.fr, community.mtb-mag.com, deporvillage.com, deporvillage.cz, deporvillage.de, deporvillage.it, deporvillage.net, deporvillage.nl, deporvillage.pl, heureka.cz, idealo.es, lordgun.de, lordgunbicycles.com, ltmracing.com, mrozbike.pl, prowheelbuilder.com, r2-bike.com, reinwald-gaertnerei.de, sovertrans.pl, the-witcher.cz, utadka.eu, vastutalks.com, velofactory.ch, velosiped.com
+[MONITOR] ROCK SHOX SID: blind spoty do sprawdzenia przez Google: absolubike.fr, announcementconverters.com, axevotech.eu, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.pl, community.mtb-mag.com, crescentelectric.com, cyklomania.pl, deporvillage.com, deporvillage.nl, dev.nanobike.de, fiets.nl, gambacicli.fr, heureka.cz, idealo.es, mtb-mag.com, r2-bike.com, rat-bikes.eu, sprint-rowery.pl, starbike.com, ubuy.fr, velofactory.ch, vidlice.heureka.cz
+[MONITOR] FARGO-STEEL: blind spoty do sprawdzenia przez Google: benscycle.com, bike24.com, bike24.fr, bike24.it, bike24.lu, bike24.pl, competitivecyclist.com, elliot.de, mercoradecoracion.com, opticycles.com, rat-bikes.com, rat-bikes.eu, redrockbicycle.com
+[MONITOR] Canyon S14 VCLS 2.0: blind spoty do sprawdzenia przez Google: forum.ridinggravel.com, radforum.de, rennrad-news.de, ricardo.ch, velonova.ee, velonova.lt
 [MONITOR] FARGO-TI: blind spoty do sprawdzenia przez Google: 2peaksbikes.com, benscycle.com, bike24.com, bike24.it, bike24.lu, bike24.nl, bike24.pl, competitivecyclist.com, galaxus.ch, galaxus.fr, galaxus.it, papa-wheelies.com, rat-bikes.com, rat-bikes.eu, redrockbicycle.com, subito.it
-[MONITOR] Cane Creek 40 IS41/IS52: blind spoty do sprawdzenia przez Google: bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.lu, bike24.nl, bike24.pl, competitivecyclist.com, decathlon.it, galaxus.ch, homedepot.com, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, mtb-mag.com, novicedock.com, r2-bike.com, rat-bikes.com, rat-bikes.eu
-[MONITOR] Lake MX190-X Wide: blind spoty do sprawdzenia przez Google: backcountry.com, bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fi, bike24.fr, bike24.it, bike24.nl, bike24.pl, bol.com, competitivecyclist.com, hillnmarkes.com, lowes.com, outdoor49.com, steepandcheap.com
-[MONITOR] Lake MX242: blind spoty do sprawdzenia przez Google: backcountry.com, bike24.com, bike24.de, bike24.es, bike24.it, bike24.pl, britannica.com, cart2india.com, competitivecyclist.com, deporvillage.cz, deporvillage.net, deporvillage.nl, idealo.es, idealo.fr, kroger.com, lowes.com, racycles.com, singletrackworld.com, zoro.com
-[MONITOR] FARGO-STEEL: blind spoty do sprawdzenia przez Google: benscycle.com, bike24.com, bike24.fr, bike24.it, bike24.lu, bike24.pl, bmxavenue.com, competitivecyclist.com, elliot.de, mercoradecoracion.com, opticycles.com, rat-bikes.com, rat-bikes.eu, redrockbicycle.com
-[MONITOR] DT SWISS 350 12x148: blind spoty do sprawdzenia przez Google: bike24.at, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.nl, bike24.pl, campingtour.fr, community.mtb-mag.com, deporvillage.cz, deporvillage.net, deporvillage.nl, heureka.cz, idealo.es, lordgun.de, lordgunbicycles.com, ltmracing.com, mrozbike.pl, prowheelbuilder.com, r2-bike.com, reinwald-gaertnerei.de, sovertrans.pl, the-witcher.cz, utadka.eu, vastutalks.com, velofactory.ch, velosiped.com
-[MONITOR] FM2797: blind spoty do sprawdzenia przez Google: bike24.es, bike24.it, bikeflip.com, bmxavenue.com, crazyguyonabike.com, heb.com, papa-wheelies.com, rat-bikes.com, rat-bikes.eu, via-camina.fr, yawpcyclery.com
-[MONITOR] DT Swiss Fatbike: blind spoty do sprawdzenia przez Google: alumach.com, bdc-mag.com, bike24.com, bike24.de, bike24.fr, bike24.it, bike24.nl, bike24.pl, community.mtb-mag.com, fat-bike.de, fiets.nl, kstoerz.com, las4cimas.com, mrozbike.pl, naboje.heureka.cz, olympiateatern.se, prowheelbuilder.com, r2-bike.com, speedgearbike.com, stat.gov.pl, thebicyclestation.com, velofactory.ch, velosiped.com
+[MONITOR] Lake MX242: blind spoty do sprawdzenia przez Google: backcountry.com, bike24.com, bike24.de, bike24.es, bike24.it, bike24.pl, britannica.com, cart2india.com, competitivecyclist.com, de.lakecycling.com, deporvillage.com, deporvillage.cz, deporvillage.de, deporvillage.fr, deporvillage.it, deporvillage.net, deporvillage.nl, deporvillage.pl, idealo.es, idealo.fr, kroger.com, lowes.com, racycles.com, singletrackworld.com, zoro.com
+[MONITOR] LAUF-CARBONARA: blind spoty do sprawdzenia przez Google: bikestoredirect.com
+[MONITOR] DT Swiss Fatbike: blind spoty do sprawdzenia przez Google: alumach.com, bdc-mag.com, bike24.com, bike24.de, bike24.fr, bike24.it, bike24.nl, bike24.pl, community.mtb-mag.com, deporvillage.it, fat-bike.de, fiets.nl, kstoerz.com, las4cimas.com, mrozbike.pl, naboje.heureka.cz, olympiateatern.se, prowheelbuilder.com, r2-bike.com, velofactory.ch, velosiped.com
+[MONITOR] FM2797: blind spoty do sprawdzenia przez Google: bike24.es, bike24.it, bikeflip.com, crazyguyonabike.com, heb.com, papa-wheelies.com, rat-bikes.com, rat-bikes.eu, via-camina.fr, yawpcyclery.com
 [SHOPPING] SerpAPI na wyczerpaniu (pozostalo 0, rezerwa 10) - pomijam ten silnik
-[SHOPPING] GX-T-KIT: pomijam kraje nl, it, fr, es, ch, lt (limit 3/produkt/run)
-[SHOPPING] GX-T-KIT (gl=de, serper, fraza 1, str. 1): 40 ofert w feedzie, szukam: alamedabicycle.com, alutech-cycles.com, andersonlumbercompany.com, bertsbikes.com, bike-discount.de, bike-test.com, bike-x.de, bike24.com, bike24.de, bikenos.com, bikepacking.com, biketiresdirect.com (+66)
-  - bike24.de: brak wymaganych slow ('SRAM GX Eagle E-MTB AXS group')
-  - r2-bike.com: brak wymaganych slow ('Schaltgr.set SRAM GX T-Type Eagle AXS')
-  - lvr-cycles.com: brak wymaganych slow ('SRAM GX T-Type Eagle Transmission AXS Groupset')
-  - bike-discount.de: brak wymaganych slow ('SRAM GX Eagle Transmission 10-52 Verschleissset + Schaltroll')
-  - lvr-cycles.com: brak wymaganych slow ('SRAM Groupe complet GX T-TYPE Eagle AXS DUB 12s 32T 10-52')
-  - bike24.de: brak wymaganych slow ('SRAM Groupset GX Eagle AXS Transmission 104BCD')
-  - bike-discount.de: tytul nie pasuje do produktu ('SRAM GX Isis Cranks')
-  - r2-bike.com: brak wymaganych slow ('SRAM Groupset GX Eagle AXS Transmission')
-  - hibike.com: brak wymaganych slow ('SRAM GX Eagle Chain T-Type')
-  - r2-bike.com: brak wymaganych slow ('SRAM GX Eagle Transmission MTB Gruppe | 55 mm Kettenlinie 17')
-  - bike24.de: brak wymaganych slow ('Garbaruk Sram Eagle T-type Derailleur Cage')
-  - bike-discount.de: brak wymaganych slow ('SRAM GX Eagle DUB MTB Wide 1x12-fach Transmission Kurbel 32T')
-[SHOPPING] GX-T-KIT (gl=de, serper, fraza 1, str. 2): 10 ofert w feedzie, szukam: alamedabicycle.com, alutech-cycles.com, andersonlumbercompany.com, bertsbikes.com, bike-discount.de, bike-test.com, bike-x.de, bike24.com, bike24.de, bikenos.com, bikepacking.com, biketiresdirect.com (+66)
-  - bike24.de: tytul nie pasuje do produktu ('Sram Gx Axs E-mtb Groupset')
-[SHOPPING] GX-T-KIT (gl=de, serper, fraza 2, str. 1): 40 ofert w feedzie, szukam: alamedabicycle.com, alutech-cycles.com, andersonlumbercompany.com, bertsbikes.com, bike-discount.de, bike-test.com, bike-x.de, bike24.com, bike24.de, bikenos.com, bikepacking.com, biketiresdirect.com (+66)
-  - bike24.de: brak wymaganych slow ('SRAM GX Eagle E-MTB AXS group')
-  - lvr-cycles.com: brak wymaganych slow ('SRAM GX T-Type Eagle Transmission AXS Groupset')
-  - r2-bike.com: brak wymaganych slow ('SRAM Groupset GX Eagle AXS Transmission')
-  - lvr-cycles.com: brak wymaganych slow ('SRAM Groupe complet GX T-TYPE Eagle AXS DUB 12s 32T 10-52')
-  - bike-discount.de: brak wymaganych slow ('Sram X0 AXS Eagle E-mtb Groupset')
-  - bike24.de: brak wymaganych slow ('SRAM GX Eagle Trigger')
-  - r2-bike.com: brak wymaganych slow ('SRAM GX Eagle Transmission MTB Gruppe | 55 mm Kettenlinie 17')
-  + bike-discount.de: 374.99 EUR = 1622.99 PLN [Google Shopping]
-  + r2-bike.com: 577.5 EUR = 2499.48 PLN [Google Shopping]
-  + lordgun.de: 419.33 EUR = 1814.9 PLN [Google Shopping]
-[SHOPPING] GX-T-KIT (gl=pl, serper, fraza 1, str. 1): 40 ofert w feedzie, szukam: 2wheels.pl, airbike.pl, alpebike.pl, ampbike.pl, bike24.pl, bikechill.pl, centrumrowerowe.pl, cyklomania.pl, goodsport.pl, greenbike.pl, ibike.pl, power-bikes.pl (+3)
-  - bike24.pl: brak wymaganych slow ('SRAM GX Eagle E-MTB AXS group')
-  - centrumrowerowe.pl: brak wymaganych slow ('Grupa MTB SRAM GX Eagle AXS Transmission T-Type')
-[SHOPPING] GX-T-KIT (gl=pl, serper, fraza 1, str. 2): 26 ofert w feedzie, szukam: 2wheels.pl, airbike.pl, alpebike.pl, ampbike.pl, bike24.pl, bikechill.pl, centrumrowerowe.pl, cyklomania.pl, goodsport.pl, greenbike.pl, ibike.pl, power-bikes.pl (+3)
-[SHOPPING] GX-T-KIT (gl=pl, serper, fraza 2, str. 1): 40 ofert w feedzie, szukam: 2wheels.pl, airbike.pl, alpebike.pl, ampbike.pl, bike24.pl, bikechill.pl, centrumrowerowe.pl, cyklomania.pl, goodsport.pl, greenbike.pl, ibike.pl, power-bikes.pl (+3)
-  - centrumrowerowe.pl: brak wymaganych slow ('Grupa MTB SRAM GX Eagle AXS Transmission T-Type')
-  - bike24.pl: brak wymaganych slow ('SRAM GX Eagle E-MTB AXS group')
-  - goodsport.pl: brak wymaganych slow ('Grupa MTB SRAM GX Eagle AXS Transmission')
-  + bike24.pl: 1768.07 PLN = 1768.07 PLN [Google Shopping]
-  + greenbike.pl: 1879.99 PLN = 1879.99 PLN [Google Shopping]
-[SHOPPING] GX-T-KIT (gl=cz, serper, fraza 1, str. 1): 40 ofert w feedzie, szukam: bikeandride.cz, cyklozitny.cz, fdfbikeshop.cz, hupnakolo.cz, kliky.heureka.cz, kolokram.cz, mojekolo.cz, pepebike.cz, razeni.heureka.cz, retezy.heureka.cz, spoke.cz, zbozi.cz
-  - retezy.heureka.cz: brak wymaganych slow ('Převodník SRAM GX Eagle Black T-Type Boost Direct mount 3 mm')
-  - retezy.heureka.cz: brak wymaganych slow ('Sram GX SL T-Type Eagle Transmission AXS')
-[SHOPPING] GX-T-KIT (gl=cz, serper, fraza 1, str. 2): 3 ofert w feedzie, szukam: bikeandride.cz, cyklozitny.cz, fdfbikeshop.cz, hupnakolo.cz, kliky.heureka.cz, kolokram.cz, mojekolo.cz, pepebike.cz, razeni.heureka.cz, retezy.heureka.cz, spoke.cz, zbozi.cz
-[SHOPPING] GX-T-KIT (gl=cz, serper, fraza 2, str. 1): 40 ofert w feedzie, szukam: bikeandride.cz, cyklozitny.cz, fdfbikeshop.cz, hupnakolo.cz, kliky.heureka.cz, kolokram.cz, mojekolo.cz, pepebike.cz, razeni.heureka.cz, retezy.heureka.cz, spoke.cz, zbozi.cz
-  - retezy.heureka.cz: brak wymaganych slow ('Sram GX SL T-Type Eagle Transmission AXS')
-[SHOPPING] GX-T-CHAIN: pomijam kraje es, fr, it, nl, ch, at, lt (limit 3/produkt/run)
-[SHOPPING] GX-T-CHAIN (gl=de, serper, fraza 1, str. 1): 23 ofert w feedzie, szukam: als.com, apps.apple.com, athleticfeat.com, benidormbikes.com, berkshirebikeandboard.com, bicyclechain.com, bike-components.de, bike-test.com, bike24.com, bike24.de, bikemag.com, biker-boarder.de (+58)
-  - r2-bike.com: brak wymaganych slow ('SRAM GX Eagle XS-1275 T-Type Cassette')
-  - bike-components.de: tytul nie pasuje do produktu ('Shimano XT M8100 Chain')
-  - r2-bike.com: brak wymaganych slow ('Sram GX Eagle XG-1275 Cassette')
-[SHOPPING] GX-T-CHAIN (gl=de, serper, fraza 2, str. 1): 33 ofert w feedzie, szukam: als.com, apps.apple.com, athleticfeat.com, benidormbikes.com, berkshirebikeandboard.com, bicyclechain.com, bike-components.de, bike-test.com, bike24.com, bike24.de, bikemag.com, biker-boarder.de (+58)
-  - bike24.de: brak wymaganych slow ('SRAM Groupset GX Eagle AXS Transmission')
-  - r2-bike.com: brak wymaganych slow ('SRAM Groupset GX Eagle AXS Transmission 104BCD')
-  + bike24.de: 19.99 EUR = 86.52 PLN [Google Shopping]
-  + cicloscorredor.com: 37.98 EUR = 164.38 PLN [Google Shopping]
-  + lordgun.de: 23.5 EUR = 101.71 PLN [Google Shopping]
-  + powermetercity.com: 136.13 EUR = 589.18 PLN [Google Shopping]
-  + koloshop24.de: 27.6 EUR = 119.46 PLN [Google Shopping]
-  + r2-bike.com: 59.5 EUR = 257.52 PLN [Google Shopping]
-  + biker-boarder.de: 34.9 EUR = 151.05 PLN [Google Shopping]
-[SHOPPING] GX-T-CHAIN (gl=pl, serper, fraza 1, str. 1): 30 ofert w feedzie, szukam: allegrolokalnie.pl, ampbike.pl, bike24.pl, bikecenter.pl, cyklomania.pl, goride.pl, ibike.pl, kastor-bike.pl, koloshop.pl, magazynbike.pl, mtbiker.pl, super-bike.pl (+1)
-  - bike24.pl: brak wymaganych slow ('SRAM GX Eagle E-MTB AXS group')
-  - koloshop.pl: brak wymaganych slow ('Sram GX Eagle Transmission T-Type AXS zestaw dla E-MTB Bosch')
-[SHOPPING] GX-T-CHAIN (gl=pl, serper, fraza 2, str. 1): 13 ofert w feedzie, szukam: allegrolokalnie.pl, ampbike.pl, bike24.pl, bikecenter.pl, cyklomania.pl, goride.pl, ibike.pl, kastor-bike.pl, koloshop.pl, magazynbike.pl, mtbiker.pl, super-bike.pl (+1)
-  + bike24.pl: 89.5 PLN = 89.5 PLN [Google Shopping]
-  + goride.pl: 249.0 PLN = 249.0 PLN [Google Shopping]
-  + koloshop.pl: 115.99 PLN = 115.99 PLN [Google Shopping]
-  + allegrolokalnie.pl: 299.0 PLN = 299.0 PLN [Google Shopping]
-[SHOPPING] GX-T-CHAIN (gl=cz, serper, fraza 1, str. 1): 20 ofert w feedzie, szukam: cyklozitny.cz, hupnakolo.cz, jumpsport.cz, kliky.heureka.cz, koloshop.cz, krabcycles.cz, mshpraha.cz, mtbs.cz, retezy.heureka.cz, snyt-primka.cz
-[SHOPPING] GX-T-CHAIN (gl=cz, serper, fraza 2, str. 1): 18 ofert w feedzie, szukam: cyklozitny.cz, hupnakolo.cz, jumpsport.cz, kliky.heureka.cz, koloshop.cz, krabcycles.cz, mshpraha.cz, mtbs.cz, retezy.heureka.cz, snyt-primka.cz
-  - krabcycles.cz: brak wymaganych slow ('SRAM Sada Sram Eagle GX T-Type AXS')
-  + retezy.heureka.cz: 2690.0 CZK = 479.9 PLN [Google Shopping]
-[SHOPPING] Cane Creek 40 IS41/IS52: pomijam kraje it, es, nl, cz, at, be, lu, ch (limit 3/produkt/run)
-[SHOPPING] Cane Creek 40 IS41/IS52 (gl=de, serper, fraza 1, str. 1): 17 ofert w feedzie, szukam: absolutebikes.net, acehardware.com, angrycatfishbicycle.com, asterom.com, bicycleway.com, bike-prof.de, bike24.com, bike24.de, bikecomponents-us.com, bikeexpressvt.com, biker-boarder.de, biketart.com (+76)
-[SHOPPING] Cane Creek 40 IS41/IS52 (gl=de, serper, fraza 2, str. 1): 40 ofert w feedzie, szukam: absolutebikes.net, acehardware.com, angrycatfishbicycle.com, asterom.com, bicycleway.com, bike-prof.de, bike24.com, bike24.de, bikecomponents-us.com, bikeexpressvt.com, biker-boarder.de, biketart.com (+76)
-[SHOPPING] Cane Creek 40 IS41/IS52 (gl=de, serper, fraza 2, str. 2): 40 ofert w feedzie, szukam: absolutebikes.net, acehardware.com, angrycatfishbicycle.com, asterom.com, bicycleway.com, bike-prof.de, bike24.com, bike24.de, bikecomponents-us.com, bikeexpressvt.com, biker-boarder.de, biketart.com (+76)
-  + bike24.de: 30.99 EUR = 134.13 PLN [Google Shopping]
-  + ridewill.com: 63.7 EUR = 275.7 PLN [Google Shopping]
-  + r2-bike.com: 32.5 EUR = 140.66 PLN [Google Shopping]
-  + bikecomponents-us.com: 34.99 EUR = 151.44 PLN [Google Shopping]
-  + sm-parts.net: 54.99 EUR = 238.0 PLN [Google Shopping]
-  + biker-boarder.de: 78.9 EUR = 341.49 PLN [Google Shopping]
-  + bike-prof.de: 109.95 EUR = 475.87 PLN [Google Shopping]
+[SHOPPING] FARGO-STEEL: pomijam kraje fr, pl, nl, lu (limit 3/produkt/run)
+[SHOPPING] FARGO-STEEL (gl=de, serper, fraza 1, str. 1): 3 ofert w feedzie, szukam: 8ciclo.com, alltricks.com, benscycle.com, bike24.com, bikecafe.org, bikepacking.com, biketour-global.de, bmxavenue.com, campfirecycling.com, cicloshelike.com, cicloslaferro.com, competitivecyclist.com (+33)
+[SHOPPING] FARGO-STEEL (gl=de, serper, fraza 2, str. 1): 2 ofert w feedzie, szukam: 8ciclo.com, alltricks.com, benscycle.com, bike24.com, bikecafe.org, bikepacking.com, biketour-global.de, bmxavenue.com, campfirecycling.com, cicloshelike.com, cicloslaferro.com, competitivecyclist.com (+33)
+[SHOPPING] FARGO-STEEL (gl=it, serper, fraza 1, str. 1): 14 ofert w feedzie, szukam: alltricks.it, bike24.it, bikeitalia.it, bikejamming.it, ciclocentrico.it, imfixies.it, stateofbike.it, velolab.it
+  - stateofbike.it: brak wymaganych slow ('Salsa Fargo - Frameset')
+  - bike24.it: brak wymaganych slow ('Salsa Fargo Ti frameset 29" titanium')
+  - bikejamming.it: brak wymaganych slow ('SALSA Fargo Ti Titanium Frameset - Bikepacking and Expeditio')
+  - bike24.it: brak wymaganych slow ('Salsa Fargo Frame Set')
+  - stateofbike.it: brak wymaganych slow ('Salsa Fargo Titanio - Frameset')
+  - imfixies.it: brak wymaganych slow ('Telaio Bicicleta Montanha Salsa Fargo Steel 27.5+/29" Chromo')
+  - bikejamming.it: brak wymaganych slow ('SALSA Fargo GRX 610 – Drop Bar Mountain Bike for Off-Road Bi')
+  - bikejamming.it: brak wymaganych slow ('SALSA Fargo Frameset Nuova Generazione UDH – Drop Bar MTB')
+  - stateofbike.it: brak wymaganych slow ('Salsa Fargo Titanio')
+  - imfixies.it: brak wymaganych slow ('Bicicletta Gravel Salsa Fargo SRAM Apex 1 11 Velocità Chromo')
+  - imfixies.it: brak wymaganych slow ('Bicicletta Gravel Salsa Fargo Shimano GRX 610 1x12 Velocità ')
+[SHOPPING] FARGO-STEEL (gl=it, serper, fraza 2, str. 1): 9 ofert w feedzie, szukam: alltricks.it, bike24.it, bikeitalia.it, bikejamming.it, ciclocentrico.it, imfixies.it, stateofbike.it, velolab.it
+  - stateofbike.it: brak wymaganych slow ('Salsa Fargo - Frameset')
+  - bikejamming.it: brak wymaganych slow ('SALSA Fargo Ti Titanium Frameset - Bikepacking and Expeditio')
+  - bike24.it: brak wymaganych slow ('Salsa Fargo Ti frameset 29" titanium')
+  - stateofbike.it: brak wymaganych slow ('Salsa Fargo Titanio - Frameset')
+  - bike24.it: brak wymaganych slow ('Salsa Fargo Frame Set')
+  - imfixies.it: brak wymaganych slow ('Telaio Bicicleta Montanha Salsa Fargo Steel 27.5+/29" Chromo')
+  - bikejamming.it: brak wymaganych slow ('SALSA Fargo Frameset Nuova Generazione UDH – Drop Bar MTB')
+  - stateofbike.it: brak wymaganych slow ('Salsa Fargo Titanio')
+[SHOPPING] FARGO-STEEL (gl=cz, serper, fraza 1, str. 1): 2 ofert w feedzie, szukam: bicykly.cz, koloshop.cz, mtbiker.cz, mtbs.cz, zbozi.cz
+[SHOPPING] FARGO-STEEL (gl=cz, serper, fraza 2, str. 1): 1 ofert w feedzie, szukam: bicykly.cz, koloshop.cz, mtbiker.cz, mtbs.cz, zbozi.cz
+[SHOPPING] LAUF-CARBONARA (gl=us, serper, fraza 1, str. 1): 9 ofert w feedzie, szukam: bikestoredirect.com, incycle.com, jensonusa.com, lunacycle.com, ridefatbikes.ca, starbike.com, theproscloset.com, traversbikes.com, treefortbikes.com
+[SHOPPING] LAUF-CARBONARA (gl=us, serper, fraza 2, str. 1): 9 ofert w feedzie, szukam: bikestoredirect.com, incycle.com, jensonusa.com, lunacycle.com, ridefatbikes.ca, starbike.com, theproscloset.com, traversbikes.com, treefortbikes.com
+[SHOPPING] IBS-V1X (gl=us, serper, fraza 1, str. 1): 40 ofert w feedzie, szukam: infinitybikeseat.com
+[SHOPPING] IBS-V1X (gl=us, serper, fraza 1, str. 2): 2 ofert w feedzie, szukam: infinitybikeseat.com
+[SHOPPING] IBS-V1X (gl=us, serper, fraza 2, str. 1): 14 ofert w feedzie, szukam: infinitybikeseat.com
+[SHOPPING] Lake MX190-X Wide: pomijam kraje at, be, es, fi, fr, it (limit 3/produkt/run)
+[SHOPPING] Lake MX190-X Wide (gl=de, serper, fraza 1, str. 1): 13 ofert w feedzie, szukam: acmemarkets.com, andersonlumbercompany.com, b2b.wertykal.com, backcountry.com, beta.walmart.com, bike-magazin.de, bike-x.de, bike24.com, bike24.de, bikeshoes.com, biwakschachtel-tuebingen.de, bol.com (+39)
+[SHOPPING] Lake MX190-X Wide (gl=de, serper, fraza 2, str. 1): 17 ofert w feedzie, szukam: acmemarkets.com, andersonlumbercompany.com, b2b.wertykal.com, backcountry.com, beta.walmart.com, bike-magazin.de, bike-x.de, bike24.com, bike24.de, bikeshoes.com, biwakschachtel-tuebingen.de, bol.com (+39)
+  - bike24.de: tytul nie pasuje do produktu ('Lake MXZ120 MTB Winter Shoes')
+  - bike24.de: tytul nie pasuje do produktu ('Lake MX239 MTB-Schuhe Herren - schwarz/schwarz')
+  - bike24.de: tytul nie pasuje do produktu ('Lake MX239 Gravel Schuhe Herren - Breit - clarino white/blac')
+  - bike24.de: tytul nie pasuje do produktu ('Lake MX239 Gravel Schuhe Herren - Breit - recycled leather b')
+[SHOPPING] Lake MX190-X Wide (gl=nl, serper, fraza 1, str. 1): 22 ofert w feedzie, szukam: bike24.nl, futurumshop.nl, martens-tweewielers.nl, optimalcyclingenfysio.nl
+  - futurumshop.nl: tytul nie pasuje do produktu ('Lake MX242 Camo/Black')
+[SHOPPING] Lake MX190-X Wide (gl=nl, serper, fraza 2, str. 1): 18 ofert w feedzie, szukam: bike24.nl, futurumshop.nl, martens-tweewielers.nl, optimalcyclingenfysio.nl
+  - futurumshop.nl: tytul nie pasuje do produktu ('Lake CX190 Road Cycling shoes White')
+  - futurumshop.nl: tytul nie pasuje do produktu ('Lake MX219 MTB shoes')
+  - bike24.nl: tytul nie pasuje do produktu ('MXZ120, Regular / Black/Sand / 36')
+  - futurumshop.nl: tytul nie pasuje do produktu ('MXZ21 Black/Black')
+  + futurumshop.nl: 199.0 EUR = 861.29 PLN [Google Shopping] [wariant 45 NIEZWERYFIKOWANY - tytul feedu]
+[SHOPPING] Lake MX190-X Wide (gl=pl, serper, fraza 1, str. 1): 17 ofert w feedzie, szukam: bike24.pl, deporvillage.pl, koloshop.pl
+  - deporvillage.pl: tytul nie pasuje do produktu ('Lake CX190 Road Cycling Shoes White')
+[SHOPPING] Lake MX190-X Wide (gl=pl, serper, fraza 2, str. 1): 19 ofert w feedzie, szukam: bike24.pl, deporvillage.pl, koloshop.pl
+  - bike24.pl: tytul nie pasuje do produktu ('Lake Cycling Lake MX169 MTB Shoes')
+  - bike24.pl: tytul nie pasuje do produktu ('Lake MX219 MTB Shoes')
+  - bike24.pl: tytul nie pasuje do produktu ('Lake MXZ120 MTB Winter Shoes Men')
+  + bike24.pl: 640.64 PLN = 640.64 PLN [Google Shopping] [wariant 45 NIEZWERYFIKOWANY - tytul feedu]
+[SHOPPING] DT Swiss Fatbike: pomijam kraje cz, nl, be, ch, fr, se, at (limit 3/produkt/run)
+[SHOPPING] DT Swiss Fatbike (gl=de, serper, fraza 1, str. 1): 30 ofert w feedzie, szukam: 365cycles.com, alpinebikeworks.com, alumach.com, bdc-mag.com, bicyclehabitat.com, bicyclepedaler.com, bike-x.de, bike24.com, bike24.de, bikedirection.com, bikeparts.com, bikespecht.com (+42)
 [SHOPPING] Budzet zapytan na ten run wyczerpany
-  ! DT Swiss Fatbike: odrzucam outlier 81.8 PLN (cingolanibikeshop.com) - ponizej 25% mediany (420.0 PLN)
-  ! DT Swiss Fatbike: odrzucam outlier 47.18 PLN (cingolanibikeshop.com) - ponizej 25% mediany (420.0 PLN)
-  ! DT SWISS 350 12x148: odrzucam outlier 125.51 PLN (whizz-wheels.de) - ponizej 25% mediany (869.17 PLN)
-  ! DT SWISS 350 12x148: odrzucam outlier 172.69 PLN (whizz-wheels.de) - ponizej 25% mediany (869.17 PLN)
-  ! DT SWISS 350 12x148: odrzucam outlier 168.36 PLN (whizz-wheels.de) - ponizej 25% mediany (869.17 PLN)
-  ! DT SWISS 350 12x148: odrzucam outlier 77.47 PLN (whizz-wheels.de) - ponizej 25% mediany (869.17 PLN)
-  ! DT SWISS 350 12x148: odrzucam outlier 199.0 PLN (olx.pl) - ponizej 25% mediany (869.17 PLN)
-  ! DT SWISS 350 12x148: odrzucam outlier 86.56 PLN (whizz-wheels.de) - ponizej 25% mediany (869.17 PLN)
-  ! DT SWISS 350 12x148: odrzucam outlier 51.89 PLN (alltricks.nl) - ponizej 25% mediany (869.17 PLN)
-  ! DT SWISS 350 12x148: odrzucam outlier 110.0 PLN (olx.pl) - ponizej 25% mediany (869.17 PLN)
-  ! DT SWISS 350 12x148: odrzucam outlier 199.0 PLN (olx.pl) - ponizej 25% mediany (869.17 PLN)
-  ! Cane Creek 40 IS41/IS52: odrzucam outlier 30.25 PLN (gocycle.de) - ponizej 25% mediany (276.78 PLN)
-[SERPER] Kredyty: zuzyte 500 w tym runie, lacznie 1531 z 2500 (pozostalo 969)
-[BLIND] GX-T-KIT: bez ceny (sklep blokuje, Google nie pokryl): absolubike.fr, andersonlumbercompany.com, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.nl, bikechill.pl, competitivecyclist.com, cyklomania.pl, deporvillage.nl, homedepot.com, idealo.es, idealo.fr, kliky.heureka.cz, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, lowes.com, razeni.heureka.cz, reactionteam.org, rei.com, retezy.heureka.cz, rgbikes.com, sprint-rowery.pl, velofactory.ch, velonova.lt
-[BLIND] GX-T-CHAIN: bez ceny (sklep blokuje, Google nie pokryl): absolubike.fr, ampbike.pl, bike24.at, bike24.com, bike24.es, bike24.fr, bike24.it, bikeimport.ch, bikemag.com, competitivecyclist.com, cyklomania.pl, fiets.nl, fresherica.com, gambacicli.fr, granisa.com, idealo.es, idealo.fr, kliky.heureka.cz, lordgun.com, lordgunbicycles.com, mtb-mag.com, ociodeporte.es, rei.com, snyt-primka.cz, sportler.com, velofactory.ch, velonova.lt, velosiped.com
-[BLIND] Ritchey WCS Carbon ErgoMax: bez ceny (sklep blokuje, Google nie pokryl): 365cycles.com, absolubike.fr, agriper.nl, all4bikes.be, bbb.org, bike24.at, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.pl, bikeparts.com, cinevittoria.it, cyklomania.pl, deporvillage.net, deporvillage.nl, faithchurchonaway.org, galaxus.ch, idealo.es, idealo.fr, klub300.cz, leboncoin.fr, pianowithjonny.com, r2-bike.com, rat-bikes.eu, rei.com, ridinggravel.com, sport365.cz, trenerterapeut.cz, velodrome-cycling.com, velofactory.ch, whitepages.com
-[BLIND] SUPERLOGIC-ERGOMAX: bez ceny (sklep blokuje, Google nie pokryl): bike24.at, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.nl, bike24.pl, bks-dachbau.de, deporvillage.cz, deporvillage.net, deporvillage.nl, galaxus.ch, gambacicli.fr, heureka.cz, idealo.at, idealo.es, idealo.fr, leboncoin.fr, lordgun.com, lordgun.de, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, rat-bikes.com, rat-bikes.eu, rei.com, rennrad-news.de, srovnanicen.cz
-[BLIND] Canyon S14 VCLS 2.0: bez ceny (sklep blokuje, Google nie pokryl): forum.ridinggravel.com, radforum.de, rennrad-news.de, velonova.ee, velonova.lt
-[BLIND] ROCK SHOX SID: bez ceny (sklep blokuje, Google nie pokryl): absolubike.fr, announcementconverters.com, axevotech.eu, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.pl, community.mtb-mag.com, cyklomania.pl, deporvillage.nl, dev.nanobike.de, fiets.nl, gambacicli.fr, heureka.cz, idealo.es, mtb-mag.com, r2-bike.com, rat-bikes.eu, silverbackbikes.de, sprint-rowery.pl, starbike.com, velofactory.ch, vidlice.heureka.cz
+  + r2-bike.com: 64.5 EUR = 279.16 PLN [Google Shopping]
+  + bike24.de: 29.99 EUR = 129.8 PLN [Google Shopping]
+[AUTH] google: dostep odrzucony (HTTP 403) - wylaczam silnik do konca runu. Custom Search JSON API jest zamkniete dla nowych klientow (od 2026; starzy do 2027-01-01). Warstwa CSE dziala tylko na starych projektach Google Cloud - jesli nie masz takiego, usun sekrety GOOGLE_API_KEY/GOOGLE_CX.
+[AUTH] google: poczatek odpowiedzi: { "error": { "code": 403, "message": "This project does not have the access to Custom Search JSON API.", "errors": [ { "me
+  ! DT Swiss Fatbike: odrzucam outlier 81.8 PLN (cingolanibikeshop.com) - ponizej 25% mediany (413.41 PLN)
+  ! DT Swiss Fatbike: odrzucam outlier 47.18 PLN (cingolanibikeshop.com) - ponizej 25% mediany (413.41 PLN)
+  ! DT SWISS 350 12x148: odrzucam outlier 125.51 PLN (whizz-wheels.de) - ponizej 25% mediany (864.17 PLN)
+  ! DT SWISS 350 12x148: odrzucam outlier 172.69 PLN (whizz-wheels.de) - ponizej 25% mediany (864.17 PLN)
+  ! DT SWISS 350 12x148: odrzucam outlier 168.36 PLN (whizz-wheels.de) - ponizej 25% mediany (864.17 PLN)
+  ! DT SWISS 350 12x148: odrzucam outlier 77.47 PLN (whizz-wheels.de) - ponizej 25% mediany (864.17 PLN)
+  ! DT SWISS 350 12x148: odrzucam outlier 90.0 PLN (olx.pl) - ponizej 25% mediany (864.17 PLN)
+  ! DT SWISS 350 12x148: odrzucam outlier 86.56 PLN (whizz-wheels.de) - ponizej 25% mediany (864.17 PLN)
+  ! DT SWISS 350 12x148: odrzucam outlier 51.89 PLN (alltricks.nl) - ponizej 25% mediany (864.17 PLN)
+  ! DT SWISS 350 12x148: odrzucam outlier 110.0 PLN (olx.pl) - ponizej 25% mediany (864.17 PLN)
+  ! DT SWISS 350 12x148: odrzucam outlier 199.0 PLN (olx.pl) - ponizej 25% mediany (864.17 PLN)
+  ! Cane Creek 40 IS41/IS52: odrzucam outlier 30.25 PLN (gocycle.de) - ponizej 25% mediany (279.55 PLN)
+[SERPER] Kredyty: zuzyte 36 w tym runie, lacznie 1567 z 2500 (pozostalo 933)
+[BLIND] Cane Creek 40 IS41/IS52: bez ceny (sklep blokuje, Google nie pokryl): bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.lu, bike24.nl, bike24.pl, competitivecyclist.com, decathlon.it, dstewart.com, galaxus.ch, grabagun.com, homedepot.com, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, mtb-mag.com, novicedock.com, r2-bike.com, rat-bikes.com, rat-bikes.eu
+[BLIND] Ritchey WCS Carbon ErgoMax: bez ceny (sklep blokuje, Google nie pokryl): 365cycles.com, absolubike.fr, agriper.nl, all4bikes.be, bbb.org, bike24.at, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.pl, bikeparts.com, carrefour.es, cinevittoria.it, cyklomania.pl, deporvillage.com, deporvillage.fr, deporvillage.it, deporvillage.net, deporvillage.nl, deporvillage.pl, faithchurchonaway.org, galaxus.ch, idealo.es, idealo.fr, klub300.cz, leboncoin.fr, pianowithjonny.com, r2-bike.com, rat-bikes.eu, rei.com, ridinggravel.com, sport365.cz, trenerterapeut.cz, velodrome-cycling.com, velofactory.ch, whitepages.com
+[BLIND] GX-T-CHAIN: bez ceny (sklep blokuje, Google nie pokryl): absolubike.fr, ampbike.pl, bike24.at, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.pl, bikemag.com, ciclesberenguer.com, competitivecyclist.com, cyklomania.pl, fiets.nl, fresherica.com, gambacicli.fr, granisa.com, hibike.com, idealo.es, idealo.fr, kliky.heureka.cz, lordgun.com, lordgun.de, lordgunbicycles.com, mtb-mag.com, ociodeporte.es, powermetercity.com, r2-bike.com, rei.com, retezy.heureka.cz, snyt-primka.cz, sportler.com, velofactory.ch, velonova.lt, velosiped.com
+[BLIND] Lake MX190-X Wide: bez ceny (sklep blokuje, Google nie pokryl): backcountry.com, bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fi, bike24.fr, bike24.it, bike24.nl, bol.com, competitivecyclist.com, de.lakecycling.com, deporvillage.pl, dstewart.com, hillnmarkes.com, lowes.com, microcenter.com, outdoor49.com, steepandcheap.com
+[BLIND] SUPERLOGIC-ERGOMAX: bez ceny (sklep blokuje, Google nie pokryl): bike24.at, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.nl, bike24.pl, bks-dachbau.de, deporvillage.com, deporvillage.cz, deporvillage.de, deporvillage.fr, deporvillage.it, deporvillage.net, deporvillage.nl, deporvillage.pl, galaxus.ch, gambacicli.fr, heureka.cz, idealo.at, idealo.es, idealo.fr, leboncoin.fr, lordgun.com, lordgun.de, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, rat-bikes.com, rat-bikes.eu, rei.com, rennrad-news.de, srovnanicen.cz
+[BLIND] GX-T-KIT: bez ceny (sklep blokuje, Google nie pokryl): absolubike.fr, andersonlumbercompany.com, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.nl, bike24.pl, bikechill.pl, competitivecyclist.com, cyklomania.pl, deporvillage.nl, hibike.com, homedepot.com, idealo.es, idealo.fr, kliky.heureka.cz, lordgun.de, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, lowes.com, picclick.com, r2-bike.com, razeni.heureka.cz, reactionteam.org, rei.com, retezy.heureka.cz, rgbikes.com, sprint-rowery.pl, velofactory.ch, velonova.lt
+[BLIND] DT SWISS 350 12x148: bez ceny (sklep blokuje, Google nie pokryl): bike24.at, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.nl, bike24.pl, campingtour.fr, community.mtb-mag.com, deporvillage.com, deporvillage.cz, deporvillage.de, deporvillage.it, deporvillage.net, deporvillage.nl, deporvillage.pl, heureka.cz, idealo.es, lordgun.de, lordgunbicycles.com, ltmracing.com, mrozbike.pl, prowheelbuilder.com, r2-bike.com, reinwald-gaertnerei.de, sovertrans.pl, the-witcher.cz, utadka.eu, vastutalks.com, velofactory.ch, velosiped.com
+[BLIND] ROCK SHOX SID: bez ceny (sklep blokuje, Google nie pokryl): absolubike.fr, announcementconverters.com, axevotech.eu, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.pl, community.mtb-mag.com, crescentelectric.com, cyklomania.pl, deporvillage.com, deporvillage.nl, dev.nanobike.de, fiets.nl, gambacicli.fr, heureka.cz, idealo.es, mtb-mag.com, r2-bike.com, rat-bikes.eu, sprint-rowery.pl, starbike.com, ubuy.fr, velofactory.ch, vidlice.heureka.cz
+[BLIND] FARGO-STEEL: bez ceny (sklep blokuje, Google nie pokryl): benscycle.com, bike24.com, bike24.fr, bike24.it, bike24.lu, bike24.pl, competitivecyclist.com, elliot.de, mercoradecoracion.com, opticycles.com, rat-bikes.com, rat-bikes.eu, redrockbicycle.com
+[BLIND] Canyon S14 VCLS 2.0: bez ceny (sklep blokuje, Google nie pokryl): forum.ridinggravel.com, radforum.de, rennrad-news.de, ricardo.ch, velonova.ee, velonova.lt
 [BLIND] FARGO-TI: bez ceny (sklep blokuje, Google nie pokryl): 2peaksbikes.com, benscycle.com, bike24.com, bike24.it, bike24.lu, bike24.nl, bike24.pl, competitivecyclist.com, galaxus.ch, galaxus.fr, galaxus.it, papa-wheelies.com, rat-bikes.com, rat-bikes.eu, redrockbicycle.com, subito.it
-[BLIND] Cane Creek 40 IS41/IS52: bez ceny (sklep blokuje, Google nie pokryl): bike24.at, bike24.be, bike24.com, bike24.es, bike24.fr, bike24.it, bike24.lu, bike24.nl, bike24.pl, competitivecyclist.com, decathlon.it, galaxus.ch, homedepot.com, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, mtb-mag.com, novicedock.com, rat-bikes.com, rat-bikes.eu
-[BLIND] Lake MX190-X Wide: bez ceny (sklep blokuje, Google nie pokryl): backcountry.com, bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fi, bike24.fr, bike24.it, bike24.nl, bike24.pl, bol.com, competitivecyclist.com, hillnmarkes.com, lowes.com, outdoor49.com, steepandcheap.com
-[BLIND] Lake MX242: bez ceny (sklep blokuje, Google nie pokryl): backcountry.com, bike24.com, bike24.de, bike24.es, bike24.it, bike24.pl, britannica.com, cart2india.com, competitivecyclist.com, deporvillage.cz, deporvillage.net, deporvillage.nl, idealo.es, idealo.fr, kroger.com, lowes.com, racycles.com, singletrackworld.com, zoro.com
-[BLIND] FARGO-STEEL: bez ceny (sklep blokuje, Google nie pokryl): benscycle.com, bike24.com, bike24.fr, bike24.it, bike24.lu, bike24.pl, bmxavenue.com, competitivecyclist.com, elliot.de, mercoradecoracion.com, opticycles.com, rat-bikes.com, rat-bikes.eu, redrockbicycle.com
-[BLIND] DT SWISS 350 12x148: bez ceny (sklep blokuje, Google nie pokryl): bike24.at, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.nl, bike24.pl, campingtour.fr, community.mtb-mag.com, deporvillage.cz, deporvillage.net, deporvillage.nl, heureka.cz, idealo.es, lordgun.de, lordgunbicycles.com, ltmracing.com, mrozbike.pl, prowheelbuilder.com, r2-bike.com, reinwald-gaertnerei.de, sovertrans.pl, the-witcher.cz, utadka.eu, vastutalks.com, velofactory.ch, velosiped.com
-[BLIND] FM2797: bez ceny (sklep blokuje, Google nie pokryl): bike24.es, bike24.it, bikeflip.com, bmxavenue.com, crazyguyonabike.com, heb.com, papa-wheelies.com, rat-bikes.com, rat-bikes.eu, via-camina.fr, yawpcyclery.com
-[BLIND] DT Swiss Fatbike: bez ceny (sklep blokuje, Google nie pokryl): alumach.com, bdc-mag.com, bike24.com, bike24.de, bike24.fr, bike24.it, bike24.nl, bike24.pl, community.mtb-mag.com, fat-bike.de, fiets.nl, kstoerz.com, las4cimas.com, mrozbike.pl, naboje.heureka.cz, olympiateatern.se, prowheelbuilder.com, r2-bike.com, speedgearbike.com, stat.gov.pl, thebicyclestation.com, velofactory.ch, velosiped.com
+[BLIND] Lake MX242: bez ceny (sklep blokuje, Google nie pokryl): backcountry.com, bike24.com, bike24.de, bike24.es, bike24.it, bike24.pl, britannica.com, cart2india.com, competitivecyclist.com, de.lakecycling.com, deporvillage.com, deporvillage.cz, deporvillage.de, deporvillage.fr, deporvillage.it, deporvillage.net, deporvillage.nl, deporvillage.pl, idealo.es, idealo.fr, kroger.com, lowes.com, racycles.com, singletrackworld.com, zoro.com
+[BLIND] LAUF-CARBONARA: bez ceny (sklep blokuje, Google nie pokryl): bikestoredirect.com
+[BLIND] DT Swiss Fatbike: bez ceny (sklep blokuje, Google nie pokryl): alumach.com, bdc-mag.com, bike24.com, bike24.fr, bike24.it, bike24.nl, bike24.pl, community.mtb-mag.com, deporvillage.it, fat-bike.de, fiets.nl, kstoerz.com, las4cimas.com, mrozbike.pl, naboje.heureka.cz, olympiateatern.se, prowheelbuilder.com, velofactory.ch, velosiped.com
+[BLIND] FM2797: bez ceny (sklep blokuje, Google nie pokryl): bike24.es, bike24.it, bikeflip.com, crazyguyonabike.com, heb.com, papa-wheelies.com, rat-bikes.com, rat-bikes.eu, via-camina.fr, yawpcyclery.com
 [HISTORIA] FM2797: najnizsza 10030.37 PLN (imfixies.it)
 [HISTORIA] FARGO-TI: najnizsza 11681.54 PLN (bike-packing.de)
 [HISTORIA] FARGO-STEEL: najnizsza 5189.39 PLN (bike-packing.de)
-[HISTORIA] LAUF-CARBONARA: najnizsza 4503.67 PLN (laufcycles.com)
+[HISTORIA] LAUF-CARBONARA: najnizsza 3746.75 PLN (fullsusbikes.com)
+[HISTORIA] IBS-V1X: najnizsza 1464.64 PLN (cyclingupgrades.com)
 [HISTORIA] Lake MX190-X Wide: najnizsza 467.39 PLN (alltricks.nl)
-[HISTORIA] DT Swiss Fatbike: najnizsza 209.13 PLN (use-elitebikes.com)
+[HISTORIA] DT Swiss Fatbike: najnizsza 129.8 PLN (bike24.de)
 [HISTORIA] DT SWISS 350 12x148: najnizsza 228.96 PLN (whizz-wheels.de)
 [HISTORIA] Ritchey WCS Carbon ErgoMax: najnizsza 1078.59 PLN (bikeshopzizers.ch)
 [HISTORIA] SUPERLOGIC-ERGOMAX: najnizsza 860.86 PLN (actionsports.de)
 [HISTORIA] Canyon S14 VCLS 2.0: najnizsza 735.73 PLN (canyon.com)
 [HISTORIA] GX-T-KIT: najnizsza 1294.1 PLN (bike-components.de)
 [HISTORIA] GX-T-CHAIN: najnizsza 81.8 PLN (cingolanibikeshop.com)
-[HISTORIA] Cane Creek 40 IS41/IS52: najnizsza 134.13 PLN (bike24.de)
+[HISTORIA] Cane Creek 40 IS41/IS52: najnizsza 151.05 PLN (last-bikes.com)
 [HISTORIA] ROCK SHOX SID: najnizsza 1380.66 PLN (buycycle.com)
 [HISTORIA] Lake MX242: najnizsza 1117.95 PLN (bike-discount.de)
 [EXCEL] Zapisano /home/runner/work/PriceChecker/PriceChecker/output/prices.xlsx
-[CZAS] FIRE: przebieg trwal 163 min 20 s
+[CZAS] Light FIRE: przebieg trwal 145 min 56 s
 [DASHBOARD] Zapisano /home/runner/work/PriceChecker/PriceChecker/output/dashboard.html (+ docs/index.html dla GitHub Pages)
 Gotowe.

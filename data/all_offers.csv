@@ -2019,8 +2019,9 @@ date,product_id,domain,price,currency,price_pln,availability,url,via
 2026-07-13,LAUF-CARBONARA,fatbikeadventures-store.com,1100.0,EUR,4760.91,instock,https://fatbikeadventures-store.com/products/lauf-carbonara-fatbike-fork,
 2026-07-13,LAUF-CARBONARA,bikeman.com,1190.0,USD,4503.67,instock,https://www.bikeman.com/FK2723.html,
 2026-07-13,LAUF-CARBONARA,laufcycles.com,1190.0,USD,4503.67,instock,https://www.laufcycles.com/product/lauf-grit-sl,
+2026-07-13,LAUF-CARBONARA,fullsusbikes.com,990.0,USD,3746.75,instock,https://www.fullsusbikes.com/product/lauf-carbonara-fat-bike-suspension-fork,
+2026-07-13,IBS-V1X,cyclingupgrades.com,387.0,USD,1464.64,instock,https://www.cyclingupgrades.com/products/new-_infinity_vegan_v1x_black_7x7mm_stainless_rails_saddle06242025-1104-05,
 2026-07-13,Lake MX190-X Wide,fahrrad-sperk.de,199.0,EUR,861.29,instock,https://www.fahrrad-sperk.de/product/lake-mx190-x-wide-111253/,
-2026-07-13,Lake MX190-X Wide,de.lakecycling.com,199.0,EUR,861.29,instock,https://de.lakecycling.com/products/mx190,
 2026-07-13,Lake MX190-X Wide,nl.lakecycling.com,199.0,EUR,861.29,instock,https://nl.lakecycling.com/en/collections/mtb/products/mx190,
 2026-07-13,Lake MX190-X Wide,nl.lakecycling.com,199.0,EUR,861.29,instock,https://nl.lakecycling.com/en/products/mx190,
 2026-07-13,Lake MX190-X Wide,varuste.net,180.33,EUR,780.49,instock,https://varuste.net/en/p140724/lake-mx190-x-wide,
@@ -2031,7 +2032,7 @@ date,product_id,domain,price,currency,price_pln,availability,url,via
 2026-07-13,Lake MX190-X Wide,d-cycling.nl,199.0,EUR,861.29,instock,https://www.d-cycling.nl/Lake-MX190-MTB-schoen,
 2026-07-13,Lake MX190-X Wide,cyclexperience.nl,199.0,EUR,861.29,instock,https://cyclexperience.nl/en/webshop/fietsschoenen/mountainbike-gravelbike-schoenen/lake-schoenen-mtb-mx190/,
 2026-07-13,Lake MX190-X Wide,bikeandtravel.nl,199.0,EUR,861.29,instock,https://www.bikeandtravel.nl/p/lake-cx190-regular-en-wide,
-2026-07-13,Lake MX190-X Wide,bikeshoe4u.com,193.0,EUR,835.32,instock,https://www.bikeshoe4u.com/products/mx190-black-black,
+2026-07-13,Lake MX190-X Wide,bikeshoe4u.com,192.0,EUR,831.0,instock,https://www.bikeshoe4u.com/products/mx190-black-black,
 2026-07-13,Lake MX190-X Wide,bike-discount.de,139.3,EUR,602.9,instock,https://www.bike-discount.de/de/lake-mx190-mtb-schuhe,
 2026-07-13,Lake MX190-X Wide,bike-discount.de,139.3,EUR,602.9,instock,https://www.bike-discount.de/en/lake-mx190-mtb-shoes,
 2026-07-13,Lake MX190-X Wide,sport-bittl.com,165.0,EUR,714.14,instock,https://www.sport-bittl.com/en/lake-mx190-mountainbike-shoes-black::255385.html,
@@ -2042,8 +2043,6 @@ date,product_id,domain,price,currency,price_pln,availability,url,via
 2026-07-13,Lake MX190-X Wide,sport-bittl.com,165.0,EUR,714.14,instock,https://www.sport-bittl.com/de/lake-mx190-mountainbikeschuhe-schwarz::255385.html,
 2026-07-13,Lake MX190-X Wide,alltricks.nl,107.99,EUR,467.39,instock,https://www.alltricks.nl/C-1586355-lake,
 2026-07-13,Lake MX190-X Wide,johnknoops.nl,199.0,EUR,861.29,instock,https://johnknoops.nl/product/lake-cycling-schoen-mx190-black/,
-2026-07-13,Lake MX190-X Wide,de.lakecycling.com,199.0,EUR,861.29,instock,https://de.lakecycling.com/en/products/mx190,
-2026-07-13,Lake MX190-X Wide,de.lakecycling.com,199.0,EUR,861.29,instock,https://de.lakecycling.com/collections/mtb/products/mx190,
 2026-07-13,Lake MX190-X Wide,varuste.net,180.33,EUR,780.49,instock,https://varuste.net/nl/p140724/lake-mx190-x-wide,
 2026-07-13,Lake MX190-X Wide,kerda.cz,4490.0,CZK,801.02,instock,https://www.kerda.cz/tretry-mtb-sportovni/13530-tretry-lake-mx190-x-wide-cerna-8718568168286.html,
 2026-07-13,Lake MX190-X Wide,cyclexperience.nl,199.0,EUR,861.29,instock,https://cyclexperience.nl/de/webshop/fietsschoenen/mountainbike-gravelbike-schoenen/lake-schoenen-mtb-mx190/,
@@ -2088,7 +2087,7 @@ date,product_id,domain,price,currency,price_pln,availability,url,via
 2026-07-13,DT Swiss Fatbike,jpracingbike1.com,165.62,EUR,716.82,instock,https://www.jpracingbike1.com/fr/6112-moyeu-dt-swiss-350-classic-disc-arriere.html,
 2026-07-13,DT Swiss Fatbike,bike-discount.de,179.99,EUR,779.01,instock,https://www.bike-discount.de/en/dt-swiss-350-classic-fatbike-disc-6-bolt-12x197mm-rear-hub-20102925-20204327,
 2026-07-13,DT Swiss Fatbike,jpracingbike1.com,62.3,EUR,269.64,instock,https://www.jpracingbike1.com/en/6113-dt-swiss-350-classic-disc-front-hub.html,
-2026-07-13,DT Swiss Fatbike,velotracker.pl,844.99,PLN,844.99,instock,https://www.velotracker.pl/produkt/piasta-dt-swiss-350-hybrid-tylna,
+2026-07-13,DT Swiss Fatbike,velotracker.pl,846.49,PLN,846.49,instock,https://www.velotracker.pl/produkt/piasta-dt-swiss-350-hybrid-tylna,
 2026-07-13,DT Swiss Fatbike,koloshop.pl,1206.49,PLN,1206.49,instock,https://www.koloshop.pl/dt-swiss-350-classic-fatbike-ms-dbis-tylna-piasta-12-157-mm-32-otworow/170337,
 2026-07-13,DT Swiss Fatbike,centrumrowerowe.pl,319.99,PLN,319.99,instock,https://www.centrumrowerowe.pl/piasta-przednia-dt-swiss-350-straightpull-pd795/,
 2026-07-13,DT Swiss Fatbike,mtbiker.pl,399.0,PLN,399.0,instock,https://www.mtbiker.pl/shop/kola-i-obrecze/piasty/szosowe/dt-swiss-350-przednia-piasta-centerlock-12x100-mm-p246650.html,
@@ -2104,7 +2103,6 @@ date,product_id,domain,price,currency,price_pln,availability,url,via
 2026-07-13,DT SWISS 350 12x148,fahrrad24.de,196.13,EUR,848.87,instock,https://www.fahrrad24.de/dt-swiss-350-mtb-db-hinterradnabe-142-12mm-ta-cl-32-loch-sram-xd.html,
 2026-07-13,DT SWISS 350 12x148,mtbiker.de,209.0,EUR,904.57,instock,https://www.mtbiker.de/shop/laufrader-und-felgen/naben/mtb-naben-fur-scheibenrader/dt-swiss-350-classic-hinterradnabe-6-loch-32-locher-12x157-mm-sram-xd-p250010.html,
 2026-07-13,DT SWISS 350 12x148,cingolanibikeshop.com,204.9,EUR,886.83,instock,https://www.cingolanibikeshop.com/mozzo-dt-swiss-350-disc-cl-boost-12x148mm-sram-posteriore-nero.html,
-2026-07-13,DT SWISS 350 12x148,deporvillage.it,212.95,EUR,921.67,instock,https://www.deporvillage.it/mozzo-posteriore-dt-swiss-350-straightpull-mtb-12x148-mm-boost-per-sram-xd,
 2026-07-13,DT SWISS 350 12x148,mtbiker.it,249.0,EUR,1077.7,instock,https://www.mtbiker.it/shop/ruote-e-cerchi/mozzi-per-bici-/mozzi-disco-mtb/dt-swiss-350-boost-mozzo-posteriore-32-fori-12x148-mm-centerlock-corpetto-sram-xd-p188909.html,
 2026-07-13,DT SWISS 350 12x148,velondo.it,201.07,EUR,870.25,instock,https://www.velondo.it/dt-swiss-350-mtb-db-hinterradnabe-148-12mm-ta-boost-cl-32-loch-sram-xd.html,
 2026-07-13,DT SWISS 350 12x148,bikestacja.pl,922.99,PLN,922.99,instock,https://www.bikestacja.pl/piasta-tylna-dt-swiss-350-mtb-centerlock-148x12-boost-32h-shimano-p-25717.html,
@@ -2159,7 +2157,6 @@ date,product_id,domain,price,currency,price_pln,availability,url,via
 2026-07-13,DT SWISS 350 12x148,bicycleparts24.fr,200.57,EUR,868.09,instock,https://bicycleparts24.fr/Moyeux/Moyeux-DT-Swiss/DT-350-Classic/Moyeux-arriere-DT-350-Classic/DT-350-Classic-Roue-arriere-Centerlock/Moyeu-arriere-DT-Swiss-350-Classic-Disc-Centerlock-Boost-12x148-mm-32-trous-Rotor-Sram-XD::54572.html,
 2026-07-13,DT SWISS 350 12x148,velondo.fr,197.78,EUR,856.01,instock,https://www.velondo.fr/dt-swiss-350-mtb-db-hinterradnabe-142-12mm-ta-cl-32-loch-sram-xd.html,
 2026-07-13,DT SWISS 350 12x148,legendwheels.com,69.99,EUR,302.92,instock,https://www.legendwheels.com/product-page/corps-de-roue-libre-dt-sram-xd-mtb-ratchet-350-240s-180cc/,
-2026-07-13,DT SWISS 350 12x148,deporvillage.com,212.95,EUR,921.67,instock,https://www.deporvillage.com/buje-trasero-dt-swiss-350-straightpull-mtb-12x148-mm-boost-para-sram-xd,
 2026-07-13,DT SWISS 350 12x148,velondo.es,199.43,EUR,863.15,instock,https://www.velondo.es/dt-swiss-350-mtb-db-hinterradnabe-148-12mm-ta-boost-is-6-bolt-32-loch-sram-xd.html,
 2026-07-13,DT SWISS 350 12x148,biciescapa.com,83.99,EUR,363.52,instock,https://www.biciescapa.com/es/ruedas/recambio-ruedas/recambios-ruedas/nucleo-dt-swiss-mtb-sram-xd-11-12-73277,
 2026-07-13,DT SWISS 350 12x148,endubikes.com,62.9,EUR,272.24,instock,https://endubikes.com/tienda/componentes-mtb/ruedas-mtb/nucleos-ruedas-mtb/dt-swiss-nucleo-ratchet/,
@@ -2176,7 +2173,6 @@ date,product_id,domain,price,currency,price_pln,availability,url,via
 2026-07-13,DT SWISS 350 12x148,endubikes.com,72.3,EUR,312.92,instock,https://endubikes.com/tienda/componentes-mtb/ruedas-mtb/bujes-mtb/dt-swiss-350-classic-6t/,
 2026-07-13,DT SWISS 350 12x148,thebikevillage.com,215.91,EUR,934.48,instock,https://www.thebikevillage.com/bujes-traseros/19104-buje-trasero-dt-swiss-350-12x148-28-agujeros-ratchet.html,
 2026-07-13,DT SWISS 350 12x148,centrumrowerowe.pl,799.99,PLN,799.99,instock,https://www.centrumrowerowe.pl/piasta-tylna-dt-swiss-350-pd794/,
-2026-07-13,DT SWISS 350 12x148,deporvillage.pl,887.29,PLN,887.29,instock,https://www.deporvillage.pl/tylna-piasta-dt-swiss-350-classic-mtb-12x148-mm-boost-disc-is-6-sruba,
 2026-07-13,DT SWISS 350 12x148,use-elitebikes.com,109.0,EUR,471.76,instock,https://www.use-elitebikes.com/naben/16053-dt-swiss-350-nabe-hinten-12x148-28l-disc-cl-neu.html,
 2026-07-13,DT SWISS 350 12x148,bike-discount.de,159.99,EUR,692.45,instock,https://www.bike-discount.de/de/dt-swiss-350-mtb-straightpull-disc-6-loch-boost-hinterradnabe,
 2026-07-13,DT SWISS 350 12x148,probikeshop.it,205.9,EUR,891.16,instock,https://probikeshop.it/products/dt-swiss-350-classic-12x148-mm-boost-6-fori-mozzo-posteriore-sram-xd,
@@ -2197,7 +2193,6 @@ date,product_id,domain,price,currency,price_pln,availability,url,via
 2026-07-13,DT SWISS 350 12x148,jpracingbike1.com,76.9,EUR,332.83,instock,https://www.jpracingbike1.com/fr/760-corps-de-roue-libre-dt-swiss-ratchet-xd.html,
 2026-07-13,DT SWISS 350 12x148,velondo.nl,199.43,EUR,863.15,instock,https://www.velondo.nl/dt-swiss-350-mtb-db-hinterradnabe-142-12mm-ta-cl-32-loch-sram-xd.html,
 2026-07-13,DT SWISS 350 12x148,mtbiker.it,199.0,EUR,861.29,instock,https://www.mtbiker.it/shop/ruote-e-cerchi/mozzi-per-bici-/mozzi-disco-mtb/dt-swiss-350-classic-mozzo-posteriore-6-fori-32-fori-12x148-mm-shimano-microspline-p188902.html,
-2026-07-13,DT SWISS 350 12x148,deporvillage.it,205.95,EUR,891.37,instock,https://www.deporvillage.it/mozzo-posteriore-dt-swiss-350-classic-mtb-12x148-mm-boost-disc-is-6-bolt,
 2026-07-13,DT SWISS 350 12x148,endubikes.com,72.3,EUR,312.92,instock,https://endubikes.com/tienda/componentes-mtb/ruedas-mtb/bujes-mtb/dt-swiss-350-classic-center-lock/,
 2026-07-13,DT SWISS 350 12x148,bikeshop.es,203.9,EUR,882.5,instock,https://bikeshop.es/products/buje-trasero-dt-swiss-350-classic-12x148-mm-boost-6-agujeros,
 2026-07-13,DT SWISS 350 12x148,mtbiker.it,199.0,EUR,861.29,instock,https://www.mtbiker.it/shop/ruote-e-cerchi/mozzi-per-bici-/mozzi-disco-mtb/mozzo-posteriore-dt-swiss-350-6-fori-28-fori-boost-12x148-mm-straightpull-corpetto-xd-p188917.html,
@@ -2207,7 +2202,6 @@ date,product_id,domain,price,currency,price_pln,availability,url,via
 2026-07-13,DT SWISS 350 12x148,bikestacja.pl,159.19,EUR,688.99,instock,https://www.bikestacja.pl/en/piasta-tylna-dt-swiss-350-6otw-boost-148x12-xd-32h-p-8445.html,
 2026-07-13,DT SWISS 350 12x148,bikestacja.pl,213.26,EUR,923.01,instock,https://www.bikestacja.pl/en/rear-hub-dt-swiss-350-mtb-centerlock-148x12-boost-32h-sram-xd-p-25802.html,
 2026-07-13,DT SWISS 350 12x148,foxcomp.fi,289.0,EUR,1250.82,instock,https://www.foxcomp.fi/dt-swiss-hub-350-xd-32h-rear-12x148,
-2026-07-13,DT SWISS 350 12x148,deporvillage.de,216.95,EUR,938.98,instock,https://www.deporvillage.de/dt-swiss-350-classic-mtb-boost-disc-is-6-bolt-hinterradnabe-12x148-mm,
 2026-07-13,DT SWISS 350 12x148,mtbiker.pl,1099.0,PLN,1099.0,instock,https://www.mtbiker.pl/shop/kola-i-obrecze/piasty/klasyczne-mtb/dt-swiss-350-classic-tylna-piasta-32-otworow-cl-sram-xd-12x142-mm-p337634.html,
 2026-07-13,DT SWISS 350 12x148,velondo.pl,871.55,PLN,871.55,instock,https://www.velondo.pl/dt-swiss-350-mtb-db-hinterradnabe-148-12mm-ta-boost-cl-32-loch-sram-xd.html,
 2026-07-13,DT SWISS 350 12x148,mtbiker.cz,5799.0,CZK,1034.54,instock,https://www.mtbiker.cz/shop/kola-a-rafky/naboje/mtb-kotoucove/dt-swiss-350-boost-12x148-dbis-classic-zadni-naboj-32-der-orech-xd-p188897.html,
@@ -2215,13 +2209,12 @@ date,product_id,domain,price,currency,price_pln,availability,url,via
 2026-07-13,DT SWISS 350 12x148,velondo.es,199.43,EUR,863.15,instock,https://www.velondo.es/dt-swiss-350-mtb-db-hinterradnabe-148-12mm-ta-boost-cl-32-loch-sram-xd.html,
 2026-07-13,DT SWISS 350 12x148,9thwave-cycling.com,65.0,EUR,281.33,instock,https://9thwave-cycling.com/product/dt-swiss-ratchet-freehub-sram-xd-11-12-speed/,
 2026-07-13,DT SWISS 350 12x148,mtbiker.shop,209.0,EUR,904.57,instock,https://www.mtbiker.shop/shop/wheels-and-rims/hubs/mtb-disc/dt-swiss-350-classic-rear-hub-6-bolt-32-holes-12x157-mm-sram-xd-p250010.html,
-2026-07-13,DT SWISS 350 12x148,deporvillage.com,205.95,EUR,891.37,instock,https://www.deporvillage.com/buje-trasero-dt-swiss-350-classic-mtb-12x148-mm-boost-disc-is-6-bolt,
 2026-07-13,DT SWISS 350 12x148,componentsbike.com,259.9,EUR,1124.87,instock,https://componentsbike.com/prodotto/dt-swiss-mozzo-rear-350-classic-ratchet-deg-90-298-gr/,
 2026-07-13,Ritchey WCS Carbon ErgoMax,bikeshopzizers.ch,230.34,CHF,1078.59,instock,https://bikeshopzizers.ch/ritchey-road-lenker-wcs-ergomax-42cm-c-c-oben-ud-carbon-31-8mm/,
 2026-07-13,SUPERLOGIC-ERGOMAX,mtbiker.pl,1599.0,PLN,1599.0,instock,https://www.mtbiker.pl/shop/komponenty/kierownice-i-rogi/kierownice-szosowe-i-gravelowe/ritchey-superlogic-ergomax-kierownica-318-mm-p396751.html,
 2026-07-13,SUPERLOGIC-ERGOMAX,bikejamming.it,269.99,EUR,1168.54,instock,https://www.bikejamming.it/en/30952-ritchey-superlogic-ergomax-carbon-comfort-gravel-handlebar.html,
 2026-07-13,SUPERLOGIC-ERGOMAX,zookee.cz,8490.0,CZK,1514.62,instock,https://www.zookee.cz/ritchey-riditka-s-integraci-superlogic-ergomax-40_z51274/,
-2026-07-13,SUPERLOGIC-ERGOMAX,starbike.com,216.53,CHF,1013.92,instock,https://www.starbike.com/de/ritchey-superlogic-ergo-max-di2-drop-lenker-31-8mm-15mm-5-12-interne-zugverlegung-ud-carbon-matt/,
+2026-07-13,SUPERLOGIC-ERGOMAX,starbike.com,2619.92,NOK,1014.96,instock,https://www.starbike.com/de/ritchey-superlogic-ergo-max-di2-drop-lenker-31-8mm-15mm-5-12-interne-zugverlegung-ud-carbon-matt/,
 2026-07-13,SUPERLOGIC-ERGOMAX,mtbiker.at,359.0,EUR,1553.79,instock,https://www.mtbiker.at/shop/komponenten/lenker-und-barends/rennrad-und-gravel-lenker/ritchey-superlogic-ergomax-lenker-318-mm-p396751.html,
 2026-07-13,SUPERLOGIC-ERGOMAX,sport365.cz,315.09,EUR,1363.74,instock,https://www.sport365.cz/ritchey-riditka-s-integraci-superlogic-ergomax-42/,
 2026-07-13,SUPERLOGIC-ERGOMAX,actionsports.de,198.9,EUR,860.86,instock,https://www.actionsports.de/ritchey-superlogic-carbon-flat-2x-31-8/710mm-lenker-25835,
@@ -2235,8 +2228,7 @@ date,product_id,domain,price,currency,price_pln,availability,url,via
 2026-07-13,SUPERLOGIC-ERGOMAX,mtbiker.it,359.0,EUR,1553.79,instock,https://www.mtbiker.it/shop/componenti/manubri-e-estremita-del-manubrio-corna/manubrio-per-bici-da-corsa-e-gravel-/ritchey-superlogic-ergomax-manubrio-318-mm-p396751.html,
 2026-07-13,SUPERLOGIC-ERGOMAX,bikeporn.cz,8490.0,CZK,1514.62,instock,https://www.bikeporn.cz/ritchey-riditka-s-integraci-superlogic-ergomax-40_z145161/,
 2026-07-13,SUPERLOGIC-ERGOMAX,zookee.cz,8490.0,CZK,1514.62,instock,https://www.zookee.cz/ritchey-riditka-s-integraci-superlogic-ergomax-38_z52020/,
-2026-07-13,SUPERLOGIC-ERGOMAX,starbike.com,216.53,CHF,1013.92,instock,https://www.starbike.com/fr/ritchey-superlogic-ergo-maxdi2-guidon-de-course-31-mm-8-mm-15-mm-5-mm-12-mm-passage-de-cables-interne-carbone-ud-mat/,
-2026-07-13,SUPERLOGIC-ERGOMAX,deporvillage.it,249.95,EUR,1081.81,instock,https://www.deporvillage.it/manubrio-ritchey-superlogic-venturemax-carbon-nero,
+2026-07-13,SUPERLOGIC-ERGOMAX,starbike.com,2619.92,NOK,1014.96,instock,https://www.starbike.com/fr/ritchey-superlogic-ergo-maxdi2-guidon-de-course-31-mm-8-mm-15-mm-5-mm-12-mm-passage-de-cables-interne-carbone-ud-mat/,
 2026-07-13,SUPERLOGIC-ERGOMAX,sport365.cz,315.09,EUR,1363.74,instock,https://www.sport365.cz/ritchey-riditka-s-integraci-superlogic-ergomax-40/,
 2026-07-13,Canyon S14 VCLS 2.0,canyon.com,199.99,EUR,865.58,instock,https://www.canyon.com/de-de/fahrradzubehoer/fahrradteile/sattelstuetze-sattelklemme/canyon-s14-vcls-2.0-27.2mm-cf-sattelstuetze/148286.html,
 2026-07-13,Canyon S14 VCLS 2.0,canyon.com,199.99,EUR,865.58,instock,https://www.canyon.com/en-de/gear/bike-parts/posts-and-clamps/canyon-s14-vcls-2.0-27.2mm-cf-seatpost/148286.html,
@@ -2308,6 +2300,7 @@ date,product_id,domain,price,currency,price_pln,availability,url,via
 2026-07-13,GX-T-KIT,bike-components.de,399.99,EUR,1731.2,instock,https://www.bike-components.de/de/SRAM/GX-AXS-T-Type-Upgrade-Kit-p228959/,
 2026-07-13,GX-T-KIT,probikeshop.de,499.9,EUR,2163.62,instock,https://probikeshop.de/products/upgrade-kit-gx-axs-t-type,
 2026-07-13,GX-T-KIT,bikehouse24.de,869.0,EUR,3761.12,instock,https://www.bikehouse24.de/de/product/sram-gx-axs-eagle-transmission-kit-fuer-bosch-160mm-93280/,
+2026-07-13,GX-T-CHAIN,bikeimport.ch,40.55,CHF,189.88,instock,https://bikeimport.ch/shop/product/42700/LINK,
 2026-07-13,GX-T-CHAIN,bike-discount.de,36.99,EUR,160.1,instock,https://www.bike-discount.de/de/sram-gx-eagle-transmission-flattop-12-fach-kette,
 2026-07-13,GX-T-CHAIN,veloruf.de,62.4,EUR,270.07,instock,https://www.veloruf.de/n/fahrradzubehoer.html?id=334690&art=160034494,
 2026-07-13,GX-T-CHAIN,bikestacja.pl,169.9,PLN,169.9,instock,https://www.bikestacja.pl/lancuch-sram-gx-eagle-t-type-12-speed-126l-spinka-p-23816.html,
@@ -2320,7 +2313,6 @@ date,product_id,domain,price,currency,price_pln,availability,url,via
 2026-07-13,GX-T-CHAIN,taddeistore.com,51.0,EUR,220.73,instock,https://taddeistore.com/prodotto/sram-catena-gx-eagle-flattop-t-type-12v/,
 2026-07-13,GX-T-CHAIN,alutech-cycles.com,29.99,EUR,129.8,instock,https://alutech-cycles.com/SRAM-chain-GX-T-Type-118-12-speed-silver,
 2026-07-13,GX-T-CHAIN,bike-discount.de,36.99,EUR,160.1,instock,https://www.bike-discount.de/en/sram-gx-eagle-transmission-flattop-12-speed-chain,
-2026-07-13,GX-T-CHAIN,hibike.com,37.0,EUR,160.14,instock,https://hibike.com/pl/shop/komponenty/prowadzic/wiezy/sram-gx-eagle-t-type-kette-12-fach-126-glieder-silver/?v=7c6d99660c8a,
 2026-07-13,GX-T-CHAIN,bikestacja.pl,39.26,EUR,169.92,instock,https://www.bikestacja.pl/en/sram-gx-eagle-t-type-12-speed-126l-chain-clip-p-23816.html,
 2026-07-13,GX-T-CHAIN,capobianchi.eu,44.9,EUR,194.33,instock,https://capobianchi.eu/en/products/catena-sram-12v-gx-eagle-126-maglie,
 2026-07-13,GX-T-CHAIN,diliecicli.it,51.9,EUR,224.63,instock,https://www.diliecicli.it/en/products/catena-sram-gx-eagle-t-type-flattop,
@@ -2384,7 +2376,6 @@ date,product_id,domain,price,currency,price_pln,availability,url,via
 2026-07-13,GX-T-CHAIN,rosebikes.nl,37.6,EUR,162.74,instock,https://www.rosebikes.nl/p/sram-gx-eagle-transmissiontm-12-speed-ketting-2721912,
 2026-07-13,GX-T-CHAIN,pedalmoto.com,39.5,EUR,170.96,instock,https://pedalmoto.com/es/cadenas-sram-12v/7946-sram-gx-eagle-t-type-flattop-12v-126-eslabones-cadena.html,
 2026-07-13,GX-T-CHAIN,biciescapa.com,108.0,EUR,467.43,instock,https://www.biciescapa.com/es/componentes/transmision/cadenas/cadena-sram-eagle-x0-flattop-12v-66992,
-2026-07-13,GX-T-CHAIN,hibike.com,37.0,EUR,160.14,instock,https://hibike.com/cs/shop/komponenty/ridit/retezy/sram-gx-eagle-t-type-kette-12-fach-126-glieder-silver/?v=7c6d99660c8a,
 2026-07-13,GX-T-CHAIN,mpracingbike.es,40.99,EUR,177.41,instock,https://mpracingbike.es/montaje-a-la-carta/151667-cadena-sram-gx-eagle-flattop-t-type-.html,
 2026-07-13,GX-T-CHAIN,best-bike-parts.de,49.9,EUR,215.97,instock,https://best-bike-parts.de/Sram-Kette-PC-GX-Eagle-T-type-Transmission-Flattop-12-fach-126-Glieder,
 2026-07-13,GX-T-CHAIN,goodsport.pl,323.75,PLN,323.75,instock,https://goodsport.pl/akcesoria-rowerowe/czesci-rowerowe/lancuchy/lancuch-sram-x0-eagle-t-type-12rz-126ogniw/,
@@ -2419,7 +2410,7 @@ date,product_id,domain,price,currency,price_pln,availability,url,via
 2026-07-13,Cane Creek 40 IS41/IS52,sport-schindele.de,59.9,EUR,259.25,instock,https://www.sport-schindele.de/cane-creek-steuersatz-40-tapered-tall-black,
 2026-07-13,Cane Creek 40 IS41/IS52,shop.zweirad-stadler.de,64.99,EUR,281.28,limitedavailability,https://shop.zweirad-stadler.de/fahrrad-teile/lenker-vorbau/steuersatz/cane-creek-steuersatz-40-tapered-short.html,
 2026-07-13,Cane Creek 40 IS41/IS52,tnc-hamburg.com,76.5,EUR,331.1,instock,https://www.tnc-hamburg.com/Steuersaetze/Cane-Creek-Steuersatz/Cane-Creek-ZS-Steuersaetze/Cane-Creek-Forty-Steuersatz-Tapered-1-1-8-1-5-Zoll-ZS44-28-6-ZS62-40-Kappe-8mm-schwarz::59396.html,
-2026-07-13,Cane Creek 40 IS41/IS52,starbike.com,56.84,CHF,266.16,instock,https://www.starbike.com/de/cane-creek-40-steuersatz-tapered/,
+2026-07-13,Cane Creek 40 IS41/IS52,starbike.com,687.76,NOK,266.44,instock,https://www.starbike.com/de/cane-creek-40-steuersatz-tapered/,
 2026-07-13,Cane Creek 40 IS41/IS52,fitse.nl,79.99,EUR,346.2,instock,https://www.fitse.nl/winkel/cane-creek-40-tapered-headset-1-1-8-1-5-is42-28-6-h9-is52-40-short-black/,
 2026-07-13,Cane Creek 40 IS41/IS52,shop.zweirad-stadler.de,79.99,EUR,346.2,instock,https://shop.zweirad-stadler.de/top-marken-die-inspirieren/cane-creek/cane-creek-40-tapered-steuersatz-zs44-28-6-ec44-40.html,
 2026-07-13,Cane Creek 40 IS41/IS52,shop.zweirad-stadler.de,79.99,EUR,346.2,limitedavailability,https://shop.zweirad-stadler.de/top-marken-die-inspirieren/cane-creek/cane-creek-steuersatz-40-tapered-zs44-zs56-40.html,
@@ -2504,6 +2495,7 @@ date,product_id,domain,price,currency,price_pln,availability,url,via
 2026-07-13,ROCK SHOX SID,velotracker.pl,2699.0,PLN,2699.0,instock,https://www.velotracker.pl/produkt/rockshox-sid-sl-select-am,
 2026-07-13,ROCK SHOX SID,bike-components.de,539.0,EUR,2332.85,instock,https://www.bike-components.de/es/RockShox/Horquilla-de-suspension-SID-Select-RL-2P-DebonAir-Boost-Remote-29-p91494/,
 2026-07-13,ROCK SHOX SID,alltricks.es,599.99,EUR,2596.82,instock,https://www.alltricks.es/F-11918-fourches/P-3098805-rockshox_sid_sl_select_2p_remote_29___charger_rl_debonair____boost_15x110_mm___offset_44___horquilla_negra,
+2026-07-13,ROCK SHOX SID,silverbackbikes.de,927.6,EUR,4014.75,instock,https://silverbackbikes.de/products/sid-ultimate-fork,
 2026-07-13,ROCK SHOX SID,spoke.cz,15649.0,CZK,2791.78,instock,https://www.spoke.cz/rockshox-sid-sl-select-3p-crown-100-29/,
 2026-07-13,ROCK SHOX SID,rczbikeshop.com,459.99,EUR,1990.88,instock,https://www.rczbikeshop.com/fr/rockshox-fork-sid-sl-select-rl-29-100mm-boost-15x110mm-tapered-black-00-4020-212-012.html,
 2026-07-13,ROCK SHOX SID,buycycle.com,650.0,EUR,2813.26,instock,https://buycycle.com/fr-ch/product/suspension-fork-rock-shox-sid-sl-select-29-rl,
@@ -2540,27 +2532,7 @@ date,product_id,domain,price,currency,price_pln,availability,url,via
 2026-07-13,Lake MX242,bikable.com,305.99,EUR,1324.36,instock,https://bikable.com/clothing/cycling-shoes/mtb-and-gravel-shoes/lake-mx242-camoblack,
 2026-07-13,Lake MX242,cyclexperience.nl,369.0,EUR,1597.07,instock,https://cyclexperience.nl/fr/webshop/fietsschoenen/mountainbike-gravelbike-schoenen/lake-schoenen-mtb-mx242/,
 2026-07-13,Lake MX242,bike-discount.de,258.3,EUR,1117.95,instock,https://www.bike-discount.de/it/lake-mx242-x-wide-scarpe-da-mtb-20154492,
-2026-07-13,GX-T-KIT,bike-discount.de,374.99,EUR,1622.99,instock,"https://www.google.com/search?ibp=oshop&q=SRAM+GX+Eagle+Transmission+T-Type+Upgrade+Kit&prds=localAnnotatedOfferId:1,catalogid:6699816898059817921,pvo:2,pvt:hg,rds:PC_6027158597472037202%7CPROD_PC_6027158597472037202&gl=de&udm=28&pvorigin=2",shopping
-2026-07-13,GX-T-KIT,r2-bike.com,577.5,EUR,2499.48,instock,"https://www.google.com/search?ibp=oshop&q=SRAM+GX+Eagle+Transmission+T-Type+Upgrade+Kit&prds=localAnnotatedOfferId:1,catalogid:6322018633490708051,pvo:2,pvt:hg,rds:PC_6027158597472037202%7CPROD_PC_6027158597472037202&gl=de&udm=28&pvorigin=2",shopping
-2026-07-13,GX-T-KIT,lordgun.de,419.33,EUR,1814.9,instock,"https://www.google.com/search?ibp=oshop&q=SRAM+GX+T-Type+Eagle+AXS+Upgrade+Kit&prds=localAnnotatedOfferId:1,catalogid:595050575777227205,pvo:2,pvt:hg,rds:PC_6027158597472037202%7CPROD_PC_6027158597472037202&gl=de&udm=28&pvorigin=2",shopping
-2026-07-13,GX-T-KIT,bike24.pl,1768.07,PLN,1768.07,instock,"https://www.google.com/search?ibp=oshop&q=SRAM+GX+Eagle+Transmission+T-Type+Upgrade+Kit&prds=localAnnotatedOfferId:1,catalogid:6699816898059817921,pvo:2,pvt:hg,rds:PC_6027158597472037202%7CPROD_PC_6027158597472037202&gl=pl&udm=28&pvorigin=2",shopping
-2026-07-13,GX-T-KIT,greenbike.pl,1879.99,PLN,1879.99,instock,"https://www.google.com/search?ibp=oshop&q=SRAM+GX+Eagle+Transmission+T-Type+Upgrade+Kit&prds=localAnnotatedOfferId:1,catalogid:16059019138518000357,pvo:2,pvt:hg,rds:PC_6027158597472037202%7CPROD_PC_6027158597472037202&gl=pl&udm=28&pvorigin=2",shopping
-2026-07-13,GX-T-CHAIN,bike24.de,19.99,EUR,86.52,instock,"https://www.google.com/search?ibp=oshop&q=SRAM+GX+Eagle+Transmission+Flattop+12-speed+Chain&prds=localAnnotatedOfferId:1,catalogid:87547136379817927,pvo:2,pvt:hg,rds:PC_6027158597472037202%7CPROD_PC_6027158597472037202&gl=de&udm=28&pvorigin=2",shopping
-2026-07-13,GX-T-CHAIN,cicloscorredor.com,37.98,EUR,164.38,instock,"https://www.google.com/search?ibp=oshop&q=SRAM+GX+Eagle+Transmission+Flattop+12-speed+Chain&prds=localAnnotatedOfferId:1,catalogid:2697491291975884347,pvo:2,pvt:hg,rds:PC_6027158597472037202%7CPROD_PC_6027158597472037202&gl=de&udm=28&pvorigin=2",shopping
-2026-07-13,GX-T-CHAIN,lordgun.de,23.5,EUR,101.71,instock,"https://www.google.com/search?ibp=oshop&q=SRAM+GX+Eagle+T-Type+Kette+Flattop&prds=localAnnotatedOfferId:1,catalogid:3281328709920229286,pvo:2,pvt:hg,rds:PC_6027158597472037202%7CPROD_PC_6027158597472037202&gl=de&udm=28&pvorigin=2",shopping
-2026-07-13,GX-T-CHAIN,powermetercity.com,136.13,EUR,589.18,instock,"https://www.google.com/search?ibp=oshop&q=SRAM+GX+Eagle+Transmission+Flattop+12-speed+Chain&prds=localAnnotatedOfferId:1,catalogid:9551229222427769507,pvo:2,pvt:hg,rds:PC_6027158597472037202%7CPROD_PC_6027158597472037202&gl=de&udm=28&pvorigin=2",shopping
-2026-07-13,GX-T-CHAIN,koloshop24.de,27.6,EUR,119.46,instock,"https://www.google.com/search?ibp=oshop&q=SRAM+GX+Eagle+T-Type+Kette+Flattop&prds=localAnnotatedOfferId:1,catalogid:1445111499828670810,pvo:2,pvt:hg,rds:PC_6027158597472037202%7CPROD_PC_6027158597472037202&gl=de&udm=28&pvorigin=2",shopping
-2026-07-13,GX-T-CHAIN,r2-bike.com,59.5,EUR,257.52,instock,"https://www.google.com/search?ibp=oshop&q=SRAM+GX+Eagle+T-Type+Kette+Flattop&prds=localAnnotatedOfferId:1,catalogid:8824296449535988910,pvo:2,pvt:hg,rds:PC_6027158597472037202%7CPROD_PC_6027158597472037202&gl=de&udm=28&pvorigin=2",shopping
-2026-07-13,GX-T-CHAIN,biker-boarder.de,34.9,EUR,151.05,instock,"https://www.google.com/search?ibp=oshop&q=SRAM+GX+Eagle+T-Type+Kette+Flattop&prds=localAnnotatedOfferId:1,catalogid:11794039673964886855,pvo:2,pvt:hg,rds:PC_6027158597472037202%7CPROD_PC_6027158597472037202&gl=de&udm=28&pvorigin=2",shopping
-2026-07-13,GX-T-CHAIN,bike24.pl,89.5,PLN,89.5,instock,"https://www.google.com/search?ibp=oshop&q=SRAM+GX+Eagle+Transmission+Flattop+12-speed+Chain&prds=localAnnotatedOfferId:1,catalogid:87547136379817927,pvo:2,pvt:hg,rds:PC_6027158597472037202%7CPROD_PC_6027158597472037202&gl=pl&udm=28&pvorigin=2",shopping
-2026-07-13,GX-T-CHAIN,goride.pl,249.0,PLN,249.0,instock,"https://www.google.com/search?ibp=oshop&q=SRAM+GX+Eagle+Transmission+Flattop+12-speed+Chain&prds=localAnnotatedOfferId:1,productid:11292983032279967303,pvo:2,pvt:hg,rds:PC_6027158597472037202%7CPROD_PC_6027158597472037202&gl=pl&udm=28&pvorigin=2",shopping
-2026-07-13,GX-T-CHAIN,koloshop.pl,115.99,PLN,115.99,instock,"https://www.google.com/search?ibp=oshop&q=SRAM+GX+Eagle+Transmission+Flattop+12-speed+Chain&prds=localAnnotatedOfferId:1,productid:3499149585771520560,pvo:2,pvt:hg,rds:PC_6027158597472037202%7CPROD_PC_6027158597472037202&gl=pl&udm=28&pvorigin=2",shopping
-2026-07-13,GX-T-CHAIN,allegrolokalnie.pl,299.0,PLN,299.0,instock,"https://www.google.com/search?ibp=oshop&q=SRAM+GX+Eagle+T-Type+Kette+Flattop&prds=localAnnotatedOfferId:1,catalogid:9551229222427769507,pvo:2,pvt:hg,rds:PC_6027158597472037202%7CPROD_PC_6027158597472037202&gl=pl&udm=28&pvorigin=2",shopping
-2026-07-13,GX-T-CHAIN,retezy.heureka.cz,2690.0,CZK,479.9,instock,"https://www.google.com/search?ibp=oshop&q=SRAM+GX+Eagle+Transmission+Flattop+12-speed+Chain&prds=localAnnotatedOfferId:1,catalogid:9551229222427769507,pvo:2,pvt:hg,rds:PC_6027158597472037202%7CPROD_PC_6027158597472037202&gl=cz&udm=28&pvorigin=2",shopping
-2026-07-13,Cane Creek 40 IS41/IS52,bike24.de,30.99,EUR,134.13,instock,"https://www.google.com/search?ibp=oshop&q=Cane+Creek+40+Steuersatz+tapered&prds=localAnnotatedOfferId:1,catalogid:3166988792593044830,pvo:2,pvt:hg,rds:PC_6027158597472037202%7CPROD_PC_6027158597472037202&gl=de&udm=28&pvorigin=2",shopping
-2026-07-13,Cane Creek 40 IS41/IS52,ridewill.com,63.7,EUR,275.7,instock,"https://www.google.com/search?ibp=oshop&q=Cane+Creek+40+IS41+IS52+tapered+headset&prds=localAnnotatedOfferId:1,catalogid:3879300028302180614,pvo:2,pvt:hg,rds:PC_6027158597472037202%7CPROD_PC_6027158597472037202&gl=de&udm=28&pvorigin=2",shopping
-2026-07-13,Cane Creek 40 IS41/IS52,r2-bike.com,32.5,EUR,140.66,instock,"https://www.google.com/search?ibp=oshop&q=Cane+Creek+40+Steuersatz+tapered&prds=localAnnotatedOfferId:1,catalogid:12950484822087962913,pvo:2,pvt:hg,rds:PC_6027158597472037202%7CPROD_PC_6027158597472037202&gl=de&udm=28&pvorigin=2",shopping
-2026-07-13,Cane Creek 40 IS41/IS52,bikecomponents-us.com,34.99,EUR,151.44,instock,"https://www.google.com/search?ibp=oshop&q=Cane+Creek+40+Steuersatz+tapered&prds=localAnnotatedOfferId:1,catalogid:15529115695240199643,pvo:2,pvt:hg,rds:PC_6027158597472037202%7CPROD_PC_6027158597472037202&gl=de&udm=28&pvorigin=2",shopping
-2026-07-13,Cane Creek 40 IS41/IS52,sm-parts.net,54.99,EUR,238.0,instock,"https://www.google.com/search?ibp=oshop&q=Cane+Creek+40+Steuersatz+tapered&prds=localAnnotatedOfferId:1,productid:9511770578892006518,pvo:2,pvt:hg,rds:PC_6027158597472037202%7CPROD_PC_6027158597472037202&gl=de&udm=28&pvorigin=2",shopping
-2026-07-13,Cane Creek 40 IS41/IS52,biker-boarder.de,78.9,EUR,341.49,instock,"https://www.google.com/search?ibp=oshop&q=Cane+Creek+40+Steuersatz+tapered&prds=localAnnotatedOfferId:1,catalogid:16207141734046181373,pvo:2,pvt:hg,rds:PC_6027158597472037202%7CPROD_PC_6027158597472037202&gl=de&udm=28&pvorigin=2",shopping
-2026-07-13,Cane Creek 40 IS41/IS52,bike-prof.de,109.95,EUR,475.87,instock,"https://www.google.com/search?ibp=oshop&q=Cane+Creek+40+Steuersatz+tapered&prds=localAnnotatedOfferId:1,catalogid:809927622284620236,pvo:2,pvt:hg,rds:PC_6027158597472037202%7CPROD_PC_6027158597472037202&gl=de&udm=28&pvorigin=2",shopping
+2026-07-13,Lake MX190-X Wide,futurumshop.nl,199.0,EUR,861.29,instock,"https://www.google.com/search?ibp=oshop&q=Lake+MX190-X+Wide&prds=localAnnotatedOfferId:1,catalogid:16563702090556667608,pvo:2,pvt:hg,rds:PC_6027158597472037202%7CPROD_PC_6027158597472037202&gl=nl&udm=28&pvorigin=2",shopping
+2026-07-13,Lake MX190-X Wide,bike24.pl,640.64,PLN,640.64,instock,"https://www.google.com/search?ibp=oshop&q=Lake+MX190+Winterschuhe+MTB&prds=localAnnotatedOfferId:1,productid:5530763790779976853,pvo:2,pvt:hg,rds:PC_6027158597472037202%7CPROD_PC_6027158597472037202&gl=pl&udm=28&pvorigin=2",shopping
+2026-07-13,DT Swiss Fatbike,r2-bike.com,64.5,EUR,279.16,instock,"https://www.google.com/search?ibp=oshop&q=DT+Swiss+350+Fatbike+hub+15x150&prds=localAnnotatedOfferId:1,catalogid:14505855174849945682,pvo:2,pvt:hg,rds:PC_6027158597472037202%7CPROD_PC_6027158597472037202&gl=de&udm=28&pvorigin=2",shopping
+2026-07-13,DT Swiss Fatbike,bike24.de,29.99,EUR,129.8,instock,"https://www.google.com/search?ibp=oshop&q=DT+Swiss+350+Fatbike+hub+15x150&prds=localAnnotatedOfferId:1,productid:10606755683998234321,pvo:2,pvt:hg,rds:PC_6027158597472037202%7CPROD_PC_6027158597472037202&gl=de&udm=28&pvorigin=2",shopping
