@@ -7,10 +7,7 @@ settings:
     - de
     - pl
     - it
-  # budzet zapytan Google Shopping per run (blind spoty; glownie Serper);
-  # plan per kraj potrafi zjesc do 3 pobran (str. 2 feedu, druga fraza)
   shopping_budget: 18
-  # szersza Europa dla Serpera (osobna pula 2500 darmowych zapytan)
   discovery_countries:
     - de
     - pl
@@ -20,61 +17,6 @@ settings:
     - es
     - nl
 products:
-  - variant_strict: true
-    id: FM2797
-    name: Salsa Cutthroat C Frameset
-    variant: "56"
-    queries:
-      - Salsa Cutthroat C frameset
-      - Salsa Cutthroat Rahmenset
-      - "\"FM2797\" salsa"
-      - Salsa Cutthroat telaio carbonio
-      - Salsa Cutthroat cadre bikepacking
-      - Salsa Cutthroat cuadro
-    seed_urls:
-      - https://stateofbike.it/negozio-bikepacking/salsa-cutthroat-frameset/
-      - https://www.bikejamming.it/en/30986-16664salsa-cutthroat-carbon-frameset-tour-divide-bikepacking.html
-  - id: FARGO-TI
-    name: Salsa Fargo Ti Frameset
-    # rozmiar Medium; sklepy oznaczaja go roznie (M / Medium) - bez
-    # variant_strict, bo cena ramy jest ta sama dla wszystkich rozmiarow
-    variant: medium
-    # rama+widelec ~3300-3900 EUR; min odcina czesci/akcesoria, max caly rower
-    min_pln: 6000
-    max_pln: 20000
-    require_tokens:
-      - fargo
-      - fargo ti|titan|tytan|titanio|titane
-    queries:
-      - Salsa Fargo Ti frameset
-      - Salsa Fargo Ti Rahmenset
-      - "\"FM0872\" salsa"
-      - Salsa Fargo Ti rama tytanowa
-      - Salsa Fargo Ti telaio titanio
-      - Salsa Fargo Ti cadre titane
-    seed_urls:
-      - https://rat-bikes.eu/salsa-fargo-ti-mtb-frameset-27-5-29.html
-  - id: FARGO-STEEL
-    name: Salsa Fargo Steel Frameset 27.5+/29 Gunmetal Grey
-    # rozmiar Medium; cena ramy taka sama dla rozmiarow - bez strict
-    variant: medium
-    # stalowa rama ~1200 EUR (wyprzedaze 2024 od ~600 USD); max odcina
-    # wersje Ti (min 6000 PLN) i caly rower
-    min_pln: 2000
-    max_pln: 7500
-    # gunmetal = kolor tylko tej wersji stalowej - odcina czarna i Ti
-    require_tokens:
-      - fargo
-      - gunmetal
-    queries:
-      - Salsa Fargo Steel frameset gunmetal grey
-      - Salsa Fargo Steel Rahmenset gunmetal
-      - "\"FM0869\" salsa"
-      - Salsa Fargo rama stalowa gunmetal
-      - Salsa Fargo telaio acciaio
-      - Salsa Fargo cadre acier
-    seed_urls:
-      - https://www.bike-packing.de/en/salsa-fargo-steel-frameset-275-29-gunmetal-grey
   - id: LAUF-CARBONARA
     name: Lauf Carbonara fork
     worldwide: true
@@ -85,13 +27,9 @@ products:
       - https://www.laufcycles.com/product/lauf-carbonara
   - id: IBS-V1X
     name: Infinity Bike Seat V1X
-    # marka amerykanska (sprzedaz glownie direct + dealerzy US) - worldwide
-    # jak Lauf; wysylke do PL weryfikuje uzytkownik
     worldwide: true
-    # $387-427 (~1400-1550 PLN), promocje "-$50"; min odcina akcesoria
     min_pln: 900
     max_pln: 2200
-    # v1x = seria Vegan; odcina pozostale serie (E1X/E2X/A1X/NX)
     require_tokens:
       - infinity
       - v1x
@@ -102,27 +40,9 @@ products:
       - Infinity Bike Seat V1X Sattel
       - siodelko Infinity V1X
     seed_urls:
-      - https://www.cyclingupgrades.com/products/new-_infinity_vegan_v1x_black_7x7mm_stainless_rails_saddle06242025-1104-05
+      - >-
+        https://www.cyclingupgrades.com/products/new-_infinity_vegan_v1x_black_7x7mm_stainless_rails_saddle06242025-1104-05
       - https://infinitybikeseat.com/product-category/bike-seats/
-  - id: Lake MX190-X Wide
-    name: Lake MX190-X Wide
-    ean: "8718568168347"
-    variant: "45"
-    queries:
-      - Lake MX190-X Wide
-      - Lake MX190 Winterschuhe MTB
-      - Lake MX190 buty zimowe
-      - Lake MX190 scarpe invernali
-      - Lake MX190 winterschoenen
-  - id: DT Swiss Fatbike
-    name: DT Swiss Fatbike
-    ean: H350LDIXR32SA1859S
-    max_pln: 1500
-    queries:
-      - DT Swiss 350 Fatbike hub 15x150
-      - DT Swiss 350 Fatbike Nabe 15x150
-      - DT Swiss 350 fatbike piasta
-      - DT Swiss 350 mozzo fatbike
   - id: DT SWISS 350 12x148
     name: DT SWISS 350 12x148
     ean: H350TCDBR32SA0465S
@@ -139,7 +59,6 @@ products:
     min_pln: 600
     require_tokens:
       - carbon
-      # wcs odcina wyzsza linie Superlogic (osobny produkt) i tansza Comp
       - wcs
     queries:
       - Ritchey WCS Carbon ErgoMax handlebar
@@ -151,10 +70,8 @@ products:
   - id: SUPERLOGIC-ERGOMAX
     name: Ritchey Superlogic ErgoMax 42cm
     variant: "42"
-    # MSRP ~350 EUR (~1500 PLN); min odcina czesci, max zestawy/kokpity
     min_pln: 700
     max_pln: 2500
-    # superlogic odroznia od linii WCS Carbon (osobny produkt) i Comp
     require_tokens:
       - superlogic
     queries:
@@ -166,15 +83,15 @@ products:
       - Ritchey Superlogic ErgoMax cintre carbone
     seed_urls:
       - https://www.tradeinn.com/bikeinn/en/ritchey-superlogic-ergomax-handlebar/142611487/p
-  - id: Canyon S14 VCLS 2.0
-    name: Canyon S14 VCLS 2.0
+  - id: Canyon S15 VCLS 2.0
+    name: Canyon S15 VCLS 2.0
     require_tokens:
       - s14
     queries:
-      - Canyon S14 VCLS 2.0 CF seatpost
-      - Canyon S14 VCLS Sattelstütze
-      - Canyon S14 VCLS 2.0 27.2mm CF Seatpost
-      - Canyon S14 VCLS sztyca
+      - Canyon S15 VCLS 2.0 CF seatpost
+      - Canyon S15 VCLS Sattelstütze
+      - Canyon S15 VCLS 2.0 27.2mm CF Seatpost
+      - Canyon S15 VCLS sztyca
   - id: GX-T-KIT
     name: SRAM GX Eagle Transmission Upgrade Kit
     ean: "4251761517573"
@@ -222,18 +139,3 @@ products:
       - https://www.bike-discount.de/en/rockshox-sid-sl-select-3p-29-debonair-100-tapered-boost-remote
       - https://www.bike-discount.de/en/rockshox-sid-sl-select-29-debon-air-100-remote-tapered-boost
       - https://www.gambacicli.com/en/rock-shox-sid-sl-select-rl-29-boost-100mm-tapered.html
-  - id: Lake MX242
-    name: Lake MX242
-    ean: "8718568144778"
-    variant: "45"
-    require_tokens:
-      - mx242|mx 242|mx-242
-    queries:
-      - Lake MX242 X-Wide MTB shoes
-      - Lake MX242 Wide MTB Schuhe
-      - Lake MX242 MTB x-wide 45
-      - Lake MX242 wide buty MTB
-      - Lake MX242 scarpe MTB
-    seed_urls:
-      - https://www.bike-discount.de/de/lake-mx242-x-wide-mtb-schuhe-20154493
-      - https://www.alltricks.de/F-10006-chaussures-velo/P-2557093-lake_mx242_wide_schuhe_schwarz_silber_42_1_2
