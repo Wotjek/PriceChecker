@@ -7,7 +7,10 @@ settings:
     - de
     - pl
     - it
+  # budzet zapytan Google Shopping per run (blind spoty; glownie Serper);
+  # plan per kraj potrafi zjesc do 3 pobran (str. 2 feedu, druga fraza)
   shopping_budget: 18
+  # szersza Europa dla Serpera (osobna pula 2500 darmowych zapytan)
   discovery_countries:
     - de
     - pl
@@ -17,41 +20,31 @@ settings:
     - es
     - nl
 products:
-  - id: LAUF-CARBONARA
-    name: Lauf Carbonara fork
-    worldwide: true
+  - id: Cane Creek 40 IS41/IS52
+    name: Cane Creek 40 IS41/IS52
+    ean: "840226078472"
     queries:
-      - Lauf Carbonara fork
-      - Lauf Carbonara Gabel fatbike
-    seed_urls:
-      - https://www.laufcycles.com/product/lauf-carbonara
-  - id: IBS-V1X
-    name: Infinity Bike Seat V1X
-    worldwide: true
-    min_pln: 900
-    max_pln: 2200
+      - Cane Creek 40 IS41 IS52 tapered headset
+      - Cane Creek 40 Steuersatz tapered
+      - Cane Creek 40 stery IS41 IS52
+      - Cane Creek 40 serie sterzo IS41
+  - id: Canyon S15 VCLS 2.0
+    name: Canyon S15 VCLS 2.0
+    # bylo blednie skonfigurowane jako S14 (inna dlugosc sztycy dla innego
+    # rozmiaru ramy) - poprawiono 2026-07-21; ciaglosc historii cen dla
+    # tego produktu przerwana, bo pod starym id/tokenem "s14" mogly trafiac
+    # sie oferty innego fizycznie produktu
     require_tokens:
-      - infinity
-      - v1x
+      - s15
+    # widelki: ~200-260 EUR rynek wtorny/allegro-podobne oferty; szeroki
+    # margines na wyprzedaze i zestawy
+    min_pln: 400
+    max_pln: 1800
     queries:
-      - Infinity Bike Seat V1X saddle
-      - Infinity Vegan V1X saddle
-      - "\"IBS-V1X\""
-      - Infinity Bike Seat V1X Sattel
-      - siodelko Infinity V1X
-    seed_urls:
-      - >-
-        https://www.cyclingupgrades.com/products/new-_infinity_vegan_v1x_black_7x7mm_stainless_rails_saddle06242025-1104-05
-      - https://infinitybikeseat.com/product-category/bike-seats/
-  - id: DT SWISS 350 12x148
-    name: DT SWISS 350 12x148
-    ean: H350TCDBR32SA0465S
-    queries:
-      - DT Swiss 350 hub 12x148 Sram XD
-      - DT Swiss 350 Hinterradnabe 12x148
-      - DT SWISS 350 12x148 32 Sram XD
-      - DT Swiss 350 piasta 12x148
-      - DT Swiss 350 mozzo 12x148
+      - Canyon S15 VCLS 2.0 CF seatpost
+      - Canyon S15 VCLS Sattelstütze
+      - Canyon S15 VCLS 2.0 27.2mm CF Seatpost
+      - Canyon S15 VCLS sztyca
   - id: Ritchey WCS Carbon ErgoMax
     name: Ritchey WCS Carbon ErgoMax
     ean: "30355427076"
@@ -59,6 +52,7 @@ products:
     min_pln: 600
     require_tokens:
       - carbon
+      # wcs odcina wyzsza linie Superlogic (osobny produkt) i tansza Comp
       - wcs
     queries:
       - Ritchey WCS Carbon ErgoMax handlebar
@@ -70,8 +64,10 @@ products:
   - id: SUPERLOGIC-ERGOMAX
     name: Ritchey Superlogic ErgoMax 42cm
     variant: "42"
+    # MSRP ~350 EUR (~1500 PLN); min odcina czesci, max zestawy/kokpity
     min_pln: 700
     max_pln: 2500
+    # superlogic odroznia od linii WCS Carbon (osobny produkt) i Comp
     require_tokens:
       - superlogic
     queries:
@@ -83,59 +79,223 @@ products:
       - Ritchey Superlogic ErgoMax cintre carbone
     seed_urls:
       - https://www.tradeinn.com/bikeinn/en/ritchey-superlogic-ergomax-handlebar/142611487/p
-  - id: Canyon S15 VCLS 2.0
-    name: Canyon S15 VCLS 2.0
+  - id: IBS-V1X
+    name: Infinity Bike Seat V1X
+    # marka amerykanska (sprzedaz glownie direct + dealerzy US) - worldwide
+    # jak Lauf; wysylke do PL weryfikuje uzytkownik
+    worldwide: true
+    # $387-427 (~1400-1550 PLN), promocje "-$50"; min odcina akcesoria
+    min_pln: 900
+    max_pln: 2200
+    # v1x = seria Vegan; odcina pozostale serie (E1X/E2X/A1X/NX)
     require_tokens:
-      - s14
+      - infinity
+      - v1x
     queries:
-      - Canyon S15 VCLS 2.0 CF seatpost
-      - Canyon S15 VCLS Sattelstütze
-      - Canyon S15 VCLS 2.0 27.2mm CF Seatpost
-      - Canyon S15 VCLS sztyca
-  - id: GX-T-KIT
-    name: SRAM GX Eagle Transmission Upgrade Kit
-    ean: "4251761517573"
-    min_pln: 800
+      - Infinity Bike Seat V1X saddle
+      - Infinity Vegan V1X saddle
+      - "\"IBS-V1X\""
+      - Infinity Bike Seat V1X Sattel
+      - siodelko Infinity V1X
+    seed_urls:
+      - https://www.cyclingupgrades.com/products/new-_infinity_vegan_v1x_black_7x7mm_stainless_rails_saddle06242025-1104-05
+      - https://infinitybikeseat.com/product-category/bike-seats/
+
+  # ---- SRAM Force AXS E1 (klamkomanetki sprzedawane osobno lewa/prawa) --
+  - id: FORCE-AXS-LEWA
+    name: SRAM Force AXS E1 klamkomanetka z hamulcem lewa
+    ean: 00.7018.580.000
+    min_pln: 1000
+    max_pln: 2600
     require_tokens:
-      - kit|zestaw|upgrade
+      - force
+      - axs
+      - left|lewa|links|gauche|sinistra|izquierda
     queries:
-      - SRAM GX Eagle Transmission T-Type Upgrade Kit
-      - SRAM GX T-Type Eagle AXS Upgrade Kit
-      - SRAM GX Eagle Transmission zestaw
-  - id: GX-T-CHAIN
-    name: SRAM GX Eagle Transmission Łańcuch
-    ean: 00.2518.054.010
-    min_pln: 80
-    max_pln: 600
+      - SRAM Force AXS E1 shift brake lever left
+      - SRAM Force AXS E1 Schalt-Bremshebel links
+      - SRAM Force AXS E1 klamkomanetka lewa
+      - SRAM Force AXS E1 leva freno cambio sinistra
+      - SRAM Force AXS E1 levier gauche
+    seed_urls:
+      - https://r2-bike.com/SRAM-Force-AXS-HRD-Shift-Brake-Lever-including-hydraulic-Disc-Brake-Flat-Mount-E1-Lever-left-side-front-Brake
+  - id: FORCE-AXS-PRAWA
+    name: SRAM Force AXS E1 klamkomanetka z hamulcem prawa
+    ean: "710845916724"
+    min_pln: 1000
+    max_pln: 2600
     require_tokens:
+      - force
+      - axs
+      - right|prawa|rechts|droite|destra|derecha
+    queries:
+      - SRAM Force AXS E1 shift brake lever right
+      - SRAM Force AXS E1 Schalt-Bremshebel rechts
+      - SRAM Force AXS E1 klamkomanetka prawa
+      - SRAM Force AXS E1 leva freno cambio destra
+      - SRAM Force AXS E1 levier droit
+    seed_urls:
+      - https://www.lvr-cycles.com/en/derailleurs-gear-levers/9377-sram-force-axs-e1-right-brake-lever-with-rear-flat-mount-caliper-1800-mm-hose.html
+
+  # ---- SRAM Eagle T-Type Transmission (osobne czesci grupy) -------------
+  - id: X0-CASSETTE
+    name: SRAM X0 Eagle XS-1295 T-Type kaseta
+    ean: 00.2418.126.000
+    min_pln: 1300
+    max_pln: 2700
+    require_tokens:
+      - x0
+      - eagle
+      - cassette|kaseta|kassette|cassetta
+    queries:
+      - SRAM X0 Eagle T-Type cassette XS-1295
+      - SRAM X0 Eagle Kassette T-Type
+      - SRAM X0 Eagle kaseta T-Type
+      - SRAM X0 Eagle cassetta T-Type
+    seed_urls:
+      - https://www.bike-components.de/en/SRAM/XS-1295-12-speed-T-Type-Cassette-for-X0-Eagle-Transmission-p91119/
+  - id: GX-DERAILLEUR
+    name: SRAM GX Eagle AXS Transmission T-Type przerzutka tylna
+    ean: "710845892929"
+    min_pln: 1400
+    max_pln: 2700
+    require_tokens:
+      - gx
+      - transmission
+      - derailleur|schaltwerk|przerzutka|deragliatore|desviador
+    queries:
+      - SRAM GX Eagle AXS Transmission T-Type rear derailleur
+      - SRAM GX Eagle Transmission Schaltwerk T-Type
+      - SRAM GX Eagle Transmission przerzutka tylna
+      - SRAM GX Eagle Transmission deragliatore posteriore
+    seed_urls:
+      - https://www.bike-components.de/en/SRAM/GX-Eagle-Transmission-AXS-T-Type-Rear-Derailleur-12-speed-p90552/
+  - id: X0-CHAIN
+    name: SRAM X0 Eagle T-Type Flattop łańcuch
+    ean: "710845891465"
+    min_pln: 350
+    max_pln: 900
+    require_tokens:
+      - x0
+      - flattop
       - chain|kette|catena|lancuch|łańcuch|ketting|chaine|chaîne|cadena|retez|řetěz
     queries:
-      - SRAM GX Eagle Transmission Flattop 12-speed Chain
-      - SRAM GX Eagle T-Type Kette Flattop
-      - SRAM Eagle Transmission Flattop łańcuch
-      - catena SRAM GX Eagle Transmission
-  - id: Cane Creek 40 IS41/IS52
-    name: Cane Creek 40 IS41/IS52
-    ean: "840226078472"
+      - SRAM X0 Eagle T-Type Flattop chain
+      - SRAM X0 Eagle Flattop Kette T-Type
+      - SRAM X0 Eagle Flattop łańcuch T-Type
+      - catena SRAM X0 Eagle Flattop T-Type
+    seed_urls:
+      - https://www.bike-components.de/en/SRAM/X0-Eagle-Transmission-12-speed-PowerLock-T-Type-Chain-p91112/
+  - id: GX-CRANK
+    name: SRAM GX Eagle Transmission T-Type korba DUB Wide
+    ean: "710845892912"
+    min_pln: 600
+    max_pln: 1700
+    require_tokens:
+      - gx
+      - transmission
+      - crank|kurbel|korba|guarnitura|manivelle
     queries:
-      - Cane Creek 40 IS41 IS52 tapered headset
-      - Cane Creek 40 Steuersatz tapered
-      - Cane Creek 40 stery IS41 IS52
-      - Cane Creek 40 serie sterzo IS41
-  - id: ROCK SHOX SID
-    name: ROCK SHOX SID SL Select+
-    ean: "710845917929"
-    min_pln: 1200
+      - SRAM GX Eagle Transmission crank DUB Wide
+      - SRAM GX Eagle Transmission Kurbel DUB Wide
+      - SRAM GX Eagle Transmission korba DUB Wide
+      - SRAM GX Eagle Transmission guarnitura DUB Wide
+    seed_urls:
+      - https://www.bike-components.de/en/SRAM/GX-Eagle-Transmission-T-Type-DUB-DM-12-speed-Crankset-p90553/
+
+  # ---- Drobne czesci towarzyszace ---------------------------------------
+  - id: DUB-WIDE-PF92
+    name: SRAM DUB Wide PF92 suport
+    ean: "710845857928"
+    min_pln: 80
+    max_pln: 350
+    require_tokens:
+      - dub
+      - wide
+      - pf92|89/92|89-92
+    queries:
+      - SRAM DUB Wide PF92 bottom bracket
+      - SRAM DUB Wide PF92 Innenlager
+      - SRAM DUB Wide PF92 suport
+      - SRAM DUB Wide PF92 movimento centrale
+    seed_urls:
+      - https://www.bike-components.de/de/SRAM/DUB-PressFit-CL55-MTB-Wide-89-92-mm-Innenlager-p223466/
+  - id: DT-XD-DRIVER
+    name: DT Swiss bębenek XD Ratchet LN 12x148
+    # EAN produktu; model wewnetrzny DT Swiss: HWYABM00S3766S
+    ean: "7613052321622"
+    min_pln: 100
+    max_pln: 600
+    require_tokens:
+      - dt swiss|dtswiss
+      - xd
+      - ratchet ln
+    queries:
+      - DT Swiss XD driver body Ratchet LN
+      - DT Swiss XD Freilaufkörper Ratchet LN
+      - DT Swiss XD bębenek Ratchet LN
+      - DT Swiss XD corpo ruota libera Ratchet LN
+  - id: WOLFTOOTH-ADAPTER
+    name: Wolf Tooth Brake Disc Adapter Post-Mount - Flat-Mount
+    ean: "810006806779"
+    min_pln: 40
+    max_pln: 300
+    require_tokens:
+      - wolf tooth
+      - flat mount|flatmount|flat-mount
+      - post mount|postmount|post-mount
+    queries:
+      - Wolf Tooth disc brake adapter post mount to flat mount
+      - Wolf Tooth Bremsadapter Post Mount Flat Mount
+      - Wolf Tooth adapter hamulcowy post mount flat mount
+      - Wolf Tooth adattatore freno post mount flat mount
+
+  # ---- RockShox SID SL 3-Position Crown (E1): trzy rozne poziomy --------
+  # UWAGA: "select" jest podciagiem "select+", wiec offer "Select+" moze
+  # przejsc tez filtr require_tokens produktu SID-SELECT (podstawowego).
+  # Zabezpieczenie: ciagle, nienachodzace na siebie widelki cenowe ponizej
+  # (900-2600 / 2600-3600 / 3600-5500) odrzuca takie oferty po cenie.
+  - id: SID-SELECT
+    name: RockShox SID SL Select 3P (E1) widelec
+    ean: "00.4021.168.003"
+    min_pln: 900
+    max_pln: 2600
     require_tokens:
       - sid
+      - sl
+      - select
     queries:
-      - RockShox SID SL Select 100mm 29 fork
-      - RockShox SID SL Select Federgabel 100mm
-      - Amortyzator rowerowy ROCK SHOX SID SL Select E1 3P 100mm
-      - RockShox SID SL Select forcella 100mm
-      - RockShox SID SL Select horquilla
+      - RockShox SID SL Select fork 3-position crown
+      - RockShox SID SL Select Federgabel 3P
+      - RockShox SID SL Select widelec
+      - RockShox SID SL Select forcella
     seed_urls:
-      - https://www.centrumrowerowe.pl/amortyzator-rowerowy-rock-shox-sid-sl-select-pd49824/
-      - https://www.bike-discount.de/en/rockshox-sid-sl-select-3p-29-debonair-100-tapered-boost-remote
-      - https://www.bike-discount.de/en/rockshox-sid-sl-select-29-debon-air-100-remote-tapered-boost
-      - https://www.gambacicli.com/en/rock-shox-sid-sl-select-rl-29-boost-100mm-tapered.html
+      - https://www.bike-components.de/en/RockShox/SID-SL-Select-RL-3P-DebonAir-Boost-Remote-29-Suspension-Fork-p91499/
+  - id: SID-SELECT-PLUS
+    name: RockShox SID SL Select+ 3P widelec
+    ean: FS-SIDS-SLP3-E1
+    min_pln: 2600
+    max_pln: 3600
+    require_tokens:
+      - sid
+      - sl
+      - select+
+    queries:
+      - RockShox SID SL Select+ fork 3-position crown
+      - RockShox SID SL Select+ Federgabel 3P
+      - RockShox SID SL Select+ widelec
+      - RockShox SID SL Select+ forcella
+  - id: SID-ULTIMATE
+    name: RockShox SID SL Ultimate 3P (E1) widelec
+    ean: "00.4021.166.007"
+    min_pln: 3600
+    max_pln: 5500
+    require_tokens:
+      - sid
+      - sl
+      - ultimate
+    queries:
+      - RockShox SID SL Ultimate fork 3-position crown
+      - RockShox SID SL Ultimate Federgabel 3P
+      - RockShox SID SL Ultimate widelec
+      - RockShox SID SL Ultimate forcella
