@@ -5364,6 +5364,131 @@
       "domain": "mantel.com",
       "first_seen": "2026-07-13",
       "via": "tavily"
+    },
+    "https://www.modernbike.com/ritchey-wcs-ergomax-bar-31.8-42cm---matte-black": {
+      "domain": "modernbike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.deporvillage.de/lenker-ritchey-ergomax-wcs-schwarz": {
+      "domain": "deporvillage.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://www.bike-components.de/fr/Ritchey/Guidon-WCS-ErgoMax-31-8-p68501/": {
+      "domain": "bike-components.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:fr"
+    },
+    "https://ottawabikeandtrail.com/collections/ritchey-bicycles": {
+      "domain": "ottawabikeandtrail.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://advntr.cc/ritchey-wcs-ergomax-road-bar/": {
+      "domain": "advntr.cc",
+      "first_seen": "2026-07-21",
+      "via": "serper:es"
+    },
+    "https://shop.paradisebikes.com/brands/ritchey": {
+      "domain": "shop.paradisebikes.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.performancebike.com/ritchey-bikes/b1430": {
+      "domain": "performancebike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.walmart.com/c/brand/ritchey-collection": {
+      "domain": "walmart.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.deporvillage.de/ritchey-wcs-ergomax-carbon-lenker": {
+      "domain": "deporvillage.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://www.zookee.cz/ritchey-riditka-wcs-ergomax-44_z46697/": {
+      "domain": "zookee.cz",
+      "first_seen": "2026-07-21",
+      "via": "serper:cz"
+    },
+    "https://www.galaxus.fr/fr/s3/product/ratings/ritchey-road-wcs-ergomax-42cm-c-c-en-haut-3180-mm-guidon-13279355": {
+      "domain": "galaxus.fr",
+      "first_seen": "2026-07-21",
+      "via": "serper:fr"
+    },
+    "https://www.excelsports.com/ritchey-wcs-carbon-ergomax-handlebar": {
+      "domain": "excelsports.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.benscycle.com/ritchey-wcs-ergomax-drop-handlebar---aluminum--44cm--31-8mm--matte-black-c141-ritchey-k8028-hb4916/p": {
+      "domain": "benscycle.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.wheelandsprocket.com/product/ritchey-wcs-ergomax-handlebar-389650-1.htm": {
+      "domain": "wheelandsprocket.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.sammysbikes.com/product/ritchey-wcs-carbon-ergomax-403846-1.htm": {
+      "domain": "sammysbikes.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.libertybikes.com/product/ritchey-wcs-carbon-ergomax-403846-1.htm": {
+      "domain": "libertybikes.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.heide-aronia.de/products/Manubrio-Bici-Da-Corsa-Ritchey-WCS-Carbon-Ergomax-In-Carbonio/717061": {
+      "domain": "heide-aronia.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://www.bicimarket.com/es/componentes/manillar/49603-ritchey-wcs-ergomax.html": {
+      "domain": "bicimarket.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:es"
+    },
+    "https://www.joefixits.com/product/ritchey-wcs-carbon-ergomax-403846-1.htm": {
+      "domain": "joefixits.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.ridinggravel.com/components/ritchey-wcs-butano-and-ergomax-handle-bars-quick-review?amp=1": {
+      "domain": "ridinggravel.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://probikeshop.fr/fr-re/products/cintre-ritchey-ergomax-wcs-eps-di2": {
+      "domain": "probikeshop.fr",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.cbcycleworks.com/product/ritchey-wcs-carbon-ergomax-403846-1.htm": {
+      "domain": "cbcycleworks.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.brandscycle.com/product/ritchey-wcs-carbon-ergomax-403846-1.htm": {
+      "domain": "brandscycle.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.epicbikeshop.com/product/ritchey-wcs-carbon-ergomax-403846-1.htm": {
+      "domain": "epicbikeshop.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://advntr.cc/ritchey-wcs-ergomax-road-bar": {
+      "domain": "advntr.cc",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
     }
   },
   "Canyon S14 VCLS 2.0": {
@@ -7312,6 +7437,206 @@
     "https://www.universalcycles.com/shopping/product_details.php?id=39515": {
       "domain": "universalcycles.com",
       "first_seen": "2026-07-13",
+      "via": "tavily"
+    },
+    "https://formicki-bike.pl/pl/p/Cane-Creek-stery-40-Tapered-IS41IS5240-tall-51-OD-Wide-Cover/31066": {
+      "domain": "formicki-bike.pl",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.bike-discount.de/en/cane-creek-40-series-is42/28.6-is52/40-tapered-headset": {
+      "domain": "bike-discount.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:it"
+    },
+    "https://www.thecyclepath.net/product/cane-creek-40-is41-is52-tapered-headset-236521-1.htm": {
+      "domain": "thecyclepath.net",
+      "first_seen": "2026-07-21",
+      "via": "serper:cz"
+    },
+    "https://bikecomponents-us.com/products/cane-creek-40-series-is41-is52-40-tapered-headset": {
+      "domain": "bikecomponents-us.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.maciag-offroad.de/cane-creek-steuersatz-40-zs44-28-6-zs56-40-tapered-sid88362.html": {
+      "domain": "maciag-offroad.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://shop.zweirad-stadler.de/fahrrad-teile/lenker-vorbau/steuersatz/cane-creek-steuersatz-40-tapered-tall.html": {
+      "domain": "shop.zweirad-stadler.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://www.mount7.com/cane-creek-40-tapered-steuersatz-1-1-8-1-5-zs49-28-6-h8-ec49-40.html": {
+      "domain": "mount7.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://vip.coloradokravmaga.com/Cane-Creek-Tapered-40-Integrierter-Steuersatz-IS42-28-6-IS52-40/438319": {
+      "domain": "vip.coloradokravmaga.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://www.mount7.com/cane-creek-40-tapered-steuersatz.html": {
+      "domain": "mount7.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:it"
+    },
+    "https://staubundteer.de/products/cane-creek-40-tapered-steuersatz-1-1-8-1-5-is52-40-tall-black": {
+      "domain": "staubundteer.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:it"
+    },
+    "https://www.bike-components.de/de/Cane-Creek/40er-ZS56-40-Steuersatz-Unterteil-p35011/": {
+      "domain": "bike-components.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:it"
+    },
+    "https://pinion-bikes.de/CANE-CREEK-Steuersatz-40-integriert-tapered-IS42-286-IS52-40-1-1-8-1-1-2-Short-Cover": {
+      "domain": "pinion-bikes.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:cz"
+    },
+    "https://www.bike24.com/p2116193.html": {
+      "domain": "bike24.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:es"
+    },
+    "https://www.tnc-hamburg.com/Steuersaetze/Cane-Creek-Steuersatz/Cane-Creek-ZS-Steuersaetze/Cane-Creek-Forty-Steuersatz-Tapered-1-1-8-1-5-Zoll-ZS56-28-6-ZS56-40-Kappe-8mm-schwarz::63982.html": {
+      "domain": "tnc-hamburg.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:es"
+    },
+    "https://r2-bike.com/CANE-CREEK-Steuersatz-40ZS49-286-EC49-30-Tapered-Conversion-1-1-8": {
+      "domain": "r2-bike.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:nl"
+    },
+    "https://bikesportworld.de/products/cane-creek-40-tapered-steuersatz-1-1-8-1-5-short-is41-28-6-h9-is52-40-short-black": {
+      "domain": "bikesportworld.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:nl"
+    },
+    "https://www.emigosbikeshop.com/product/cane-creek-40-series-tapered-402796-1.htm": {
+      "domain": "emigosbikeshop.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://slovakbikeparks.sk/eshop/sk/hlavove-zlozenia/1655-hlavove-zlozenie-cane-creek-forty-40-is41is52-headset-840226117508.html": {
+      "domain": "slovakbikeparks.sk",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.last-bikes.com/Artikeldetail?StuffID=5345f6ed-c61f-4449-95de-81a85bc44587": {
+      "domain": "last-bikes.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.maciag-offroad.fr/cane-creek-jeu-de-direction-40-is41-28-6-is41-30-tall-1-1-8-sid110309.html": {
+      "domain": "maciag-offroad.fr",
+      "first_seen": "2026-07-21",
+      "via": "serper:fr"
+    },
+    "https://www.bicimarket.com/es/componentes/direccion/62056-cane-creek-forty-is41-28-6-52-40-tall-cover.html": {
+      "domain": "bicimarket.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:es"
+    },
+    "https://www.bike24.com/p2884260.html": {
+      "domain": "bike24.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:nl"
+    },
+    "https://www.probikesupply.com/products/cane-creek-40-is41-28-6-is52-40-tall-cover-headset-black": {
+      "domain": "probikesupply.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.cadencecyclery.com/product/cane-creek-40-is41-is52-tapered-headset-236521-1.htm": {
+      "domain": "cadencecyclery.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://dragonspinecycling.com/products/cane-creek-40-is41-28-6-is52-40-tall-cover-headset-black": {
+      "domain": "dragonspinecycling.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://time2shinebmx.com/products/cane-creek-40-is41-28-6-is52-40-short-cover-headset-black": {
+      "domain": "time2shinebmx.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.leagueoutfitters.com/products/cane-creek-110-series-is41-is52-tapered-headsets": {
+      "domain": "leagueoutfitters.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike-discount.de/de/cane-creek-steuersatz-40-is41-1-1/8-short": {
+      "domain": "bike-discount.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://sm-parts.net/products/cane-creek-40-series-steuersatz-integriert-is41": {
+      "domain": "sm-parts.net",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://rowerowy.com/sklep/czesci/stery/zintegrowane/prod/40-Series-IS41tc": {
+      "domain": "rowerowy.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://evolutionbikes.fr/en/products/cane-creek-serie-sterzo-40": {
+      "domain": "evolutionbikes.fr",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.bike24.it/prodotti/818901": {
+      "domain": "bike24.it",
+      "first_seen": "2026-07-21",
+      "via": "serper:it"
+    },
+    "https://www.cingolanibikeshop.com/cuscinetto-cane-creek-serie-sterzo-zn40-41x30x6-5mm.html": {
+      "domain": "cingolanibikeshop.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:it"
+    },
+    "https://www.maciag-offroad.com/cane-creek-headset-40-is41-28-6-is41-30-tall-1-1-8-sid110309.html": {
+      "domain": "maciag-offroad.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:it"
+    },
+    "https://cavalierebici.it/fr/products/cane-creek-serie-sterzo-40-series-is41-28-6-h15-is52-40": {
+      "domain": "cavalierebici.it",
+      "first_seen": "2026-07-21",
+      "via": "serper:fr"
+    },
+    "https://www.bike24.fr/produits/818901": {
+      "domain": "bike24.fr",
+      "first_seen": "2026-07-21",
+      "via": "serper:fr"
+    },
+    "https://r2-bike.com/CANE-CREEK-Headset-40IS41-286-IS41-30-Short-Cover-1-1-8": {
+      "domain": "r2-bike.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:fr"
+    },
+    "https://www.idealo.es/precios/4355200/cane-creek-40-series.html": {
+      "domain": "idealo.es",
+      "first_seen": "2026-07-21",
+      "via": "serper:es"
+    },
+    "https://www.cingolanibikeshop.com/cane-creek-427392-serie-sterzo-40-zerostack-e2-1-1-8-1-5-nero.html": {
+      "domain": "cingolanibikeshop.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:es"
+    },
+    "https://www.treefortbikes.com/Cane-Creek-40-Series-IS41-286-IS41-30-Short-Cover": {
+      "domain": "treefortbikes.com",
+      "first_seen": "2026-07-21",
       "via": "tavily"
     }
   },
@@ -13446,6 +13771,3684 @@
     "https://shingsbikekitchen.wordpress.com/2020/05/27/300km-in-initial-thoughts-on-the-ritchey-ergomax-comp-handlebars": {
       "domain": "shingsbikekitchen.wordpress.com",
       "first_seen": "2026-07-13",
+      "via": "tavily"
+    },
+    "https://www.bikeporn.cc/ritchey-handlebar-with-superlogic-ergomax-42-integration_z145160/": {
+      "domain": "bikeporn.cc",
+      "first_seen": "2026-07-21",
+      "via": "serper:fr"
+    },
+    "https://www.bikeporn.cc/ritchey-handlebar-with-superlogic-ergomax-38-integration_z145178/": {
+      "domain": "bikeporn.cc",
+      "first_seen": "2026-07-21",
+      "via": "serper:nl"
+    },
+    "https://www.laciclabicycleshop.com/product/ritchey-superlogic-ergomax-1258329-1.htm": {
+      "domain": "laciclabicycleshop.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.goodspeedcycles.com/product/ritchey-superlogic-ergomax-1258329-1.htm": {
+      "domain": "goodspeedcycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.landiscyclery.com/product/ritchey-superlogic-ergomax-1258329-1.htm": {
+      "domain": "landiscyclery.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.athleticfeat.com/product/ritchey-superlogic-ergomax-1258329-1.htm": {
+      "domain": "athleticfeat.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://giosoutdoors.com/products/ritchey-superlogic-ergomax-drop-handlebar-carbon-44cm-31-8mm-matte-carbon": {
+      "domain": "giosoutdoors.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.jensonusa.com/ritchey-wcs-ergomax-drop-handlebar": {
+      "domain": "jensonusa.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.mtbiker.de/shop/komponenten/lenker-und-barends/rennrad-und-gravel-lenker/ritchey-superlogic-ergomax-lenker-318-mm-p396751.html": {
+      "domain": "mtbiker.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://www.deporvillage.it/manubrio-ritchey-wcs-ergomax-carbon": {
+      "domain": "deporvillage.it",
+      "first_seen": "2026-07-21",
+      "via": "serper:it"
+    },
+    "https://www.mojekolo.cz/silnicni-riditka-ritchey-wcs-carbon-ergomax-440mm/": {
+      "domain": "mojekolo.cz",
+      "first_seen": "2026-07-21",
+      "via": "serper:cz"
+    },
+    "https://www.ridinggravel.com/components/ritchey-wcs-butano-and-ergomax-handle-bars-quick-review/": {
+      "domain": "ridinggravel.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:nl"
+    },
+    "https://www.outspokinbicycles.com/product/ritchey-superlogic-ergomax-1258329-1.htm": {
+      "domain": "outspokinbicycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.2riversbicycle.com/product/ritchey-superlogic-ergomax-1258329-1.htm": {
+      "domain": "2riversbicycle.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.kylesbikes.com/product/ritchey-superlogic-ergomax-1258329-1.htm": {
+      "domain": "kylesbikes.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://bouldernordic.com/products/ritchey-superlogic-ergomax-drop-handlebar-carbon-44cm-31-8mm-matte-carbon": {
+      "domain": "bouldernordic.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.koloshop24.de/ritchey-superlogic-venturemax-42-lenker-mit-integration/165936": {
+      "domain": "koloshop24.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://www.lastazionedellebiciclette.com/prodotto/ritchey-venturemax-superlogic/": {
+      "domain": "lastazionedellebiciclette.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:it"
+    },
+    "https://www.bikeporn.cz/ritchey-riditka-s-integraci-superlogic-ergomax-42_z145160/": {
+      "domain": "bikeporn.cz",
+      "first_seen": "2026-07-21",
+      "via": "serper:cz"
+    },
+    "https://www.rosebikes.com/p/ritchey-wcs-ergomax-roadgravelallroad-bar-2673926": {
+      "domain": "rosebikes.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:nl"
+    },
+    "https://www.deporvillage.nl/ritchey-ergomax-wcs-stuur-zwart": {
+      "domain": "deporvillage.nl",
+      "first_seen": "2026-07-21",
+      "via": "serper:nl"
+    },
+    "https://www.centrumrowerowe.pl/kierownica-szosowa-ritchey-wcs-ergomax-pd40974/": {
+      "domain": "centrumrowerowe.pl",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://cyklomania.pl/produkt/ritchey-kierownica-gravel-wcs-ergomax-di2-44cm.html": {
+      "domain": "cyklomania.pl",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.madejasport.cz/eshop/p/silnicni-riditka-ritchey-superlogic-ergomax-0-100099300": {
+      "domain": "madejasport.cz",
+      "first_seen": "2026-07-21",
+      "via": "serper:cz"
+    },
+    "https://www.bike24.pl/kolarstwo/czesci/kokpit/kierownice-rowerowe/f.marka.ritchey": {
+      "domain": "bike24.pl",
+      "first_seen": "2026-07-21",
+      "via": "serper:es"
+    },
+    "https://www.tradeinn.com/bikeinn/pl/ritchey-comp-ergomax-kierownica/139622914/p": {
+      "domain": "tradeinn.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:es"
+    },
+    "https://www.performancebike.com/ritchey-bikes/b1430": {
+      "domain": "performancebike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.walmart.com/c/brand/ritchey-collection": {
+      "domain": "walmart.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://shop.paradisebikes.com/brands/ritchey": {
+      "domain": "shop.paradisebikes.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://ottawabikeandtrail.com/collections/ritchey-bicycles": {
+      "domain": "ottawabikeandtrail.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://ritcheylogic.com": {
+      "domain": "ritcheylogic.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.adrenalinebikes.com/product-type/brands/ritchey": {
+      "domain": "adrenalinebikes.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://en.wikipedia.org/wiki/Tom_Ritchey": {
+      "domain": "en.wikipedia.org",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.excelsports.com/brand/Ritchey": {
+      "domain": "excelsports.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.mantel.com/it/manubrio-ritchey-wcs-ergomax": {
+      "domain": "mantel.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:it"
+    },
+    "https://bike-store-treviso.it/products/manubrio-ritchey-wcs-ergomax": {
+      "domain": "bike-store-treviso.it",
+      "first_seen": "2026-07-21",
+      "via": "serper:it"
+    },
+    "https://ciclimattio.com/p/ritchey/manubrio-comp-ergomax-nero-440mm": {
+      "domain": "ciclimattio.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:it"
+    },
+    "https://www.bike-discount.de/it/ritchey-manubrio-wcs-ergomax": {
+      "domain": "bike-discount.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:it"
+    },
+    "https://ciclimattio.com/p/ritchey/wcs-ergomax-manubrio-nero-460mm": {
+      "domain": "ciclimattio.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:fr"
+    },
+    "https://bike-store-treviso.it/products/manubrio-ritchey-venturemax-superlogic": {
+      "domain": "bike-store-treviso.it",
+      "first_seen": "2026-07-21",
+      "via": "serper:fr"
+    },
+    "https://www.tradeinn.com/bikeinn/es/ritchey-manillar-comp-ergomax/139622914/p": {
+      "domain": "tradeinn.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:es"
+    },
+    "https://www.clutchbicycleshop.com/product/ritchey-superlogic-ergomax-1258329-1.htm": {
+      "domain": "clutchbicycleshop.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.louisvillecyclery.com/product/ritchey-superlogic-ergomax-1258329-1.htm": {
+      "domain": "louisvillecyclery.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.belmontbikes.com/product/ritchey-superlogic-ergomax-1258329-1.htm": {
+      "domain": "belmontbikes.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bikeworldiowa.com/product/ritchey-superlogic-ergomax-1258329-1.htm": {
+      "domain": "bikeworldiowa.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.velopasadena.com/product/ritchey-superlogic-ergomax-1258329-1.htm": {
+      "domain": "velopasadena.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.greggscycles.com/product/ritchey-superlogic-ergomax-1258329-1.htm": {
+      "domain": "greggscycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.jaxbicycles.com/product/ritchey-superlogic-ergomax-1258329-1.htm": {
+      "domain": "jaxbicycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://worldwidecyclery.com/products/ritchey-superlogic-ergomax-drop-handlebar-carbon-44cm-31-8mm-matte-carbon": {
+      "domain": "worldwidecyclery.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.amgcyclery.com/products/ritchey-superlogic-ergomax-bar-31-8-38cm-black": {
+      "domain": "amgcyclery.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.origine-cycles.com/fr-FR/cintre-route-625847_road-ergomax-comp.html": {
+      "domain": "origine-cycles.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.1bike.fr/cintre-ritchey-venturemax-superlogic-carbone-ud-mat.html": {
+      "domain": "1bike.fr",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.alltricks.fr/C-136868-ritchey": {
+      "domain": "alltricks.fr",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.origine-cycles.com/fr-FR/cintre-route-2301238_road-ergomax-comp.html": {
+      "domain": "origine-cycles.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:fr"
+    },
+    "https://probikeshop.fr/products/cintre-ritchey-ergomax-comp-eps-di2": {
+      "domain": "probikeshop.fr",
+      "first_seen": "2026-07-21",
+      "via": "serper:fr"
+    },
+    "https://www.cdiscount.com/le-sport/velos-tandem-tricycle-monocycle-remorque-casque/cintre-ritchey-comp-ergomax-noir-46-cm/f-121192408-rit1688810844803.html": {
+      "domain": "cdiscount.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:es"
+    },
+    "https://www.troc-velo.com/api/products/cintre-ritchey-streem-superlogic-carbone-4252164": {
+      "domain": "troc-velo.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:nl"
+    },
+    "https://www.origine-cycles.com/fr-FR/cintre-plat-1520041_mtn-2x-carbon.html": {
+      "domain": "origine-cycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.origine-cycles.com/fr-CH/cintre-plat-1520041_mtn-2x-carbon.html": {
+      "domain": "origine-cycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.origine-cycles.com/fr-BE/cintre-plat-1520041_mtn-2x-carbone-740.html": {
+      "domain": "origine-cycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.origine-cycles.com/fr-CH/cintre-plat-2301838_mtn-2x-carbon-740.html": {
+      "domain": "origine-cycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.origine-cycles.com/fr-BE/cintre-plat-2301838_mtn-2x-carbon-740.html": {
+      "domain": "origine-cycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.origine-cycles.com/fr-BE/cintre-plat-1520041_mtn-2x-carbon.html": {
+      "domain": "origine-cycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.fr/produits/50656": {
+      "domain": "bike24.fr",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.origine-cycles.com/fr-BE/cintre-route-2301226_evo-curve-superlogic-carbone.html": {
+      "domain": "origine-cycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.origine-cycles.com/fr-FR/cintre-route-2301226_evo-curve-superlogic-carbone.html": {
+      "domain": "origine-cycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.rosebikes.be/p/ritchey-wcs-ergomax-cintre-routegravelallroad-2673926": {
+      "domain": "rosebikes.be",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.rosebikes.fr/p/ritchey-wcs-ergomax-cintre-routegravelallroad-2673926": {
+      "domain": "rosebikes.fr",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.rosebikes.fr/p/ritchey-comp-ergomax-di2-cintre-routegravelallroad-2684976": {
+      "domain": "rosebikes.fr",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    }
+  },
+  "Canyon S15 VCLS 2.0": {
+    "https://www.canyon.com/en-de/gear/bike-parts/posts-and-clamps/canyon-s15-vcls-2.0-27.2mm-cf-seatpost/148287.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://handsonbike.blogspot.com/2017/09/canyon-endurace-s15-vcls-20-cf-seatpost.html": {
+      "domain": "handsonbike.blogspot.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://www.canyon.com/en-fr/gear/bike-parts/posts-and-clamps/canyon-s15-vcls-2.0-27.2mm-cf-seatpost/148287.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://www.velonova.lt/en/bike-parts/seatposts?filter_manufacturer=226": {
+      "domain": "velonova.lt",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://www.canyon.com/en-pl/gear/bike-parts/posts-and-clamps/canyon-s15-vcls-2.0-27.2mm-cf-seatpost/148287.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.mtbiker.pl/classifieds/komponenty/sztyce/amortyzowane/4660905/canyon-s15-vcls-20-cf-seatpost.html": {
+      "domain": "mtbiker.pl",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.canyon.com/pl-pl/gear/bike-parts/posts-and-clamps/canyon-s14-vcls-2.0-27.2mm-cf-seatpost/148286.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.canyon.com/en-it/gear/bike-parts/posts-and-clamps/canyon-s15-vcls-2.0-27.2mm-cf-seatpost/148287.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:it"
+    },
+    "https://www.canyon.com/it-it/accessori-biciclette/componenti/reggisella-collarini/canyon-s15-vcls-2.0-27.2mm-cf-seatpost/148287.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:it"
+    },
+    "https://www.canyon.com/en-us/gear/components/posts-and-clamps/canyon-s15-vcls-2.0-27.2mm-cf-seatpost/148287.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:it"
+    },
+    "https://www.mtbiker.it/classifieds/componenti/reggiselle-/fisse-/4528484/canyon-s15-vcls-20-cf-seatpost.html": {
+      "domain": "mtbiker.it",
+      "first_seen": "2026-07-21",
+      "via": "serper:it"
+    },
+    "https://www.canyon.com/en-cz/gear/bike-parts/posts-and-clamps/canyon-s15-vcls-2.0-27.2mm-cf-seatpost/148287.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:cz"
+    },
+    "https://www.mtbiker.cz/bazar/komponenty/sedlovky/odpruzene/4574833/canyon-s15-vcls-20-cf-seatpost.html": {
+      "domain": "mtbiker.cz",
+      "first_seen": "2026-07-21",
+      "via": "serper:cz"
+    },
+    "https://www.canyon.com/en-es/gear/bike-parts/posts-and-clamps/canyon-s15-vcls-2.0-27.2mm-cf-seatpost/148287.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:cz"
+    },
+    "https://www.canyon.com/en-gb/gear/bike-parts/posts-and-clamps/canyon-s15-vcls-2.0-27.2mm-cf-seatpost/148287.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:fr"
+    },
+    "https://gravelunion.cc/article/behind-the-scenes-of-the-canyon-vcls": {
+      "domain": "gravelunion.cc",
+      "first_seen": "2026-07-21",
+      "via": "serper:fr"
+    },
+    "https://www.canyon.com/es-es/accesorios-bicicleta/componentes/tijas-cierres/canyon-s14-vcls-2.0-27.2mm-cf-seatpost/148286.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:es"
+    },
+    "https://www.canyon.com/en-nl/gear/bike-parts/posts-and-clamps/canyon-s15-vcls-2.0-27.2mm-cf-seatpost/148287.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:nl"
+    },
+    "https://www.fiets.nl/nieuws/racefiets-nieuws/review-canyon-vcls-seatpost-2-0/": {
+      "domain": "fiets.nl",
+      "first_seen": "2026-07-21",
+      "via": "serper:nl"
+    },
+    "https://weightweenies.starbike.com/forum/viewtopic.php?t=172962": {
+      "domain": "weightweenies.starbike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.canyon.com/de-de/fahrradzubehoer/fahrradteile/sattelstuetze-sattelklemme/canyon-s15-vcls-2.0-27.2mm-cf-sattelstuetze/148287.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://www.rennrad-news.de/forum/threads/frage-zum-wirkprinzip-von-vcls-sattelst%C3%BCtzen-kein-2-0.189399/": {
+      "domain": "rennrad-news.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://www.kleinanzeigen.de/s-canyon-s15-vcls/k0": {
+      "domain": "kleinanzeigen.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://cyclingclaude.de/2018/02/13/canyon-vcls-2-komfort-sattelstuetze/": {
+      "domain": "cyclingclaude.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://www.canyon.com/de-de/fahrradzubehoer/fahrradteile/sattelstuetze-sattelklemme/canyon-s14-vcls-2.0-27.2mm-cf-sattelstuetze/148286.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://www.testberichte.de/p/canyon-bicycles-tests/vcls-post-2-0-testbericht.html": {
+      "domain": "testberichte.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://www.canyon.com/pl-pl/gear/bike-parts/posts-and-clamps/canyon-s15-vcls-2.0-27.2mm-cf-seatpost/148287.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.canyon.com/de-ch/fahrradzubehoer/fahrradteile/sattelstuetze-sattelklemme/canyon-s15-vcls-2.0-27.2mm-cf-sattelstuetze/148287.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:it"
+    },
+    "https://www.bike-magazin.de/komponenten/sattel/mtb-sattelstuetze-von-canyon-im-dauertest/": {
+      "domain": "bike-magazin.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:it"
+    },
+    "https://www.kleinanzeigen.de/s-canyon-vcls-2.0/k0": {
+      "domain": "kleinanzeigen.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:it"
+    },
+    "https://buycycle.com/de-ch/shop/main-types/cycling-gear/types/saddle/categories/seatpost/brands/canyon/search/Canyon%20S15%20VCLS%202.0%20CF": {
+      "domain": "buycycle.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:it"
+    },
+    "https://www.canyon.com/de-at/fahrradzubehoer/fahrradteile/sattelstuetze-sattelklemme/canyon-s14-vcls-2.0-27.2mm-cf-sattelstuetze/148286.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:it"
+    },
+    "https://www.canyon.com/de-de/about/innovation/vcls-technology/": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:it"
+    },
+    "https://www.canyon.com/de-de/fahrradzubehoer/fahrradteile/sattelstuetze-sattelklemme/": {
+      "domain": "canyon.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:it"
+    },
+    "https://www.testbericht.de/produkte/canyon-vcls-2-0-cf": {
+      "domain": "testbericht.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:fr"
+    },
+    "https://www.kleinanzeigen.de/s-canyon-vcls/k0": {
+      "domain": "kleinanzeigen.de",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.willhaben.at/iad/kaufen-und-verkaufen/d/leichte-und-stossdaempfende-komfort-sattelstuetze-aus-carbon-canyon-s15-vcls-2-0-cf-sattelstuetze-2055336763": {
+      "domain": "willhaben.at",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.ricardo.ch/de/a/canyon-s15-vcls-20-272mm-cf-sattelstuetze-1295486324": {
+      "domain": "ricardo.ch",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike-magazin.de/komponenten/sattel/mtb-sattelstuetze-von-canyon-im-dauertest": {
+      "domain": "bike-magazin.de",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.rennrad-news.de/forum/threads/frage-zum-wirkprinzip-von-vcls-sattelst%C3%BCtzen-kein-2-0.189399": {
+      "domain": "rennrad-news.de",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.mtbiker.pl/classifieds/komponenty/sztyce/sztywne/4613100/canyon-s15-vcls-20-cf-seatpost.html": {
+      "domain": "mtbiker.pl",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://www.olx.pl/sport-hobby/rowery/q-sztyca-canyon-vcls/": {
+      "domain": "olx.pl",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.mtbiker.pl/classifieds/komponenty/sztyce/sztywne/4689523/canyon-s15-vcls-20-cf-sedlovka-272-mm.html": {
+      "domain": "mtbiker.pl",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.forumrowerowe.org/topic/251075-sztyca-canyon-s15-vcls-20-cf/": {
+      "domain": "forumrowerowe.org",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.mtbiker.pl/classifieds/komponenty/sztyce/amortyzowane/461583/canyon-s15-vcls.html": {
+      "domain": "mtbiker.pl",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.olx.pl/d/oferta/sztyca-canyon-s15-vcls-2-0-27-2mm-cf-seatpost-350mm-CID767-ID1aFZYQ.html": {
+      "domain": "olx.pl",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://buycycle.com/pl-pl/shop/main-types/cycling-gear/types/saddle/categories/seatpost/brands/canyon/search/Canyon%20S15%20VCLS%202.0%20CF": {
+      "domain": "buycycle.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:it"
+    },
+    "https://www.mtbiker.pl/classifieds/komponenty/sztyce/sztywne/4739903/canyon-s15-vcls-20-272mm-cf-seatpost.html": {
+      "domain": "mtbiker.pl",
+      "first_seen": "2026-07-21",
+      "via": "serper:cz"
+    },
+    "https://www.olx.pl/sport-hobby/rowery/czesci-rowerowe/siodelka-i-sztyce/q-sztyca-canyon-vcls/": {
+      "domain": "olx.pl",
+      "first_seen": "2026-07-21",
+      "via": "serper:fr"
+    },
+    "https://www.mtbiker.pl/classifieds/komponenty/sztyce/sztywne/4751423/canyon-s15-vcls-20-cf-272mm.html": {
+      "domain": "mtbiker.pl",
+      "first_seen": "2026-07-21",
+      "via": "serper:fr"
+    },
+    "https://www.biclo.pl/targ/oferta/tija-sa-carbon-canyon-s15-vcls-20-272mm-cf": {
+      "domain": "biclo.pl",
+      "first_seen": "2026-07-21",
+      "via": "serper:es"
+    },
+    "https://www.olx.pl/sport-hobby/rowery/q-sztyca-canyon-vcls": {
+      "domain": "olx.pl",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.forumrowerowe.org/topic/251075-sztyca-canyon-s15-vcls-20-cf": {
+      "domain": "forumrowerowe.org",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    }
+  },
+  "IBS-V1X": {
+    "https://infinitybikeseat.com/product-category/bike-seats/": {
+      "domain": "infinitybikeseat.com",
+      "first_seen": "2026-07-21",
+      "via": "serper"
+    },
+    "https://infinitybikeseat.com/shop/": {
+      "domain": "infinitybikeseat.com",
+      "first_seen": "2026-07-21",
+      "via": "serper"
+    },
+    "https://infinitybikeseat.com/shop/vegan-seat/": {
+      "domain": "infinitybikeseat.com",
+      "first_seen": "2026-07-21",
+      "via": "serper"
+    },
+    "https://infinitybikeseat.com/": {
+      "domain": "infinitybikeseat.com",
+      "first_seen": "2026-07-21",
+      "via": "serper"
+    },
+    "https://www.cyclingupgrades.com/collections/infinity-saddles": {
+      "domain": "cyclingupgrades.com",
+      "first_seen": "2026-07-21",
+      "via": "serper"
+    },
+    "https://infinitybikeseat.com/2024/05/20/the-worst-and-best-bicycle-saddle-i-ever-used/": {
+      "domain": "infinitybikeseat.com",
+      "first_seen": "2026-07-21",
+      "via": "serper"
+    },
+    "https://radkomfort.de/produkt/infinity-bike-seat-v1x": {
+      "domain": "radkomfort.de",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://infinitybikeseat.com/shop/vegan-seat": {
+      "domain": "infinitybikeseat.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://infinitybikeseat.com/2017/06/15/saddle-search-to-infinity-and-beyond": {
+      "domain": "infinitybikeseat.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://infinitybikeseat.com/ride-type-1": {
+      "domain": "infinitybikeseat.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://infinitybikeseat.com/shop/infinity-e1x-series-seat": {
+      "domain": "infinitybikeseat.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://infinitybikeseat.com/shop/special-deals": {
+      "domain": "infinitybikeseat.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://infinitybikeseat.com": {
+      "domain": "infinitybikeseat.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://infinitybikeseat.com/product-category/bike-seats": {
+      "domain": "infinitybikeseat.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://infinitybikeseat.com/shop": {
+      "domain": "infinitybikeseat.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://infinitybikeseat.com/shop/a1x": {
+      "domain": "infinitybikeseat.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://lancasterarchery.com/products/arsenal-cloud-infinity-saddle": {
+      "domain": "lancasterarchery.com",
+      "first_seen": "2026-07-21",
+      "via": "serper"
+    },
+    "https://www.breeches.com/products/vegan-x-all-purpose-saddle-1": {
+      "domain": "breeches.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://huntarsenal.com/products/cloud-infinity-saddle": {
+      "domain": "huntarsenal.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.tractorsupply.com/tsc/product/henri-de-rivel-vegan-x-all-purpose-igp-saddle": {
+      "domain": "tractorsupply.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bikeforums.net/long-distance-competition-ultracycling-randonneuring-endurance-cycling/1134636-infinity-saddle.html": {
+      "domain": "bikeforums.net",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.adamellissaddles.com/product/infinity": {
+      "domain": "adamellissaddles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "http://lovelybike.blogspot.com/2011/03/vegan-options-for-classic-saddles.html": {
+      "domain": "lovelybike.blogspot.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://newatlas.com/infinity-seat-review/58873": {
+      "domain": "newatlas.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.golflocker.com/Titleist-Pro-V1X-Left-Dash-Performance-Alignment": {
+      "domain": "golflocker.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.big5sportinggoods.com/store/details/titleist-pro-v1x-1-dozen/2730115660002": {
+      "domain": "big5sportinggoods.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://store.dish.com/proddetail.asp?prod=P800": {
+      "domain": "store.dish.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.dickssportinggoods.com/p/titleist-2025-pro-v1x-golf-balls-25ttlu2025ttlstprgbla/25ttlu2025ttlstprgbla": {
+      "domain": "dickssportinggoods.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.golfballplanet.com/shop/golf-balls/brands/titleist/prov1-prov1x/titleist-pro-v1x-2023-1-dozen": {
+      "domain": "golfballplanet.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://embersgolf.com/products/titleist-pro-v1x-golf-balls.html": {
+      "domain": "embersgolf.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.titleist.com/product/pro-v1x/005PVXT.html": {
+      "domain": "titleist.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.golfballs.com/Golf-Balls/Titleist-Pro-V1x-Golf-Balls-2025.htm": {
+      "domain": "golfballs.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://blog.lostgolfballs.com/all-pros-no-cons-prov1-vs-prov1x": {
+      "domain": "blog.lostgolfballs.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://radkomfort.de/produkt/infinity-bike-seat-v1x/": {
+      "domain": "radkomfort.de",
+      "first_seen": "2026-07-21",
+      "via": "serper"
+    },
+    "https://infinitybikeseat.com/shop/infinity-e1x-series-seat/": {
+      "domain": "infinitybikeseat.com",
+      "first_seen": "2026-07-21",
+      "via": "serper"
+    },
+    "https://infinitybikeseat.com/ride-type-1/": {
+      "domain": "infinitybikeseat.com",
+      "first_seen": "2026-07-21",
+      "via": "serper"
+    },
+    "https://fatbeardedandtattooedcyclist.wordpress.com/2015/10/21/review-infinity-bike-seat": {
+      "domain": "fatbeardedandtattooedcyclist.wordpress.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://totalwomenscycling.com/mountain-biking/review-infinity-bike-seat": {
+      "domain": "totalwomenscycling.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://infinitybikeseat.com/gallery": {
+      "domain": "infinitybikeseat.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://community.escapecollective.com/t/infinity-bike-seat/4653": {
+      "domain": "community.escapecollective.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://infinitybikeseat.com/setup-videos": {
+      "domain": "infinitybikeseat.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.atriathletesdiary.com/first-impressions-infinity-seat": {
+      "domain": "atriathletesdiary.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.cyclingupgrades.com/products/new-_infinity_elite_e1x_black_7x7mm_stainless_rails_saddle06242025-1104-01": {
+      "domain": "cyclingupgrades.com",
+      "first_seen": "2026-07-21",
+      "via": "serper"
+    },
+    "https://racearoundpoland.pl/aktualnosci/siodelka-infinity-bike-seat": {
+      "domain": "racearoundpoland.pl",
+      "first_seen": "2026-07-21",
+      "via": "serper"
+    },
+    "http://wrower.pl/wiadomosci/infinity-seat-niewidzialne-siodelko,5908.html": {
+      "domain": "wrower.pl",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://racearoundpoland.pl/partnerzy/infinity-bike-seta": {
+      "domain": "racearoundpoland.pl",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://precise-performance.co.uk/infinity-saddles": {
+      "domain": "precise-performance.co.uk",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://gearjunkie.com/biking/infinity-bike-saddle": {
+      "domain": "gearjunkie.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.iamgosolo.com/en/sella-infinity-bike-seat": {
+      "domain": "iamgosolo.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    }
+  },
+  "FORCE-AXS-LEWA": {
+    "https://contenderbicycles.com/products/sram-force-axs-hrd-shift-brake-system-e1": {
+      "domain": "contenderbicycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.performancebike.com/sram-force-axs-hydraulic-brake-shift-lever-kit-black-wireless-left-00.7018.580.000/p1645022?v=1640106": {
+      "domain": "performancebike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.biketiresdirect.com/product/sram-force-axs-e1-shifter-brake-caliper": {
+      "domain": "biketiresdirect.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.twohoosierscyclery.com/sram-force-axs-e1-shifter-hydraulic-disc-brake-set.html": {
+      "domain": "twohoosierscyclery.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.lvr-cycles.com/en/derailleurs-gear-levers/9374-sram-force-axs-e1-left-brake-lever-with-front-flat-mount-caliper-950-mm-hose.html": {
+      "domain": "lvr-cycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.zbozi.cz/vyrobek/sram-force-axs-e1-00-7018-580-000-predni/vsechny-recenze": {
+      "domain": "zbozi.cz",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.universalcycles.com/shopping/product_details.php?id=117814": {
+      "domain": "universalcycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.lordgun.com/sram-force-axs-e1-front-left-control-lever-1": {
+      "domain": "lordgun.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.alltricks.com/F-302180-freins-complets-hydrauliques-route/P-3086348-sram_force_axs_e1_hydraulic_front_disc_brake__discless": {
+      "domain": "alltricks.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.prolocotrade.si/default.asp?mid=en&pid=modul_it&wid=15119&detailid=141804": {
+      "domain": "prolocotrade.si",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://steedcycles.com/products/sram-force-axs-hrd-e1-flat-mount-brake-shifter": {
+      "domain": "steedcycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.excelsports.com/sram-force-axs-e1-brake-shift-lever-with-caliper": {
+      "domain": "excelsports.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.com/p2936088.html": {
+      "domain": "bike24.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://r2-bike.com/SRAM-Force-AXS-HRD-Shift-Brake-Lever-including-hydraulic-Disc-Brake-Flat-Mount-E1-Lever-left-side-front-Brake": {
+      "domain": "r2-bike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://worldwidecyclery.com/products/sram-force-etap-axs-hrd-shift-brake-lever-and-hydraulic-disc-caliper-left-front-flat-mount-20mm-offset-950mm-hose": {
+      "domain": "worldwidecyclery.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike-discount.de/en/sram-force-etap-axs-e1-hrd-shift/brake-lever-fm-2x12-speed-disc-brake-set": {
+      "domain": "bike-discount.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://powermetercity.com/product/sram-force-e1-axs-hydraulic-shift-brake-levers-with-calipers-flat-mount/": {
+      "domain": "powermetercity.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://bikable.com/parts/brakes/brake-accessories/sram-force-axs-e1-left-hand-ed-brake-lever-spare-part-and-electronic-shifting-unit": {
+      "domain": "bikable.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://r2-bike.com/SRAM-Lever-Blade-Kit-Force-AXS-E1-for-hydraulic-Disc-Brake-left-side": {
+      "domain": "r2-bike.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://www.starbike.com/en/brands/sram/twistshifter-shift-and-brake-levers/": {
+      "domain": "starbike.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://www.bikestacja.pl/en/sram-force-axs-e1-shift-brake-lever-with-hydraulic-disc-brake-950-mm-left-front-p-46120.html": {
+      "domain": "bikestacja.pl",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.rosebikes.pl/p/sram-force-axstm-hrd-brakeshift-lever-incl-disc-brake-rear-wheel-right-159619": {
+      "domain": "rosebikes.pl",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.bike24.com/p2834296.html": {
+      "domain": "bike24.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.velofactory.ch/SRAM-ED-brake-lever-complete-Force-AXS-E1-left": {
+      "domain": "velofactory.ch",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.velonova.ee/en/sram-force-axs-e1-hrd-brake-shift-lever-with-caliper-1-2-speed-left-front-25648-en-gb": {
+      "domain": "velonova.ee",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.lvr-cycles.com/it/deragliatori-leve/9376-sram-force-axs-e1-left-brake-lever-with-rear-flat-mount-caliper-reversed-setup-1800-mm-hose.html": {
+      "domain": "lvr-cycles.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:it"
+    },
+    "https://buycycle.com/it-it/product/brake-levers-sram-force-etap-axs-left-brake-lever-assy?source=google_shopping": {
+      "domain": "buycycle.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:it"
+    },
+    "https://www.tradeinn.com/bikeinn/en/sram-force-e1-axs-disc-left-brake-lever-with-shifter/143003346/p": {
+      "domain": "tradeinn.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:cz"
+    },
+    "https://www.lvr-cycles.com/en/derailleurs-gear-levers/5830-sram-red-axs-e1-left-lever-black-without-caliper.html": {
+      "domain": "lvr-cycles.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:cz"
+    },
+    "https://www.bike-discount.de/en/sram-force-etap-axs-e1-hrd-shift/brake-lever-fm-disc-brake": {
+      "domain": "bike-discount.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:fr"
+    },
+    "https://intheknowcycling.com/product/sram-force-axs-e1-replacement-brake-lever-blade-shift-paddle-assembly-left/": {
+      "domain": "intheknowcycling.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:fr"
+    },
+    "https://www.bike24.com/p2984631.html": {
+      "domain": "bike24.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:es"
+    },
+    "https://www.lvr-cycles.com/es/desviadores-manetas/9376-sram-force-axs-e1-left-brake-lever-with-rear-flat-mount-caliper-reversed-setup-1800-mm-hose.html": {
+      "domain": "lvr-cycles.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:es"
+    },
+    "https://www.ibksport.eu/maneta-freno-cambio-sram-force-axs-e1-izquierda-pinza-delantera-flat-mount-20mm-offset-950mm-carbono-negro/p": {
+      "domain": "ibksport.eu",
+      "first_seen": "2026-07-21",
+      "via": "serper:es"
+    },
+    "https://racycles.com/es/products/sram-force-axs-e1-hydraulic-disc-brake-shifter-set": {
+      "domain": "racycles.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:es"
+    },
+    "https://spokex.com/products/sram-force-e1-shifter-brake-lever-left": {
+      "domain": "spokex.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:nl"
+    },
+    "https://www.tweekscycles.com/sram-force-axs-e1-shift-hydraulic-disc-brake-lever-4002279/": {
+      "domain": "tweekscycles.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:nl"
+    },
+    "https://www.bikesheduk.com/product/189704/sram-force-axs-e1-shifthydraulic-disc-brake-lever/option/": {
+      "domain": "bikesheduk.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:nl"
+    },
+    "https://bouldernordic.com/products/sram-force-e1-shifter-brake-lever-left": {
+      "domain": "bouldernordic.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.performancebike.com/sram-force-axs-hydraulic-disc-brake-shift-lever-exchange-kit-black-left-2x-11.7018.078.014/p1675075?v=1644990": {
+      "domain": "performancebike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://365cycles.com/products/sram-ed-spare-parts-a0-electronic-shifter-part-sram-sramelec3975-electronic-shifter-part": {
+      "domain": "365cycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://spokex.com/products/sram-force-e1-brake-lever-left": {
+      "domain": "spokex.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://racycles.com/products/sram-red-axs-e1-shift-brake-lever-exchange-kit": {
+      "domain": "racycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.seattleelectricbike.net/products/sram-force-e1-brake-lever-right": {
+      "domain": "seattleelectricbike.net",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://powermetercity.com/product/sram-force-e1-axs-hydraulic-shift-brake-levers-with-calipers-flat-mount": {
+      "domain": "powermetercity.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.treefortbikes.com/SRAM-Force-Shift-Brake-Lever-eTap-AXS-Exchange-Kit-": {
+      "domain": "treefortbikes.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.tnc-hamburg.com/Antrieb-Schaltung/Rennrad-Komponenten/Sram-Rennrad/Sram-Force-AXS-eTap/Sram-Force-AXS-Ersatzteile/Sram-Force-eTap-AXS-HRD-Disc-Schaltbremshebel-Ersatzteil-Schaltbremshebel-links::53925.html": {
+      "domain": "tnc-hamburg.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://www.procycle-parts.de/shop-artikel/schalt-bremshebel/": {
+      "domain": "procycle-parts.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://r2-bike.com/SRAM-Force-AXS-Schalt-Bremshebel-inkl-hydraulischer-Scheibenbremse-Flat-Mount-E1-Hebel-links-Bremse-vorn": {
+      "domain": "r2-bike.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://www.bike24.de/p1984631.html": {
+      "domain": "bike24.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://www.lordgun.de/sram-force-axs-e1-vorne-links-steuerhebel": {
+      "domain": "lordgun.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://suicycle-store.com/shop/antrieb-und-schaltung/schaltungen-kettenspanner/sram-force-axs-hrd-brems-schalthebel-set-praezision-komfort-fuer-renn-gravelbike/": {
+      "domain": "suicycle-store.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://www.kleinanzeigen.de/s-sram-axs-bremshebel/k0": {
+      "domain": "kleinanzeigen.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://ttw-offroad.de/117018078002-sram-schalt-/bremshebel-kpl-sram-force-axs-links": {
+      "domain": "ttw-offroad.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:de"
+    },
+    "https://www.velofactory.ch/SRAM-ED-Bremsgriff-komplett-Force-AXS-E1-Links": {
+      "domain": "velofactory.ch",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://rowerowy.com.pl/SRAM-Force-AXS-Schalt-Brems-Ersatzhebel-links-FUR-FORCE-AXS-E1-p107843": {
+      "domain": "rowerowy.com.pl",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.bike-mailorder.com/en-pl/products/force-axs-e1-schalt-bremshebel-upgrade-inkl-karoo-schwarz": {
+      "domain": "bike-mailorder.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.bike-discount.de/de/sram-force-etap-axs-e1-hrd-schalt/bremshebel-fm-scheibenbremse": {
+      "domain": "bike-discount.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.bike24.at/radfahren/teile/fahrradschaltung/schalthebel/f.marke.sram": {
+      "domain": "bike24.at",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.cycling-parts.ch/sram-force-axs-e1-disc-12fach-schalt-bremshebel-links.html": {
+      "domain": "cycling-parts.ch",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.bike-components.de/de/SRAM/Force-E1-AXS-HRD-Scheibenbremse-mit-Schalt-Bremsgriff-p96641/": {
+      "domain": "bike-components.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:it"
+    },
+    "https://www.koloshop24.de/sram-force-axs-hrd-e1-linker-schalt-bremshebel-und-bremssattel-flat-mount-leitung-950-mm/165444": {
+      "domain": "koloshop24.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:fr"
+    },
+    "https://www.bike24.de/p1984635.html": {
+      "domain": "bike24.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:fr"
+    },
+    "https://www.bike-components.de/de/SRAM/Schalt-Bremshebel-Kit-Force-E1-Axs-Disc-p215226/": {
+      "domain": "bike-components.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:fr"
+    },
+    "https://bikable.de/ersatzteile/bremsen/zubehor-und-ersatzteile-fur-fahrradbremsen/sram-force-axs-e1-linker-ed-bremshebel-ersatzteil-und-elektronische-schalteinheit": {
+      "domain": "bikable.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:fr"
+    },
+    "https://www.tnc-hamburg.com/Antrieb-Schaltung/Rennrad-Komponenten/Sram-Rennrad/Sram-Force-AXS-eTap/Sram-Force-AXS-Ersatzteile/Sram-Force-AXS-E1-Ersatzteil-Disc-Schaltbremsgriff-komplett-rechts::66388.html": {
+      "domain": "tnc-hamburg.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:es"
+    },
+    "https://r2-bike.com/SRAM-Force-AXS-HRD-Schalt-Bremshebel-links": {
+      "domain": "r2-bike.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:es"
+    },
+    "https://www.bike-mailorder.com/es-es/products/force-axs-schalt-bremseinheit-e1-schwarz": {
+      "domain": "bike-mailorder.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:es"
+    },
+    "https://r2-bike.com/SRAM-Force-AXS-E1-HRD-Schalt-Bremshebel-links": {
+      "domain": "r2-bike.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:nl"
+    },
+    "https://suicycle-store.com/shop/antrieb-und-schaltung/schaltungen-kettenspanner/sram-force-axs-hrd-brems-schalthebel-set-praezision-komfort-fuer-renn-gravelbike": {
+      "domain": "suicycle-store.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.mantel.com/de/sram-force-axs-e1-schalthebel": {
+      "domain": "mantel.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike-components.de/de/SRAM/Schalt-Bremshebel-Kit-Force-E1-Axs-Disc-p215226": {
+      "domain": "bike-components.de",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.procycle-parts.de/shop-artikel/schalt-bremshebel": {
+      "domain": "procycle-parts.de",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.rowertour.com/p/g2547/klamkomanetka-z-hamulcem-sram-force-axs-e1": {
+      "domain": "rowertour.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://bikefast.pl/product-pol-7029-Klamkomanetka-SRAM-Force-AXS-E1-lewa.html": {
+      "domain": "bikefast.pl",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://cyklomania.pl/produkt/sram-zestaw-klamkomanetka-zacisk-force-axs-e1-przod-950mm.html": {
+      "domain": "cyklomania.pl",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://formicki-bike.pl/pl/p/Komplet-klamkomanetek-Sram-Force-E1-AXS-przod-950mm-tyl-1800mm/38995": {
+      "domain": "formicki-bike.pl",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://kastor-bike.pl/p/2522/56093/hamulec-hydrauliczny-sram-force-axs-e1-hrd-lewa-przod-flat-mount-przewod-950-mm-klamkomanetki-szosowe-klamkomanetki-sram-manetki-strefa-sram.html": {
+      "domain": "kastor-bike.pl",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://2wheels.pl/produkt/klamkomanetka-force-axs-e1-hrd-zacisk/": {
+      "domain": "2wheels.pl",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://veloabike.pl/pl/p/Sram-zestaw-klamkomanetka-przewod-Force-AXS-E1-przod/990": {
+      "domain": "veloabike.pl",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.centrumrowerowe.pl/klamkomanetka-z-hamulcem-sram-force-axs-e1-pd50759/": {
+      "domain": "centrumrowerowe.pl",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.bike24.pl/produkty/984635": {
+      "domain": "bike24.pl",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://wertykal.com/pl/p/Klamkomanetka-lewa-z-zaciskiem-Sram-Focre-AXS-E1-przod-950mm/13248": {
+      "domain": "wertykal.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.mtbiker.pl/shop/komponenty/manetki-i-klamkomanetki": {
+      "domain": "mtbiker.pl",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.centrumrowerowe.pl/czesci/manetki-klamkomanetki/klamkomanetki-rowerowe/.sram": {
+      "domain": "centrumrowerowe.pl",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://velopoint.pl/43-klamkomanetki": {
+      "domain": "velopoint.pl",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.rowertour.com/czesci/komponenty-elektroniczne/axs/manetki": {
+      "domain": "rowertour.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://helmansport.pl/12-rzedowe/1660-klamkomanetka-z-zaciskiem-sram-force-axs-disc-e1-komplet.html": {
+      "domain": "helmansport.pl",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://e-velomania.pl/klamkomanetka-prawa-z-hamulcem-sram-force-axs-e1": {
+      "domain": "e-velomania.pl",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://wertykal.com/pl/p/Klamkomanetka-prawa-z-zaciskiem-Sram-Force-AXS-E1-tyl-1800mm/13247": {
+      "domain": "wertykal.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bikestacja.pl/dzwignia-zmiany-biegow-z-hydraulicznym-hamulcem-tarczowym-sram-force-axs-e1-1800-mm-prawa-tyl-p-46121.html": {
+      "domain": "bikestacja.pl",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.it/prodotti/984635": {
+      "domain": "bike24.it",
+      "first_seen": "2026-07-21",
+      "via": "serper:fr"
+    },
+    "https://www.cingolanibikeshop.com/leva-cambio-fr-disco-sram-force-axs-e1-idr-post-sx-1800mm-fm-20mm-ss-har.html": {
+      "domain": "cingolanibikeshop.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:fr"
+    },
+    "https://ebikelab.it/sram-sram-kit-sostituzione-leva-cambio-freno-sram-force-axs-e1-disc-sx-con-copertura-2039100371": {
+      "domain": "ebikelab.it",
+      "first_seen": "2026-07-21",
+      "via": "serper:fr"
+    },
+    "https://www.mondobicistore.com/comando-leva-freno-cambio-sram-force-axs-e1-sinistro-pinza-anteriore-12-velocita": {
+      "domain": "mondobicistore.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:fr"
+    },
+    "https://www.lordgunbicycles.com/leva-freno-sram-force-axs-e1-solo-leva": {
+      "domain": "lordgunbicycles.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:fr"
+    },
+    "https://www.gambacicli.com/it/sram-force-axs-e1-coppia-comandi-freno-a-disco-1-2x12v.html": {
+      "domain": "gambacicli.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:fr"
+    },
+    "https://bike-store-treviso.it/products/kit-leva-freno-sram-force-axs-e1-sinistro": {
+      "domain": "bike-store-treviso.it",
+      "first_seen": "2026-07-21",
+      "via": "serper:fr"
+    },
+    "https://www.sanferbike.com/it/componentes-ciclismo/leve-del-cambio/controlli/123590-leva-sinistra-idraulica-a-2-velocita-sram-force-axs-e1-con-montaggio-piatto.html": {
+      "domain": "sanferbike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.mantel.com/it/leve-del-cambio-sram-force-axs-e1": {
+      "domain": "mantel.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.lvr-cycles.com/it/deragliatori-leve/9647-sram-rival-axs-e1-left-brake-lever-with-rear-flat-mount-caliper-reversed-setup-1800-mm-hose.html": {
+      "domain": "lvr-cycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.lordgunbicycles.com/comando-cambio-anteriore-sinistro-sram-rival-axs-e1": {
+      "domain": "lordgunbicycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.cingolanibikeshop.com/leva-cambio-fr-disco-sram-force-axs-e1-idr-ant-dx-950mm-fm-20mm-ss-har.html": {
+      "domain": "cingolanibikeshop.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.francesconibike.com/products/leva-sram-freno-cambio-rival-axs-e1": {
+      "domain": "francesconibike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://probikeshop.fr/products/levier-gauche-et-etrier-avant-sram-force-axs-e1-flat-mount-950mm-2x12v": {
+      "domain": "probikeshop.fr",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://werideoncycling-shop.com/products/levier-gauche-sram-force-e1-etap-axs-avec-etrier-et-durite": {
+      "domain": "werideoncycling-shop.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.lvr-cycles.com/fr/derailleurs-leviers/9377-levier-droit-etrier-arriere-sram-force-axs-e1-flat-mount-durite-1800mm.html": {
+      "domain": "lvr-cycles.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.mantel.com/be-fr/paire-de-leviers-sram-force-axs-e1": {
+      "domain": "mantel.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.bike-components.de/fr/SRAM/Frein-a-disque-Force-E1-AXS-HRD-avec-levier-de-changement-de-frein-p96641/": {
+      "domain": "bike-components.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://royalvelofrance.fr/levier-gauche-force-e1-axs-sans-etrier/": {
+      "domain": "royalvelofrance.fr",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.planete-velo.fr/composants/freins/levier-de-frein/levier-de-frein-sram-force-axs-e1-gauche-etrier-av-fm-20mm-950mm-00800098831/": {
+      "domain": "planete-velo.fr",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://bouticycle.com/shop/levier-gauche-sram-force-e1-axs-sans-etrier-448029": {
+      "domain": "bouticycle.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.idealo.fr/prix/207094708/sram-force-e1-axs-hrd.html": {
+      "domain": "idealo.fr",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.leboncoin.fr/ck/equipements_velos/levier-axs": {
+      "domain": "leboncoin.fr",
+      "first_seen": "2026-07-21",
+      "via": "serper:pl"
+    },
+    "https://www.bike24.fr/produits/984635": {
+      "domain": "bike24.fr",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.be/fr/produits/984635": {
+      "domain": "bike24.be",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.lu/fr/produits/984635": {
+      "domain": "bike24.lu",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.fr/produits/936088": {
+      "domain": "bike24.fr",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.fr/marques/sram/f.gamme.sram-force-axs": {
+      "domain": "bike24.fr",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.be/fr/produits/936088": {
+      "domain": "bike24.be",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.lu/fr/produits/936088": {
+      "domain": "bike24.lu",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.fr/produits/936089": {
+      "domain": "bike24.fr",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.be/fr/produits/936089": {
+      "domain": "bike24.be",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.lu/fr/produits/936089": {
+      "domain": "bike24.lu",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.be/fr/marques/sram/f.gamme.sram-force-axs": {
+      "domain": "bike24.be",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.lu/fr/marques/sram/f.gamme.sram-force-axs": {
+      "domain": "bike24.lu",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.lu/fr/marques/sram/f.gamme.sram-axs": {
+      "domain": "bike24.lu",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.fr/produits/944700": {
+      "domain": "bike24.fr",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.be/fr/produits/944700": {
+      "domain": "bike24.be",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.lu/fr/produits/944700": {
+      "domain": "bike24.lu",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.fr/produits/984633": {
+      "domain": "bike24.fr",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.fr/produits/984636": {
+      "domain": "bike24.fr",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.be/fr/produits/984636": {
+      "domain": "bike24.be",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.lu/fr/produits/984636": {
+      "domain": "bike24.lu",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    }
+  },
+  "FORCE-AXS-PRAWA": {
+    "https://bikable.com/parts/shift-levers-and-triggers/sti-road/sram-force-axs-e1-right-hand-hydraulic-shiftbrake-lever-1800-mm": {
+      "domain": "bikable.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://noboundariessport.com/products/sram-force-etap-axs-hrd-shift-brake-lever-and-hydraulic-disc-caliper-right-rear-flat-mount-20mm-offset-1800mm-hose-black-e1": {
+      "domain": "noboundariessport.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://larunpyora.com/fi/articles/2.598.150544/levyjarru-sram-force-axs-e1-shift-brake-system-rightrear": {
+      "domain": "larunpyora.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.theproscloset.com/products/sram-force-etap-axs-hrd-shift-brake-lever-and-hydraulic-disc-caliper-right-rear-e1": {
+      "domain": "theproscloset.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.universalcycles.com/shopping/product_details.php?id=117814": {
+      "domain": "universalcycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://365cycles.com/products/sram-force-etap-axs-hrd-shifter-brake-lever-and-caliper-e1-hydraulic-brake-shift-lever-drop-bar-time-trial-triathlon-bike-track-bike-road-bike-single-speed-fixie-srambrak3967": {
+      "domain": "365cycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://steedcycles.com/products/sram-force-axs-hrd-e1-flat-mount-brake-shifter": {
+      "domain": "steedcycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://worldwidecyclery.com/products/sram-force-etap-axs-hrd-shift-brake-lever-and-hydraulic-disc-caliper-right-rear-flat-mount-20mm-offset-1800mm-hose": {
+      "domain": "worldwidecyclery.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.rosebikes.com/p/sram-force-axstm-hrd-brakeshift-lever-incl-disc-brake-rear-wheel-right-159619": {
+      "domain": "rosebikes.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://thebikeshop.com/products/force-axs-hrd-shift-brake-system": {
+      "domain": "thebikeshop.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://mikesbikes.com/products/sram-force-axs-hrd-shift-brake-system": {
+      "domain": "mikesbikes.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.com/p2936091.html": {
+      "domain": "bike24.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://travelingground.com/products/sram-force-e1-axs-shifter-brake-lever-right": {
+      "domain": "travelingground.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.seattleelectricbike.net/products/sram-force-e1-brake-lever-right": {
+      "domain": "seattleelectricbike.net",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://racycles.com/products/sram-red-axs-e1-shift-brake-lever-exchange-kit": {
+      "domain": "racycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://bouldernordic.com/products/sram-force-e1-shifter-brake-lever-right": {
+      "domain": "bouldernordic.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.excelsports.com/sram-force-axs-e1-brake-shift-lever-with-caliper": {
+      "domain": "excelsports.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.treefortbikes.com/SRAM-Force-eTap-AXS-E1-Replacement-Brake-Lever-Blade-Shift": {
+      "domain": "treefortbikes.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://bikable.com/parts/brakes/sram-force-axs-e1-right-hand-ed-exchange-kit-for-shift-and-brake-lever": {
+      "domain": "bikable.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://worldwidecyclery.com/collections/road-shifter-part": {
+      "domain": "worldwidecyclery.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://spokex.com/products/sram-force-e1-brake-lever-left": {
+      "domain": "spokex.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://mikesbikes.com/products/sram-red-e1-axs-brake-shift-lever": {
+      "domain": "mikesbikes.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.competitivecyclist.com/sram-force-e1-axs-shift-brake-system": {
+      "domain": "competitivecyclist.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://powermetercity.com/product/sram-force-e1-axs-hydraulic-shift-brake-levers-with-calipers-flat-mount": {
+      "domain": "powermetercity.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://r2-bike.com/SRAM-Force-AXS-E1-HRD-Schalt-Bremshebel-rechts": {
+      "domain": "r2-bike.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:es"
+    },
+    "https://www.tnc-hamburg.com/Antrieb-Schaltung/Rennrad-Komponenten/Sram-Rennrad/Sram-Force-AXS-eTap/Sram-Force-AXS-Ersatzteile/Sram-Force-AXS-E1-Ersatzteil-Disc-Schaltbremsgriff-komplett-rechts::66388.html": {
+      "domain": "tnc-hamburg.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:es"
+    },
+    "https://www.otto.de/p/sram-scheibenbremse-sram-force-axs-e1-schalt-bremshebel-rechts-inkl-befestigung-elektr-S04H801D/": {
+      "domain": "otto.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:es"
+    },
+    "https://www.bike-discount.de/de/sram-force-etap-axs-e1-hrd-schalt/bremshebel-fm-scheibenbremse": {
+      "domain": "bike-discount.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:es"
+    },
+    "https://www.procycle-parts.de/shop-artikel/schalt-bremshebel/": {
+      "domain": "procycle-parts.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:es"
+    },
+    "https://www.bike24.de/p1944700.html": {
+      "domain": "bike24.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:es"
+    },
+    "https://suicycle-store.com/shop/antrieb-und-schaltung/schaltungen-kettenspanner/sram-force-axs-hrd-brems-schalthebel-set-praezision-komfort-fuer-renn-gravelbike/": {
+      "domain": "suicycle-store.com",
+      "first_seen": "2026-07-21",
+      "via": "serper:es"
+    },
+    "https://www.lordgun.de/sram-force-axs-e1-bremshebel-nur-rechter-hebel": {
+      "domain": "lordgun.de",
+      "first_seen": "2026-07-21",
+      "via": "serper:es"
+    },
+    "https://www.bike24.de/p1984632.html": {
+      "domain": "bike24.de",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.procycle-parts.de/shop-artikel/schalt-bremshebel": {
+      "domain": "procycle-parts.de",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.deporvillage.de/sram-force-etap-axs-schaltbremshebel-rechts-fuer-bremssattel": {
+      "domain": "deporvillage.de",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike-discount.de/de/sram-force-etap-axs-e1-hrd-schalt/bremshebel-fm-2x12-fach-scheibenbremsenset": {
+      "domain": "bike-discount.de",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.otto.de/p/sram-scheibenbremse-sram-force-axs-e1-schalt-bremshebel-rechts-inkl-befestigung-elektr-S04H801D": {
+      "domain": "otto.de",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.cycling-parts.ch/sram-force-axs-e1-disc-12fach-schalt-bremshebel-rechts.html": {
+      "domain": "cycling-parts.ch",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://jr-chains.de/products/sram-force-e1-axs-schalt-bremshebel": {
+      "domain": "jr-chains.de",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://r2-bike.com/SRAM-Force-AXS-Schalt-Bremshebel-inkl-hydraulischer-Scheibenbremse-Flat-Mount-E1-Hebel-rechts-Bremse-hinten": {
+      "domain": "r2-bike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.tnc-hamburg.com/Antrieb-Schaltung/Rennrad-Komponenten/Sram-Rennrad/Sram-Force-AXS-eTap/Sram-Force-AXS-Schaltung/Scheibenbremse-Sram-Force-AXS-E1-HRD-Schalt-Bremssystem-Griff-rechts-Discbrake-Hinterrad::65834.html": {
+      "domain": "tnc-hamburg.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike-components.de/de/SRAM/Force-E1-AXS-HRD-Scheibenbremse-mit-Schalt-Bremsgriff-p96641": {
+      "domain": "bike-components.de",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike-mailorder.com/en-se/products/force-axs-e1-schalt-bremshebel-upgrade-inkl-karoo-schwarz": {
+      "domain": "bike-mailorder.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://e-velomania.pl/klamkomanetka-prawa-z-hamulcem-sram-force-axs-e1": {
+      "domain": "e-velomania.pl",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.rowertour.com/czesci/komponenty-elektroniczne/axs/manetki": {
+      "domain": "rowertour.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://formicki-bike.pl/pl/p/Prawa-klamkomanetka-zacisk-Sram-Force-E1-AXS-tyl-1800mm/38965": {
+      "domain": "formicki-bike.pl",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://bikefast.pl/product-pol-7029-Klamkomanetka-SRAM-Force-AXS-E1-lewa.html": {
+      "domain": "bikefast.pl",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://cyklomania.pl/produkt/sram-zestaw-klamkomanetka-zacisk-force-axs-e1-przod-950mm.html": {
+      "domain": "cyklomania.pl",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.centrumrowerowe.pl/klamkomanetka-z-hamulcem-sram-force-axs-e1-pd50759": {
+      "domain": "centrumrowerowe.pl",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.cingolanibikeshop.com/leva-cambio-fr-disco-sram-force-axs-e1-idr-ant-dx-950mm-fm-20mm-ss-har.html": {
+      "domain": "cingolanibikeshop.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://bike-store-treviso.it/products/kit-leva-freno-sram-force-axs-e1-destro": {
+      "domain": "bike-store-treviso.it",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.lvr-cycles.com/it/deragliatori-leve/9375-sram-force-axs-e1-right-brake-lever-with-front-flat-mount-caliper-reversed-setup-950-mm-hose.html": {
+      "domain": "lvr-cycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.it/prodotti/984635": {
+      "domain": "bike24.it",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://servi-a.com/E1-AXS-Leva-Freno-Cambio-Destra-Il-Massimo-Della-Tecnologia-949035": {
+      "domain": "servi-a.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.gambacicli.com/it/sram-force-axs-e1-coppia-comandi-freno-a-disco-1-2x12v.html": {
+      "domain": "gambacicli.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike-discount.de/it/marca/sram/road/force-etap-axs/comandi-cambio": {
+      "domain": "bike-discount.de",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://giangisbike.it/prodotto/sram-leva-cambio-freno-con-freno-a-disco-idraulico-force-axs-e1idrpost-dx1800mmfm-20mmss-har": {
+      "domain": "giangisbike.it",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.mantel.com/it/leve-del-cambio-sram-force-axs-e1": {
+      "domain": "mantel.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.lordgunbicycles.com/leva-freno-sram-force-axs-e1-solo-leva": {
+      "domain": "lordgunbicycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bikemart.com/collections/sram": {
+      "domain": "bikemart.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://bikesonline.com/collections/brand-sram": {
+      "domain": "bikesonline.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://en.wikipedia.org/wiki/SRAM_Corporation": {
+      "domain": "en.wikipedia.org",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    }
+  },
+  "X0-CASSETTE": {
+    "https://www.universalcycles.com/shopping/product_details.php?id=113182": {
+      "domain": "universalcycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.competitivecyclist.com/sram-xg-1295-x0-eagle-transmission-12-speed-cassette": {
+      "domain": "competitivecyclist.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bikebling.com/SRAM-XS-1295-X0-Eagle-Transmission-12-Speed-Casset-p/sram23-00.2418.126.000.htm": {
+      "domain": "bikebling.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://thelostco.com/products/sram-x0-eagle-t-type-xg-1295-cassette-12-speed-10-52t-for-xd-driver-black": {
+      "domain": "thelostco.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike-discount.de/en/sram-x0-eagle-transmission-xs-1295-12-speed-cassette-10-52": {
+      "domain": "bike-discount.de",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://bikko.lv/velosipedu-rezerves-dalas/apturesanuparvades-sistema/brivrumbas-un-kasetes/sram-xdr/aizmugurejie-zobratu-bloks-sram-xg-1295-eagle-t-type-12-speed-10-52t": {
+      "domain": "bikko.lv",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.biketiresdirect.com/product/sram-xs-1295-x0-eagle-transmission-cassette": {
+      "domain": "biketiresdirect.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.zbozi.cz/vyrobek/sram-xs-1295-t-type-eagle-00-2418-126-000-12s-10-52/vsechny-recenze": {
+      "domain": "zbozi.cz",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.com/p2720408.html": {
+      "domain": "bike24.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.performancebike.com/sram-bike-bicycle-cassettes/c15156?fb=1509": {
+      "domain": "performancebike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://worldwidecyclery.com/products/sram-x0-eagle-t-type-xg-1295-cassette-12-speed-10-52t-for-xd-driver-black": {
+      "domain": "worldwidecyclery.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.alltricks.com/F-11911-cassettes/P-2534570-sram_x0_t_type_eagle_xs_1295_10_52_teeth_12v_black_cassette": {
+      "domain": "alltricks.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.amazon.com.be/-/en/Zahnkranz-Kass-XS-1295-Schwarz-XD-Body-00-2418-126-000/dp/B0BZ53P8TW": {
+      "domain": "amazon.com.be",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike-components.de/en/SRAM/XS-1295-12-speed-T-Type-Cassette-for-X0-Eagle-Transmission-p91119": {
+      "domain": "bike-components.de",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bluewheel.com/product/sram-x0-eagle-t-type-xg-1295-12-speed-cassette-455304-1.htm": {
+      "domain": "bluewheel.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bikemart.com/collections/sram": {
+      "domain": "bikemart.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://en.wikipedia.org/wiki/SRAM_Corporation": {
+      "domain": "en.wikipedia.org",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://bikesonline.com/collections/brand-sram": {
+      "domain": "bikesonline.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.trekbikes.com/us/en_US/equipment/cycling-components/bike-cassettes-freewheels/sram-x0-eagle-t-type-12-speed-bicycle-cassette/p/44592": {
+      "domain": "trekbikes.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://r2-bike.com/SRAM-X0-Eagle-Transmission-Cassette-XS-1295-12-speed-10-52-teeth": {
+      "domain": "r2-bike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://thundermountainbikes.com/products/sram-x0-eagle-transmission-cassette-xs-1295": {
+      "domain": "thundermountainbikes.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.alltricks.de/F-11911-cassettes/P-2534570-sram_x0_t_type_eagle_xs_1295_10_52_zahne_12v_kassette_schwarz": {
+      "domain": "alltricks.de",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.mount7.com/sram-kassette-t-type-xs-1295-x0-eagle.html": {
+      "domain": "mount7.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.fanatikbike.com/products/sram-x0-eagle-transmission-t-type-xs-1295-12-speed-cassette-10-52t": {
+      "domain": "fanatikbike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bikestacja.pl/kaseta-sram-x0-eagle-xs-1295-t-type-12s-10-52t-kartapdf-27281.html": {
+      "domain": "bikestacja.pl",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.rei.com/product/232319/sram-x0-eagle-transmission-t-type-xs-1295-12-speed-cassette": {
+      "domain": "rei.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://cozmobike.pl/en/osprzet/naped/kasety/kaseta-sram-x0-eagle-xg-1295-t-type-10-52.html": {
+      "domain": "cozmobike.pl",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.twohoosierscyclery.com/sram-x0-eagle-t-type-xg-1295-cassette-12-speed-10.html": {
+      "domain": "twohoosierscyclery.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://mikesbikes.com/products/sram-x0-eagle-t-type-xs-1295-cassette-12-speed": {
+      "domain": "mikesbikes.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://powermetercity.com/product/sram-xs-1295-x0-eagle-transmission-12-speed-cassette": {
+      "domain": "powermetercity.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.lordgunbicycles.com/pacco-pignoni-sram-x0-eagle-t-type-xg-1295-12v": {
+      "domain": "lordgunbicycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.pianetamountainbike.it/tecnica/30714-gruppi-cambi/67053-cambio-x0-eagle-transmission": {
+      "domain": "pianetamountainbike.it",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    }
+  },
+  "GX-DERAILLEUR": {
+    "https://www.benscycle.com/products/sram-gx-eagle-t-type-axs-rear-derailleur-12-speed-52t-max-battery-not-included-udh-hangerless-steel-cage-blk?id=e73aacbe916c3ba3933b5ad5b9a3f0e3369fe82f4a0e0122d0fb2957b1c8abe9": {
+      "domain": "benscycle.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://r2-bike.com/SRAM-GX-Eagle-Transmission-Rear-Derailleur-12-speed": {
+      "domain": "r2-bike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://worldwidecyclery.com/products/sram-gx-eagle-t-type-axs-rear-derailleur-12-speed-52t-max-batterynot-included-wheel-axle-mount-steel-cage-black": {
+      "domain": "worldwidecyclery.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://ratscycles.com/products/e73aacbe916c3ba3933b5ad5b9a3f0e3369fe82f4a0e0122d0fb2957b1c8abe9": {
+      "domain": "ratscycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.redrockbicycle.com/products/sram-gx-eagle-t-type-axs-rear-derailleur-12-speed-52t-max-battery-not-included-udh-hangerless-steel-cage-blk?id=e73aacbe916c3ba3933b5ad5b9a3f0e3369fe82f4a0e0122d0fb2957b1c8abe9&from=Rear+Derailleurs&fromSlug=rear-derailleurs": {
+      "domain": "redrockbicycle.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.universalcycles.com/shopping/product_details.php?id=114019": {
+      "domain": "universalcycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.maciag-offroad.com/sram-rear-derailleur-gx-eagle-axs-t-type-dark-polar-12-speed-sid162735.html": {
+      "domain": "maciag-offroad.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.landrys.com/products/e73aacbe916c3ba3933b5ad5b9a3f0e3369fe82f4a0e0122d0fb2957b1c8abe9": {
+      "domain": "landrys.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.ibksport.com/sram-gx-t-type-eagle-axs-12v-52t-rear-derailleur-aluminum-black/p": {
+      "domain": "ibksport.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.treefortbikes.com/SRAM-GX-Eagle-T-Type-AXS-Rear-Derailleur-12-Speed": {
+      "domain": "treefortbikes.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.excelsports.com/sram-gx-eagle-axs-t-type-12-speed-rear-derailleur": {
+      "domain": "excelsports.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.com/p2756882.html": {
+      "domain": "bike24.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.canadabicycleparts.com/sram-gx-eagle-axs-t-type-rear-derailleur-29381": {
+      "domain": "canadabicycleparts.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.marbleheadcycle.com/products/sram-gx-eagle-t-type-axs-rear-derailleur-12-speed-52t-max-battery-not-included-udh-hangerless-steel-cage-blk?id=e73aacbe916c3ba3933b5ad5b9a3f0e3369fe82f4a0e0122d0fb2957b1c8abe9": {
+      "domain": "marbleheadcycle.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.fanatikbike.com/products/sram-gx-eagle-axs-transmission-t-type-12-speed-rear-derailleur": {
+      "domain": "fanatikbike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.twohoosierscyclery.com/sram-gx-eagle-t-type-axs-rear-derailleur-12-speed.html": {
+      "domain": "twohoosierscyclery.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://thundermountainbikes.com/products/sram-gx-eagle-transmission-axs-rear-derailleur": {
+      "domain": "thundermountainbikes.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bikeperfect.com/features/sram-gx-eagle-axs-vs-gx-eagle-t-type-transmission": {
+      "domain": "bikeperfect.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://thelostco.com/products/sram-gx-eagle-t-type-axs-rear-derailleur": {
+      "domain": "thelostco.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.de/marken/sram/f.serie.sram-eagle-transmission": {
+      "domain": "bike24.de",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.tnc-hamburg.com/Antrieb-Schaltung/MTB-Komponenten/-12-fach-MTB/Sram-MTB-12-fach/Sram-Eagle-Transmision-12-fach/Sram-Transmission-Schaltung:::1027_1030_4439_5013_4664_5046.html": {
+      "domain": "tnc-hamburg.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://racycles.com/products/sram-gx-eagle-axs-t-type-groupset": {
+      "domain": "racycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike-mailorder.com/products/sram-gx-eagle-axs-schaltwerk-t-type": {
+      "domain": "bike-mailorder.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.trailforks.com/video/173203": {
+      "domain": "trailforks.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.centrumrowerowe.pl/przerzutka-tylna-sram-gx-eagle-axs-transmission-t-type-pd36303": {
+      "domain": "centrumrowerowe.pl",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://bikefast.pl/product-pol-5491-Przerzutka-tylna-SRAM-GX-Eagle-T-TYPE-AXS-1x12rz-Transmission.html": {
+      "domain": "bikefast.pl",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.forumrowerowe.org/topic/274442-przerzutka-tylna-sram-transmission-gx-vs-x0": {
+      "domain": "forumrowerowe.org",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bikestacja.pl/przerzutka-tylna-sram-gx-eagle-12s-10-52t-lunar-p-10116.html": {
+      "domain": "bikestacja.pl",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://rowerowy.com/sklep/czesci/przerzutka-tyl/sram/prod/sram-am-rd-gx-t-type-eagle-axs": {
+      "domain": "rowerowy.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.pl/produkty/756882": {
+      "domain": "bike24.pl",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.rowertour.com/p/g0240338/przerzutka-tylna-sram-gx-eagle": {
+      "domain": "rowertour.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://piwnicarowerowa.pl/en/przerzutka-tylna-sram-gx-eagle,3,43195,33792": {
+      "domain": "piwnicarowerowa.pl",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.pl/marki/sram/f.seria.sram-gx-eagle-axs": {
+      "domain": "bike24.pl",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://2wheels.pl/gx-eagle-transmission-upgrade-kit-warto-czy-nie": {
+      "domain": "2wheels.pl",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.thokbikes.com/negozio/accessori-e-componenti/transmission/deragliatore-posteriore-sram-eagle-gx-2": {
+      "domain": "thokbikes.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.it/marchi/sram/f.serie.sram-eagle-transmission": {
+      "domain": "bike24.it",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://buycycle.com/en-ie/product/rear-derailleur-sram-deragliatore-cambio-posteriore-mtb-gx-eagle-12v-cod-a00663": {
+      "domain": "buycycle.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    }
+  },
+  "X0-CHAIN": {
+    "https://worldwidecyclery.com/products/sram-x0-eagle-t-type-flattop-chain-12-speed-126-links-solid-pin-includes-powerlock-connector-pvd-coated-dark-polar": {
+      "domain": "worldwidecyclery.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.universalcycles.com/shopping/product_details.php?id=113186": {
+      "domain": "universalcycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://r2-bike.com/SRAM-X0-Eagle-Transmission-Chain-126-Links-black-12-speed": {
+      "domain": "r2-bike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://thelostco.com/products/sram-x0-eagle-t-type-flattop-chain-12-speed-126-links-solid-pin-includes-powerlock-connector-pvd-coated-dark-polar": {
+      "domain": "thelostco.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.brandscycle.com/product/sram-x0-eagle-transmission-chain-111010.htm": {
+      "domain": "brandscycle.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.ebike24.com/sram-chain-x0-eagle-t-type-flattop-12-speed-126-links": {
+      "domain": "ebike24.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://worldwidecyclery.com/products/sram-gx-eagle-t-type-flattop-chain-12-speed-126-links-hollow-pin-includes-powerlock-connector-silver": {
+      "domain": "worldwidecyclery.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.twohoosierscyclery.com/sram-x0-eagle-t-type-flattop-chain-12-speed-126-li.html": {
+      "domain": "twohoosierscyclery.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.competitivecyclist.com/sram-x0-eagle-transmission-12-speed-chain": {
+      "domain": "competitivecyclist.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://dunbarcycles.com/products/sram-x0-t-type-flattop-chain-black-12-speed": {
+      "domain": "dunbarcycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://powermetercity.com/product/sram-x0-eagle-transmission-flattop-chain": {
+      "domain": "powermetercity.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://bikecomponents-us.com/products/sram-x0-eagle-transmission-flattop-cn-ttyp-x0-a1-12-speed-chain": {
+      "domain": "bikecomponents-us.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.biketiresdirect.com/product/sram-x0-eagle-transmission-flattop-chain": {
+      "domain": "biketiresdirect.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://mikesbikes.com/products/sram-x0-eagle-t-type-flattop-transmission-chain": {
+      "domain": "mikesbikes.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://thelostco.com/collections/sram-t-type-flattop-chains": {
+      "domain": "thelostco.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.probikesupply.com/products/sram-x0-eagle-t-type-flattop-chain-12-speed-126-links-solid-pin-includes-powerlock-connector-pvd-coated-dark-polar": {
+      "domain": "probikesupply.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://sledshedshop.com/products/e8a66ca7bd530e3bbdd20334c261e852b6d3fb5d68054411aa971af7b8021203": {
+      "domain": "sledshedshop.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.fanatikbike.com/products/sram-x0-eagle-transmission-t-type-12-speed-flattop-chain": {
+      "domain": "fanatikbike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.excelsports.com/sram-x0-eagle-t-type-powerlock-12-speed-chain": {
+      "domain": "excelsports.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.vitalmtb.com/product/guide/chains/sram/x0-eagle-transmission-flattop-33841": {
+      "domain": "vitalmtb.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://thundermountainbikes.com/products/sram-x0-eagle-transmission-chain": {
+      "domain": "thundermountainbikes.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.velofactory.ch/SRAM-Kette-X0-Eagle-Transmission-T-Type-12-fach-Flattop-126-Glieder-SolidPin-PowerLock-Black-PVD": {
+      "domain": "velofactory.ch",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.treefortbikes.com/SRAM-X0-Eagle-T-Type-Flattop-Chain-Solid-Pin-PVD": {
+      "domain": "treefortbikes.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike-discount.de/en/sram-x0-eagle-transmission-flattop-12-speed-chain": {
+      "domain": "bike-discount.de",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://vitalbikechains.com/product/sram-x0-t-type-chain-pre-waxed": {
+      "domain": "vitalbikechains.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bikestacja.pl/en/sram-x0-eagle-flattop-t-type-12-speed-126-core-dark-polar-solidpin-chain-pin-p-22912.html": {
+      "domain": "bikestacja.pl",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://en.wiktionary.org/wiki/catena": {
+      "domain": "en.wiktionary.org",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.merriam-webster.com/dictionary/catena": {
+      "domain": "merriam-webster.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://catena.com": {
+      "domain": "catena.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.catenagroup.es": {
+      "domain": "catenagroup.es",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://catena-x.net": {
+      "domain": "catena-x.net",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://x.com/catena_labs?lang=en": {
+      "domain": "x.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://en.wikipedia.org/wiki/Catena_(biblical_commentary)": {
+      "domain": "en.wikipedia.org",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.linkedin.com/company/catenalabs": {
+      "domain": "linkedin.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://catenabible.com": {
+      "domain": "catenabible.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    }
+  },
+  "GX-CRANK": {
+    "https://www.amazon.com.be/-/en/SRAM-Eagle-T-Type-Wide-Crankset/dp/B0CBNKCWLP": {
+      "domain": "amazon.com.be",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bikeparts.com/BPC207709/sram-gx-eagle-12sp-t-type-wide-cranks-w-guard-32t-165mm": {
+      "domain": "bikeparts.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://bikable.com/parts/cranksets/mtb-crankset/sram-gx-eagle-t-type-crankset-dub-165mm": {
+      "domain": "bikable.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://ratscycles.com/products/sram-gx-eagle-t-type-wide-crankset?id=36acb3858273204d1bc06f8b359f07d3cde8e916025fd679116ba21e21390949&variant=H350858-03": {
+      "domain": "ratscycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://bikecomponents-us.com/products/sram-gx-eagle-transmission-fc-gx-d1-t-type-crankset-with-chainring": {
+      "domain": "bikecomponents-us.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.maciag-offroad.com/sram-mtb-crank-set-gx-eagle-t-type-32-teeth-1x12-darkpolar-sid162738.html": {
+      "domain": "maciag-offroad.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.upshiftsj.com/product/sram-gx-eagle-crankset-794228-1.htm": {
+      "domain": "upshiftsj.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.theproscloset.com/products/sram-sram-crankset-gx-eagle-q174-cl55-dub-mtb-wide-175mm-dark-polar-2-guards-32t-t-type-bb-and-bb-dub-spacers-are-not-included": {
+      "domain": "theproscloset.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.cyklozitny.cz/kliky-sram-gx-eagle-q174-cl55-dub-mtb-wide-165mm-dark-polar-2-guards-32z-t-type": {
+      "domain": "cyklozitny.cz",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://thebikeshop.com/products/gx-eagle-t-type": {
+      "domain": "thebikeshop.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.amazon.ie/Sram-Eagle-Polar-Crankset-165mm/dp/B0CBNKCWLP": {
+      "domain": "amazon.ie",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://cyklomania.pl/produkt/sram-korba-gx-eagle-transmission-dub-12rz-32-165mm.html": {
+      "domain": "cyklomania.pl",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.industrialbicycles.com/crankset-sram-gx-eagle-165x32-q174-cl55-dub-2-guards-nobb-gy-t-type.aspx": {
+      "domain": "industrialbicycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.universalcycles.com/shopping/product_details.php?id=114021": {
+      "domain": "universalcycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.theproscloset.com/collections/drivetrain-brakes/products/sram-sram-crankset-gx-eagle-q174-cl55-dub-mtb-wide-175mm-dark-polar-2-guards-32t-t-type-bb-and-bb-dub-spacers-are-not-included?variant=43712640385216&_rdiscovery-handle=sram-sram-crankset-gx-eagle-q174-cl55-dub-mtb-wide-175mm-dark-polar-2-guards-32t-t-type-bb-and-bb-dub-spacers-are-not-included&_rdiscovery-widget=76997": {
+      "domain": "theproscloset.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://rotoruabike.com/bielas-mtb/73625-jb-plsram-gx-eagwide-dub-dm-165-32d-12v-algpo-710845892912.html": {
+      "domain": "rotoruabike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.2peaksbikes.com/product/sram-gx-eagle-crankset-794228-1.htm": {
+      "domain": "2peaksbikes.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.firstmilecycle.com/product/sram-gx-eagle-crankset-794228-1.htm": {
+      "domain": "firstmilecycle.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://bici.cc/products/350858": {
+      "domain": "bici.cc",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://thundermountainbikes.com/products/sram-gx-eagle-transmission-crankset": {
+      "domain": "thundermountainbikes.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://cyclelimited.com/products/sram-gx-eagle-transmission-t-type-dub-wide-crankset-30t-170mm": {
+      "domain": "cyclelimited.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.fanatikbike.com/products/sram-gx-eagle-dub-wide-crankset-32t": {
+      "domain": "fanatikbike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://powermetercity.com/product/sram-gx-eagle-transmission-dub-crankset": {
+      "domain": "powermetercity.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.vitalmtb.com/features/wireless-workhorse-sram-gx-eagle-transmission-tested": {
+      "domain": "vitalmtb.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.fanatikbike.com/collections/sram-eagle/cranksets": {
+      "domain": "fanatikbike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bikestacja.pl/korba-sram-gx-eagle-mtb-transmission-dub-wide-2x12-speed-32t-165mm-p-23822.html": {
+      "domain": "bikestacja.pl",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bikestacja.pl/korba-sram-gx-eagle-mtb-transmission-dub-wide-2x12-speed-32t-165mm-kartapdf-23822.html": {
+      "domain": "bikestacja.pl",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://kastor-bike.pl/korba-sram-gx-eagle-t-type-dub-wide-165mm-32t-dm-dark-polar-bez-suportu-006118635002": {
+      "domain": "kastor-bike.pl",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.biketiresdirect.com/product/sram-gx-eagle-dub-transmission-crankset?v=165mm32": {
+      "domain": "biketiresdirect.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://r2-bike.com/SRAM-GX-Eagle-Transmission-DUB-Crank-55-mm-Chainline-174-mm-Q-Factor-black": {
+      "domain": "r2-bike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.vitalmtb.com/product/guide/cranks/sram/gx-eagle-transmission-dub-51651": {
+      "domain": "vitalmtb.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.competitivecyclist.com/sram-gx-eagle-transmission-dub-crankset-boost": {
+      "domain": "competitivecyclist.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.twohoosierscyclery.com/c-sram-gx-eagle-t-type-wide-crankset-12-speed-32t.html": {
+      "domain": "twohoosierscyclery.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.velofactory.ch/Guarnitura-Sram-GX-Eagle-AXS-Transmission-Q174-MTB-Wide-DUB-nero-175mm-32t": {
+      "domain": "velofactory.ch",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.gambacicli.com/it/sram-gx-eagle-t-type-dub-wide-guarnitura-1x12v-32t.html": {
+      "domain": "gambacicli.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike-discount.de/it/sram-gx-eagle-dub-mtb-wide-pedivella-1x12-velocita-32t": {
+      "domain": "bike-discount.de",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.mtbiker.it/shop/componenti/pedivelle-e-guarniture/pedivelle-e-guarniture-mtb-/guarnitura-a-corona-singola-rapporto-singolo/sram-gx-eagle-t-type-dub-wide-pedivelle-con-powermetro-160-mm-1x12-32t-dark-polar-p387055.html": {
+      "domain": "mtbiker.it",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://worldwidecyclery.com/pages/search-results-page": {
+      "domain": "worldwidecyclery.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    }
+  },
+  "DUB-WIDE-PF92": {
+    "https://worldwidecyclery.com/products/sram-dub-pressfit-bottom-bracket-bb89-5-bb92-89-92mm-mtb-boost-55mm-cl-black": {
+      "domain": "worldwidecyclery.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bikeman.com/CR3875.html": {
+      "domain": "bikeman.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.urheilujakone.fi/en/cycling/sram-keskiolaakeri-dub-pressfit-89-5-92mm/p/710845857928": {
+      "domain": "urheilujakone.fi",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://bikecomponents-us.com/products/sram-dub-pf-bottom-bracket-press-fit-mtb-wide-89-92mm-shell-width": {
+      "domain": "bikecomponents-us.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.ibksport.com/bottom-bracket-cartridge-sram-dub-pressfit-89-92mm-aluminium-black/p": {
+      "domain": "ibksport.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://ccache.cc/products/sram-pressfit-dub-bb89-92-bottom-bracket-bb89-92-press-fit-mtb-wide-black": {
+      "domain": "ccache.cc",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.universalcycles.com/shopping/product_details.php?id=93904": {
+      "domain": "universalcycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://r2-bike.com/SRAM-Bottom-Bracket-DUB-PressFit-PF41-BB895-BB92-MTB-Wide": {
+      "domain": "r2-bike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://geartrade.com/products/dub-pressfit-bottom-bracket-mtb-wide-bb92-8992mm-fair-1246993": {
+      "domain": "geartrade.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://summitcycles.bike/products/bottom-bracket-sram-dub-wide-bb92-mtb-89-92mm": {
+      "domain": "summitcycles.bike",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bbinfinite.com/products/bb92-for-dub-29mm-mtb-crank-sets": {
+      "domain": "bbinfinite.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.jensonusa.com/sram-dub-pressfit-8992-bottom-bracket": {
+      "domain": "jensonusa.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://powermetercity.com/product/sram-dub-pressfit-mtb-89-92-mm-bottom-bracket": {
+      "domain": "powermetercity.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.primeauvelo.com/en_ca/bottom-bracket-dub-pressfit-bb92-mountain-wide-91-5x41mm-ceramic-0056684": {
+      "domain": "primeauvelo.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://steedcycles.com/products/sram-dub-pf89-pf92-bottom-bracket": {
+      "domain": "steedcycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://spotbikes.com/products/sram-dub-pressfit-bottom-bracket-bb89-5-bb92-89-92mm-mtb-black-ck2192": {
+      "domain": "spotbikes.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.rockycycle.com/sram-dub-pf89-pf92-press-fit-bb-bb92-spindle-2899m.html": {
+      "domain": "rockycycle.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://viaciclante.com/products/sram-dub-pf89-pf92-press-fit-bottom-bracket-bb92-spindle-28-99mm-diameter-41mm": {
+      "domain": "viaciclante.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.thepathbikeshop.com/products/380484": {
+      "domain": "thepathbikeshop.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://wheelsmfg.com/collections/sram-dub": {
+      "domain": "wheelsmfg.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.mountainbike-parts.ch/sram-dub-pressfit-bb92-innenlager-p-12810.html": {
+      "domain": "mountainbike-parts.ch",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike-mailorder.com/en-fi/products/innenlager-dub-pressfit-89-92mm-mtb-wide-stahl": {
+      "domain": "bike-mailorder.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.de/p1446930.html": {
+      "domain": "bike24.de",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://r2-bike.com/SRAM-Innenlager-DUB-PressFit-PF41-BB895-BB92-MTB-Wide": {
+      "domain": "r2-bike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://sportano.com/p/637367/sram-am-bb-dub-pf-89-5-92-mtb-wide-bottom-bracket": {
+      "domain": "sportano.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.wheelandsprocket.com/product/sram-dub-pf-pressfit-bottom-bracket-mtb-wide-394979-1.htm": {
+      "domain": "wheelandsprocket.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.com/p2446930.html": {
+      "domain": "bike24.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.competitivecyclist.com/sram-dub-pf30-bottom-bracket": {
+      "domain": "competitivecyclist.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://community.mtb-mag.com/t/sram-dub-vs-dub-wide.417749?amp=1": {
+      "domain": "community.mtb-mag.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.trodo.it/movimento-centrale-della-bicicletta-sram-dub-pressfit-bb92-pf41-mtb-wide": {
+      "domain": "trodo.it",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.all4cycling.com/en/products/movimento-centrale-sram-dub-pf92-mtb": {
+      "domain": "all4cycling.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.gambacicli.com/it/sram-dub-wide-bb92-movimento-centrale-press-fit-mtb-92x41mm.html": {
+      "domain": "gambacicli.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.pbikestore.com/movimenti-centrali-sram-dub-guida": {
+      "domain": "pbikestore.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.deporvillage.it/asse-del-movimento-centrale-sram-road-dub-wide-pressfit": {
+      "domain": "deporvillage.it",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://buycycle.com/en-us/product/bottom-brackets-sram-movimento-centrale-dub-bb92-press-fit-89592": {
+      "domain": "buycycle.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.gambacicli.com/media/download/sram/sram_dub_scelta_movimento_centrale_strada_mtb_gambacicli.pdf": {
+      "domain": "gambacicli.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.it/ciclismo/componenti/trasmissione/movimento-centrale/f.profilo-asse.sram-dub": {
+      "domain": "bike24.it",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    }
+  },
+  "DT-XD-DRIVER": {
+    "https://whizz-wheels.de/shop/Rotorkit-Sram-XD-Ratchet-LN-Alu-12-x-142-12-x-148-t.a./HWYABM00S3766S": {
+      "domain": "whizz-wheels.de",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://bike-prof.de/DT-Swiss-MTB-Freilauf-Ratchet-LN-SRAM-XD-11-12-fach-Alumniuim-12x142mm-12x148mm-Boost": {
+      "domain": "bike-prof.de",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://trekbikesflorida.com/products/dt-swiss-ratchet-ln-freehub-body-sram-xd-standard-aluminum-sealed-bearing-kit-w-end-cap-12-x-142-148-mm": {
+      "domain": "trekbikesflorida.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://biciclaje.es/nucleos/50-fb-k-mtb-sra-xd-ln--al-st-sm-b-7613052321622.html": {
+      "domain": "biciclaje.es",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.maxwarehouse.com/products/youtheory-sleep-nighttime-powder-1-each-21-ct": {
+      "domain": "maxwarehouse.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://martinandsnyder.com/product/cheez-it-large-6-3oz-bold-cheddar": {
+      "domain": "martinandsnyder.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.target.com/p/ge-household-lighting-3-color-direct-wire-and-plug-in-18-39-39-linkable-fixture/-/A-94711661": {
+      "domain": "target.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.antietamfirearms.com/parts-gear/sent-cover/hs-07740-scentaway-max-spray-12-oz-ol": {
+      "domain": "antietamfirearms.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.walmart.com/ip/Radial-Reign-160mm-CC-Brushed-Nickel-Bar-and-Matte-Black-Posts-Pull-Box-of-10/6537700730": {
+      "domain": "walmart.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.walmart.com/ip/HomeRoots-Three-Light-Silver-Wall-Sconce/276254472": {
+      "domain": "walmart.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.mscdirect.com/product/details/07318066": {
+      "domain": "mscdirect.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.farmandhomesupply.com/wildlife-research-center-super-charged-scent-killer-gold-ultimate-value-pack.html": {
+      "domain": "farmandhomesupply.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.homelectrical.com/galvanized-pails-steel.mab-10qt.1.html": {
+      "domain": "homelectrical.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://industrialsafety.com/sqwincher-159016007-powder-packs-assorted-pack-9-53-oz-yields-1-gal.html": {
+      "domain": "industrialsafety.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://shop.pfwvt.com/5-wellness-core-original-cat": {
+      "domain": "shop.pfwvt.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.merriam-webster.com/dictionary/DT": {
+      "domain": "merriam-webster.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://en.wikipedia.org/wiki/Delirium_tremens": {
+      "domain": "en.wikipedia.org",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.collinsdictionary.com/us/dictionary/english/dts": {
+      "domain": "collinsdictionary.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://en.wiktionary.org/wiki/DT": {
+      "domain": "en.wiktionary.org",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.webmd.com/mental-health/addiction/delirium-tremens": {
+      "domain": "webmd.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://fherehab.com/learning/know-if-experiencing-dt": {
+      "domain": "fherehab.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.performancebike.com/specialized-dt-swiss-ratchet-ln-freehub-body-sram-xd-alloy-s222100003/p1357030": {
+      "domain": "performancebike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://r2-bike.com/DT-SWISS-Freehub-Body-Steel-Ratchet-LN-black-SRAM-XD": {
+      "domain": "r2-bike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.com/p2811300.html": {
+      "domain": "bike24.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.probikesupply.com/products/dt-swiss-370-ratchet-ln-18t-upgrade-kit-xd-fh-body": {
+      "domain": "probikesupply.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://thelostco.com/products/dt-swiss-ratchet-ln-freehub-body-upgrade-kit-sram-xd-standard-aluminum-sealed-bearing-36t": {
+      "domain": "thelostco.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.excelsports.com/dt-swiss-ratchet-ln-freehub-body": {
+      "domain": "excelsports.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.jensonusa.com/dt-swiss-ratchet-ln-upgrade-kit": {
+      "domain": "jensonusa.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.probikesupply.com/products/dt-swiss-xd-driver-w-12x142-148mm-end-cap-ratchet-ln-hubs": {
+      "domain": "probikesupply.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.performancebike.com/dt-swiss-ratchet-ln-freehub-body-sram-xd-w-end-cap-12-x-142-148mm-hwyabm00s3766s/p1343926": {
+      "domain": "performancebike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://magazinebike.com/2021/12/19/dt-swiss-ratchet-ln-kit-converts-ratchet-hubs-to-gears": {
+      "domain": "magazinebike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://probikeshop.it/products/corpo-ruota-libera-dt-swiss-ratchet-ln-tipo-sram-xd-asse-12x142-148-mm-acciaio-standard": {
+      "domain": "probikeshop.it",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.mtbiker.it/shop/ruote-e-cerchi/accessori/dadi/dt-swiss-corpo-ruota-libera-shimano-road-ratchet-ln-alluminio-p319509.html": {
+      "domain": "mtbiker.it",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.cingolanibikeshop.com/componenti/ruote/corpetti-ruota-libera/dt_swiss": {
+      "domain": "cingolanibikeshop.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://hibike.com/it/shop/componenti/ruote/piccole-parti-ruote/dt-swiss-freilaufkorper-umrustkit-ratchet-ln-aluminium-sram-xd-bulk": {
+      "domain": "hibike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    }
+  },
+  "WOLFTOOTH-ADAPTER": {
+    "https://ratscycles.com/products/07f126d833a4059197c06d09cf8a3182667b6383bd75ad84270108faff72ac08": {
+      "domain": "ratscycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.universalcycles.com/shopping/product_details.php?id=112329": {
+      "domain": "universalcycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bikezonebikes.com/product/wolf-tooth-wolf-tooth-disc-brake-adapter-post-to-flat-mount-20mm-457487-1.htm": {
+      "domain": "bikezonebikes.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://r2-bike.com/WOLF-TOOTH-Adapter-Postmount-to-Flatmount-20-mm": {
+      "domain": "r2-bike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.oebikes.ie/product/122387/wolf-tooth-post-to-flat-mount-brake-adaptor/option": {
+      "domain": "oebikes.ie",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://aroundthecycle.com/products/new-wolftooth-components-post-to-flat-mount-brake-adapter-20mm": {
+      "domain": "aroundthecycle.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.wolftoothcomponents.com/products/post-to-flat-mount-brake-adapter": {
+      "domain": "wolftoothcomponents.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.blueridgecyclery.com/product/wolf-tooth-wolf-tooth-disc-brake-adapter-post-to-flat-mount-20mm-457487-1.htm": {
+      "domain": "blueridgecyclery.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bigshark.com/product/wolf-tooth-wolf-tooth-disc-brake-adapter-post-to-flat-mount-20mm-457487-1.htm": {
+      "domain": "bigshark.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.theproscloset.com/products/wolf-tooth-post-to-flat-mount-disc-brake-adapter-20mm": {
+      "domain": "theproscloset.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.wolftoothcomponents.com/collections/brake-adapters": {
+      "domain": "wolftoothcomponents.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://mountainsports-distribution.com/products/post-to-flat-mount-brake-adapter": {
+      "domain": "mountainsports-distribution.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.jensonusa.com/wolf-tooth-post-to-flat-mount-brake-adapter": {
+      "domain": "jensonusa.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.com/p2699365.html": {
+      "domain": "bike24.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bikeforums.net/bicycle-mechanics/1256644-flat-post-mount-adapters-dummies.html": {
+      "domain": "bikeforums.net",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://en.wikipedia.org/wiki/Wolf": {
+      "domain": "en.wikipedia.org",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://wolf.org/wolf-info/basic-wolf-info/wolf-faqs": {
+      "domain": "wolf.org",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.nationalgeographic.com/animals/mammals/facts/gray-wolf": {
+      "domain": "nationalgeographic.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.livingwithwolves.org/about-wolves/social-wolf": {
+      "domain": "livingwithwolves.org",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://n1bikes.com/products/wolf-tooth-post-mount-to-flat-mount-disc-brake-adapter?id=": {
+      "domain": "n1bikes.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.missoulabicycleworks.com/product/wolf-tooth-wolf-tooth-disc-brake-adapter-post-to-flat-mount-20mm-457487-1.htm": {
+      "domain": "missoulabicycleworks.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.amgcyclery.com/products/wolf-tooth-disc-brake-adapter-post-to-flat-mount-20mm": {
+      "domain": "amgcyclery.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://velo.outsideonline.com/road/road-racing/a-flat-mount-disc-caliper-on-a-post-mount-frame-theres-an-adapter-for-that": {
+      "domain": "velo.outsideonline.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.tradeinn.com/bikeinn/es/wolf-tooth-adaptador-de-pinza-de-freno-de-disco-post-to-flat-mount-front/139981878/p": {
+      "domain": "tradeinn.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bikebug.com/wolf-tooth-post-to-flat-mount-brake-adapter": {
+      "domain": "bikebug.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.performancebike.com/wolf-tooth-components-post-to-flat-mount-disc-brake-adapter-black-20mm-pst-flt-brkadpt/p1439769": {
+      "domain": "performancebike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.ridewill.it/p/it/wolftooth-525181000-adattatore-per-pinza-flatmount-su-telaio-postmount/1668643": {
+      "domain": "ridewill.it",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    }
+  },
+  "SID-SELECT": {
+    "https://www.backcountry.com/rockshox-sid-sl-select-charger-rl-29in-boost-fork": {
+      "domain": "backcountry.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.competitivecyclist.com/rockshox-sid-sl-select-charger-rl-29in-boost-fork": {
+      "domain": "competitivecyclist.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.gtstore.cz/en/00-4021-168-003-rockshox-am-fs-sid-sl-sel3-crn-29-sb-100-blk-44e1": {
+      "domain": "gtstore.cz",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://r2-bike.com/ROCKSHOX-Suspension-Fork-29-SID-SL-Select-Charger-RL-Crown-DebonAir-100-mm-BOOST-44-mm-Offset-tapered-black-2026": {
+      "domain": "r2-bike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.modernbike.com/rockshox-sid-sl-select-3p-crown-e1-suspension-fork-29-debonair-100mm-1-1-8-1.5-15x110mm-ta-rake-44mm-black": {
+      "domain": "modernbike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.performancebike.com/rockshox-sid-sl-select-suspension-fork-black-3-position-crown-charger-rl-00.4021.168.003/p1659820?v=1641373": {
+      "domain": "performancebike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.probikesupply.com/products/rockshox-sid-sl-select-3p-crown-e1-suspension-fork-29-debonair-100mm-1-1-8-1-5-15x110mm-ta-rake-44mm-black": {
+      "domain": "probikesupply.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.performancebike.com/rockshox-suspension-forks-parts/c16467?fb=1436": {
+      "domain": "performancebike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.com/p2984079.html": {
+      "domain": "bike24.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bikestyle.cz/00-4021-168-003-rockshox-am-fs-sid-sl-sel3-crn-29-sb-100-blk-44e1-mnoz-uni": {
+      "domain": "bikestyle.cz",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://stealthtahoe.com/products/rockshox-sid-sl-select-3p-crown-e1-suspension-fork-29-debonair-100mm-1-1-8-1-5-15x110mm-ta-rake-44mm-black": {
+      "domain": "stealthtahoe.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.supshop.cz/00-4021-168-003-rockshox-am-fs-sid-sl-sel3-crn-29-sb-100-blk-44e1": {
+      "domain": "supshop.cz",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.universalcycles.com/shopping/product_details.php?id=117898": {
+      "domain": "universalcycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://vidlice.heureka.cz/rock-shox-am-fs-sid-sl": {
+      "domain": "vidlice.heureka.cz",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.starbike.com/en/rockshox-sid-sl-select-3p-charger-rl-29-15x110mm-boost-tapered-44mm-offset-black": {
+      "domain": "starbike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://spokex.com/products/rockshox-sid-sl-select-3p-crown-e1-suspension-fork-29-debonair-100mm-1-1-8-1-5-15x110mm-ta-rake-44mm-black": {
+      "domain": "spokex.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike-components.de/en/RockShox/SID-SL-Select-Charger-RL-3P-DebonAir-Boost-29-suspension-fork-p220021": {
+      "domain": "bike-components.de",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.vitalmtb.com/product/guide/forks/rockshox/sid-sl-select-3p-44656": {
+      "domain": "vitalmtb.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.performancebike.com/rockshox-sid-sl-select-suspension-fork-black-3-position-remote-charger-rl-00.4021.168.000/p1659819?v=1641370": {
+      "domain": "performancebike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://sportsgarage.com/products/rockshox-sid-sl-select-3p-crown-e1-suspension-fork-29-debonair-100mm-1-1-8-1-5-15x110mm-ta-rake-44mm-black": {
+      "domain": "sportsgarage.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://flowmountainbike.com/tests/2021-rockshox-sid-sl-ultimate-review": {
+      "domain": "flowmountainbike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://spiritedcyclist.com/products/rockshox-sid-sl-select-3p-d1-suspension-fork-29-debonair-110mm-1-1-8-1-5-15x110mm-ta-rake-44mm-black": {
+      "domain": "spiritedcyclist.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.probikesupply.com/products/rockshox-sid-sl-select-3p-crown-e1-suspension-fork-29-debonair-110mm-1-1-8-1-5-15x110mm-ta-rake-44mm-black": {
+      "domain": "probikesupply.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.jensonusa.com/rockshox-sid-sl-select-charger-rl-3p-crown-29-boost-fork": {
+      "domain": "jensonusa.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.com/p2934501.html": {
+      "domain": "bike24.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.tnc-hamburg.com/Federgabeln-Daempfer/Federgabeln/RockShox-Federgabeln/RockShox-Sid-Federgabel/RockShox-SID-Select-2P/RockShox-SID-SL-Select-3P-Gloss-Black-E1-MTB-Federgabel-Boost-29-Zoll-Tapered-110-mm::66987.html": {
+      "domain": "tnc-hamburg.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike-onlineshop.de/Teile-Komponenten/Gabel/RockShox-SID-SL-Select-3P-Federgabel-DebonAir-Charger-RL-29-100mm-15x110mm.htm?SessionId=&a=article&ProdNr=004020963001&p=1689": {
+      "domain": "bike-onlineshop.de",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.mtbiker.de/shop/komponenten/gabeln-und-stosdampfer/federgabeln/gabeln-29/rockshox-sid-sl-select-rl-3p-remote-29-boost-federgabel-schwarz-p353290.html": {
+      "domain": "mtbiker.de",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://nanobike.de/Rock-Shox-SID-SL-Select-Charger-RL-3P-29-Federgabel-black-110-mm": {
+      "domain": "nanobike.de",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://thelostco.com/products/rockshox-sid-sl-select-3p-d1-suspension-fork-29-debonair-110mm-1-1-8-1-5-15x110mm-ta-rake-44mm-black-remote-sold-separately": {
+      "domain": "thelostco.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://en.brujulabike.com/rockshox-sid-and-sid-sl-2024-forks": {
+      "domain": "en.brujulabike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://deauvillegreenawards.com?v=31045582061450": {
+      "domain": "deauvillegreenawards.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.jensonusa.com/rockshox-sid-sl-select-charger-rl-3p-remote-29-boost-fork": {
+      "domain": "jensonusa.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://blisterreview.com/gear-reviews/2024-rockshox-sid-sid-sl-and-sidluxe": {
+      "domain": "blisterreview.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.com/p2934489.html": {
+      "domain": "bike24.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bikemag.com/mountain-bike-gear/rockshox-announces-updated-sid-line-of-forks-and-shocks": {
+      "domain": "bikemag.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.vitalmtb.com/product/guide/Forks,33/RockShox/SID-SL-Select-2021,29508": {
+      "domain": "vitalmtb.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://flowmountainbike.com/tests/2026-rockshox-sid-sl-review-first-ride": {
+      "domain": "flowmountainbike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.gambacicli.com/it/rockshox-sid-sl-select-3p-29-boost-110mm-tapered-remote.html": {
+      "domain": "gambacicli.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.gambacicli.com/it/rockshox-sid-sl-select-3p-29-boost-110mm-tapered.html": {
+      "domain": "gambacicli.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://evolutionbikes.it/products/forcella-rockshox-sid-sl-select-rl-29-boost-tapered-twistloc": {
+      "domain": "evolutionbikes.it",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.mtb-mag.com/rock-shox-migliora-la-sid-sl/amp": {
+      "domain": "mtb-mag.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bicyclesport.com/product/rockshox-sid-sl-select-w-remote-374501-1.htm": {
+      "domain": "bicyclesport.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.incycle.com/products/rockshox-sid-sl-select-suspension-fork": {
+      "domain": "incycle.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    }
+  },
+  "SID-SELECT-PLUS": {
+    "https://mbaction.com/rockshox-sid-sl-reba-my26-forks-2026": {
+      "domain": "mbaction.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://singletrackworld.com/forum/bike-forum/what-is-the-difference-between-these-2-rockshox-sid-forks": {
+      "domain": "singletrackworld.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://trekbikesflorida.com/products/rockshox-sid-sl-select-3p-remote-e1-suspension-fork-29-debonair-1-1-8-1-5-15x110mm-ta-rake-44mm-black-remote-sold-separately": {
+      "domain": "trekbikesflorida.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://steedcycles.com/products/rockshox-sid-sl-ultimate-3p-e1-fs-sids-ult3-e1": {
+      "domain": "steedcycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://spokex.com/products/rockshox-sid-sl-ultimate-3p-crown-e1-suspension-fork-29-debonair-100mm-1-1-8-1-5-15x110mm-ta-rake-44mm-black": {
+      "domain": "spokex.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://hearnscycling.com/product/rockshox-sid-sl-ultimate-3p-crown-e1": {
+      "domain": "hearnscycling.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.b1keparts.com/products/sid-sl-ultimate-3p-remote-e1": {
+      "domain": "b1keparts.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://bici.cc/products/sid-sl-ultimate-3p-remote-e1": {
+      "domain": "bici.cc",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.vitalmtb.com/product/guide/forks/rockshox/sid-sl-select-3p-44656": {
+      "domain": "vitalmtb.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.com/p2934501.html": {
+      "domain": "bike24.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://flowmountainbike.com/tests/2026-rockshox-sid-sl-review-first-ride": {
+      "domain": "flowmountainbike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://bikepacking.com/gear/rockshox-sid-ultimate-review": {
+      "domain": "bikepacking.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://spokex.com/products/rockshox-sid-sl-select-3p-crown-e1-suspension-fork-29-debonair-110mm-1-1-8-1-5-15x110mm-ta-rake-44mm-black": {
+      "domain": "spokex.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.fullsusbikes.com/product/rockshox-sid-sl-select-3-position-crown-adjust": {
+      "domain": "fullsusbikes.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://bouldernordic.com/products/rockshox-sid-sl-select-3p-crown-e1-suspension-fork-29-debonair-110mm-1-1-8-1-5-15x110mm-ta-rake-44mm-black": {
+      "domain": "bouldernordic.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://spiritedcyclist.com/products/rockshox-sid-sl-select-3p-d1-suspension-fork-29-debonair-110mm-1-1-8-1-5-15x110mm-ta-rake-44mm-black": {
+      "domain": "spiritedcyclist.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.performancebike.com/rockshox-sid-sl-select-suspension-fork-black-3-position-remote-charger-rl-00.4021.168.000/p1659819?v=1641370": {
+      "domain": "performancebike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://thelostco.com/products/rockshox-sid-sl-select-charger-rl-suspension-fork-29-100-mm-15-x-110-mm-44-mm-offset-gloss-blk-3p-crown-d1": {
+      "domain": "thelostco.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.tnc-hamburg.com/Federgabeln-Daempfer/Federgabeln/RockShox-Federgabeln/RockShox-Sid-Federgabel/RockShox-SID-Select-2P/RockShox-SID-SL-Select-3P-Gloss-Black-E1-MTB-Federgabel-Boost-29-Zoll-Tapered-110-mm::66987.html": {
+      "domain": "tnc-hamburg.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike-onlineshop.de/Teile-Komponenten/Gabel/RockShox-SID-SL-Select-3P-Federgabel-DebonAir-Charger-RL-29-100mm-15x110mm.htm?SessionId=&a=article&ProdNr=004020963001&p=1689": {
+      "domain": "bike-onlineshop.de",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.koloshop24.de/rock-shox-sid-sl-select-3p-remote-29-federgabel-gloss-black-44-mm/172201": {
+      "domain": "koloshop24.de",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike-components.de/de/RockShox/SID-SL-Select-RL-3P-DebonAir-Boost-Remote-29-Federgabel-p91499": {
+      "domain": "bike-components.de",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.com/p2934489.html": {
+      "domain": "bike24.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://bikable.de/ersatzteile/radgabeln/mtb-federgabel/rockshox-sid-sl-select-3-position-suspension-gabel-110mm": {
+      "domain": "bikable.de",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.raaad.de/products/rockshox-sid-sl-select-100-mm-29-zoll-federgabel-boost-inkl-poploc-remote": {
+      "domain": "raaad.de",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://blisterreview.com/gear-reviews/2024-rockshox-sid-sid-sl-and-sidluxe": {
+      "domain": "blisterreview.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bikemag.com/mountain-bike-gear/rockshox-announces-updated-sid-line-of-forks-and-shocks": {
+      "domain": "bikemag.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.jensonusa.com/rockshox-sid-sl-select-29-fork-2p-2024-oe-packaged-1": {
+      "domain": "jensonusa.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.vitalmtb.com/product/guide/Forks,33/RockShox/SID-SL-Select-2021,29509": {
+      "domain": "vitalmtb.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://flowmountainbike.com/tests/2024-rockshox-sid-sidluxe-ultimate-review": {
+      "domain": "flowmountainbike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://en.wikipedia.org/wiki/RockShox": {
+      "domain": "en.wikipedia.org",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://thelostco.com/collections/rockshox": {
+      "domain": "thelostco.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://bicyclewarehouse.com/collections/rockshox": {
+      "domain": "bicyclewarehouse.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.jensonusa.com/rockshox": {
+      "domain": "jensonusa.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.summitbicycles.com/product-list/rockshox-pg200": {
+      "domain": "summitbicycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://trailhead.rockshox.com": {
+      "domain": "trailhead.rockshox.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    }
+  },
+  "SID-ULTIMATE": {
+    "https://r2-bike.com/ROCKSHOX-suspension-Fork-29-SID-SL-Ultimate-Charger-Race-Day-2-Crown-DebonAir-100-mm-BOOST-44-mm-Offset-tapered-black-2026": {
+      "domain": "r2-bike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://stealthtahoe.com/products/rockshox-sid-sl-ultimate-3p-crown-e1-suspension-fork-29-debonair-100mm-1-1-8-1-5-15x110mm-ta-rake-44mm-black": {
+      "domain": "stealthtahoe.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://rowerowy.com.pl/00-4021-166-007-ROCKSHOX-AM-FS-SID-SL-ULT3-CRN-29-SB-100-GLB-44E1-p77844": {
+      "domain": "rowerowy.com.pl",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.com/p2984082.html": {
+      "domain": "bike24.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.outdoorweb.eu/00-4021-166-007-AM-FS-SID-SL-ULT3-CRN-29-SB-100-GLB-44E1": {
+      "domain": "outdoorweb.eu",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.velofactory.ch/Rock-Shox-MY26-Fork-SID-SL-Ultimate-RaceDay-3Position-Crown-gloss-black-29-100mm-44-OS_1": {
+      "domain": "velofactory.ch",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://opravnabicyklu.cz/shop/00-4021-166-007-rockshox-am-fs-sid-sl-ult3-crn-29-sb-100-glb-44e1-00101092": {
+      "domain": "opravnabicyklu.cz",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.kola-lunak.cz/155559-00-4021-166-007-rockshox-am-fs-sid-sl-ult3-crn-29-sb-100-glb-44e1-uni": {
+      "domain": "kola-lunak.cz",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://meinhartje.com/en/rockshox-suspension-fork-sid-sl-ultimate-race-day-3p/08256085": {
+      "domain": "meinhartje.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.alltricks.com/F-11918-fourches/P-3098800-fork_rockshox_sid_sl_ultimate_3p_29___charger_race_day_2_debonair____boost_15x110_mm___offset_44___black": {
+      "domain": "alltricks.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.universalcycles.com/shopping/product_details.php?id=117897": {
+      "domain": "universalcycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.backcountry.com/rockshox-sid-sl-ultimate-race-day-29in-boost-fork": {
+      "domain": "backcountry.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.competitivecyclist.com/rockshox-sid-sl-ultimate-race-day-29in-boost-fork": {
+      "domain": "competitivecyclist.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://spokex.com/products/rockshox-sid-sl-ultimate-3p-crown-e1-suspension-fork-29-debonair-100mm-1-1-8-1-5-15x110mm-ta-rake-44mm-black": {
+      "domain": "spokex.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://vidlice.heureka.cz/rock-shox-am-fs-sid-sl": {
+      "domain": "vidlice.heureka.cz",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.2peaksbikes.com/products/rockshox-sid-sl-ultimate-3p-crown-e1-suspension-fork-29-debonair-100mm-1-1-8-15-15x110mm-ta?id=7d16a05614beb03f769a3f9c1dc539f188d2a569c08786ca0bf2d5082d298712&from=Showing+results+for&fromSlug=search&fromQuery=rockshox+sid+ultimate+3p+29+inch+fork+crown+adjust+830435+1": {
+      "domain": "2peaksbikes.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://northwestbicycle.com/products/rockshox-sid-sl-ultimate-3p-crown-e1-suspension-fork-29-debonair-100mm-1-1-8-1-5-15x110mm-ta-rake-44mm-black": {
+      "domain": "northwestbicycle.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://steedcycles.com/products/rockshox-sid-sl-ultimate-3p-e1-fs-sids-ult3-e1": {
+      "domain": "steedcycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://hearnscycling.com/product/rockshox-sid-sl-ultimate-3p-crown-e1": {
+      "domain": "hearnscycling.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.performancebike.com/rockshox-sid-sl-ultimate-suspension-fork-3-position-crown-race-day-00.4021.166.004/p1659824?v=1641386": {
+      "domain": "performancebike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://r2-bike.com/ROCKSHOX-Suspension-Fork-29-SID-SL-Ultimate-Charger-Race-Day-2-Crown-DebonAir-100-mm-BOOST-44-mm-Offset-tapered-red-2026": {
+      "domain": "r2-bike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.canadabicycleparts.com/rockshox-sid-sl-ultimate-3p-fork-29396?___store=ca": {
+      "domain": "canadabicycleparts.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://alliedcycleworks.com/products/rockshox-sid-ultimate-120-crown-fork-sid-luxe-ultimate-rl-shock": {
+      "domain": "alliedcycleworks.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.summitbicycles.com/product/rockshox-sid-ultimate-3p-29-inch-fork-crown-adjust-830435-1.htm": {
+      "domain": "summitbicycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://en.brujulabike.com/rockshox-sid-and-sid-sl-2024-forks": {
+      "domain": "en.brujulabike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.competitivecyclist.com/rockshox-sid-ultimate-race-day-3-position-remote-29in-boost-fork": {
+      "domain": "competitivecyclist.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.jensonusa.com/rockshox-sid-sl-ultimate-race-day-3-position": {
+      "domain": "jensonusa.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://flowmountainbike.com/tests/2024-rockshox-sid-sidluxe-ultimate-review": {
+      "domain": "flowmountainbike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.summitbicycles.com/product-list/rockshox-pg200": {
+      "domain": "summitbicycles.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://en.wikipedia.org/wiki/RockShox": {
+      "domain": "en.wikipedia.org",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://ridgeandriver.com/collections/rockshox": {
+      "domain": "ridgeandriver.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.jensonusa.com/rockshox": {
+      "domain": "jensonusa.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.trekbikes.com/us/en_US/collections/brand-collections/rockshox/c/P394": {
+      "domain": "trekbikes.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://bicyclewarehouse.com/collections/rockshox": {
+      "domain": "bicyclewarehouse.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://trailhead.rockshox.com": {
+      "domain": "trailhead.rockshox.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://blisterreview.com/gear-reviews/2024-rockshox-sid-sid-sl-and-sidluxe": {
+      "domain": "blisterreview.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bicycling.com/bikes-gear/mountain-bike/a31684408/rockshox-sid-ultimate-review": {
+      "domain": "bicycling.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.wheelandsprocket.com/product/sram-rockshox-sid-sl-ultimate-race-day-suspension-fork-29-100-mm-15-x-110-mm-44-58381.htm": {
+      "domain": "wheelandsprocket.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://flowmountainbike.com/tests/2026-rockshox-sid-sl-review-first-ride": {
+      "domain": "flowmountainbike.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://www.bike24.com/p2934498.html": {
+      "domain": "bike24.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://bikepacking.com/gear/rockshox-sid-ultimate-review": {
+      "domain": "bikepacking.com",
+      "first_seen": "2026-07-21",
+      "via": "tavily"
+    },
+    "https://trailhead.rockshox.com/en?silentAuthAttempted=true": {
+      "domain": "trailhead.rockshox.com",
+      "first_seen": "2026-07-21",
       "via": "tavily"
     }
   }
