@@ -299,3 +299,60 @@ products:
       - RockShox SID SL Ultimate Federgabel 3P
       - RockShox SID SL Ultimate widelec
       - RockShox SID SL Ultimate forcella
+
+  # ---- Reszta (power meter, koronka, kierownica) -------------------------
+  - id: XX-SL-POWERMETER
+    name: SRAM XX SL Eagle AXS Transmission Power Meter (pajak)
+    ean: "710845886294"
+    # $530 (~2300 PLN); min odcina czesci, max pelny mechanizm korbowy z PM
+    min_pln: 1500
+    max_pln: 3200
+    # "xx" bez "sl" zlapaloby tansza wersje XX (nie-SL) - osobny produkt
+    require_tokens:
+      - xx
+      - sl
+      - power meter|powermeter|pm
+    queries:
+      - SRAM XX SL Eagle AXS Transmission Power Meter spider
+      - SRAM XX SL Eagle Powermeter Spider AXS
+      - SRAM XX SL Eagle Transmission Leistungsmesser
+      - SRAM XX SL Eagle pomiar mocy pajak
+    seed_urls:
+      - https://www.bike24.com/p2720494.html
+  - id: GARBARUK-40T-AERO
+    name: Garbaruk MTB TM Aero 40T SRAM XX/XX SL (okrągła, czarna)
+    ean: "590744166698"
+    variant: "40"
+    # rodzimy polski producent - ceny bezposrednio w PLN (koronka ovalna
+    # 40T ~389 PLN u Cyklomanii - okragla zwykle podobnie lub taniej)
+    min_pln: 200
+    max_pln: 700
+    # UWAGA: Garbaruk sprzedaje tez wersje OWALNA tego samego rozmiaru pod
+    # bardzo podobna nazwa - nie da sie tu odfiltrowac "ovalna" bez ryzyka
+    # odrzucenia prawidlowych ofert (round bywa domyslny, bez etykiety w
+    # tytule). Rozroznienie opiera sie na EAN (miekkie dopasowanie) i
+    # dokladnym seed URL ponizej - warto zerkac na audyt tego produktu.
+    require_tokens:
+      - garbaruk
+      - aero
+    queries:
+      - Garbaruk MTB Aero chainring 40T thread mount
+      - Garbaruk koronka Aero 40T okragla
+      - Garbaruk Kettenblatt Aero 40T rund
+    seed_urls:
+      - https://www.garbaruk.com/shop/mtb-aero-thread-mount-chainring-for-xx-xx-sl-power-meter-1089
+  - id: PRO-DISCOVER-AERO-42
+    name: PRO Discover Aero Carbon 42cm kierownica
+    ean: "8717009610902"
+    variant: "42"
+    # 359,99 EUR (~1550 PLN); min odcina czesci, max zestawy
+    min_pln: 900
+    max_pln: 2600
+    require_tokens:
+      - discover
+      - aero
+    queries:
+      - PRO Discover Aero Carbon handlebar 42cm
+      - PRO Discover Aero Carbon Lenker
+      - PRO Discover Aero Carbon kierownica
+      - PRO Discover Aero Carbon manubrio
