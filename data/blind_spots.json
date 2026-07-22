@@ -1,28 +1,39 @@
 {
-  "date": "2026-07-21",
+  "date": "2026-07-22",
   "spots": {
-    "FORCE-AXS-LEWA": [
-      "bike24.at",
-      "bike24.be",
+    "IBS-V1X": [
+      "bikeforums.net",
+      "dickssportinggoods.com",
+      "precise-performance.co.uk",
+      "racearoundpoland.pl",
+      "titleist.com",
+      "tractorsupply.com"
+    ],
+    "X0-CHAIN": [
       "bike24.com",
-      "bike24.de",
-      "bike24.fr",
-      "bike24.it",
-      "bike24.lu",
-      "bike24.pl",
-      "idealo.fr",
-      "leboncoin.fr",
-      "lordgun.com",
-      "lordgun.de",
+      "competitivecyclist.com",
       "lordgunbicycles.com",
       "powermetercity.com",
+      "quantavici.com",
       "r2-bike.com",
-      "sanferbike.com",
-      "sprint-rowery.pl",
-      "starbike.com",
-      "velofactory.ch",
-      "velonova.ee",
-      "velopoint.pl"
+      "velofactory.ch"
+    ],
+    "GX-CRANK": [
+      "competitivecyclist.com",
+      "cyklomania.pl",
+      "powermetercity.com",
+      "r2-bike.com",
+      "velofactory.ch"
+    ],
+    "DT-XD-DRIVER": [
+      "antietamfirearms.com",
+      "biciclaje.es",
+      "bike24.com",
+      "camelcamelcamel.com",
+      "collinsdictionary.com",
+      "hibike.com",
+      "r2-bike.com",
+      "smithsfoodanddrug.com"
     ],
     "SUPERLOGIC-ERGOMAX": [
       "bike24.at",
@@ -39,7 +50,6 @@
       "deporvillage.de",
       "deporvillage.fr",
       "deporvillage.it",
-      "deporvillage.net",
       "deporvillage.nl",
       "deporvillage.pl",
       "galaxus.ch",
@@ -62,50 +72,20 @@
       "srovnanicen.cz",
       "troc-velo.com"
     ],
-    "DT-XD-DRIVER": [
-      "antietamfirearms.com",
-      "biciclaje.es",
+    "XX-SL-POWERMETER": [
+      "aktywnawyprawa.com",
       "bike24.com",
-      "camelcamelcamel.com",
-      "collinsdictionary.com",
-      "hibike.com",
-      "r2-bike.com",
-      "smithsfoodanddrug.com"
-    ],
-    "Cane Creek 40 IS41/IS52": [
-      "bike24.at",
-      "bike24.be",
-      "bike24.com",
-      "bike24.de",
-      "bike24.es",
-      "bike24.fr",
-      "bike24.it",
-      "bike24.lu",
-      "bike24.nl",
-      "bike24.pl",
       "competitivecyclist.com",
-      "decathlon.it",
-      "dstewart.com",
-      "galaxus.ch",
-      "grabagun.com",
-      "homedepot.com",
-      "idealo.es",
-      "lordgunbicycles.com",
-      "lordgunbicycles.es",
-      "lordgunbicycles.fr",
-      "mount7.com",
-      "mtb-mag.com",
-      "novicedock.com",
-      "pro-mstore.com",
+      "powermetercity.com",
       "r2-bike.com",
-      "rat-bikes.com",
-      "rat-bikes.eu",
-      "thebetterhealthstore.com"
+      "rei.com",
+      "velonova.lt"
     ],
     "Ritchey WCS Carbon ErgoMax": [
       "365cycles.com",
       "absolubike.fr",
       "agriper.nl",
+      "all4bikes.be",
       "bbb.org",
       "bike24.at",
       "bike24.com",
@@ -122,7 +102,6 @@
       "deporvillage.de",
       "deporvillage.fr",
       "deporvillage.it",
-      "deporvillage.net",
       "deporvillage.nl",
       "deporvillage.pl",
       "faithchurchonaway.org",
@@ -139,11 +118,86 @@
       "rat-bikes.eu",
       "rei.com",
       "ridinggravel.com",
+      "romijninstallaties.nl",
       "sport365.cz",
       "trenerterapeut.cz",
       "velodrome-cycling.com",
       "velofactory.ch",
       "whitepages.com"
+    ],
+    "PRO-DISCOVER-AERO-42": [
+      "beslist.nl",
+      "bike24.at",
+      "bike24.com",
+      "bike24.pl",
+      "bikefast.pl",
+      "competitivecyclist.com",
+      "deporvillage.pl",
+      "odpbusiness.com",
+      "r2-bike.com",
+      "rennrad-news.de"
+    ],
+    "FORCE-AXS-LEWA": [
+      "bike24.at",
+      "bike24.be",
+      "bike24.com",
+      "bike24.de",
+      "bike24.fr",
+      "bike24.it",
+      "bike24.lu",
+      "bike24.pl",
+      "epic-cycles.com",
+      "idealo.fr",
+      "leboncoin.fr",
+      "lordgun.com",
+      "lordgun.de",
+      "lordgunbicycles.com",
+      "powermetercity.com",
+      "r2-bike.com",
+      "sanferbike.com",
+      "sprint-rowery.pl",
+      "starbike.com",
+      "tnc-hamburg.com",
+      "velofactory.ch",
+      "velonova.ee",
+      "velopoint.pl"
+    ],
+    "WOLFTOOTH-ADAPTER": [
+      "bike24.com",
+      "bike24.de",
+      "bikeforums.net",
+      "r2-bike.com"
+    ],
+    "SID-SELECT": [
+      "backcountry.com",
+      "bike24.com",
+      "bikemag.com",
+      "competitivecyclist.com",
+      "flowmountainbike.com",
+      "garagegeardirect.com",
+      "mtb-mag.com",
+      "r2-bike.com",
+      "starbike.com",
+      "vidlice.heureka.cz"
+    ],
+    "SID-ULTIMATE": [
+      "backcountry.com",
+      "bike24.com",
+      "bike24.de",
+      "canadabicycleparts.com",
+      "competitivecyclist.com",
+      "flowmountainbike.com",
+      "lordgunbicycles.com",
+      "r2-bike.com",
+      "velofactory.ch",
+      "vidlice.heureka.cz"
+    ],
+    "SID-SELECT-PLUS": [
+      "bike24.com",
+      "bikemag.com",
+      "flowmountainbike.com",
+      "garagegeardirect.com",
+      "singletrackworld.com"
     ],
     "GX-DERAILLEUR": [
       "bike24.at",
@@ -156,33 +210,6 @@
       "canadabicycleparts.com",
       "r2-bike.com"
     ],
-    "SID-ULTIMATE": [
-      "asianroofrepairmasters.com",
-      "backcountry.com",
-      "bike24.com",
-      "bike24.de",
-      "canadabicycleparts.com",
-      "competitivecyclist.com",
-      "flowmountainbike.com",
-      "lordgunbicycles.com",
-      "r2-bike.com",
-      "steedcycles.com",
-      "velofactory.ch",
-      "vidlice.heureka.cz"
-    ],
-    "PRO-DISCOVER-AERO-42": [
-      "beslist.nl",
-      "bike24.at",
-      "bike24.com",
-      "bike24.pl",
-      "bikefast.pl",
-      "competitivecyclist.com",
-      "deporvillage.pl",
-      "doitbest.com",
-      "odpbusiness.com",
-      "r2-bike.com",
-      "rennrad-news.de"
-    ],
     "FORCE-AXS-PRAWA": [
       "bike24.com",
       "bike24.de",
@@ -191,6 +218,7 @@
       "bikefast.pl",
       "competitivecyclist.com",
       "deporvillage.de",
+      "epic-cycles.com",
       "galaxus.de",
       "idealo.fr",
       "lordgun.de",
@@ -201,23 +229,35 @@
       "r2-bike.com",
       "servi-a.com"
     ],
-    "IBS-V1X": [
-      "bikeforums.net",
-      "dickssportinggoods.com",
-      "precise-performance.co.uk",
-      "racearoundpoland.pl",
-      "titleist.com",
-      "tractorsupply.com"
-    ],
-    "X0-CHAIN": [
+    "Cane Creek 40 IS41/IS52": [
+      "bike24.at",
+      "bike24.be",
       "bike24.com",
-      "cavalierebici.it",
+      "bike24.de",
+      "bike24.es",
+      "bike24.fr",
+      "bike24.it",
+      "bike24.lu",
+      "bike24.nl",
+      "bike24.pl",
       "competitivecyclist.com",
+      "decathlon.it",
+      "dragonspinecycling.com",
+      "dstewart.com",
+      "galaxus.ch",
+      "grabagun.com",
+      "homedepot.com",
+      "idealo.es",
       "lordgunbicycles.com",
-      "powermetercity.com",
-      "quantavici.com",
+      "lordgunbicycles.es",
+      "lordgunbicycles.fr",
+      "mtb-mag.com",
+      "novicedock.com",
       "r2-bike.com",
-      "velofactory.ch"
+      "rat-bikes.com",
+      "rat-bikes.eu",
+      "slovakbikeparks.sk",
+      "thebetterhealthstore.com"
     ],
     "DUB-WIDE-PF92": [
       "bike24.com",
@@ -228,52 +268,13 @@
       "competitivecyclist.com",
       "deporvillage.it",
       "deporvillage.pt",
+      "ibksport.com",
       "ltmracing.com",
       "nencinisport.it",
       "powermetercity.com",
       "r2-bike.com",
       "rat-bikes.eu",
-      "rennrad-news.de",
-      "steedcycles.com"
-    ],
-    "SID-SELECT": [
-      "backcountry.com",
-      "bike24.com",
-      "bikemag.com",
-      "bikestyle.cz",
-      "competitivecyclist.com",
-      "flowmountainbike.com",
-      "garagegeardirect.com",
-      "mtb-mag.com",
-      "r2-bike.com",
-      "starbike.com",
-      "steedcycles.com",
-      "vidlice.heureka.cz"
-    ],
-    "WOLFTOOTH-ADAPTER": [
-      "bike24.com",
-      "bike24.de",
-      "bikeforums.net",
-      "r2-bike.com",
-      "steedcycles.com"
-    ],
-    "X0-CASSETTE": [
-      "bike24.com",
-      "competitivecyclist.com",
-      "decathlon.it",
-      "lordgun.com",
-      "lordgunbicycles.com",
-      "powermetercity.com",
-      "r2-bike.com",
-      "rei.com"
-    ],
-    "SID-SELECT-PLUS": [
-      "bike24.com",
-      "bikemag.com",
-      "flowmountainbike.com",
-      "garagegeardirect.com",
-      "singletrackworld.com",
-      "steedcycles.com"
+      "rennrad-news.de"
     ],
     "GARBARUK-40T-AERO": [
       "alugear.com",
@@ -287,26 +288,21 @@
       "r2-bike.com",
       "starbike.com"
     ],
-    "Canyon S15 VCLS 2.0": [
-      "fiets.nl",
-      "rennrad-news.de",
-      "ricardo.ch",
-      "velonova.lt"
-    ],
-    "GX-CRANK": [
-      "competitivecyclist.com",
-      "cyklomania.pl",
-      "powermetercity.com",
-      "r2-bike.com",
-      "velofactory.ch"
-    ],
-    "XX-SL-POWERMETER": [
-      "aktywnawyprawa.com",
+    "X0-CASSETTE": [
       "bike24.com",
       "competitivecyclist.com",
+      "decathlon.it",
+      "lordgun.com",
+      "lordgunbicycles.com",
       "powermetercity.com",
       "r2-bike.com",
-      "rei.com",
+      "rei.com"
+    ],
+    "Canyon S15 VCLS 2.0": [
+      "fiets.nl",
+      "olx.pl",
+      "rennrad-news.de",
+      "ricardo.ch",
       "velonova.lt"
     ]
   }
