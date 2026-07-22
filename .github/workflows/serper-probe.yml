@@ -1,0 +1,20 @@
+# Szybki test klucza Serpera w srodowisku Actions (bez czekania na pelny
+# przebieg trackera). Do skasowania po zakonczeniu testu.
+name: Serper Probe
+on: workflow_dispatch
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test klucza Serper (1 zapytanie)
+        env:
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+        run: |
+          code=$(curl -s -o /tmp/resp.json -w "%{http_code}" \
+            https://google.serper.dev/search \
+            -H "X-API-KEY: $SERPER_API_KEY" \
+            -H "Content-Type: application/json" \
+            -d '{"q":"probe"}')
+          echo "Status: $code"
+          echo "Odpowiedz: $(head -c 200 /tmp/resp.json)"
