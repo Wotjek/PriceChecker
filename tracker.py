@@ -246,20 +246,33 @@ def get_fx_rates():
 _auth_dead = set()
 
 
+_serper_out_of_credits = False  # ustawiane przez _auth_fail; czyta save_serper_quota
+
+
 def _auth_fail(engine, err, hint):
-    """True gdy blad to odrzucony klucz/dostep - wylacza silnik do konca
-    runu. Loguje poczatek tresci odpowiedzi: JSON = decyzja API (zly klucz),
-    HTML = zapora (np. Cloudflare blokuje IP runnera GitHub)."""
+    """True gdy blad to odrzucony klucz/dostep/kredyty - wylacza silnik do
+    konca runu (zamiast mielic setki identycznych bledow). Loguje poczatek
+    tresci odpowiedzi: JSON = decyzja API (zly klucz/kredyty), HTML = zapora
+    (np. Cloudflare blokuje IP runnera GitHub)."""
+    global _serper_out_of_credits
     resp = getattr(err, "response", None)
     code = getattr(resp, "status_code", None)
-    if code in (401, 402, 403):
+    body = ""
+    if resp is not None:
+        try:
+            body = re.sub(r"\s+", " ", resp.text[:150]).strip()
+        except Exception:
+            pass
+    # Serper zwraca 400 (nie 401/403) gdy konto ma zero kredytow - lokalny
+    # licznik kredytow moze byc wtedy nieaktualny (np. testy poza trackerem
+    # zuzyly kredyty bez naszej wiedzy) - ufamy odpowiedzi API, nie licznikowi
+    out_of_credits = (engine == "serper" and code == 400
+                      and "credit" in body.lower())
+    if out_of_credits:
+        _serper_out_of_credits = True
+    if code in (401, 402, 403) or out_of_credits:
         if engine not in _auth_dead:
             _auth_dead.add(engine)
-            body = ""
-            try:
-                body = re.sub(r"\s+", " ", resp.text[:150]).strip()
-            except Exception:
-                pass
             log(f"[AUTH] {engine}: dostep odrzucony (HTTP {code}) - wylaczam "
                 f"silnik do konca runu. {hint}")
             if body:
@@ -270,10 +283,14 @@ def _auth_fail(engine, err, hint):
 
 _HINT_SERPAPI = ("Limit SerpAPI wyczerpany albo zly sekret SERPAPI_KEY "
                  "(serpapi.com -> Api Key).")
-_HINT_SERPER = ("Jesli odcisk sha256 wyzej zgadza sie z kluczem, sekret "
-                "jest dobry - Serper odrzuca ruch z IP GitHub Actions dla "
-                "kont trial (anty-abuse). Opcje: support serper.dev, "
-                "platny pakiet kredytow albo run lokalny (python tracker.py).")
+_HINT_SERPER = ("HTTP 401/403: sprawdz odcisk sha256 klucza wyzej. "
+                 "HTTP 400 'not enough credits': konto Serper ma zero "
+                 "kredytow (darmowa pula 2500 jest jednorazowa, nie "
+                 "miesieczna) - lokalny licznik w data/serper_quota.json "
+                 "moze pokazywac wiecej niz naprawde zostalo (np. testy "
+                 "poza trackerem zuzywaja kredyty bez naszej wiedzy). "
+                 "Dokup kredyty na serper.dev albo czekaj na reset SerpAPI "
+                 "1. dnia miesiaca.")
 _HINT_GOOGLE = ("Custom Search JSON API jest zamkniete dla nowych klientow "
                 "(od 2026; starzy do 2027-01-01). Warstwa CSE dziala tylko "
                 "na starych projektach Google Cloud - jesli nie masz takiego, "
@@ -433,11 +450,14 @@ def serper_shopping_items(query, api_key, gl=None, page=1):
 
 
 def serper_search(query, api_key, gl=None):
-    """Serper.dev - organiczne wyniki Google (discovery)."""
+    """Serper.dev - organiczne wyniki Google (discovery). Darmowe konta nie
+    obsluguja skladni dokladnej frazy w cudzyslowach ("Query pattern not
+    allowed for free accounts") - usuwamy je, jakosc dopasowania i tak
+    pilnuje require_tokens/_title_ok nizej w pipeline."""
     if "serper" in _auth_dead:
         return []
     try:
-        payload = {"q": query, "num": 20}
+        payload = {"q": query.replace('"', ""), "num": 20}
         if gl:
             payload["gl"] = gl
         r = requests.post("https://google.serper.dev/search",
@@ -578,8 +598,15 @@ def save_serpapi_quota():
 def save_serper_quota(settings):
     """Utrwala lokalny licznik kredytow Serper (brak API stanu konta).
     Pula startowa/dokupiona: settings.serper_credits (domyslnie 2500);
-    po dokupieniu kredytow zaktualizuj settings i usun serper_quota.json."""
-    if _serper_used["n"] == 0 and not SERPER_QUOTA_FILE.exists():
+    po dokupieniu kredytow zaktualizuj settings i usun serper_quota.json.
+
+    Licznik jest tylko ESTYMATA - zlicza wylacznie zapytania, ktore poszly
+    przez tracker.py. Jesli ktos odpytal Serpera bezposrednio (curl, inny
+    skrypt), prawdziwy stan konta bedzie nizszy niz to, co tu widac. Gdy
+    API faktycznie odpowie "brak kredytow" (_serper_out_of_credits, patrz
+    _auth_fail), ufamy TEJ odpowiedzi i nadpisujemy estymate realnym zerem."""
+    if (_serper_used["n"] == 0 and not _serper_out_of_credits
+            and not SERPER_QUOTA_FILE.exists()):
         return  # Serper nieuzywany i nie byl uzywany - nic do pokazania
     used = 0
     try:
@@ -589,14 +616,19 @@ def save_serper_quota(settings):
         pass
     used += _serper_used["n"]
     total = int(settings.get("serper_credits") or 2500)
+    if _serper_out_of_credits:
+        used = total  # API potwierdzil zero - licznik ma to odzwierciedlac
     data = {"total": total, "used": used, "left": max(0, total - used),
             "this_run": _serper_used["n"],
+            "confirmed_empty": _serper_out_of_credits,
             "checked": date.today().isoformat()}
     DATA.mkdir(exist_ok=True)
     SERPER_QUOTA_FILE.write_text(json.dumps(data, ensure_ascii=False),
                                  encoding="utf-8")
     log(f"[SERPER] Kredyty: zuzyte {_serper_used['n']} w tym runie, "
-        f"lacznie {used} z {total} (pozostalo {data['left']})")
+        f"lacznie {used} z {total} (pozostalo {data['left']})"
+        + (" - API POTWIERDZILO BRAK KREDYTOW" if _serper_out_of_credits
+           else ""))
 
 
 # ========================================================== extraction ======

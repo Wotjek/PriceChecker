@@ -368,7 +368,10 @@ function quotaWidget(){
     `darmowych zapytań (zużyte: ${+q.used||0})`, q.checked);
   const s = DATA.serper;
   if(s && s.total) html += bar('Kredyty Serper', +s.left||0, +s.total||0, +s.used||0,
-    `kredytów (zużyte: ${+s.used||0}, licznik lokalny)`, s.checked);
+    s.confirmed_empty
+      ? `kredytów — API POTWIERDZIŁO brak kredytów (nie tylko licznik lokalny)`
+      : `kredytów (zużyte: ${+s.used||0}, licznik lokalny — może być zaniżony)`,
+    s.checked);
   return html;
 }
 function renderOffersTables(wrap, products){
