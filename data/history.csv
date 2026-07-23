@@ -15,6 +15,7 @@ date,product_id,product_name,price_pln,price_orig,currency,shop,url,offers_check
 2026-07-18,Cane Creek 40 IS41/IS52,Cane Creek 40 IS41/IS52,151.54,34.9,EUR,last-bikes.com,https://www.last-bikes.com/Artikeldetail?Language=en&ClientID=a30f076f-d7c3-4db1-8649-8599fa71aee6%2Ca30f076f-d7c3-4db1-8649-8599fa71aee6&StuffID=5345f6ed-c61f-4449-95de-81a85bc44587,75
 2026-07-21,Cane Creek 40 IS41/IS52,Cane Creek 40 IS41/IS52,141.96,32.81,EUR,evolutionbikes.fr,https://evolutionbikes.fr/en/products/cane-creek-serie-sterzo-40,93
 2026-07-22,Cane Creek 40 IS41/IS52,Cane Creek 40 IS41/IS52,142.05,32.81,EUR,evolutionbikes.fr,https://evolutionbikes.fr/en/products/cane-creek-serie-sterzo-40,91
+2026-07-23,Cane Creek 40 IS41/IS52,Cane Creek 40 IS41/IS52,135.94,759.0,CZK,filmnadvd.cz,https://www.filmnadvd.cz/duke-dumont-union-vinyl-lp,97
 2026-07-05,Canyon S14 VCLS 2.0,Canyon S14 VCLS 2.0,857.1,199.99,EUR,canyon.com,https://www.canyon.com/de-de/fahrradzubehoer/fahrradteile/sattelstuetze-sattelklemme/canyon-s14-vcls-2.0-27.2mm-cf-sattelstuetze/148286.html,5
 2026-07-06,Canyon S14 VCLS 2.0,Canyon S14 VCLS 2.0,857.4,199.99,EUR,canyon.com,https://www.canyon.com/de-de/fahrradzubehoer/fahrradteile/sattelstuetze-sattelklemme/canyon-s14-vcls-2.0-27.2mm-cf-sattelstuetze/148286.html,5
 2026-07-07,Canyon S14 VCLS 2.0,Canyon S14 VCLS 2.0,858.72,199.99,EUR,canyon.com,https://www.canyon.com/de-de/fahrradzubehoer/fahrradteile/sattelstuetze-sattelklemme/canyon-s14-vcls-2.0-27.2mm-cf-sattelstuetze/148286.html,5
@@ -31,6 +32,7 @@ date,product_id,product_name,price_pln,price_orig,currency,shop,url,offers_check
 2026-07-18,Canyon S14 VCLS 2.0,Canyon S14 VCLS 2.0,738.1,169.99,EUR,canyon.com,https://www.canyon.com/en-is/gear/bike-parts/posts-and-clamps/canyon-s14-vcls-2.0-27.2mm-cf-seatpost/148286.html,34
 2026-07-21,Canyon S15 VCLS 2.0,Canyon S15 VCLS 2.0,412.9,500.0,RON,biclo.pl,https://www.biclo.pl/targ/oferta/tija-sa-carbon-canyon-s15-vcls-20-272mm-cf,17
 2026-07-22,Canyon S15 VCLS 2.0,Canyon S15 VCLS 2.0,413.0,500.0,RON,biclo.pl,https://www.biclo.pl/targ/oferta/tija-sa-carbon-canyon-s15-vcls-20-272mm-cf,14
+2026-07-23,Canyon S15 VCLS 2.0,Canyon S15 VCLS 2.0,413.0,500.0,RON,biclo.pl,https://www.biclo.pl/targ/oferta/tija-sa-carbon-canyon-s15-vcls-20-272mm-cf,29
 2026-07-05,DT SWISS 350 12x148,DT SWISS 350 12x148,514.24,119.99,EUR,bike-components.de,https://www.bike-components.de/de/DT-Swiss/350-Classic-MTB-Boost-Disc-Center-Lock-HR-Nabe-p84203/,8
 2026-07-06,DT SWISS 350 12x148,DT SWISS 350 12x148,514.42,119.99,EUR,bike-components.de,https://www.bike-components.de/de/DT-Swiss/350-Classic-MTB-Boost-Disc-Center-Lock-HR-Nabe-p84203/,10
 2026-07-07,DT SWISS 350 12x148,DT SWISS 350 12x148,398.89,92.9,EUR,whizz-wheels.de,https://whizz-wheels.de/shop/DT-Swiss-350-Hybrid-Disc-IS-100-mm-32-Loch-MY2023-Vorderradnabe/H350ADQXR32SO0732S,15
@@ -61,8 +63,10 @@ date,product_id,product_name,price_pln,price_orig,currency,shop,url,offers_check
 2026-07-18,DT Swiss Fatbike,DT Swiss Fatbike,209.81,48.32,EUR,use-elitebikes.com,https://www.use-elitebikes.com/naben/15966-dt-swiss-350-nabe-vorne-15x110-28l-disc-is-neu.html,48
 2026-07-21,DT-XD-DRIVER,DT Swiss bębenek XD Ratchet LN 12x148,332.73,76.9,EUR,whizz-wheels.de,https://whizz-wheels.de/shop/Rotorkit-Sram-XD-Ratchet-LN-Alu-12-x-142-12-x-148-t.a./HWYABM00S3766S,1
 2026-07-22,DT-XD-DRIVER,DT Swiss bębenek XD Ratchet LN 12x148,332.94,76.9,EUR,whizz-wheels.de,https://whizz-wheels.de/shop/Rotorkit-Sram-XD-Ratchet-LN-Alu-12-x-142-12-x-148-t.a./HWYABM00S3766S,1
+2026-07-23,DT-XD-DRIVER,DT Swiss bębenek XD Ratchet LN 12x148,108.24,25.0,EUR,buycycle.com,https://buycycle.com/cs-cz/product/hubs-hubparts-dt-swiss-ratchet-ln-freilaufkorper-sram-xd,32
 2026-07-21,DUB-WIDE-PF92,SRAM DUB Wide PF92 suport,157.32,36.36,EUR,bike-mailorder.com,https://www.bike-mailorder.com/en-fi/products/innenlager-dub-pressfit-89-92mm-mtb-wide-stahl,2
 2026-07-22,DUB-WIDE-PF92,SRAM DUB Wide PF92 suport,157.42,36.36,EUR,bike-mailorder.com,https://www.bike-mailorder.com/en-fi/products/innenlager-dub-pressfit-89-92mm-mtb-wide-stahl,2
+2026-07-23,DUB-WIDE-PF92,SRAM DUB Wide PF92 suport,130.87,28.0,CHF,bike-mailorder.com,https://www.bike-mailorder.com/fr-ch/products/innenlager-dub-pressfit-89-92mm-mtb-wide-stahl,5
 2026-07-10,FARGO-STEEL,Salsa Fargo Steel Frameset 27.5+/29 Gunmetal Grey,5211.45,1199.0,EUR,bike-packing.de,https://www.bike-packing.de/en/salsa-fargo-steel-frameset-275-29-gunmetal-grey,1
 2026-07-11,FARGO-STEEL,Salsa Fargo Steel Frameset 27.5+/29 Gunmetal Grey,5211.45,1199.0,EUR,bike-packing.de,https://www.bike-packing.de/en/salsa-fargo-steel-frameset-275-29-gunmetal-grey,1
 2026-07-12,FARGO-STEEL,Salsa Fargo Steel Frameset 27.5+/29 Gunmetal Grey,5211.45,1199.0,EUR,bike-packing.de,https://www.bike-packing.de/en/salsa-fargo-steel-frameset-275-29-gunmetal-grey,1
@@ -97,12 +101,17 @@ date,product_id,product_name,price_pln,price_orig,currency,shop,url,offers_check
 2026-07-18,FM2797,Salsa Cutthroat C Frameset,10850.66,2499.0,EUR,justpedal.nl,https://www.justpedal.nl/fm2797/salsa-cutthroat-frame-black-udh.html,9
 2026-07-21,FORCE-AXS-LEWA,SRAM Force AXS E1 klamkomanetka z hamulcem lewa,1146.6,265.0,EUR,werideoncycling-shop.com,https://werideoncycling-shop.com/products/levier-gauche-sram-force-e1-etap-axs-avec-etrier-et-durite,9
 2026-07-22,FORCE-AXS-LEWA,SRAM Force AXS E1 klamkomanetka z hamulcem lewa,1147.32,265.0,EUR,werideoncycling-shop.com,https://werideoncycling-shop.com/products/levier-gauche-sram-force-e1-etap-axs-avec-etrier-et-durite,9
+2026-07-23,FORCE-AXS-LEWA,SRAM Force AXS E1 klamkomanetka z hamulcem lewa,1147.32,265.0,EUR,werideoncycling-shop.com,https://werideoncycling-shop.com/products/levier-gauche-sram-force-e1-etap-axs-avec-etrier-et-durite,12
 2026-07-21,FORCE-AXS-PRAWA,SRAM Force AXS E1 klamkomanetka z hamulcem prawa,1038.0,239.9,EUR,tnc-hamburg.com,https://www.tnc-hamburg.com/Schalthebel/Road-Schalt-Bremshebel/Sram-Road-Schalthebel/Sram-Schalthebel-Road-AXS-12-fach/Sram-Force-eTap-AXS-Disc-Schaltbremshebel-D2-mit-Leitung-rechts::62235.html,6
 2026-07-22,FORCE-AXS-PRAWA,SRAM Force AXS E1 klamkomanetka z hamulcem prawa,1038.65,239.9,EUR,tnc-hamburg.com,https://www.tnc-hamburg.com/Schalthebel/Road-Schalt-Bremshebel/Sram-Road-Schalthebel/Sram-Schalthebel-Road-AXS-12-fach/Sram-Force-eTap-AXS-Disc-Schaltbremshebel-D2-mit-Leitung-rechts::62235.html,6
+2026-07-23,FORCE-AXS-PRAWA,SRAM Force AXS E1 klamkomanetka z hamulcem prawa,1199.0,1199.0,PLN,e-velomania.pl,https://e-velomania.pl/klamkomanetka-prawa-z-hamulcem-sram-force-axs-e1,12
+2026-07-23,GARBARUK-40T-AERO,"Garbaruk MTB TM Aero 40T SRAM XX/XX SL (okrągła, czarna)",288.13,66.55,EUR,derbaranski.shop,https://derbaranski.shop/products/garbaruk-aero-mono-kettenblatt,3
 2026-07-21,GX-CRANK,SRAM GX Eagle Transmission T-Type korba DUB Wide,707.0,707.0,PLN,bikestacja.pl,https://www.bikestacja.pl/korba-sram-gx-eagle-mtb-transmission-dub-wide-2x12-speed-32t-165mm-p-23822.html,1
 2026-07-22,GX-CRANK,SRAM GX Eagle Transmission T-Type korba DUB Wide,706.0,706.0,PLN,bikestacja.pl,https://www.bikestacja.pl/korba-sram-gx-eagle-mtb-transmission-dub-wide-2x12-speed-32t-165mm-p-23822.html,1
+2026-07-23,GX-CRANK,SRAM GX Eagle Transmission T-Type korba DUB Wide,706.0,706.0,PLN,bikestacja.pl,https://www.bikestacja.pl/korba-sram-gx-eagle-mtb-transmission-dub-wide-2x12-speed-32t-165mm-p-23822.html,1
 2026-07-21,GX-DERAILLEUR,SRAM GX Eagle AXS Transmission T-Type przerzutka tylna,1499.0,1499.0,PLN,super-bike.pl,https://super-bike.pl/produkt/przerzutka-tylna-sram-gx-eagle-transmission-t-type-axs-1x12-rzedowa-mtb/,2
 2026-07-22,GX-DERAILLEUR,SRAM GX Eagle AXS Transmission T-Type przerzutka tylna,1499.0,1499.0,PLN,super-bike.pl,https://super-bike.pl/produkt/przerzutka-tylna-sram-gx-eagle-transmission-t-type-axs-1x12-rzedowa-mtb/,2
+2026-07-23,GX-DERAILLEUR,SRAM GX Eagle AXS Transmission T-Type przerzutka tylna,1493.46,344.95,EUR,rosebikes.pl,https://www.rosebikes.pl/p/sram-gx-eagle-transmissiontm-axstm-12-speed-rear-derailleur-2721915,11
 2026-07-05,GX-T-CHAIN,SRAM GX Eagle Transmission Łańcuch,128.53,29.99,EUR,alutech-cycles.com,https://alutech-cycles.com/SRAM-chain-GX-T-Type-118-12-speed-silver,20
 2026-07-06,GX-T-CHAIN,SRAM GX Eagle Transmission Łańcuch,128.57,29.99,EUR,alutech-cycles.com,https://alutech-cycles.com/SRAM-chain-GX-T-Type-118-12-speed-silver,20
 2026-07-07,GX-T-CHAIN,SRAM GX Eagle Transmission Łańcuch,128.77,29.99,EUR,alutech-cycles.com,https://alutech-cycles.com/SRAM-chain-GX-T-Type-118-12-speed-silver,24
@@ -139,6 +148,7 @@ date,product_id,product_name,price_pln,price_orig,currency,shop,url,offers_check
 2026-07-18,IBS-V1X,Infinity Bike Seat V1X,1468.7,387.0,USD,cyclingupgrades.com,https://www.cyclingupgrades.com/products/new-_infinity_vegan_v1x_black_7x7mm_stainless_rails_saddle06242025-1104-05,1
 2026-07-21,IBS-V1X,Infinity Bike Seat V1X,1466.15,387.0,USD,cyclingupgrades.com,https://www.cyclingupgrades.com/products/new-_infinity_vegan_v1x_black_7x7mm_stainless_rails_saddle06242025-1104-05,3
 2026-07-22,IBS-V1X,Infinity Bike Seat V1X,1468.47,387.0,USD,cyclingupgrades.com,https://www.cyclingupgrades.com/products/new-_infinity_vegan_v1x_black_7x7mm_stainless_rails_saddle06242025-1104-05,3
+2026-07-23,IBS-V1X,Infinity Bike Seat V1X,1468.47,387.0,USD,cyclingupgrades.com,https://www.cyclingupgrades.com/products/new-_infinity_vegan_v1x_black_7x7mm_stainless_rails_saddle06242025-1104-05,3
 2026-07-05,LAUF-CARBONARA,Lauf Carbonara fork,4452.98,1190.0,USD,laufcycles.com,https://www.laufcycles.com/product/lauf-carbonara,2
 2026-07-06,LAUF-CARBONARA,Lauf Carbonara fork,4467.26,1190.0,USD,laufcycles.com,https://www.laufcycles.com/product/lauf-carbonara,2
 2026-07-07,LAUF-CARBONARA,Lauf Carbonara fork,4471.19,1190.0,USD,laufcycles.com,https://www.laufcycles.com/product/lauf-carbonara,2
@@ -181,6 +191,7 @@ date,product_id,product_name,price_pln,price_orig,currency,shop,url,offers_check
 2026-07-18,Lake MX242,Lake MX242,1121.54,258.3,EUR,bike-discount.de,https://www.bike-discount.de/en/lake-mx242-x-wide-mtb-shoes-20154493,21
 2026-07-21,PRO-DISCOVER-AERO-42,PRO Discover Aero Carbon 42cm kierownica,1059.5,1059.5,PLN,rowertour.com,https://www.rowertour.com/p/g2310/kierownica-gravelowa-pro-discover-aero-carbon,6
 2026-07-22,PRO-DISCOVER-AERO-42,PRO Discover Aero Carbon 42cm kierownica,1059.5,1059.5,PLN,rowertour.com,https://www.rowertour.com/p/g2310/kierownica-gravelowa-pro-discover-aero-carbon,6
+2026-07-23,PRO-DISCOVER-AERO-42,PRO Discover Aero Carbon 42cm kierownica,1059.5,1059.5,PLN,rowertour.com,https://www.rowertour.com/p/g2310/kierownica-gravelowa-pro-discover-aero-carbon,13
 2026-07-07,ROCK SHOX SID,ROCK SHOX SID SL Select+,1799.0,1799.0,PLN,centrumrowerowe.pl,https://www.centrumrowerowe.pl/amortyzator-rowerowy-rock-shox-sid-sl-select-pd49824/,1
 2026-07-08,ROCK SHOX SID,ROCK SHOX SID SL Select+,1799.0,1799.0,PLN,centrumrowerowe.pl,https://www.centrumrowerowe.pl/amortyzator-rowerowy-rock-shox-sid-sl-select-pd49824/,8
 2026-07-09,ROCK SHOX SID,ROCK SHOX SID SL Select+,1399.0,1399.0,PLN,centrumrowerowe.pl,https://www.centrumrowerowe.pl/amortyzator-rowerowy-rock-shox-sid-sl-select-charger-rl-pd25547/,34
@@ -209,12 +220,16 @@ date,product_id,product_name,price_pln,price_orig,currency,shop,url,offers_check
 2026-07-18,Ritchey WCS Carbon ErgoMax,Ritchey WCS Carbon ErgoMax,1083.98,230.34,CHF,bikeshopzizers.ch,https://bikeshopzizers.ch/ritchey-road-lenker-wcs-ergomax-42cm-c-c-oben-ud-carbon-31-8mm/,2
 2026-07-21,Ritchey WCS Carbon ErgoMax,Ritchey WCS Carbon ErgoMax,1076.98,230.34,CHF,bikeshopzizers.ch,https://bikeshopzizers.ch/ritchey-road-lenker-wcs-ergomax-42cm-c-c-oben-ud-carbon-31-8mm/,1
 2026-07-22,Ritchey WCS Carbon ErgoMax,Ritchey WCS Carbon ErgoMax,1076.61,230.34,CHF,bikeshopzizers.ch,https://bikeshopzizers.ch/ritchey-road-lenker-wcs-ergomax-42cm-c-c-oben-ud-carbon-31-8mm/,1
+2026-07-23,Ritchey WCS Carbon ErgoMax,Ritchey WCS Carbon ErgoMax,1076.61,230.34,CHF,bikeshopzizers.ch,https://bikeshopzizers.ch/ritchey-road-lenker-wcs-ergomax-42cm-c-c-oben-ud-carbon-31-8mm/,3
 2026-07-21,SID-SELECT,RockShox SID SL Select 3P (E1) widelec,1399.0,1399.0,PLN,centrumrowerowe.pl,https://www.centrumrowerowe.pl/amortyzator-rowerowy-rock-shox-sid-sl-select-charger-rl-pd25547/,6
 2026-07-22,SID-SELECT,RockShox SID SL Select 3P (E1) widelec,1399.0,1399.0,PLN,centrumrowerowe.pl,https://www.centrumrowerowe.pl/amortyzator-rowerowy-rock-shox-sid-sl-select-charger-rl-pd25547/,6
+2026-07-23,SID-SELECT,RockShox SID SL Select 3P (E1) widelec,1399.0,1399.0,PLN,centrumrowerowe.pl,https://www.centrumrowerowe.pl/amortyzator-rowerowy-rock-shox-sid-sl-select-charger-rl-pd25547/,15
 2026-07-21,SID-SELECT-PLUS,RockShox SID SL Select+ 3P widelec,3086.99,3086.99,PLN,velotracker.pl,https://www.velotracker.pl/produkt/rockshox-sid-sl-select-363,1
 2026-07-22,SID-SELECT-PLUS,RockShox SID SL Select+ 3P widelec,3086.99,3086.99,PLN,velotracker.pl,https://www.velotracker.pl/produkt/rockshox-sid-sl-select-363,1
+2026-07-23,SID-SELECT-PLUS,RockShox SID SL Select+ 3P widelec,2680.0,619.01,EUR,topfun.com,https://www.topfun.com/es/horquillas/18211-HORQUILLAROCKSHOXSIDSLSELECT.html,2
 2026-07-21,SID-ULTIMATE,RockShox SID SL Ultimate 3P (E1) widelec,4668.62,1079.0,EUR,meinhartje.com,https://meinhartje.com/en/rockshox-suspension-fork-sid-sl-ultimate-race-day-3p/08256085,1
 2026-07-22,SID-ULTIMATE,RockShox SID SL Ultimate 3P (E1) widelec,4671.53,1079.0,EUR,meinhartje.com,https://meinhartje.com/en/rockshox-suspension-fork-sid-sl-ultimate-race-day-3p/08256085,1
+2026-07-23,SID-ULTIMATE,RockShox SID SL Ultimate 3P (E1) widelec,3619.43,20209.0,CZK,spoke.cz,https://www.spoke.cz/rockshox-sid-sl-ultimate-3p-crown-100-29-gloss-black/,8
 2026-07-13,SUPERLOGIC-ERGOMAX,Ritchey Superlogic ErgoMax 42cm,860.86,198.9,EUR,actionsports.de,https://www.actionsports.de/ritchey-superlogic-carbon-flat-2x-31-8/710mm-lenker-25835,19
 2026-07-14,SUPERLOGIC-ERGOMAX,Ritchey Superlogic ErgoMax 42cm,863.37,198.9,EUR,actionsports.de,https://www.actionsports.de/ritchey-superlogic-carbon-flat-2x-31-8/710mm-lenker-25835,19
 2026-07-15,SUPERLOGIC-ERGOMAX,Ritchey Superlogic ErgoMax 42cm,860.74,198.9,EUR,actionsports.de,https://www.actionsports.de/ritchey-superlogic-carbon-flat-2x-31-8/710mm-lenker-25835,19
@@ -223,9 +238,14 @@ date,product_id,product_name,price_pln,price_orig,currency,shop,url,offers_check
 2026-07-18,SUPERLOGIC-ERGOMAX,Ritchey Superlogic ErgoMax 42cm,863.62,198.9,EUR,actionsports.de,https://www.actionsports.de/ritchey-superlogic-carbon-flat-2x-31-8/710mm-lenker-25835,19
 2026-07-21,SUPERLOGIC-ERGOMAX,Ritchey Superlogic ErgoMax 42cm,860.6,198.9,EUR,actionsports.de,https://www.actionsports.de/ritchey-superlogic-carbon-flat-2x-31-8/710mm-lenker-25835,28
 2026-07-22,SUPERLOGIC-ERGOMAX,Ritchey Superlogic ErgoMax 42cm,861.14,198.9,EUR,actionsports.de,https://www.actionsports.de/ritchey-superlogic-carbon-flat-2x-31-8/710mm-lenker-25835,28
+2026-07-23,SUPERLOGIC-ERGOMAX,Ritchey Superlogic ErgoMax 42cm,861.14,198.9,EUR,actionsports.de,https://www.actionsports.de/ritchey-superlogic-carbon-flat-2x-31-8/710mm-lenker-25835,30
 2026-07-21,WOLFTOOTH-ADAPTER,Wolf Tooth Brake Disc Adapter Post-Mount - Flat-Mount,199.77,46.17,EUR,bikesportadventure.com,https://www.bikesportadventure.com/gb/adapter/57871-wolf-tooth-adattatore-disco-da-post-mount-a-flat-mount-nero-810006806779.html,2
 2026-07-22,WOLFTOOTH-ADAPTER,Wolf Tooth Brake Disc Adapter Post-Mount - Flat-Mount,199.89,46.17,EUR,bikesportadventure.com,https://www.bikesportadventure.com/gb/adapter/57871-wolf-tooth-adattatore-disco-da-post-mount-a-flat-mount-nero-810006806779.html,2
+2026-07-23,WOLFTOOTH-ADAPTER,Wolf Tooth Brake Disc Adapter Post-Mount - Flat-Mount,186.13,42.99,EUR,fitse.nl,https://www.fitse.nl/winkel/wolf-tooth-brake-adapter-post-mount-to-flat-mount/,7
 2026-07-21,X0-CASSETTE,SRAM X0 Eagle XS-1295 T-Type kaseta,1384.53,319.99,EUR,alltricks.com,https://www.alltricks.com/F-11911-cassettes/P-2534570-sram_x0_t_type_eagle_xs_1295_10_52_teeth_12v_black_cassette,10
 2026-07-22,X0-CASSETTE,SRAM X0 Eagle XS-1295 T-Type kaseta,1385.4,319.99,EUR,alltricks.com,https://www.alltricks.com/F-11911-cassettes/P-2534570-sram_x0_t_type_eagle_xs_1295_10_52_teeth_12v_black_cassette,10
+2026-07-23,X0-CASSETTE,SRAM X0 Eagle XS-1295 T-Type kaseta,1385.01,319.9,EUR,evolutionbikes.it,https://evolutionbikes.it/en/products/pacco-pignoni-sram-x0-eagle-xs-1295-t-type-eagle-12s,29
 2026-07-21,X0-CHAIN,SRAM X0 Eagle T-Type Flattop łańcuch,358.82,82.93,EUR,bikestacja.pl,https://www.bikestacja.pl/en/sram-x0-eagle-flattop-t-type-12-speed-126-core-dark-polar-solidpin-chain-pin-p-22912.html,3
 2026-07-22,X0-CHAIN,SRAM X0 Eagle T-Type Flattop łańcuch,358.79,82.87,EUR,bikestacja.pl,https://www.bikestacja.pl/en/sram-x0-eagle-flattop-t-type-12-speed-126-core-dark-polar-solidpin-chain-pin-p-22912.html,4
+2026-07-23,X0-CHAIN,SRAM X0 Eagle T-Type Flattop łańcuch,352.83,1970.0,CZK,kupkolo.cz,https://www.kupkolo.cz/retez-sram-x0-eagle-transmission-flattop-12s-126-clanku-pro-elektrokola_z121538/,23
+2026-07-23,XX-SL-POWERMETER,SRAM XX SL Eagle AXS Transmission Power Meter (pajak),1558.58,359.99,EUR,bike-discount.de,https://www.bike-discount.de/de/sram-axs-powermeter-spider,8
