@@ -88,7 +88,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - biketart.com: waluta GBP poza dozwolonym regionem - pomijam
   + maciag-offroad.com: 67.95 EUR = 293.93 PLN [EAN niepotwierdzony]
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
-  + probikeshop.com.pl: 310.0 PLN = 310.0 PLN [EAN niepotwierdzony]
+  + probikeshop.com.pl: 309.0 PLN = 309.0 PLN [EAN niepotwierdzony]
   + alltricks.com: 69.0 EUR = 298.47 PLN [EAN niepotwierdzony]
   - bike-discount.de: niedostepny (outofstock)
   - retro-gression.com: waluta USD poza dozwolonym regionem - pomijam
@@ -119,9 +119,9 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - mount7.com: niedostepny (outofstock)
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   - bike-discount.de: brak danych o cenie (typy na stronie: breadcrumblist, onlinestore)
-  - mount7.com: niedostepny (outofstock)
+  - mount7.com: blad pobierania (ConnectionError)
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
-  + starbike.com: 460.73 DKK = 266.58 PLN [EAN niepotwierdzony]
+  + starbike.com: 671.03 NOK = 265.46 PLN [EAN niepotwierdzony]
   ! przegladarka: blad (Error)
   - galaxus.ch: HTTP 403 (przegladarka tez nie przeszla)
   - bike24.fr: HTTP 403 (przegladarka tez nie przeszla)
@@ -168,7 +168,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   + alltricks.com: 129.99 EUR = 562.3 PLN [EAN niepotwierdzony]
   - lordgunbicycles.fr: HTTP 403 (przegladarka tez nie przeszla)
   - bike24.fr: pomijam (blokada potwierdzona w tym runie)
-  - probikeshop.fr: niedostepny (outofstock)
+  + probikeshop.fr: 64.99 EUR = 281.13 PLN [EAN niepotwierdzony]
   - mammothbikes.com: niedostepny (outofstock)
   + alltricks.es: 55.99 EUR = 242.2 PLN [EAN niepotwierdzony]
   - bike24.es: HTTP 403 (przegladarka tez nie przeszla)
@@ -296,7 +296,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - slovakbikeparks.sk: blad pobierania (ConnectTimeout)
   + last-bikes.com: 34.9 EUR = 150.97 PLN [EAN niepotwierdzony]
   + maciag-offroad.fr: 52.95 EUR = 229.05 PLN [EAN niepotwierdzony]
-  + bicimarket.com: 55.36 EUR = 239.47 PLN [EAN niepotwierdzony]
+  + bicimarket.com: 66.99 EUR = 289.78 PLN [EAN niepotwierdzony]
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
   - probikesupply.com: waluta USD poza dozwolonym regionem - pomijam
   - cadencecyclery.com: brak danych o cenie (typy na stronie: breadcrumblist, product)
@@ -367,7 +367,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - sellpy.nl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - dreamland.be: HTTP 403 (przegladarka tez nie przeszla)
   - zoro.com: HTTP 403 (przegladarka tez nie przeszla)
-  + probikeshop.cz: 1810.0 CZK = 324.17 PLN [EAN OK]
+  + probikeshop.cz: 1811.0 CZK = 324.35 PLN [EAN OK]
   - canecreek.com: waluta USD poza dozwolonym regionem - pomijam
   - bikenetic.com: waluta USD poza dozwolonym regionem - pomijam
   - thejaycloud.com: waluta USD poza dozwolonym regionem - pomijam
@@ -444,7 +444,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   + mtbiker.pl: blokada ominieta headless Chromium
   - mtbiker.pl: niedostepny (discontinued)
   - olx.pl: HTTP 410
-  - buycycle.com: brak danych o cenie (typy na stronie: breadcrumblist, organization, website)
+  - buycycle.com: brak danych o cenie (typy na stronie: organization, website)
   + mtbiker.pl: blokada ominieta headless Chromium
   - mtbiker.pl: niedostepny (discontinued)
   - olx.pl: brak wymaganych slow (s15) - pomijam
@@ -494,8 +494,8 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   + canyon.com: 201.99 EUR = 873.75 PLN
   + canyon.com: 199.99 EUR = 865.1 PLN
   - handsonbike.blogspot.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - handsonbike.blogspot.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - handsonbike.blogspot.com: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - handsonbike.blogspot.com: HTTP 429 (przegladarka tez nie przeszla)
+  - handsonbike.blogspot.com: pomijam (blokada potwierdzona w tym runie)
   - kleinanzeigen.de: brak danych o cenie (typy na stronie: imageobject, website)
   - kleinanzeigen.de: brak danych o cenie (typy na stronie: imageobject, website)
   - kleinanzeigen.de: brak danych o cenie (typy na stronie: imageobject, website)
@@ -640,7 +640,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - mantel.com: brak wymaganych slow (carbon) - pomijam
   - romijninstallaties.nl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - velo-store.fr: brak danych o cenie (typy na stronie: product)
-  - leboncoin.fr: HTTP 410
+  - leboncoin.fr: HTTP 403 (przegladarka tez nie przeszla)
   - alltricks.fr: brak wymaganych slow (carbon) - pomijam
   - macraesbluebook.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - rosebikes.es: brak wymaganych slow (carbon) - pomijam
@@ -651,7 +651,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - mtbiker.pl: brak wymaganych slow (carbon) - pomijam
   - velodrome-cycling.com: HTTP 403 (przegladarka tez nie przeszla)
   - forumsport.com: brak wymaganych slow (carbon) - pomijam
-  - agriper.nl: blad pobierania (ConnectionError)
+  - agriper.nl: HTTP 404
   - cinevittoria.it: HTTP 404
   - trenerterapeut.cz: HTTP 404
   - deporvillage.fr: pomijam (blokada potwierdzona w tym runie)
@@ -758,7 +758,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - katalog-vysocina.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
   - vyhledatcislo.cz: brak danych o cenie (typy na stronie: aggregaterating)
   - fr.kompass.com: HTTP 403 (przegladarka tez nie przeszla)
-  - hotfrog.fr: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - hotfrog.fr: blad pobierania (ReadTimeout)
   - tellows.fr: HTTP 403 (przegladarka tez nie przeszla)
   - auto-doc.fr: HTTP 403 (przegladarka tez nie przeszla)
   - fr.kompass.com: pomijam (blokada potwierdzona w tym runie)
@@ -792,10 +792,8 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - shop.unlimitedbiking.com: niedostepny (outofstock)
   + all4bikes.be: blokada ominieta headless Chromium
   - all4bikes.be: brak danych o cenie (typy na stronie: breadcrumblist)
-  + all4bikes.be: blokada ominieta headless Chromium
-  - all4bikes.be: brak danych o cenie (typy na stronie: breadcrumblist)
-  + all4bikes.be: blokada ominieta headless Chromium
-  - all4bikes.be: brak danych o cenie (typy na stronie: breadcrumblist)
+  - all4bikes.be: blokada botow (przegladarka tez nie przeszla)
+  - all4bikes.be: pomijam (blokada potwierdzona w tym runie)
   - cyklomania.pl: HTTP 404
   - cyklomania.pl: HTTP 404
   - cyklomania.pl: HTTP 404
@@ -809,7 +807,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - ritcheylogic.com: brak danych o cenie (typy na stronie: faqpage)
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
   + mtbiker.pl: blokada ominieta headless Chromium
-  + mtbiker.pl: 1599.0 PLN = 1599.0 PLN [wariant 42 dopasowany]
+  + mtbiker.pl: 1549.0 PLN = 1549.0 PLN [wariant 42 dopasowany]
   ~ bikejamming.it: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
   - ritcheylogic.com: waluta USD poza dozwolonym regionem - pomijam
   + bikejamming.it: 269.99 EUR = 1167.9 PLN [wariant 42 NIEZWERYFIKOWANY - cena zbiorcza]
@@ -823,7 +821,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - ritcheylogic.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - 365cycles.com: niedostepny (outofstock)
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
-  + starbike.com: 1755.07 DKK = 1015.48 PLN [wariant 42 NIEZWERYFIKOWANY - cena zbiorcza]
+  + starbike.com: 2556.18 NOK = 1011.22 PLN [wariant 42 NIEZWERYFIKOWANY - cena zbiorcza]
   - deporvillage.de: pomijam (blokada potwierdzona w tym runie)
   + mtbiker.at: 359.0 EUR = 1552.93 PLN [wariant 42 dopasowany]
   - bike24.pl: pomijam (blokada potwierdzona w tym runie)
@@ -832,7 +830,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - shingsbikekitchen.wordpress.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - troianocicli.it: brak danych o cenie (typy na stronie: bikestore, sportinggoodsstore, website)
   - heureka.cz: HTTP 403 (przegladarka tez nie przeszla)
-  + sport365.cz: 315.94 EUR = 1366.66 PLN [wariant 42 dopasowany]
+  + sport365.cz: 316.4 EUR = 1368.65 PLN [wariant 42 dopasowany]
   - galaxus.ch: pomijam (blokada potwierdzona w tym runie)
   - tradeinn.com: brak danych o cenie (typy na stronie: organization, webpage)
   - bike-discount.de: brak wymaganych slow (superlogic) - pomijam
@@ -858,7 +856,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - bike-discount.de: brak wymaganych slow (superlogic) - pomijam
   - bikeshopzizers.ch: brak wymaganych slow (superlogic) - pomijam
   - rosebikes.de: brak wymaganych slow (superlogic) - pomijam
-  + koloshop.pl: 1467.99 PLN = 1467.99 PLN [wariant 42 dopasowany]
+  + koloshop.pl: 1375.99 PLN = 1375.99 PLN [wariant 42 dopasowany]
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
   - gambacicli.com: brak wymaganych slow (superlogic) - pomijam
   - deporvillage.it: pomijam (blokada potwierdzona w tym runie)
@@ -866,7 +864,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   + zookee.cz: 8490.0 CZK = 1520.56 PLN [wariant 42 dopasowany]
   - heureka.cz: pomijam (blokada potwierdzona w tym runie)
   + mtbiker.cz: 8499.0 CZK = 1522.17 PLN [wariant 42 dopasowany]
-  + sport365.cz: 315.94 EUR = 1366.66 PLN [wariant 42 dopasowany]
+  + sport365.cz: 316.4 EUR = 1368.65 PLN [wariant 42 dopasowany]
   - mojekolo.cz: niedostepny (discontinued)
   - ritcheylogic.com: brak wymaganych slow (superlogic) - pomijam
   - gambacicli.fr: HTTP 403 (przegladarka tez nie przeszla)
@@ -878,7 +876,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - rat-bikes.eu: pomijam (blokada potwierdzona w tym runie)
   - probikesupply.com: waluta USD poza dozwolonym regionem - pomijam
   - ottawabikeandtrail.com: waluta USD poza dozwolonym regionem - pomijam
-  + bikeporn.cc: 351.04 EUR = 1518.49 PLN [wariant 42 dopasowany]
+  + bikeporn.cc: 351.55 EUR = 1520.7 PLN [wariant 42 dopasowany]
   - ratscycles.com: waluta USD poza dozwolonym regionem - pomijam
   - benscycle.com: niedostepny (outofstock)
   - cahabacycles.com: waluta USD poza dozwolonym regionem - pomijam
@@ -915,7 +913,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - deporvillage.net: pomijam (blokada potwierdzona w tym runie)
   - mantel.com: brak wymaganych slow (superlogic) - pomijam
   - bks-dachbau.de: HTTP 404
-  + starbike.com: 1755.07 DKK = 1015.48 PLN [wariant 42 NIEZWERYFIKOWANY - cena zbiorcza]
+  + starbike.com: 2556.18 NOK = 1011.22 PLN [wariant 42 NIEZWERYFIKOWANY - cena zbiorcza]
   + gyro.fr: 299.9 EUR = 1297.28 PLN [wariant 42 NIEZWERYFIKOWANY - cena zbiorcza]
   - biker-boarder.de: brak danych o cenie (typy na stronie: bikestore, sportinggoodsstore, website)
   - bike-discount.de: brak wymaganych slow (superlogic) - pomijam
@@ -923,21 +921,21 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - buycycle.com: 519.08 PLN poza widelkami [700.0..2500.0] - pomijam
   - deporvillage.cz: pomijam (blokada potwierdzona w tym runie)
   - srovnanicen.cz: HTTP 403 (przegladarka tez nie przeszla)
-  + sport365.cz: 315.94 EUR = 1366.66 PLN [wariant 42 NIEZWERYFIKOWANY - cena zbiorcza]
+  + sport365.cz: 316.4 EUR = 1368.65 PLN [wariant 42 NIEZWERYFIKOWANY - cena zbiorcza]
   - bike24.fr: pomijam (blokada potwierdzona w tym runie)
   - origine-cycles.com: brak danych o cenie (typy na stronie: organization)
   - idealo.fr: pomijam (blokada potwierdzona w tym runie)
   - deporvillage.fr: pomijam (blokada potwierdzona w tym runie)
   - alltricks.fr: brak wymaganych slow (superlogic) - pomijam
   - gyro.fr: brak danych o cenie (typy na stronie: breadcrumblist, itemlist, organization, website)
-  - leboncoin.fr: HTTP 403 (przegladarka tez nie przeszla)
+  - leboncoin.fr: pomijam (blokada potwierdzona w tym runie)
   - tradeinn.com: brak danych o cenie (typy na stronie: faqpage, organization, webpage)
   - g-tedproductions.blogspot.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - theradavist.com: brak danych o cenie (typy na stronie: article, breadcrumblist, imageobject, newsarticle, organization, person, webpage, website)
   - ritcheylogic.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - shingsbikekitchen.wordpress.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  + bikeporn.cc: 351.04 EUR = 1518.49 PLN [wariant 42 dopasowany]
-  + bikeporn.cc: 351.04 EUR = 1518.49 PLN [wariant 42 NIEZWERYFIKOWANY - cena zbiorcza]
+  + bikeporn.cc: 351.55 EUR = 1520.7 PLN [wariant 42 dopasowany]
+  + bikeporn.cc: 351.55 EUR = 1520.7 PLN [wariant 42 NIEZWERYFIKOWANY - cena zbiorcza]
   - laciclabicycleshop.com: waluta USD poza dozwolonym regionem - pomijam
   - goodspeedcycles.com: waluta USD poza dozwolonym regionem - pomijam
   - landiscyclery.com: waluta USD poza dozwolonym regionem - pomijam
@@ -1129,7 +1127,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - bowhunterssupplystore.com: HTTP 404
   - wills-vegan-store.com: brak wymaganych slow (infinity, v1x) - pomijam
   - franksgreatoutdoors.com: brak wymaganych slow (v1x) - pomijam
-  - projectcece.com: brak wymaganych slow (infinity, v1x) - pomijam
+  - projectcece.com: HTTP 503 (przegladarka tez nie przeszla)
   - infinitypipesystem.com: HTTP 403 (przegladarka tez nie przeszla)
   - dnwoutdoors.com: brak wymaganych slow (v1x) - pomijam
   - infinitypipesystem.com: pomijam (blokada potwierdzona w tym runie)
@@ -1159,14 +1157,14 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
 [MONITOR] FORCE-AXS-LEWA: sprawdzam 224 URL-i
   - contenderbicycles.com: brak wymaganych slow (left) - pomijam
   - performancebike.com: niedostepny (outofstock)
-  - biketiresdirect.com: waluta USD poza dozwolonym regionem - pomijam
+  - biketiresdirect.com: brak wymaganych slow (left) - pomijam
   - twohoosierscyclery.com: brak wymaganych slow (left) - pomijam
   - lvr-cycles.com: waluta USD poza dozwolonym regionem - pomijam
   - zbozi.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
   - universalcycles.com: brak wymaganych slow (left) - pomijam
   - lordgun.com: pomijam (blokada potwierdzona w tym runie)
   - alltricks.com: brak wymaganych slow (left) - pomijam
-  - prolocotrade.si: blad pobierania (ConnectionError)
+  ~ prolocotrade.si: brak ceny, ale znalazlem 2 link(i) produktowe - sprawdzam
   - steedcycles.com: brak wymaganych slow (left) - pomijam
   ~ excelsports.com: brak ceny, ale znalazlem 2 link(i) produktowe - sprawdzam
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
@@ -1176,15 +1174,15 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - powermetercity.com: HTTP 403 (przegladarka tez nie przeszla)
   - bikable.com: niedostepny (outofstock)
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
-  ~ starbike.com: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
-  + bikestacja.pl: 309.55 EUR = 1339.02 PLN [EAN OK]
+  ~ starbike.com: brak ceny, ale znalazlem 2 link(i) produktowe - sprawdzam
+  + bikestacja.pl: 309.08 EUR = 1336.99 PLN [EAN OK]
   - rosebikes.pl: brak wymaganych slow (left) - pomijam
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
   - velofactory.ch: pomijam (blokada potwierdzona w tym runie)
   - velonova.ee: HTTP 403 (przegladarka tez nie przeszla)
   - lvr-cycles.com: waluta USD poza dozwolonym regionem - pomijam
   - buycycle.com: 389.31 PLN poza widelkami [1000.0..2600.0] - pomijam
-  ~ tradeinn.com: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
+  - tradeinn.com: brak danych o cenie (typy na stronie: faqpage, organization, webpage)
   - lvr-cycles.com: brak wymaganych slow (force) - pomijam
   - bike-discount.de: brak wymaganych slow (left) - pomijam
   + intheknowcycling.com: blokada ominieta headless Chromium
@@ -1193,23 +1191,23 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - lvr-cycles.com: waluta USD poza dozwolonym regionem - pomijam
   + ibksport.eu: 324.85 EUR = 1405.2 PLN [EAN niepotwierdzony]
   - racycles.com: waluta USD poza dozwolonym regionem - pomijam
-  - spokex.com: waluta USD poza dozwolonym regionem - pomijam
+  - spokex.com: niedostepny (outofstock)
   - tweekscycles.com: brak wymaganych slow (left) - pomijam
-  - bikesheduk.com: blad pobierania (ReadTimeout)
-  - bouldernordic.com: waluta USD poza dozwolonym regionem - pomijam
+  - bikesheduk.com: brak wymaganych slow (left) - pomijam
+  - bouldernordic.com: niedostepny (outofstock)
   - performancebike.com: niedostepny (outofstock)
   - 365cycles.com: waluta USD poza dozwolonym regionem - pomijam
   - spokex.com: waluta USD poza dozwolonym regionem - pomijam
   - racycles.com: brak wymaganych slow (force, left) - pomijam
   - seattleelectricbike.net: brak wymaganych slow (left) - pomijam
   - powermetercity.com: pomijam (blokada potwierdzona w tym runie)
-  - treefortbikes.com: waluta USD poza dozwolonym regionem - pomijam
+  - treefortbikes.com: niedostepny (outofstock)
   - tnc-hamburg.com: 821.45 PLN poza widelkami [1000.0..2600.0] - pomijam
   - procycle-parts.de: brak danych o cenie (typy na stronie: brak JSON-LD)
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
   - lordgun.de: pomijam (blokada potwierdzona w tym runie)
-  - suicycle-store.com: niedostepny (outofstock)
+  - suicycle-store.com: blad pobierania (ConnectTimeout)
   - kleinanzeigen.de: brak danych o cenie (typy na stronie: imageobject, website)
   + ttw-offroad.de: 311.6 EUR = 1347.89 PLN [EAN niepotwierdzony]
   - velofactory.ch: pomijam (blokada potwierdzona w tym runie)
@@ -1384,12 +1382,12 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - gambacicli.fr: pomijam (blokada potwierdzona w tym runie)
   - velostation.com: niedostepny (outofstock)
   - jensonusa.com: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - prolocotrade.si: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - prolocotrade.si: brak danych o cenie (typy na stronie: brak JSON-LD)
   - excelsports.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - excelsports.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - starbike.com: HTTP 404
   - starbike.com: HTTP 404
-  - starbike.com: HTTP 404
-  - tradeinn.com: brak danych o cenie (typy na stronie: faqpage, organization, webpage)
 [MONITOR] FORCE-AXS-PRAWA: sprawdzam 211 URL-i
   + bikable.com: 258.99 EUR = 1120.31 PLN [EAN OK]
   - noboundariessport.com: waluta USD poza dozwolonym regionem - pomijam
@@ -1403,14 +1401,14 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - thebikeshop.com: waluta CAD poza dozwolonym regionem - pomijam
   - mikesbikes.com: brak wymaganych slow (right) - pomijam
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
-  - travelingground.com: niedostepny (outofstock)
+  ~ travelingground.com: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
   - seattleelectricbike.net: waluta USD poza dozwolonym regionem - pomijam
   - racycles.com: brak wymaganych slow (force, right) - pomijam
-  - bouldernordic.com: waluta USD poza dozwolonym regionem - pomijam
+  - bouldernordic.com: niedostepny (outofstock)
   ~ excelsports.com: brak ceny, ale znalazlem 2 link(i) produktowe - sprawdzam
   - treefortbikes.com: waluta USD poza dozwolonym regionem - pomijam
   - bikable.com: niedostepny (outofstock)
-  ~ worldwidecyclery.com: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
+  ~ worldwidecyclery.com: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
   - spokex.com: brak wymaganych slow (right) - pomijam
   - mikesbikes.com: brak wymaganych slow (force, right) - pomijam
   - competitivecyclist.com: HTTP 202
@@ -1419,9 +1417,9 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - tnc-hamburg.com: 864.71 PLN poza widelkami [1000.0..2600.0] - pomijam
   - otto.de: HTTP 400
   - bike-discount.de: brak wymaganych slow (right) - pomijam
-  ~ procycle-parts.de: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
+  - procycle-parts.de: brak danych o cenie (typy na stronie: brak JSON-LD)
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
-  - suicycle-store.com: niedostepny (outofstock)
+  - suicycle-store.com: blad pobierania (ConnectTimeout)
   - lordgun.de: pomijam (blokada potwierdzona w tym runie)
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
   - procycle-parts.de: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -1455,9 +1453,9 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - en.wikipedia.org: brak danych o cenie (typy na stronie: article)
   - worldwidecyclery.com: waluta USD poza dozwolonym regionem - pomijam
   - universalcycles.com: brak wymaganych slow (force, right) - pomijam
-  - universalcycles.com: blad pobierania (ConnectionError)
+  - universalcycles.com: brak wymaganych slow (right) - pomijam
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
-  - treefortbikes.com: waluta USD poza dozwolonym regionem - pomijam
+  - treefortbikes.com: niedostepny (outofstock)
   - epic-cycles.com: HTTP 404
   - contenderbicycles.com: brak wymaganych slow (right) - pomijam
   - spokex.com: brak wymaganych slow (right) - pomijam
@@ -1544,7 +1542,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - performancebike.com: brak wymaganych slow (right) - pomijam
   - worldwidecyclery.com: brak danych o cenie (typy na stronie: breadcrumblist, localbusiness, organization)
   - lordgun.com: pomijam (blokada potwierdzona w tym runie)
-  - biketiresdirect.com: brak wymaganych slow (right) - pomijam
+  - biketiresdirect.com: waluta USD poza dozwolonym regionem - pomijam
   - bike-discount.de: brak danych o cenie (typy na stronie: breadcrumblist, onlinestore)
   - lvr-cycles.com: waluta USD poza dozwolonym regionem - pomijam
   - nubuk-bikes.de: brak wymaganych slow (right) - pomijam
@@ -1554,7 +1552,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - bike-mailorder.com: brak wymaganych slow (right) - pomijam
   - centrumrowerowe.pl: brak wymaganych slow (right) - pomijam
   - bikefast.pl: blad pobierania (ConnectTimeout)
-  + bikestacja.pl: 1339.0 PLN = 1339.0 PLN [EAN OK]
+  + bikestacja.pl: 1337.0 PLN = 1337.0 PLN [EAN OK]
   - wertykal.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - velopoint.pl: pomijam (blokada potwierdzona w tym runie)
   - formicki-bike.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -1573,7 +1571,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - francesconibike.com: brak wymaganych slow (force, right) - pomijam
   - cingolanibikeshop.com: brak wymaganych slow (right) - pomijam
   + terra-bike.com: 323.0 EUR = 1397.2 PLN [EAN OK]
-  - materiel-velo.es: 987.64 PLN poza widelkami [1000.0..2600.0] - pomijam
+  - materiel-velo.es: 979.47 PLN poza widelkami [1000.0..2600.0] - pomijam
   - fabreguesbicicletas.com: pomijam (blokada potwierdzona w tym runie)
   - deporvillage.com: pomijam (blokada potwierdzona w tym runie)
   - ciclosfran.com: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -1603,12 +1601,12 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - culturevelo.com: niedostepny (instoreonly)
   - jihercet.com: brak wymaganych slow (right) - pomijam
   - velostation.com: brak wymaganych slow (right) - pomijam
+  - travelingground.com: brak danych o cenie (typy na stronie: breadcrumblist, organization)
+  - travelingground.com: brak danych o cenie (typy na stronie: breadcrumblist, organization)
+  - travelingground.com: brak danych o cenie (typy na stronie: breadcrumblist, organization)
   - excelsports.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - excelsports.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - worldwidecyclery.com: waluta USD poza dozwolonym regionem - pomijam
-  - worldwidecyclery.com: waluta USD poza dozwolonym regionem - pomijam
-  - worldwidecyclery.com: waluta USD poza dozwolonym regionem - pomijam
-  - procycle-parts.de: brak danych o cenie (typy na stronie: brak JSON-LD)
 [MONITOR] X0-CASSETTE: sprawdzam 173 URL-i
   - universalcycles.com: brak wymaganych slow (x0) - pomijam
   - competitivecyclist.com: HTTP 202
@@ -1800,7 +1798,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - universalcycles.com: brak wymaganych slow (transmission) - pomijam
   - maciag-offroad.com: brak wymaganych slow (transmission) - pomijam
   - landrys.com: brak wymaganych slow (transmission) - pomijam
-  - ibksport.com: brak wymaganych slow (transmission) - pomijam
+  - ibksport.com: HTTP 404
   - treefortbikes.com: brak wymaganych slow (transmission) - pomijam
   ~ excelsports.com: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
@@ -2037,7 +2035,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - catena.com: brak danych o cenie (typy na stronie: organization, website)
   - catenagroup.es: brak danych o cenie (typy na stronie: breadcrumblist, organization, webpage, website)
   - catena-x.net: brak danych o cenie (typy na stronie: breadcrumblist, webpage, website)
-  - x.com: brak danych o cenie (typy na stronie: breadcrumblist, profilepage, website)
+  - x.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - en.wikipedia.org: brak danych o cenie (typy na stronie: article)
   - linkedin.com: brak danych o cenie (typy na stronie: discussionforumposting, organization)
   - catenabible.com: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -2189,7 +2187,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - powermetercity.com: pomijam (blokada potwierdzona w tym runie)
   - vitalmtb.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - fanatikbike.com: brak danych o cenie (typy na stronie: breadcrumblist, organization)
-  + bikestacja.pl: 707.0 PLN = 707.0 PLN [EAN OK]
+  + bikestacja.pl: 706.0 PLN = 706.0 PLN [EAN OK]
   - bikestacja.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - kastor-bike.pl: brak wymaganych slow (transmission) - pomijam
   - biketiresdirect.com: niedostepny (backorder)
@@ -2226,7 +2224,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - hocotech.it: HTTP 403 (przegladarka tez nie przeszla)
   - m-trading.it: brak danych o cenie (typy na stronie: brak JSON-LD)
   - eprice.it: HTTP 403 (przegladarka tez nie przeszla)
-  - techre-life.com: HTTP 410
+  - techre-life.com: brak wymaganych slow (gx, transmission, crank) - pomijam
   - kupkolo.cz: brak wymaganych slow (transmission, crank) - pomijam
   - bikero.cz: brak danych o cenie (typy na stronie: breadcrumblist, organization, website)
   - bikestyle.cz: blad pobierania (ConnectionError)
@@ -2245,7 +2243,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - fersay.com: brak danych o cenie (typy na stronie: electronicsstore, organization, website)
   - glassur.es: brak wymaganych slow (gx, transmission, crank) - pomijam
   - fnac.es: pomijam (blokada potwierdzona w tym runie)
-  - eshop.mastermate.nl: brak danych o cenie (typy na stronie: organization, product, website)
+  - eshop.mastermate.nl: blad pobierania (ConnectTimeout)
   - philips-hue.com: brak wymaganych slow (gx, transmission, crank) - pomijam
   - kieskeurig.nl: HTTP 429 (przegladarka tez nie przeszla)
   - new.toppoint.com: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -2650,7 +2648,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - bike-discount.de: brak wymaganych slow (ratchet ln) - pomijam
   - tnc-hamburg.com: niedostepny (backorder)
   - hibike.com: pomijam (blokada potwierdzona w tym runie)
-  - use-elitebikes.com: blad pobierania (ReadTimeout)
+  - use-elitebikes.com: brak danych o cenie (typy na stronie: breadcrumblist, itemlist, organization, webpage)
   + alltricks.de: 64.99 EUR = 281.13 PLN [EAN OK]
   - pro-mstore.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - tradeinn.com: brak danych o cenie (typy na stronie: organization, webpage)
@@ -2677,7 +2675,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
   + koloshop.pl: 260.49 PLN = 260.49 PLN [EAN niepotwierdzony]
   - empik.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - bottico.cz: blad pobierania (ConnectTimeout)
+  - bottico.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
   + koloshop.cz: 2304.0 CZK = 412.65 PLN [EAN niepotwierdzony]
   + spoke.cz: 1510.0 CZK = 270.44 PLN [EAN niepotwierdzony]
   + kupkolo.cz: 2590.0 CZK = 463.87 PLN [EAN niepotwierdzony]
@@ -2832,7 +2830,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - bestbody.it: brak danych o cenie (typy na stronie: collectionpage, organization)
   - digitalbayshop.it: brak danych o cenie (typy na stronie: brak JSON-LD)
   - zinn.bike: brak wymaganych slow (post mount) - pomijam
-  - oebikes.ie: brak wymaganych slow (post mount) - pomijam
+  - oebikes.ie: blad pobierania (ReadTimeout)
   - blyth.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
   - xanlite-store.com: brak wymaganych slow (wolf tooth, flat mount, post mount) - pomijam
   - fnac.com: pomijam (blokada potwierdzona w tym runie)
@@ -2856,7 +2854,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - mybihr.com: HTTP 200 (przegladarka tez nie przeszla)
   - dt-shop.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - carboline.nl: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - eshop.wurth.nl: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - eshop.wurth.nl: HTTP 403 (przegladarka tez nie przeszla)
   - besselink.nl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - elektrobode.nl: brak wymaganych slow (wolf tooth, flat mount, post mount) - pomijam
   - technischeunie.nl: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -2868,7 +2866,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - walmart.com: brak danych o cenie (typy na stronie: webpage)
   - gograva.com: waluta USD poza dozwolonym regionem - pomijam
   - walmart.com: brak danych o cenie (typy na stronie: webpage)
-  - lowes.com: HTTP 403 (przegladarka tez nie przeszla)
+  - lowes.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - click2cart.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - walmart.com: brak danych o cenie (typy na stronie: webpage)
   - pogobikes.pl: brak danych o cenie (typy na stronie: breadcrumblist, http://schema.org/product, onlinestore, product)
@@ -2910,7 +2908,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - westpointcycles.com: brak wymaganych slow (post mount) - pomijam
   - benscycle.com: waluta USD poza dozwolonym regionem - pomijam
   - agapatkowska.pl: HTTP 404
-  - pedaldomain.com: blad pobierania (ConnectTimeout)
+  - pedaldomain.com: brak wymaganych slow (post mount) - pomijam
   - mtbiker.it: brak wymaganych slow (post mount) - pomijam
   - ridewill.it: brak danych o cenie (typy na stronie: brak JSON-LD)
   + koloshop.cz: 1130.0 CZK = 202.38 PLN [EAN OK]
@@ -2930,7 +2928,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   - modernbike.com: waluta USD poza dozwolonym regionem - pomijam
   - performancebike.com: niedostepny (outofstock)
-  - probikesupply.com: waluta USD poza dozwolonym regionem - pomijam
+  - probikesupply.com: HTTP 404
   ~ performancebike.com: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
   - bikestyle.cz: blad pobierania (ConnectionError)
@@ -2962,7 +2960,8 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
   - bikemag.com: HTTP 403 (przegladarka tez nie przeszla)
   - vitalmtb.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - flowmountainbike.com: blokada botow (przegladarka tez nie przeszla)
+  + flowmountainbike.com: blokada ominieta headless Chromium
+  - flowmountainbike.com: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, webpage, website)
   + gambacicli.com: 499.9 EUR = 2162.42 PLN [EAN niepotwierdzony]
   - gambacicli.com: niedostepny (outofstock)
   + evolutionbikes.it: 589.8 EUR = 2551.3 PLN [EAN niepotwierdzony]
@@ -2988,7 +2987,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   + mtbiker.pl: blokada ominieta headless Chromium
   - mtbiker.pl: 2849.0 PLN poza widelkami [900.0..2600.0] - pomijam
   - en.brujulabike.com: brak danych o cenie (typy na stronie: article, breadcrumblist)
-  - flowmountainbike.com: pomijam (blokada potwierdzona w tym runie)
+  - flowmountainbike.com: blokada botow (przegladarka tez nie przeszla)
   - velofactory.ch: pomijam (blokada potwierdzona w tym runie)
   - galaxus.ch: pomijam (blokada potwierdzona w tym runie)
   + kupkolo.cz: 13649.0 CZK = 2444.54 PLN [EAN OK]
@@ -2998,7 +2997,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - flowmountainbike.com: pomijam (blokada potwierdzona w tym runie)
   - galaxus.fr: pomijam (blokada potwierdzona w tym runie)
   - b1keparts.com: brak wymaganych slow (select) - pomijam
-  - alltricks.fr: 3192.37 PLN poza widelkami [900.0..2600.0] - pomijam
+  - alltricks.fr: 3209.67 PLN poza widelkami [900.0..2600.0] - pomijam
   - galaxus.nl: pomijam (blokada potwierdzona w tym runie)
   - esmtb.com: brak danych o cenie (typy na stronie: article, breadcrumblist, imageobject, organization, person, webpage, website)
   - b1keparts.com: waluta CAD poza dozwolonym regionem - pomijam
@@ -3076,7 +3075,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - mtb-mag.com: pomijam (blokada potwierdzona w tym runie)
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
   + alltricks.it: 599.99 EUR = 2595.38 PLN [EAN niepotwierdzony]
-  - clcbike.com: niedostepny (outofstock)
+  + clcbike.com: 449.6 EUR = 1944.83 PLN [EAN niepotwierdzony]
   - all4cycling.com: 2724.76 PLN poza widelkami [900.0..2600.0] - pomijam
   - ridewill.it: brak danych o cenie (typy na stronie: brak JSON-LD)
   - spectrumbike.cz: niedostepny (outofstock)
@@ -3084,7 +3083,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - vidlice.heureka.cz: pomijam (blokada potwierdzona w tym runie)
   - alltricks.fr: brak danych o cenie (typy na stronie: brak JSON-LD)
   - idealo.fr: pomijam (blokada potwierdzona w tym runie)
-  - buycycle.com: blad pobierania (ReadTimeout)
+  - buycycle.com: 2811.71 PLN poza widelkami [900.0..2600.0] - pomijam
   - fiets.nl: HTTP 405
   + mountainbike.nl: blokada ominieta headless Chromium
   - mountainbike.nl: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -3092,7 +3091,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
-  - buycycle.com: blad pobierania (ReadTimeout)
+  - buycycle.com: brak danych o cenie (typy na stronie: organization, website)
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
@@ -3142,7 +3141,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - probikesupply.com: brak wymaganych slow (select+) - pomijam
   - garagegeardirect.com: blad pobierania (ConnectionError)
   - trailhead.rockshox.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  + velotracker.pl: 3084.99 PLN = 3084.99 PLN [EAN niepotwierdzony]
+  + velotracker.pl: 3075.49 PLN = 3075.49 PLN [EAN niepotwierdzony]
   - singletrackworld.com: pomijam (blokada potwierdzona w tym runie)
   - buycycle.com: 1946.57 PLN poza widelkami [2600.0..3600.0] - pomijam
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
@@ -3258,8 +3257,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - esmtb.com: brak danych o cenie (typy na stronie: article, breadcrumblist, imageobject, organization, person, webpage, website)
   - lvr-cycles.com: brak wymaganych slow (select+) - pomijam
   - ridersguide.nl: brak danych o cenie (typy na stronie: article, breadcrumblist, imageobject, organization, person, webpage, website)
-  + mountainbike.nl: blokada ominieta headless Chromium
-  - mountainbike.nl: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - mountainbike.nl: blokada botow (przegladarka tez nie przeszla)
   - all4cycling.com: brak wymaganych slow (select+) - pomijam
   - cannondale-parts.de: 2076.34 PLN poza widelkami [2600.0..3600.0] - pomijam
   - bike24.pl: pomijam (blokada potwierdzona w tym runie)
@@ -3297,7 +3295,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - opravnabicyklu.cz: brak wymaganych slow (ultimate) - pomijam
   - kola-lunak.cz: brak wymaganych slow (ultimate) - pomijam
   + meinhartje.com: 1079.0 EUR = 4667.43 PLN [EAN OK]
-  + alltricks.com: 1038.0 EUR = 4490.08 PLN [EAN OK]
+  + alltricks.com: 1034.0 EUR = 4472.77 PLN [EAN OK]
   - universalcycles.com: waluta USD poza dozwolonym regionem - pomijam
   - backcountry.com: HTTP 202
   - competitivecyclist.com: HTTP 202
@@ -3406,7 +3404,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
   + velondo.nl: blokada ominieta headless Chromium
   - velondo.nl: niedostepny (outofstock)
-  - tormino.nl: HTTP 503 (przegladarka tez nie przeszla)
+  + tormino.nl: 1018.99 EUR = 4407.85 PLN [EAN niepotwierdzony]
   - e-bikes4you.com: HTTP 403 (przegladarka tez nie przeszla)
   - worldofmtb.de: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, webpage, website)
   - jensonusa.com: brak danych o cenie (typy na stronie: product)
@@ -3418,7 +3416,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - rowertour.com: 3349.56 PLN poza widelkami [3600.0..5500.0] - pomijam
   - forumrowerowe.org: brak danych o cenie (typy na stronie: breadcrumblist, discussionforumposting, organization, website)
   - gambacicli.com: 3412.98 PLN poza widelkami [3600.0..5500.0] - pomijam
-  - evolutionbikes.it: HTTP 503 (przegladarka tez nie przeszla)
+  - evolutionbikes.it: niedostepny (outofstock)
   - mtbcult.it: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, newsarticle, organization, person, webpage, website)
   - kupkolo.cz: 3365.29 PLN poza widelkami [3600.0..5500.0] - pomijam
   - cyklozitny.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -3436,13 +3434,12 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - tradeinn.com: brak danych o cenie (typy na stronie: organization, webpage)
   - alltricks.es: brak danych o cenie (typy na stronie: brak JSON-LD)
   - bike24.nl: pomijam (blokada potwierdzona w tym runie)
-  + mountainbike.nl: blokada ominieta headless Chromium
-  - mountainbike.nl: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - mountainbike.nl: pomijam (blokada potwierdzona w tym runie)
   - fiets.nl: HTTP 405
   - singletrackworld.com: pomijam (blokada potwierdzona w tym runie)
   - bikepeddlerutah.com: waluta USD poza dozwolonym regionem - pomijam
   - lordgunbicycles.com: pomijam (blokada potwierdzona w tym runie)
-  - albertoguido.com: HTTP 503 (przegladarka tez nie przeszla)
+  - albertoguido.com: 3023.66 PLN poza widelkami [3600.0..5500.0] - pomijam
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
   - mtbcult.it: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, newsarticle, organization, person, webpage, website)
   - bike-store-treviso.it: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -3455,7 +3452,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - lcebike.com: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, webpage, website)
   - mendistrictwest.nl: brak danych o cenie (typy na stronie: article, organization, webpage, website)
   - gambacicli.com: 3456.23 PLN poza widelkami [3600.0..5500.0] - pomijam
-  - outlet.wheelandsprocket.com: HTTP 500
+  - outlet.wheelandsprocket.com: niedostepny (outofstock)
   - en.brujulabike.com: brak danych o cenie (typy na stronie: article, breadcrumblist)
   - summitbicycles.com: brak wymaganych slow (sid, sl) - pomijam
   - summitbicycles.com: brak wymaganych slow (sl) - pomijam
@@ -3534,7 +3531,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - rotoruabike.com: brak wymaganych slow (power meter) - pomijam
   - urbanobike.es: brak wymaganych slow (xx, sl, power meter) - pomijam
   - ciclosartia.com: HTTP 403 (przegladarka tez nie przeszla)
-  - bikesuperior.com: 13837.91 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - bikesuperior.com: blad pobierania (ConnectionError)
   - leendersfietsen.nl: 5450.38 PLN poza widelkami [1500.0..3200.0] - pomijam
   - 12gobiking.nl: niedostepny (outofstock)
   - stappenbelt.com: 5450.38 PLN poza widelkami [1500.0..3200.0] - pomijam
@@ -3551,7 +3548,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - centrumrowerowe.pl: 384.99 PLN poza widelkami [1500.0..3200.0] - pomijam
   + 2wheels.pl: 2019.0 PLN = 2019.0 PLN [EAN niepotwierdzony]
-  - evolutionbikes.it: pomijam (blokada potwierdzona w tym runie)
+  - evolutionbikes.it: 12976.88 PLN poza widelkami [1500.0..3200.0] - pomijam
   - velofactory.ch: pomijam (blokada potwierdzona w tym runie)
   - fitness-zone.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
   - cyklisticke-prislusenstvi.heureka.cz: pomijam (blokada potwierdzona w tym runie)
@@ -3572,7 +3569,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - ridewill.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - veloabike.pl: brak danych o cenie (typy na stronie: breadcrumblist, http://schema.org/product, onlinestore, product)
   - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - evolutionbikes.it: pomijam (blokada potwierdzona w tym runie)
+  - evolutionbikes.it: 12976.88 PLN poza widelkami [1500.0..3200.0] - pomijam
   - alltricks.it: 9083.93 PLN poza widelkami [1500.0..3200.0] - pomijam
   - bike-discount.de: 8435.07 PLN poza widelkami [1500.0..3200.0] - pomijam
   - lordgunbicycles.com: pomijam (blokada potwierdzona w tym runie)
@@ -3582,7 +3579,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - probikeshop.fr: 10381.25 PLN poza widelkami [1500.0..3200.0] - pomijam
   - cyclescampus.com: brak danych o cenie (typy na stronie: breadcrumblist, product)
   - gambacicli.fr: pomijam (blokada potwierdzona w tym runie)
-  - evolutionbikes.it: pomijam (blokada potwierdzona w tym runie)
+  - evolutionbikes.it: 12976.88 PLN poza widelkami [1500.0..3200.0] - pomijam
   - ridemore.fi: brak danych o cenie (typy na stronie: brak JSON-LD)
   - leendersfietsen.nl: niedostepny (outofstock)
   - twohoosierscyclery.com: waluta USD poza dozwolonym regionem - pomijam
@@ -3592,7 +3589,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - 2wheels.pl: niedostepny (outofstock)
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   - bike-discount.de: 3633.54 PLN poza widelkami [1500.0..3200.0] - pomijam
-  - bikesuperior.com: 13837.91 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - bikesuperior.com: blad pobierania (ConnectionError)
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   - cycling-parts.ch: 9261.06 PLN poza widelkami [1500.0..3200.0] - pomijam
   - actionsports.de: 5125.52 PLN poza widelkami [1500.0..3200.0] - pomijam
@@ -3604,18 +3601,18 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - treefortbikes.com: waluta USD poza dozwolonym regionem - pomijam
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
   - eastcitycycles.com: HTTP 404
-  - evolutionbikes.it: pomijam (blokada potwierdzona w tym runie)
+  - evolutionbikes.it: niedostepny (outofstock)
   - strefasportu.pl: brak danych o cenie (typy na stronie: breadcrumblist, http://schema.org/product, onlinestore, product)
   - centrumrowerowe.pl: brak wymaganych slow (power meter) - pomijam
   - bike24.pl: pomijam (blokada potwierdzona w tym runie)
   - gambacicli.com: 9512.21 PLN poza widelkami [1500.0..3200.0] - pomijam
   - goride.pl: brak danych o cenie (typy na stronie: store)
   - bike24.pl: pomijam (blokada potwierdzona w tym runie)
-  - rowerowaholandia.pl: HTTP 403 (przegladarka tez nie przeszla)
+  - rowerowaholandia.pl: brak wymaganych slow (sl, power meter) - pomijam
   - mammothbikes.com: brak wymaganych slow (power meter) - pomijam
   - synkros.pl: blad pobierania (ConnectTimeout)
   + 2wheels.pl: 2019.0 PLN = 2019.0 PLN [EAN niepotwierdzony]
-  - rowerowaholandia.pl: pomijam (blokada potwierdzona w tym runie)
+  + rowerowaholandia.pl: 1926.99 PLN = 1926.99 PLN [EAN OK]
   - 2peaksbikes.com: waluta USD poza dozwolonym regionem - pomijam
   - 2peaksbikes.com: waluta USD poza dozwolonym regionem - pomijam
   - 2peaksbikes.com: waluta USD poza dozwolonym regionem - pomijam
@@ -3625,7 +3622,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
 [MONITOR] GARBARUK-40T-AERO: sprawdzam 179 URL-i (wariant: 40)
   - maxwarehouse.com: brak wymaganych slow (garbaruk, aero) - pomijam
   - homedepot.com: pomijam (blokada potwierdzona w tym runie)
-  - lowes.com: pomijam (blokada potwierdzona w tym runie)
+  - lowes.com: HTTP 403 (przegladarka tez nie przeszla)
   - lowes.com: pomijam (blokada potwierdzona w tym runie)
   - belk.com: HTTP 403 (przegladarka tez nie przeszla)
   - lowes.com: pomijam (blokada potwierdzona w tym runie)
@@ -3713,15 +3710,15 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - sonepar.fr: brak danych o cenie (typy na stronie: organization)
   - miamland.com: brak danych o cenie (typy na stronie: product)
   - alfadyser.es: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - cincodias.elpais.com: HTTP 403 (przegladarka tez nie przeszla)
+  - cincodias.elpais.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - empresite.eleconomista.es: brak danych o cenie (typy na stronie: webpage)
-  - es.kompass.com: HTTP 403 (przegladarka tez nie przeszla)
+  - es.kompass.com: HTTP 405
   - mastercadena.es: brak wymaganych slow (garbaruk, aero) - pomijam
   - elmaestrodelailuminacion.es: brak wymaganych slow (garbaruk, aero) - pomijam
   - fnac.es: pomijam (blokada potwierdzona w tym runie)
   - worten.es: pomijam (blokada potwierdzona w tym runie)
   - carrefour.es: pomijam (blokada potwierdzona w tym runie)
-  - cincodias.elpais.com: pomijam (blokada potwierdzona w tym runie)
+  - cincodias.elpais.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - bol.com: pomijam (blokada potwierdzona w tym runie)
   - galaxus.nl: pomijam (blokada potwierdzona w tym runie)
   - elektroshop.nl: blad pobierania (SSLError)
@@ -3771,7 +3768,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   - tradeinn.com: brak danych o cenie (typy na stronie: organization, webpage)
   - fabreguesbicicletas.com: pomijam (blokada potwierdzona w tym runie)
-  - mammothbikes.com: niedostepny (outofstock)
+  + mammothbikes.com: 84.99 EUR = 367.64 PLN [wariant 40 dopasowany] [EAN niepotwierdzony]
   - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -3781,7 +3778,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   + kotnik.shop: 114.0 EUR = 493.13 PLN [wariant 40 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   - kleinanzeigen.de: brak danych o cenie (typy na stronie: imageobject, website)
-  - suicycle-store.com: brak wymaganych slow (aero) - pomijam
+  - suicycle-store.com: blad pobierania (ReadTimeout)
   + derbaranski.shop: 66.55 EUR = 287.88 PLN [wariant 40 dopasowany] [EAN niepotwierdzony]
   - bike24.lu: pomijam (blokada potwierdzona w tym runie)
   - tradeinn.com: brak danych o cenie (typy na stronie: faqpage, organization, webpage)
@@ -3824,7 +3821,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - primera-sports.com: waluta GBP poza dozwolonym regionem - pomijam
   - vitalitymedical.com: brak wymaganych slow (discover, aero) - pomijam
   - target.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - belize.desertcart.com: brak wymaganych slow (discover, aero) - pomijam
+  - belize.desertcart.com: HTTP 403 (przegladarka tez nie przeszla)
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   - odpbusiness.com: HTTP 404
   - adplexis.com: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -3847,7 +3844,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - biostern.abstore.pl: niedostepny (outofstock)
   - bike24.pl: pomijam (blokada potwierdzona w tym runie)
   - deporvillage.pl: pomijam (blokada potwierdzona w tym runie)
-  + veloportal.pl: 1334.49 PLN = 1334.49 PLN [wariant 42 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
+  + veloportal.pl: 1330.94 PLN = 1330.94 PLN [wariant 42 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
   - kastor-bike.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - sklepprosport.pl: niedostepny (outofstock)
   + rowertour.com: 1059.5 PLN = 1059.5 PLN [wariant 42 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
@@ -3864,7 +3861,7 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - smartvie.de: brak danych o cenie (typy na stronie: breadcrumblist)
   - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - salon-rowerowy.pl: HTTP 404
-  + ebajk.pl: 1869.0 PLN = 1869.0 PLN [wariant 42 NIEZWERYFIKOWANY - cena zbiorcza] [EAN OK]
+  - ebajk.pl: blad pobierania (ReadTimeout)
   - lovemycar.pl: brak wymaganych slow (discover, aero) - pomijam
   - delabie.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   + bigshopper.pl: 1445.28 PLN = 1445.28 PLN [wariant 42 dopasowany] [EAN OK]
@@ -3973,138 +3970,130 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
   - boerkopcykler.dk: brak danych o cenie (typy na stronie: breadcrumblist, localbusiness, merchantreturnpolicy, onlinestore, organization, shippingdeliverytime, sportinggoodsstore, store, website)
   - boerkopcykler.dk: brak danych o cenie (typy na stronie: brak JSON-LD)
   - boerkopcykler.dk: brak danych o cenie (typy na stronie: brak JSON-LD)
-[MONITOR] FORCE-AXS-LEWA: blind spoty do sprawdzenia przez Google: bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.lu, bike24.pl, bikefast.pl, bikesheduk.com, epic-cycles.com, fabreguesbicicletas.com, gambacicli.fr, idealo.es, idealo.fr, leboncoin.fr, lordgun.com, lordgun.de, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, nencinisport.it, powermetercity.com, prolocotrade.si, r2-bike.com, sanferbike.com, sprint-rowery.pl, starbike.com, vcelisvet.cz, velofactory.ch, velonova.ee, velopoint.pl
-[MONITOR] SID-ULTIMATE: blind spoty do sprawdzenia przez Google: albertoguido.com, asianroofrepairmasters.com, backcountry.com, bike24.at, bike24.com, bike24.de, bike24.fr, bike24.it, bike24.nl, bike24.pl, bikestyle.cz, canadabicycleparts.com, competitivecyclist.com, e-bikes4you.com, evolutionbikes.it, exim-bike.pl, fabreguesbicicletas.com, fiets.nl, flowmountainbike.com, galaxus.fr, gambacicli.fr, heureka.cz, idealo.fr, lordgunbicycles.com, mtb-mag.com, outlet.wheelandsprocket.com, r2-bike.com, singletrackworld.com, tormino.nl, velofactory.ch, vidlice.heureka.cz
-[MONITOR] WOLFTOOTH-ADAPTER: blind spoty do sprawdzenia przez Google: achatmoinscher.com, agapatkowska.pl, bike-eshop.cz, bike24.com, bike24.de, bikeforums.net, britannica.com, cyklisticke-prislusenstvi.heureka.cz, fnac.com, fnac.es, galaxus.ch, galaxus.fr, galaxus.nl, hygi.de, kompass.com, leroymerlin.fr, lowes.com, mybihr.com, pedaldomain.com, proelektro.nl, promitspa.it, r2-bike.com, rat-bikes.com, rat-bikes.eu, scuffwheels.com
-[MONITOR] SID-SELECT-PLUS: blind spoty do sprawdzenia przez Google: bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.it, bike24.pl, bikemag.com, community.mtb-mag.com, competitivecyclist.com, flowmountainbike.com, fsbike.es, galaxus.ch, gambacicli.fr, garagegeardirect.com, heureka.cz, idealo.fr, mtb-mag.com, r2-bike.com, singletrackworld.com, velofactory.ch, vidlice.heureka.cz
-[MONITOR] PRO-DISCOVER-AERO-42: blind spoty do sprawdzenia przez Google: beslist.nl, bike24.at, bike24.com, bike24.de, bike24.it, bike24.nl, bike24.pl, bikefast.pl, carrefour.fr, competitivecyclist.com, cykelkraft.se, deporvillage.at, deporvillage.com, deporvillage.fr, deporvillage.it, deporvillage.net, deporvillage.nl, deporvillage.pl, fabreguesbicicletas.com, fnac.com, idealo.es, kaufland.cz, odpbusiness.com, oscaro.com, r2-bike.com, rennrad-news.de, salon-rowerowy.pl, sprint-rowery.pl, starbike.com, taddeistore.com, vmd-drogerie.cz
-[MONITOR] X0-CHAIN: blind spoty do sprawdzenia przez Google: bicicletasapedales.com, bike24.com, bike24.de, bike24.es, bike24.fi, bike24.it, bike24.pl, competitivecyclist.com, fabreguesbicicletas.com, fnac.com, ibksport.de, idealo.at, idealo.es, idealo.fr, lordgun.com, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, placedeslibraires.fr, powermetercity.com, quantavici.com, r2-bike.com, retezy.heureka.cz, thebikevillage.com, vadebicis.com, velofactory.ch
-[MONITOR] Cane Creek 40 IS41/IS52: blind spoty do sprawdzenia przez Google: bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.lu, bike24.nl, bike24.pl, bretagne-materiaux.fr, carrefour.fr, competitivecyclist.com, decathlon.it, dreamland.be, dstewart.com, fnac.com, fnac.es, galaxus.ch, galaxus.nl, grabagun.com, homedepot.com, hudba.heureka.cz, idealo.es, kaufland.cz, kaufland.pl, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, mtb-mag.com, novicedock.com, pellegrino.it, r2-bike.com, rat-bikes.com, rat-bikes.eu, shop.ilsa-italy.it, slovakbikeparks.sk, supersales.nl, thebetterhealthstore.com, worten.es, zoro.com
-[MONITOR] FORCE-AXS-PRAWA: blind spoty do sprawdzenia przez Google: academiadetopografie.ro, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.pl, bikefast.pl, bretagne-materiaux.fr, competitivecyclist.com, cyklisticke-prislusenstvi.heureka.cz, darfi.net, deporvillage.com, deporvillage.de, epic-cycles.com, fabreguesbicicletas.com, galaxus.de, hygi.de, idealo.es, idealo.fr, lordgun.com, lordgun.de, lordgunbicycles.com, lordgunbicycles.fr, otto.de, papiermacherschule.at, powermetercity.com, r2-bike.com, rat-bikes.com, servi-a.com, universalcycles.com, velofactory.ch, velonova.ee, velonova.lt, velopoint.pl
-[MONITOR] GX-CRANK: blind spoty do sprawdzenia przez Google: autodoc.lu, batna24.com, bike-discount.de, bike24.com, bike24.de, bike24.it, bikestyle.cz, bknliving.nl, bol.com, community.mtb-mag.com, competitivecyclist.com, cyklomania.pl, decathlon.nl, douglas.it, eprice.it, es.kompass.com, fnac.es, galaxus.nl, gambacicli.fr, hocotech.it, idealo.fr, kieskeurig.nl, powermetercity.com, promitspa.it, purebike.fr, r2-bike.com, techly.it, techre-life.com, usedbikes-ob.de, velofactory.ch
-[MONITOR] SUPERLOGIC-ERGOMAX: blind spoty do sprawdzenia przez Google: bike24.at, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.nl, bike24.pl, bks-dachbau.de, deporvillage.com, deporvillage.cz, deporvillage.de, deporvillage.fr, deporvillage.it, deporvillage.net, deporvillage.nl, deporvillage.pl, eventbike.it, galaxus.ch, gambacicli.fr, heureka.cz, idealo.at, idealo.es, idealo.fr, leboncoin.fr, lordgun.com, lordgun.de, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, rat-bikes.com, rat-bikes.eu, rei.com, rennrad-news.de, ridinggravel.com, srovnanicen.cz, troc-velo.com
-[MONITOR] GX-DERAILLEUR: blind spoty do sprawdzenia przez Google: bike-discount.de, bike24.at, bike24.com, bike24.de, bike24.fr, bike24.it, bike24.lu, bike24.nl, bike24.pl, bikefast.pl, canadabicycleparts.com, competitivecyclist.com, deporvillage.pl, ebike-mag.com, emilebicyclettes.com, fiets.nl, fsbike.es, hb61bikes.com, hibike.com, idealo.es, idealo.fr, megabici.com, prehazovacky.heureka.cz, r2-bike.com, rat-bikes.eu, rei.com, sportler.com, velofactory.ch, velonova.lt
-[MONITOR] XX-SL-POWERMETER: blind spoty do sprawdzenia przez Google: achatmoinscher.com, aktywnawyprawa.com, bike24.com, bike24.de, bike24.pl, carrefour.fr, ciclosartia.com, competitivecyclist.com, cyklisticke-prislusenstvi.heureka.cz, eastcitycycles.com, evolutionbikes.it, fnac.com, gambacicli.fr, kompletni-sady.heureka.cz, lordgunbicycles.com, powermetercity.com, r2-bike.com, rei.com, rowerowaholandia.pl, synkros.pl, taddeistore.com, velofactory.ch, velonova.ee, velonova.lt
+[MONITOR] Cane Creek 40 IS41/IS52: blind spoty do sprawdzenia przez Google: bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.lu, bike24.nl, bike24.pl, bretagne-materiaux.fr, carrefour.fr, competitivecyclist.com, decathlon.it, dreamland.be, dstewart.com, fnac.com, fnac.es, galaxus.ch, galaxus.nl, grabagun.com, homedepot.com, hudba.heureka.cz, idealo.es, kaufland.cz, kaufland.pl, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, mount7.com, mtb-mag.com, novicedock.com, pellegrino.it, r2-bike.com, rat-bikes.com, rat-bikes.eu, shop.ilsa-italy.it, slovakbikeparks.sk, supersales.nl, thebetterhealthstore.com, worten.es, zoro.com
+[MONITOR] DT-XD-DRIVER: blind spoty do sprawdzenia przez Google: alberamonti.it, antietamfirearms.com, biciclaje.es, bike24.at, bike24.com, bike24.de, bike24.fr, bike24.it, bike24.pl, camelcamelcamel.com, collinsdictionary.com, cyclexperience.nl, cyklisticke-prislusenstvi.heureka.cz, decathlon.it, ekspertyzy-grafologiczne.eu, elcorteingles.es, fnac.es, haczykowo.pl, hibike.com, idealo.es, kinderchance.com, mtb-mag.com, olx.pl, r2-bike.com, smithsfoodanddrug.com, top-shot.pl, velofactory.ch
+[MONITOR] XX-SL-POWERMETER: blind spoty do sprawdzenia przez Google: achatmoinscher.com, aktywnawyprawa.com, bike24.com, bike24.de, bike24.pl, bikesuperior.com, carrefour.fr, ciclosartia.com, competitivecyclist.com, cyklisticke-prislusenstvi.heureka.cz, eastcitycycles.com, fnac.com, gambacicli.fr, kompletni-sady.heureka.cz, lordgunbicycles.com, powermetercity.com, r2-bike.com, rei.com, synkros.pl, taddeistore.com, velofactory.ch, velonova.ee, velonova.lt
+[MONITOR] GARBARUK-40T-AERO: blind spoty do sprawdzenia przez Google: alugear.com, axevotech.eu, backcountry.com, batacz.cz, belk.com, bike24.at, bike24.be, bike24.com, bike24.de, bike24.lu, bike24.nl, bike24.pl, bol.com, carrefour.es, competitivecyclist.com, elektroshop.nl, es.kompass.com, fabreguesbicicletas.com, fnac.es, fr.kompass.com, galaxus.de, galaxus.fr, galaxus.nl, gowork.pl, homedepot.com, ipublimar.pl, it.kompass.com, kompass.com, kstools.fr, leroymerlin.fr, levelninesports.com, lowes.com, pl.kompass.com, powermetercity.com, r2-bike.com, rappel.conso.gouv.fr, starbike.com, suicycle-store.com, toolsxl.nl, worten.es
+[MONITOR] SID-SELECT-PLUS: blind spoty do sprawdzenia przez Google: bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.it, bike24.pl, bikemag.com, community.mtb-mag.com, competitivecyclist.com, flowmountainbike.com, fsbike.es, galaxus.ch, gambacicli.fr, garagegeardirect.com, heureka.cz, idealo.fr, mountainbike.nl, mtb-mag.com, r2-bike.com, singletrackworld.com, velofactory.ch, vidlice.heureka.cz
+[MONITOR] GX-CRANK: blind spoty do sprawdzenia przez Google: autodoc.lu, batna24.com, bike-discount.de, bike24.com, bike24.de, bike24.it, bikestyle.cz, bknliving.nl, bol.com, community.mtb-mag.com, competitivecyclist.com, cyklomania.pl, decathlon.nl, douglas.it, eprice.it, es.kompass.com, eshop.mastermate.nl, fnac.es, galaxus.nl, gambacicli.fr, hocotech.it, idealo.fr, kieskeurig.nl, powermetercity.com, promitspa.it, purebike.fr, r2-bike.com, techly.it, usedbikes-ob.de, velofactory.ch
+[MONITOR] Ritchey WCS Carbon ErgoMax: blind spoty do sprawdzenia przez Google: 365cycles.com, absolubike.fr, agriper.nl, all4bikes.be, auto-doc.fr, bbb.org, bike24.at, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.nl, bike24.pl, bikeparts.com, carrefour.es, cinevittoria.it, cyklomania.pl, cz.kompass.com, deporvillage.com, deporvillage.cz, deporvillage.de, deporvillage.fr, deporvillage.it, deporvillage.net, deporvillage.nl, deporvillage.pl, eventbike.it, faithchurchonaway.org, fr.kompass.com, galaxus.ch, galaxus.fr, gowork.pl, heide-aronia.de, hotfrog.fr, idealo.es, idealo.fr, it.kompass.com, klub300.cz, kompass.com, landrys.com, leboncoin.fr, nejfirmy.cluster.ofertis.cz, newbicyclehandlede.com, pianowithjonny.com, r2-bike.com, rat-bikes.eu, rei.com, ridinggravel.com, rouesrideparts.com, sport365.cz, tellows.fr, trenerterapeut.cz, velodrome-cycling.com, velofactory.ch, whitepages.com
 [MONITOR] X0-CASSETTE: blind spoty do sprawdzenia przez Google: bike24.be, bike24.com, bike24.es, bike24.fi, bike24.fr, bike24.it, bike24.lu, bike24.nl, bike24.pl, bikefast.pl, competitivecyclist.com, decathlon.it, deporvillage.de, deporvillage.pl, fabreguesbicicletas.com, fiets.nl, gambacicli.fr, idealo.es, idealo.fr, kazety.heureka.cz, kbike.es, kompletni-sady.heureka.cz, lordgun.com, lordgun.de, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, powermetercity.com, probikeshop.de, r2-bike.com, rat-bikes.com, rei.com, retezy.heureka.cz
-[MONITOR] Ritchey WCS Carbon ErgoMax: blind spoty do sprawdzenia przez Google: 365cycles.com, absolubike.fr, agriper.nl, auto-doc.fr, bbb.org, bike24.at, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.nl, bike24.pl, bikeparts.com, carrefour.es, cinevittoria.it, cyklomania.pl, cz.kompass.com, deporvillage.com, deporvillage.cz, deporvillage.de, deporvillage.fr, deporvillage.it, deporvillage.net, deporvillage.nl, deporvillage.pl, eventbike.it, faithchurchonaway.org, fr.kompass.com, galaxus.ch, galaxus.fr, gowork.pl, heide-aronia.de, idealo.es, idealo.fr, it.kompass.com, klub300.cz, kompass.com, landrys.com, leboncoin.fr, nejfirmy.cluster.ofertis.cz, newbicyclehandlede.com, pianowithjonny.com, r2-bike.com, rat-bikes.eu, rei.com, ridinggravel.com, rouesrideparts.com, sport365.cz, tellows.fr, trenerterapeut.cz, velodrome-cycling.com, velofactory.ch, whitepages.com
+[MONITOR] WOLFTOOTH-ADAPTER: blind spoty do sprawdzenia przez Google: achatmoinscher.com, agapatkowska.pl, bike-eshop.cz, bike24.com, bike24.de, bikeforums.net, britannica.com, cyklisticke-prislusenstvi.heureka.cz, eshop.wurth.nl, fnac.com, fnac.es, galaxus.ch, galaxus.fr, galaxus.nl, hygi.de, kompass.com, leroymerlin.fr, mybihr.com, oebikes.ie, proelektro.nl, promitspa.it, r2-bike.com, rat-bikes.com, rat-bikes.eu, scuffwheels.com
 [MONITOR] DUB-WIDE-PF92: blind spoty do sprawdzenia przez Google: allbike.com.pt, biciclaje.es, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.lu, bike24.nl, bike24.pl, bol.com, canadabicycleparts.com, community.mtb-mag.com, competitivecyclist.com, deporvillage.it, deporvillage.pt, fabreguesbicicletas.com, ibkbike.fr, ibksport.com, ibksport.fr, ltmracing.com, mrozbike.pl, nencinisport.it, powermetercity.com, r2-bike.com, rat-bikes.eu, rennrad-news.de, shop.free-bike.net, stredove-osy-a-slozeni.heureka.cz, thebikevillage.com
-[MONITOR] GARBARUK-40T-AERO: blind spoty do sprawdzenia przez Google: alugear.com, axevotech.eu, backcountry.com, batacz.cz, belk.com, bike24.at, bike24.be, bike24.com, bike24.de, bike24.lu, bike24.nl, bike24.pl, bol.com, carrefour.es, cincodias.elpais.com, competitivecyclist.com, elektroshop.nl, es.kompass.com, fabreguesbicicletas.com, fnac.es, fr.kompass.com, galaxus.de, galaxus.fr, galaxus.nl, gowork.pl, homedepot.com, ipublimar.pl, it.kompass.com, kompass.com, kstools.fr, leroymerlin.fr, levelninesports.com, lowes.com, pl.kompass.com, powermetercity.com, r2-bike.com, rappel.conso.gouv.fr, starbike.com, toolsxl.nl, worten.es
-[MONITOR] SID-SELECT: blind spoty do sprawdzenia przez Google: backcountry.com, bike24.at, bike24.com, bike24.de, bike24.it, bike24.nl, bike24.pl, bikemag.com, bikestyle.cz, buycycle.com, community.mtb-mag.com, competitivecyclist.com, fiets.nl, flowmountainbike.com, galaxus.ch, galaxus.fr, galaxus.nl, gambacicli.fr, garagegeardirect.com, idealo.fr, mtb-mag.com, r2-bike.com, ridebikestore.de, ridepro.eu, starbike.com, velofactory.ch, vidlice.heureka.cz
-[MONITOR] DT-XD-DRIVER: blind spoty do sprawdzenia przez Google: alberamonti.it, antietamfirearms.com, biciclaje.es, bike24.at, bike24.com, bike24.de, bike24.fr, bike24.it, bike24.pl, bottico.cz, camelcamelcamel.com, collinsdictionary.com, cyclexperience.nl, cyklisticke-prislusenstvi.heureka.cz, decathlon.it, ekspertyzy-grafologiczne.eu, elcorteingles.es, fnac.es, haczykowo.pl, hibike.com, idealo.es, kinderchance.com, mtb-mag.com, olx.pl, r2-bike.com, smithsfoodanddrug.com, top-shot.pl, use-elitebikes.com, velofactory.ch
-[MONITOR] IBS-V1X: blind spoty do sprawdzenia przez Google: bikeforums.net, bowhunterssupplystore.com, dickssportinggoods.com, infinitypipesystem.com, lostgolfballs.com, precise-performance.co.uk, racearoundpoland.pl, titleist.com, titleist.eu, tractorsupply.com
-[MONITOR] Canyon S15 VCLS 2.0: blind spoty do sprawdzenia przez Google: fiets.nl, olx.pl, rennrad-news.de, ricardo.ch, velonova.lt
+[MONITOR] FORCE-AXS-LEWA: blind spoty do sprawdzenia przez Google: bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.lu, bike24.pl, bikefast.pl, epic-cycles.com, fabreguesbicicletas.com, gambacicli.fr, idealo.es, idealo.fr, leboncoin.fr, lordgun.com, lordgun.de, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, nencinisport.it, powermetercity.com, r2-bike.com, sanferbike.com, sprint-rowery.pl, starbike.com, suicycle-store.com, vcelisvet.cz, velofactory.ch, velonova.ee, velopoint.pl
+[MONITOR] SID-ULTIMATE: blind spoty do sprawdzenia przez Google: asianroofrepairmasters.com, backcountry.com, bike24.at, bike24.com, bike24.de, bike24.fr, bike24.it, bike24.nl, bike24.pl, bikestyle.cz, canadabicycleparts.com, competitivecyclist.com, e-bikes4you.com, exim-bike.pl, fabreguesbicicletas.com, fiets.nl, flowmountainbike.com, galaxus.fr, gambacicli.fr, heureka.cz, idealo.fr, lordgunbicycles.com, mountainbike.nl, mtb-mag.com, r2-bike.com, singletrackworld.com, velofactory.ch, vidlice.heureka.cz
+[MONITOR] Canyon S15 VCLS 2.0: blind spoty do sprawdzenia przez Google: fiets.nl, handsonbike.blogspot.com, olx.pl, rennrad-news.de, ricardo.ch, velonova.lt
+[MONITOR] SUPERLOGIC-ERGOMAX: blind spoty do sprawdzenia przez Google: bike24.at, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.nl, bike24.pl, bks-dachbau.de, deporvillage.com, deporvillage.cz, deporvillage.de, deporvillage.fr, deporvillage.it, deporvillage.net, deporvillage.nl, deporvillage.pl, eventbike.it, galaxus.ch, gambacicli.fr, heureka.cz, idealo.at, idealo.es, idealo.fr, leboncoin.fr, lordgun.com, lordgun.de, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, rat-bikes.com, rat-bikes.eu, rei.com, rennrad-news.de, ridinggravel.com, srovnanicen.cz, troc-velo.com
+[MONITOR] GX-DERAILLEUR: blind spoty do sprawdzenia przez Google: bike-discount.de, bike24.at, bike24.com, bike24.de, bike24.fr, bike24.it, bike24.lu, bike24.nl, bike24.pl, bikefast.pl, canadabicycleparts.com, competitivecyclist.com, deporvillage.pl, ebike-mag.com, emilebicyclettes.com, fiets.nl, fsbike.es, hb61bikes.com, hibike.com, ibksport.com, idealo.es, idealo.fr, megabici.com, prehazovacky.heureka.cz, r2-bike.com, rat-bikes.eu, rei.com, sportler.com, velofactory.ch, velonova.lt
+[MONITOR] PRO-DISCOVER-AERO-42: blind spoty do sprawdzenia przez Google: belize.desertcart.com, beslist.nl, bike24.at, bike24.com, bike24.de, bike24.it, bike24.nl, bike24.pl, bikefast.pl, carrefour.fr, competitivecyclist.com, cykelkraft.se, deporvillage.at, deporvillage.com, deporvillage.fr, deporvillage.it, deporvillage.net, deporvillage.nl, deporvillage.pl, ebajk.pl, fabreguesbicicletas.com, fnac.com, idealo.es, kaufland.cz, odpbusiness.com, oscaro.com, r2-bike.com, rennrad-news.de, salon-rowerowy.pl, sprint-rowery.pl, starbike.com, taddeistore.com, vmd-drogerie.cz
+[MONITOR] FORCE-AXS-PRAWA: blind spoty do sprawdzenia przez Google: academiadetopografie.ro, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.pl, bikefast.pl, bretagne-materiaux.fr, competitivecyclist.com, cyklisticke-prislusenstvi.heureka.cz, darfi.net, deporvillage.com, deporvillage.de, epic-cycles.com, fabreguesbicicletas.com, galaxus.de, hygi.de, idealo.es, idealo.fr, lordgun.com, lordgun.de, lordgunbicycles.com, lordgunbicycles.fr, otto.de, papiermacherschule.at, powermetercity.com, r2-bike.com, rat-bikes.com, servi-a.com, suicycle-store.com, velofactory.ch, velonova.ee, velonova.lt, velopoint.pl
+[MONITOR] X0-CHAIN: blind spoty do sprawdzenia przez Google: bicicletasapedales.com, bike24.com, bike24.de, bike24.es, bike24.fi, bike24.it, bike24.pl, competitivecyclist.com, fabreguesbicicletas.com, fnac.com, ibksport.de, idealo.at, idealo.es, idealo.fr, lordgun.com, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, placedeslibraires.fr, powermetercity.com, quantavici.com, r2-bike.com, retezy.heureka.cz, thebikevillage.com, vadebicis.com, velofactory.ch
+[MONITOR] IBS-V1X: blind spoty do sprawdzenia przez Google: bikeforums.net, bowhunterssupplystore.com, dickssportinggoods.com, infinitypipesystem.com, lostgolfballs.com, precise-performance.co.uk, projectcece.com, racearoundpoland.pl, titleist.com, titleist.eu, tractorsupply.com
+[MONITOR] SID-SELECT: blind spoty do sprawdzenia przez Google: backcountry.com, bike24.at, bike24.com, bike24.de, bike24.it, bike24.nl, bike24.pl, bikemag.com, bikestyle.cz, community.mtb-mag.com, competitivecyclist.com, fiets.nl, flowmountainbike.com, galaxus.ch, galaxus.fr, galaxus.nl, gambacicli.fr, garagegeardirect.com, idealo.fr, mtb-mag.com, probikesupply.com, r2-bike.com, ridebikestore.de, ridepro.eu, starbike.com, velofactory.ch, vidlice.heureka.cz
 [SHOPPING] SerpAPI na wyczerpaniu (pozostalo 0, rezerwa 10) - pomijam ten silnik
-[SHOPPING] Canyon S15 VCLS 2.0: pomijam kraje cz, it, ch, lt, at (limit 3/produkt/run)
-[SHOPPING] Canyon S15 VCLS 2.0 (gl=de, serper, fraza 1, str. 1): 17 ofert w feedzie, szukam: bike-magazin.de, cyclingclaude.de, forumrowerowe.org, gravelunion.cc, handsonbike.blogspot.com, kleinanzeigen.de, mtbiker.de, rennrad-news.de, road.cc, testbericht.de, testberichte.de, weightweenies.starbike.com
-[SHOPPING] Canyon S15 VCLS 2.0 (gl=de, serper, fraza 2, str. 1): 40 ofert w feedzie, szukam: bike-magazin.de, cyclingclaude.de, forumrowerowe.org, gravelunion.cc, handsonbike.blogspot.com, kleinanzeigen.de, mtbiker.de, rennrad-news.de, road.cc, testbericht.de, testberichte.de, weightweenies.starbike.com
-[SHOPPING] Canyon S15 VCLS 2.0 (gl=de, serper, fraza 2, str. 2): 0 ofert w feedzie, szukam: bike-magazin.de, cyclingclaude.de, forumrowerowe.org, gravelunion.cc, handsonbike.blogspot.com, kleinanzeigen.de, mtbiker.de, rennrad-news.de, road.cc, testbericht.de, testberichte.de, weightweenies.starbike.com
-[SHOPPING] Canyon S15 VCLS 2.0 (gl=pl, serper, fraza 1, str. 1): 11 ofert w feedzie, szukam: easypath.pl, olx.pl
-[SHOPPING] Canyon S15 VCLS 2.0 (gl=pl, serper, fraza 2, str. 1): 22 ofert w feedzie, szukam: easypath.pl, olx.pl
-[SHOPPING] Canyon S15 VCLS 2.0 (gl=nl, serper, fraza 1, str. 1): 12 ofert w feedzie, szukam: fiets.nl
-[SHOPPING] Canyon S15 VCLS 2.0 (gl=nl, serper, fraza 2, str. 1): 26 ofert w feedzie, szukam: fiets.nl
 [SHOPPING] Ritchey WCS Carbon ErgoMax: pomijam kraje pl, it, es, nl, be, ch, at (limit 3/produkt/run)
-[SHOPPING] Ritchey WCS Carbon ErgoMax (gl=de, serper, fraza 1, str. 1): 26 ofert w feedzie, szukam: 365cycles.com, adrenalinebikes.com, advntr.cc, amgcyclery.com, attitudesports.com, bbb.org, benscycle.com, bertsbikes.com, bicimarket.com, bicyclewarehouse.com, bike-components.de, bike-discount.de (+104)
+[SHOPPING] Ritchey WCS Carbon ErgoMax (gl=de, serper, fraza 1, str. 1): 24 ofert w feedzie, szukam: 365cycles.com, adrenalinebikes.com, advntr.cc, amgcyclery.com, attitudesports.com, bbb.org, benscycle.com, bertsbikes.com, bicimarket.com, bicyclewarehouse.com, bike-components.de, bike-discount.de (+104)
   - bike-discount.de: brak wymaganych slow ('Ritchey ErgoMax WCS Handlebar')
   - ridewill.com: brak wymaganych slow ('Ritchey WCS Evomax Handlebar 2019')
-  - rosebikes.com: brak wymaganych slow ('Ritchey RL1 Venturemax Handlebar')
-  - rosebikes.com: brak wymaganych slow ('Ritchey Comp Venturemax V2 Handlebar')
-  - rat-bikes.eu: brak wymaganych slow ('Ritchey WCS Logic II Handlebar')
-  - bike-discount.de: brak wymaganych slow ('Ritchey WCS Trail Flat Handlebar')
-  - velodrome-cycling.com: brak wymaganych slow ('Ritchey WCS Evo Curve Di2 Handlebar')
-  - velodrome-cycling.com: brak wymaganych slow ('Ritchey Superlogic Evo Curve Handlebar')
-[SHOPPING] Ritchey WCS Carbon ErgoMax (gl=de, serper, fraza 2, str. 1): 39 ofert w feedzie, szukam: 365cycles.com, adrenalinebikes.com, advntr.cc, amgcyclery.com, attitudesports.com, bbb.org, benscycle.com, bertsbikes.com, bicimarket.com, bicyclewarehouse.com, bike-components.de, bike-discount.de (+104)
-  - bike-discount.de: brak wymaganych slow ('Ritchey ErgoMax WCS Handlebar')
-  - bike-discount.de: 346.01 PLN poza widelkami - pomijam
-  - ridewill.com: brak wymaganych slow ('Ritchey WCS Evomax Handlebar 2019')
-  - bike24.de: brak wymaganych slow ('Ritchey Superlogic Venturemax Handlebar')
-  - r2-bike.com: brak wymaganych slow ('Ritchey Superlogic Streem Handlebar')
-  - bike-discount.de: tytul nie pasuje do produktu ('Ritchey WCS Venturemax')
-  - bike24.de: brak wymaganych slow ('Ritchey Comp Venturemax Handlebar')
-  - bike-discount.de: brak wymaganych slow ('Ritchey WCS Streem Blatte Handlebar')
-  - r2-bike.com: tytul nie pasuje do produktu ('Ritchey WCS Beacon Blatte')
-  - rosebikes.com: brak wymaganych slow ('Ritchey RL1 Venturemax Handlebar')
-  - velodrome-cycling.com: brak wymaganych slow ('Ritchey WCS Evo Curve Di2 Handlebar')
-  - bike24.de: brak wymaganych slow ('Ritchey Evo Curve Superlogic Handlebar Matte')
+  - bike-components.de: brak wymaganych slow ('Ritchey WCS Rizer Handlebar 31.8')
   - sportsandmoreshop.de: brak wymaganych slow ('Ritchey WCS Logic II Handlebar')
-  - bike-discount.de: brak wymaganych slow ('Ritchey WCS Flat MTB Handlebar')
+  - rosebikes.de: brak wymaganych slow ('Ritchey Comp Venturemax V2 Handlebar')
   - velodrome-cycling.com: brak wymaganych slow ('Ritchey Superlogic Evo Curve Handlebar')
+[SHOPPING] Ritchey WCS Carbon ErgoMax (gl=de, serper, fraza 2, str. 1): 34 ofert w feedzie, szukam: 365cycles.com, adrenalinebikes.com, advntr.cc, amgcyclery.com, attitudesports.com, bbb.org, benscycle.com, bertsbikes.com, bicimarket.com, bicyclewarehouse.com, bike-components.de, bike-discount.de (+104)
+  - rosebikes.de: brak wymaganych slow ('Ritchey ErgoMax WCS Handlebar')
+  - bike-discount.de: 346.01 PLN poza widelkami - pomijam
+  - bike24.de: brak wymaganych slow ('Ritchey Superlogic Streem Handlebar')
+  - bike24.de: brak wymaganych slow ('Ritchey Superlogic Venturemax Handlebar')
+  - bike-discount.de: tytul nie pasuje do produktu ('Ritchey WCS Venturemax')
+  - ridewill.com: brak wymaganych slow ('Ritchey WCS Evomax Handlebar 2019')
   - bike24.de: brak wymaganych slow ('Ritchey WCS Skyline Handlebar')
-  - rosebikes.com: brak wymaganych slow ('Ritchey Rl1 Baquiano Handlebar')
-  - bike-discount.de: tytul nie pasuje do produktu ('Ritchey Classic Venturemax HP Silver')
-  - r2-bike.com: brak wymaganych slow ('Ritchey WCS Rizer Handlebar 31.8')
-  - bike-discount.de: brak wymaganych slow ('Ritchey WCS Trail Flat Handlebar')
-  - rosebikes.com: brak wymaganych slow ('Ritchey Comp Venturemax V2 Handlebar')
-[SHOPPING] Ritchey WCS Carbon ErgoMax (gl=de, serper, fraza 2, str. 2): 0 ofert w feedzie, szukam: 365cycles.com, adrenalinebikes.com, advntr.cc, amgcyclery.com, attitudesports.com, bbb.org, benscycle.com, bertsbikes.com, bicimarket.com, bicyclewarehouse.com, bike-components.de, bike-discount.de (+104)
+  - bike-discount.de: brak wymaganych slow ('Ritchey WCS Streem Blatte Handlebar')
+  - rosebikes.de: brak wymaganych slow ('Ritchey RL1 Venturemax Handlebar')
+  - bike24.de: brak wymaganych slow ('Ritchey Comp Venturemax Handlebar')
+  - bike-discount.de: tytul nie pasuje do produktu ('Ritchey WCS Beacon Blatte')
+  - bike24.de: brak wymaganych slow ('Ritchey Evo Curve Superlogic Handlebar Matte')
+  - velodrome-cycling.com: brak wymaganych slow ('Ritchey Superlogic Evo Curve Handlebar')
+  - bike-discount.de: brak wymaganych slow ('Ritchey Comp Venturemax XL Handlebar')
+  - velodrome-cycling.com: brak wymaganych slow ('Ritchey WCS Evo Curve Di2 Handlebar')
+  - deporvillage.de: brak wymaganych slow ('Ritchey WCS Trail Flat Handlebar')
+  - sportsandmoreshop.de: brak wymaganych slow ('Ritchey WCS Flat MTB Handlebar')
   + rat-bikes.eu: 279.0 EUR = 1206.87 PLN [Google Shopping] [wariant 42 NIEZWERYFIKOWANY - tytul feedu]
   + deporvillage.de: 278.95 EUR = 1206.65 PLN [Google Shopping] [wariant 42 NIEZWERYFIKOWANY - tytul feedu]
-[SHOPPING] Ritchey WCS Carbon ErgoMax (gl=cz, serper, fraza 1, str. 1): 18 ofert w feedzie, szukam: bike-forum.cz, bikeporn.cz, chytryrejstrik.cz, deporvillage.cz, firmy.cz, katalog-vysocina.cz, klub300.cz, kupkolo.cz, liberec-katalog.cz, mojekolo.cz, nejfirmy.cluster.ofertis.cz, nejstav.cz (+5)
+[SHOPPING] Ritchey WCS Carbon ErgoMax (gl=cz, serper, fraza 1, str. 1): 17 ofert w feedzie, szukam: bike-forum.cz, bikeporn.cz, chytryrejstrik.cz, deporvillage.cz, firmy.cz, katalog-vysocina.cz, klub300.cz, kupkolo.cz, liberec-katalog.cz, mojekolo.cz, nejfirmy.cluster.ofertis.cz, nejstav.cz (+5)
 [SHOPPING] Ritchey WCS Carbon ErgoMax (gl=cz, serper, fraza 2, str. 1): 9 ofert w feedzie, szukam: bike-forum.cz, bikeporn.cz, chytryrejstrik.cz, deporvillage.cz, firmy.cz, katalog-vysocina.cz, klub300.cz, kupkolo.cz, liberec-katalog.cz, mojekolo.cz, nejfirmy.cluster.ofertis.cz, nejstav.cz (+5)
-[SHOPPING] Ritchey WCS Carbon ErgoMax (gl=fr, serper, fraza 1, str. 1): 31 ofert w feedzie, szukam: 1bike.fr, absolubike.fr, alltricks.fr, auto-doc.fr, bike24.fr, deporvillage.fr, galaxus.fr, gyro.fr, hotfrog.fr, idealo.fr, leboncoin.fr, numeroinconnu.fr (+4)
-  - bike24.fr: brak wymaganych slow ('Superlogic ErgoMax Handlebar')
-[SHOPPING] Ritchey WCS Carbon ErgoMax (gl=fr, serper, fraza 2, str. 1): 22 ofert w feedzie, szukam: 1bike.fr, absolubike.fr, alltricks.fr, auto-doc.fr, bike24.fr, deporvillage.fr, galaxus.fr, gyro.fr, hotfrog.fr, idealo.fr, leboncoin.fr, numeroinconnu.fr (+4)
+[SHOPPING] Ritchey WCS Carbon ErgoMax (gl=fr, serper, fraza 1, str. 1): 30 ofert w feedzie, szukam: 1bike.fr, absolubike.fr, alltricks.fr, auto-doc.fr, bike24.fr, deporvillage.fr, galaxus.fr, gyro.fr, hotfrog.fr, idealo.fr, leboncoin.fr, numeroinconnu.fr (+4)
+  - deporvillage.fr: brak wymaganych slow ('Ritchey WCS ErgoMax Handlebar')
   - bike24.fr: brak wymaganych slow ('Ritchey Comp ErgoMax Handlebar')
+[SHOPPING] Ritchey WCS Carbon ErgoMax (gl=fr, serper, fraza 2, str. 1): 19 ofert w feedzie, szukam: 1bike.fr, absolubike.fr, alltricks.fr, auto-doc.fr, bike24.fr, deporvillage.fr, galaxus.fr, gyro.fr, hotfrog.fr, idealo.fr, leboncoin.fr, numeroinconnu.fr (+4)
   + gyro.fr: 319.2 EUR = 1380.76 PLN [Google Shopping] [wariant 42 NIEZWERYFIKOWANY - tytul feedu]
 [SHOPPING] SUPERLOGIC-ERGOMAX: pomijam kraje cz, pl, es, at, nl, ch, be (limit 3/produkt/run)
-[SHOPPING] SUPERLOGIC-ERGOMAX (gl=de, serper, fraza 1, str. 1): 38 ofert w feedzie, szukam: 2riversbicycle.com, 365cycles.com, adrenalinebikes.com, advntr.cc, amgcyclery.com, athleticfeat.com, belmontbikes.com, benscycle.com, bike-components.de, bike-discount.de, bike24.com, bike24.de (+69)
+[SHOPPING] SUPERLOGIC-ERGOMAX (gl=de, serper, fraza 1, str. 1): 40 ofert w feedzie, szukam: 2riversbicycle.com, 365cycles.com, adrenalinebikes.com, advntr.cc, amgcyclery.com, athleticfeat.com, belmontbikes.com, benscycle.com, bike-components.de, bike-discount.de, bike24.com, bike24.de (+69)
   - bike-discount.de: brak wymaganych slow ('Ritchey ErgoMax WCS Handlebar')
-  - bike-discount.de: brak wymaganych slow ('Ritchey WCS Streem Blatte Handlebar')
   - lordgun.de: brak wymaganych slow ('Ritchey Comp Venturemax V2 Handlebar')
-  - bike-discount.de: tytul nie pasuje do produktu ('Ritchey WCS VentureMax XL')
-  - biker-boarder.de: tytul nie pasuje do produktu ('Ritchey WCS Beacon Blatte')
+  - bike-discount.de: brak wymaganych slow ('Ritchey WCS Streem Blatte Handlebar')
+  - bike24.de: tytul nie pasuje do produktu ('Ritchey WCS VentureMax XL')
+  - bike-discount.de: tytul nie pasuje do produktu ('Ritchey Comp Beacon')
   - deporvillage.de: brak wymaganych slow ('Ritchey Rl1 Baquiano Handlebar')
   - bike-discount.de: brak wymaganych slow ('Ritchey Comp Streem Handlebar')
-  - rosebikes.com: tytul nie pasuje do produktu ('Ergotec Ergo 30 mm 16o Grip 190 mm Handlebar Black 25.4 mm /')
-  - buycycle.com: 648.86 PLN poza widelkami - pomijam
-  - rosebikes.com: tytul nie pasuje do produktu ('Ergotec AHS Premium Handlebar Ø31.8mm')
+  - rosebikes.de: tytul nie pasuje do produktu ('Ergotec AHS Premium Handlebar Ø31.8mm')
   - rat-bikes.eu: tytul nie pasuje do produktu ('Ergotec AHS Superlight handlebar')
-  - rosebikes.com: tytul nie pasuje do produktu ('ergotec Rizer Bar Lenker schw./glänzend')
+  - rosebikes.de: tytul nie pasuje do produktu ('ergotec Rizer Bar Lenker schw./glänzend')
+  - buycycle.com: 648.86 PLN poza widelkami - pomijam
   - rat-bikes.eu: tytul nie pasuje do produktu ('Ergotec AHS Superlight Handlebar')
 [SHOPPING] SUPERLOGIC-ERGOMAX (gl=de, serper, fraza 1, str. 2): 0 ofert w feedzie, szukam: 2riversbicycle.com, 365cycles.com, adrenalinebikes.com, advntr.cc, amgcyclery.com, athleticfeat.com, belmontbikes.com, benscycle.com, bike-components.de, bike-discount.de, bike24.com, bike24.de (+69)
 [SHOPPING] SUPERLOGIC-ERGOMAX (gl=de, serper, fraza 2, str. 1): 38 ofert w feedzie, szukam: 2riversbicycle.com, 365cycles.com, adrenalinebikes.com, advntr.cc, amgcyclery.com, athleticfeat.com, belmontbikes.com, benscycle.com, bike-components.de, bike-discount.de, bike24.com, bike24.de (+69)
   - bike-discount.de: 346.01 PLN poza widelkami - pomijam
+  - bike-discount.de: brak wymaganych slow ('Ritchey WCS Carbon Flat 2X Handlebar 31.8')
+  - buycycle.com: 519.08 PLN poza widelkami - pomijam
   - bike-discount.de: tytul nie pasuje do produktu ('Ritchey WCS Venturemax')
   - bike24.de: brak wymaganych slow ('Ritchey WCS Skyline Handlebar')
   - lordgun.de: brak wymaganych slow ('Ritchey RL1 Venturemax Handlebar')
-  - lordgun.de: tytul nie pasuje do produktu ('Ritchey Comp Venturemax V2')
-  - bike-discount.de: brak wymaganych slow ('Ritchey Comp Streem Handlebar')
+  - bike-discount.de: brak wymaganych slow ('Ritchey Comp Venturemax XL Handlebar')
   - lordgun.de: brak wymaganych slow ('Ritchey Comp Venturemax V2 Handlebar')
-  - biker-boarder.de: tytul nie pasuje do produktu ('Ritchey WCS Beacon Blatte')
-  - buycycle.com: brak wymaganych slow ('Ritchey Ergomax Carbon Road/Gravel Handlebar 40/46cm 2025')
-  - buycycle.com: 519.08 PLN poza widelkami - pomijam
   + lordgun.de: 263.35 EUR = 1139.17 PLN [Google Shopping] [wariant 42 NIEZWERYFIKOWANY - tytul feedu]
   + bike24.de: 244.99 EUR = 1059.75 PLN [Google Shopping] [wariant 42 NIEZWERYFIKOWANY - tytul feedu]
-  + biker-boarder.de: 278.9 EUR = 1206.44 PLN [Google Shopping] [wariant 42 NIEZWERYFIKOWANY - tytul feedu]
-[SHOPPING] SUPERLOGIC-ERGOMAX (gl=fr, serper, fraza 1, str. 1): 37 ofert w feedzie, szukam: alltricks.fr, bike24.fr, deporvillage.fr, gambacicli.fr, idealo.fr, leboncoin.fr, lordgunbicycles.fr, probikeshop.fr, rosebikes.fr
-  - leboncoin.fr: 648.86 PLN poza widelkami - pomijam
-  - bike24.fr: brak wymaganych slow ('Ritchey WCS ErgoMax Handlebar')
-  - deporvillage.fr: brak wymaganych slow ('Ritchey Comp ErgoMax Handlebar')
+[SHOPPING] SUPERLOGIC-ERGOMAX (gl=fr, serper, fraza 1, str. 1): 0 ofert w feedzie, szukam: alltricks.fr, bike24.fr, deporvillage.fr, gambacicli.fr, idealo.fr, leboncoin.fr, lordgunbicycles.fr, probikeshop.fr, rosebikes.fr
+[SHOPPING] SUPERLOGIC-ERGOMAX (gl=fr, serper, fraza 2, str. 1): 19 ofert w feedzie, szukam: alltricks.fr, bike24.fr, deporvillage.fr, gambacicli.fr, idealo.fr, leboncoin.fr, lordgunbicycles.fr, probikeshop.fr, rosebikes.fr
+  - bike24.fr: brak wymaganych slow ('Ritchey Comp ErgoMax Handlebar')
+  - alltricks.fr: brak wymaganych slow ('Ritchey WCS ErgoMax Handlebar')
+[SHOPPING] SUPERLOGIC-ERGOMAX (gl=it, serper, fraza 1, str. 1): 39 ofert w feedzie, szukam: alltricks.it, bike-store-treviso.it, bike24.it, deporvillage.it, eventbike.it, troianocicli.it
+  - alltricks.it: brak wymaganych slow ('Ritchey Comp ErgoMax Handlebar')
+[SHOPPING] SUPERLOGIC-ERGOMAX (gl=it, serper, fraza 1, str. 2): 0 ofert w feedzie, szukam: alltricks.it, bike-store-treviso.it, bike24.it, deporvillage.it, eventbike.it, troianocicli.it
+[SHOPPING] SUPERLOGIC-ERGOMAX (gl=it, serper, fraza 2, str. 1): 16 ofert w feedzie, szukam: alltricks.it, bike-store-treviso.it, bike24.it, deporvillage.it, eventbike.it, troianocicli.it
+  - bike-store-treviso.it: brak wymaganych slow ('Handlebar Ritchey WCS Carbon ErgoMax')
+  + bike24.it: 290.12 EUR = 1254.97 PLN [Google Shopping] [wariant 42 NIEZWERYFIKOWANY - tytul feedu]
+[SHOPPING] IBS-V1X (gl=us, serper, fraza 1, str. 1): 40 ofert w feedzie, szukam: adamellissaddles.com, atriathletesdiary.com, big5sportinggoods.com, bikeforums.net, bikeroar.com, bivouacannarbor.com, blog.lostgolfballs.com, bowhunterssupplystore.com, breakfastballs.golf, breeches.com, byronandbarclay.com, community.escapecollective.com (+40)
+[SHOPPING] IBS-V1X (gl=us, serper, fraza 1, str. 2): 0 ofert w feedzie, szukam: adamellissaddles.com, atriathletesdiary.com, big5sportinggoods.com, bikeforums.net, bikeroar.com, bivouacannarbor.com, blog.lostgolfballs.com, bowhunterssupplystore.com, breakfastballs.golf, breeches.com, byronandbarclay.com, community.escapecollective.com (+40)
+[SHOPPING] IBS-V1X (gl=us, serper, fraza 2, str. 1): 7 ofert w feedzie, szukam: adamellissaddles.com, atriathletesdiary.com, big5sportinggoods.com, bikeforums.net, bikeroar.com, bivouacannarbor.com, blog.lostgolfballs.com, bowhunterssupplystore.com, breakfastballs.golf, breeches.com, byronandbarclay.com, community.escapecollective.com (+40)
+  - tractorsupply.com: brak wymaganych slow ('Henri de Rivel Vegan-X All Purpose Pony Saddle')
+[SHOPPING] IBS-V1X (gl=pl, serper, fraza 1, str. 1): 10 ofert w feedzie, szukam: racearoundpoland.pl, wrower.pl
 [SHOPPING] Budzet zapytan na ten run wyczerpany
 [AUTH] google: dostep odrzucony (HTTP 403) - wylaczam silnik do konca runu. Custom Search JSON API jest zamkniete dla nowych klientow (od 2026; starzy do 2027-01-01). Warstwa CSE dziala tylko na starych projektach Google Cloud - jesli nie masz takiego, usun sekrety GOOGLE_API_KEY/GOOGLE_CX.
 [AUTH] google: poczatek odpowiedzi: { "error": { "code": 403, "message": "This project does not have the access to Custom Search JSON API.", "errors": [ { "me
-  ! Cane Creek 40 IS41/IS52: odrzucam outlier 30.24 PLN (gocycle.de) - ponizej 25% mediany (270.92 PLN)
-  ! Cane Creek 40 IS41/IS52: odrzucam outlier 26.6 PLN (carrefour.it) - ponizej 25% mediany (270.92 PLN)
-  ! Cane Creek 40 IS41/IS52: odrzucam outlier 39.06 PLN (eurofarmacia.it) - ponizej 25% mediany (270.92 PLN)
-[SERPER] Kredyty: zuzyte 36 w tym runie, lacznie 799 z 2500 (pozostalo 1701)
-[BLIND] FORCE-AXS-LEWA: bez ceny (sklep blokuje, Google nie pokryl): bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.lu, bike24.pl, bikefast.pl, bikesheduk.com, epic-cycles.com, fabreguesbicicletas.com, gambacicli.fr, idealo.es, idealo.fr, leboncoin.fr, lordgun.com, lordgun.de, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, nencinisport.it, powermetercity.com, prolocotrade.si, r2-bike.com, sanferbike.com, sprint-rowery.pl, starbike.com, vcelisvet.cz, velofactory.ch, velonova.ee, velopoint.pl
-[BLIND] SID-ULTIMATE: bez ceny (sklep blokuje, Google nie pokryl): albertoguido.com, asianroofrepairmasters.com, backcountry.com, bike24.at, bike24.com, bike24.de, bike24.fr, bike24.it, bike24.nl, bike24.pl, bikestyle.cz, canadabicycleparts.com, competitivecyclist.com, e-bikes4you.com, evolutionbikes.it, exim-bike.pl, fabreguesbicicletas.com, fiets.nl, flowmountainbike.com, galaxus.fr, gambacicli.fr, heureka.cz, idealo.fr, lordgunbicycles.com, mtb-mag.com, outlet.wheelandsprocket.com, r2-bike.com, singletrackworld.com, tormino.nl, velofactory.ch, vidlice.heureka.cz
-[BLIND] WOLFTOOTH-ADAPTER: bez ceny (sklep blokuje, Google nie pokryl): achatmoinscher.com, agapatkowska.pl, bike-eshop.cz, bike24.com, bike24.de, bikeforums.net, britannica.com, cyklisticke-prislusenstvi.heureka.cz, fnac.com, fnac.es, galaxus.ch, galaxus.fr, galaxus.nl, hygi.de, kompass.com, leroymerlin.fr, lowes.com, mybihr.com, pedaldomain.com, proelektro.nl, promitspa.it, r2-bike.com, rat-bikes.com, rat-bikes.eu, scuffwheels.com
-[BLIND] SID-SELECT-PLUS: bez ceny (sklep blokuje, Google nie pokryl): bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.it, bike24.pl, bikemag.com, community.mtb-mag.com, competitivecyclist.com, flowmountainbike.com, fsbike.es, galaxus.ch, gambacicli.fr, garagegeardirect.com, heureka.cz, idealo.fr, mtb-mag.com, r2-bike.com, singletrackworld.com, velofactory.ch, vidlice.heureka.cz
-[BLIND] PRO-DISCOVER-AERO-42: bez ceny (sklep blokuje, Google nie pokryl): beslist.nl, bike24.at, bike24.com, bike24.de, bike24.it, bike24.nl, bike24.pl, bikefast.pl, carrefour.fr, competitivecyclist.com, cykelkraft.se, deporvillage.at, deporvillage.com, deporvillage.fr, deporvillage.it, deporvillage.net, deporvillage.nl, deporvillage.pl, fabreguesbicicletas.com, fnac.com, idealo.es, kaufland.cz, odpbusiness.com, oscaro.com, r2-bike.com, rennrad-news.de, salon-rowerowy.pl, sprint-rowery.pl, starbike.com, taddeistore.com, vmd-drogerie.cz
-[BLIND] X0-CHAIN: bez ceny (sklep blokuje, Google nie pokryl): bicicletasapedales.com, bike24.com, bike24.de, bike24.es, bike24.fi, bike24.it, bike24.pl, competitivecyclist.com, fabreguesbicicletas.com, fnac.com, ibksport.de, idealo.at, idealo.es, idealo.fr, lordgun.com, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, placedeslibraires.fr, powermetercity.com, quantavici.com, r2-bike.com, retezy.heureka.cz, thebikevillage.com, vadebicis.com, velofactory.ch
-[BLIND] Cane Creek 40 IS41/IS52: bez ceny (sklep blokuje, Google nie pokryl): bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.lu, bike24.nl, bike24.pl, bretagne-materiaux.fr, carrefour.fr, competitivecyclist.com, decathlon.it, dreamland.be, dstewart.com, fnac.com, fnac.es, galaxus.ch, galaxus.nl, grabagun.com, homedepot.com, hudba.heureka.cz, idealo.es, kaufland.cz, kaufland.pl, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, mtb-mag.com, novicedock.com, pellegrino.it, r2-bike.com, rat-bikes.com, rat-bikes.eu, shop.ilsa-italy.it, slovakbikeparks.sk, supersales.nl, thebetterhealthstore.com, worten.es, zoro.com
-[BLIND] FORCE-AXS-PRAWA: bez ceny (sklep blokuje, Google nie pokryl): academiadetopografie.ro, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.pl, bikefast.pl, bretagne-materiaux.fr, competitivecyclist.com, cyklisticke-prislusenstvi.heureka.cz, darfi.net, deporvillage.com, deporvillage.de, epic-cycles.com, fabreguesbicicletas.com, galaxus.de, hygi.de, idealo.es, idealo.fr, lordgun.com, lordgun.de, lordgunbicycles.com, lordgunbicycles.fr, otto.de, papiermacherschule.at, powermetercity.com, r2-bike.com, rat-bikes.com, servi-a.com, universalcycles.com, velofactory.ch, velonova.ee, velonova.lt, velopoint.pl
-[BLIND] GX-CRANK: bez ceny (sklep blokuje, Google nie pokryl): autodoc.lu, batna24.com, bike-discount.de, bike24.com, bike24.de, bike24.it, bikestyle.cz, bknliving.nl, bol.com, community.mtb-mag.com, competitivecyclist.com, cyklomania.pl, decathlon.nl, douglas.it, eprice.it, es.kompass.com, fnac.es, galaxus.nl, gambacicli.fr, hocotech.it, idealo.fr, kieskeurig.nl, powermetercity.com, promitspa.it, purebike.fr, r2-bike.com, techly.it, techre-life.com, usedbikes-ob.de, velofactory.ch
-[BLIND] SUPERLOGIC-ERGOMAX: bez ceny (sklep blokuje, Google nie pokryl): bike24.at, bike24.com, bike24.es, bike24.fr, bike24.it, bike24.nl, bike24.pl, bks-dachbau.de, deporvillage.com, deporvillage.cz, deporvillage.de, deporvillage.fr, deporvillage.it, deporvillage.net, deporvillage.nl, deporvillage.pl, eventbike.it, galaxus.ch, gambacicli.fr, heureka.cz, idealo.at, idealo.es, idealo.fr, leboncoin.fr, lordgun.com, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, rat-bikes.com, rat-bikes.eu, rei.com, rennrad-news.de, ridinggravel.com, srovnanicen.cz, troc-velo.com
-[BLIND] GX-DERAILLEUR: bez ceny (sklep blokuje, Google nie pokryl): bike-discount.de, bike24.at, bike24.com, bike24.de, bike24.fr, bike24.it, bike24.lu, bike24.nl, bike24.pl, bikefast.pl, canadabicycleparts.com, competitivecyclist.com, deporvillage.pl, ebike-mag.com, emilebicyclettes.com, fiets.nl, fsbike.es, hb61bikes.com, hibike.com, idealo.es, idealo.fr, megabici.com, prehazovacky.heureka.cz, r2-bike.com, rat-bikes.eu, rei.com, sportler.com, velofactory.ch, velonova.lt
-[BLIND] XX-SL-POWERMETER: bez ceny (sklep blokuje, Google nie pokryl): achatmoinscher.com, aktywnawyprawa.com, bike24.com, bike24.de, bike24.pl, carrefour.fr, ciclosartia.com, competitivecyclist.com, cyklisticke-prislusenstvi.heureka.cz, eastcitycycles.com, evolutionbikes.it, fnac.com, gambacicli.fr, kompletni-sady.heureka.cz, lordgunbicycles.com, powermetercity.com, r2-bike.com, rei.com, rowerowaholandia.pl, synkros.pl, taddeistore.com, velofactory.ch, velonova.ee, velonova.lt
+  ! Cane Creek 40 IS41/IS52: odrzucam outlier 30.24 PLN (gocycle.de) - ponizej 25% mediany (275.46 PLN)
+  ! Cane Creek 40 IS41/IS52: odrzucam outlier 26.6 PLN (carrefour.it) - ponizej 25% mediany (275.46 PLN)
+  ! Cane Creek 40 IS41/IS52: odrzucam outlier 39.06 PLN (eurofarmacia.it) - ponizej 25% mediany (275.46 PLN)
+[SERPER] Kredyty: zuzyte 36 w tym runie, lacznie 835 z 2500 (pozostalo 1665)
+[BLIND] Cane Creek 40 IS41/IS52: bez ceny (sklep blokuje, Google nie pokryl): bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.lu, bike24.nl, bike24.pl, bretagne-materiaux.fr, carrefour.fr, competitivecyclist.com, decathlon.it, dreamland.be, dstewart.com, fnac.com, fnac.es, galaxus.ch, galaxus.nl, grabagun.com, homedepot.com, hudba.heureka.cz, idealo.es, kaufland.cz, kaufland.pl, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, mount7.com, mtb-mag.com, novicedock.com, pellegrino.it, r2-bike.com, rat-bikes.com, rat-bikes.eu, shop.ilsa-italy.it, slovakbikeparks.sk, supersales.nl, thebetterhealthstore.com, worten.es, zoro.com
+[BLIND] DT-XD-DRIVER: bez ceny (sklep blokuje, Google nie pokryl): alberamonti.it, antietamfirearms.com, biciclaje.es, bike24.at, bike24.com, bike24.de, bike24.fr, bike24.it, bike24.pl, camelcamelcamel.com, collinsdictionary.com, cyclexperience.nl, cyklisticke-prislusenstvi.heureka.cz, decathlon.it, ekspertyzy-grafologiczne.eu, elcorteingles.es, fnac.es, haczykowo.pl, hibike.com, idealo.es, kinderchance.com, mtb-mag.com, olx.pl, r2-bike.com, smithsfoodanddrug.com, top-shot.pl, velofactory.ch
+[BLIND] XX-SL-POWERMETER: bez ceny (sklep blokuje, Google nie pokryl): achatmoinscher.com, aktywnawyprawa.com, bike24.com, bike24.de, bike24.pl, bikesuperior.com, carrefour.fr, ciclosartia.com, competitivecyclist.com, cyklisticke-prislusenstvi.heureka.cz, eastcitycycles.com, fnac.com, gambacicli.fr, kompletni-sady.heureka.cz, lordgunbicycles.com, powermetercity.com, r2-bike.com, rei.com, synkros.pl, taddeistore.com, velofactory.ch, velonova.ee, velonova.lt
+[BLIND] GARBARUK-40T-AERO: bez ceny (sklep blokuje, Google nie pokryl): alugear.com, axevotech.eu, backcountry.com, batacz.cz, belk.com, bike24.at, bike24.be, bike24.com, bike24.de, bike24.lu, bike24.nl, bike24.pl, bol.com, carrefour.es, competitivecyclist.com, elektroshop.nl, es.kompass.com, fabreguesbicicletas.com, fnac.es, fr.kompass.com, galaxus.de, galaxus.fr, galaxus.nl, gowork.pl, homedepot.com, ipublimar.pl, it.kompass.com, kompass.com, kstools.fr, leroymerlin.fr, levelninesports.com, lowes.com, pl.kompass.com, powermetercity.com, r2-bike.com, rappel.conso.gouv.fr, starbike.com, suicycle-store.com, toolsxl.nl, worten.es
+[BLIND] SID-SELECT-PLUS: bez ceny (sklep blokuje, Google nie pokryl): bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.it, bike24.pl, bikemag.com, community.mtb-mag.com, competitivecyclist.com, flowmountainbike.com, fsbike.es, galaxus.ch, gambacicli.fr, garagegeardirect.com, heureka.cz, idealo.fr, mountainbike.nl, mtb-mag.com, r2-bike.com, singletrackworld.com, velofactory.ch, vidlice.heureka.cz
+[BLIND] GX-CRANK: bez ceny (sklep blokuje, Google nie pokryl): autodoc.lu, batna24.com, bike-discount.de, bike24.com, bike24.de, bike24.it, bikestyle.cz, bknliving.nl, bol.com, community.mtb-mag.com, competitivecyclist.com, cyklomania.pl, decathlon.nl, douglas.it, eprice.it, es.kompass.com, eshop.mastermate.nl, fnac.es, galaxus.nl, gambacicli.fr, hocotech.it, idealo.fr, kieskeurig.nl, powermetercity.com, promitspa.it, purebike.fr, r2-bike.com, techly.it, usedbikes-ob.de, velofactory.ch
+[BLIND] Ritchey WCS Carbon ErgoMax: bez ceny (sklep blokuje, Google nie pokryl): 365cycles.com, absolubike.fr, agriper.nl, all4bikes.be, auto-doc.fr, bbb.org, bike24.at, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.nl, bike24.pl, bikeparts.com, carrefour.es, cinevittoria.it, cyklomania.pl, cz.kompass.com, deporvillage.com, deporvillage.cz, deporvillage.fr, deporvillage.it, deporvillage.net, deporvillage.nl, deporvillage.pl, eventbike.it, faithchurchonaway.org, fr.kompass.com, galaxus.ch, galaxus.fr, gowork.pl, heide-aronia.de, hotfrog.fr, idealo.es, idealo.fr, it.kompass.com, klub300.cz, kompass.com, landrys.com, leboncoin.fr, nejfirmy.cluster.ofertis.cz, newbicyclehandlede.com, pianowithjonny.com, r2-bike.com, rei.com, ridinggravel.com, rouesrideparts.com, sport365.cz, tellows.fr, trenerterapeut.cz, velodrome-cycling.com, velofactory.ch, whitepages.com
 [BLIND] X0-CASSETTE: bez ceny (sklep blokuje, Google nie pokryl): bike24.be, bike24.com, bike24.es, bike24.fi, bike24.fr, bike24.it, bike24.lu, bike24.nl, bike24.pl, bikefast.pl, competitivecyclist.com, decathlon.it, deporvillage.de, deporvillage.pl, fabreguesbicicletas.com, fiets.nl, gambacicli.fr, idealo.es, idealo.fr, kazety.heureka.cz, kbike.es, kompletni-sady.heureka.cz, lordgun.com, lordgun.de, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, powermetercity.com, probikeshop.de, r2-bike.com, rat-bikes.com, rei.com, retezy.heureka.cz
-[BLIND] Ritchey WCS Carbon ErgoMax: bez ceny (sklep blokuje, Google nie pokryl): 365cycles.com, absolubike.fr, agriper.nl, auto-doc.fr, bbb.org, bike24.at, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.nl, bike24.pl, bikeparts.com, carrefour.es, cinevittoria.it, cyklomania.pl, cz.kompass.com, deporvillage.com, deporvillage.cz, deporvillage.fr, deporvillage.it, deporvillage.net, deporvillage.nl, deporvillage.pl, eventbike.it, faithchurchonaway.org, fr.kompass.com, galaxus.ch, galaxus.fr, gowork.pl, heide-aronia.de, idealo.es, idealo.fr, it.kompass.com, klub300.cz, kompass.com, landrys.com, leboncoin.fr, nejfirmy.cluster.ofertis.cz, newbicyclehandlede.com, pianowithjonny.com, r2-bike.com, rei.com, ridinggravel.com, rouesrideparts.com, sport365.cz, tellows.fr, trenerterapeut.cz, velodrome-cycling.com, velofactory.ch, whitepages.com
+[BLIND] WOLFTOOTH-ADAPTER: bez ceny (sklep blokuje, Google nie pokryl): achatmoinscher.com, agapatkowska.pl, bike-eshop.cz, bike24.com, bike24.de, bikeforums.net, britannica.com, cyklisticke-prislusenstvi.heureka.cz, eshop.wurth.nl, fnac.com, fnac.es, galaxus.ch, galaxus.fr, galaxus.nl, hygi.de, kompass.com, leroymerlin.fr, mybihr.com, oebikes.ie, proelektro.nl, promitspa.it, r2-bike.com, rat-bikes.com, rat-bikes.eu, scuffwheels.com
 [BLIND] DUB-WIDE-PF92: bez ceny (sklep blokuje, Google nie pokryl): allbike.com.pt, biciclaje.es, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.lu, bike24.nl, bike24.pl, bol.com, canadabicycleparts.com, community.mtb-mag.com, competitivecyclist.com, deporvillage.it, deporvillage.pt, fabreguesbicicletas.com, ibkbike.fr, ibksport.com, ibksport.fr, ltmracing.com, mrozbike.pl, nencinisport.it, powermetercity.com, r2-bike.com, rat-bikes.eu, rennrad-news.de, shop.free-bike.net, stredove-osy-a-slozeni.heureka.cz, thebikevillage.com
-[BLIND] GARBARUK-40T-AERO: bez ceny (sklep blokuje, Google nie pokryl): alugear.com, axevotech.eu, backcountry.com, batacz.cz, belk.com, bike24.at, bike24.be, bike24.com, bike24.de, bike24.lu, bike24.nl, bike24.pl, bol.com, carrefour.es, cincodias.elpais.com, competitivecyclist.com, elektroshop.nl, es.kompass.com, fabreguesbicicletas.com, fnac.es, fr.kompass.com, galaxus.de, galaxus.fr, galaxus.nl, gowork.pl, homedepot.com, ipublimar.pl, it.kompass.com, kompass.com, kstools.fr, leroymerlin.fr, levelninesports.com, lowes.com, pl.kompass.com, powermetercity.com, r2-bike.com, rappel.conso.gouv.fr, starbike.com, toolsxl.nl, worten.es
-[BLIND] SID-SELECT: bez ceny (sklep blokuje, Google nie pokryl): backcountry.com, bike24.at, bike24.com, bike24.de, bike24.it, bike24.nl, bike24.pl, bikemag.com, bikestyle.cz, buycycle.com, community.mtb-mag.com, competitivecyclist.com, fiets.nl, flowmountainbike.com, galaxus.ch, galaxus.fr, galaxus.nl, gambacicli.fr, garagegeardirect.com, idealo.fr, mtb-mag.com, r2-bike.com, ridebikestore.de, ridepro.eu, starbike.com, velofactory.ch, vidlice.heureka.cz
-[BLIND] DT-XD-DRIVER: bez ceny (sklep blokuje, Google nie pokryl): alberamonti.it, antietamfirearms.com, biciclaje.es, bike24.at, bike24.com, bike24.de, bike24.fr, bike24.it, bike24.pl, bottico.cz, camelcamelcamel.com, collinsdictionary.com, cyclexperience.nl, cyklisticke-prislusenstvi.heureka.cz, decathlon.it, ekspertyzy-grafologiczne.eu, elcorteingles.es, fnac.es, haczykowo.pl, hibike.com, idealo.es, kinderchance.com, mtb-mag.com, olx.pl, r2-bike.com, smithsfoodanddrug.com, top-shot.pl, use-elitebikes.com, velofactory.ch
-[BLIND] IBS-V1X: bez ceny (sklep blokuje, Google nie pokryl): bikeforums.net, bowhunterssupplystore.com, dickssportinggoods.com, infinitypipesystem.com, lostgolfballs.com, precise-performance.co.uk, racearoundpoland.pl, titleist.com, titleist.eu, tractorsupply.com
-[BLIND] Canyon S15 VCLS 2.0: bez ceny (sklep blokuje, Google nie pokryl): fiets.nl, olx.pl, rennrad-news.de, ricardo.ch, velonova.lt
+[BLIND] FORCE-AXS-LEWA: bez ceny (sklep blokuje, Google nie pokryl): bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.lu, bike24.pl, bikefast.pl, epic-cycles.com, fabreguesbicicletas.com, gambacicli.fr, idealo.es, idealo.fr, leboncoin.fr, lordgun.com, lordgun.de, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, nencinisport.it, powermetercity.com, r2-bike.com, sanferbike.com, sprint-rowery.pl, starbike.com, suicycle-store.com, vcelisvet.cz, velofactory.ch, velonova.ee, velopoint.pl
+[BLIND] SID-ULTIMATE: bez ceny (sklep blokuje, Google nie pokryl): asianroofrepairmasters.com, backcountry.com, bike24.at, bike24.com, bike24.de, bike24.fr, bike24.it, bike24.nl, bike24.pl, bikestyle.cz, canadabicycleparts.com, competitivecyclist.com, e-bikes4you.com, exim-bike.pl, fabreguesbicicletas.com, fiets.nl, flowmountainbike.com, galaxus.fr, gambacicli.fr, heureka.cz, idealo.fr, lordgunbicycles.com, mountainbike.nl, mtb-mag.com, r2-bike.com, singletrackworld.com, velofactory.ch, vidlice.heureka.cz
+[BLIND] Canyon S15 VCLS 2.0: bez ceny (sklep blokuje, Google nie pokryl): fiets.nl, handsonbike.blogspot.com, olx.pl, rennrad-news.de, ricardo.ch, velonova.lt
+[BLIND] SUPERLOGIC-ERGOMAX: bez ceny (sklep blokuje, Google nie pokryl): bike24.at, bike24.com, bike24.es, bike24.fr, bike24.nl, bike24.pl, bks-dachbau.de, deporvillage.com, deporvillage.cz, deporvillage.de, deporvillage.fr, deporvillage.it, deporvillage.net, deporvillage.nl, deporvillage.pl, eventbike.it, galaxus.ch, gambacicli.fr, heureka.cz, idealo.at, idealo.es, idealo.fr, leboncoin.fr, lordgun.com, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, rat-bikes.com, rat-bikes.eu, rei.com, rennrad-news.de, ridinggravel.com, srovnanicen.cz, troc-velo.com
+[BLIND] GX-DERAILLEUR: bez ceny (sklep blokuje, Google nie pokryl): bike-discount.de, bike24.at, bike24.com, bike24.de, bike24.fr, bike24.it, bike24.lu, bike24.nl, bike24.pl, bikefast.pl, canadabicycleparts.com, competitivecyclist.com, deporvillage.pl, ebike-mag.com, emilebicyclettes.com, fiets.nl, fsbike.es, hb61bikes.com, hibike.com, ibksport.com, idealo.es, idealo.fr, megabici.com, prehazovacky.heureka.cz, r2-bike.com, rat-bikes.eu, rei.com, sportler.com, velofactory.ch, velonova.lt
+[BLIND] PRO-DISCOVER-AERO-42: bez ceny (sklep blokuje, Google nie pokryl): belize.desertcart.com, beslist.nl, bike24.at, bike24.com, bike24.de, bike24.it, bike24.nl, bike24.pl, bikefast.pl, carrefour.fr, competitivecyclist.com, cykelkraft.se, deporvillage.at, deporvillage.com, deporvillage.fr, deporvillage.it, deporvillage.net, deporvillage.nl, deporvillage.pl, ebajk.pl, fabreguesbicicletas.com, fnac.com, idealo.es, kaufland.cz, odpbusiness.com, oscaro.com, r2-bike.com, rennrad-news.de, salon-rowerowy.pl, sprint-rowery.pl, starbike.com, taddeistore.com, vmd-drogerie.cz
+[BLIND] FORCE-AXS-PRAWA: bez ceny (sklep blokuje, Google nie pokryl): academiadetopografie.ro, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.pl, bikefast.pl, bretagne-materiaux.fr, competitivecyclist.com, cyklisticke-prislusenstvi.heureka.cz, darfi.net, deporvillage.com, deporvillage.de, epic-cycles.com, fabreguesbicicletas.com, galaxus.de, hygi.de, idealo.es, idealo.fr, lordgun.com, lordgun.de, lordgunbicycles.com, lordgunbicycles.fr, otto.de, papiermacherschule.at, powermetercity.com, r2-bike.com, rat-bikes.com, servi-a.com, suicycle-store.com, velofactory.ch, velonova.ee, velonova.lt, velopoint.pl
+[BLIND] X0-CHAIN: bez ceny (sklep blokuje, Google nie pokryl): bicicletasapedales.com, bike24.com, bike24.de, bike24.es, bike24.fi, bike24.it, bike24.pl, competitivecyclist.com, fabreguesbicicletas.com, fnac.com, ibksport.de, idealo.at, idealo.es, idealo.fr, lordgun.com, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, placedeslibraires.fr, powermetercity.com, quantavici.com, r2-bike.com, retezy.heureka.cz, thebikevillage.com, vadebicis.com, velofactory.ch
+[BLIND] IBS-V1X: bez ceny (sklep blokuje, Google nie pokryl): bikeforums.net, bowhunterssupplystore.com, dickssportinggoods.com, infinitypipesystem.com, lostgolfballs.com, precise-performance.co.uk, projectcece.com, racearoundpoland.pl, titleist.com, titleist.eu, tractorsupply.com
+[BLIND] SID-SELECT: bez ceny (sklep blokuje, Google nie pokryl): backcountry.com, bike24.at, bike24.com, bike24.de, bike24.it, bike24.nl, bike24.pl, bikemag.com, bikestyle.cz, community.mtb-mag.com, competitivecyclist.com, fiets.nl, flowmountainbike.com, galaxus.ch, galaxus.fr, galaxus.nl, gambacicli.fr, garagegeardirect.com, idealo.fr, mtb-mag.com, probikesupply.com, r2-bike.com, ridebikestore.de, ridepro.eu, starbike.com, velofactory.ch, vidlice.heureka.cz
 [HISTORIA] Cane Creek 40 IS41/IS52: najnizsza 135.94 PLN (filmnadvd.cz)
 [HISTORIA] Canyon S15 VCLS 2.0: najnizsza 413.1 PLN (biclo.pl)
 [HISTORIA] Ritchey WCS Carbon ErgoMax: najnizsza 1071.96 PLN (bikeshopzizers.ch)
@@ -4126,6 +4115,6 @@ Produkty: ['Cane Creek 40 IS41/IS52', 'Canyon S15 VCLS 2.0', 'Ritchey WCS Carbon
 [HISTORIA] GARBARUK-40T-AERO: najnizsza 287.88 PLN (derbaranski.shop)
 [HISTORIA] PRO-DISCOVER-AERO-42: najnizsza 1059.5 PLN (rowertour.com)
 [EXCEL] Zapisano /home/runner/work/PriceChecker/PriceChecker/output/prices.xlsx
-[CZAS] run z harmonogramu: przebieg trwal 211 min 10 s
+[CZAS] run z harmonogramu: przebieg trwal 201 min 12 s
 [DASHBOARD] Zapisano /home/runner/work/PriceChecker/PriceChecker/output/dashboard.html (+ docs/index.html dla GitHub Pages)
 Gotowe.
