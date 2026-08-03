@@ -936,10 +936,17 @@ def fetch_via_browser(url):
             return None, None                       # zwykla blokada bez challenge
         return html, normalize_url(page.url)
     except Exception as e:
-        log(f"  ! przegladarka: blad ({type(e).__name__})")
+        log(f"  ! przegladarka: blad ({type(e).__name__}) - restart Chromium")
+        # Blad moze oznaczac padniete/zaklinowane Chromium - kazde kolejne
+        # wywolanie sync API na takiej sesji potrafi wisiec bez timeoutu.
+        # Ubij wszystko; nastepny fetch wystartuje swieza przegladarke.
+        close_browser()
         return None, None
     finally:
-        page.close()
+        try:
+            page.close()
+        except Exception:
+            pass
 
 
 def close_browser():

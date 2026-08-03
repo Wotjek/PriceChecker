@@ -26,6 +26,11 @@ concurrency:
 jobs:
   track:
     runs-on: ubuntu-latest
+    # Pełny FIRE trwa ~2h; 3h15min to spory zapas, a zawieszony run (np.
+    # zaklinowany Playwright) padnie PRZED watchdogiem (14:23 UTC + opóźnienia
+    # crona) - watchdog liczy runy in_progress jako OK, więc wiszący job
+    # blokowałby dogrywkę. Bez limitu wisi 6h (limit GitHuba) i dzień przepada.
+    timeout-minutes: 195
     steps:
       - name: Checkout
         uses: actions/checkout@v4
