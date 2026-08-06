@@ -49,6 +49,7 @@ date,product_id,product_name,price_pln,price_orig,currency,shop,url,offers_check
 2026-08-03,Canyon S15 VCLS 2.0,Canyon S15 VCLS 2.0,410.1,500.0,RON,biclo.pl,https://www.biclo.pl/targ/oferta/tija-sa-carbon-canyon-s15-vcls-20-272mm-cf,35
 2026-08-04,Canyon S15 VCLS 2.0,Canyon S15 VCLS 2.0,410.9,500.0,RON,biclo.pl,https://www.biclo.pl/targ/oferta/tija-sa-carbon-canyon-s15-vcls-20-272mm-cf,35
 2026-08-05,Canyon S15 VCLS 2.0,Canyon S15 VCLS 2.0,410.1,500.0,RON,biclo.pl,https://www.biclo.pl/targ/oferta/tija-sa-carbon-canyon-s15-vcls-20-272mm-cf,35
+2026-08-06,Canyon S15 VCLS 2.0,Canyon S15 VCLS 2.0,409.45,500.0,RON,biclo.pl,https://www.biclo.pl/targ/oferta/tija-sa-carbon-canyon-s15-vcls-20-272mm-cf,35
 2026-07-05,DT SWISS 350 12x148,DT SWISS 350 12x148,514.24,119.99,EUR,bike-components.de,https://www.bike-components.de/de/DT-Swiss/350-Classic-MTB-Boost-Disc-Center-Lock-HR-Nabe-p84203/,8
 2026-07-06,DT SWISS 350 12x148,DT SWISS 350 12x148,514.42,119.99,EUR,bike-components.de,https://www.bike-components.de/de/DT-Swiss/350-Classic-MTB-Boost-Disc-Center-Lock-HR-Nabe-p84203/,10
 2026-07-07,DT SWISS 350 12x148,DT SWISS 350 12x148,398.89,92.9,EUR,whizz-wheels.de,https://whizz-wheels.de/shop/DT-Swiss-350-Hybrid-Disc-IS-100-mm-32-Loch-MY2023-Vorderradnabe/H350ADQXR32SO0732S,15
@@ -139,6 +140,7 @@ date,product_id,product_name,price_pln,price_orig,currency,shop,url,offers_check
 2026-08-03,FORCE-AXS-LEWA,SRAM Force AXS E1 klamkomanetka z hamulcem lewa,1041.13,242.05,EUR,ciclimattio.com,https://ciclimattio.com/fr/p/sram/leva-cambio-freno-force-etap-axs-noir-12v-gauche,27
 2026-08-04,FORCE-AXS-LEWA,SRAM Force AXS E1 klamkomanetka z hamulcem lewa,1043.67,242.05,EUR,ciclimattio.com,https://ciclimattio.com/fr/p/sram/leva-cambio-freno-force-etap-axs-noir-12v-gauche,28
 2026-08-05,FORCE-AXS-LEWA,SRAM Force AXS E1 klamkomanetka z hamulcem lewa,1042.03,242.05,EUR,ciclimattio.com,https://ciclimattio.com/fr/p/sram/leva-cambio-freno-force-etap-axs-noir-12v-gauche,28
+2026-08-06,FORCE-AXS-LEWA,SRAM Force AXS E1 klamkomanetka z hamulcem lewa,1040.38,242.05,EUR,ciclimattio.com,https://ciclimattio.com/fr/p/sram/leva-cambio-freno-force-etap-axs-noir-12v-gauche,28
 2026-07-21,FORCE-AXS-PRAWA,SRAM Force AXS E1 klamkomanetka z hamulcem prawa,1038.0,239.9,EUR,tnc-hamburg.com,https://www.tnc-hamburg.com/Schalthebel/Road-Schalt-Bremshebel/Sram-Road-Schalthebel/Sram-Schalthebel-Road-AXS-12-fach/Sram-Force-eTap-AXS-Disc-Schaltbremshebel-D2-mit-Leitung-rechts::62235.html,6
 2026-07-22,FORCE-AXS-PRAWA,SRAM Force AXS E1 klamkomanetka z hamulcem prawa,1038.65,239.9,EUR,tnc-hamburg.com,https://www.tnc-hamburg.com/Schalthebel/Road-Schalt-Bremshebel/Sram-Road-Schalthebel/Sram-Schalthebel-Road-AXS-12-fach/Sram-Force-eTap-AXS-Disc-Schaltbremshebel-D2-mit-Leitung-rechts::62235.html,6
 2026-07-23,FORCE-AXS-PRAWA,SRAM Force AXS E1 klamkomanetka z hamulcem prawa,1199.0,1199.0,PLN,e-velomania.pl,https://e-velomania.pl/klamkomanetka-prawa-z-hamulcem-sram-force-axs-e1,11
@@ -153,6 +155,7 @@ date,product_id,product_name,price_pln,price_orig,currency,shop,url,offers_check
 2026-08-03,FORCE-AXS-PRAWA,SRAM Force AXS E1 klamkomanetka z hamulcem prawa,1199.0,1199.0,PLN,e-velomania.pl,https://e-velomania.pl/klamkomanetka-prawa-z-hamulcem-sram-force-axs-e1,24
 2026-08-04,FORCE-AXS-PRAWA,SRAM Force AXS E1 klamkomanetka z hamulcem prawa,1034.4,239.9,EUR,tnc-hamburg.com,https://www.tnc-hamburg.com/Schalthebel/Road-Schalt-Bremshebel/Sram-Road-Schalthebel/Sram-Schalthebel-Road-AXS-12-fach/Sram-Force-eTap-AXS-Disc-Schaltbremshebel-D2-mit-Leitung-rechts::62235.html,27
 2026-08-05,FORCE-AXS-PRAWA,SRAM Force AXS E1 klamkomanetka z hamulcem prawa,1032.77,239.9,EUR,tnc-hamburg.com,https://www.tnc-hamburg.com/Schalthebel/Road-Schalt-Bremshebel/Sram-Road-Schalthebel/Sram-Schalthebel-Road-AXS-12-fach/Sram-Force-eTap-AXS-Disc-Schaltbremshebel-D2-mit-Leitung-rechts::62235.html,27
+2026-08-06,FORCE-AXS-PRAWA,SRAM Force AXS E1 klamkomanetka z hamulcem prawa,1031.14,239.9,EUR,tnc-hamburg.com,https://www.tnc-hamburg.com/Schalthebel/Road-Schalt-Bremshebel/Sram-Road-Schalthebel/Sram-Schalthebel-Road-AXS-12-fach/Sram-Force-eTap-AXS-Disc-Schaltbremshebel-D2-mit-Leitung-rechts::62235.html,27
 2026-07-23,GARBARUK-40T-AERO,"Garbaruk MTB TM Aero 40T SRAM XX/XX SL (okrągła, czarna)",288.15,66.55,EUR,derbaranski.shop,https://derbaranski.shop/products/garbaruk-aero-mono-kettenblatt,3
 2026-07-24,GARBARUK-40T-AERO,"Garbaruk MTB TM Aero 40T SRAM XX/XX SL (okrągła, czarna)",287.88,66.55,EUR,derbaranski.shop,https://derbaranski.shop/products/garbaruk-aero-mono-kettenblatt,3
 2026-07-25,GARBARUK-40T-AERO,"Garbaruk MTB TM Aero 40T SRAM XX/XX SL (okrągła, czarna)",287.88,66.55,EUR,derbaranski.shop,https://derbaranski.shop/products/garbaruk-aero-mono-kettenblatt,4
@@ -165,6 +168,7 @@ date,product_id,product_name,price_pln,price_orig,currency,shop,url,offers_check
 2026-08-03,GARBARUK-40T-AERO,"Garbaruk MTB TM Aero 40T SRAM XX/XX SL (okrągła, czarna)",286.25,66.55,EUR,derbaranski.shop,https://derbaranski.shop/products/garbaruk-aero-mono-kettenblatt,8
 2026-08-04,GARBARUK-40T-AERO,"Garbaruk MTB TM Aero 40T SRAM XX/XX SL (okrągła, czarna)",286.95,66.55,EUR,derbaranski.shop,https://derbaranski.shop/products/garbaruk-aero-mono-kettenblatt,8
 2026-08-05,GARBARUK-40T-AERO,"Garbaruk MTB TM Aero 40T SRAM XX/XX SL (okrągła, czarna)",286.5,66.55,EUR,derbaranski.shop,https://derbaranski.shop/products/garbaruk-aero-mono-kettenblatt,15
+2026-08-06,GARBARUK-40T-AERO,"Garbaruk MTB TM Aero 40T SRAM XX/XX SL (okrągła, czarna)",262.42,262.42,PLN,bike24.pl,"https://www.google.com/search?ibp=oshop&q=Garbaruk+MTB+Aero+chainring+40T+thread+mount&prds=localAnnotatedOfferId:1,catalogid:6773164485244664380,pvo:2,pvt:hg,rds:PC_6027158597472037202%7CPROD_PC_6027158597472037202&gl=pl&udm=28&pvorigin=2",14
 2026-07-21,GX-CRANK,SRAM GX Eagle Transmission T-Type korba DUB Wide,707.0,707.0,PLN,bikestacja.pl,https://www.bikestacja.pl/korba-sram-gx-eagle-mtb-transmission-dub-wide-2x12-speed-32t-165mm-p-23822.html,1
 2026-07-22,GX-CRANK,SRAM GX Eagle Transmission T-Type korba DUB Wide,706.0,706.0,PLN,bikestacja.pl,https://www.bikestacja.pl/korba-sram-gx-eagle-mtb-transmission-dub-wide-2x12-speed-32t-165mm-p-23822.html,1
 2026-07-24,GX-CRANK,SRAM GX Eagle Transmission T-Type korba DUB Wide,648.42,149.9,EUR,tnc-hamburg.com,https://www.tnc-hamburg.com/Antrieb-Schaltung/MTB-Komponenten/-12-fach-MTB/Sram-MTB-12-fach/Sram-Eagle-Transmision-12-fach/Sram-Transmission-Kurbel/Sram-GX-Eagle-Transmission-Kurbel/Sram-GX-Eagle-Transmission-Kurbel-DUB-Wide-DM-32-Zaehne-175-mm::65187.html,2
@@ -186,6 +190,7 @@ date,product_id,product_name,price_pln,price_orig,currency,shop,url,offers_check
 2026-08-03,GX-DERAILLEUR,SRAM GX Eagle AXS Transmission T-Type przerzutka tylna,1483.73,344.95,EUR,rosebikes.pl,https://www.rosebikes.pl/p/sram-gx-eagle-transmissiontm-axstm-12-speed-rear-derailleur-2721915,15
 2026-08-04,GX-DERAILLEUR,SRAM GX Eagle AXS Transmission T-Type przerzutka tylna,1487.36,344.95,EUR,rosebikes.pl,https://www.rosebikes.pl/p/sram-gx-eagle-transmissiontm-axstm-12-speed-rear-derailleur-2721915,15
 2026-08-05,GX-DERAILLEUR,SRAM GX Eagle AXS Transmission T-Type przerzutka tylna,1485.01,344.95,EUR,rosebikes.pl,https://www.rosebikes.pl/p/sram-gx-eagle-transmissiontm-axstm-12-speed-rear-derailleur-2721915,14
+2026-08-06,GX-DERAILLEUR,SRAM GX Eagle AXS Transmission T-Type przerzutka tylna,1482.66,344.95,EUR,rosebikes.pl,https://www.rosebikes.pl/p/sram-gx-eagle-transmissiontm-axstm-12-speed-rear-derailleur-2721915,14
 2026-07-05,GX-T-CHAIN,SRAM GX Eagle Transmission Łańcuch,128.53,29.99,EUR,alutech-cycles.com,https://alutech-cycles.com/SRAM-chain-GX-T-Type-118-12-speed-silver,20
 2026-07-06,GX-T-CHAIN,SRAM GX Eagle Transmission Łańcuch,128.57,29.99,EUR,alutech-cycles.com,https://alutech-cycles.com/SRAM-chain-GX-T-Type-118-12-speed-silver,20
 2026-07-07,GX-T-CHAIN,SRAM GX Eagle Transmission Łańcuch,128.77,29.99,EUR,alutech-cycles.com,https://alutech-cycles.com/SRAM-chain-GX-T-Type-118-12-speed-silver,24
@@ -234,6 +239,7 @@ date,product_id,product_name,price_pln,price_orig,currency,shop,url,offers_check
 2026-08-03,IBS-V1X,Infinity Bike Seat V1X,1444.67,387.0,USD,cyclingupgrades.com,https://www.cyclingupgrades.com/products/new-_infinity_vegan_v1x_black_7x7mm_stainless_rails_saddle06242025-1104-05,3
 2026-08-04,IBS-V1X,Infinity Bike Seat V1X,1450.01,387.0,USD,cyclingupgrades.com,https://www.cyclingupgrades.com/products/new-_infinity_vegan_v1x_black_7x7mm_stainless_rails_saddle06242025-1104-05,3
 2026-08-05,IBS-V1X,Infinity Bike Seat V1X,1444.28,387.0,USD,cyclingupgrades.com,https://www.cyclingupgrades.com/products/new-_infinity_vegan_v1x_black_7x7mm_stainless_rails_saddle06242025-1104-05,3
+2026-08-06,IBS-V1X,Infinity Bike Seat V1X,1441.03,387.0,USD,cyclingupgrades.com,https://www.cyclingupgrades.com/products/new-_infinity_vegan_v1x_black_7x7mm_stainless_rails_saddle06242025-1104-05,3
 2026-07-05,LAUF-CARBONARA,Lauf Carbonara fork,4452.98,1190.0,USD,laufcycles.com,https://www.laufcycles.com/product/lauf-carbonara,2
 2026-07-06,LAUF-CARBONARA,Lauf Carbonara fork,4467.26,1190.0,USD,laufcycles.com,https://www.laufcycles.com/product/lauf-carbonara,2
 2026-07-07,LAUF-CARBONARA,Lauf Carbonara fork,4471.19,1190.0,USD,laufcycles.com,https://www.laufcycles.com/product/lauf-carbonara,2
@@ -370,6 +376,7 @@ date,product_id,product_name,price_pln,price_orig,currency,shop,url,offers_check
 2026-08-03,X0-CASSETTE,SRAM X0 Eagle XS-1295 T-Type kaseta,1375.99,319.9,EUR,evolutionbikes.it,https://evolutionbikes.it/en/products/pacco-pignoni-sram-x0-eagle-xs-1295-t-type-eagle-12s,40
 2026-08-04,X0-CASSETTE,SRAM X0 Eagle XS-1295 T-Type kaseta,1379.34,319.9,EUR,evolutionbikes.it,https://evolutionbikes.it/en/products/pacco-pignoni-sram-x0-eagle-xs-1295-t-type-eagle-12s,41
 2026-08-05,X0-CASSETTE,SRAM X0 Eagle XS-1295 T-Type kaseta,1377.17,319.9,EUR,evolutionbikes.it,https://evolutionbikes.it/en/products/pacco-pignoni-sram-x0-eagle-xs-1295-t-type-eagle-12s,41
+2026-08-06,X0-CASSETTE,SRAM X0 Eagle XS-1295 T-Type kaseta,1374.99,319.9,EUR,evolutionbikes.it,https://evolutionbikes.it/en/products/pacco-pignoni-sram-x0-eagle-xs-1295-t-type-eagle-12s,41
 2026-07-21,X0-CHAIN,SRAM X0 Eagle T-Type Flattop łańcuch,358.82,82.93,EUR,bikestacja.pl,https://www.bikestacja.pl/en/sram-x0-eagle-flattop-t-type-12-speed-126-core-dark-polar-solidpin-chain-pin-p-22912.html,3
 2026-07-22,X0-CHAIN,SRAM X0 Eagle T-Type Flattop łańcuch,358.79,82.87,EUR,bikestacja.pl,https://www.bikestacja.pl/en/sram-x0-eagle-flattop-t-type-12-speed-126-core-dark-polar-solidpin-chain-pin-p-22912.html,4
 2026-07-23,X0-CHAIN,SRAM X0 Eagle T-Type Flattop łańcuch,352.43,1970.0,CZK,kupkolo.cz,https://www.kupkolo.cz/retez-sram-x0-eagle-transmission-flattop-12s-126-clanku-pro-elektrokola_z121538/,20
@@ -384,6 +391,7 @@ date,product_id,product_name,price_pln,price_orig,currency,shop,url,offers_check
 2026-08-03,X0-CHAIN,SRAM X0 Eagle T-Type Flattop łańcuch,350.07,1970.0,CZK,kupkolo.cz,https://www.kupkolo.cz/retez-sram-x0-eagle-transmission-flattop-12s-126-clanku-pro-elektrokola_z121538/,29
 2026-08-04,X0-CHAIN,SRAM X0 Eagle T-Type Flattop łańcuch,350.86,1970.0,CZK,kupkolo.cz,https://www.kupkolo.cz/retez-sram-x0-eagle-transmission-flattop-12s-126-clanku-pro-elektrokola_z121538/,35
 2026-08-05,X0-CHAIN,SRAM X0 Eagle T-Type Flattop łańcuch,350.46,1970.0,CZK,kupkolo.cz,https://www.kupkolo.cz/retez-sram-x0-eagle-transmission-flattop-12s-126-clanku-pro-elektrokola_z121538/,31
+2026-08-06,X0-CHAIN,SRAM X0 Eagle T-Type Flattop łańcuch,350.27,1970.0,CZK,kupkolo.cz,https://www.kupkolo.cz/retez-sram-x0-eagle-transmission-flattop-12s-126-clanku-pro-elektrokola_z121538/,33
 2026-07-23,XX-SL-POWERMETER,SRAM XX SL Eagle AXS Transmission Power Meter (pajak),1558.68,359.99,EUR,bike-discount.de,https://www.bike-discount.de/de/sram-axs-powermeter-spider,8
 2026-07-24,XX-SL-POWERMETER,SRAM XX SL Eagle AXS Transmission Power Meter (pajak),1557.21,359.99,EUR,bike-discount.de,https://www.bike-discount.de/de/sram-axs-powermeter-spider,7
 2026-07-25,XX-SL-POWERMETER,SRAM XX SL Eagle AXS Transmission Power Meter (pajak),1557.21,359.99,EUR,bike-discount.de,https://www.bike-discount.de/de/sram-axs-powermeter-spider,8
@@ -396,3 +404,4 @@ date,product_id,product_name,price_pln,price_orig,currency,shop,url,offers_check
 2026-08-03,XX-SL-POWERMETER,SRAM XX SL Eagle AXS Transmission Power Meter (pajak),1535.48,356.98,EUR,hollandbikeshop.com,https://hollandbikeshop.com/de-de/sram/sram-mtb-ersatzteile/sram-kurbelsatz/sram-kurbelsatz-ersatzteile/sram-spider-powermeter-fur-xxsl-eagle-t-pm-d1-sw-829503/,12
 2026-08-04,XX-SL-POWERMETER,SRAM XX SL Eagle AXS Transmission Power Meter (pajak),1539.23,356.98,EUR,hollandbikeshop.com,https://hollandbikeshop.com/de-de/sram/sram-mtb-ersatzteile/sram-kurbelsatz/sram-kurbelsatz-ersatzteile/sram-spider-powermeter-fur-xxsl-eagle-t-pm-d1-sw-829503/,12
 2026-08-05,XX-SL-POWERMETER,SRAM XX SL Eagle AXS Transmission Power Meter (pajak),1536.8,356.98,EUR,hollandbikeshop.com,https://hollandbikeshop.com/de-de/sram/sram-mtb-ersatzteile/sram-kurbelsatz/sram-kurbelsatz-ersatzteile/sram-spider-powermeter-fur-xxsl-eagle-t-pm-d1-sw-829503/,12
+2026-08-06,XX-SL-POWERMETER,SRAM XX SL Eagle AXS Transmission Power Meter (pajak),1534.37,356.98,EUR,hollandbikeshop.com,https://hollandbikeshop.com/de-de/sram/sram-mtb-ersatzteile/sram-kurbelsatz/sram-kurbelsatz-ersatzteile/sram-spider-powermeter-fur-xxsl-eagle-t-pm-d1-sw-829503/,12
