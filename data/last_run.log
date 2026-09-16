@@ -5,45 +5,48 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
 [SERPAPI] Limit: pozostalo 0 z 250 (zuzyte w tym miesiacu: 250)
 [FX] Kursy NBP pobrane (33 walut)
 [MONITOR] Canyon S15 VCLS 2.0: sprawdzam 151 URL-i
-  + canyon.com: 199.99 EUR = 868.86 PLN
+  + canyon.com: 199.99 EUR = 868.66 PLN
   ~ handsonbike.blogspot.com: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
-  + canyon.com: 199.99 EUR = 868.86 PLN
+  + canyon.com: 199.99 EUR = 868.66 PLN
 [BROWSER] Start headless Chromium (fallback na blokady botow)
   - velonova.lt: HTTP 403 (przegladarka tez nie przeszla)
   + canyon.com: 909.99 PLN = 909.99 PLN
   + mtbiker.pl: blokada ominieta headless Chromium
   - mtbiker.pl: niedostepny (discontinued)
   - canyon.com: brak wymaganych slow (s15) - pomijam
-  + canyon.com: 199.99 EUR = 868.86 PLN
-  + canyon.com: 199.99 EUR = 868.86 PLN
+  + canyon.com: 199.99 EUR = 868.66 PLN
+  + canyon.com: 199.99 EUR = 868.66 PLN
   - canyon.com: waluta USD poza dozwolonym regionem - pomijam
   + mtbiker.it: blokada ominieta headless Chromium
   - mtbiker.it: niedostepny (discontinued)
-  + canyon.com: 5099.0 CZK = 911.7 PLN
+  + canyon.com: 5099.0 CZK = 911.19 PLN
   + mtbiker.cz: blokada ominieta headless Chromium
   - mtbiker.cz: niedostepny (discontinued)
-  + canyon.com: 199.99 EUR = 868.86 PLN
+  + canyon.com: 199.99 EUR = 868.66 PLN
   - canyon.com: waluta GBP poza dozwolonym regionem - pomijam
-  - gravelunion.cc: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - gravelunion.cc: blad pobierania (ConnectionError)
   - canyon.com: brak wymaganych slow (s15) - pomijam
-  + canyon.com: 199.99 EUR = 868.86 PLN
+  + canyon.com: 199.99 EUR = 868.66 PLN
   - fiets.nl: HTTP 405
   - weightweenies.starbike.com: brak danych o cenie (typy na stronie: discussionforumposting)
-  + canyon.com: 199.99 EUR = 868.86 PLN
+  + canyon.com: 199.99 EUR = 868.66 PLN
   - rennrad-news.de: HTTP 403 (przegladarka tez nie przeszla)
+  + kleinanzeigen.de: blokada ominieta headless Chromium
   ~ kleinanzeigen.de: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
   - cyclingclaude.de: brak danych o cenie (typy na stronie: blogposting, breadcrumblist, hentry, imageobject, organization, person, sportsteam, webpage, website)
   - canyon.com: brak wymaganych slow (s15) - pomijam
   - testberichte.de: brak danych o cenie (typy na stronie: breadcrumblist, organization, product)
   + canyon.com: 909.99 PLN = 909.99 PLN
-  + canyon.com: 179.99 CHF = 829.2 PLN
+  + canyon.com: 179.99 CHF = 827.38 PLN
   - bike-magazin.de: brak danych o cenie (typy na stronie: article, breadcrumblist, imageobject, organization, webpage, website)
+  + kleinanzeigen.de: blokada ominieta headless Chromium
   - kleinanzeigen.de: brak danych o cenie (typy na stronie: imageobject, website)
-  - buycycle.com: brak danych o cenie (typy na stronie: organization, website)
+  - buycycle.com: brak danych o cenie (typy na stronie: breadcrumblist, organization, website)
   - canyon.com: brak wymaganych slow (s15) - pomijam
   - canyon.com: brak danych o cenie (typy na stronie: organization)
   - canyon.com: brak danych o cenie (typy na stronie: breadcrumblist, organization)
   - testbericht.de: brak danych o cenie (typy na stronie: breadcrumblist)
+  + kleinanzeigen.de: blokada ominieta headless Chromium
   - kleinanzeigen.de: brak danych o cenie (typy na stronie: imageobject, website)
   - willhaben.at: niedostepny (soldout)
   - ricardo.ch: HTTP 403 (przegladarka tez nie przeszla)
@@ -56,14 +59,16 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   + mtbiker.pl: blokada ominieta headless Chromium
   - mtbiker.pl: niedostepny (discontinued)
   - forumrowerowe.org: brak danych o cenie (typy na stronie: breadcrumblist, discussionforumposting, organization, website)
-  - mtbiker.pl: blokada botow (przegladarka tez nie przeszla)
+  + mtbiker.pl: blokada ominieta headless Chromium
+  - mtbiker.pl: niedostepny (discontinued)
   - olx.pl: blokada botow (przegladarka tez nie przeszla)
-  - buycycle.com: brak danych o cenie (typy na stronie: organization, website)
-  - mtbiker.pl: pomijam (blokada potwierdzona w tym runie)
+  - buycycle.com: brak danych o cenie (typy na stronie: breadcrumblist, organization, website)
+  + mtbiker.pl: blokada ominieta headless Chromium
+  - mtbiker.pl: niedostepny (discontinued)
   - olx.pl: pomijam (blokada potwierdzona w tym runie)
-  - mtbiker.pl: pomijam (blokada potwierdzona w tym runie)
+  - mtbiker.pl: blokada botow (przegladarka tez nie przeszla)
   + biclo.pl: blokada ominieta headless Chromium
-  + biclo.pl: 500.0 RON = 412.65 PLN
+  + biclo.pl: 500.0 RON = 412.55 PLN
   - olx.pl: pomijam (blokada potwierdzona w tym runie)
   - forumrowerowe.org: brak danych o cenie (typy na stronie: breadcrumblist, discussionforumposting, organization, website)
   - buycycle.com: niedostepny (soldout)
@@ -73,46 +78,47 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - mtbiker.de: niedostepny (discontinued)
   - easypath.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - canyon.com: brak wymaganych slow (s15) - pomijam
-  + canyon.com: 5099.0 CZK = 911.7 PLN
+  + canyon.com: 5099.0 CZK = 911.19 PLN
   + mtbiker.cz: blokada ominieta headless Chromium
   - mtbiker.cz: niedostepny (discontinued)
   - canyon.com: waluta USD poza dozwolonym regionem - pomijam
-  + canyon.com: 206.99 EUR = 899.27 PLN
+  + canyon.com: 206.99 EUR = 899.06 PLN
   + mtbiker.de: blokada ominieta headless Chromium
   - mtbiker.de: niedostepny (discontinued)
+  + kleinanzeigen.de: blokada ominieta headless Chromium
   - kleinanzeigen.de: brak danych o cenie (typy na stronie: imageobject, website)
   - cyclingclaude.de: brak danych o cenie (typy na stronie: blogposting, breadcrumblist, hentry, imageobject, organization, person, sportsteam, webpage, website)
-  + canyon.com: 199.99 EUR = 868.86 PLN
+  + canyon.com: 199.99 EUR = 868.66 PLN
   - velonova.lt: pomijam (blokada potwierdzona w tym runie)
   - olx.pl: pomijam (blokada potwierdzona w tym runie)
   - mtbiker.pl: pomijam (blokada potwierdzona w tym runie)
   - canyon.com: brak danych o cenie (typy na stronie: organization)
   + canyon.com: 909.99 PLN = 909.99 PLN
-  + canyon.com: 201.99 EUR = 877.55 PLN
-  + canyon.com: 2499.0 NOK = 1007.1 PLN
-  + canyon.com: 199.99 EUR = 868.86 PLN
-  + canyon.com: 210.99 EUR = 916.65 PLN
-  + canyon.com: 199.99 EUR = 868.86 PLN
-  + canyon.com: 199.99 EUR = 868.86 PLN
-  + canyon.com: 199.99 EUR = 868.86 PLN
+  + canyon.com: 201.99 EUR = 877.34 PLN
+  + canyon.com: 2499.0 NOK = 1006.1 PLN
+  + canyon.com: 199.99 EUR = 868.66 PLN
+  + canyon.com: 210.99 EUR = 916.44 PLN
+  + canyon.com: 199.99 EUR = 868.66 PLN
+  + canyon.com: 199.99 EUR = 868.66 PLN
+  + canyon.com: 199.99 EUR = 868.66 PLN
   - canyon.com: waluta USD poza dozwolonym regionem - pomijam
-  + canyon.com: 199.99 EUR = 868.86 PLN
-  + canyon.com: 199.99 EUR = 868.86 PLN
+  + canyon.com: 199.99 EUR = 868.66 PLN
+  + canyon.com: 199.99 EUR = 868.66 PLN
   - canyon.com: waluta USD poza dozwolonym regionem - pomijam
-  + canyon.com: 199.99 EUR = 868.86 PLN
+  + canyon.com: 199.99 EUR = 868.66 PLN
   - canyon.com: waluta USD poza dozwolonym regionem - pomijam
-  + canyon.com: 2299.0 SEK = 885.8 PLN
-  + canyon.com: 1599.0 DKK = 929.34 PLN
+  + canyon.com: 2299.0 SEK = 884.89 PLN
+  + canyon.com: 1599.0 DKK = 929.02 PLN
   - canyon.com: waluta USD poza dozwolonym regionem - pomijam
   - canyon.com: waluta USD poza dozwolonym regionem - pomijam
-  + canyon.com: 201.99 EUR = 877.55 PLN
-  + canyon.com: 199.99 EUR = 868.86 PLN
+  + canyon.com: 201.99 EUR = 877.34 PLN
+  + canyon.com: 199.99 EUR = 868.66 PLN
   - canyon.com: brak danych o cenie (typy na stronie: breadcrumblist, organization)
   - canyon.com: brak wymaganych slow (s15) - pomijam
   - canyon.com: waluta USD poza dozwolonym regionem - pomijam
   - canyon.com: waluta USD poza dozwolonym regionem - pomijam
   - buycycle.com: brak danych o cenie (typy na stronie: organization, website)
-  + canyon.com: 199.99 EUR = 868.86 PLN
+  + canyon.com: 199.99 EUR = 868.66 PLN
   - weightweenies.starbike.com: brak danych o cenie (typy na stronie: discussionforumposting)
   - mtbiker.pl: pomijam (blokada potwierdzona w tym runie)
   - mtbiker.pl: pomijam (blokada potwierdzona w tym runie)
@@ -121,17 +127,19 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - canyon.com: brak wymaganych slow (s15) - pomijam
   - canyon.com: brak wymaganych slow (s15) - pomijam
   - canyon.com: brak wymaganych slow (s15) - pomijam
-  + canyon.com: 199.99 EUR = 868.86 PLN
+  + canyon.com: 199.99 EUR = 868.66 PLN
   - canyon.com: brak wymaganych slow (s15) - pomijam
-  + canyon.com: 2499.0 NOK = 1007.1 PLN
+  + canyon.com: 2499.0 NOK = 1006.1 PLN
   - canyon.com: brak wymaganych slow (s15) - pomijam
   - canyon.com: brak danych o cenie (typy na stronie: breadcrumblist, organization)
   - velonova.lt: pomijam (blokada potwierdzona w tym runie)
   - bikeroar.com: brak danych o cenie (typy na stronie: organization, website)
+  + kleinanzeigen.de: blokada ominieta headless Chromium
   - kleinanzeigen.de: brak danych o cenie (typy na stronie: imageobject, website)
+  + kleinanzeigen.de: blokada ominieta headless Chromium
   - kleinanzeigen.de: brak danych o cenie (typy na stronie: imageobject, website)
   - weightweenies.starbike.com: brak danych o cenie (typy na stronie: discussionforumposting)
-  - buycycle.com: brak danych o cenie (typy na stronie: organization, website)
+  - buycycle.com: brak danych o cenie (typy na stronie: breadcrumblist, organization, website)
   - olx.pl: pomijam (blokada potwierdzona w tym runie)
   - olx.pl: pomijam (blokada potwierdzona w tym runie)
   - sets-robot.com: HTTP 500
@@ -139,9 +147,9 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - buycycle.com: brak danych o cenie (typy na stronie: breadcrumblist, organization, website)
   - canyon.com: brak danych o cenie (typy na stronie: organization)
   - trialcare.com: brak danych o cenie (typy na stronie: breadcrumblist, webpage, website)
-  + canyon.com: 179.99 CHF = 829.2 PLN
-  + canyon.com: 199.99 EUR = 868.86 PLN
-  + canyon.com: 199.99 EUR = 868.86 PLN
+  + canyon.com: 179.99 CHF = 827.38 PLN
+  + canyon.com: 199.99 EUR = 868.66 PLN
+  + canyon.com: 199.99 EUR = 868.66 PLN
   - canyon.com: brak wymaganych slow (s15) - pomijam
   - canyon.com: brak wymaganych slow (s15) - pomijam
   - canyon.com: brak wymaganych slow (s15) - pomijam
@@ -166,9 +174,9 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - canyonspirit.com: brak danych o cenie (typy na stronie: organization)
   - en.wikipedia.org: brak danych o cenie (typy na stronie: article)
   - mtbiker.pl: pomijam (blokada potwierdzona w tym runie)
-  + canyon.com: 199.99 EUR = 868.86 PLN
+  + canyon.com: 199.99 EUR = 868.66 PLN
   - mtbiker.pl: pomijam (blokada potwierdzona w tym runie)
-  + canyon.com: 206.99 EUR = 899.27 PLN
+  + canyon.com: 206.99 EUR = 899.06 PLN
   - handsonbike.blogspot.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - handsonbike.blogspot.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - handsonbike.blogspot.com: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -185,7 +193,7 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - infinitybikeseat.com: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, organization, webpage, website)
   ~ cyclingupgrades.com: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
   - infinitybikeseat.com: brak danych o cenie (typy na stronie: article, breadcrumblist, imageobject, organization, person, webpage, website)
-  + radkomfort.de: 368.91 EUR = 1602.73 PLN
+  + radkomfort.de: 368.91 EUR = 1602.36 PLN
   - infinitybikeseat.com: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, organization, webpage, website)
   - infinitybikeseat.com: brak danych o cenie (typy na stronie: article, breadcrumblist, imageobject, organization, person, webpage, website)
   - infinitybikeseat.com: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, organization, webpage, website)
@@ -213,7 +221,7 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - titleist.com: HTTP 403 (przegladarka tez nie przeszla)
   - golfballs.com: brak wymaganych slow (infinity) - pomijam
   - blog.lostgolfballs.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  + radkomfort.de: 368.91 EUR = 1602.73 PLN
+  + radkomfort.de: 368.91 EUR = 1602.36 PLN
   - infinitybikeseat.com: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, organization, webpage, website)
   - infinitybikeseat.com: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, organization, webpage, website)
   - fatbeardedandtattooedcyclist.wordpress.com: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -335,12 +343,12 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - infinitybikeseat.com: brak danych o cenie (typy na stronie: article, breadcrumblist, imageobject, organization, person, webpage, website)
   - infinitybikeseat.com: brak danych o cenie (typy na stronie: breadcrumblist, organization, webpage, website)
   - infinitybikeseat.com: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, organization, webpage, website)
-  - everychina.com: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - everychina.com: blad pobierania (ConnectTimeout)
   - m.made-in-china.com: brak danych o cenie (typy na stronie: videoobject)
   - cyclingkinetics.com: brak wymaganych slow (infinity, v1x) - pomijam
   - tvcmall.com: brak danych o cenie (typy na stronie: breadcrumblist, organization)
   - m.alibaba.com: HTTP 410
-  + cyclingupgrades.com: 387.0 USD = 1457.71 PLN
+  + cyclingupgrades.com: 387.0 USD = 1456.63 PLN
   - cyclingupgrades.com: brak danych o cenie (typy na stronie: organization)
   - dms.myflorida.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - fusionpeak.cc: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -378,7 +386,7 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - diamondtechnique.com: HTTP 404
   - weightweenies.starbike.com: brak danych o cenie (typy na stronie: discussionforumposting)
   - fusionpeak.cc: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - bikewheelshub.com: 410.57 PLN poza widelkami [900.0..2200.0] - pomijam
+  - bikewheelshub.com: 410.27 PLN poza widelkami [900.0..2200.0] - pomijam
   - voltairedesign.com: brak danych o cenie (typy na stronie: breadcrumblist, organization, webpage)
   - pgn-nuenen.nl: HTTP 404
   - bike-magazin.de: brak danych o cenie (typy na stronie: breadcrumblist, organization, webpage, website)
@@ -411,13 +419,13 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - bikable.com: niedostepny (outofstock)
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   ~ starbike.com: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
-  + bikestacja.pl: 308.9 EUR = 1342.02 PLN [EAN OK]
+  + bikestacja.pl: 309.2 EUR = 1343.01 PLN [EAN OK]
   - rosebikes.pl: brak wymaganych slow (left) - pomijam
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
   - velofactory.ch: HTTP 403 (przegladarka tez nie przeszla)
   - velonova.ee: HTTP 403 (przegladarka tez nie przeszla)
   - lvr-cycles.com: pomijam (blokada potwierdzona w tym runie)
-  - buycycle.com: 391.0 PLN poza widelkami [1000.0..2600.0] - pomijam
+  - buycycle.com: 390.91 PLN poza widelkami [1000.0..2600.0] - pomijam
   ~ tradeinn.com: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
   - lvr-cycles.com: pomijam (blokada potwierdzona w tym runie)
   - bike-discount.de: brak wymaganych slow (left) - pomijam
@@ -452,11 +460,11 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - bike-mailorder.com: brak wymaganych slow (left) - pomijam
   - bike-discount.de: brak wymaganych slow (left) - pomijam
   - bike24.at: HTTP 403 (przegladarka tez nie przeszla)
-  - cycling-parts.ch: 912.17 PLN poza widelkami [1000.0..2600.0] - pomijam
-  + bike-components.de: 270.0 EUR = 1173.02 PLN [EAN OK]
+  - cycling-parts.ch: 910.17 PLN poza widelkami [1000.0..2600.0] - pomijam
+  + bike-components.de: 270.0 EUR = 1172.74 PLN [EAN OK]
   - koloshop24.de: brak wymaganych slow (left) - pomijam
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
-  - bike-components.de: niedostepny (backorder)
+  - bike-components.de: niedostepny (outofstock)
   - bikable.de: brak wymaganych slow (left) - pomijam
   - tnc-hamburg.com: brak wymaganych slow (left) - pomijam
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
@@ -464,7 +472,7 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   - suicycle-store.com: niedostepny (outofstock)
   - mantel.com: brak wymaganych slow (left) - pomijam
-  - bike-components.de: niedostepny (backorder)
+  - bike-components.de: niedostepny (outofstock)
   - procycle-parts.de: brak danych o cenie (typy na stronie: brak JSON-LD)
   - rowertour.com: brak wymaganych slow (left) - pomijam
   - bikefast.pl: 988.38 PLN poza widelkami [1000.0..2600.0] - pomijam
@@ -485,8 +493,8 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - wertykal.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - bikestacja.pl: brak wymaganych slow (left) - pomijam
   - bike24.it: HTTP 403 (przegladarka tez nie przeszla)
-  - cingolanibikeshop.com: HTTP 404
-  - ebikelab.it: 912.35 PLN poza widelkami [1000.0..2600.0] - pomijam
+  - cingolanibikeshop.com: brak wymaganych slow (left) - pomijam
+  - ebikelab.it: 912.13 PLN poza widelkami [1000.0..2600.0] - pomijam
   - mondobicistore.com: brak wymaganych slow (left) - pomijam
   - lordgunbicycles.com: HTTP 403 (przegladarka tez nie przeszla)
   - gambacicli.com: brak wymaganych slow (left) - pomijam
@@ -495,13 +503,13 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - mantel.com: brak wymaganych slow (left) - pomijam
   - lvr-cycles.com: pomijam (blokada potwierdzona w tym runie)
   - lordgunbicycles.com: pomijam (blokada potwierdzona w tym runie)
-  - cingolanibikeshop.com: HTTP 404
+  - cingolanibikeshop.com: brak wymaganych slow (left) - pomijam
   - francesconibike.com: brak wymaganych slow (force, left) - pomijam
-  + probikeshop.fr: 299.9 EUR = 1302.92 PLN [EAN OK]
-  + werideoncycling-shop.com: 265.0 EUR = 1151.29 PLN [EAN niepotwierdzony]
+  + probikeshop.fr: 299.9 EUR = 1302.62 PLN [EAN OK]
+  + werideoncycling-shop.com: 265.0 EUR = 1151.03 PLN [EAN niepotwierdzony]
   - lvr-cycles.com: pomijam (blokada potwierdzona w tym runie)
   - mantel.com: brak wymaganych slow (left) - pomijam
-  + bike-components.de: 270.0 EUR = 1173.02 PLN [EAN OK]
+  + bike-components.de: 270.0 EUR = 1172.74 PLN [EAN OK]
   - royalvelofrance.fr: brak danych o cenie (typy na stronie: brak JSON-LD)
   - planete-velo.fr: brak danych o cenie (typy na stronie: breadcrumblist, http://schema.org/product)
   - bouticycle.com: niedostepny (outofstock)
@@ -555,16 +563,16 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - performancebike.com: brak wymaganych slow (force, left) - pomijam
   - ctbicycles.com: brak wymaganych slow (force, axs, left) - pomijam
   - jr-chains.de: brak wymaganych slow (left) - pomijam
-  + bike-components.de: 270.0 EUR = 1173.02 PLN [EAN OK]
+  + bike-components.de: 270.0 EUR = 1172.74 PLN [EAN OK]
   - bike24.pl: pomijam (blokada potwierdzona w tym runie)
   - gambacicli.com: brak wymaganych slow (force, left) - pomijam
-  + evolutionbikes.it: 289.9 EUR = 1259.47 PLN [EAN OK]
+  + evolutionbikes.it: 289.9 EUR = 1259.18 PLN [EAN OK]
   - nencinisport.it: HTTP 403 (przegladarka tez nie przeszla)
   - idealo.es: HTTP 403 (przegladarka tez nie przeszla)
   - bicycleparts24.com: niedostepny (backorder)
   - bicyclewarehouse.com: brak danych o cenie (typy na stronie: faqpage, organization)
   - jensonusa.com: HTTP 403 (przegladarka tez nie przeszla)
-  - tnc-hamburg.com: 868.47 PLN poza widelkami [1000.0..2600.0] - pomijam
+  - tnc-hamburg.com: 868.27 PLN poza widelkami [1000.0..2600.0] - pomijam
   - bike-mailorder.com: brak wymaganych slow (left) - pomijam
   - bike-mailorder.com: brak wymaganych slow (left) - pomijam
   - jr-chains.de: brak wymaganych slow (left) - pomijam
@@ -608,9 +616,9 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - lvr-cycles.com: pomijam (blokada potwierdzona w tym runie)
   - lordgunbicycles.fr: HTTP 403 (przegladarka tez nie przeszla)
   - cyclesdupont.fr: brak wymaganych slow (left) - pomijam
-  + la-becanerie.com: 364.9 EUR = 1585.31 PLN [EAN niepotwierdzony]
+  + la-becanerie.com: 364.9 EUR = 1584.94 PLN [EAN niepotwierdzony]
   - lvr-cycles.com: pomijam (blokada potwierdzona w tym runie)
-  + velostation.com: 380.0 EUR = 1650.91 PLN [EAN OK]
+  + velostation.com: 380.0 EUR = 1650.53 PLN [EAN OK]
   - idealo.fr: pomijam (blokada potwierdzona w tym runie)
   - velofactory.ch: pomijam (blokada potwierdzona w tym runie)
   - bouticycle.com: niedostepny (outofstock)
@@ -624,7 +632,7 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - competitivecyclist.com: HTTP 202
   - meinhartje.com: brak wymaganych slow (force, axs, left) - pomijam
   - mantel.com: brak wymaganych slow (left) - pomijam
-  - bicycleparts24.com: 868.47 PLN poza widelkami [1000.0..2600.0] - pomijam
+  - bicycleparts24.com: 868.27 PLN poza widelkami [1000.0..2600.0] - pomijam
   - dialedcyclinglab.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - bikellantas.com: waluta USD poza dozwolonym regionem - pomijam
   - elvmotors.com: HTTP 404
@@ -668,17 +676,17 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - bikeacademyshop.com: HTTP 403 (przegladarka tez nie przeszla)
   - ciclimattio.com: niedostepny (outofstock)
   - pedalmoto.com: brak wymaganych slow (left) - pomijam
-  + terra-bike.com: 304.0 EUR = 1320.73 PLN [EAN niepotwierdzony]
+  + terra-bike.com: 304.0 EUR = 1320.42 PLN [EAN niepotwierdzony]
   - sanferbike.com: pomijam (blokada potwierdzona w tym runie)
   - bike24.es: pomijam (blokada potwierdzona w tym runie)
   - bikeacademyshop.com: pomijam (blokada potwierdzona w tym runie)
   - fabreguesbicicletas.com: pomijam (blokada potwierdzona w tym runie)
   - ibksport.es: HTTP 404
-  + jihercet.com: 293.4 EUR = 1274.68 PLN [EAN OK]
-  + sergedutouron.com: 420.0 EUR = 1824.69 PLN [EAN niepotwierdzony]
+  + jihercet.com: 293.4 EUR = 1274.38 PLN [EAN OK]
+  + sergedutouron.com: 420.0 EUR = 1824.27 PLN [EAN niepotwierdzony]
   - culturevelo.com: niedostepny (instoreonly)
   - allbike.dk: brak wymaganych slow (left) - pomijam
-  + bike-components.de: 270.0 EUR = 1173.02 PLN [EAN OK]
+  + bike-components.de: 270.0 EUR = 1172.74 PLN [EAN OK]
   - bici.cc: brak wymaganych slow (axs, left) - pomijam
   - powermetercity.com: pomijam (blokada potwierdzona w tym runie)
   - idealo.fr: pomijam (blokada potwierdzona w tym runie)
@@ -705,7 +713,7 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - bike-discount.de: brak wymaganych slow (left) - pomijam
   - dscapital.de: brak danych o cenie (typy na stronie: brak JSON-LD)
   - evolutionbikes.fr: brak wymaganych slow (force, left) - pomijam
-  + rotoruabike.com: 317.38 EUR = 1378.86 PLN [EAN niepotwierdzony]
+  + rotoruabike.com: 317.38 EUR = 1378.54 PLN [EAN niepotwierdzony]
   - idealo.es: pomijam (blokada potwierdzona w tym runie)
   - velofactory.ch: pomijam (blokada potwierdzona w tym runie)
   - it.wikipedia.org: brak danych o cenie (typy na stronie: article)
@@ -720,17 +728,17 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - royalvelofrance.fr: brak danych o cenie (typy na stronie: brak JSON-LD)
   - wareega.com: brak danych o cenie (typy na stronie: breadcrumblist, http://schema.org/product)
   - cyclesdupont.fr: brak wymaganych slow (force) - pomijam
-  + bike-components.de: 270.0 EUR = 1173.02 PLN [EAN OK]
+  + bike-components.de: 270.0 EUR = 1172.74 PLN [EAN OK]
   - bike-discount.de: brak wymaganych slow (left) - pomijam
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
   - lvr-cycles.com: pomijam (blokada potwierdzona w tym runie)
   - alltricks.de: brak wymaganych slow (left) - pomijam
-  + nubuk-bikes.de: 299.95 EUR = 1303.13 PLN [EAN OK]
+  + nubuk-bikes.de: 299.95 EUR = 1302.83 PLN [EAN OK]
   - bikechill.pl: blad pobierania (ConnectionError)
   + najsbike.pl: 1258.0 PLN = 1258.0 PLN [EAN OK]
   - cingolanibikeshop.com: brak wymaganych slow (left) - pomijam
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
-  - giangisbike.it: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, organization, webpage, website)
+  - giangisbike.it: brak wymaganych slow (left) - pomijam
   - biketiresdirect.com: brak wymaganych slow (left) - pomijam
   - trainerroad.com: brak danych o cenie (typy na stronie: qapage)
   - ibkbike.com: niedostepny (outofstock)
@@ -753,10 +761,8 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - performancebike.com: brak wymaganych slow (force, left) - pomijam
   - excelsports.com: brak wymaganych slow (left) - pomijam
   - performancebike.com: brak wymaganych slow (force) - pomijam
-  + kleinanzeigen.de: blokada ominieta headless Chromium
-  - kleinanzeigen.de: brak danych o cenie (typy na stronie: imageobject, website)
-  + kleinanzeigen.de: blokada ominieta headless Chromium
-  - kleinanzeigen.de: brak danych o cenie (typy na stronie: imageobject, website)
+  - kleinanzeigen.de: blokada botow (przegladarka tez nie przeszla)
+  - kleinanzeigen.de: pomijam (blokada potwierdzona w tym runie)
   - buycycle.com: brak wymaganych slow (force) - pomijam
   - starbike.com: HTTP 404
   - performancebike.com: brak danych o cenie (typy na stronie: breadcrumblist)
@@ -773,14 +779,14 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - ridewill.it: brak danych o cenie (typy na stronie: brak JSON-LD)
   - lvr-cycles.com: pomijam (blokada potwierdzona w tym runie)
   - bike-cafe.fr: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, newsarticle, organization, person, webpage, website)
-  + culturevelo.com: 380.0 EUR = 1650.91 PLN [EAN OK]
+  + culturevelo.com: 380.0 EUR = 1650.53 PLN [EAN OK]
   - cyclesetsports.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - dynamitebikelab.com: brak danych o cenie (typy na stronie: localbusiness)
   - excelsports.com: brak wymaganych slow (left) - pomijam
   - categoryonecycles.com: waluta USD poza dozwolonym regionem - pomijam
   - jensonusa.com: pomijam (blokada potwierdzona w tym runie)
   + fahrradteiledirekt.com: blokada ominieta headless Chromium
-  - fahrradteiledirekt.com: 179.38 PLN poza widelkami [1000.0..2600.0] - pomijam
+  - fahrradteiledirekt.com: 179.34 PLN poza widelkami [1000.0..2600.0] - pomijam
   - bkedeals.de: brak wymaganych slow (left) - pomijam
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   - bikesportworld.de: HTTP 404
@@ -789,16 +795,16 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   - ibkbike.com: niedostepny (outofstock)
-  + fullbike.com: 269.0 EUR = 1168.67 PLN [EAN niepotwierdzony]
+  + fullbike.com: 269.0 EUR = 1168.4 PLN [EAN niepotwierdzony]
   - tradeinn.com: brak danych o cenie (typy na stronie: faqpage, organization, webpage)
-  - cingolanibikeshop.com: HTTP 404
+  - cingolanibikeshop.com: brak wymaganych slow (force, left) - pomijam
   - meinhartje.com: brak wymaganych slow (force, axs, left) - pomijam
   - tradeinn.com: brak danych o cenie (typy na stronie: faqpage, organization, webpage)
-  + materiel-velo.com: 314.6 EUR = 1366.78 PLN [EAN niepotwierdzony]
+  + materiel-velo.com: 314.6 EUR = 1366.47 PLN [EAN OK]
   - werideoncycling-shop.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  + velomania.ch: 269.9 CHF = 1243.4 PLN [EAN niepotwierdzony]
+  + velomania.ch: 269.9 CHF = 1240.68 PLN [EAN niepotwierdzony]
   - biketiresdirect.com: waluta USD poza dozwolonym regionem - pomijam
-  + probikeshop.com.pl: 1427.0 PLN = 1427.0 PLN [EAN OK]
+  + probikeshop.com.pl: 1431.0 PLN = 1431.0 PLN [EAN OK]
   - velopoint.pl: pomijam (blokada potwierdzona w tym runie)
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
@@ -828,7 +834,7 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
   - messingschlager.com: brak danych o cenie (typy na stronie: breadcrumblist, corporation, webpage)
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
-  + fitstore24.com: 242.1 EUR = 1051.8 PLN [EAN niepotwierdzony]
+  + fitstore24.com: 242.1 EUR = 1051.56 PLN [EAN niepotwierdzony]
   - tradeinn.com: brak danych o cenie (typy na stronie: faqpage, organization, webpage)
   - tweekscycles.com: brak wymaganych slow (left) - pomijam
   - bike-mailorder.com: brak wymaganych slow (left) - pomijam
@@ -846,7 +852,7 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - mondobicistore.com: brak wymaganych slow (left) - pomijam
   - bicidastrada.it: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, newsarticle, organization, person, sportsclub, webpage, website)
   - bikecomponenti.com: HTTP 403 (przegladarka tez nie przeszla)
-  - hollandbikeshop.com: 919.64 PLN poza widelkami [1000.0..2600.0] - pomijam
+  - hollandbikeshop.com: 919.43 PLN poza widelkami [1000.0..2600.0] - pomijam
   - bicidastrada.it: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, newsarticle, organization, person, sportsclub, videoobject, webpage, website)
   ! przegladarka: blad (Error) - restart Chromium
   - galaxus.it: HTTP 403 (przegladarka tez nie przeszla)
@@ -869,13 +875,13 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
 [MONITOR] FORCE-AXS-PRAWA: sprawdzam 467 URL-i
   - bikable.com: niedostepny (outofstock)
   - noboundariessport.com: waluta USD poza dozwolonym regionem - pomijam
-  + larunpyora.com: 383.99 EUR = 1668.24 PLN [EAN OK]
+  + larunpyora.com: 383.99 EUR = 1667.86 PLN [EAN OK]
   - theproscloset.com: waluta USD poza dozwolonym regionem - pomijam
   - universalcycles.com: brak wymaganych slow (right) - pomijam
   - 365cycles.com: brak wymaganych slow (right) - pomijam
   - steedcycles.com: brak wymaganych slow (right) - pomijam
   - worldwidecyclery.com: waluta USD poza dozwolonym regionem - pomijam
-  + rosebikes.com: 279.95 EUR = 1216.24 PLN [EAN OK]
+  + rosebikes.com: 279.95 EUR = 1215.96 PLN [EAN OK]
   - thebikeshop.com: waluta CAD poza dozwolonym regionem - pomijam
   - mikesbikes.com: brak wymaganych slow (right) - pomijam
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
@@ -892,7 +898,7 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - competitivecyclist.com: HTTP 202
   - powermetercity.com: pomijam (blokada potwierdzona w tym runie)
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
-  + tnc-hamburg.com: 269.0 EUR = 1168.67 PLN [EAN niepotwierdzony]
+  + tnc-hamburg.com: 269.0 EUR = 1168.4 PLN [EAN niepotwierdzony]
   - otto.de: HTTP 400
   - bike-discount.de: brak wymaganych slow (right) - pomijam
   ~ procycle-parts.de: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
@@ -904,11 +910,11 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - deporvillage.de: pomijam (blokada potwierdzona w tym runie)
   - bike-discount.de: brak wymaganych slow (right) - pomijam
   - otto.de: HTTP 400
-  - cycling-parts.ch: 912.17 PLN poza widelkami [1000.0..2600.0] - pomijam
+  - cycling-parts.ch: 910.17 PLN poza widelkami [1000.0..2600.0] - pomijam
   - jr-chains.de: brak wymaganych slow (right) - pomijam
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
-  + tnc-hamburg.com: 336.9 EUR = 1463.66 PLN [EAN OK]
-  + bike-components.de: 280.0 EUR = 1216.46 PLN [EAN OK]
+  + tnc-hamburg.com: 336.9 EUR = 1463.33 PLN [EAN OK]
+  + bike-components.de: 280.0 EUR = 1216.18 PLN [EAN OK]
   - bike-mailorder.com: brak wymaganych slow (right) - pomijam
   + e-velomania.pl: 1199.0 PLN = 1199.0 PLN [EAN OK]
   - rowertour.com: brak danych o cenie (typy na stronie: breadcrumblist, itemlist, webpage)
@@ -916,14 +922,14 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - bikefast.pl: blad pobierania (ConnectTimeout)
   - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - centrumrowerowe.pl: brak wymaganych slow (right) - pomijam
-  - cingolanibikeshop.com: HTTP 404
+  - cingolanibikeshop.com: brak wymaganych slow (right) - pomijam
   - bike-store-treviso.it: brak danych o cenie (typy na stronie: brak JSON-LD)
   - lvr-cycles.com: pomijam (blokada potwierdzona w tym runie)
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
   - servi-a.com: HTTP 404
   - gambacicli.com: brak wymaganych slow (right) - pomijam
   - bike-discount.de: brak danych o cenie (typy na stronie: breadcrumblist, onlinestore)
-  - giangisbike.it: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, organization, webpage, website)
+  - giangisbike.it: brak wymaganych slow (right) - pomijam
   - mantel.com: brak wymaganych slow (right) - pomijam
   - lordgunbicycles.com: pomijam (blokada potwierdzona w tym runie)
   - bikemart.com: brak danych o cenie (typy na stronie: organization)
@@ -931,7 +937,7 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - en.wikipedia.org: brak danych o cenie (typy na stronie: article)
   - worldwidecyclery.com: niedostepny (outofstock)
   - universalcycles.com: brak wymaganych slow (force, right) - pomijam
-  - universalcycles.com: HTTP 404
+  - universalcycles.com: blad pobierania (ConnectionError)
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
   - treefortbikes.com: waluta USD poza dozwolonym regionem - pomijam
   - epic-cycles.com: brak danych o cenie (typy na stronie: breadcrumblist, itemlist, organization)
@@ -942,13 +948,13 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - galaxus.de: HTTP 403 (przegladarka tez nie przeszla)
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
   - bike-components.de: niedostepny (backorder)
-  + tnc-hamburg.com: 239.9 EUR = 1042.25 PLN [EAN niepotwierdzony]
+  + tnc-hamburg.com: 239.9 EUR = 1042.01 PLN [EAN niepotwierdzony]
   - mantel.com: brak wymaganych slow (right) - pomijam
   - centrumrowerowe.pl: brak danych o cenie (typy na stronie: breadcrumblist, itemlist, webpage)
   - helmansport.pl: brak wymaganych slow (right) - pomijam
   - 2wheels.pl: brak wymaganych slow (right) - pomijam
   - bike24.pl: pomijam (blokada potwierdzona w tym runie)
-  - ebikelab.it: 912.35 PLN poza widelkami [1000.0..2600.0] - pomijam
+  - ebikelab.it: 912.13 PLN poza widelkami [1000.0..2600.0] - pomijam
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
   - lordgunbicycles.com: pomijam (blokada potwierdzona w tym runie)
   - bike-discount.de: brak wymaganych slow (force, right) - pomijam
@@ -973,7 +979,7 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - koloshop.cz: brak wymaganych slow (right) - pomijam
 [BROWSER] Start headless Chromium (fallback na blokady botow)
   - cyklisticke-prislusenstvi.heureka.cz: HTTP 403 (przegladarka tez nie przeszla)
-  + bike-components.de: 379.0 EUR = 1646.57 PLN [EAN niepotwierdzony]
+  + bike-components.de: 379.0 EUR = 1646.19 PLN [EAN niepotwierdzony]
   - cyklozitny.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
   - pichon.fr: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -999,9 +1005,9 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   - powermetercity.com: pomijam (blokada potwierdzona w tym runie)
-  + bike-components.de: 280.0 EUR = 1216.46 PLN [EAN OK]
+  + bike-components.de: 280.0 EUR = 1216.18 PLN [EAN OK]
   - bikestacja.pl: brak wymaganych slow (right) - pomijam
-  + rosebikes.pl: 279.95 EUR = 1216.24 PLN [EAN OK]
+  + rosebikes.pl: 279.95 EUR = 1215.96 PLN [EAN OK]
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
   - meinhartje.com: brak wymaganych slow (force, axs, right) - pomijam
   - tweekscycles.com: brak wymaganych slow (right) - pomijam
@@ -1025,13 +1031,13 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - bike-discount.de: brak danych o cenie (typy na stronie: breadcrumblist, onlinestore)
   - lvr-cycles.com: pomijam (blokada potwierdzona w tym runie)
   - nubuk-bikes.de: brak wymaganych slow (right) - pomijam
-  + bike-components.de: 280.0 EUR = 1216.46 PLN [EAN OK]
+  + bike-components.de: 280.0 EUR = 1216.18 PLN [EAN OK]
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
-  - kleinanzeigen.de: blokada botow (przegladarka tez nie przeszla)
+  - kleinanzeigen.de: pomijam (blokada potwierdzona w tym runie)
   - bike-mailorder.com: brak wymaganych slow (right) - pomijam
   - centrumrowerowe.pl: brak wymaganych slow (right) - pomijam
   - bikefast.pl: blad pobierania (ConnectTimeout)
-  + bikestacja.pl: 1342.0 PLN = 1342.0 PLN [EAN OK]
+  + bikestacja.pl: 1343.0 PLN = 1343.0 PLN [EAN OK]
   - wertykal.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - velopoint.pl: pomijam (blokada potwierdzona w tym runie)
   - formicki-bike.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -1048,8 +1054,8 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - mondobicistore.com: brak wymaganych slow (right) - pomijam
   - francesconibike.com: brak wymaganych slow (force, right) - pomijam
   - francesconibike.com: brak wymaganych slow (force, right) - pomijam
-  - cingolanibikeshop.com: HTTP 404
-  + terra-bike.com: 304.0 EUR = 1320.73 PLN [EAN OK]
+  - cingolanibikeshop.com: brak wymaganych slow (right) - pomijam
+  + terra-bike.com: 304.0 EUR = 1320.42 PLN [EAN OK]
   - materiel-velo.es: niedostepny (outofstock)
   - fabreguesbicicletas.com: pomijam (blokada potwierdzona w tym runie)
   - deporvillage.com: HTTP 403 (przegladarka tez nie przeszla)
@@ -1080,7 +1086,7 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - culturevelo.com: niedostepny (instoreonly)
   - jihercet.com: brak wymaganych slow (right) - pomijam
   - velostation.com: brak wymaganych slow (right) - pomijam
-  - nextag.de: brak danych o cenie (typy na stronie: breadcrumblist)
+  - nextag.de: brak danych o cenie (typy na stronie: breadcrumblist, itemlist)
   - ik.pl: brak danych o cenie (typy na stronie: breadcrumblist, localbusiness)
   - gastromania.pl: brak wymaganych slow (force, axs, right) - pomijam
   - dcfoto.pl: brak wymaganych slow (force, axs, right) - pomijam
@@ -1094,7 +1100,7 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
   - cyklozitny.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - cycli.cz: brak wymaganych slow (right) - pomijam
+  - cycli.cz: blad pobierania (ConnectTimeout)
   - ccache.cc: waluta USD poza dozwolonym regionem - pomijam
   - fnac.com: HTTP 403 (przegladarka tez nie przeszla)
   - tradergames.fr: HTTP 403 (przegladarka tez nie przeszla)
@@ -1112,11 +1118,11 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - bike24.nl: pomijam (blokada potwierdzona w tym runie)
   - outlet.wheelandsprocket.com: brak wymaganych slow (right) - pomijam
   - ascensionvelo.com: waluta CAD poza dozwolonym regionem - pomijam
-  + birk.no: 3621.0 NOK = 1459.26 PLN [EAN OK]
+  + birk.no: 3621.0 NOK = 1457.81 PLN [EAN OK]
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   - buycycle.com: brak wymaganych slow (force, right) - pomijam
   - gambacicli.com: brak wymaganych slow (force, right) - pomijam
-  + evolutionbikes.it: 289.9 EUR = 1259.47 PLN [EAN OK]
+  + evolutionbikes.it: 289.9 EUR = 1259.18 PLN [EAN OK]
   - nencinisport.it: pomijam (blokada potwierdzona w tym runie)
   - velonova.ee: pomijam (blokada potwierdzona w tym runie)
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
@@ -1178,14 +1184,14 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
   - leboncoin.fr: HTTP 403 (przegladarka tez nie przeszla)
-  + materiel-velo.com: 314.6 EUR = 1366.78 PLN [EAN OK]
+  + materiel-velo.com: 314.6 EUR = 1366.47 PLN [EAN OK]
   - gambacicli.fr: pomijam (blokada potwierdzona w tym runie)
   - materiel-velo.com: niedostepny (outofstock)
   - werideoncycling-shop.com: brak wymaganych slow (right) - pomijam
   - wareega.com: brak danych o cenie (typy na stronie: breadcrumblist, http://schema.org/product)
   - salden.nl: brak wymaganych slow (right) - pomijam
   - cyclesdupont.fr: brak wymaganych slow (right) - pomijam
-  + rosebikes.de: 279.95 EUR = 1216.24 PLN [EAN OK]
+  + rosebikes.de: 279.95 EUR = 1215.96 PLN [EAN OK]
   - bikesnboards.de: brak wymaganych slow (right) - pomijam
   - ibkbike.de: HTTP 404
   - ibksport.ch: HTTP 404
@@ -1195,7 +1201,7 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - rotoruabike.fr: brak wymaganych slow (right) - pomijam
   - ibkbike.fr: HTTP 404
   - ciclesab.com: brak wymaganych slow (right) - pomijam
-  + rosebikes.nl: 284.7 EUR = 1236.88 PLN [EAN OK]
+  + rosebikes.nl: 284.7 EUR = 1236.59 PLN [EAN OK]
   - velodrom.cc: waluta USD poza dozwolonym regionem - pomijam
   - competitivecyclist.com: HTTP 202
   - racycles.com: waluta USD poza dozwolonym regionem - pomijam
@@ -1206,7 +1212,7 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
   - meinhartje.com: brak wymaganych slow (force, axs, right) - pomijam
   - powermetercity.com: pomijam (blokada potwierdzona w tym runie)
-  - fahrrad-teile.shop: 688.56 PLN poza widelkami [1000.0..2600.0] - pomijam
+  - fahrrad-teile.shop: 688.4 PLN poza widelkami [1000.0..2600.0] - pomijam
   - bikable.de: brak danych o cenie (typy na stronie: breadcrumblist)
   - koloshop24.de: brak wymaganych slow (right) - pomijam
   - bike-mailorder.com: brak wymaganych slow (right) - pomijam
@@ -1224,7 +1230,7 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - bike-mailorder.com: brak wymaganych slow (force) - pomijam
   + mtbiker.it: blokada ominieta headless Chromium
   - mtbiker.it: brak danych o cenie (typy na stronie: breadcrumblist, collectionpage)
-  + rotoruabike.com: 317.38 EUR = 1378.86 PLN [EAN niepotwierdzony]
+  + rotoruabike.com: 317.38 EUR = 1378.54 PLN [EAN OK]
   - ibksport.es: HTTP 404
   - bike24.es: pomijam (blokada potwierdzona w tym runie)
   - idealo.es: pomijam (blokada potwierdzona w tym runie)
@@ -1251,7 +1257,7 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - performancebike.com: niedostepny (outofstock)
   - kleinanzeigen.de: pomijam (blokada potwierdzona w tym runie)
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
-  + velomania.ch: 269.9 CHF = 1243.4 PLN [EAN niepotwierdzony]
+  + velomania.ch: 269.9 CHF = 1240.68 PLN [EAN niepotwierdzony]
   - olx.pl: pomijam (blokada potwierdzona w tym runie)
   - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - sanferbike.com: pomijam (blokada potwierdzona w tym runie)
@@ -1324,7 +1330,7 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - bike24.be: pomijam (blokada potwierdzona w tym runie)
   - nanobike.de: brak wymaganych slow (right) - pomijam
   - strefasportu.pl: brak danych o cenie (typy na stronie: breadcrumblist, http://schema.org/product, onlinestore, product)
-  + rosebikes.it: 287.01 EUR = 1246.91 PLN [EAN OK]
+  + rosebikes.it: 287.01 EUR = 1246.63 PLN [EAN OK]
   - meinhartje.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - cykelpartner.dk: brak wymaganych slow (right) - pomijam
   - performancebike.com: brak danych o cenie (typy na stronie: breadcrumblist)
@@ -1348,16 +1354,16 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - competitivecyclist.com: HTTP 202
   ~ bikebling.com: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
   - thelostco.com: waluta USD poza dozwolonym regionem - pomijam
-  + bike-discount.de: 324.99 EUR = 1411.92 PLN [EAN OK]
+  + bike-discount.de: 324.99 EUR = 1411.59 PLN [EAN OK]
   - bikko.lv: brak wymaganych slow (x0, cassette) - pomijam
   - biketiresdirect.com: waluta USD poza dozwolonym regionem - pomijam
   - zbozi.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
   ~ performancebike.com: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
   - worldwidecyclery.com: waluta USD poza dozwolonym regionem - pomijam
-  + alltricks.com: 319.99 EUR = 1390.2 PLN [EAN OK]
+  + alltricks.com: 324.99 EUR = 1411.59 PLN [EAN OK]
   - amazon.com.be: brak danych o cenie (typy na stronie: brak JSON-LD)
-  + bike-components.de: 319.0 EUR = 1385.9 PLN [EAN OK]
+  + bike-components.de: 319.0 EUR = 1385.58 PLN [EAN OK]
   - bluewheel.com: waluta USD poza dozwolonym regionem - pomijam
   ~ bikemart.com: brak ceny, ale znalazlem 2 link(i) produktowe - sprawdzam
   - en.wikipedia.org: brak danych o cenie (typy na stronie: article)
@@ -1365,8 +1371,8 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - trekbikes.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   - thundermountainbikes.com: waluta USD poza dozwolonym regionem - pomijam
-  + alltricks.de: 319.99 EUR = 1390.2 PLN [EAN OK]
-  + mount7.com: 480.0 EUR = 2085.36 PLN [EAN OK]
+  + alltricks.de: 324.99 EUR = 1411.59 PLN [EAN OK]
+  + mount7.com: 480.0 EUR = 2084.88 PLN [EAN OK]
   - fanatikbike.com: waluta USD poza dozwolonym regionem - pomijam
   - bikestacja.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   ! przegladarka: blad (Error) - restart Chromium
@@ -1390,51 +1396,51 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - worldwidecyclery.com: brak danych o cenie (typy na stronie: breadcrumblist, localbusiness, organization)
   - probikesupply.com: waluta USD poza dozwolonym regionem - pomijam
   - lordgun.com: pomijam (blokada potwierdzona w tym runie)
-  + mantel.com: 331.72 EUR = 1441.16 PLN [EAN OK]
-  + bike-discount.de: 324.99 EUR = 1411.92 PLN [EAN OK]
+  + mantel.com: 331.72 EUR = 1440.83 PLN [EAN OK]
+  + bike-discount.de: 324.99 EUR = 1411.59 PLN [EAN OK]
   - decathlon.it: HTTP 403 (przegladarka tez nie przeszla)
-  + bikesportadventure.com: 336.0 EUR = 1459.75 PLN [EAN OK]
+  + bikesportadventure.com: 336.0 EUR = 1459.42 PLN [EAN OK]
   - evolutionbikes.fr: brak wymaganych slow (cassette) - pomijam
   - gambacicli.com: brak wymaganych slow (cassette) - pomijam
   - trainerroad.com: brak danych o cenie (typy na stronie: qapage)
   - vitalmtb.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  + bike-components.de: 319.0 EUR = 1385.9 PLN [EAN OK]
+  + bike-components.de: 319.0 EUR = 1385.58 PLN [EAN OK]
   - raaad.de: niedostepny (outofstock)
   - lordgun.de: pomijam (blokada potwierdzona w tym runie)
-  + bike-discount.de: 324.99 EUR = 1411.92 PLN [EAN OK]
+  + bike-discount.de: 324.99 EUR = 1411.59 PLN [EAN OK]
   - deporvillage.de: pomijam (blokada potwierdzona w tym runie)
   - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   + kastor-bike.pl: 1536.99 PLN = 1536.99 PLN [EAN OK]
   + centrumrowerowe.pl: 1519.0 PLN = 1519.0 PLN [EAN OK]
   - bikefast.pl: blad pobierania (ConnectTimeout)
-  + sanvit.com: 480.0 EUR = 2085.36 PLN [EAN niepotwierdzony]
-  + evolutionbikes.it: 314.9 EUR = 1368.08 PLN [EAN OK]
+  + sanvit.com: 480.0 EUR = 2084.88 PLN [EAN niepotwierdzony]
+  + evolutionbikes.it: 314.9 EUR = 1367.77 PLN [EAN OK]
   - clcbike.com: brak wymaganych slow (eagle, cassette) - pomijam
-  + alltricks.it: 319.99 EUR = 1390.2 PLN [EAN OK]
+  + alltricks.it: 324.99 EUR = 1411.59 PLN [EAN OK]
   - probikeshop.it: brak wymaganych slow (x0) - pomijam
   - kupkolo.cz: brak wymaganych slow (cassette) - pomijam
   - cyklozitny.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
   - kazety.heureka.cz: HTTP 403 (przegladarka tez nie przeszla)
   - koloshop.cz: brak wymaganych slow (x0, cassette) - pomijam
-  - buycycle.com: 951.45 PLN poza widelkami [1300.0..2700.0] - pomijam
+  - buycycle.com: 951.23 PLN poza widelkami [1300.0..2700.0] - pomijam
   - mtbstupak.cz: brak wymaganych slow (cassette) - pomijam
-  + alltricks.fr: 319.99 EUR = 1390.2 PLN [EAN OK]
+  + alltricks.fr: 324.99 EUR = 1411.59 PLN [EAN OK]
   - probikeshop.fr: brak wymaganych slow (x0) - pomijam
-  + velostation.com: 480.0 EUR = 2085.36 PLN [EAN OK]
+  + velostation.com: 480.0 EUR = 2084.88 PLN [EAN OK]
   - lordgunbicycles.fr: pomijam (blokada potwierdzona w tym runie)
-  + culturevelo.com: 480.0 EUR = 2085.36 PLN [EAN OK]
+  + culturevelo.com: 480.0 EUR = 2084.88 PLN [EAN OK]
   - cycles-zanet.com: niedostepny (backorder)
-  + bike-components.de: 319.0 EUR = 1385.9 PLN [EAN OK]
+  + bike-components.de: 319.0 EUR = 1385.58 PLN [EAN OK]
   - hispanoracing.com: niedostepny (outofstock)
   - rosebikes.es: niedostepny (soldout)
   - idealo.es: pomijam (blokada potwierdzona w tym runie)
-  + alltricks.es: 319.99 EUR = 1390.2 PLN [EAN OK]
+  + alltricks.es: 324.99 EUR = 1411.59 PLN [EAN OK]
   - lordgunbicycles.es: pomijam (blokada potwierdzona w tym runie)
   - ebike24.es: brak wymaganych slow (x0) - pomijam
   - fabreguesbicicletas.com: pomijam (blokada potwierdzona w tym runie)
   - rosebikes.nl: niedostepny (soldout)
-  + alltricks.nl: 319.99 EUR = 1390.2 PLN [EAN OK]
-  + mantel.com: 329.0 EUR = 1429.34 PLN [EAN OK]
+  + alltricks.nl: 324.99 EUR = 1411.59 PLN [EAN OK]
+  + mantel.com: 329.0 EUR = 1429.01 PLN [EAN OK]
   - canyon.com: brak wymaganych slow (eagle) - pomijam
   - rullensfietsen.nl: niedostepny (backorder)
   - bike24.be: pomijam (blokada potwierdzona w tym runie)
@@ -1455,7 +1461,7 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - canyon.com: brak wymaganych slow (eagle) - pomijam
   - usedbikes-ob.de: HTTP 404
   - probikeshop.de: HTTP 404
-  + premium-bikeshop.de: 439.0 EUR = 1907.24 PLN [EAN OK]
+  + premium-bikeshop.de: 439.0 EUR = 1906.8 PLN [EAN OK]
   - bikeimport.ch: brak wymaganych slow (x0) - pomijam
   + cozmobike.pl: 1450.0 PLN = 1450.0 PLN [EAN niepotwierdzony]
   - power-bikes.pl: HTTP 403 (przegladarka tez nie przeszla)
@@ -1474,18 +1480,18 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - mytopbike.com: niedostepny (outofstock)
   - grintacycling.nl: brak wymaganych slow (cassette) - pomijam
   - shop.bikenation.nl: brak wymaganych slow (cassette) - pomijam
-  + bike-components.de: 319.0 EUR = 1385.9 PLN [EAN OK]
+  + bike-components.de: 319.0 EUR = 1385.58 PLN [EAN OK]
   - lisalolasanchez.com: brak danych o cenie (typy na stronie: person, website)
-  + bike-components.de: 319.0 EUR = 1385.9 PLN [EAN OK]
+  + bike-components.de: 319.0 EUR = 1385.58 PLN [EAN OK]
   - merlincycles.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  + tnc-hamburg.com: 346.9 EUR = 1507.11 PLN [EAN OK]
+  + tnc-hamburg.com: 346.9 EUR = 1506.76 PLN [EAN OK]
   + cozmobike.pl: 1824.0 PLN = 1824.0 PLN [EAN niepotwierdzony]
   - goride.pl: brak danych o cenie (typy na stronie: store)
   - zumbistore.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   + 2wheels.pl: 1959.0 PLN = 1959.0 PLN [EAN OK]
   - bikestacja.pl: niedostepny (outofstock)
   - deporvillage.pl: HTTP 403 (przegladarka tez nie przeszla)
-  - cingolanibikeshop.com: HTTP 404
+  - cingolanibikeshop.com: brak wymaganych slow (x0) - pomijam
   - evolutionbikes.it: brak wymaganych slow (cassette) - pomijam
   - probikeshop.it: brak wymaganych slow (cassette) - pomijam
   - all4cycling.com: niedostepny (outofstock)
@@ -1527,16 +1533,16 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - alfashirt.com: HTTP 404
   - kazety.heureka.cz: pomijam (blokada potwierdzona w tym runie)
   - powermetercity.com: pomijam (blokada potwierdzona w tym runie)
-  + bike-components.de: 319.0 EUR = 1385.9 PLN [EAN OK]
+  + bike-components.de: 319.0 EUR = 1385.58 PLN [EAN OK]
   + thebikevillage.com: blokada ominieta headless Chromium
-  + thebikevillage.com: 357.02 EUR = 1551.07 PLN [EAN OK]
+  + thebikevillage.com: 357.02 EUR = 1550.72 PLN [EAN OK]
   - calapes.com: brak wymaganych slow (cassette) - pomijam
   - pedalmoto.com: brak wymaganych slow (eagle) - pomijam
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   - power-bikes.pl: pomijam (blokada potwierdzona w tym runie)
   - bikester.nl: brak wymaganych slow (x0, eagle) - pomijam
   - probikeshop-nl.com: brak wymaganych slow (x0) - pomijam
-  + wheelproject.com: 410.0 EUR = 1781.25 PLN [EAN OK]
+  + wheelproject.com: 410.0 EUR = 1780.83 PLN [EAN OK]
   - centrumrowerowe.pl: brak wymaganych slow (x0) - pomijam
   - gambacicli.com: brak wymaganych slow (cassette) - pomijam
   + mtbiker.cz: blokada ominieta headless Chromium
@@ -1545,7 +1551,7 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - idealo.es: pomijam (blokada potwierdzona w tym runie)
   - bicispasaje.es: HTTP 403 (przegladarka tez nie przeszla)
   + 2wheels.pl: 1959.0 PLN = 1959.0 PLN [EAN OK]
-  + evelostore.com: 349.9 EUR = 1520.14 PLN [EAN OK]
+  + evelostore.com: 349.9 EUR = 1519.79 PLN [EAN OK]
   + centrumrowerowe.pl: 1519.0 PLN = 1519.0 PLN [EAN OK]
   - centrumrowerowe.pl: brak wymaganych slow (cassette) - pomijam
   - mtbiker.pl: pomijam (blokada potwierdzona w tym runie)
@@ -1561,10 +1567,12 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - canyon.com: brak wymaganych slow (eagle) - pomijam
   - pepebike.cz: brak wymaganych slow (cassette) - pomijam
   - kazety.heureka.cz: pomijam (blokada potwierdzona w tym runie)
-  + rotoruabike.fr: 402.1 EUR = 1746.92 PLN [EAN niepotwierdzony]
+  + rotoruabike.fr: 402.1 EUR = 1746.52 PLN [EAN niepotwierdzony]
   - ebike24.fr: brak wymaganych slow (x0) - pomijam
   - maciag-offroad.fr: brak wymaganych slow (x0) - pomijam
+  ! przegladarka: blad (Error) - restart Chromium
   - hb61bikes.com: HTTP 403 (przegladarka tez nie przeszla)
+[BROWSER] Start headless Chromium (fallback na blokady botow)
   - deporvillage.nl: HTTP 403 (przegladarka tez nie przeszla)
   - velo-store.nl: brak wymaganych slow (cassette) - pomijam
   - quantavici.com: HTTP 402
@@ -1578,7 +1586,7 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - retezy.heureka.cz: pomijam (blokada potwierdzona w tym runie)
   - 123kolo.cz: brak wymaganych slow (cassette) - pomijam
   - cicloscabello.com: brak wymaganych slow (cassette) - pomijam
-  - rowerowaholandia.pl: niedostepny (outofstock)
+  + rowerowaholandia.pl: 1707.99 PLN = 1707.99 PLN [EAN OK]
   - kastor-bike.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - rowertour.com: brak wymaganych slow (cassette) - pomijam
   - savoldellibike.com: brak danych o cenie (typy na stronie: organization, website)
@@ -1626,14 +1634,14 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - thelostco.com: brak wymaganych slow (cassette) - pomijam
   - prodieselparts.com: HTTP 404
   - dieguteseiteberlin.de: HTTP 404
-  - ridewill.com: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - ridewill.com: HTTP 404
   - thelostco.com: brak wymaganych slow (cassette) - pomijam
   - community.mtb-mag.com: HTTP 403 (przegladarka tez nie przeszla)
   - bikebling.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - performancebike.com: brak wymaganych slow (x0) - pomijam
   - performancebike.com: niedostepny (outofstock)
   - performancebike.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - bikemart.com: brak wymaganych slow (x0, eagle) - pomijam
+  - bikemart.com: waluta USD poza dozwolonym regionem - pomijam
   - bikemart.com: brak wymaganych slow (x0, eagle) - pomijam
 [MONITOR] GX-DERAILLEUR: sprawdzam 380 URL-i
   - benscycle.com: HTTP 404
@@ -1670,7 +1678,7 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - piwnicarowerowa.pl: brak wymaganych slow (transmission) - pomijam
   - bike24.pl: pomijam (blokada potwierdzona w tym runie)
   - 2wheels.pl: brak danych o cenie (typy na stronie: organization, website)
-  - thokbikes.com: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - thokbikes.com: HTTP 404
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
   - buycycle.com: brak wymaganych slow (transmission) - pomijam
   - en.wikipedia.org: brak danych o cenie (typy na stronie: article)
@@ -1683,7 +1691,7 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
   - bike24.at: pomijam (blokada potwierdzona w tym runie)
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
-  - bike-components.de: 1303.31 PLN poza widelkami [1400.0..2700.0] - pomijam
+  - bike-components.de: 1303.01 PLN poza widelkami [1400.0..2700.0] - pomijam
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
   - bike24.at: pomijam (blokada potwierdzona w tym runie)
   - bike24.lu: pomijam (blokada potwierdzona w tym runie)
@@ -1697,17 +1705,17 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - bike-components.de: brak wymaganych slow (transmission) - pomijam
   - bike-components.de: brak wymaganych slow (gx) - pomijam
   - bike-components.de: brak wymaganych slow (gx) - pomijam
-  + super-bike.pl: 1499.0 PLN = 1499.0 PLN [EAN OK]
+  - super-bike.pl: niedostepny (outofstock)
   - goride.pl: brak danych o cenie (typy na stronie: store)
   - probikeshop.it: brak wymaganych slow (transmission) - pomijam
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
   - alltricks.it: brak wymaganych slow (transmission) - pomijam
   - bike-prof.de: brak danych o cenie (typy na stronie: brak JSON-LD)
-  + sportokay.com: 479.99 EUR = 2085.32 PLN [EAN OK]
-  - bike-discount.de: 1303.31 PLN poza widelkami [1400.0..2700.0] - pomijam
+  + sportokay.com: 479.99 EUR = 2084.84 PLN [EAN OK]
+  - bike-discount.de: 1303.01 PLN poza widelkami [1400.0..2700.0] - pomijam
   - bike-components.de: brak wymaganych slow (transmission) - pomijam
   - actionsports.de: brak wymaganych slow (transmission) - pomijam
-  + fahrrad.de: 389.99 EUR = 1694.31 PLN [EAN OK]
+  + fahrrad.de: 389.99 EUR = 1693.92 PLN [EAN OK]
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   - katalog.pbspolska.eu: brak danych o cenie (typy na stronie: brak JSON-LD)
   - premiumlux.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -1717,7 +1725,7 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - magboss.pl: brak wymaganych slow (gx, transmission, derailleur) - pomijam
   - 3mk.pl: brak wymaganych slow (gx, transmission, derailleur) - pomijam
   - morele.net: brak wymaganych slow (gx, transmission, derailleur) - pomijam
-  + rosebikes.it: 353.65 EUR = 1536.43 PLN [EAN OK]
+  + rosebikes.it: 353.65 EUR = 1536.08 PLN [EAN OK]
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
   - alltricks.it: brak wymaganych slow (transmission, derailleur) - pomijam
   - buycycle.com: brak wymaganych slow (transmission, derailleur) - pomijam
@@ -1728,7 +1736,7 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - koloshop.cz: brak danych o cenie (typy na stronie: breadcrumblist, collectionpage, itemlist)
   + mtbiker.cz: blokada ominieta headless Chromium
   - mtbiker.cz: brak wymaganych slow (transmission, derailleur) - pomijam
-  - bike-discount.de: 1303.31 PLN poza widelkami [1400.0..2700.0] - pomijam
+  - bike-discount.de: 1303.01 PLN poza widelkami [1400.0..2700.0] - pomijam
   - bikegallery.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
   - cyklozitny.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
   - bike24.fr: pomijam (blokada potwierdzona w tym runie)
@@ -1739,17 +1747,17 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   + thebikevillage.com: blokada ominieta headless Chromium
   - thebikevillage.com: brak wymaganych slow (transmission, derailleur) - pomijam
   - ibksport.com: HTTP 404
-  + rosebikes.nl: 350.8 EUR = 1524.05 PLN [EAN OK]
+  + rosebikes.nl: 350.8 EUR = 1523.7 PLN [EAN OK]
   - rat-bikes.eu: HTTP 403 (przegladarka tez nie przeszla)
   - deltabikes.nl: brak wymaganych slow (transmission) - pomijam
-  + sportokay.com: 479.99 EUR = 2085.32 PLN [EAN OK]
+  + sportokay.com: 479.99 EUR = 2084.84 PLN [EAN OK]
   - mantel.com: brak wymaganych slow (transmission) - pomijam
   - velonova.lt: pomijam (blokada potwierdzona w tym runie)
   - bike24.nl: pomijam (blokada potwierdzona w tym runie)
   - truebicycles.com: brak wymaganych slow (transmission, derailleur) - pomijam
   - 2peaksbikes.com: HTTP 404
   - yawpcyclery.com: blad pobierania (SSLError)
-  - bike-components.de: 1303.31 PLN poza widelkami [1400.0..2700.0] - pomijam
+  - bike-components.de: 1303.01 PLN poza widelkami [1400.0..2700.0] - pomijam
   - merlincycles.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - mikesbikes.com: brak wymaganych slow (transmission) - pomijam
   - velofactory.ch: pomijam (blokada potwierdzona w tym runie)
@@ -1757,10 +1765,10 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - bikestacja.pl: brak wymaganych slow (transmission) - pomijam
   - bike24.pl: pomijam (blokada potwierdzona w tym runie)
   - centrumrowerowe.pl: brak wymaganych slow (derailleur) - pomijam
-  + rosebikes.pl: 344.95 EUR = 1498.64 PLN [EAN OK]
+  + rosebikes.pl: 344.95 EUR = 1498.29 PLN [EAN OK]
   - all4cycling.com: brak wymaganych slow (transmission) - pomijam
   - mondobicistore.com: brak wymaganych slow (transmission, derailleur) - pomijam
-  - fitness-zone.cz: 539.8 PLN poza widelkami [1400.0..2700.0] - pomijam
+  - fitness-zone.cz: 539.5 PLN poza widelkami [1400.0..2700.0] - pomijam
   - krabcycles.cz: brak wymaganych slow (transmission, derailleur) - pomijam
   - prehazovacky.heureka.cz: HTTP 403 (przegladarka tez nie przeszla)
   - kolokram.cz: brak wymaganych slow (derailleur) - pomijam
@@ -1797,12 +1805,12 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - flybike.cz: brak wymaganych slow (derailleur) - pomijam
   - idealo.fr: pomijam (blokada potwierdzona w tym runie)
   - bike24.fr: pomijam (blokada potwierdzona w tym runie)
-  - buycycle.com: 1086.12 PLN poza widelkami [1400.0..2700.0] - pomijam
+  - buycycle.com: 1085.88 PLN poza widelkami [1400.0..2700.0] - pomijam
   + fullattack.cc: blokada ominieta headless Chromium
   - fullattack.cc: brak danych o cenie (typy na stronie: article, breadcrumblist, imageobject, person, webpage, website)
   - bike-mailorder.com: brak wymaganych slow (transmission) - pomijam
   - alltricks.fr: brak wymaganych slow (transmission, derailleur) - pomijam
-  - bike-components.de: 1303.31 PLN poza widelkami [1400.0..2700.0] - pomijam
+  - bike-components.de: 1303.01 PLN poza widelkami [1400.0..2700.0] - pomijam
   - idealo.es: pomijam (blokada potwierdzona w tym runie)
   - alltricks.es: brak wymaganych slow (transmission, derailleur) - pomijam
   - hispanoracing.com: brak wymaganych slow (transmission, derailleur) - pomijam
@@ -1813,7 +1821,7 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - fiets.nl: HTTP 405
   - jensonusa.com: pomijam (blokada potwierdzona w tym runie)
   + centrumrowerowe.pl: 1749.0 PLN = 1749.0 PLN [EAN OK]
-  + super-bike.pl: 1499.0 PLN = 1499.0 PLN [EAN OK]
+  - super-bike.pl: niedostepny (outofstock)
   - rowertour.com: brak danych o cenie (typy na stronie: breadcrumblist, itemlist, webpage)
   - centrumrowerowe.pl: brak wymaganych slow (gx) - pomijam
   - velo-store.pl: brak wymaganych slow (transmission) - pomijam
@@ -1826,9 +1834,9 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   + kastor-bike.pl: 1585.99 PLN = 1585.99 PLN [EAN OK]
   - rowerowy.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - deporvillage.pl: pomijam (blokada potwierdzona w tym runie)
-  - thokbikes.com: 285.87 PLN poza widelkami [1400.0..2700.0] - pomijam
-  - bike-discount.de: 1303.31 PLN poza widelkami [1400.0..2700.0] - pomijam
-  + sportokay.com: 479.99 EUR = 2085.32 PLN [EAN OK]
+  - thokbikes.com: HTTP 404
+  - bike-discount.de: 1303.01 PLN poza widelkami [1400.0..2700.0] - pomijam
+  + sportokay.com: 479.99 EUR = 2084.84 PLN [EAN OK]
   - bike-discount.de: HTTP 404
   - ebikestore.shop: brak wymaganych slow (transmission) - pomijam
   - mantel.com: brak wymaganych slow (transmission) - pomijam
@@ -1859,7 +1867,7 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - bureau-vallee.fr: brak wymaganych slow (gx, transmission, derailleur) - pomijam
   - weldom.fr: HTTP 403 (przegladarka tez nie przeszla)
   - 123comparer.fr: brak wymaganych slow (gx, transmission, derailleur) - pomijam
-  + sportokay.com: 479.99 EUR = 2085.32 PLN [EAN OK]
+  + sportokay.com: 479.99 EUR = 2084.84 PLN [EAN OK]
   - bike24.es: pomijam (blokada potwierdzona w tym runie)
   - ebike24.es: brak wymaganych slow (transmission, derailleur) - pomijam
   - alltricks.es: brak wymaganych slow (transmission, derailleur) - pomijam
@@ -1869,7 +1877,7 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - productvraag.nl: brak wymaganych slow (transmission) - pomijam
   - redrockbicycle.com: brak wymaganych slow (transmission) - pomijam
   - booniesbikes.com: brak wymaganych slow (transmission) - pomijam
-  - ofbike.cz: 122.02 PLN poza widelkami [1400.0..2700.0] - pomijam
+  - ofbike.cz: 121.95 PLN poza widelkami [1400.0..2700.0] - pomijam
   - vojomag.com: brak danych o cenie (typy na stronie: article, breadcrumblist, imageobject, organization, person, webpage, website)
   - probikeshop.fr: brak wymaganych slow (transmission, derailleur) - pomijam
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
@@ -1906,14 +1914,14 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   + bikegunner.it: blokada ominieta headless Chromium
   - bikegunner.it: brak wymaganych slow (derailleur) - pomijam
   - ridewill.it: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - bike-discount.de: 1303.31 PLN poza widelkami [1400.0..2700.0] - pomijam
+  - bike-discount.de: 1303.01 PLN poza widelkami [1400.0..2700.0] - pomijam
   - actionsports.de: brak wymaganych slow (transmission, derailleur) - pomijam
-  - silverbackbikes.de: brak danych o cenie (typy na stronie: brak JSON-LD)
+  - silverbackbikes.de: brak wymaganych slow (transmission) - pomijam
   - bikestacja.pl: brak wymaganych slow (transmission) - pomijam
   - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - sklepprosport.pl: brak wymaganych slow (transmission) - pomijam
   - zumbistore.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
-  + thokbikes.com: 349.0 EUR = 1516.23 PLN [EAN niepotwierdzony]
+  + thokbikes.com: 349.0 EUR = 1515.88 PLN [EAN niepotwierdzony]
   - bikero.cz: brak danych o cenie (typy na stronie: breadcrumblist, organization, website)
   - cyklozitny.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
   - 123kolo.cz: brak wymaganych slow (derailleur) - pomijam
@@ -2051,54 +2059,56 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - thundermountainbikes.com: waluta USD poza dozwolonym regionem - pomijam
   - velofactory.ch: pomijam (blokada potwierdzona w tym runie)
   - treefortbikes.com: waluta USD poza dozwolonym regionem - pomijam
-  - bike-discount.de: 304.07 PLN poza widelkami [350.0..900.0] - pomijam
+  - bike-discount.de: 304.0 PLN poza widelkami [350.0..900.0] - pomijam
   - vitalbikechains.com: brak wymaganych slow (flattop) - pomijam
-  + bikestacja.pl: 82.59 EUR = 358.81 PLN [EAN OK]
+  + bikestacja.pl: 82.61 EUR = 358.82 PLN [EAN OK]
   - en.wiktionary.org: brak danych o cenie (typy na stronie: brak JSON-LD)
   - merriam-webster.com: brak danych o cenie (typy na stronie: audioobject, book, definedterm, definedtermset, webpage, website)
   - catena.com: brak danych o cenie (typy na stronie: organization, website)
-  - catenagroup.es: brak danych o cenie (typy na stronie: breadcrumblist, organization, webpage, website)
+  - catenagroup.es: blad pobierania (ConnectTimeout)
   - catena-x.net: brak danych o cenie (typy na stronie: breadcrumblist, webpage, website)
   - x.com: HTTP 403 (przegladarka tez nie przeszla)
   - en.wikipedia.org: brak danych o cenie (typy na stronie: article)
-  - linkedin.com: brak danych o cenie (typy na stronie: discussionforumposting, organization)
+  ~ linkedin.com: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
   - catenabible.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - noboundariessport.com: brak wymaganych slow (flattop) - pomijam
   - stealthtahoe.com: waluta USD poza dozwolonym regionem - pomijam
   ~ bikebling.com: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
-  + ebike24.fr: 100.74 EUR = 437.66 PLN [EAN OK]
+  + ebike24.fr: 100.74 EUR = 437.56 PLN [EAN OK]
   - hollandbikeshop.com: niedostepny (outofstock)
   - outlet.wheelandsprocket.com: waluta USD poza dozwolonym regionem - pomijam
   - ultimatesportstrinidad.com: waluta USD poza dozwolonym regionem - pomijam
-  + cavalierebici.it: 98.32 EUR = 427.15 PLN [EAN OK]
+  + cavalierebici.it: 98.32 EUR = 427.05 PLN [EAN OK]
+  ! przegladarka: blad (Error) - restart Chromium
   - thebikevillage.com: blokada botow (przegladarka tez nie przeszla)
   ~ worldwidecyclery.com: brak ceny, ale znalazlem 3 link(i) produktowe - sprawdzam
-  ~ bikemart.com: brak ceny, ale znalazlem 2 link(i) produktowe - sprawdzam
+  ~ bikemart.com: brak ceny, ale znalazlem 1 link(i) produktowe - sprawdzam
   - en.wikipedia.org: brak danych o cenie (typy na stronie: article)
   - bikesonline.com: brak danych o cenie (typy na stronie: organization)
   - theproscloset.com: brak danych o cenie (typy na stronie: bikestore, breadcrumblist, webpage)
-  + all4cycling.com: 84.9 EUR = 368.85 PLN [EAN OK]
+  + all4cycling.com: 84.9 EUR = 368.76 PLN [EAN OK]
   - lordgunbicycles.com: pomijam (blokada potwierdzona w tym runie)
   - quantavici.com: HTTP 402
-  - bike-discount.de: 304.07 PLN poza widelkami [350.0..900.0] - pomijam
+  - bike-discount.de: 304.0 PLN poza widelkami [350.0..900.0] - pomijam
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
   - benscycle.com: HTTP 404
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
   - ibksport.de: HTTP 404
-  - bike-discount.de: 304.07 PLN poza widelkami [350.0..900.0] - pomijam
+  - bike-discount.de: 304.0 PLN poza widelkami [350.0..900.0] - pomijam
   - best-bike-parts.de: HTTP 404
+[BROWSER] Start headless Chromium (fallback na blokady botow)
   - tuning-bikes.de: HTTP 403 (przegladarka tez nie przeszla)
   - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   + kastor-bike.pl: 361.99 PLN = 361.99 PLN [EAN OK]
   - rosebikes.nl: brak wymaganych slow (flattop) - pomijam
   + bikestacja.pl: 358.8 PLN = 358.8 PLN [EAN OK]
   - cingolanibikeshop.com: brak wymaganych slow (flattop) - pomijam
-  - bikeshopping.it: 349.17 PLN poza widelkami [350.0..900.0] - pomijam
+  - bikeshopping.it: 349.09 PLN poza widelkami [350.0..900.0] - pomijam
   - bicispasaje.es: pomijam (blokada potwierdzona w tym runie)
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
-  + kupkolo.cz: 1970.0 CZK = 352.24 PLN [EAN OK]
-  + bikesportul.cz: 2999.0 CZK = 536.22 PLN [EAN OK]
-  - 123kolo.cz: 348.48 PLN poza widelkami [350.0..900.0] - pomijam
+  + kupkolo.cz: 1970.0 CZK = 352.04 PLN [EAN OK]
+  + bikesportul.cz: 2999.0 CZK = 535.92 PLN [EAN OK]
+  - 123kolo.cz: 348.29 PLN poza widelkami [350.0..900.0] - pomijam
   - ibkbike.com: HTTP 404
   - fnac.com: pomijam (blokada potwierdzona w tym runie)
   - 123comparer.fr: brak wymaganych slow (x0, flattop, chain) - pomijam
@@ -2115,7 +2125,7 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - vadebicis.com: HTTP 403 (przegladarka tez nie przeszla)
   - bicicletasapedales.com: HTTP 403 (przegladarka tez nie przeszla)
   - ibksport.es: HTTP 404
-  - trekdonostia.com: brak wymaganych slow (flattop) - pomijam
+  - trekdonostia.com: blad pobierania (ConnectionError)
   - hollandbikeshop.com: niedostepny (outofstock)
   - truebicycles.com: brak wymaganych slow (flattop, chain) - pomijam
   - tweekscycles.com: brak wymaganych slow (flattop) - pomijam
@@ -2124,10 +2134,10 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - centrumrowerowe.pl: brak wymaganych slow (flattop) - pomijam
   - zumbistore.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - merlincycles.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  + spoke.cz: 2389.0 CZK = 427.15 PLN [EAN OK]
+  + spoke.cz: 2299.0 CZK = 410.83 PLN [EAN OK]
   - ccache.cc: brak danych o cenie (typy na stronie: organization)
   - alltricks.fr: brak wymaganych slow (flattop) - pomijam
-  + all4cycling.com: 84.9 EUR = 368.85 PLN [EAN OK]
+  - all4cycling.com: niedostepny (outofstock)
   - velofactory.ch: pomijam (blokada potwierdzona w tym runie)
   - idealo.es: pomijam (blokada potwierdzona w tym runie)
   - tbsbikeparts.com: waluta USD poza dozwolonym regionem - pomijam
@@ -2142,40 +2152,40 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - stage21bikes.com: waluta USD poza dozwolonym regionem - pomijam
   - idealo.at: HTTP 403 (przegladarka tez nie przeszla)
   - alutech-cycles.com: HTTP 404
-  + all4cycling.com: 84.9 EUR = 368.85 PLN [EAN OK]
-  + elektrofahrrad24.de: 99.9 EUR = 434.02 PLN [EAN OK]
+  - all4cycling.com: niedostepny (outofstock)
+  + elektrofahrrad24.de: 99.9 EUR = 433.92 PLN [EAN OK]
   - bikedirection.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - bike-mailorder.com: 282.39 PLN poza widelkami [350.0..900.0] - pomijam
+  - bike-mailorder.com: 282.33 PLN poza widelkami [350.0..900.0] - pomijam
   - gambacicli.com: niedostepny (outofstock)
   - retezy.heureka.cz: pomijam (blokada potwierdzona w tym runie)
-  + sportokay.com: 99.99 EUR = 434.41 PLN [EAN OK]
+  + sportokay.com: 99.99 EUR = 434.31 PLN [EAN OK]
   - lordgunbicycles.fr: pomijam (blokada potwierdzona w tym runie)
-  + bike-mailorder.com: 80.83 EUR = 351.17 PLN [EAN OK]
+  + bike-mailorder.com: 80.83 EUR = 351.09 PLN [EAN OK]
   - pedalmoto.com: niedostepny (outofstock)
-  - bike-discount.de: 304.07 PLN poza widelkami [350.0..900.0] - pomijam
+  - bike-discount.de: 304.0 PLN poza widelkami [350.0..900.0] - pomijam
   - fabreguesbicicletas.com: pomijam (blokada potwierdzona w tym runie)
   - bike24.es: pomijam (blokada potwierdzona w tym runie)
-  + mount7.com: 96.99 EUR = 421.37 PLN [EAN OK]
-  - bike-mailorder.com: 345.34 PLN poza widelkami [350.0..900.0] - pomijam
-  + sportokay.com: 99.99 EUR = 434.41 PLN [EAN OK]
+  + mount7.com: 96.99 EUR = 421.28 PLN [EAN OK]
+  - bike-mailorder.com: 345.26 PLN poza widelkami [350.0..900.0] - pomijam
+  + sportokay.com: 99.99 EUR = 434.31 PLN [EAN OK]
   - goodsport.pl: brak wymaganych slow (flattop) - pomijam
   - sklep.kadrzynski.pl: blad pobierania (ConnectTimeout)
   - rowertour.com: brak wymaganych slow (flattop) - pomijam
   - airbike.pl: brak danych o cenie (typy na stronie: breadcrumblist, http://schema.org/product, onlinestore, product)
-  + bike-store.it: 108.0 EUR = 469.21 PLN [EAN OK]
-  + becycleclub.it: 88.52 EUR = 384.58 PLN [EAN niepotwierdzony]
+  + bike-store.it: 108.0 EUR = 469.1 PLN [EAN OK]
+  + becycleclub.it: 88.52 EUR = 384.49 PLN [EAN niepotwierdzony]
   - lordgunbicycles.es: pomijam (blokada potwierdzona w tym runie)
   - wysepka.pl: 349.99 PLN poza widelkami [350.0..900.0] - pomijam
   - jensonusa.com: pomijam (blokada potwierdzona w tym runie)
   - ridewill.it: brak danych o cenie (typy na stronie: brak JSON-LD)
-  + all4cycling.com: 84.9 EUR = 368.85 PLN [EAN OK]
-  + probikeshop.it: 92.69 EUR = 402.69 PLN [EAN OK]
+  - all4cycling.com: niedostepny (outofstock)
+  + probikeshop.it: 92.69 EUR = 402.6 PLN [EAN OK]
   - bike24.it: pomijam (blokada potwierdzona w tym runie)
   - retezy.heureka.cz: pomijam (blokada potwierdzona w tym runie)
-  - bike-discount.de: 304.07 PLN poza widelkami [350.0..900.0] - pomijam
+  - bike-discount.de: 304.0 PLN poza widelkami [350.0..900.0] - pomijam
   - lamacycles.com: brak wymaganych slow (chain) - pomijam
   - bicispasaje.es: pomijam (blokada potwierdzona w tym runie)
-  + bici10.com: 90.31 EUR = 392.35 PLN [EAN OK]
+  + bici10.com: 90.31 EUR = 392.26 PLN [EAN OK]
   - ridewill.it: brak danych o cenie (typy na stronie: brak JSON-LD)
   - maciag-offroad.de: brak wymaganych slow (flattop) - pomijam
   - ibksport.de: HTTP 404
@@ -2199,9 +2209,9 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - velofactory.ch: pomijam (blokada potwierdzona w tym runie)
   - sledshedshop.com: waluta USD poza dozwolonym regionem - pomijam
   - labicicleta.net: brak wymaganych slow (flattop) - pomijam
-  + bike-mailorder.com: 80.83 EUR = 351.17 PLN [EAN OK]
-  + ftzshop.de: blokada ominieta headless Chromium
-  - ftzshop.de: niedostepny (outofstock)
+  + bike-mailorder.com: 80.83 EUR = 351.09 PLN [EAN OK]
+  ! przegladarka: blad (Error) - restart Chromium
+  - ftzshop.de: HTTP 429 (przegladarka tez nie przeszla)
   - bike24.at: pomijam (blokada potwierdzona w tym runie)
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
@@ -2213,43 +2223,44 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - raaad.de: niedostepny (outofstock)
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
   - bike24.at: pomijam (blokada potwierdzona w tym runie)
-  + tnc-hamburg.com: 84.9 EUR = 368.85 PLN [EAN OK]
+  + tnc-hamburg.com: 84.9 EUR = 368.76 PLN [EAN OK]
   - elektrofahrrad24.de: brak wymaganych slow (x0) - pomijam
   - elektrofahrrad24.de: brak wymaganych slow (x0) - pomijam
   - spectrumbike.cz: brak wymaganych slow (flattop, chain) - pomijam
-  - grofova.cz: HTTP 410
-  + probikeshop.fr: 89.99 EUR = 390.96 PLN [EAN OK]
+  - grofova.cz: blad pobierania (ConnectionError)
+  + probikeshop.fr: 89.99 EUR = 390.87 PLN [EAN OK]
   - bike24.pl: pomijam (blokada potwierdzona w tym runie)
-  + ebike24.es: 101.58 EUR = 441.31 PLN [EAN OK]
+  + ebike24.es: 101.58 EUR = 441.21 PLN [EAN OK]
   - francesconibike.com: waluta USD poza dozwolonym regionem - pomijam
   - sprint-rowery.pl: pomijam (blokada potwierdzona w tym runie)
-  + taddeistore.com: 102.0 EUR = 443.14 PLN [EAN niepotwierdzony]
+  + taddeistore.com: 102.0 EUR = 443.04 PLN [EAN niepotwierdzony]
   - gambacicli.fr: pomijam (blokada potwierdzona w tym runie)
   - bike-rs.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - bikesportadventure.com: brak danych o cenie (typy na stronie: organization)
-  + bikesportadventure.com: 84.0 EUR = 364.94 PLN [EAN OK]
+  + bikesportadventure.com: 84.0 EUR = 364.85 PLN [EAN OK]
   - ibksport.eu: HTTP 404
   - ibkbike.fr: HTTP 404
+[BROWSER] Start headless Chromium (fallback na blokady botow)
   - trodo.es: HTTP 403 (przegladarka tez nie przeszla)
   - ascensionvelo.com: waluta CAD poza dozwolonym regionem - pomijam
   - ibksport.com: HTTP 404
   - dtcreate.com: brak wymaganych slow (flattop) - pomijam
   - biodistrettolagodibolsena.it: brak danych o cenie (typy na stronie: breadcrumblist, imageobject, organization, webpage, website)
-  + sportokay.com: 99.99 EUR = 434.41 PLN [EAN OK]
-  - bike-mailorder.com: 282.39 PLN poza widelkami [350.0..900.0] - pomijam
-  + sportokay.com: 99.99 EUR = 434.41 PLN [EAN OK]
-  + bike-mailorder.com: 80.83 EUR = 351.17 PLN [EAN OK]
+  + sportokay.com: 99.99 EUR = 434.31 PLN [EAN OK]
+  - bike-mailorder.com: 282.33 PLN poza widelkami [350.0..900.0] - pomijam
+  + sportokay.com: 99.99 EUR = 434.31 PLN [EAN OK]
+  + bike-mailorder.com: 80.83 EUR = 351.09 PLN [EAN OK]
   - community.escapecollective.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - alutech-cycles.com: brak wymaganych slow (flattop) - pomijam
   - pianetamountainbike.it: brak danych o cenie (typy na stronie: newsarticle)
   - absolubike.fr: blad pobierania (ConnectTimeout)
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
-  - bike-mailorder.com: 1580.83 PLN poza widelkami [350.0..900.0] - pomijam
+  - bike-mailorder.com: 1586.42 PLN poza widelkami [350.0..900.0] - pomijam
   - merlincycles.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  + francesconibike.com: 82.91 EUR = 360.2 PLN [EAN OK]
-  - tudetic.com: 347.73 PLN poza widelkami [350.0..900.0] - pomijam
-  + francesconibike.com: 85.0 EUR = 369.28 PLN [EAN OK]
-  + bike-store.it: 108.0 EUR = 469.21 PLN [EAN OK]
+  + francesconibike.com: 82.91 EUR = 360.12 PLN [EAN OK]
+  - tudetic.com: 347.65 PLN poza widelkami [350.0..900.0] - pomijam
+  + francesconibike.com: 85.0 EUR = 369.2 PLN [EAN OK]
+  + bike-store.it: 108.0 EUR = 469.1 PLN [EAN OK]
   - bikesnboards.de: brak wymaganych slow (flattop) - pomijam
   - ibksport.de: HTTP 404
   - rei.com: pomijam (blokada potwierdzona w tym runie)
@@ -2269,11 +2280,11 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - wheelandsprocket.com: waluta USD poza dozwolonym regionem - pomijam
   - thepathbikeshop.com: waluta USD poza dozwolonym regionem - pomijam
   - bike-components.de: brak wymaganych slow (flattop) - pomijam
+  - linkedin.com: brak danych o cenie (typy na stronie: socialmediaposting)
   - bikebling.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - worldwidecyclery.com: brak wymaganych slow (x0) - pomijam
   - worldwidecyclery.com: brak wymaganych slow (x0) - pomijam
   - worldwidecyclery.com: brak wymaganych slow (x0, flattop) - pomijam
-  - bikemart.com: brak wymaganych slow (x0) - pomijam
   - bikemart.com: brak wymaganych slow (x0) - pomijam
 [MONITOR] XX-SL-POWERMETER: sprawdzam 304 URL-i
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
@@ -2316,22 +2327,22 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - jensonusa.com: pomijam (blokada potwierdzona w tym runie)
   - veloteile-schweiz.ch: brak danych o cenie (typy na stronie: brak JSON-LD)
   - actionsports.de: brak wymaganych slow (xx, sl, power meter) - pomijam
-  + hollandbikeshop.com: 367.95 EUR = 1598.56 PLN [EAN OK]
+  + hollandbikeshop.com: 367.95 EUR = 1598.19 PLN [EAN OK]
   - blimpcitybikeandhike.com: brak danych o cenie (typy na stronie: breadcrumblist, product)
   - kastor-bike.pl: brak wymaganych slow (power meter) - pomijam
   - bikestacja.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - cingolanibikeshop.com: brak wymaganych slow (power meter) - pomijam
-  + bike-discount.de: 359.99 EUR = 1563.98 PLN [EAN OK]
+  + bike-discount.de: 359.99 EUR = 1563.62 PLN [EAN OK]
   - ridewill.it: brak danych o cenie (typy na stronie: brak JSON-LD)
   - taddeistore.com: niedostepny (outofstock)
-  + hollandbikeshop.com: 367.95 EUR = 1598.56 PLN [EAN OK]
-  + bortonemoto.com: 389.0 EUR = 1690.01 PLN [EAN niepotwierdzony]
-  - pepebike.cz: 10191.42 PLN poza widelkami [1500.0..3200.0] - pomijam
-  - hupnakolo.cz: 4188.21 PLN poza widelkami [1500.0..3200.0] - pomijam
+  + hollandbikeshop.com: 367.95 EUR = 1598.19 PLN [EAN OK]
+  + bortonemoto.com: 389.0 EUR = 1689.62 PLN [EAN niepotwierdzony]
+  - pepebike.cz: 10185.72 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - hupnakolo.cz: 4185.87 PLN poza widelkami [1500.0..3200.0] - pomijam
   - cyklozitny.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - kupkolo.cz: 10726.21 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - kupkolo.cz: 10720.21 PLN poza widelkami [1500.0..3200.0] - pomijam
   - kompletni-sady.heureka.cz: pomijam (blokada potwierdzona w tym runie)
-  - 123kolo.cz: 446.82 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - 123kolo.cz: 446.57 PLN poza widelkami [1500.0..3200.0] - pomijam
   - koloshop.cz: brak danych o cenie (typy na stronie: breadcrumblist, collectionpage, itemlist)
   + mtbiker.cz: blokada ominieta headless Chromium
   - mtbiker.cz: brak wymaganych slow (sl, power meter) - pomijam
@@ -2349,74 +2360,74 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - rotoruabike.com: brak wymaganych slow (power meter) - pomijam
   - urbanobike.es: brak wymaganych slow (xx, sl, power meter) - pomijam
   - ciclosartia.com: HTTP 403 (przegladarka tez nie przeszla)
-  - bikesuperior.com: 13898.06 PLN poza widelkami [1500.0..3200.0] - pomijam
-  - leendersfietsen.nl: 5474.07 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - bikesuperior.com: 13894.86 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - leendersfietsen.nl: 5472.81 PLN poza widelkami [1500.0..3200.0] - pomijam
   - 12gobiking.nl: niedostepny (outofstock)
-  - stappenbelt.com: 5474.07 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - stappenbelt.com: 5472.81 PLN poza widelkami [1500.0..3200.0] - pomijam
   - angrycatfishbicycle.com: waluta USD poza dozwolonym regionem - pomijam
   - tomsbicycles.com: niedostepny (outofstock)
   - landrys.com: waluta USD poza dozwolonym regionem - pomijam
   - ridewill.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - biker-boarder.de: brak danych o cenie (typy na stronie: bikestore, sportinggoodsstore, website)
-  - bike-discount.de: 8471.73 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - bike-discount.de: 8469.78 PLN poza widelkami [1500.0..3200.0] - pomijam
   - powermetercity.com: pomijam (blokada potwierdzona w tym runie)
   - velonova.ee: pomijam (blokada potwierdzona w tym runie)
   - kleinanzeigen.de: pomijam (blokada potwierdzona w tym runie)
-  + radsport-buchstaller.de: 399.0 EUR = 1733.46 PLN [EAN niepotwierdzony]
+  + radsport-buchstaller.de: 399.0 EUR = 1733.06 PLN [EAN niepotwierdzony]
   - cyklomania.pl: HTTP 404
   - centrumrowerowe.pl: 384.99 PLN poza widelkami [1500.0..3200.0] - pomijam
   + 2wheels.pl: 2019.0 PLN = 2019.0 PLN [EAN niepotwierdzony]
-  - evolutionbikes.it: 13033.28 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - evolutionbikes.it: 13030.28 PLN poza widelkami [1500.0..3200.0] - pomijam
   - velofactory.ch: pomijam (blokada potwierdzona w tym runie)
   - fitness-zone.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
   - cyklisticke-prislusenstvi.heureka.cz: pomijam (blokada potwierdzona w tym runie)
-  - alltricks.fr: 9123.41 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - alltricks.fr: 9121.31 PLN poza widelkami [1500.0..3200.0] - pomijam
   - ridewill.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - evolutionbikes.com: 12819.66 PLN poza widelkami [1500.0..3200.0] - pomijam
-  - bike-discount.de: 8471.73 PLN poza widelkami [1500.0..3200.0] - pomijam
-  - bike-components.de: 8645.56 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - evolutionbikes.com: 12816.71 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - bike-discount.de: 8469.78 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - bike-components.de: 8643.56 PLN poza widelkami [1500.0..3200.0] - pomijam
   - mammothbikes.com: niedostepny (outofstock)
-  - alltricks.es: 9123.41 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - alltricks.es: 9121.31 PLN poza widelkami [1500.0..3200.0] - pomijam
   - mtbblog.nl: brak danych o cenie (typy na stronie: article, breadcrumblist, imageobject, organization, person, webpage, website)
   - leendersfietsen.nl: niedostepny (outofstock)
-  - tormino.com: 5578.29 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - tormino.com: 5577.01 PLN poza widelkami [1500.0..3200.0] - pomijam
   - shop.howlerbikepark.com: waluta USD poza dozwolonym regionem - pomijam
-  - bike-discount.de: 8471.73 PLN poza widelkami [1500.0..3200.0] - pomijam
-  - bike-components.de: 8645.56 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - bike-discount.de: 8469.78 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - bike-components.de: 8643.56 PLN poza widelkami [1500.0..3200.0] - pomijam
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   - ridewill.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - veloabike.pl: brak danych o cenie (typy na stronie: breadcrumblist, http://schema.org/product, onlinestore, product)
   - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - evolutionbikes.it: 13033.28 PLN poza widelkami [1500.0..3200.0] - pomijam
-  - alltricks.it: 9123.41 PLN poza widelkami [1500.0..3200.0] - pomijam
-  - bike-discount.de: 8471.73 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - evolutionbikes.it: 13030.28 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - alltricks.it: 9121.31 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - bike-discount.de: 8469.78 PLN poza widelkami [1500.0..3200.0] - pomijam
   - lordgunbicycles.com: pomijam (blokada potwierdzona w tym runie)
-  - spectrumbike.cz: 5363.82 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - spectrumbike.cz: 5360.82 PLN poza widelkami [1500.0..3200.0] - pomijam
   + mtbiker.cz: blokada ominieta headless Chromium
   - mtbiker.cz: brak wymaganych slow (sl) - pomijam
   - kolokram.cz: niedostepny (outofstock)
-  - probikeshop.fr: 10426.37 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - probikeshop.fr: 10423.97 PLN poza widelkami [1500.0..3200.0] - pomijam
   - cyclescampus.com: waluta CAD poza dozwolonym regionem - pomijam
   - gambacicli.fr: pomijam (blokada potwierdzona w tym runie)
-  - evolutionbikes.it: 13033.28 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - evolutionbikes.it: 13030.28 PLN poza widelkami [1500.0..3200.0] - pomijam
   - ridemore.fi: brak danych o cenie (typy na stronie: brak JSON-LD)
   - leendersfietsen.nl: niedostepny (outofstock)
   - twohoosierscyclery.com: waluta USD poza dozwolonym regionem - pomijam
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
-  - tnc-hamburg.com: 4561.29 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - tnc-hamburg.com: 4560.24 PLN poza widelkami [1500.0..3200.0] - pomijam
   - bike-prof.de: brak danych o cenie (typy na stronie: brak JSON-LD)
   - 2wheels.pl: niedostepny (outofstock)
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
-  - bike-discount.de: 3649.34 PLN poza widelkami [1500.0..3200.0] - pomijam
-  - bikesuperior.com: 13898.06 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - bike-discount.de: 3648.5 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - bikesuperior.com: 13894.86 PLN poza widelkami [1500.0..3200.0] - pomijam
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
-  - cycling-parts.ch: 9167.73 PLN poza widelkami [1500.0..3200.0] - pomijam
-  - actionsports.de: 5147.8 PLN poza widelkami [1500.0..3200.0] - pomijam
-  - spoke.cz: 10118.11 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - cycling-parts.ch: 9147.63 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - actionsports.de: 5146.61 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - spoke.cz: 10112.45 PLN poza widelkami [1500.0..3200.0] - pomijam
   - raaad.de: niedostepny (outofstock)
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
-  - bike-components.de: 8645.56 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - bike-components.de: 8643.56 PLN poza widelkami [1500.0..3200.0] - pomijam
   - treefortbikes.com: waluta USD poza dozwolonym regionem - pomijam
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
   - eastcitycycles.com: HTTP 404
@@ -2432,9 +2443,9 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - synkros.pl: blad pobierania (SSLError)
   + 2wheels.pl: 2019.0 PLN = 2019.0 PLN [EAN niepotwierdzony]
   + rowerowaholandia.pl: 1926.99 PLN = 1926.99 PLN [EAN OK]
-  - mb-fahrrad.de: 10917.51 PLN poza widelkami [1500.0..3200.0] - pomijam
-  - ridewill.it: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - cingolanibikeshop.com: HTTP 404
+  - mb-fahrrad.de: 10915.0 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - ridewill.it: HTTP 404
+  - cingolanibikeshop.com: 4343.46 PLN poza widelkami [1500.0..3200.0] - pomijam
   - gambacicli.com: brak wymaganych slow (sl) - pomijam
   - nencinisport.it: pomijam (blokada potwierdzona w tym runie)
   - s1w.cz: brak wymaganych slow (sl, power meter) - pomijam
@@ -2442,7 +2453,6 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - cyklozitny.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
   - bikero.cz: niedostepny (outofstock)
   - wiflux.fr: brak danych o cenie (typy na stronie: organization)
-  + komparzon.com: blokada ominieta headless Chromium
   - komparzon.com: brak wymaganych slow (xx, sl, power meter) - pomijam
   - fnac.com: pomijam (blokada potwierdzona w tym runie)
   - 123comparer.fr: brak danych o cenie (typy na stronie: breadcrumblist)
@@ -2454,13 +2464,13 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - ibksport.com: HTTP 404
   - ibkbike.com: HTTP 404
   - hollandbikeshop.com: waluta GBP poza dozwolonym regionem - pomijam
-  - bikesuperior.com: 13898.06 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - bikesuperior.com: 13894.86 PLN poza widelkami [1500.0..3200.0] - pomijam
   - thelostco.com: brak wymaganych slow (sl) - pomijam
   - wheelworld.com: waluta USD poza dozwolonym regionem - pomijam
   - brandscycle.com: brak danych o cenie (typy na stronie: breadcrumblist, organization, product)
   - racycles.com: waluta USD poza dozwolonym regionem - pomijam
   - velofactory.ch: pomijam (blokada potwierdzona w tym runie)
-  - evolutionbikes.pl: 13140.16 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - evolutionbikes.pl: 13137.13 PLN poza widelkami [1500.0..3200.0] - pomijam
   - mammothbikes.com: niedostepny (outofstock)
   - axit.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
   - chrissports.ch: pomijam (blokada potwierdzona w tym runie)
@@ -2468,10 +2478,10 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - bikesonline.com: brak danych o cenie (typy na stronie: organization)
   - bikemart.com: brak danych o cenie (typy na stronie: organization)
   - en.wikipedia.org: brak danych o cenie (typy na stronie: article)
-  - evolutionbikes.it: 13033.28 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - evolutionbikes.it: 13030.28 PLN poza widelkami [1500.0..3200.0] - pomijam
   - prontosoccorsoveterinarioroma.it: HTTP 404
   - ridewill.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - alltricks.nl: 9123.41 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - alltricks.nl: 9121.31 PLN poza widelkami [1500.0..3200.0] - pomijam
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
   - bike24.lu: pomijam (blokada potwierdzona w tym runie)
   - bike24.at: pomijam (blokada potwierdzona w tym runie)
@@ -2485,17 +2495,17 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - bike24.com: pomijam (blokada potwierdzona w tym runie)
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
-  - bike-components.de: 8645.56 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - bike-components.de: 8643.56 PLN poza widelkami [1500.0..3200.0] - pomijam
   - bike-components.de: brak wymaganych slow (sl) - pomijam
   - mountainbike-parts.ch: brak danych o cenie (typy na stronie: breadcrumblist, website)
-  - hollandbikeshop.com: 4344.28 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - hollandbikeshop.com: 4343.28 PLN poza widelkami [1500.0..3200.0] - pomijam
   - powermetercity.com: pomijam (blokada potwierdzona w tym runie)
   - centrumrowerowe.pl: 10999.0 PLN poza widelkami [1500.0..3200.0] - pomijam
   - bike24.pl: pomijam (blokada potwierdzona w tym runie)
   - goride.pl: brak danych o cenie (typy na stronie: store)
   - bike-rs.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - trailheadcycling.com: brak danych o cenie (typy na stronie: bikestore, breadcrumblist, organization, product, website)
-  - gambacicli.com: 3688.48 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - gambacicli.com: niedostepny (outofstock)
   - cyklozitny.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
   - oebikes.ie: blad pobierania (ReadTimeout)
   - rotoruabike.fr: brak wymaganych slow (power meter) - pomijam
@@ -2515,19 +2525,19 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - powermetercity.com: pomijam (blokada potwierdzona w tym runie)
   - powermetercity.com: pomijam (blokada potwierdzona w tym runie)
   - powermetercity.com: pomijam (blokada potwierdzona w tym runie)
-  - bike-components.de: 8645.56 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - bike-components.de: 8643.56 PLN poza widelkami [1500.0..3200.0] - pomijam
   - rideoutpr.com: waluta USD poza dozwolonym regionem - pomijam
-  - bike-components.de: 8645.56 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - bike-components.de: 8643.56 PLN poza widelkami [1500.0..3200.0] - pomijam
   - summitbicycles.com: waluta USD poza dozwolonym regionem - pomijam
   - summitbicycles.com: blad pobierania (SSLError)
   - powermetercity.com: pomijam (blokada potwierdzona w tym runie)
   - theproscloset.com: niedostepny (outofstock)
   - powermetercity.com: pomijam (blokada potwierdzona w tym runie)
-  + wheelproject.com: 419.0 EUR = 1820.35 PLN [EAN niepotwierdzony]
+  + wheelproject.com: 419.0 EUR = 1819.93 PLN [EAN niepotwierdzony]
   - cyclingweb.nl: HTTP 403 (przegladarka tez nie przeszla)
-  - bike-mailorder.com: 8089.02 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - bike-mailorder.com: 8087.16 PLN poza widelkami [1500.0..3200.0] - pomijam
   - bikeimport.ch: brak danych o cenie (typy na stronie: breadcrumblist, organization)
-  - probikeshop.fr: 10209.14 PLN poza widelkami [1500.0..3200.0] - pomijam
+  - probikeshop.fr: 10206.79 PLN poza widelkami [1500.0..3200.0] - pomijam
   - bike24.lu: pomijam (blokada potwierdzona w tym runie)
   - bike24.be: pomijam (blokada potwierdzona w tym runie)
   - bike24.fr: pomijam (blokada potwierdzona w tym runie)
@@ -2685,8 +2695,8 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - alfadyser.es: brak danych o cenie (typy na stronie: brak JSON-LD)
   - cincodias.elpais.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - empresite.eleconomista.es: brak danych o cenie (typy na stronie: webpage)
-  - es.kompass.com: HTTP 405
-  - mastercadena.es: brak wymaganych slow (garbaruk, aero) - pomijam
+  - es.kompass.com: HTTP 403 (przegladarka tez nie przeszla)
+  - mastercadena.es: blad pobierania (ConnectTimeout)
   - elmaestrodelailuminacion.es: brak wymaganych slow (garbaruk, aero) - pomijam
   - fnac.es: HTTP 403 (przegladarka tez nie przeszla)
   - worten.es: HTTP 403 (przegladarka tez nie przeszla)
@@ -2725,8 +2735,8 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - bike24.de: pomijam (blokada potwierdzona w tym runie)
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   - bike-components.de: brak wariantu '40' wsrod ofert - pomijam
-  + mammothbikes.com: 101.99 EUR = 443.1 PLN [wariant 40 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
-  + sm-parts.net: 88.24 EUR = 383.36 PLN [wariant 40 dopasowany] [EAN niepotwierdzony]
+  + mammothbikes.com: 101.99 EUR = 442.99 PLN [wariant 40 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
+  + sm-parts.net: 88.24 EUR = 383.27 PLN [wariant 40 dopasowany] [EAN niepotwierdzony]
   - sahadevafoundation.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - garbaruk.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - garbaruk.com: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -2743,18 +2753,18 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   - tradeinn.com: brak danych o cenie (typy na stronie: faqpage, organization, webpage)
   - fabreguesbicicletas.com: pomijam (blokada potwierdzona w tym runie)
-  + mammothbikes.com: 82.99 EUR = 360.55 PLN [wariant 40 dopasowany] [EAN niepotwierdzony]
+  + mammothbikes.com: 82.99 EUR = 360.47 PLN [wariant 40 dopasowany] [EAN niepotwierdzony]
   - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - garbaruk.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - cyklomania.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
   - garbaruk.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - kotnik.shop: HTTP 503 (przegladarka tez nie przeszla)
+  + kotnik.shop: 114.0 EUR = 495.16 PLN [wariant 40 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   - kleinanzeigen.de: pomijam (blokada potwierdzona w tym runie)
   - suicycle-store.com: brak wymaganych slow (aero) - pomijam
-  + derbaranski.shop: 66.55 EUR = 289.13 PLN [wariant 40 dopasowany] [EAN niepotwierdzony]
+  + derbaranski.shop: 66.55 EUR = 289.06 PLN [wariant 40 dopasowany] [EAN niepotwierdzony]
   - bike24.lu: pomijam (blokada potwierdzona w tym runie)
   - tradeinn.com: brak danych o cenie (typy na stronie: faqpage, organization, webpage)
   - sm-parts.net: brak danych o cenie (typy na stronie: breadcrumblist)
@@ -2784,7 +2794,7 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - pajm.pl: brak wymaganych slow (garbaruk, aero) - pomijam
   - beko.com: HTTP 403 (przegladarka tez nie przeszla)
   - atelo.pl: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - pl.rs-online.com: HTTP 403 (przegladarka tez nie przeszla)
+  - pl.rs-online.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - perfectplus.com.pl: HTTP 404
   - lampy.pl: brak wymaganych slow (garbaruk, aero) - pomijam
   - sklep.elektrospark.pl: brak wymaganych slow (garbaruk, aero) - pomijam
@@ -2809,10 +2819,10 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - kaufland.fr: HTTP 403 (przegladarka tez nie przeszla)
   - worten.es: pomijam (blokada potwierdzona w tym runie)
   - cincodias.elpais.com: pomijam (blokada potwierdzona w tym runie)
-  - rossellimac.es: brak wymaganych slow (garbaruk, aero) - pomijam
+  - rossellimac.es: blad pobierania (ConnectionError)
   - worten.es: pomijam (blokada potwierdzona w tym runie)
   - galaxus.nl: pomijam (blokada potwierdzona w tym runie)
-  - nl.kompass.com: HTTP 405
+  - nl.kompass.com: HTTP 403 (przegladarka tez nie przeszla)
   + tweakers.net: blokada ominieta headless Chromium
   - tweakers.net: brak wymaganych slow (garbaruk, aero) - pomijam
   - bol.com: pomijam (blokada potwierdzona w tym runie)
@@ -2826,7 +2836,7 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - lowes.com: pomijam (blokada potwierdzona w tym runie)
   - garbaruk.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - garbaruk.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-  + bikepart.cz: 2390.0 CZK = 427.33 PLN [wariant 40 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
+  + bikepart.cz: 2390.0 CZK = 427.09 PLN [wariant 40 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
   - lordgunbicycles.com: pomijam (blokada potwierdzona w tym runie)
   + centrumrowerowe.pl: 359.99 PLN = 359.99 PLN [wariant 40 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
   - garbaruk.com: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -2847,8 +2857,8 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - tradeinn.com: brak danych o cenie (typy na stronie: itemlist, organization)
   - bike24.lu: pomijam (blokada potwierdzona w tym runie)
   - bike24.fi: pomijam (blokada potwierdzona w tym runie)
-  + mammothbikes.com: 81.34 EUR = 353.38 PLN [wariant 40 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
-  + mammothbikes.com: 82.99 EUR = 360.55 PLN [wariant 40 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
+  + mammothbikes.com: 81.34 EUR = 353.3 PLN [wariant 40 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
+  + mammothbikes.com: 82.99 EUR = 360.47 PLN [wariant 40 NIEZWERYFIKOWANY - cena zbiorcza] [EAN niepotwierdzony]
   - bike-components.de: brak wariantu '40' wsrod ofert - pomijam
   - garbaruk.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - bike-components.de: brak wariantu '40' wsrod ofert - pomijam
@@ -2873,7 +2883,7 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - bikeinside.org: brak wymaganych slow (garbaruk, aero) - pomijam
   - en.firmy.cz: brak danych o cenie (typy na stronie: localbusiness, website)
   - searchtest.seznam.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
-  - policie.gov.cz: HTTP 404
+  - policie.gov.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
   - nrpzs.uzis.cz: blad pobierania (ConnectTimeout)
   - rejstrik-firem.kurzy.cz: brak danych o cenie (typy na stronie: brak JSON-LD)
   - mapy.com: brak danych o cenie (typy na stronie: brak JSON-LD)
@@ -2912,7 +2922,7 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - tradeinn.com: brak danych o cenie (typy na stronie: faqpage, organization, webpage)
   - r2-bike.com: pomijam (blokada potwierdzona w tym runie)
   - bike-components.de: brak wariantu '40' wsrod ofert - pomijam
-  + derbaranski.shop: 66.55 EUR = 289.13 PLN [wariant 40 dopasowany] [EAN niepotwierdzony]
+  + derbaranski.shop: 66.55 EUR = 289.06 PLN [wariant 40 dopasowany] [EAN niepotwierdzony]
   - bike-components.de: brak wariantu '40' wsrod ofert - pomijam
   - garbaruk.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - lordgun.com: pomijam (blokada potwierdzona w tym runie)
@@ -2963,26 +2973,19 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
   - garbaruk.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - garbaruk.com: brak danych o cenie (typy na stronie: brak JSON-LD)
   - garbaruk.com: brak danych o cenie (typy na stronie: brak JSON-LD)
-[MONITOR] FORCE-AXS-LEWA: blind spoty do sprawdzenia przez Google: bdc-mag.com, bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.lu, bike24.pl, bikeacademyshop.com, bikechill.pl, bikecomponenti.com, bikefast.pl, bikesportworld.de, cingolanibikeshop.com, competitivecyclist.com, creoproject.pl, cyclehubbox.com, decathlon.pl, deporvillage.de, elvmotors.com, fabreguesbicicletas.com, galaxus.it, gambacicli.fr, ibksport.es, ibksport.eu, idealo.es, idealo.fr, jensonusa.com, lordgun.com, lordgun.de, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, lvr-cycles.com, mtbiker.pl, nencinisport.it, olx.pl, parcosanpaolo.it, powermetercity.com, r2-bike.com, roweryonline.com, sanferbike.com, shop.free-bike.net, sprint-rowery.pl, starbike.com, vcelisvet.cz, velofactory.ch, velonova.ee, velopoint.pl
+[MONITOR] FORCE-AXS-LEWA: blind spoty do sprawdzenia przez Google: bdc-mag.com, bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.lu, bike24.pl, bikeacademyshop.com, bikechill.pl, bikecomponenti.com, bikefast.pl, bikesportworld.de, competitivecyclist.com, creoproject.pl, cyclehubbox.com, decathlon.pl, deporvillage.de, elvmotors.com, fabreguesbicicletas.com, galaxus.it, gambacicli.fr, ibksport.es, ibksport.eu, idealo.es, idealo.fr, jensonusa.com, kleinanzeigen.de, lordgun.com, lordgun.de, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, lvr-cycles.com, mtbiker.pl, nencinisport.it, olx.pl, parcosanpaolo.it, powermetercity.com, r2-bike.com, roweryonline.com, sanferbike.com, shop.free-bike.net, sprint-rowery.pl, starbike.com, vcelisvet.cz, velofactory.ch, velonova.ee, velopoint.pl
+[MONITOR] XX-SL-POWERMETER: blind spoty do sprawdzenia przez Google: aktywnawyprawa.com, benscycle.com, bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fi, bike24.fr, bike24.lu, bike24.nl, bike24.pl, carrefour.fr, chrissports.ch, ciclosartia.com, competitivecyclist.com, cyclingweb.nl, cyklisticke-prislusenstvi.heureka.cz, cyklomania.pl, deporvillage.pl, eastcitycycles.com, erowery.pl, fnac.com, gambacicli.fr, ibkbike.com, ibkbike.fr, ibksport.com, ibksport.eu, jensonusa.com, kingcyclesport.com, kleinanzeigen.de, kompletni-sady.heureka.cz, lordgunbicycles.com, mtbiker.pl, nencinisport.it, oebikes.ie, powermetercity.com, prontosoccorsoveterinarioroma.it, r2-bike.com, rei.com, ridewill.it, summitbicycles.com, synkros.pl, velofactory.ch, velonova.ee, velonova.lt, weightweenies.starbike.com
+[MONITOR] FORCE-AXS-PRAWA: blind spoty do sprawdzenia przez Google: 3mpolska.pl, academiadetopografie.ro, auto-doc.fr, autodoc.pl, baldersbychurch.com, bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.lu, bike24.nl, bike24.pl, bikeacademyshop.com, bikefast.pl, bretagne-materiaux.fr, chrissports.ch, competitivecyclist.com, cycli.cz, cyklisticke-prislusenstvi.heureka.cz, darfi.net, deporvillage.com, deporvillage.de, fabreguesbicicletas.com, fnac.com, galaxus.de, gambacicli.fr, gtstore.cz, hygi.de, ibkbike.com, ibkbike.de, ibkbike.fr, ibksport.ch, ibksport.de, ibksport.es, idealo.es, idealo.fr, jensonusa.com, kleinanzeigen.de, kola-radotin.cz, kompletni-sady.heureka.cz, kraftfahrrad.de, leboncoin.fr, lordgun.com, lordgun.de, lordgunbicycles.com, lordgunbicycles.fr, lvr-cycles.com, mtbiker.pl, nencinisport.it, olx.pl, otto.de, papiermacherschule.at, powermetercity.com, r2-bike.com, rat-bikes.com, resocafecantineasso.fr, saintaubindecrosville.fr, sanferbike.com, servi-a.com, sklep.kadrzynski.pl, sprint-rowery.pl, tradergames.fr, universalcycles.com, velofactory.ch, velonova.ee, velonova.lt, velopoint.pl
+[MONITOR] X0-CASSETTE: blind spoty do sprawdzenia przez Google: alfashirt.com, bicispasaje.es, bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fi, bike24.fr, bike24.it, bike24.lu, bike24.nl, bike24.pl, bikefast.pl, community.mtb-mag.com, competitivecyclist.com, decathlon.it, deporvillage.de, deporvillage.nl, deporvillage.pl, dieguteseiteberlin.de, fabreguesbicicletas.com, fiets.nl, gambacicli.fr, hb61bikes.com, idealo.es, idealo.fr, jensonusa.com, kazety.heureka.cz, kbike.es, kleinanzeigen.de, kompletni-sady.heureka.cz, lordgun.com, lordgun.de, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, lvr-cycles.com, mtbiker.pl, pienarbikeshop.com, power-bikes.pl, powermetercity.com, probikeshop.de, prodieselparts.com, quantavici.com, r2-bike.com, rat-bikes.com, rei.com, rennrad-news.de, retezy.heureka.cz, ridewill.com, sunandski.com, usedbikes-ob.de, velofactory.ch, zonacycles.com
+[MONITOR] X0-CHAIN: blind spoty do sprawdzenia przez Google: absolubike.fr, alutech-cycles.com, benscycle.com, best-bike-parts.de, bicicletasapedales.com, bicispasaje.es, bike24.at, bike24.com, bike24.de, bike24.es, bike24.fi, bike24.fr, bike24.it, bike24.pl, catenagroup.es, competitivecyclist.com, ebike24.com, fabreguesbicicletas.com, fnac.com, ftzshop.de, gambacicli.fr, grofova.cz, ibkbike.com, ibkbike.fr, ibksport.com, ibksport.de, ibksport.es, ibksport.eu, ibksport.nl, idealo.at, idealo.es, idealo.fr, jensonusa.com, kbike.es, lordgun.com, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, mtbiker.pl, placedeslibraires.fr, powermetercity.com, quantavici.com, r2-bike.com, rei.com, retezy.heureka.cz, sklep.kadrzynski.pl, sprint-rowery.pl, thebikevillage.com, trekdonostia.com, trodo.es, trodo.fr, tuning-bikes.de, vadebicis.com, velofactory.ch, x.com
 [MONITOR] GX-DERAILLEUR: blind spoty do sprawdzenia przez Google: 2peaksbikes.com, ascekhn.com, benscycle.com, bike-discount.de, bike24.at, bike24.com, bike24.de, bike24.es, bike24.fi, bike24.fr, bike24.it, bike24.lu, bike24.nl, bike24.pl, bikefast.pl, canadabicycleparts.com, carrefour.fr, chadjacksonpainting.com, codeval.es, competitivecyclist.com, deporvillage.pl, dispano.fr, ebike-mag.com, emilebicyclettes.com, eubike.pl, fiets.nl, fnac.com, gambacicli.fr, hb61bikes.com, hibike.com, hupnakolo.cz, ibksport.com, ibksport.fr, idealo.es, idealo.fr, jensonusa.com, kleinanzeigen.de, kompletni-sady.heureka.cz, megabici.com, mtbiker.pl, nencinisport.it, power-bikes.pl, prehazovacky.heureka.cz, r2-bike.com, rat-bikes.com, rat-bikes.eu, rei.com, sportler.com, trodo.nl, velofactory.ch, velonova.lt, warszawakomornik.com.pl, weldom.fr, yawpcyclery.com
-[MONITOR] FORCE-AXS-PRAWA: blind spoty do sprawdzenia przez Google: 3mpolska.pl, academiadetopografie.ro, auto-doc.fr, autodoc.pl, baldersbychurch.com, bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.lu, bike24.nl, bike24.pl, bikeacademyshop.com, bikefast.pl, bretagne-materiaux.fr, chrissports.ch, cingolanibikeshop.com, competitivecyclist.com, cyklisticke-prislusenstvi.heureka.cz, darfi.net, deporvillage.com, deporvillage.de, fabreguesbicicletas.com, fnac.com, galaxus.de, gambacicli.fr, gtstore.cz, hygi.de, ibkbike.com, ibkbike.de, ibkbike.fr, ibksport.ch, ibksport.de, ibksport.es, idealo.es, idealo.fr, jensonusa.com, kleinanzeigen.de, kola-radotin.cz, kompletni-sady.heureka.cz, kraftfahrrad.de, leboncoin.fr, lordgun.com, lordgun.de, lordgunbicycles.com, lordgunbicycles.fr, lvr-cycles.com, mtbiker.pl, nencinisport.it, olx.pl, otto.de, papiermacherschule.at, powermetercity.com, r2-bike.com, rat-bikes.com, resocafecantineasso.fr, saintaubindecrosville.fr, sanferbike.com, servi-a.com, sklep.kadrzynski.pl, sprint-rowery.pl, tradergames.fr, universalcycles.com, velofactory.ch, velonova.ee, velonova.lt, velopoint.pl
-[MONITOR] IBS-V1X: blind spoty do sprawdzenia przez Google: bikeforums.net, bowhunterssupplystore.com, diamondtechnique.com, dickssportinggoods.com, gearjunkie.com, infinity-saddle.de, infinitypipesystem.com, lostgolfballs.com, m.alibaba.com, olx.pl, pgn-nuenen.nl, picclick.es, precise-performance.co.uk, primepulselink.org, projectcece.com, racearoundpoland.pl, titleist.ca, titleist.co.kr, titleist.co.uk, titleist.com, titleist.eu, titleist.in.th, titleist.se, todays-golfer.com, tractorsupply.com
-[MONITOR] X0-CASSETTE: blind spoty do sprawdzenia przez Google: alfashirt.com, bicispasaje.es, bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fi, bike24.fr, bike24.it, bike24.lu, bike24.nl, bike24.pl, bikefast.pl, cingolanibikeshop.com, community.mtb-mag.com, competitivecyclist.com, decathlon.it, deporvillage.de, deporvillage.nl, deporvillage.pl, dieguteseiteberlin.de, fabreguesbicicletas.com, fiets.nl, gambacicli.fr, hb61bikes.com, idealo.es, idealo.fr, jensonusa.com, kazety.heureka.cz, kbike.es, kleinanzeigen.de, kompletni-sady.heureka.cz, lordgun.com, lordgun.de, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, lvr-cycles.com, mtbiker.pl, pienarbikeshop.com, power-bikes.pl, powermetercity.com, probikeshop.de, prodieselparts.com, quantavici.com, r2-bike.com, rat-bikes.com, rei.com, rennrad-news.de, retezy.heureka.cz, sunandski.com, usedbikes-ob.de, velofactory.ch, zonacycles.com
-[MONITOR] GARBARUK-40T-AERO: blind spoty do sprawdzenia przez Google: acae.es, axevotech.eu, backcountry.com, barcodelookup.com, batacz.cz, beko.com, belk.com, bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fi, bike24.fr, bike24.lu, bike24.nl, bike24.pl, bol.com, bruneau.nl, camelcamelcamel.com, carrefour.es, carrefour.fr, cincodias.elpais.com, competitivecyclist.com, cz.kompass.com, elektro-produkt.cz, elektroshop.nl, es.kompass.com, fabreguesbicicletas.com, fnac.com, fnac.es, fr.kompass.com, galaxus.de, galaxus.fr, galaxus.nl, gowork.pl, grabagun.com, hap.pl, homedepot.com, intermotors.pl, ipublimar.pl, it.kompass.com, kaufland.fr, kaufland.pl, kleinanzeigen.de, kompass.com, kotnik.shop, kstools.fr, leroymerlin.es, leroymerlin.fr, levelninesports.com, lordgun.com, lordgunbicycles.com, lowes.com, maxoutil.com, nl.kompass.com, nrpzs.uzis.cz, okcaller.com, owg.pl, perfectplus.com.pl, pl.kompass.com, pl.rs-online.com, policie.gov.cz, powermetercity.com, r2-bike.com, shop.cec.com, starbike.com, toolsxl.nl, walmart.com, worten.es, zwieger.pl
-[MONITOR] XX-SL-POWERMETER: blind spoty do sprawdzenia przez Google: aktywnawyprawa.com, benscycle.com, bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fi, bike24.fr, bike24.lu, bike24.nl, bike24.pl, carrefour.fr, chrissports.ch, ciclosartia.com, cingolanibikeshop.com, competitivecyclist.com, cyclingweb.nl, cyklisticke-prislusenstvi.heureka.cz, cyklomania.pl, deporvillage.pl, eastcitycycles.com, erowery.pl, fnac.com, gambacicli.fr, ibkbike.com, ibkbike.fr, ibksport.com, ibksport.eu, jensonusa.com, kingcyclesport.com, kleinanzeigen.de, kompletni-sady.heureka.cz, lordgunbicycles.com, mtbiker.pl, nencinisport.it, oebikes.ie, powermetercity.com, prontosoccorsoveterinarioroma.it, r2-bike.com, rei.com, summitbicycles.com, synkros.pl, velofactory.ch, velonova.ee, velonova.lt, weightweenies.starbike.com
-[MONITOR] X0-CHAIN: blind spoty do sprawdzenia przez Google: absolubike.fr, alutech-cycles.com, benscycle.com, best-bike-parts.de, bicicletasapedales.com, bicispasaje.es, bike24.at, bike24.com, bike24.de, bike24.es, bike24.fi, bike24.fr, bike24.it, bike24.pl, competitivecyclist.com, ebike24.com, fabreguesbicicletas.com, fnac.com, gambacicli.fr, grofova.cz, ibkbike.com, ibkbike.fr, ibksport.com, ibksport.de, ibksport.es, ibksport.eu, ibksport.nl, idealo.at, idealo.es, idealo.fr, jensonusa.com, kbike.es, lordgun.com, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, mtbiker.pl, placedeslibraires.fr, powermetercity.com, quantavici.com, r2-bike.com, rei.com, retezy.heureka.cz, sklep.kadrzynski.pl, sprint-rowery.pl, thebikevillage.com, trodo.es, trodo.fr, tuning-bikes.de, vadebicis.com, velofactory.ch, x.com
-[MONITOR] Canyon S15 VCLS 2.0: blind spoty do sprawdzenia przez Google: fiets.nl, mtbiker.pl, olx.pl, rennrad-news.de, ricardo.ch, sets-robot.com, theokrgroup.com, velonova.lt
+[MONITOR] GARBARUK-40T-AERO: blind spoty do sprawdzenia przez Google: acae.es, axevotech.eu, backcountry.com, barcodelookup.com, batacz.cz, beko.com, belk.com, bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fi, bike24.fr, bike24.lu, bike24.nl, bike24.pl, bol.com, bruneau.nl, camelcamelcamel.com, carrefour.es, carrefour.fr, cincodias.elpais.com, competitivecyclist.com, cz.kompass.com, elektro-produkt.cz, elektroshop.nl, es.kompass.com, fabreguesbicicletas.com, fnac.com, fnac.es, fr.kompass.com, galaxus.de, galaxus.fr, galaxus.nl, gowork.pl, grabagun.com, hap.pl, homedepot.com, intermotors.pl, ipublimar.pl, it.kompass.com, kaufland.fr, kaufland.pl, kleinanzeigen.de, kompass.com, kstools.fr, leroymerlin.es, leroymerlin.fr, levelninesports.com, lordgun.com, lordgunbicycles.com, lowes.com, mastercadena.es, maxoutil.com, nl.kompass.com, nrpzs.uzis.cz, okcaller.com, owg.pl, perfectplus.com.pl, pl.kompass.com, powermetercity.com, r2-bike.com, rossellimac.es, shop.cec.com, starbike.com, toolsxl.nl, walmart.com, worten.es, zwieger.pl
+[MONITOR] IBS-V1X: blind spoty do sprawdzenia przez Google: bikeforums.net, bowhunterssupplystore.com, diamondtechnique.com, dickssportinggoods.com, everychina.com, gearjunkie.com, infinity-saddle.de, infinitypipesystem.com, lostgolfballs.com, m.alibaba.com, olx.pl, pgn-nuenen.nl, picclick.es, precise-performance.co.uk, primepulselink.org, projectcece.com, racearoundpoland.pl, titleist.ca, titleist.co.kr, titleist.co.uk, titleist.com, titleist.eu, titleist.in.th, titleist.se, todays-golfer.com, tractorsupply.com
+[MONITOR] Canyon S15 VCLS 2.0: blind spoty do sprawdzenia przez Google: fiets.nl, gravelunion.cc, mtbiker.pl, olx.pl, rennrad-news.de, ricardo.ch, sets-robot.com, theokrgroup.com, velonova.lt
 [SHOPPING] SerpAPI na wyczerpaniu (pozostalo 0, rezerwa 10) - pomijam ten silnik
-[SHOPPING] FORCE-AXS-LEWA: pomijam kraje fr, es, ch, cz, dk, at, be, lu, si, ee (limit 3/produkt/run)
+[SHOPPING] FORCE-AXS-PRAWA: pomijam kraje it, cz, ch, es, at, nl, ro, be, lu, dk, ee, lt (limit 3/produkt/run)
 [AUTH] serper: dostep odrzucony (HTTP 400) - wylaczam silnik do konca runu. HTTP 401/403: sprawdz odcisk sha256 klucza wyzej. HTTP 400 'not enough credits': konto Serper ma zero kredytow (darmowa pula 2500 jest jednorazowa, nie miesieczna) - lokalny licznik w data/serper_quota.json moze pokazywac wiecej niz naprawde zostalo (np. testy poza trackerem zuzywaja kredyty bez naszej wiedzy). Dokup kredyty na serper.dev albo czekaj na reset SerpAPI 1. dnia miesiaca.
 [AUTH] serper: poczatek odpowiedzi: {"message":"Not enough credits","statusCode":400}
-[SHOPPING] FORCE-AXS-LEWA (gl=de, serper, fraza 1, str. 1): 0 ofert w feedzie, szukam: 365cycles.com, alexbicycles.com, alltricks.com, alltricks.de, bdc-mag.com, bici.cc, bicycleparts24.com, bicyclewarehouse.com, bikable.com, bikable.de, bike-discount.de, bike-mailorder.com (+96)
-[SHOPPING] FORCE-AXS-LEWA (gl=de, serper, fraza 2, str. 1): 0 ofert w feedzie, szukam: 365cycles.com, alexbicycles.com, alltricks.com, alltricks.de, bdc-mag.com, bici.cc, bicycleparts24.com, bicyclewarehouse.com, bikable.com, bikable.de, bike-discount.de, bike-mailorder.com (+96)
-[SHOPPING] FORCE-AXS-LEWA (gl=pl, serper, fraza 1, str. 1): 0 ofert w feedzie, szukam: 2wheels.pl, awbike24.pl, bike-rs.pl, bike24.pl, bikechill.pl, bikefast.pl, bikestage.pl, centrumrowerowe.pl, creoproject.pl, cyklomania.pl, decathlon.pl, formicki-bike.pl (+11)
-[SHOPPING] FORCE-AXS-LEWA (gl=pl, serper, fraza 2, str. 1): 0 ofert w feedzie, szukam: 2wheels.pl, awbike24.pl, bike-rs.pl, bike24.pl, bikechill.pl, bikefast.pl, bikestage.pl, centrumrowerowe.pl, creoproject.pl, cyklomania.pl, decathlon.pl, formicki-bike.pl (+11)
-[SHOPPING] FORCE-AXS-LEWA (gl=it, serper, fraza 1, str. 1): 0 ofert w feedzie, szukam: alltricks.it, bicidastrada.it, bike-store-treviso.it, bike24.it, ebikelab.it, f-bikestore.it, galaxus.it, giangisbike.it, nencinisport.it, parcosanpaolo.it, ridewill.it
-[SHOPPING] FORCE-AXS-LEWA (gl=it, serper, fraza 2, str. 1): 0 ofert w feedzie, szukam: alltricks.it, bicidastrada.it, bike-store-treviso.it, bike24.it, ebikelab.it, f-bikestore.it, galaxus.it, giangisbike.it, nencinisport.it, parcosanpaolo.it, ridewill.it
-[SHOPPING] FORCE-AXS-PRAWA: pomijam kraje it, cz, ch, es, at, nl, ro, be, lu, dk, ee, lt (limit 3/produkt/run)
 [SHOPPING] FORCE-AXS-PRAWA (gl=de, serper, fraza 1, str. 1): 0 ofert w feedzie, szukam: 365cycles.com, ascensionvelo.com, baldersbychurch.com, batna24.com, bikable.com, bikable.de, bike-discount.de, bike-mailorder.com, bike24.com, bike24.de, bikeacademyshop.com, bikecomponents-us.com (+94)
 [SHOPPING] FORCE-AXS-PRAWA (gl=de, serper, fraza 2, str. 1): 0 ofert w feedzie, szukam: 365cycles.com, ascensionvelo.com, baldersbychurch.com, batna24.com, bikable.com, bikable.de, bike-discount.de, bike-mailorder.com, bike24.com, bike24.de, bikeacademyshop.com, bikecomponents-us.com (+94)
 [SHOPPING] FORCE-AXS-PRAWA (gl=fr, serper, fraza 1, str. 1): 0 ofert w feedzie, szukam: 123comparer.fr, alltricks.fr, auto-doc.fr, bernaudeaucycles.fr, bike24.fr, bretagne-materiaux.fr, bureau-vallee.fr, claudebernard.fr, cyclesdupont.fr, gambacicli.fr, ibkbike.fr, idealo.fr (+15)
@@ -2994,32 +2997,39 @@ Produkty: ['Canyon S15 VCLS 2.0', 'IBS-V1X', 'FORCE-AXS-LEWA', 'FORCE-AXS-PRAWA'
 [SHOPPING] X0-CASSETTE (gl=de, serper, fraza 2, str. 1): 0 ofert w feedzie, szukam: 5150bmx.com, airparkbikeco.com, alfashirt.com, all4cycling.com, beta.walmart.com, biciescapa.com, bike24.com, bike24.de, bikebling.com, bikecomponents-us.com, bikedirection.com, bikemart.com (+77)
 [SHOPPING] X0-CASSETTE (gl=cz, serper, fraza 1, str. 1): 0 ofert w feedzie, szukam: 123kolo.cz, akumo.cz, bikeoutlet.cz, cyklozitny.cz, kazety.heureka.cz, kolokram.cz, koloshop.cz, kompletni-sady.heureka.cz, krabcycles.cz, kupkolo.cz, mojekolo.cz, mtbiker.cz (+5)
 [SHOPPING] X0-CASSETTE (gl=cz, serper, fraza 2, str. 1): 0 ofert w feedzie, szukam: 123kolo.cz, akumo.cz, bikeoutlet.cz, cyklozitny.cz, kazety.heureka.cz, kolokram.cz, koloshop.cz, kompletni-sady.heureka.cz, krabcycles.cz, kupkolo.cz, mojekolo.cz, mtbiker.cz (+5)
-[SHOPPING] X0-CASSETTE (gl=pl, serper, fraza 1, str. 1): 0 ofert w feedzie, szukam: bike24.pl, bikefast.pl, bikestacja.pl, cyklomania.pl, deporvillage.pl, goride.pl, mtbiker.pl, power-bikes.pl, rosebikes.pl, rowerowaholandia.pl, zumbistore.pl
-[SHOPPING] X0-CASSETTE (gl=pl, serper, fraza 2, str. 1): 0 ofert w feedzie, szukam: bike24.pl, bikefast.pl, bikestacja.pl, cyklomania.pl, deporvillage.pl, goride.pl, mtbiker.pl, power-bikes.pl, rosebikes.pl, rowerowaholandia.pl, zumbistore.pl
+[SHOPPING] X0-CASSETTE (gl=pl, serper, fraza 1, str. 1): 0 ofert w feedzie, szukam: bike24.pl, bikefast.pl, bikestacja.pl, cyklomania.pl, deporvillage.pl, goride.pl, mtbiker.pl, power-bikes.pl, rosebikes.pl, zumbistore.pl
+[SHOPPING] X0-CASSETTE (gl=pl, serper, fraza 2, str. 1): 0 ofert w feedzie, szukam: bike24.pl, bikefast.pl, bikestacja.pl, cyklomania.pl, deporvillage.pl, goride.pl, mtbiker.pl, power-bikes.pl, rosebikes.pl, zumbistore.pl
 [SHOPPING] GX-DERAILLEUR: pomijam kraje fr, nl, it, es, ie, at, fi, lu, ch, lt (limit 3/produkt/run)
+[SHOPPING] GX-DERAILLEUR (gl=de, serper, fraza 1, str. 1): 0 ofert w feedzie, szukam: 2peaksbikes.com, actionsports.de, all4cycling.com, alltricks.com, ascekhn.com, benscycle.com, bici10.com, bikable.com, bike-components.de, bike-discount.de, bike-mailorder.com, bike-prof.de (+84)
+[SHOPPING] GX-DERAILLEUR (gl=de, serper, fraza 2, str. 1): 0 ofert w feedzie, szukam: 2peaksbikes.com, actionsports.de, all4cycling.com, alltricks.com, ascekhn.com, benscycle.com, bici10.com, bikable.com, bike-components.de, bike-discount.de, bike-mailorder.com, bike-prof.de (+84)
+[SHOPPING] GX-DERAILLEUR (gl=pl, serper, fraza 1, str. 1): 0 ofert w feedzie, szukam: 2wheels.pl, 3mk.pl, airbike.pl, bemko.pl, bike24.pl, bikefast.pl, bikestacja.pl, cyklomania.pl, deporvillage.pl, e-domus.com.pl, eubike.pl, goride.pl (+15)
+[SHOPPING] GX-DERAILLEUR (gl=pl, serper, fraza 2, str. 1): 0 ofert w feedzie, szukam: 2wheels.pl, 3mk.pl, airbike.pl, bemko.pl, bike24.pl, bikefast.pl, bikestacja.pl, cyklomania.pl, deporvillage.pl, e-domus.com.pl, eubike.pl, goride.pl (+15)
+[SHOPPING] GX-DERAILLEUR (gl=cz, serper, fraza 1, str. 1): 0 ofert w feedzie, szukam: 123kolo.cz, 2mcyklosport.cz, axit.cz, bikegallery.cz, bikero.cz, cyklozitny.cz, fitness-zone.cz, flybike.cz, hupnakolo.cz, kolokram.cz, koloshop.cz, kompletni-sady.heureka.cz (+8)
+[SHOPPING] GX-DERAILLEUR (gl=cz, serper, fraza 2, str. 1): 0 ofert w feedzie, szukam: 123kolo.cz, 2mcyklosport.cz, axit.cz, bikegallery.cz, bikero.cz, cyklozitny.cz, fitness-zone.cz, flybike.cz, hupnakolo.cz, kolokram.cz, koloshop.cz, kompletni-sady.heureka.cz (+8)
+[SHOPPING] X0-CHAIN: pomijam kraje es, cz, it, at, nl, fi, ch (limit 3/produkt/run)
 [SHOPPING] Budzet zapytan na ten run wyczerpany
 [AUTH] google: dostep odrzucony (HTTP 403) - wylaczam silnik do konca runu. Custom Search JSON API jest zamkniete dla nowych klientow (od 2026; starzy do 2027-01-01). Warstwa CSE dziala tylko na starych projektach Google Cloud - jesli nie masz takiego, usun sekrety GOOGLE_API_KEY/GOOGLE_CX.
 [AUTH] google: poczatek odpowiedzi: { "error": { "code": 403, "message": "This project does not have the access to Custom Search JSON API.", "errors": [ { "me
 [SERPER] Kredyty: zuzyte 0 w tym runie, lacznie 2500 z 2500 (pozostalo 0) - API POTWIERDZILO BRAK KREDYTOW
-[BLIND] FORCE-AXS-LEWA: bez ceny (sklep blokuje, Google nie pokryl): bdc-mag.com, bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.lu, bike24.pl, bikeacademyshop.com, bikechill.pl, bikecomponenti.com, bikefast.pl, bikesportworld.de, cingolanibikeshop.com, competitivecyclist.com, creoproject.pl, cyclehubbox.com, decathlon.pl, deporvillage.de, elvmotors.com, fabreguesbicicletas.com, galaxus.it, gambacicli.fr, ibksport.es, ibksport.eu, idealo.es, idealo.fr, jensonusa.com, lordgun.com, lordgun.de, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, lvr-cycles.com, mtbiker.pl, nencinisport.it, olx.pl, parcosanpaolo.it, powermetercity.com, r2-bike.com, roweryonline.com, sanferbike.com, shop.free-bike.net, sprint-rowery.pl, starbike.com, vcelisvet.cz, velofactory.ch, velonova.ee, velopoint.pl
+[BLIND] FORCE-AXS-LEWA: bez ceny (sklep blokuje, Google nie pokryl): bdc-mag.com, bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.lu, bike24.pl, bikeacademyshop.com, bikechill.pl, bikecomponenti.com, bikefast.pl, bikesportworld.de, competitivecyclist.com, creoproject.pl, cyclehubbox.com, decathlon.pl, deporvillage.de, elvmotors.com, fabreguesbicicletas.com, galaxus.it, gambacicli.fr, ibksport.es, ibksport.eu, idealo.es, idealo.fr, jensonusa.com, kleinanzeigen.de, lordgun.com, lordgun.de, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, lvr-cycles.com, mtbiker.pl, nencinisport.it, olx.pl, parcosanpaolo.it, powermetercity.com, r2-bike.com, roweryonline.com, sanferbike.com, shop.free-bike.net, sprint-rowery.pl, starbike.com, vcelisvet.cz, velofactory.ch, velonova.ee, velopoint.pl
+[BLIND] XX-SL-POWERMETER: bez ceny (sklep blokuje, Google nie pokryl): aktywnawyprawa.com, benscycle.com, bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fi, bike24.fr, bike24.lu, bike24.nl, bike24.pl, carrefour.fr, chrissports.ch, ciclosartia.com, competitivecyclist.com, cyclingweb.nl, cyklisticke-prislusenstvi.heureka.cz, cyklomania.pl, deporvillage.pl, eastcitycycles.com, erowery.pl, fnac.com, gambacicli.fr, ibkbike.com, ibkbike.fr, ibksport.com, ibksport.eu, jensonusa.com, kingcyclesport.com, kleinanzeigen.de, kompletni-sady.heureka.cz, lordgunbicycles.com, mtbiker.pl, nencinisport.it, oebikes.ie, powermetercity.com, prontosoccorsoveterinarioroma.it, r2-bike.com, rei.com, ridewill.it, summitbicycles.com, synkros.pl, velofactory.ch, velonova.ee, velonova.lt, weightweenies.starbike.com
+[BLIND] FORCE-AXS-PRAWA: bez ceny (sklep blokuje, Google nie pokryl): 3mpolska.pl, academiadetopografie.ro, auto-doc.fr, autodoc.pl, baldersbychurch.com, bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.lu, bike24.nl, bike24.pl, bikeacademyshop.com, bikefast.pl, bretagne-materiaux.fr, chrissports.ch, competitivecyclist.com, cycli.cz, cyklisticke-prislusenstvi.heureka.cz, darfi.net, deporvillage.com, deporvillage.de, fabreguesbicicletas.com, fnac.com, galaxus.de, gambacicli.fr, gtstore.cz, hygi.de, ibkbike.com, ibkbike.de, ibkbike.fr, ibksport.ch, ibksport.de, ibksport.es, idealo.es, idealo.fr, jensonusa.com, kleinanzeigen.de, kola-radotin.cz, kompletni-sady.heureka.cz, kraftfahrrad.de, leboncoin.fr, lordgun.com, lordgun.de, lordgunbicycles.com, lordgunbicycles.fr, lvr-cycles.com, mtbiker.pl, nencinisport.it, olx.pl, otto.de, papiermacherschule.at, powermetercity.com, r2-bike.com, rat-bikes.com, resocafecantineasso.fr, saintaubindecrosville.fr, sanferbike.com, servi-a.com, sklep.kadrzynski.pl, sprint-rowery.pl, tradergames.fr, universalcycles.com, velofactory.ch, velonova.ee, velonova.lt, velopoint.pl
+[BLIND] X0-CASSETTE: bez ceny (sklep blokuje, Google nie pokryl): alfashirt.com, bicispasaje.es, bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fi, bike24.fr, bike24.it, bike24.lu, bike24.nl, bike24.pl, bikefast.pl, community.mtb-mag.com, competitivecyclist.com, decathlon.it, deporvillage.de, deporvillage.nl, deporvillage.pl, dieguteseiteberlin.de, fabreguesbicicletas.com, fiets.nl, gambacicli.fr, hb61bikes.com, idealo.es, idealo.fr, jensonusa.com, kazety.heureka.cz, kbike.es, kleinanzeigen.de, kompletni-sady.heureka.cz, lordgun.com, lordgun.de, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, lvr-cycles.com, mtbiker.pl, pienarbikeshop.com, power-bikes.pl, powermetercity.com, probikeshop.de, prodieselparts.com, quantavici.com, r2-bike.com, rat-bikes.com, rei.com, rennrad-news.de, retezy.heureka.cz, ridewill.com, sunandski.com, usedbikes-ob.de, velofactory.ch, zonacycles.com
+[BLIND] X0-CHAIN: bez ceny (sklep blokuje, Google nie pokryl): absolubike.fr, alutech-cycles.com, benscycle.com, best-bike-parts.de, bicicletasapedales.com, bicispasaje.es, bike24.at, bike24.com, bike24.de, bike24.es, bike24.fi, bike24.fr, bike24.it, bike24.pl, catenagroup.es, competitivecyclist.com, ebike24.com, fabreguesbicicletas.com, fnac.com, ftzshop.de, gambacicli.fr, grofova.cz, ibkbike.com, ibkbike.fr, ibksport.com, ibksport.de, ibksport.es, ibksport.eu, ibksport.nl, idealo.at, idealo.es, idealo.fr, jensonusa.com, kbike.es, lordgun.com, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, mtbiker.pl, placedeslibraires.fr, powermetercity.com, quantavici.com, r2-bike.com, rei.com, retezy.heureka.cz, sklep.kadrzynski.pl, sprint-rowery.pl, thebikevillage.com, trekdonostia.com, trodo.es, trodo.fr, tuning-bikes.de, vadebicis.com, velofactory.ch, x.com
 [BLIND] GX-DERAILLEUR: bez ceny (sklep blokuje, Google nie pokryl): 2peaksbikes.com, ascekhn.com, benscycle.com, bike-discount.de, bike24.at, bike24.com, bike24.de, bike24.es, bike24.fi, bike24.fr, bike24.it, bike24.lu, bike24.nl, bike24.pl, bikefast.pl, canadabicycleparts.com, carrefour.fr, chadjacksonpainting.com, codeval.es, competitivecyclist.com, deporvillage.pl, dispano.fr, ebike-mag.com, emilebicyclettes.com, eubike.pl, fiets.nl, fnac.com, gambacicli.fr, hb61bikes.com, hibike.com, hupnakolo.cz, ibksport.com, ibksport.fr, idealo.es, idealo.fr, jensonusa.com, kleinanzeigen.de, kompletni-sady.heureka.cz, megabici.com, mtbiker.pl, nencinisport.it, power-bikes.pl, prehazovacky.heureka.cz, r2-bike.com, rat-bikes.com, rat-bikes.eu, rei.com, sportler.com, trodo.nl, velofactory.ch, velonova.lt, warszawakomornik.com.pl, weldom.fr, yawpcyclery.com
-[BLIND] FORCE-AXS-PRAWA: bez ceny (sklep blokuje, Google nie pokryl): 3mpolska.pl, academiadetopografie.ro, auto-doc.fr, autodoc.pl, baldersbychurch.com, bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fr, bike24.it, bike24.lu, bike24.nl, bike24.pl, bikeacademyshop.com, bikefast.pl, bretagne-materiaux.fr, chrissports.ch, cingolanibikeshop.com, competitivecyclist.com, cyklisticke-prislusenstvi.heureka.cz, darfi.net, deporvillage.com, deporvillage.de, fabreguesbicicletas.com, fnac.com, galaxus.de, gambacicli.fr, gtstore.cz, hygi.de, ibkbike.com, ibkbike.de, ibkbike.fr, ibksport.ch, ibksport.de, ibksport.es, idealo.es, idealo.fr, jensonusa.com, kleinanzeigen.de, kola-radotin.cz, kompletni-sady.heureka.cz, kraftfahrrad.de, leboncoin.fr, lordgun.com, lordgun.de, lordgunbicycles.com, lordgunbicycles.fr, lvr-cycles.com, mtbiker.pl, nencinisport.it, olx.pl, otto.de, papiermacherschule.at, powermetercity.com, r2-bike.com, rat-bikes.com, resocafecantineasso.fr, saintaubindecrosville.fr, sanferbike.com, servi-a.com, sklep.kadrzynski.pl, sprint-rowery.pl, tradergames.fr, universalcycles.com, velofactory.ch, velonova.ee, velonova.lt, velopoint.pl
-[BLIND] IBS-V1X: bez ceny (sklep blokuje, Google nie pokryl): bikeforums.net, bowhunterssupplystore.com, diamondtechnique.com, dickssportinggoods.com, gearjunkie.com, infinity-saddle.de, infinitypipesystem.com, lostgolfballs.com, m.alibaba.com, olx.pl, pgn-nuenen.nl, picclick.es, precise-performance.co.uk, primepulselink.org, projectcece.com, racearoundpoland.pl, titleist.ca, titleist.co.kr, titleist.co.uk, titleist.com, titleist.eu, titleist.in.th, titleist.se, todays-golfer.com, tractorsupply.com
-[BLIND] X0-CASSETTE: bez ceny (sklep blokuje, Google nie pokryl): alfashirt.com, bicispasaje.es, bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fi, bike24.fr, bike24.it, bike24.lu, bike24.nl, bike24.pl, bikefast.pl, cingolanibikeshop.com, community.mtb-mag.com, competitivecyclist.com, decathlon.it, deporvillage.de, deporvillage.nl, deporvillage.pl, dieguteseiteberlin.de, fabreguesbicicletas.com, fiets.nl, gambacicli.fr, hb61bikes.com, idealo.es, idealo.fr, jensonusa.com, kazety.heureka.cz, kbike.es, kleinanzeigen.de, kompletni-sady.heureka.cz, lordgun.com, lordgun.de, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, lvr-cycles.com, mtbiker.pl, pienarbikeshop.com, power-bikes.pl, powermetercity.com, probikeshop.de, prodieselparts.com, quantavici.com, r2-bike.com, rat-bikes.com, rei.com, rennrad-news.de, retezy.heureka.cz, sunandski.com, usedbikes-ob.de, velofactory.ch, zonacycles.com
-[BLIND] GARBARUK-40T-AERO: bez ceny (sklep blokuje, Google nie pokryl): acae.es, axevotech.eu, backcountry.com, barcodelookup.com, batacz.cz, beko.com, belk.com, bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fi, bike24.fr, bike24.lu, bike24.nl, bike24.pl, bol.com, bruneau.nl, camelcamelcamel.com, carrefour.es, carrefour.fr, cincodias.elpais.com, competitivecyclist.com, cz.kompass.com, elektro-produkt.cz, elektroshop.nl, es.kompass.com, fabreguesbicicletas.com, fnac.com, fnac.es, fr.kompass.com, galaxus.de, galaxus.fr, galaxus.nl, gowork.pl, grabagun.com, hap.pl, homedepot.com, intermotors.pl, ipublimar.pl, it.kompass.com, kaufland.fr, kaufland.pl, kleinanzeigen.de, kompass.com, kotnik.shop, kstools.fr, leroymerlin.es, leroymerlin.fr, levelninesports.com, lordgun.com, lordgunbicycles.com, lowes.com, maxoutil.com, nl.kompass.com, nrpzs.uzis.cz, okcaller.com, owg.pl, perfectplus.com.pl, pl.kompass.com, pl.rs-online.com, policie.gov.cz, powermetercity.com, r2-bike.com, shop.cec.com, starbike.com, toolsxl.nl, walmart.com, worten.es, zwieger.pl
-[BLIND] XX-SL-POWERMETER: bez ceny (sklep blokuje, Google nie pokryl): aktywnawyprawa.com, benscycle.com, bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fi, bike24.fr, bike24.lu, bike24.nl, bike24.pl, carrefour.fr, chrissports.ch, ciclosartia.com, cingolanibikeshop.com, competitivecyclist.com, cyclingweb.nl, cyklisticke-prislusenstvi.heureka.cz, cyklomania.pl, deporvillage.pl, eastcitycycles.com, erowery.pl, fnac.com, gambacicli.fr, ibkbike.com, ibkbike.fr, ibksport.com, ibksport.eu, jensonusa.com, kingcyclesport.com, kleinanzeigen.de, kompletni-sady.heureka.cz, lordgunbicycles.com, mtbiker.pl, nencinisport.it, oebikes.ie, powermetercity.com, prontosoccorsoveterinarioroma.it, r2-bike.com, rei.com, summitbicycles.com, synkros.pl, velofactory.ch, velonova.ee, velonova.lt, weightweenies.starbike.com
-[BLIND] X0-CHAIN: bez ceny (sklep blokuje, Google nie pokryl): absolubike.fr, alutech-cycles.com, benscycle.com, best-bike-parts.de, bicicletasapedales.com, bicispasaje.es, bike24.at, bike24.com, bike24.de, bike24.es, bike24.fi, bike24.fr, bike24.it, bike24.pl, competitivecyclist.com, ebike24.com, fabreguesbicicletas.com, fnac.com, gambacicli.fr, grofova.cz, ibkbike.com, ibkbike.fr, ibksport.com, ibksport.de, ibksport.es, ibksport.eu, ibksport.nl, idealo.at, idealo.es, idealo.fr, jensonusa.com, kbike.es, lordgun.com, lordgunbicycles.com, lordgunbicycles.es, lordgunbicycles.fr, mtbiker.pl, placedeslibraires.fr, powermetercity.com, quantavici.com, r2-bike.com, rei.com, retezy.heureka.cz, sklep.kadrzynski.pl, sprint-rowery.pl, thebikevillage.com, trodo.es, trodo.fr, tuning-bikes.de, vadebicis.com, velofactory.ch, x.com
-[BLIND] Canyon S15 VCLS 2.0: bez ceny (sklep blokuje, Google nie pokryl): fiets.nl, mtbiker.pl, olx.pl, rennrad-news.de, ricardo.ch, sets-robot.com, theokrgroup.com, velonova.lt
-[HISTORIA] Canyon S15 VCLS 2.0: najnizsza 412.65 PLN (biclo.pl)
-[HISTORIA] IBS-V1X: najnizsza 1457.71 PLN (cyclingupgrades.com)
-[HISTORIA] FORCE-AXS-LEWA: najnizsza 1051.8 PLN (fitstore24.com)
-[HISTORIA] FORCE-AXS-PRAWA: najnizsza 1042.25 PLN (tnc-hamburg.com)
-[HISTORIA] X0-CASSETTE: najnizsza 1368.08 PLN (evolutionbikes.it)
-[HISTORIA] GX-DERAILLEUR: najnizsza 1498.64 PLN (rosebikes.pl)
-[HISTORIA] X0-CHAIN: najnizsza 351.17 PLN (bike-mailorder.com)
-[HISTORIA] XX-SL-POWERMETER: najnizsza 1563.98 PLN (bike-discount.de)
-[HISTORIA] GARBARUK-40T-AERO: najnizsza 289.13 PLN (derbaranski.shop)
+[BLIND] GARBARUK-40T-AERO: bez ceny (sklep blokuje, Google nie pokryl): acae.es, axevotech.eu, backcountry.com, barcodelookup.com, batacz.cz, beko.com, belk.com, bike24.at, bike24.be, bike24.com, bike24.de, bike24.es, bike24.fi, bike24.fr, bike24.lu, bike24.nl, bike24.pl, bol.com, bruneau.nl, camelcamelcamel.com, carrefour.es, carrefour.fr, cincodias.elpais.com, competitivecyclist.com, cz.kompass.com, elektro-produkt.cz, elektroshop.nl, es.kompass.com, fabreguesbicicletas.com, fnac.com, fnac.es, fr.kompass.com, galaxus.de, galaxus.fr, galaxus.nl, gowork.pl, grabagun.com, hap.pl, homedepot.com, intermotors.pl, ipublimar.pl, it.kompass.com, kaufland.fr, kaufland.pl, kleinanzeigen.de, kompass.com, kstools.fr, leroymerlin.es, leroymerlin.fr, levelninesports.com, lordgun.com, lordgunbicycles.com, lowes.com, mastercadena.es, maxoutil.com, nl.kompass.com, nrpzs.uzis.cz, okcaller.com, owg.pl, perfectplus.com.pl, pl.kompass.com, powermetercity.com, r2-bike.com, rossellimac.es, shop.cec.com, starbike.com, toolsxl.nl, walmart.com, worten.es, zwieger.pl
+[BLIND] IBS-V1X: bez ceny (sklep blokuje, Google nie pokryl): bikeforums.net, bowhunterssupplystore.com, diamondtechnique.com, dickssportinggoods.com, everychina.com, gearjunkie.com, infinity-saddle.de, infinitypipesystem.com, lostgolfballs.com, m.alibaba.com, olx.pl, pgn-nuenen.nl, picclick.es, precise-performance.co.uk, primepulselink.org, projectcece.com, racearoundpoland.pl, titleist.ca, titleist.co.kr, titleist.co.uk, titleist.com, titleist.eu, titleist.in.th, titleist.se, todays-golfer.com, tractorsupply.com
+[BLIND] Canyon S15 VCLS 2.0: bez ceny (sklep blokuje, Google nie pokryl): fiets.nl, gravelunion.cc, mtbiker.pl, olx.pl, rennrad-news.de, ricardo.ch, sets-robot.com, theokrgroup.com, velonova.lt
+[HISTORIA] Canyon S15 VCLS 2.0: najnizsza 412.55 PLN (biclo.pl)
+[HISTORIA] IBS-V1X: najnizsza 1456.63 PLN (cyclingupgrades.com)
+[HISTORIA] FORCE-AXS-LEWA: najnizsza 1051.56 PLN (fitstore24.com)
+[HISTORIA] FORCE-AXS-PRAWA: najnizsza 1042.01 PLN (tnc-hamburg.com)
+[HISTORIA] X0-CASSETTE: najnizsza 1367.77 PLN (evolutionbikes.it)
+[HISTORIA] GX-DERAILLEUR: najnizsza 1498.29 PLN (rosebikes.pl)
+[HISTORIA] X0-CHAIN: najnizsza 351.09 PLN (bike-mailorder.com)
+[HISTORIA] XX-SL-POWERMETER: najnizsza 1563.62 PLN (bike-discount.de)
+[HISTORIA] GARBARUK-40T-AERO: najnizsza 289.06 PLN (derbaranski.shop)
 [EXCEL] Zapisano /home/runner/work/PriceChecker/PriceChecker/output/prices.xlsx
-[CZAS] run z harmonogramu: przebieg trwal 146 min 49 s
+[CZAS] run z harmonogramu: przebieg trwal 150 min 23 s
 [DASHBOARD] Zapisano /home/runner/work/PriceChecker/PriceChecker/output/dashboard.html (+ docs/index.html dla GitHub Pages)
 Gotowe.
