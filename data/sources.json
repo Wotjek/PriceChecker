@@ -16149,6 +16149,36 @@
       "domain": "forums.electricbikereview.com",
       "first_seen": "2026-09-21",
       "via": "tavily"
+    },
+    "https://www.rennrad-news.de/forum/threads/ersatz-für-s15-vcls-2-0-sattelstütze.166074": {
+      "domain": "rennrad-news.de",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.testberichte.de/p/canyon-bicycles-tests/vcls-2-0-cf-s25-testbericht.html": {
+      "domain": "testberichte.de",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.rennrad-news.de/forum/threads/vcls-2-0-sattelstütze-und-bikepackingsatteltaschen.151069": {
+      "domain": "rennrad-news.de",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.canyon.com/en-us/gear/components/posts-and-clamps": {
+      "domain": "canyon.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.visitcanyon.com": {
+      "domain": "visitcanyon.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://buycycle.com/pl-pl/product/seatpost-canyon-s15-seatpost-5": {
+      "domain": "buycycle.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
     }
   },
   "IBS-V1X": {
@@ -17315,6 +17345,121 @@
     "https://www.mapquest.com/ca/british-columbia/kick-asphalt-388107826": {
       "domain": "mapquest.com",
       "first_seen": "2026-09-21",
+      "via": "tavily"
+    },
+    "https://x.com/InfinitySeat": {
+      "domain": "x.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://infinitybikeseat.com/media": {
+      "domain": "infinitybikeseat.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://en.wikipedia.org/wiki/Infinity": {
+      "domain": "en.wikipedia.org",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://simple.wikipedia.org/wiki/Infinity": {
+      "domain": "simple.wikipedia.org",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://en.wikipedia.org/wiki/Infinity_symbol": {
+      "domain": "en.wikipedia.org",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.britannica.com/science/infinity-mathematics": {
+      "domain": "britannica.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.prodieselparts.com/830572/Saddle-Black-7x7mm-Stainless-Rails-265g-Comfort-Design": {
+      "domain": "prodieselparts.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.atypikwear.com/index.php/Infinity-Vegan-V1X-Bike-Saddle-Black-7x7mm-Stainless-Steel-1048836": {
+      "domain": "atypikwear.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.mapquest.com/us/illinois/saddle-cycle-club-304470737": {
+      "domain": "mapquest.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://lifestylecollection.mbusa.com/1556266-00-titleist-pro-v1x-golf-balls": {
+      "domain": "lifestylecollection.mbusa.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.titleist.com/teamtitleist/team-titleist/f/golf-balls/68639/back-to-the-pro-v1x": {
+      "domain": "titleist.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.todays-golfer.com/features/equipment-features/titleist-pro-v1-vs-titleist-pro-v1x-golf-balls-test": {
+      "domain": "todays-golfer.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.microsonic.de/en/service/downloads/archiv-sensors": {
+      "domain": "microsonic.de",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.computer.org/csdl/journal/bb/2026/02/11304534/2czVt4SAlBS": {
+      "domain": "computer.org",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC2916191": {
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://metrionbiosciences.com/profiling-endogenous-sodium-channels-in-the-nd7-23-neuroblastoma-cell-line-implications-for-use-as-a-heterologous-ion-channel-expression-system-and-native-tissue-model-suitable-for-automated-patch-cl": {
+      "domain": "metrionbiosciences.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://a100.gov.bc.ca/pub/acat/documents/r7742/OK38_1157075670320_be928e5139a24fcbb2fdec8cd0b05d36.pdf": {
+      "domain": "a100.gov.bc.ca",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://pubs.acs.org/doi/10.1021/acsaem.4c01385": {
+      "domain": "pubs.acs.org",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.virginiachronicle.com?a=d&d=CTV19471218.1.6": {
+      "domain": "virginiachronicle.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.mapquest.com/ca/british-columbia/visions-electronics-289991160": {
+      "domain": "mapquest.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.mapquest.com/ca/british-columbia/magnacharge-battery-499059428": {
+      "domain": "mapquest.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.mapquest.com/ca/british-columbia/twin-creek-media-inc-454940338": {
+      "domain": "mapquest.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.mapquest.com/ca/british-columbia/c3-training-279931315": {
+      "domain": "mapquest.com",
+      "first_seen": "2026-09-28",
       "via": "tavily"
     }
   },
@@ -19793,6 +19938,66 @@
       "domain": "indeed.com",
       "first_seen": "2026-09-21",
       "via": "tavily"
+    },
+    "https://www.ms-exclusiv-bikes.de/shop-1/SRAM-Force-AXS-HRD-E1-Upgrade-Kit-2x12-p804477155": {
+      "domain": "ms-exclusiv-bikes.de",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://leadiq.com/c/sram/5a1d85e024000024006041a3/email-format": {
+      "domain": "leadiq.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://wertykal.com/pl/p/Klamkomanetka-lewa-z-zaciskiem-Sram-Rival-AXS-E1-przod-950mm/13246": {
+      "domain": "wertykal.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://bikefast.pl/product-pol-6756-Zestaw-hamulcowy-klamkomanetka-SRAM-RIVAL-AXS-E1-zacisk-przod-lewy.html": {
+      "domain": "bikefast.pl",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://ibkbike.it/products/lever-brake-shifting-sram-force-axs-e1-left-caliper-front-flat-mount-20mm-offset-950mm-carbon-black": {
+      "domain": "ibkbike.it",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.bike-discount.de/it/sram-leva-del-cambio/freno-rival-etap-axs-e1-hrd-set-di-freni-a-disco-fm-2x12-velocita": {
+      "domain": "bike-discount.de",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://cryptorank.io/es/price/axie-infinity/gbp": {
+      "domain": "cryptorank.io",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://cryptorank.io/es/price/axie-infinity/idr": {
+      "domain": "cryptorank.io",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://tracxn.com/d/legal-entities/norway/freno-as/__bVfrfiEB-HeidndOJoMZsnPBknyv_P1S4Z9YEvCRorg": {
+      "domain": "tracxn.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://jihercet.com/product/levier-sram-force-axs-e1-gauche-2": {
+      "domain": "jihercet.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.troc-velo.com/fr-fr/annonce/levier-gauche-de-frein-sram-force-axs-12-v-4230488": {
+      "domain": "troc-velo.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.alltricks.fr/v/sram-force-axs": {
+      "domain": "alltricks.fr",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
     }
   },
   "FORCE-AXS-PRAWA": {
@@ -22245,6 +22450,61 @@
       "domain": "velostation.com",
       "first_seen": "2026-09-21",
       "via": "tavily"
+    },
+    "https://www.indeed.com/cmp/Sram/reviews?fcountry=US&ftext=sram": {
+      "domain": "indeed.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.ms-exclusiv-bikes.de/shop-1/SRAM-Force-AXS-HRD-E1-Upgrade-Kit-2x12-p804477155": {
+      "domain": "ms-exclusiv-bikes.de",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://antymateria.com/products/klamkomanetka-zacisk-sram-force-xplr-axs-e1-tyl": {
+      "domain": "antymateria.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.bikestacja.pl/zestaw-klamkomanetki-sram-red-axs-e1-lewy-przod-z-przewodem-kartapdf-45583.html": {
+      "domain": "bikestacja.pl",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://strefasportu.pl/pl/p/Klamkomanetka-SRAM-ED-FORCE-AXS-E1-lewa/21712": {
+      "domain": "strefasportu.pl",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.tradeinn.com/bikeinn/it/sram-leva-del-cambio-sinistra-con-cambio-elettronico-hydraulic-flat-mount-force-e-tap-axs-e1-950-mm/142262560/p": {
+      "domain": "tradeinn.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://cryptorank.io/es/price/axie-infinity/gbp": {
+      "domain": "cryptorank.io",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://cryptorank.io/es/price/axie-infinity/idr": {
+      "domain": "cryptorank.io",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://tracxn.com/d/legal-entities/norway/freno-as/__bVfrfiEB-HeidndOJoMZsnPBknyv_P1S4Z9YEvCRorg": {
+      "domain": "tracxn.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://bouticycle.com/shop/levier-droit-sram-force-e1-axs-sans-etrier-448030": {
+      "domain": "bouticycle.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.alltricks.fr/v/sram-force-axs": {
+      "domain": "alltricks.fr",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
     }
   },
   "X0-CASSETTE": {
@@ -23746,6 +24006,66 @@
     "https://www.leagueoutfitters.com/products/sram-x0-eagle-t-type-flattop-chain": {
       "domain": "leagueoutfitters.com",
       "first_seen": "2026-09-21",
+      "via": "tavily"
+    },
+    "https://grillobike.com/00-2418-126-000": {
+      "domain": "grillobike.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://spotbikes.com/products/sram-x0-10-52-t-type-cassette-xs-1295": {
+      "domain": "spotbikes.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.crunchbase.com/organization/cassette": {
+      "domain": "crunchbase.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.bike-mailorder.com/en/products/sram-x0-eagle-transmission-kassette-xg-1295": {
+      "domain": "bike-mailorder.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.bike24.de/p1993038.html": {
+      "domain": "bike24.de",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.bike24.de/p1993037.html": {
+      "domain": "bike24.de",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://bike24.de/p1720539.html": {
+      "domain": "bike24.de",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.maciag-offroad.de/sram-verschleiss-set-x0-eagle-t-type-set-2-teilig-12-fach-10-52-zaehne-sid162763.html": {
+      "domain": "maciag-offroad.de",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.bike-components.de/de/SRAM/XS-1270-T-Type-Eagle-12-fach-Kassette-p215246": {
+      "domain": "bike-components.de",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.rvebike.com/product/sram-x0-eagle-t-type-xg-1295-12-speed-cassette-455304-1.htm": {
+      "domain": "rvebike.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.bikeexchange.com/en-US/products/sram_x0_eagle_t_type_xg_1295_12_speed_cassette_2023": {
+      "domain": "bikeexchange.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://cozmobike.pl/en/osprzet/naped/kasety/copy-of-kaseta-sram-x0-eagle-xg-1295-t-type-10-52.html": {
+      "domain": "cozmobike.pl",
+      "first_seen": "2026-09-28",
       "via": "tavily"
     }
   },
@@ -25744,6 +26064,46 @@
       "domain": "bike24.it",
       "first_seen": "2026-09-21",
       "via": "tavily"
+    },
+    "https://www.wheelworx.ie/product/132917493/sram-gx-eagle-t-type-axs-rear-derailleur/option": {
+      "domain": "wheelworx.ie",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://astunke.lt/en/parduotuve/pavaru-sistema/perjungikliai/galiniai/12-pavaru/perjungejas-galinis-sram-gx-eagle-transmission-axs-t-type": {
+      "domain": "astunke.lt",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://abalos-tx.com/730899/Rear-Derailleur-12-Speed-52t-Max-Wheel-Axle-Mount-Steel": {
+      "domain": "abalos-tx.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.marchisiobici.it/en/mtb-rear-frames/44417-sram-gx-t-type-eagle-axs-12-speed-710845892929.html": {
+      "domain": "marchisiobici.it",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.nowbikes-fitness.com/product/sram-gx-eagle-transmission-derailleur-678168-1.htm": {
+      "domain": "nowbikes-fitness.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://ltmracing.com/en/rear-gears/10440-rear-derailleur-sram-gx-eagle-axs-t-type-black-710845892929.html": {
+      "domain": "ltmracing.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://pitchbook.com/profiles/company/455632-84": {
+      "domain": "pitchbook.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.fanatikbike.com/products/sram-gx-transmission-t-type-eagle-axs-groupset": {
+      "domain": "fanatikbike.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
     }
   },
   "X0-CHAIN": {
@@ -26990,6 +27350,16 @@
     "https://www.indeed.com/cmp/Catena-Media": {
       "domain": "indeed.com",
       "first_seen": "2026-09-21",
+      "via": "tavily"
+    },
+    "https://astunke.lt/en/parduotuve/pavaru-sistema/grandines-pavaru-sistema/grandine-sram-x0-eagle-transmission-t-type": {
+      "domain": "astunke.lt",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://wrightpediatricdentistry.com/product/SRAM-X0-Eagle-Flattop-T-Type-12-fach-Kette-126-Glieder-Dark/861531": {
+      "domain": "wrightpediatricdentistry.com",
+      "first_seen": "2026-09-28",
       "via": "tavily"
     }
   },
@@ -36492,6 +36862,116 @@
       "domain": "centrumrowerowe.pl",
       "first_seen": "2026-09-21",
       "via": "tavily"
+    },
+    "https://www.bikeparts.com/BPC511002/sram-xx-xx-sl-eagle-t-type-axs-power-meter-spider-for-use-with-thread-mount-chainrings-8-bolt-direct-mount-black-d1": {
+      "domain": "bikeparts.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.redrockbicycle.com/products/sram-xx-xx-sl-eagle-t-type-axs-power-meter-spider-for-use-thread-mount-chainrings-8-bolt-direct-mount-blk-d1?id=0f27d2f6dd7f8fc80c06c4aef78d02558045d72103d53cb153956463ad2d9c79&from=Crank+Spider&fromSlug=Crank+Spider": {
+      "domain": "redrockbicycle.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.bikeparts.com/BPC207771/sram-xx-xxsl-power-meter-spider-axs-d1-8-bolt-thread-mnt": {
+      "domain": "bikeparts.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://hummibikes.com/en/p/tech/Gadgets/srm-arana-powermeter-t-type-axs-eagle-xx-xxsl-direct-thread-chainring-includes-8-screws-and-pin-for-d1-chainring": {
+      "domain": "hummibikes.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://hollandbikeshop.com/en-gb/sram/sram-mtb-parts/sram-crankset/sram-crankset-parts": {
+      "domain": "hollandbikeshop.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.worldwidecyclery.com/collections/sram-eagle-drivetrain?page=7": {
+      "domain": "worldwidecyclery.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://worldwidecyclery.com/collections/sram/crank-part": {
+      "domain": "worldwidecyclery.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.ridewill.com/p/en/sram-sr02spa00280000001-spider-powermeter-xx-xx-sl-eagle-axs-t-type-thread-mount/1652513": {
+      "domain": "ridewill.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://worldwidecyclery.com/collections/sram-eagle-drivetrain/crank-part": {
+      "domain": "worldwidecyclery.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://worldwidecyclery.com/collections/crank-part/sram": {
+      "domain": "worldwidecyclery.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://worldwidecyclery.com/collections/components/crank-spider": {
+      "domain": "worldwidecyclery.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://worldwidecyclery.com/collections/crank-spider": {
+      "domain": "worldwidecyclery.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.worldwidecyclery.com/collections/crank-part?page=3": {
+      "domain": "worldwidecyclery.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.starbike.com/en/sram-powermeter-spider-xx-sl-xx-for-chainring-for-threaded-mounting-xx-xxsl-incl.-8-bolts-and-locking-pin": {
+      "domain": "starbike.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://en.wikipedia.org/wiki/The_Rookie": {
+      "domain": "en.wikipedia.org",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://en.wikipedia.org/wiki/List_of_The_Rookie_episodes": {
+      "domain": "en.wikipedia.org",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.cbinsights.com/company/sram": {
+      "domain": "cbinsights.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.marketbeat.com/instant-alerts/filing-first-eagle-investment-management-llc-cuts-stock-position-in-axis-capital-holdings-limited-axs-2025-11-07": {
+      "domain": "marketbeat.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.cbinsights.com/company/sram/people": {
+      "domain": "cbinsights.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://coinmarketcap.com/currencies/xx-network": {
+      "domain": "coinmarketcap.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://hollandbikeshop.com/pl-pl/sram/sram-szosa-czesci/mierniki-mocy-sram/mierniki-mocy-do-jednorzedowego-napedu-sram/sram-eagle-xx-sl-powermeter-12v-170mm-34t-karbon-czarny-852108": {
+      "domain": "hollandbikeshop.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.jensonusa.com/sram-xxxx-sl-eagle-t-type-axs-power-meter-spider": {
+      "domain": "jensonusa.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
     }
   },
   "GARBARUK-40T-AERO": {
@@ -38403,6 +38883,66 @@
     "https://www.zoominfo.com/c/aaron-l-rund-construction-llc/551715771": {
       "domain": "zoominfo.com",
       "first_seen": "2026-09-21",
+      "via": "tavily"
+    },
+    "https://www.buycott.com/brand/182944/us-toy-upc?page=11": {
+      "domain": "buycott.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.buycott.com/brand/25871/novelty-distributors-upc": {
+      "domain": "buycott.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.foodservicedirect.com/tums-chewy-delights-6-count-per-pack-144-per-case-21406111.html": {
+      "domain": "foodservicedirect.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.lowes.com/pd/MENCOLULU-Interior-Gold-Leaf-Finish-Oval-Metal-Wall-Lighting-11-81-in-W-1-Light-Gold-Transitional-Integrated-LED-Wall-Sconce/5018298605": {
+      "domain": "lowes.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.homedepot.com/p/Amanti-Art-Parlor-White-23-5-in-H-x-29-5-in-W-Framed-Wall-Mirror-A38865480232/320718152": {
+      "domain": "homedepot.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.walmart.com/ip/CWI-Lighting-Arenal-Drum-Shade-Metal-LED-Flush-Mount-Light-in-Gray-White/937544193": {
+      "domain": "walmart.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.lowes.com/pd/Watnature-Metal-and-Plastic-Automobile-and-Motorcycle-Car-with-Metal-Frame-27-2-x-11-4-x-3-2-in/105075006": {
+      "domain": "lowes.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.lowes.com/pd/Naturefalls-11-2-x-10-9-x-13-3-in-and-Direct-Replacement-Automobile-and-Motorcycle-Braking-with-11-22-x-10-91-x-13-27/105263984": {
+      "domain": "lowes.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://global.garbaruk.com/shop/mtb-thread-mount-chainring-for-xx-xx-sl-power-meter-2128": {
+      "domain": "global.garbaruk.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.mapquest.com/us/tennessee/aero-design-inc-22444555": {
+      "domain": "mapquest.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://global.garbaruk.com/shop/dm-aero-chainring-for-sram-3-bolt-841": {
+      "domain": "global.garbaruk.com",
+      "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://global.garbaruk.com/shop/category/1x-chainrings-2": {
+      "domain": "global.garbaruk.com",
+      "first_seen": "2026-09-28",
       "via": "tavily"
     }
   },
