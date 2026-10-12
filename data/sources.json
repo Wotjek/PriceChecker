@@ -16179,6 +16179,216 @@
       "domain": "buycycle.com",
       "first_seen": "2026-09-28",
       "via": "tavily"
+    },
+    "https://www.canyon.com/no-no/sykkeltilbehor/sykkeldeler/posts-and-clamps/canyon-s15-vcls-2.0-27.2mm-cf-seatpost/148287.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.canyon.com/nl-nl/gear/bike-parts/posts-and-clamps/canyon-s15-vcls-2.0-27.2mm-cf-seatpost/148287.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.canyon.com/en-us/gear/components/posts-and-clamps/canyon-s14-vcls-2.0-27.2mm-cf-seatpost/148286.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.canyon.com/en-qa/gear/bike-parts/posts-and-clamps/canyon-s15-vcls-2.0-27.2mm-cf-seatpost/148287.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.dell.com/support/kbdoc/pl-pl/000184422/powerflex-manager-vsphere-clustered-services-vcls-vms": {
+      "domain": "dell.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://voisinconsulting.com/": {
+      "domain": "voisinconsulting.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://community.broadcom.com/vmware-cloud-foundation/discussion/vcls-vms": {
+      "domain": "community.broadcom.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://community.veeam.com/discussion-boards-66/vcls-appliance-showed-up-in-one-of-our-backup-jobs-this-caused-the-backup-job-to-show-as-failed-8029": {
+      "domain": "community.veeam.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://www.canyon.com/it-ch/accessori-biciclette/componenti/reggisella-collarini/canyon-sp0059-vcls-2.0-30.9mm-cf-seatpost/10008325.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:it"
+    },
+    "https://www.canyon.com/en-nz/gear/bike-parts/posts-and-clamps/canyon-s15-vcls-2.0-27.2mm-cf-seatpost/148287.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:it"
+    },
+    "https://www.canyon.com/en-it/gear/bike-parts/posts-and-clamps/": {
+      "domain": "canyon.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:it"
+    },
+    "https://www.kleinanzeigen.de/s-canyon-sattelst%C3%BCtze-s15/k0": {
+      "domain": "kleinanzeigen.de",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.rennrad-news.de/forum/threads/canyon-s15-vcls-2-0-cf-flip-head-sattelinnenklemmen-wie-herum.150462/": {
+      "domain": "rennrad-news.de",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.canyon.com/de-at/fahrradzubehoer/fahrradteile/sattelstuetze-sattelklemme/canyon-s13-vcls-27.2mm-cf-sattelstuetze/9100564.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.canyon.com/de-de/fahrradzubehoer/fahrradteile/sattelstuetze-sattelklemme/canyon-sp0059-vcls-2.0-30.9mm-cf-sattelstuetze/10008325.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:it"
+    },
+    "https://worldofmtb.de/material/getestet/bike/gravel/canyon-grailon-cf-8-etap": {
+      "domain": "worldofmtb.de",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.rennrad-news.de/forum/threads/ger%C3%A4usche-canyon-s15-vcls-st%C3%BCtze.150882": {
+      "domain": "rennrad-news.de",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://voisinconsulting.com": {
+      "domain": "voisinconsulting.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.vmware.com/docs/vmw-introduction-vsphere-clustering-service-vcls": {
+      "domain": "vmware.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/9-0/vsphere-resource-management/vsphere-cluster-services-vcls/embedded-vcls.html": {
+      "domain": "techdocs.broadcom.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://community.broadcom.com/vmware-cloud-foundation/discussion/vcls-agent-vms-host-maintenance": {
+      "domain": "community.broadcom.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.canyon.com/zh-hk/%E8%A3%9D%E5%82%99/%E8%87%AA%E8%A1%8C%E8%BB%8A-%E9%9B%B6%E4%BB%B6/%E5%BA%A7%E7%AE%A1-%E8%88%87-%E5%A4%BE%E5%85%B7/canyon-s15-vcls-2.0-27.2mm-cf-seatpost/148287.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.kleinanzeigen.de/s-fahrraeder/canyon-vcls-2.0/k0c217": {
+      "domain": "kleinanzeigen.de",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.canyon.com/es-bo/accesorios-bicicleta/componentes/tijas-cierres/canyon-s15-vcls-2.0-27.2mm-cf-seatpost/148287.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.kleinanzeigen.de/s-canyon-s15-vcls-2.0/k0": {
+      "domain": "kleinanzeigen.de",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.kleinanzeigen.de/s-vcls/k0": {
+      "domain": "kleinanzeigen.de",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.mtbiker.de/classifieds/radfahren/komponenten/sattelstutzen/starr/4670264/canyon-s15-vcls-20-cf-seatpost.html": {
+      "domain": "mtbiker.de",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.kleinanzeigen.de/s-canyon-sattelst%C3%BCtze-27/k0": {
+      "domain": "kleinanzeigen.de",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.canyon.com/zh-tw/%E8%A3%9D%E5%82%99/%E8%87%AA%E8%A1%8C%E8%BB%8A-%E9%9B%B6%E4%BB%B6/%E5%BA%A7%E7%AE%A1-%E8%88%87-%E5%A4%BE%E5%85%B7/canyon-s15-vcls-2.0-27.2mm-cf-seatpost/148287.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://www.canyon.com/es-mx/accesorios-bicicleta/componentes/tijas-cierres/canyon-s15-vcls-2.0-27.2mm-cf-seatpost/148287.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://www.canyon.com/zh-my/%E8%A3%85%E5%A4%87/%E8%87%AA%E8%A1%8C%E8%BD%A6-%E7%BB%84%E4%BB%B6/%E5%BA%A7%E7%AE%A1-%E5%92%8C-%E5%A4%B9%E5%85%B7/canyon-s15-vcls-2.0-27.2mm-cf-seatpost/148287.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://www.canyon.com/it-ch/accessori-biciclette/componenti/reggisella-collarini/canyon-s15-vcls-2.0-27.2mm-cf-seatpost/148287.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://www.fmaofns.com/hotviews/e9n0wcb5cwbx59s": {
+      "domain": "fmaofns.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.forumrowerowe.org/topic/241031-sztyca-karbonowa-canyon-vcls/": {
+      "domain": "forumrowerowe.org",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://www.canyon.com/en-bh/gear/bike-parts/posts-and-clamps/canyon-s15-vcls-2.0-27.2mm-cf-seatpost/148287.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://www.mtbiker.pl/classifieds/komponenty/sztyce/sztywne/301412/sedlovka-canyon-s14-vcls-20-cf.html": {
+      "domain": "mtbiker.pl",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://allegrolokalnie.pl/oferty/q/sztyca%20canyon": {
+      "domain": "allegrolokalnie.pl",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://www.canyon.com/de-lu/fahrradzubehoer/fahrradteile/sattelstuetze-sattelklemme/canyon-s15-vcls-2.0-27.2mm-cf-sattelstuetze/148287.html": {
+      "domain": "canyon.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://buycycle.com/en-pl/product/seatpost-canyon-s15-vcls": {
+      "domain": "buycycle.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://www.forumrowerowe.org/topic/265973-sztyca-strzelaj%C4%85ca-sztyca-canyon-vcls-20": {
+      "domain": "forumrowerowe.org",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://buycycle.com/pl-pl/shop/main-types/cycling-gear/types/saddle/categories/seatpost/brands/canyon": {
+      "domain": "buycycle.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.bike-forum.cz/forum/canyon-sedlovka-vcls": {
+      "domain": "bike-forum.cz",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
     }
   },
   "IBS-V1X": {
@@ -17460,6 +17670,176 @@
     "https://www.mapquest.com/ca/british-columbia/c3-training-279931315": {
       "domain": "mapquest.com",
       "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.sistemmarin.com.tr/?r=8283390041920": {
+      "domain": "sistemmarin.com.tr",
+      "first_seen": "2026-10-12",
+      "via": "serpapi"
+    },
+    "https://rad-forum.de/showflat/Number/1531792/TEST_Infinity_E1X_Fahrradsattel": {
+      "domain": "rad-forum.de",
+      "first_seen": "2026-10-12",
+      "via": "serpapi"
+    },
+    "https://martechfiresolutions.com/Bike-Saddle-Comfort-Design-For-Long-Rides-Black-a-199829": {
+      "domain": "martechfiresolutions.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.mapquest.com/us/new-york/toms-pro-bike-1782222": {
+      "domain": "mapquest.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://veganfoundry.com/vegan-bike-saddles/": {
+      "domain": "veganfoundry.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi"
+    },
+    "https://bluefairyacres.square.site/product/vegan-x-all-purpose-igp-saddle-black-17-regular/263?si=true": {
+      "domain": "bluefairyacres.square.site",
+      "first_seen": "2026-10-12",
+      "via": "serpapi"
+    },
+    "https://www.ridepeaksupply.com/products/infinity-e1x-series-saddle/": {
+      "domain": "ridepeaksupply.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi"
+    },
+    "https://www.saddleroute.com/product/vegan-x-all-purpose-igp-saddle-black/": {
+      "domain": "saddleroute.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi"
+    },
+    "https://www.equestriansupplyllcstore.com/product/vegan-x-all-purpose-pony-igp-saddle/6ML7344LGJXOKJQCE56HXVDP": {
+      "domain": "equestriansupplyllcstore.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi"
+    },
+    "https://www.drivechainss.com/product/new-infinity-vegan-v1x-black-7x7mm-stainless-rails-comfort-bike-saddle": {
+      "domain": "drivechainss.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.mapquest.com/us/california/saddle-mountain-378006776": {
+      "domain": "mapquest.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.mapquest.com/us/illinois/stolen-saddle-777956819": {
+      "domain": "mapquest.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.mapquest.com/us/california/saddle-mountain-11700502": {
+      "domain": "mapquest.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.admadison.com/p/ARINE-QRYVZ/titleist-pro-v1x-left-dash-golf-balls": {
+      "domain": "admadison.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi"
+    },
+    "https://mountaingenius.org/?product%2Freview%2F53399853811100=": {
+      "domain": "mountaingenius.org",
+      "first_seen": "2026-10-12",
+      "via": "serpapi"
+    },
+    "https://ifbiondemand.com/products/titleist-pro-v1x": {
+      "domain": "ifbiondemand.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi"
+    },
+    "https://www.golfballs.com/Golf-Balls/Balls/Titleist-Pro-V1-Pro-V1x-Overruns.htm": {
+      "domain": "golfballs.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi"
+    },
+    "https://www.resortsportswear.com/products/titleist-pro-v1x-resort-burger-dozen": {
+      "domain": "resortsportswear.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi"
+    },
+    "https://www.iccbusinessproducts.com/Products/IFBI-Titleist-Pro-V1X__IFB561.aspx": {
+      "domain": "iccbusinessproducts.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi"
+    },
+    "https://www.intheswag.com/p/XQQLH-XNKVR/titleist-pro-v1x-aim-enhanced-golf-balls": {
+      "domain": "intheswag.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi"
+    },
+    "https://clubrehabgolf.com/products/used-titleist-pro-v1x-mix-golf-balls-1-dozen": {
+      "domain": "clubrehabgolf.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi"
+    },
+    "https://vaclaimsinsider.com/ibs-va-rating": {
+      "domain": "vaclaimsinsider.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.golfpass.com/travel-advisor/articles/titleist-prov1-prov1x-golf-ball-review-2025": {
+      "domain": "golfpass.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.cedars-sinai.org/stories-and-insights/healthy-living/is-it-ibs-or-ibd": {
+      "domain": "cedars-sinai.org",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.mapquest.com/us/arizona/sattel-broadband-inc-426442786": {
+      "domain": "mapquest.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.coastalwellnessva.com/?q=8283390071470": {
+      "domain": "coastalwellnessva.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi"
+    },
+    "https://jtoudnqznwmu.lol/xkfpqaxeafwgpibonklt": {
+      "domain": "jtoudnqznwmu.lol",
+      "first_seen": "2026-10-12",
+      "via": "serpapi"
+    },
+    "https://www.mapquest.com/canada/british-columbia/beyond-nutrition-456213875": {
+      "domain": "mapquest.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://sprzedajemy.pl/temat/siode%C5%82ko+ktm": {
+      "domain": "sprzedajemy.pl",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.mapquest.com/ca/british-columbia/interior-health-warehouse-455260036": {
+      "domain": "mapquest.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.mapquest.com/ca/british-columbia/mitch-kelm-jennifer-osmann-797039185": {
+      "domain": "mapquest.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://pl.thefreedictionary.com/siodelko": {
+      "domain": "pl.thefreedictionary.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.mapquest.com/ca/british-columbia/grouse-river-455085555": {
+      "domain": "mapquest.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.mapquest.com/canada/british-columbia/waxthetics-498971144": {
+      "domain": "mapquest.com",
+      "first_seen": "2026-10-12",
       "via": "tavily"
     }
   },
@@ -19998,6 +20378,296 @@
       "domain": "alltricks.fr",
       "first_seen": "2026-09-28",
       "via": "tavily"
+    },
+    "https://www.bikestacja.pl/klamkomanetka-sram-red-axs-e1-prawa-pod-p-46218.html": {
+      "domain": "bikestacja.pl",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://www.deporvillage.pl/lewa-dzwignia-zmiany-biegow-sram-red-etap-axs-do-hamulca-szczekowego": {
+      "domain": "deporvillage.pl",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://www.bike24.pl/produkty/474799": {
+      "domain": "bike24.pl",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://www.rowertour.com/p/g11984/klamkomanetka-sram-rival-axs-e1": {
+      "domain": "rowertour.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://cyklomania.pl/produkt/sram-zestaw-klamkomanetka-przewod-red-axs-e1-przod.html": {
+      "domain": "cyklomania.pl",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://facilebike.it/products/710845916700": {
+      "domain": "facilebike.it",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:it"
+    },
+    "https://www.ridewill.it/p/it/sram-2139980052-comando-cambio-freno-force-e-tap-axs-sinistro-con-coprileva-nero/775448/": {
+      "domain": "ridewill.it",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:it"
+    },
+    "https://www.cingolanibikeshop.com/coperture-di-ricambio-sram-force-axs-e1-nero-al-paio-sinistra-e-destra.html": {
+      "domain": "cingolanibikeshop.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:it"
+    },
+    "https://www.ridewill.it/p/it/sram-2138090452-comando-cambio-freno-a-disco-rival-axs-e1-posteriore-sinistro-tubo-1800mm/1740830/": {
+      "domain": "ridewill.it",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:it"
+    },
+    "https://www.cingolanibikeshop.com/impianto-frenante-sram-force-aero-e1-flat-mount-anteriore-sinistro-senza-disco.html": {
+      "domain": "cingolanibikeshop.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:it"
+    },
+    "https://www.ridewill.it/p/it/sram-2039100373-comando-cambio-freno-rival-axs-e1-sinistro-con-coprileva/1740852/": {
+      "domain": "ridewill.it",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:it"
+    },
+    "https://www.deporvillage.it/comando-cambio-destro-sram-red-etap-axs-per-freno-a-disco-senza-pinza": {
+      "domain": "deporvillage.it",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:it"
+    },
+    "https://www.mtbiker.it/shop/ciclismo/componenti/freni/freni-a-disco/freni-a-disco-da-strada-e-gravel/sram-force-axs-e1-carbon-cambio-freno-idraulico-destro-2x12-13-flat-mount-tubo-1800-mm-p352820.html": {
+      "domain": "mtbiker.it",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:it"
+    },
+    "https://www.bikeacademyshop.com/47094-sram-leva-cambio-freno-red-axs-e1-1800mm-destra": {
+      "domain": "bikeacademyshop.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:it"
+    },
+    "https://movatik.com/collections/bicycle-shifters-parts/products/sram-force-axs-hydraulic-brake-bicycle-shifter-levers-lever-kit-wireless-caliper-included": {
+      "domain": "movatik.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://bikecomponents-us.com/products/sram-force-axs-hrd-shift-brake-system-ed-frc-e1": {
+      "domain": "bikecomponents-us.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://bikable.com/parts/shift-levers-and-triggers/sti-road/sram-force-axs-e1-right-hand-hydraulic-shiftbrake-lever-1800-mm": {
+      "domain": "bikable.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.bike-discount.de/en/sram-rival-etap-axs-e1-hrd-shift/brake-lever-fm-2x12-speed-disc-brake-set": {
+      "domain": "bike-discount.de",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.bike24.com/p2834298.html": {
+      "domain": "bike24.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.tradeinn.com/bikeinn/en/sram-hydraulic-flat-mount-force-e-tap-axs-e1-1800-mm-right-brake-lever-with-electronic-shifter/142262559/p": {
+      "domain": "tradeinn.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:it"
+    },
+    "https://www.performancebike.com/formula-100-sram-shifter-ed-frc-e1-force-shift-caliper/c45606?fb=4805": {
+      "domain": "performancebike.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:it"
+    },
+    "https://www.trainerroad.com/forum/t/sram-axs-how-to-decrease-brake-lever-reach-without-decreasing-brake-power/91773": {
+      "domain": "trainerroad.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.tnc-hamburg.com/Antrieb-Schaltung/Rennrad-Komponenten/Sram-Rennrad/Sram-Force-AXS-eTap/Sram-Force-AXS-Schaltung/Scheibenbremse-Sram-Force-AXS-E1-HRD-Schalt-Bremssystem-Griff-rechts-Discbrake-Hinterrad::65834.html": {
+      "domain": "tnc-hamburg.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.tnc-hamburg.com/Antrieb-Schaltung/Rennrad-Komponenten/Sram-Rennrad/Sram-Force-AXS-eTap/Sram-Force-AXS-Ersatzteile/Sram-Force-eTap-AXS-HRD-Disc-Schaltbremshebel-Ersatzteil-Bremshebel-mit-Schaltereinheit-rechts::53927.html": {
+      "domain": "tnc-hamburg.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.velondo.pl/sram-rival-axs-e1-schalt-bremshebel-links.html": {
+      "domain": "velondo.pl",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://www.bike-mailorder.com/pl/products/sram-red-axs-e1-schalt-bremshebel-12-fach-hr-rechts": {
+      "domain": "bike-mailorder.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://www.amslershop.ch/de/produkt/ed-bremsgriff-komplett-force-axs-e1-links": {
+      "domain": "amslershop.ch",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:it"
+    },
+    "https://www.tnc-hamburg.com/Antrieb-Schaltung/Rennrad-Komponenten/Sram-Rennrad/Sram-Red-AXS-eTap/Sram-Red-AXS-Ersatzteile/Sram-RED-AXS-E1-Ersatzteil-Disc-Schaltbremshebel-komplett-rechts::65279.html": {
+      "domain": "tnc-hamburg.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:it"
+    },
+    "https://www.velondo.com/sram-rival-axs-e1-schalt-bremshebel-links.html": {
+      "domain": "velondo.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.bike-discount.de/de/sram/axs/force-etap-axs/schalthebel": {
+      "domain": "bike-discount.de",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://sm-parts.net/en/products/sram-force-e1-axs-schalt-bremshebel-mit-flat-mount-bremse": {
+      "domain": "sm-parts.net",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://2wheels.pl/produkt/klamkomanetka-hydrauliczna-force-rival-axs-e1-zacisk/": {
+      "domain": "2wheels.pl",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://formicki-bike.pl/pl/p/Prawa-klamkomanetka-zacisk-Sram-Force-E1-AXS-tyl-1800mm/38965": {
+      "domain": "formicki-bike.pl",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://wertykal.com/pl/p/Klamkomanetka-prawa-z-zaciskiem-Sram-Rival-AXS-E1-tyl-1800mm/13245": {
+      "domain": "wertykal.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://formicki-bike.pl/pl/c/Przerzutki%2Cmanetki-i-klamkomanetki/263": {
+      "domain": "formicki-bike.pl",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://www.rowerowaholandia.pl/p179330-klamkomanetka-z-hamulcem-sram-force-axs-e1-przednia?per_page=120": {
+      "domain": "rowerowaholandia.pl",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:it"
+    },
+    "https://rower.com.pl/przerzutki/13875-przerz-hamtarcz-sram-force-axs-e1-0710845916694.html": {
+      "domain": "rower.com.pl",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:it"
+    },
+    "https://strefasportu.pl/pl/p/Klamkomanetka-SRAM-ED-FORCE-AXS-E1-lewa/21712": {
+      "domain": "strefasportu.pl",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://bikefast.pl/product-pol-4543-Klamkomanetka-SRAM-FORCE-AXS-E1-lewa-2rz-z-hamulcem-OEM.html": {
+      "domain": "bikefast.pl",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://hollandbikeshop.com/it-it/sram/componenti-bici-da-corsa-sram/comando-cambio-bici-da-corsa-sram/comando-cambio-sinistro-bici-da-corsa-sram/sram-force-axs-comando-cambio-12-13v-sinistra-freno-a-disco-carbone-894615/": {
+      "domain": "hollandbikeshop.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.lvr-cycles.com/it/deragliatori-leve/9646-sram-rival-axs-e1-right-brake-lever-with-front-flat-mount-caliper-reversed-setup-950-mm-hose.html": {
+      "domain": "lvr-cycles.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://giangisbike.it/prodotto/sram-kit-leva-cambio-freno-sinistra-force-etap-axs-d2sinsitra-leva-cambio-db-incl-hood/": {
+      "domain": "giangisbike.it",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://evolutionbikes.it/products/sistema-cambio-freno-sram-force-etap-axs-hrd-front-left": {
+      "domain": "evolutionbikes.it",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://velo-store.it/108990-leva-del-freno-e-pinza-posteriore-sram-force-axs-e1-d-x2-nero-tu": {
+      "domain": "velo-store.it",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://evolutionbikes.pl/products/leva-destra-cambio-freno-sram-force-e1-axs": {
+      "domain": "evolutionbikes.pl",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://www.cingolanibikeshop.com/comando-cambio-sram-red-e1-axs-disc-destro.html": {
+      "domain": "cingolanibikeshop.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:it"
+    },
+    "https://ebikelab.it/sram-sram-leva-cambio-fr-disco-sram-force-axs-e1-idr-ant-sx-950mm-fm-20mm-ss-har-2138000464": {
+      "domain": "ebikelab.it",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://evolutionbikes.com/es/products/leva-destra-cambio-freno-sram-force-e1-axs": {
+      "domain": "evolutionbikes.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://evolutionbikes.it/en/products/leva-destra-cambio-freno-sram-force-e1-axs": {
+      "domain": "evolutionbikes.it",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://werideoncycling-shop.com/products/levier-gauche-sram-rival-e1-etap-axs-avec-etrier-et-durite-copie": {
+      "domain": "werideoncycling-shop.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.bike24.fr/produits/835049": {
+      "domain": "bike24.fr",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://royalvelofrance.fr/levier-droit-force-e1-axs-sans-etrier/": {
+      "domain": "royalvelofrance.fr",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.bike-components.de/fr/SRAM/Assemblage-de-levier-de-frein-Ed-Rival-E1-Axs-Disc-p215118/": {
+      "domain": "bike-components.de",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.mantel.com/fr/paire-de-leviers-sram-rival-axs-e1-ed": {
+      "domain": "mantel.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://jihercet.com/product/levier-sram-force-axs-e1-gauche/": {
+      "domain": "jihercet.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://velo-store.pl/109446-levier-de-remplacement-gauche-sram-force-e1-axs-czarny-tu": {
+      "domain": "velo-store.pl",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://cyclesdupont.fr/produit/paire-de-leviers-sram-rival-axs-e1/": {
+      "domain": "cyclesdupont.fr",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:it"
+    },
+    "https://www.bike-components.de/fr/SRAM/Assemblage-de-levier-de-frein-Ed-Rival-E1-Axs-Disc-p215118": {
+      "domain": "bike-components.de",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
     }
   },
   "FORCE-AXS-PRAWA": {
@@ -22505,6 +23175,301 @@
       "domain": "alltricks.fr",
       "first_seen": "2026-09-28",
       "via": "tavily"
+    },
+    "https://www.cingolanibikeshop.com/impianto-frenante-sram-force-axs-e1-disc-posteriore.html": {
+      "domain": "cingolanibikeshop.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:it"
+    },
+    "https://www.ibbcyclery.com/sram-force-axs-hrd-shifter-brakes-caliper-hose.html": {
+      "domain": "ibbcyclery.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.jensonusa.com/sram-force-axs-d2-shifterbrake-lever-oe-packaged": {
+      "domain": "jensonusa.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.excelsports.com/sram-force-etap-axs-d1-brake-shift-lever-with-caliper": {
+      "domain": "excelsports.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.bellatisport.com/shop/product/5469/SRAM_RED_eTap_AXS_HRD_Shift-Brake_Control_%2B_Hydraulic_Disc_Brakes_-_Flat_Mount_.html": {
+      "domain": "bellatisport.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://racycles.com/products/sram-apex-axs-hrd-flat-mount-brake-and-shift-lever": {
+      "domain": "racycles.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://shop.unlimitedbiking.com/products/sram-force-axs-etap-hrd-shifter-brake-lever-and-caliper-d2": {
+      "domain": "shop.unlimitedbiking.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://wheelproject.com/product/sram-force-axs-hrd-shift-brake-lever-including-hydraulic-disc-brake-flat-mount-lever-right-side-rear-brake": {
+      "domain": "wheelproject.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.bicyclesportsinc.com/product/sram-force-axs-hrd-etap-shift-brake-lever-and-hydraulic-disc-brake-caliper-right-re-1245409-1.htm": {
+      "domain": "bicyclesportsinc.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.bike-components.de/en/SRAM/Rival-E1-AXS-HRD-disc-brake-with-shift-brake-lever-p96662/": {
+      "domain": "bike-components.de",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.velofactory.ch/SRAM-ED-brake-lever-complete-Force-AXS-E1-right": {
+      "domain": "velofactory.ch",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.bike-components.de/en/SRAM/Shift-Brake-Lever-Kit-Force-E1-Axs-Disc-p215226/": {
+      "domain": "bike-components.de",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://www.bike24.com/p2834298.html": {
+      "domain": "bike24.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://www.bike24.pl/produkty/834286": {
+      "domain": "bike24.pl",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://www.prolocotrade.si/default.asp?mid=en&pid=modul_it&wid=15119&detailid=141804": {
+      "domain": "prolocotrade.si",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://r2-bike.com/SRAM-Force-AXS-HRD-Shift-Brake-Lever-right-side": {
+      "domain": "r2-bike.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://www.tradeinn.com/bikeinn/en/sram-hydraulic-flat-mount-force-e-tap-axs-e1-1800-mm-right-brake-lever-with-electronic-shifter/142262559/p": {
+      "domain": "tradeinn.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:it"
+    },
+    "https://www.lvr-cycles.com/it/deragliatori-leve/9376-sram-force-axs-e1-left-brake-lever-with-rear-flat-mount-caliper-reversed-setup-1800-mm-hose.html": {
+      "domain": "lvr-cycles.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:it"
+    },
+    "https://www.bike24.com/p2936089.html": {
+      "domain": "bike24.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:it"
+    },
+    "https://www.excelsports.com/sram-rival-axs-e1-brake-shifter-with-caliper": {
+      "domain": "excelsports.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://r2-bike.com/SRAM-Rival-AXS-Schalt-Bremshebel-inkl-hydraulischer-Scheibenbremse-Flat-Mount-E1-Hebel-rechts-Bremse-hinten": {
+      "domain": "r2-bike.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.lordgun.de/sram-force-axs-e1-vorne-links-steuerhebel": {
+      "domain": "lordgun.de",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.bike-mailorder.com/products/force-axs-schalt-bremseinheit-e1-schwarz": {
+      "domain": "bike-mailorder.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.tnc-hamburg.com/Antrieb-Schaltung/Rennrad-Komponenten/Sram-Rennrad/Sram-Red-AXS-eTap/Sram-Red-AXS-Ersatzteile/Sram-RED-AXS-E1-Ersatzteil-Disc-Schaltbremshebel-komplett-rechts::65279.html": {
+      "domain": "tnc-hamburg.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://www.decathlon.de/p/mp/sram-schalt-bremshebel-red-axs-e1-vr-rechts-950mm-fm-20mm-ss-hardware/b3ba496f-8ee3-4da3-a070-a51ab7b9cd4c/c1": {
+      "domain": "decathlon.de",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://meinhartje.com/sram-schalt-bremshebel/03076123": {
+      "domain": "meinhartje.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://www.rennrad-news.de/forum/threads/sram-force-axs-e1-bremshebel-fest.203556": {
+      "domain": "rennrad-news.de",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://e-velomania.pl/klamkomanetka-lewa-z-hamulcem-sram-force-axs-e1": {
+      "domain": "e-velomania.pl",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.rowertour.com/p/g2521/klamkomanetka-sram-red-axs-e1": {
+      "domain": "rowertour.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.velostreet.com/pl/sram-force-etap-axs-e1-klamkomanetkahamulcowa-prawa": {
+      "domain": "velostreet.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://2wheels.pl/produkt/klamkomanetka-hydrauliczna-force-rival-axs-e1-zacisk/": {
+      "domain": "2wheels.pl",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://buycycle.com/en-de/product/69ef27dbc133b": {
+      "domain": "buycycle.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.centrumrowerowe.pl/czesci/manetki-klamkomanetki/klamkomanetki-rowerowe": {
+      "domain": "centrumrowerowe.pl",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://cyklomania.pl/produkt/shimano-klamkomanetka-grx-st-rx825-di2-2rz-lewa.html": {
+      "domain": "cyklomania.pl",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://cyklomania.pl/produkt/shimano-klamkomanetka-ultegra-st-r8170-di2-12rz-prawa.html": {
+      "domain": "cyklomania.pl",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://bike-rs.pl/pl/p/Klamkomanetka-Shimano-GRX-RX820-LA-Dropper%2C-przod/15420": {
+      "domain": "bike-rs.pl",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.psizivot.com?l=612573102164686": {
+      "domain": "psizivot.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://biostern.abstore.pl/manetki-i-klamkomanetki-klamkomanetka-grx-di2-st-rx815-11rz,c71,p8237,pl.html": {
+      "domain": "biostern.abstore.pl",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://velo-store.it/108990-leva-del-freno-e-pinza-posteriore-sram-force-axs-e1-d-x2-nero-tu": {
+      "domain": "velo-store.it",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.deporvillage.it/comando-cambio-destro-sram-force-etap-axs-per-freno-a-pinza": {
+      "domain": "deporvillage.it",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.francesconibike.com/it-gb/products/leva-sram-freno-cambio-rival-axs-e1": {
+      "domain": "francesconibike.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.lvr-cycles.com/it/deragliatori-leve/5830-sram-red-axs-e1-left-lever-black-without-caliper.html?SubmitCurrency=1&id_currency=11": {
+      "domain": "lvr-cycles.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.tradeinn.com/bikeinn/it/sram-kit-leva-red-e1-axs-disc-right/141012249/p": {
+      "domain": "tradeinn.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.bike24.it/prodotti/400560": {
+      "domain": "bike24.it",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://evolutionbikes.pl/products/leva-destra-cambio-freno-sram-force-e1-axs": {
+      "domain": "evolutionbikes.pl",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://www.ridewill.it/p/it/sram-2138000465-comando-cambio-freno-a-disco-force-axs-e1-anteriore-destro-tubo-950mm/1740823/": {
+      "domain": "ridewill.it",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://dialedcyclinglab.com/products/sram-force-axs-hrd-shift-brake-set-e1-left-front": {
+      "domain": "dialedcyclinglab.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://ciclimattio.com/en/p/sram/leva-cambio-freno-force-etap-axs-black-12s-left": {
+      "domain": "ciclimattio.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://cryptorank.io/es/price/axie-infinity/rub": {
+      "domain": "cryptorank.io",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.bike-discount.de/fr/sram-force-etap-axs-e1-hrd-levier-de-changement-de-vitesse/frein-fm-2x12-vitesses-kit-de-frein-a-disque": {
+      "domain": "bike-discount.de",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://lesequipiers.cc/manettes/1656-levier-droit-sram-rival-e1-axs-sans-etr": {
+      "domain": "lesequipiers.cc",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:de"
+    },
+    "https://www.mantel.com/fr/paire-de-leviers-sram-red-axs-e1-shifter": {
+      "domain": "mantel.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://probikeshop.fr/products/frein-arriere-complet-12v-sram-force-axs-d2-hrd-flat-mount-sans-disque": {
+      "domain": "probikeshop.fr",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://veloaxe.com/fr/produit/levier-droit-sram-force-axs-d2-a-fixation-plate/": {
+      "domain": "veloaxe.com",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://www.bike24.fr/produits/834286": {
+      "domain": "bike24.fr",
+      "first_seen": "2026-10-12",
+      "via": "serpapi:pl"
+    },
+    "https://royalvelofrance.fr/levier-droit-force-axs-e1-durite-950mm": {
+      "domain": "royalvelofrance.fr",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.lvr-cycles.com/en/derailleurs-gear-levers/5831-sram-red-axs-e1-right-lever-black-without-caliper.html": {
+      "domain": "lvr-cycles.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.cyclingupgrades.com/products/new-sram-force-axs-etap-e1-12-speed-electronic-shifters-g": {
+      "domain": "cyclingupgrades.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.bikebug.com/sram-force-axs-e1-right-shifter-disc-brake-caliper-1800mm": {
+      "domain": "bikebug.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
     }
   },
   "X0-CASSETTE": {
@@ -24066,6 +25031,66 @@
     "https://cozmobike.pl/en/osprzet/naped/kasety/copy-of-kaseta-sram-x0-eagle-xg-1295-t-type-10-52.html": {
       "domain": "cozmobike.pl",
       "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://universalcycles.com/shopping/product_details.php?id=113182&category=357": {
+      "domain": "universalcycles.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://universalcycles.com/shopping/product_details.php?id=113182&category=6029": {
+      "domain": "universalcycles.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.bike-discount.de/en/sram-x0-eagle-transmission-axs-12-speed-v2-groupset": {
+      "domain": "bike-discount.de",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.stinnerframeworks.com/products/sram-xo-eagle-axs-transmission-groupset-w-o-crankset": {
+      "domain": "stinnerframeworks.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://tienda.benotto.com/Componentes.html?filter%5BidCategoria.categoria%5D=Cassettes+de+Pi%C3%B1ones": {
+      "domain": "tienda.benotto.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.bike-discount.de/de/sram-x0-eagle-transmission-xs-1295-12-fach-kassette-10-52-2": {
+      "domain": "bike-discount.de",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.businessinsider.com/sram-bicycle-components-company-chicago-tour-interview-2018-3": {
+      "domain": "businessinsider.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://leadiq.com/c/sram/5a1d85e024000024006041a3": {
+      "domain": "leadiq.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.mapquest.com/us/florida/viatek-solutions-403945535": {
+      "domain": "mapquest.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.performancebike.com/sram-x0-ttype-eagle-ebike-transmission-axs-groupset-dark-polar-00.7918.281.000/p1570783?v=1477768": {
+      "domain": "performancebike.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://nsmb.com/articles/sram-eagle-t-type-drivetrain-and-code-stealth-brakes": {
+      "domain": "nsmb.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.feedthehabit.com/sram-x0-eagle-axs-transmission-groupset-review": {
+      "domain": "feedthehabit.com",
+      "first_seen": "2026-10-12",
       "via": "tavily"
     }
   },
@@ -26104,6 +27129,101 @@
       "domain": "fanatikbike.com",
       "first_seen": "2026-09-28",
       "via": "tavily"
+    },
+    "https://www.davemellorcycles.com/product/20619/rear-derailleur-gx-ttype-eagle-axs-12-speed-battery-not-included/option": {
+      "domain": "davemellorcycles.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://thebikeshop.com/products/gx-eagle-t-type-axs": {
+      "domain": "thebikeshop.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.wheelwizardmalta.com/sram-gx-eagle-axs-t-type-rear-derailleur": {
+      "domain": "wheelwizardmalta.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.cykelpartner.dk/bagskiftere/sram-gx-t-type-eagle-axs-12-speed-bagskifter": {
+      "domain": "cykelpartner.dk",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.mapquest.com/us/illinois/sram-llc-374153659": {
+      "domain": "mapquest.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.cbinsights.com/company/sram": {
+      "domain": "cbinsights.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://leadiq.com/c/sram/5a1d85e024000024006041a3": {
+      "domain": "leadiq.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.mapquest.com/us/texas/eagle-transmission-and-auto-repair-9034070": {
+      "domain": "mapquest.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.bike24.com/brands/sram/f.series.sram-gx-eagle-transmission": {
+      "domain": "bike24.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.mapquest.com/us/texas/eagle-transmission-auto-repair-544354745": {
+      "domain": "mapquest.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://en.wikipedia.org/wiki/Eagle": {
+      "domain": "en.wikipedia.org",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.eagle-network.eu": {
+      "domain": "eagle-network.eu",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.cityofeagle.org": {
+      "domain": "cityofeagle.org",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://arxiv.org/abs/2401.15077": {
+      "domain": "arxiv.org",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://eagle.justrite.com": {
+      "domain": "eagle.justrite.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://eagleroofing.com": {
+      "domain": "eagleroofing.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.townofeagle.org": {
+      "domain": "townofeagle.org",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.eaglerestaurant.com": {
+      "domain": "eaglerestaurant.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.stoneeaglewinery.com": {
+      "domain": "stoneeaglewinery.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
     }
   },
   "X0-CHAIN": {
@@ -27360,6 +28480,66 @@
     "https://wrightpediatricdentistry.com/product/SRAM-X0-Eagle-Flattop-T-Type-12-fach-Kette-126-Glieder-Dark/861531": {
       "domain": "wrightpediatricdentistry.com",
       "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://www.pepebike.cz/00-2518-055-010-sram-am-cn-x0-t-type-eagle-126-w-pwr-lck-1pc": {
+      "domain": "pepebike.cz",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://thebikeshop.com/products/x0-eagle-t-type-12-speed-chain": {
+      "domain": "thebikeshop.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.lakeshorecyclery.com/product/sram-x0-eagle-t-type-12-speed-flattop-chain-457220-1.htm": {
+      "domain": "lakeshorecyclery.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.cykelpartner.dk/kaeder-mm/sram-kaede---x0-t-type-eagle---12-speed---126-led---powerlock---sort": {
+      "domain": "cykelpartner.dk",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.bikesportul.cz/retez-sram-x0-eagle-transmission-flattop--12s--retez-126-clanku-spojka": {
+      "domain": "bikesportul.cz",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.businessinsider.com/sram-bicycle-components-company-chicago-tour-interview-2018-3": {
+      "domain": "businessinsider.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://leadiq.com/c/sram/5a1d85e024000024006041a3": {
+      "domain": "leadiq.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.mapquest.com/us/alaska/flattop-barbershop-458551677": {
+      "domain": "mapquest.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.mapquest.com/us/alaska/flattop-pizza-pool-290623691": {
+      "domain": "mapquest.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.performancebike.com/sram-x0-ttype-eagle-ebike-transmission-axs-groupset-dark-polar-00.7918.281.000/p1570783?v=1477768": {
+      "domain": "performancebike.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.centrumrowerowe.pl/lancuch-sram-x0-eagle-t-type-pd35157": {
+      "domain": "centrumrowerowe.pl",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://mikesbikes.com/products/sram-xx-sl-eagle-t-type-flattop-transmission-chain": {
+      "domain": "mikesbikes.com",
+      "first_seen": "2026-10-12",
       "via": "tavily"
     }
   },
@@ -36972,6 +38152,51 @@
       "domain": "jensonusa.com",
       "first_seen": "2026-09-28",
       "via": "tavily"
+    },
+    "https://www.backcountry.com/sram-xx-sl-eagle-axs-transmission-powermeter-crankset-boost": {
+      "domain": "backcountry.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.mapquest.com/us/illinois/sram-llc-374153659": {
+      "domain": "mapquest.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://leadiq.com/c/sram/5a1d85e024000024006041a3": {
+      "domain": "leadiq.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://r2-bike.com/en/mtb-sram-xx-sl-eagle-transmission": {
+      "domain": "r2-bike.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.mapquest.com/us/texas/eagle-transmission-and-auto-repair-9034070": {
+      "domain": "mapquest.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.mapquest.com/us/texas/eagle-transmission-auto-repair-544354745": {
+      "domain": "mapquest.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.rowerowaholandia.pl/p143292-pajak-sram-xx-xx-sl-eagle-t-type-axs-power-meter?column=name&dir=desc&per_page=60": {
+      "domain": "rowerowaholandia.pl",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://2wheels.pl/produkt/korba-z-pomiarem-mocy-sram-xx-sl-eagle": {
+      "domain": "2wheels.pl",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.tradeinn.com/bikeinn/pl/sram-axs-d1-paj%C4%85k-z-miernikiem-mocy/139868746/p": {
+      "domain": "tradeinn.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
     }
   },
   "GARBARUK-40T-AERO": {
@@ -38943,6 +40168,26 @@
     "https://global.garbaruk.com/shop/category/1x-chainrings-2": {
       "domain": "global.garbaruk.com",
       "first_seen": "2026-09-28",
+      "via": "tavily"
+    },
+    "https://powermetercity.com/product/garbaruk-1x-aero-oval-thread-mount-mtb-chainring": {
+      "domain": "powermetercity.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://global.garbaruk.com/shop/road-thread-mount-chainring-for-red-xplr-axs-power-meter-1109": {
+      "domain": "global.garbaruk.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://weightweenies.starbike.com/forum/viewtopic.php?t=180091": {
+      "domain": "weightweenies.starbike.com",
+      "first_seen": "2026-10-12",
+      "via": "tavily"
+    },
+    "https://www.mapquest.com/us/missouri/big-shark-8028828": {
+      "domain": "mapquest.com",
+      "first_seen": "2026-10-12",
       "via": "tavily"
     }
   },
